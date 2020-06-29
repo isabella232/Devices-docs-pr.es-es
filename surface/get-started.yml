@@ -1,0 +1,100 @@
+### YamlMime:Landing
+title: Documentación de dispositivos Surface
+summary: Aprovecha la potencia de Surface, Windows y Office conectados a través de la nube.
+metadata:
+  title: Documentación de dispositivos Surface
+  description: Introducción a los dispositivos Microsoft Surface
+  ms.service: product-insights
+  ms.topic: landing-page
+  manager: laurawi
+  author: greg-lindsay
+  ms.author: greglin
+  audience: itpro
+  ms.localizationpriority: High
+  ms.openlocfilehash: 90908a9ff95875cf0c3337bf0b8e93f7bfc42e53
+  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.translationtype: MT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 06/27/2020
+  ms.locfileid: "10836851"
+landingContent:
+- title: Dispositivos Surface
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Surface Go 2 para empresas
+      url: https://www.microsoft.com/surface/business/surface-go-2
+    - text: Surface Book 3 para empresas
+      url: https://www.microsoft.com/surface/business/surface-book-3
+    - text: Explorar todos los productos de la familia Surface
+      url: https://www.microsoft.com/surface/business
+- title: Comenzar
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Descripción técnica de Surface Book 3 GPU
+      url: surface-book-gpu-overview.md
+    - text: Resumen técnico 3 Quadro RTX 3000
+      url: surface-book-quadro.md
+    - text: Novedades de Surface Dock 2
+      url: surface-dock-whats-new.md
+- title: Implementar dispositivos Surface
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Herramienta de acelerador de implementación de Surface
+      url: microsoft-surface-deployment-accelerator.md
+    - text: Dispositivos Surface y Autopilot
+      url: windows-autopilot-and-surface-devices.md
+    - text: Escritorio virtual de Windows en Surface
+      url: windows-virtual-desktop-surface.md
+- title: Administrar dispositivos de superficie
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Administrar e implementar actualizaciones de drivers y firmware de Surface
+      url: manage-surface-driver-and-firmware-updates.md
+    - text: Procedimiento recomendado de configuración de energía para dispositivos Surface
+      url: maintain-optimal-power-settings-on-Surface-devices.md
+    - text: Optimizar la conectividad Wi-Fi para dispositivos Surface
+      url: surface-wireless-connect.md
+- title: Explorar la guía de seguridad
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Puertos 2 puertos acoplados de Surface con el modo de administración de empresa de Surface (SEMM)
+      url: secure-surface-dock-ports-semm.md
+    - text: Administración de Intune de la configuración de la UEFI de Surface
+      url: surface-manage-dfci-guide.md
+    - text: Herramienta Surface Data Eraser
+      url: microsoft-surface-data-eraser.md
+- title: Detectar herramientas de Surface
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Kit de herramientas de diagnóstico de Surface para empresas
+      url: surface-diagnostic-toolkit-for-business-intro.md
+    - text: SEMM y UEFI
+      url: surface-enterprise-management-mode.md
+    - text: Configuración del límite de batería
+      url: battery-limit.md
+- title: Examinar soluciones de soporte técnico
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Principales soluciones de soporte técnico
+      url: support-solutions-surface.md
+    - text: Proteger los datos durante la reparación o el servicio de la superficie
+      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
+    - text: Solucionar problemas de Surface Dock y de las bases de acoplamiento
+      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+- title: Participar en la comunidad de Surface
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Blog de profesionales de TI de Surface
+      url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+    - text: Comunidad tecnológica de dispositivos Surface
+      url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+    - text: Vídeos de Surface de Microsoft Mechanics
+      url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
