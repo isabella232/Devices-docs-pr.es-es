@@ -12,12 +12,12 @@ ms.date: 6/25/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 92838599a9d05dbe75f1caad948b97c9cb75bcac
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1f6f4a7efb8dc345487e5e5054374f81a91a20d5
+ms.sourcegitcommit: 36bac9da2f7b0815fbceb008f869b497380c55db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834289"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "10860640"
 ---
 # Novedades de Surface Dock 2
 
@@ -35,19 +35,16 @@ Surface Dock 2 está diseñado para simplificar la administración de ti, lo que
 - Windows 10 versión 1809. No hay soporte técnico para Windows 7, Windows 8 o los dispositivos de host no Surface. Surface Dock 2 funciona con los siguientes dispositivos de superficie:
 
   - Surface Pro (5º gen)
-  - Surface Pro (5º gen) con LTE avanzado
   - Portátil Surface (1ª generación)
   - Surface Pro 6
   - Surface Book 2
   - Surface Laptop 2
   - Surface Go
-  - Surface Go con LTE Advanced 
   - Surface Pro 7
+  - Surface Pro X 
   - Portátil Surface 3
   - Surface Book 3
   - Surface Go 2
-  - Surface Go 2 con LTE avanzado
-
 
 ## Componentes de Surface docking 2
 
@@ -65,7 +62,6 @@ Surface Dock 2 está diseñado para simplificar la administración de ti, lo que
 
   - Surface Book 3
   - Surface Go 2
-  - Surface Go 2 con LTE avanzado
   - Surface Pro 7
   - Surface Pro X
   - Portátil Surface 3
@@ -74,7 +70,6 @@ Surface Dock 2 está diseñado para simplificar la administración de ti, lo que
 
   - Surface Pro 6
   - Surface Pro (5º gen)
-  - Surface Pro (5º gen) con LTE avanzado
   - Surface Laptop 2
   - Portátil Surface (1ª generación)
   - Surface Go
