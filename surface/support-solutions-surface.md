@@ -15,19 +15,19 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 98de32213861aa53ac00a565d4f81f0199995077
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 88c7029c99d69818e9f0b8fddef5fc193581963a
+ms.sourcegitcommit: 608226b64ef92743b1a3361877d4c49228e3ea5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834274"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "10868754"
 ---
 # Soluciones principales de soporte técnico para dispositivos Surface
 
 > [!Note]
-> **Usuarios domésticos**: este artículo está destinado a los profesionales de ti y a los agentes de soporte técnico, y solo se aplica a los dispositivos de Surface. Si busca ayuda con un problema con su dispositivo doméstico, consulte la ayuda de los [dispositivos de Surface](https://support.microsoft.com/products/surface-devices).
+> **Usuarios domésticos**: este artículo está destinado a los profesionales de ti y a los agentes de soporte técnico, y solo se aplica a los dispositivos de Surface. Si buscas ayuda con un problema con tu dispositivo doméstico, consulta el área de [soporte técnico de Surface](contact-surface-support.md?tabs=online).
 
-Estas son las soluciones de soporte técnico de Microsoft para problemas comunes que pueden surgir al usar dispositivos de Surface en una empresa. Si su problema no aparece aquí, [póngase en contacto con el soporte técnico de Microsoft](https://support.microsoft.com/supportforbusiness/productselection).
+Estas son las soluciones de soporte técnico de Microsoft para problemas comunes que pueden surgir al usar dispositivos de Surface en una empresa. Si el problema no aparece aquí, es [posible](contact-surface-support.md?tabs=online)que se admita la superficie de contacto.
 
 ## Drivers y firmware de Surface
 
@@ -54,7 +54,7 @@ Microsoft publica periódicamente actualizaciones y soluciones para dispositivos
 
 ## Problemas de pantalla agrietada o arañada
 
-- [Ponerse en contacto con Soporte técnico de Microsoft](https://support.microsoft.com/supportforbusiness/productselection)
+- [Contacta con el Soporte técnico de Surface](contact-surface-support.md?tabs=online)
 
 ## Problemas de energía o batería
 
