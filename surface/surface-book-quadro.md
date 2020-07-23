@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 7/07/2020
+ms.date: 7/20/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 35794e36f37041754ee722c286554437c6dd7be2
-ms.sourcegitcommit: 36bac9da2f7b0815fbceb008f869b497380c55db
+ms.openlocfilehash: 3bfdcf1d95b058270b741b7959d9161c66652b4c
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "10860650"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893092"
 ---
 # Información técnica de la tarjeta Quadro RTX 3000 de Surface Book 3 
 
@@ -116,7 +116,8 @@ Como se muestra en la tabla 3, Surface Book 3 con Quadro RTX 3000 es probado y a
 | **ArcGIS de Esri**                                     | -Resultados en tiempo real de lo que se tardaba días y semanas, debido a la inferencia de DL aprovechando los núcleos de tensor.                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Luxion KeyShot**                                  | -Seguimiento interactivo de rayos de terceros usado por SolidWorks, creo y Rhino. Acelerado por los núcleos de RT, OptiX™ AI: denoising acelerado.                                                                                                                                                                                                                                                                                                                                                        |
 | **McNeel & Associates**<br>**Rhino 3D**             | **Rhino-tested y aprobado para Surface Book 3 con Quadro RTX 3000**<br><br>-Ventanilla con aceleración por GPU para una experiencia de diseño y modelado fluidas e interactivas.<br><br>-Admite ciclos para la representación 3D acelerada por GPU.                                                                                                                                                                                                                                                         |
-| **PTC creo**                                        | -La herramienta de simulación de ingeniería en tiempo real de creo (creo Simulation en vivo) creada en CUDA.<br><br>-Se ejecuta más de un 15% más rápido comparado con Surface Book 2 15 ".                                                                                                                                                                                                                                                                                                                                |
+| **PTC creo**                                        | -La herramienta de simulación de ingeniería en tiempo real de creo (creo Simulation en vivo) creada en CUDA.<br><br>-Se ejecuta más de un 15% más rápido comparado con Surface Book 2 15 ".                                                                                                                                                                                        |
+| **Siemens SolidEdge 2020**                                        |  **Siemens-tested y aprobado para Surface Book 3 con Quadro RTX 3000**                                                                                                                                                                                 |
 | **Siemens NX**                                      | -Siemens NX Interactive Ray Tracer (Ray Traceed Studio) acelerada por los núcleos de RT.<br><br>-Se ejecuta más de 10 veces más rápido comparado con Surface Book 2 15 ".                                                                                                                                                                                                                                                                                                                                    |
 
 
