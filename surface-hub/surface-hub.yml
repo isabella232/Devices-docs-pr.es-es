@@ -2,7 +2,6 @@
 documentType: LandingData
 title: Surface Hub
 metadata:
-  document_id: null
   title: Surface Hub
   description: 'Accede a herramientas y recursos que te ayudarán a instalar, configurar y administrar un Surface Hub en la organización.'
   keywords: 'Surface Hub, Windows 10'
@@ -20,7 +19,7 @@ sections:
   - items:
       - type: markdown
         text: ' Descubre cómo este dispositivo de productividad completo permite a los equipos mezclar, colaborar y compartir ideas.<br>  <img src=''images/getstarted.png''><br> <table><tr><td><a href=''https://www.microsoft.com/microsoft-surface-hub/product-specs#tech-specs''>Explore las características clave y las especificaciones del producto de Surface Hub.</a><br><a href=''https://www.microsoft.com/microsoft-surface-hub/case-studies''>Obtén ejemplos reales de cómo puedes aumentar la productividad y mejorar la colaboración.</a></td><td><a href=''https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise''>Diferencias entre Surface Hub y Windows 10 Enterprise</a><br><a href=''https://www.microsoft.com/microsoft-surface-hub/faq''>Preguntas más frecuentes sobre Surface Hub</a></td></tr> </table> '
-  - title: Planear
+  - title: Planificar
   - items:
       - type: markdown
         text: ' Prepararse para implementar Surface Hub en la organización. Explora la disponibilidad del sitio, el ensamblado, la configuración y las directivas de Exchange y ActiveSync. <br>  <table><tr><td><img src=''images/plan1.png'' width=''192'' height=''192''><br>**Prepárate para Surface Hub**<br>Explora los pasos que debes seguir para configurar Surface Hub.<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-site-readiness.guide''>Guía de preparación del sitio de Surface Hub </a> (PDF, 1,48 MB)<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-downloads''>Guías de inicio</a></td><td><img src=''images/plan2.png'' width=''192'' height=''192''><br>**Montaje del Surface Hub**<br>Aprende a montar tu Surface Hub.<br><a href=''https://download.microsoft.com/download/0/1/6/016363A4-8602-4F01-8281-9BE5C814DC78/Setup-Guide_EN-FR-SP.pdf''>Guía de configuración de Surface Hub </a> (PDF, 1,43 MB)<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-downloads''>Montar y montar guías</a></td><td><img src=''images/plan3.png'' width=''192'' height=''192''><br>**Preparar el entorno**<br>Obtén información sobre las dependencias de la configuración y los requisitos de la cuenta.<br><a href=''https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub''>Preparar el entorno</a><br><a href=''https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub''>Crear y probar una cuenta del dispositivo</a></td></tr> </table> '
