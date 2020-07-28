@@ -1,5 +1,5 @@
 ---
-title: Administrar actualizaciones de controlador de superficie en Configuration Manager
+title: Administrar actualizaciones de controladores de Surface en Configuration Manager
 description: En este artículo, se describen las opciones disponibles para administrar e implementar actualizaciones de firmware y controladores para dispositivos Surface.
 ms.assetid: b64879c4-37eb-4fcf-a000-e05cbb3d26ea
 ms.reviewer: ''
@@ -14,14 +14,14 @@ ms.sitesec: library
 ms.author: daclark
 ms.topic: article
 audience: itpro
-ms.openlocfilehash: 1a9c8c64bd524de58696c73a28795b69cc70a7b2
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: be32309b26ff6a873c36927cc39595022c4dbb90
+ms.sourcegitcommit: ed4478dd3c6116a25b1e01a3a0f5ff6c1f940013
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835866"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "10897078"
 ---
-# Administrar actualizaciones de controlador de superficie en Configuration Manager
+# Administrar actualizaciones de controladores de Surface en Configuration Manager
 
 ## Resumen
 
@@ -119,7 +119,7 @@ Para comprobar que el SUP está configurado correctamente, siga estos pasos:
 
    Si no encuentra los productos que seleccionó en el paso 6 de la sección anterior, verifique si la configuración de SUP está guardada.
 
-   También puede esperar hasta que finalice la sincronización siguiente y, después, comprobar si las actualizaciones del controlador de superficie y del firmware se enumeran en actualizaciones de software en la consola de Configuration Manager. Por ejemplo, la consola podría mostrar la siguiente información:
+   También puede esperar hasta que finalice la sincronización siguiente y, después, comprobar si las actualizaciones del controlador de superficie y del firmware se enumeran en actualizaciones de software en la consola de Configuration Manager. Por ejemplo, la consola podría mostrar la siguiente información.
 
    ![Todos los resultados de búsqueda de actualizaciones de software](images/manage-surface-driver-updates-4.png)
 
@@ -162,24 +162,23 @@ Para obtener más información sobre la implementación, consulte [System Center
 
 Si sincroniza desde un servidor Windows Server Update Services (WSUS) que precede en la cadena, en lugar de Microsoft Update, asegúrese de que el servidor WSUS que precede en la cadena está configurado para admitir y sincronizar las actualizaciones del controlador de la superficie. Todos los servidores descendentes se limitan a las actualizaciones que están presentes en la base de datos del servidor WSUS que precede en la cadena.
 
-Hay más de 68.000 actualizaciones que se clasifican como controladores en WSUS. Para evitar que los controladores no relacionados con la superficie se sincronicen con Configuration Manager, Microsoft filtra la sincronización de controlador contra una lista de permitidos. Después de publicar e incorporar la nueva lista de permitidos en Configuration Manager, los nuevos drivers se agregarán a la consola después de la siguiente sincronización. Microsoft tiene como objetivo obtener los impulsores de superficie agregados a la lista de permitidos cada mes, en línea, con el martes de parches para que estén disponibles para la sincronización con Configuration Manager.
+Hay más de 68.000 actualizaciones que se clasifican como controladores en WSUS. Para evitar que los controladores no relacionados con la superficie se sincronicen con Configuration Manager, Microsoft filtra la sincronización de controlador contra una lista de permitidos. Después de publicar e incorporar la nueva lista de permitidos en Configuration Manager, los nuevos drivers se agregarán a la consola después de la siguiente sincronización. Microsoft tiene como objetivo obtener los impulsores de superficie agregados a la lista de permitidos cada mes de forma alineada con los lanzamientos de actualizaciones mensuales para que estén disponibles para la sincronización con Configuration Manager.
 
 Si su entorno de Configuration Manager está desconectado, se importará una nueva lista de permitidos cada vez que importe [actualizaciones de servicio](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) a Configuration Manager. También tendrá que importar un [nuevo catálogo de WSUS](https://docs.microsoft.com/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) que contenga los drivers antes de que se muestren las actualizaciones en la consola de Configuration Manager. Como un entorno WSUS independiente contiene más drivers que un SUP de Configuration Manager, le recomendamos que establezca un entorno de Configuration Manager que tenga capacidades en línea y que lo configure para sincronizar los impulsores de la superficie. Esto proporciona una exportación de WSUS más pequeña, muy similar al entorno sin conexión.
 
-Si su entorno de Configuration Manager está en línea y puede detectar nuevas actualizaciones, recibirá actualizaciones en la lista automáticamente. Si no ve los drivers esperados, revise el archivo WCM. log y WsyncMgr. log en busca de errores de sincronización.
+Si su entorno de Configuration Manager está en línea y puede detectar nuevas actualizaciones, recibirá actualizaciones en la lista automáticamente. Si no ve los drivers esperados, revise los archivos WCM. log y WsyncMgr. log en busca de errores de sincronización.
 
-**Mi entorno de Configuration Manager está desconectado, ¿puedo importar manualmente drivers de Surface en WSUS?**
+**Mi entorno de Configuration Manager está desconectado. ¿Puedo importar manualmente los drivers de Surface en WSUS?**
 
 No. Incluso si la actualización se importa a WSUS, la actualización no se importará a la consola de Configuration Manager para su implementación si no aparece en la lista de permitidos. Debe usar la [herramienta de conexión de servicio](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) para importar las actualizaciones de servicio a Configuration Manager para actualizar la lista de permitidos.
 
 **¿Qué métodos alternativos tengo para implementar actualizaciones de drivers y firmware de Surface?**
 
-Para obtener información sobre cómo implementar actualizaciones de drivers y firmware de Surface a través de canales alternativos, consulte [Manage Surface Driver and firmware updates](https://docs.microsoft.com/surface/manage-surface-driver-and-firmware-updates). Si desea descargar el archivo. msi o. exe y, a continuación, implementar a través de los canales de implementación de software tradicionales, consulte [mantener actualizado el firmware de la superficie con Configuration Manager](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager).
+Para obtener información sobre cómo implementar actualizaciones de drivers y firmware de Surface a través de canales alternativos, consulte [Manage Surface Driver and firmware updates](manage-surface-driver-and-firmware-updates.md). Si desea descargar el archivo. msi o. exe y, a continuación, implementar a través de los canales de implementación de software tradicionales, consulte [mantener actualizado el firmware de la superficie con Configuration Manager](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager).
 
 ## Información adicional
 
 Para obtener más información sobre el controlador de superficie y las actualizaciones de firmware, consulte los artículos siguientes:
 
-- [Descargar el firmware y los controladores más recientes para dispositivos Surface](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)
-- [Administrar las actualizaciones de controladores y firmware de Surface](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
-- [Consideraciones para Surface y System Center Configuration Manager](https://docs.microsoft.com/surface/considerations-for-surface-and-system-center-configuration-manager)
+- [Administrar las actualizaciones de controladores y firmware de Surface](manage-surface-driver-and-firmware-updates.md)
+- [Consideraciones para Surface y System Center Configuration Manager](considerations-for-surface-and-system-center-configuration-manager.md)
