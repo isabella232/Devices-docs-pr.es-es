@@ -1,6 +1,6 @@
 ---
 title: Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio
-description: Cómo usar SDT para ayudar a los usuarios de su organización a ejecutar la herramienta para identificar y diagnosticar problemas con el dispositivo Surface.
+description: Cómo usar SDT para ayudar a los usuarios de su organización a ejecutar la herramienta para identificar y diagnosticar problemas con el dispositivo Surface, así como enviar solicitudes de asistencia directamente desde la herramienta.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,16 +11,19 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9e6b34a8d34081fc12cab4851104f0b67c3dfea4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 7/31/2020
+ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834266"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902978"
 ---
 # Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio
 
-En este tema se explica cómo usar el kit de herramientas de diagnóstico de Surface (SDT) para ayudar a los usuarios de su organización a ejecutar la herramienta para identificar y diagnosticar problemas con el dispositivo Surface. La ejecución correcta de SDT puede determinar rápidamente si un problema notificado se debe a un error de hardware o de usuario. Para obtener una lista de los dispositivos Surface admitidos en SDT, consulte [deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+En este tema se explica cómo usar el kit de herramientas de diagnóstico de Surface (SDT) para ayudar a los usuarios de su organización a ejecutar la herramienta para identificar y diagnosticar problemas con su dispositivo Surface, así como enviar solicitudes de asistencia directamente desde la herramienta. 
+
+La ejecución correcta de SDT puede determinar rápidamente si un problema notificado se debe a un error de hardware o de usuario. Para obtener una lista de los dispositivos Surface admitidos en SDT, consulte [deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 
 1. Indique al usuario que instale [el paquete SDT](surface-diagnostic-toolkit-business.md#create-custom-sdt) desde un punto de distribución de software o un recurso compartido de red. Una vez instalado, estará listo para guiar al usuario a través de una serie de pruebas. 
@@ -32,12 +35,12 @@ En este tema se explica cómo usar el kit de herramientas de diagnóstico de Sur
 
 3. Cuando SDT indica que el dispositivo tiene las actualizaciones más recientes, haga clic en **continuar** para avanzar hasta el catálogo de pruebas disponibles, como se muestra en la ilustración 2.
 
-    ![Seleccione la figura 2 de opciones de SDT ](images/sdt-desk-2.png)
+    ![Seleccione la figura 2 de opciones de SDT ](images/sdt1.png)
  *. Seleccionar de las opciones de SDT*
 
 4. Puede elegir ejecutar todas las pruebas de diagnóstico. O bien, si ya sospecha un problema determinado, como una pantalla defectuosa o un problema de fuente de alimentación, haga clic en **seleccionar** para elegir entre las pruebas disponibles y haga clic en **Ejecutar seleccionado**, como se muestra en la ilustración 3. Para obtener detalles de cada prueba, consulte la tabla siguiente. 
 
-    ![Seleccione pruebas de hardware, ](images/sdt-desk-3.png)
+    ![Seleccione pruebas de hardware, ](images/sdt2.png)
  *ilustración 3. Seleccionar pruebas de hardware*
 
     Prueba de hardware | Descripción
@@ -52,9 +55,15 @@ En este tema se explica cómo usar el kit de herramientas de diagnóstico de Sur
     Sensores | Comprueba el funcionamiento de los distintos sensores en el dispositivo
     Hardware |  Comprueba los problemas con diferentes componentes de hardware, como la tarjeta gráfica y la cámara.
 
+5. Cuando haya finalizado todas las pruebas, la herramienta le pedirá que confirme si el problema se ha corregido. 
 
+ ![¿Se ha solucionado el problema? ](images/sdt3.png)
+ *Ilustración 3A. ¿Se ha solucionado el problema?*
 
-
+6. Si el problema no se resuelve o no sabe, puede enviar un vale de soporte técnico seleccionando **ponerse en contacto con nosotros** para **obtener ayuda ahora.**
+ 
+ ![Enviar una incidencia de soporte técnico ](images/sdt4.png)
+ *3B: Enviar una incidencia de soporte técnico*
 
 <span id="multiple" />
 

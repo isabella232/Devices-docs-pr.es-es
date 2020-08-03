@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 05/11/2020
+ms.date: 07/31/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9233ca1f7e32e2017424e9fb6ceb0556de9d37bd
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834298"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902988"
 ---
 # Implementar el Kit de herramientas de diagnóstico de Surface para empresas
 
@@ -179,6 +179,14 @@ Puede seleccionar ejecutar una amplia variedad de registros entre las aplicacion
 - [Usar el kit de herramientas de diagnóstico de Surface para empresas con comandos](surface-diagnostic-toolkit-command-line.md)
 
 ## Cambios y actualizaciones
+
+
+### Versión 2.121.139
+*Fecha de lanzamiento: 31 2020 de julio*<br>
+Esta versión de Surface Diagnostic Toolkit para empresas agrega compatibilidad con los siguientes elementos:
+
+- Experiencia de soporte técnico perfecta
+- Correcciones de errores
 
 ### Versión 2.94.139.0
 *Fecha de lanzamiento: 11 de mayo de 2020*<br>

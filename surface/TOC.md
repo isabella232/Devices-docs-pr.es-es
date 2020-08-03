@@ -52,8 +52,9 @@
 ### [Configuración del límite de batería](battery-limit.md)
 ### [Control de brillo de Surface](microsoft-surface-brightness-control.md)
 ### [Etiqueta de activo de Surface](assettag.md)
+### [Wake on Power para dispositivos Surface](wake-on-power-for-surface.md)
 
-## Proteger
+## Seguro
 
 ### [Administración de Intune de la configuración de la UEFI de Surface](surface-manage-dfci-guide.md)
 ### [Administrar la configuración de la UEFI de Surface](manage-surface-uefi-settings.md)
