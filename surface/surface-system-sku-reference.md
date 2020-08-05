@@ -9,23 +9,23 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 03/09/2020
+ms.date: 08/04/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 1fa192902b17ca811d4ecc8eac65abe1655ce370
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 3eb177e976bd99ec245996db8cb22eab639f63cc
+ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835562"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "10905677"
 ---
 # Referencia de SKU del sistema
 
 Este documento proporciona una referencia del modelo del sistema y los nombres de SKU del sistema que puede usar para determinar rápidamente el estado del equipo de un dispositivo específico mediante PowerShell o WMI.
 
-El modelo del sistema y la SKU del sistema son variables que se almacenan en las tablas del BIOS de administración del sistema (SMBIOS) en la capa UEFI de dispositivos de Surface. El nombre de SKU del sistema es necesario para diferenciar entre los dispositivos que tienen el mismo nombre de modelo del sistema, como Surface Pro y Surface Pro con LTE avanzado. 
+El modelo del sistema y la SKU del sistema son variables que se almacenan en las tablas del BIOS de administración del sistema (SMBIOS) en la capa UEFI de dispositivos de Surface. Use el nombre de SKU del sistema siempre que necesite diferenciar entre dispositivos con el mismo nombre de modelo de sistema, como Surface Pro y Surface Pro con LTE avanzado.
 
 | Dispositivo   | Modelo del sistema | SKU del sistema       |
 | ---------- | ----------- | -------------- |
@@ -38,10 +38,12 @@ El modelo del sistema y la SKU del sistema son variables que se almacenan en las
 | Surface Pro con LTE avanzada                                | Surface Pro      | Surface_Pro_1807                 |
 | Surface Book 2 13 "                                        | Surface Book 2   | Surface_Book_1832                |
 | Surface Book 2 15 "                                        | Surface Book 2   | Surface_Book_1793                |
-| Consumidor de Surface Go  | Surface Go | Surface_Go_1825_Consumer |
+| Surface Book 3 13 "                                        | Surface Book 3   | Surface_Book_3_1900                |
+| Surface Book 3 15 "                                        | Surface Book 3   | Surface_Book_3_1899
 | Surface go-Commercial | Sistema Go | Surface_Go_1825_Commercial |
 | Consumidor Surface Go                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Comercial Surface                                        | Surface Go       | Surface_Go_1824_Commercial       |
+| Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
 | Consumidor Surface Pro 6                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Comercial Surface Pro 6                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
