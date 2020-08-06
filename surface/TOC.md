@@ -74,5 +74,11 @@
 #### [Implementar el Kit de herramientas de diagnóstico de Surface para empresas](surface-diagnostic-toolkit-business.md)
 #### [Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio](surface-diagnostic-toolkit-desktop-mode.md)
 #### [Ejecutar el Kit de herramientas de diagnóstico de Surface para empresas con comandos](surface-diagnostic-toolkit-command-line.md)
-
 ### [Historial de cambios de la documentación de Surface](change-history-for-surface.md)
+### [Ayuda para los usuarios finales](https://support.microsoft.com/products/surface-devices)
+
+## Planes de garantía y servicio ampliado
+### [Planes de garantía y servicio ampliado para Surface para la empresa](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+### [Términos y condiciones](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [Comprobar el estado de garantía del dispositivo](https://mybusinessservice.surface.com/)
+### [Proteger los datos al enviar Surface para su reparación](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
