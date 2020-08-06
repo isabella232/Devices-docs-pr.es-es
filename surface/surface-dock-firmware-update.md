@@ -11,12 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: aab4c67a6a262b11cd5982ebe145afbddfeaa1c9
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 8/05/2020
+ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834633"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916031"
 ---
 # Actualización del firmware Microsoft Surface Dock: información técnica para administradores de ti
 
@@ -155,6 +156,16 @@ Los eventos se registran en el registro de eventos de la aplicación.  Nota: las
 
 >[!NOTE]
 >El archivo de instalación se publica con el siguiente formato de nombre: **Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (por ejemplo: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) e instala de forma predeterminada en C:\Archivos de Files\SurfaceUpdate.
+
+### Versión 1.53.139.0
+*Fecha de lanzamiento: 4 de agosto de 2020*
+
+Esta versión de la actualización del firmware Surface docking incluye correcciones de errores y soporte técnico para:
+- Actualizando el Dock de Surface 1 con Surface Pro X. 
+   > [!NOTE]
+   > Si está ejecutando Surface Pro X, descargue el. Compilación de ARM64. Para todos los demás dispositivos, use la compilación AMD64. 
+ 
+
 
 ### Versión 1.42.139 
 *Fecha de lanzamiento: Septiembre 18 2019*

@@ -9,12 +9,12 @@ author: greg-lindsay
 ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f523fcfb29a2a7141dcc13183d7b0bc2801fc796
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 74b48d6fb7501d8c17d17604b5b2dbc9eff308c9
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835169"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916021"
 ---
 # Guía de preparación de sitios para Surface Hub 
 
@@ -115,6 +115,7 @@ Conectar permite a las personas proyectar el portátil, la tableta o el teléfon
 Como Wireless Connect se basa en Miracast, no necesita cables ni una planificación de configuración adicional para usarlo. Los usuarios pueden cargar Miracast en la mayoría de los dispositivos Windows 8,1 y Windows 10 habilitados para Miracast. Después, pueden proyectar su visualización desde el equipo o el teléfono a la pantalla Surface Hub.
 
 <span id="wired" />
+
 #### Conexión cableada
 
 Con la conexión por cable, un cable transmite información de equipos, tabletas o teléfonos a Surface Hub. Existen tres opciones de cable de video y todas usan el mismo cable USB 2,0. El paquete de cable puede incluir una o todas estas opciones de conexión.
@@ -137,6 +138,6 @@ Para obtener más información sobre Touchback y Inkback, consulte la guía para
 
 
 
-## Consulta también
+## Consulte también
 
 [Ver el vídeo (se abre en un reproductor multimedia emergente)](https://compass.xbox.com/assets/27/aa/27aa7dd7-7cb7-40ea-9bd6-c7de0795f68c.mov?n=04.07.16_installation_video_01_site_readiness.mov)  
