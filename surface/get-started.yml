@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: f6d326f1745a0fe2ac22d819bfaf0a96fb495c93
-  ms.sourcegitcommit: 3b18d846bb68149c45b13d9ff122e993440b1f9e
+  ms.openlocfilehash: 312da1d432abce125161febfd7bca3eb82e22074
+  ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "10917518"
+  ms.lasthandoff: 08/08/2020
+  ms.locfileid: "10918910"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
@@ -84,6 +84,10 @@ landingContent:
     links:
     - text: Principales soluciones de soporte técnico
       url: support-solutions-surface.md
+    - text: Procedimientos recomendados para la eliminación de SSD en dispositivos de superficie compatibles
+      url: surface-ssd-removal-guide.md
+    - text: Blog de profesionales de TI de Surface
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
     - text: Proteger los datos durante la reparación o el servicio de la superficie
       url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
     - text: Solucionar problemas de Surface Dock y de las bases de acoplamiento
