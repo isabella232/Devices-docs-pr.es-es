@@ -36,6 +36,7 @@
 
 ## Administrar
 ### [Instalar la versión preliminar de la actualización 2020 de Windows10 Team](surface-hub-install-2020preview.md)  
+### [Problemas conocidos: actualización 2020 de Windows 10 Team](surface-hub-2020-team-update-known-issues.md)
 ### [Instalar y configurar el nuevo Microsoft Edge en Surface Hub](surface-hub-install-chromium-edge.md)        
 ### [Administrar Surface Hub 2S con Microsoft Intune](surface-hub-2s-manage-intune.md)
 ### [Administración local para la configuración de Surface Hub 2S](local-management-surface-hub-settings.md)
