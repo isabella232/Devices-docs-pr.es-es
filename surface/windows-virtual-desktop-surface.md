@@ -1,5 +1,5 @@
 ---
-title: Escritorio virtual de Windows en Surface
+title: Windows Virtual Desktop en Surface
 description: En este artículo se explica cómo los dispositivos Surfaces proporcionan un nodo final ideal para las soluciones de escritorio virtuales de Windows, lo que proporciona a los clientes factores de forma flexibles, la administración y la seguridad de dispositivos modernos de Windows 10, así como la compatibilidad con & escenarios de trabajo permanentes y a petición.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -8,22 +8,22 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 5/20/2020
+ms.date: 8/12/2020
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 7db54b7bf8d08a10707753738e40c358a8723cf4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a3dfb5e4b2e5dc87dd4ae1dbced943e6be0772df
+ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835081"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "10926312"
 ---
-# Escritorio virtual de Windows en Surface
+# Windows Virtual Desktop en Surface
 
 ## Introducción
 
-El escritorio virtual de Windows en Surface le permite ejecutar la infraestructura de escritorio virtual (VDI) en un dispositivo de superficie que difumina las líneas entre la experiencia de escritorio local y el escritorio virtual, donde el toque, la pluma, la entrada de lápiz y la autenticación biométrica abarcan entornos físicos y virtuales. Al representar otro hito en la evolución de los equipos informáticos, el escritorio virtual de Windows en Surface <a href="#1"><sup> 1 </sup></a> combina Microsoft 365-virtualizado en la nube de Azure con protección de seguridad avanzada, administración a nivel empresarial y herramientas de productividad mejoradas de Windows 10 en surface.  Esta fusión de factor de forma Premium y de infraestructura de escritorio virtual en Azure proporciona un valor de cliente excepcional entre las experiencias de los usuarios, la portabilidad, la seguridad, la continuidad empresarial y la administración moderna.
+El escritorio virtual de Windows en Surface le permite ejecutar la infraestructura de escritorio virtual (VDI) en un dispositivo de superficie que difumina las líneas entre la experiencia de escritorio local y el escritorio virtual, donde el toque, la pluma, la entrada de lápiz y la autenticación biométrica abarcan entornos físicos y virtuales. Al representar otro hito en la evolución de los equipos informáticos, el escritorio virtual de Windows en Surface <a href="#1"><sup> 1 </sup></a> combina Microsoft 365-virtualizado en la nube de Azure con protección de seguridad avanzada, administración a nivel empresarial y herramientas de productividad mejoradas de Windows 10 en surface.  Esta fusión de factores de forma Premium y de la infraestructura de escritorio virtual en Azure proporciona un valor de cliente excepcional entre las experiencias de los usuarios, la portabilidad, la seguridad, la continuidad empresarial y la administración moderna.
 
 ### Windows Virtual Desktop
 
@@ -37,7 +37,7 @@ Para obtener una lista de proveedores de Partners aprobados y proveedores de sof
 
 La ingeniería de superficie ha establecido unos nuevos estándares para la innovación yendo más allá del teclado y el ratón para imaginar formas más naturales de interactuar con dispositivos, ya sea mediante un toque, una voz, una entrada de lápiz o Surface dial. Además, con la integración de chip a nube de Microsoft 365 y la seguridad y facilidad de administración de Windows 10 Pro, Surface ofrece el hardware, el software, las aplicaciones y los servicios conectados de la manera en que fueron previstos. Aunque es posible ejecutar WVD desde dispositivos de Windows de regreso a Windows 7, los dispositivos Surface de Microsoft proporcionan ventajas exclusivas, entre las que se incluyen compatibilidad con:
 
-- **Factores de forma flexibles** , como los dispositivos 2 en 1, como Surface Go 2, Surface Pro 7 y Surface Pro X con teclado táctil y extraíble.
+- **Factores de forma flexibles** , como los dispositivos 2 en 1, como Surface Go 2, Surface Pro 7 y Surface Pro X con teclado táctil y extraíble. Incluso puedes usar la nueva Surface Duo para conectarte a WVD.
 - **Escenarios de trabajo permanentes, a petición y Just-in-Time,** con acceso sin conexión y en el dispositivo para experiencias más productivas.
 - **Seguridad de dispositivos moderna y capacidad de administración de Windows 10** : proporcionan la flexibilidad para ser productivos en cualquier lugar.
 
@@ -159,5 +159,5 @@ Para obtener más información, consulta los siguientes recursos:
 <a id="4">4. </a> Forrester Consulting, "un impacto económico total de forrester™ estudio: maximizar la rentabilidad de la inversión de microsoft 365 Enterprise con Microsoft Surface", con Comisión por Microsoft, 2018.<br>
 <a id="5">5. </a> Surface Go y Go 2 usa un UEFI de terceros y no es compatible con DFCI. DFCI está disponible actualmente para Surface Book 3, Surface Laptop 3, Surface Pro 7 y Surface Pro X. más información sobre la administración de la configuración de Surface UEFI.<br>
 <a id="6">6. </a> SSD está disponible en Surface Laptop 3 y Surface Pro X. tenga en cuenta que el disco duro no es extraíble por el usuario. El disco duro solo es extraíble de un técnico cualificado siguiendo las instrucciones de Microsoft.<br>
-<a id="7">7. </a> DFCI está disponible actualmente para Surface Book 3, Surface Laptop 3, Surface Pro 7 y Surface Pro X. [más](https://docs.microsoft.com/surface/manage-surface-uefi-settings) información sobre la administración de la configuración de Surface UEFI.
+<a id="7">7. </a>  DFCI está disponible actualmente para Surface Book 3, Surface Laptop 3, Surface Pro 7 y Surface Pro X. [más](https://docs.microsoft.com/surface/manage-surface-uefi-settings) información sobre la administración de la configuración de Surface UEFI.
 
