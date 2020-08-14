@@ -1,5 +1,5 @@
 ---
-title: Instalar la versión preliminar de la actualización 2020 de Windows10 Team
+title: Instalar la compilación 2020 de la actualización de Windows 10 Team
 description: La actualización más reciente del sistema operativo Surface Hub, Windows 10 Team 2020, ahora está disponible.
 keywords: separar valores con comas
 ms.prod: surface-hub
@@ -9,16 +9,16 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 08/07/2020
+ms.date: 08/13/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 79e6c35deba5c4635945c3b376a1069e3df324d9
-ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
+ms.openlocfilehash: 51d6b9169b0074eb474ddc89b6fe9b43a921bb07
+ms.sourcegitcommit: feb81137d009d9b7c743aabd7d02615e89842200
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "10918920"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "10929775"
 ---
-# Instalar la versión preliminar de la actualización 2020 de Windows10 Team 
+# Instalar la compilación 2020 de la actualización de Windows 10 Team 
 
 La actualización más reciente del sistema operativo Surface Hub, **Windows 10 Team 2020**, ahora está disponible sin costo adicional para los dispositivos surface Hub 50-pulgadas y Surface Hub 2s de 55 pulgadas del [programa Windows Insider](https://insider.windows.com). El modelo de 84 de Surface Hub se admitirá en la versión final de la actualización de Windows 10 Teams 2020.
 
@@ -53,8 +53,14 @@ Para obtener más información, vea [guardar la clave de BitLocker](https://docs
 ## Instalar la compilación de Windows 10 Team 2020 Update Preview
 
 1. En Surface Hub, Abra **configuración** y escriba sus credenciales de administrador cuando se le solicite.
-2. Vaya al **diagnóstico de > de privacidad & comentarios** y **completos** para los datos de diagnóstico. 
-3. Vaya a **Actualizar &** programa de seguridad de  >  **Windows Insider** y, a continuación, seleccione **Introducción**.
+2. Navegue a la **privacidad > diagnósticos & comentarios** y establezca los datos de diagnóstico en **completo**. Es posible que algunas regiones o organizaciones necesiten aplicar esta configuración a través de la Directiva MDM o el archivo PPKG:
+   - **Para MDM:** Establezca la siguiente directiva:. **/Vendor/msft/Policy/System/AllowTelemetry** con el valor entero 3:
+    
+        ![Establecer AllowTelemetry en 3](images/hub-2020-allow-telemetry.png)
+
+    - **Para PPKG:** Descargue el [archivo PPKG](https://aka.ms/HubTltmtry).
+
+3. Vaya a **Actualizar &** programa de seguridad de  >  **Windows Insider** y, a continuación, seleccione **Introducción** a la inscripción.
 4. Siga las indicaciones para registrarse como Windows Insider con su cuenta profesional (recomendado) o con su cuenta personal de Microsoft. Para obtener más información sobre las ventajas de registrarse con su cuenta del trabajo, consulte [registrarse para el programa Windows Insider para empresas](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register).
 5. En **elegir la configuración de Insider**, seleccione **rápido**.
 6. Permitir que Surface Hub instale automáticamente la versión preliminar y las actualizaciones de firmware necesarias durante los próximos 3 a 4 días. El dispositivo descargará e instalará automáticamente las actualizaciones durante las [ventanas de mantenimiento](https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window)diario. Por ejemplo:
