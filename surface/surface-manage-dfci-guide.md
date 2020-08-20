@@ -8,16 +8,21 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 11/13/2019
+ms.date: 08/19/2020
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 0aa69bb229f0d76972620bc58f236e43e03075b2
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+appliesto:
+- Surface Pro 7
+- Surface Pro X
+- Surface Laptop 3
+- Surface Book 3
+ms.openlocfilehash: 9d83fe9b7febf996d2cb314399505ed050a69a92
+ms.sourcegitcommit: b94832cba98e01014f7d184c85d79f8339e046c4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835585"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "10941666"
 ---
 # Administración de Intune de la configuración de la UEFI de Surface
 
@@ -43,11 +48,12 @@ De manera importante, DFCI habilita la administración sin toque, lo que elimina
 
 ## Dispositivos compatibles
 
-En este momento, DFCI es compatible con los siguientes dispositivos:
+DFCI es compatible con los siguientes dispositivos:
 
 - Surface Pro 7
 - Surface Pro X
 - Portátil Surface 3
+- Surface Book 3
 
 > [!NOTE]
 > Surface Pro X no admite la administración de la configuración de DFCI para cámaras, audio y Wi-Fi/Bluetooth incorporados.
@@ -56,7 +62,7 @@ En este momento, DFCI es compatible con los siguientes dispositivos:
 
 - Los dispositivos deben estar registrados con el piloto automático de Windows por un [asociado de proveedor de soluciones en la nube de Microsoft (CSP)](https://partner.microsoft.com/membership/cloud-solution-provider) o distribuidor OEM.
 
-- Antes de configurar DFCI para Surface, debe estar familiarizado con los requisitos de configuración de AutoPilot en [Microsoft Intune](https://docs.microsoft.com/intune/) y [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) (Azure ad).
+- Antes de configurar DFCI para Surface, debe estar familiarizado con los requisitos de configuración de AutoPilot en  [Microsoft Intune](https://docs.microsoft.com/intune/) y [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) (Azure ad).
 
 ## Antes de comenzar
 
