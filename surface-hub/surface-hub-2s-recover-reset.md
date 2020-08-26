@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7d79fab22b62e6ef29832be6241c484e9caf72e0
-ms.sourcegitcommit: 537fa38bdd21fcd679af0764e734f4b8efb6a03f
+ms.openlocfilehash: e3b1e380f9776fc56e99b8d4e35f708aa952759c
+ms.sourcegitcommit: e075b46f14b730464d66246b0280ef2cfa16b3fe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "10959952"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "10963576"
 ---
 # Restablecer y recuperar para Surface Hub 2S
 
@@ -60,9 +60,9 @@ Con Surface Hub 2S, puede reinstalar el dispositivo con una imagen de recuperaci
 
 1. Apague el dispositivo:
 
-   1. Mientras presiona el botón Subir volumen, presione el botón de encendido.
+   1. Mientras presiona el botón bajar de volumen, presione el botón de encendido.
    1. Mantenga presionados los dos botones hasta que vea el logotipo de Windows.
-   1. Libera el botón de encendido, pero sigue manteniendo el botón Subir volumen hasta que se inicie la interfaz de usuario de instalación.
+   1. Suelta el botón de encendido, pero continúa manteniendo el botón bajar el volumen hasta que comience la interfaz de usuario de instalación.
 
    ![* Usar los botones de encendido y de apagado de volumen para iniciar la recuperación *](images/sh2-keypad.png) <br>
    **Figura 2. Botones de volumen y de encendido**
