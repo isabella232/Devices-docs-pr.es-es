@@ -35,7 +35,9 @@
 ### [Aplicación Teams para Surface Hub](hub-teams-app.md)
 
 ## Administrar
-### [Instalar la versión preliminar de la actualización 2020 de Windows10 Team](surface-hub-install-2020preview.md)  
+### [Migrar a Windows 10 Pro o Enterprise en Surface Hub 2](surface-hub-2s-migrate-os.md)
+### [Windows 10 para la configuración posterior a la instalación de Surface Hub 2](surface-hub-2-post-install.md)
+### [Instalar la compilación 2020 de la actualización de Windows 10 Team](surface-hub-install-2020preview.md)  
 ### [Problemas conocidos: actualización 2020 de Windows 10 Team](surface-hub-2020-team-update-known-issues.md)
 ### [Instalar y configurar el nuevo Microsoft Edge en Surface Hub](surface-hub-install-chromium-edge.md)        
 ### [Administrar Surface Hub 2S con Microsoft Intune](surface-hub-2s-manage-intune.md)

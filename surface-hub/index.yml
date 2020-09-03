@@ -14,19 +14,19 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: a90db8580a7dba5adab63636ce2a0a238aae65b2
-  ms.sourcegitcommit: 3b18d846bb68149c45b13d9ff122e993440b1f9e
+  ms.openlocfilehash: 16e4f74623e3dfdcd2aafd43a80950612f0029c7
+  ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "10917508"
+  ms.lasthandoff: 09/01/2020
+  ms.locfileid: "10986322"
 landingContent:
 - title: Prepárese para Surface Hub 2S
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Nueva actualización del SO de Surface Hub publicada para la versión preliminar pública
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823
+    - text: Migrar a Windows 10 Pro o Enterprise en Surface Hub 2
+      url: surface-hub-2s-migrate-os.md
     - text: Instalar la compilación 2020 de la actualización de Windows 10 Team
       url: surface-hub-install-2020preview.md
     - text: Instalar y configurar el nuevo Microsoft Edge en Surface Hub
