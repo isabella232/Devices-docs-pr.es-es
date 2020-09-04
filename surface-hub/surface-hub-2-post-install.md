@@ -1,6 +1,6 @@
 ---
-title: Windows 10 para la configuración posterior a la instalación de Surface Hub 2
-description: Windows 10 para la configuración posterior a la instalación de Surface Hub 2
+title: Configurar Windows 10 Pro o Enterprise en Surface Hub 2
+description: En este artículo, se incluyen recomendaciones para garantizar la mejor experiencia al usar un equipo de lápiz y una pantalla grande personalizados.
 keywords: Surface Hub, Windows 10, escritorio, instalar, configuración
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
@@ -13,14 +13,14 @@ ms.audience: itpro
 author: greg-lindsay
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d6a1cdb2cac01b48c80e0fa4b7ccb6d3bcdb76ac
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 47852284c35d213b81dd7b87ca875b400d8c713f
+ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986713"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "10994596"
 ---
-# Windows 10 para la configuración posterior a la instalación de Surface Hub 2
+# Configurar Windows 10 Pro o Enterprise en Surface Hub 2
 
 **Se aplica a: Surface Hub 2S** 
 
@@ -135,14 +135,20 @@ Usar un dispositivo certificado de Windows Hello para un reconocimiento facial. 
 Para agregar un icono a la barra de tareas que permita un único toque de pantalla similar al método abreviado de teclado Windows-L: 
 
 1.  Puntee y mantenga presionado o haga clic con el botón derecho en el escritorio, seleccione **nuevo**  >  **método abreviado**  >  **examinar**  >  **escritorio**  >  **Aceptar**  >  **Next**.
-2.  Escriba un nombre para el acceso directo, como **bloquear mi PC**y, a continuación, seleccione **Finalizar**.
-3.  Haga clic con el botón secundario del ratón o mantenga pulsado el acceso directo recién creado en el escritorio y seleccione **propiedades**. En la pestaña **acceso directo** , escriba lo siguiente en el campo de **destino** : **Rundll32.exe User32.dll, LockWorkStation**
-4.  Seleccione el botón **Cambiar icono** y vaya a **C:\Windows\System32\imageres.dll** y seleccione el icono que quiera usar. 
-5. Observa el siguiente ejemplo:
+
+1.  Escriba un nombre para el acceso directo, como **bloquear mi PC**y, a continuación, seleccione **Finalizar**.
+
+1.  Haga clic con el botón secundario del ratón o mantenga pulsado el acceso directo recién creado en el escritorio y seleccione **propiedades**. En la pestaña **acceso directo** , escriba lo siguiente en el campo de **destino** : **Rundll32.exe User32.dll, LockWorkStation**
+
+1.  Seleccione el botón **Cambiar icono** y vaya a **C:\Windows\System32\imageres.dll** y seleccione el icono que quiera usar. 
+
+    Observa el siguiente ejemplo:
 
     ![Elegir un icono](images/lock.png)
-6.  Seleccione **Aceptar** para guardar el método abreviado.
-7.  Haga clic con el botón derecho o mantenga presionado el acceso directo y seleccione **anclar a la barra de tareas**.
+    
+1.  Seleccione **Aceptar** para guardar el método abreviado.
+
+1.  Haga clic con el botón derecho o mantenga presionado el acceso directo y seleccione **anclar a la barra de tareas**.
 
 ## Aplicaciones
 
@@ -151,14 +157,16 @@ Para agregar un icono a la barra de tareas que permita un único toque de pantal
 Para actualizar todas las aplicaciones de la tienda instaladas:
 
 1. Abra la aplicación Microsoft Store y seleccione **Ver más** puntos suspensivos en la esquina superior derecha.
-2. Seleccione **descargas y actualizaciones**.
-2. Seleccione **obtener actualizaciones**.
+2. Seleccione **Descargas y actualizaciones**.
+2. Seleccione **Obtener actualizaciones**.
 
 ### Microsoft Whiteboard
 
 Para instalar la pizarra de Microsoft:
 
-1. Seleccione el icono del **área de trabajo de Windows Ink** ![ área ](images/ink.png) de trabajo en la esquina inferior derecha de la barra de tareas y descargar **pizarra**.
+ - Seleccione el icono **área de trabajo de Windows Ink** en la esquina inferior derecha de la barra de tareas y descargar **pizarra**.
+ 
+   ![Área de trabajo de tinta](images/ink.png) 
 
 Como alternativa, puede instalar whiteboard desde Microsoft Store:
 
@@ -275,9 +283,9 @@ Activa el modo tableta si así lo deseas.
 
 1. Busque **software Center** y ábralo.
 2. Seleccione **las opciones** en el panel de navegación.
-3. Expanda la sección **Administración de energía** y seleccione la casilla **no aplicar la configuración de energía del Departamento de ti a este equipo**.
+3. Expanda la sección **Administración de energía** y seleccione no **aplicar la configuración de energía del Departamento de ti a este equipo**.
 
-  ![Configuración de software](images/soft-cntr.png)
+   ![Configuración de software](images/soft-cntr.png)
 
 ### Configuración de sonido
 

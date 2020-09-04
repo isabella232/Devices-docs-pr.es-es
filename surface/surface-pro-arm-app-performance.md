@@ -8,20 +8,34 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/03/2019
+ms.date: 09/02/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: c236bf066d22cae80f4c0df39cc04450ad57a419
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 155f77a50e0ca529669bac98e70f57c8c8a20081
+ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835569"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "10994585"
 ---
 # Compatibilidad de aplicaciones Surface Pro X
 
-Las aplicaciones se ejecutan de manera diferente en equipos Windows 10 basados en ARM, como Surface Pro X. las limitaciones son las siguientes:
+
+
+ ![Imagen de usuario de PC](images/4527790_en_4.png)<br><br>
+
+
+
+Los equipos basados en Windows 10 ARM te ayudan a seguir trabajando dondequiera que estés. Estas son algunas de las ventajas principales:
+
+- **Estar siempre conectado a Internet.** Con una conexión de datos de telefonía móvil, puedes estar conectado dondequiera que recibas una señal de telefonía móvil, igual que con tu teléfono móvil. Cuando estés en el trabajo, en casa o en otra red Wi-Fi en la que confías, puedes conectarte a la red Wi-Fi para guardar los datos móviles y seguir trabajando.
+
+- **Duración de la batería que va más allá de todo el día.**  Usted usará menos energía que cualquier otro PC, de modo que pueda pasar por un día de trabajo o escuela normal sin quedarse sin batería ni preocuparse por encontrar una toma para conectarla. Si deseas usar tu PC para algo más divertido, puedes reproducir vídeos almacenados en tu PC durante muchas horas sin necesidad de cargar la batería.
+
+- **Activa al instante.** Cuando no estés usando tu PC, solo tienes que pulsar el botón de encendido, como lo hace en tu teléfono móvil, para apagar la pantalla. Cuando sacas tu PC y vuelve a encenderlo, se enciende de inmediato. Cuando tenga que esperar unos minutos entre clases, reuniones u otras actividades, puede realizar las tareas sin tener que esperar a que se inicie su PC.
+
+Ten en cuenta que las aplicaciones se ejecutan de manera diferente en equipos Windows 10 basados en ARM, como Surface Pro X. las limitaciones son las siguientes:
 
 - **Los drivers de hardware, juegos y aplicaciones solo funcionarán si están diseñados para un equipo basado en ARM de Windows 10**. Para obtener más información, consulte al fabricante del hardware o a la organización que desarrolló el controlador. Los drivers son programas de software que se comunican con dispositivos de hardware, que suelen usarse para software antivirus y antimalware, software de impresión o PDF, tecnologías de asistencia, utilidades de CD y DVD y software de virtualización. Si un controlador no funciona, la aplicación o el hardware que depende de él no funcionará (al menos no completo). Los periféricos y dispositivos solo funcionan si los drivers de los que dependen están integrados en Windows 10 o si el desarrollador de hardware ha publicado ARM64 drivers para el dispositivo.
 - las **aplicaciones de 64 bits (x64) no funcionan**. Necesitarás aplicaciones de 64 bits (ARM64), aplicaciones de 32 bits (ARM32) o aplicaciones de 32 bits (x86). Normalmente, puede encontrar las versiones de 32 bits (x86) de las aplicaciones, pero algunos desarrolladores de aplicaciones solo ofrecen aplicaciones de 64 bits (x64).
@@ -30,4 +44,4 @@ Las aplicaciones se ejecutan de manera diferente en equipos Windows 10 basados e
 - **No se puede instalar algún software antivirus de terceros**. No podrá instalar un software antivirus de terceros en un equipo con Windows 10 ARM. Sin embargo, la seguridad de Windows le ayudará a mantener el ciclo de vida admitido de su dispositivo Windows 10.
 - **Fax y escáner de Windows no está disponible**. Esta característica no está disponible en un equipo con Windows 10 ARM.
 
-Para obtener más información sobre la compatibilidad de las aplicaciones, consulte [preguntas más frecuentes sobre equipos con Windows 10 ARM](https://support.microsoft.com/en-us/help/4521606)
+Para obtener más información sobre la compatibilidad de las aplicaciones, consulte [preguntas más frecuentes sobre equipos con Windows 10 ARM](https://support.microsoft.com/en-us/help/4521606).
