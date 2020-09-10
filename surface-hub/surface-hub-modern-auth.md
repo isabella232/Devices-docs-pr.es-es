@@ -9,18 +9,18 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/21/2020
+ms.date: 09/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 387d799e15ae25bb1043e9ee3417aa3c31676825
-ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
+ms.openlocfilehash: 14be433923ca564123952c2d1d7b1c158e725af3
+ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10893157"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "11004472"
 ---
 # Autenticación moderna en Surface Hub
 
-La compatibilidad con la autenticación moderna de las cuentas basadas en la nube está totalmente integrada en Windows 10 Team 2020 Update, lo que le permite migrar desde la autenticación básica heredada y usar las últimas mejoras de seguridad de Microsoft Azure y Exchange Online. Con la actualización de 2020, Surface Hub es compatible con los protocolos de servicios web Exchange (EWS) y la autenticación basada en la biblioteca de autenticación de Active Directory (ADAL) que habilita Exchange Online para la sincronización de cuentas de dispositivos.
+La compatibilidad con la autenticación moderna de las cuentas basadas en la nube está totalmente integrada en la próxima actualización de Windows 10 Team 2020, con versiones preliminares disponibles en el [programa Windows Insider](https://insider.windows.com/). Una vez [instalada la versión preliminar](surface-hub-install-2020preview.md), puede migrar desde la autenticación básica heredada y usar las últimas mejoras de seguridad de Microsoft Azure y Exchange Online. Con la actualización de 2020, Surface Hub es compatible con los protocolos de servicios web Exchange (EWS) y la autenticación basada en la biblioteca de autenticación de Active Directory (ADAL) que habilita Exchange Online para la sincronización de cuentas de dispositivos.
 
 Para las nuevas cuentas basadas en la nube, Surface Hub usa de forma automática la autenticación moderna para conectarse a Exchange online sin requerir una configuración adicional más allá de la creación de cuentas de dispositivos con el formato [alias@contoso.com](mailto:alias@contoso.com). No use el formato heredado: Contoso\alias, que no es compatible con la autenticación moderna. Para obtener más información, consulta [crear cuenta de dispositivo de Surface Hub 2s](https://docs.microsoft.com/surface-hub/surface-hub-2s-account).
 
