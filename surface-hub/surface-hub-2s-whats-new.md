@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2da6daf2bb32e9209f33d5eb19d76221db28c0ed
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a552434846c14a5f612b3743ea42819999aa8553
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836049"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013420"
 ---
 # Novedades de Surface Hub 2S para administradores de TI
 
@@ -24,6 +24,7 @@ Surface Hub 2S es un lienzo de colaboración todo en uno creado para el trabajo 
 
 |**Funcionalidad**|**Resumen**|**Obtén más información**|
 |:-------|:------|:----|
+|**Migración a Windows 10 Pro o Enterprise**| Surface Hub 2S viene preinstalado con el equipo con Windows 10, una edición personalizada de Windows 10 diseñada para facilitar la colaboración en entornos de reuniones. Ahora tienes la opción de ejecutar Windows 10 Pro o Enterprise para usar Surface Hub 2 de manera similar a cualquier otro equipo.| [Anuncio de la disponibilidad de Windows 10 Pro y Enterprise en Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107) <br> <br> [Migrar a Windows 10 Pro o Enterprise en Surface Hub 2](surface-hub-2s-migrate-os.md) |
 |**Administración de dispositivos móviles y administración de UEFI**| Administre la configuración y las directivas con un proveedor de administración de dispositivos móviles (MDM). <br> <br> La integración completa con el modo Surface Enterprise Management (SEMM) le permite administrar los componentes de hardware y el firmware. | [Administración de Surface Hub 2S con Microsoft Intune](surface-hub-2s-manage-intune.md) <br> <br> [Modo de administración de Surface Enterprise](https://docs.microsoft.com/surface/surface-enterprise-management-mode) |
 |**Coexistencia en la nube y local**| Es compatible con instalaciones locales, híbridas o en línea. | [Preparar el entorno para Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md) |
 |**Restablecer y recuperar**| Restaura desde la nube o la unidad USB. | [Recuperar y restablecer Surface Hub 2S](surface-hub-2s-recover-reset.md) |
@@ -53,7 +54,7 @@ En la siguiente tabla se detallan las diferencias entre Surface Hub y Surface Hu
 |**Relación de aspecto**| 16:9 | 16:9 | 3:2 |
 |**Almacenamiento**| SSD 128 GB | SSD 128 GB | SSD 128 GB |
 |**RAM**| 8 GB DE RAM | 8 GB DE RAM | 8 GB DE RAM |
-|**Encargado del tratamiento de datos**| i5 Core Intel® de cuarta generación | i7 Intel Core de cuarta generación | Procesador Intel Core i5 Quad Core de 8 bits |
+|**Procesador**| i5 Core Intel® de cuarta generación | i7 Intel Core de cuarta generación | Procesador Intel Core i5 Quad Core de 8 bits |
 |**Gráficos**| 4600 Intel HD | K2200 NVIDIA Quadro | 620 Intel UHD Graphics |
 |**Red**| Wi-Fi (802,11 a/b/g/n/AC) <br> Ethernet de 1 Gbps <br> Bluetooth 4,0 de bajo consumo <br> Miracast habilitado | Wi-Fi (802,11 a/b/g/n/AC) <br> Ethernet de 1 Gbps <br> Bluetooth 4,0 de bajo consumo <br> Miracast habilitado | Wi-Fi 5 (IEEE 802,11 a/b/g/n/AC) <br> Ethernet de 1 Gbps <br> Tecnología Bluetooth Wireless 4,1 <br> Pantalla Miracast |
 |**Puertos**| (1) USB 3,0 (inferior) + (1) USB 3,0 (acceso de cara)  <br> (2) USB 2,0 <br> Salida de vídeo DisplayPort <br> 3,5 mm de salida estéreo <br> Conector RJ11 para control de nivel de sistema <br> <br> Entrada de video DisplayPort <br> Entrada de video HDMI <br> Entrada de video VGA <br> Entrada estéreo de 3,5 mm <br> (1) USB 2,0 Type B Touchback Output | (1) USB 3,0 (inferior) + (1) USB 3,0 (acceso de cara) <br> (4) USB 2,0 <br> Salida de vídeo DisplayPort <br> 3,5 mm de salida estéreo <br> Conector RJ11 para control de nivel de sistema <br> <br> Entrada de video DisplayPort <br> Entrada de video HDMI <br> Entrada de video VGA <br> Entrada estéreo de 3,5 mm <br> (1) USB 2,0 Type B Touchback Output | (1) USB-A <br> Salida de video de DisplayPort <br> Entrada de video HDMI <br> USB-C con entrada de DisplayPort <br> (4) USB-C (en pantalla) <br> Gigabit Ethernet RJ45 |
