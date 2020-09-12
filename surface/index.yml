@@ -12,12 +12,12 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: cbc2644d37f77b583d73ef7aeab5a96b1db4b11c
-  ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
+  ms.openlocfilehash: 6c4f039194bd9425ad00bb7cf2b4ac32ccdad6b5
+  ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/12/2020
-  ms.locfileid: "10926292"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "11009598"
 highlightedContent:
   items:
   - title: Documentación de dispositivos Surface
@@ -29,45 +29,79 @@ highlightedContent:
   - title: Documentación de Surface Duo
     itemType: learn
     url: https://docs.microsoft.com/surface-duo/index
-additionalContent:
-  sections:
-  - title: Recursos de Surface
-    summary: Encuentra recursos para tus dispositivos Surface de Microsoft.
-    items:
-    - title: Visión general de Surface
-      links:
-      - text: Surface Go 2 para empresas
-        url: https://www.microsoft.com/surface/business/surface-go-2
-      - text: Surface Book 3 para empresas
-        url: https://www.microsoft.com/surface/business/surface-book-3
-      - text: Explorar todos los productos de la familia Surface
-        url: https://www.microsoft.com/surface/business
-    - title: Comunidad Surface
-      links:
-      - text: Blog de profesionales de TI de Surface
-        url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
-      - text: Comunidad tecnológica de dispositivos Surface
-        url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-    - title: Ayuda de Surface
-      links:
-      - text: Contacta con el Soporte técnico de Surface
-        url: contact-surface-support.md
-  - title: Recursos de Surface Hub
-    summary: Encuentra recursos para tu Microsoft Surface Hub
-    items:
-    - title: Información general de Surface Hub
-      links:
-      - text: Novedades de Surface Hub 2S
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
-      - text: Especificaciones técnicas de Surface Hub 2S
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
-      - text: Conceptos básicos del sistema operativo
-        url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
-    - title: Comunidad de Surface Hub
-      links:
-      - text: Comunidad tecnológica de Surface Hub
-        url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
-    - title: Ayuda de Surface Hub
-      links:
-      - text: Contacta con el Soporte técnico de Surface Hub
-        url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+conceptualContent:
+  title: Dispositivos Surface
+  summary: Encuentra recursos para tus dispositivos Surface de Microsoft.
+  items:
+  - title: Visión general de Surface
+    links:
+    - url: https://www.microsoft.com/surface/business/surface-go-2
+      itemType: concept
+      text: Surface Go 2 para empresas
+    - url: https://www.microsoft.com/surface/business/surface-book-3
+      itemType: concept
+      text: Surface Book 3 para empresas
+    - url: https://www.microsoft.com/surface/business
+      itemType: concept
+      text: Explorar todos los productos de la familia Surface
+  - title: Información general de Surface Hub
+    links:
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
+      itemType: concept
+      text: Novedades de Surface Hub 2S
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
+      itemType: concept
+      text: Especificaciones técnicas de Surface Hub 2S
+    - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
+      itemType: concept
+      text: Conceptos básicos del sistema operativo
+  - title: Introducción a Surface Duo
+    links:
+    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-manage
+      itemType: concept
+      text: Introducción a la administración de Surface Duo
+    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+      itemType: concept
+      text: Introducción a la seguridad de Surface Duo
+    - url: https://www.microsoft.com/surface/business/surface-duo
+      itemType: concept
+      text: Especificaciones técnicas de Surface Duo
+  - title: Comunidad Surface
+    links:
+    - url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+      itemType: reference
+      text: Blog de profesionales de TI de Surface
+    - url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+      itemType: reference
+      text: Comunidad tecnológica de dispositivos Surface
+  - title: Comunidad de Surface Hub
+    links:
+    - url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+      itemType: reference
+      text: Comunidad tecnológica de Surface Hub
+  - title: Comunidad de Surface Duo
+    links:
+    - url: https://aka.ms/SurfaceDuoITBlog
+      itemType: reference
+      text: Blog de profesionales de TI de Surface Duo
+  - title: Ayuda de Surface
+    links:
+    - url: contact-surface-support.md
+      itemType: learn
+      text: Contacta con el Soporte técnico de Surface
+  - title: Ayuda de Surface Hub
+    links:
+    - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+      itemType: learn
+      text: Contacta con el Soporte técnico de Surface Hub
+  - title: Ayuda de Surface Duo
+    links:
+    - url: https://docs.microsoft.com/en-us/surface/contact-surface-support
+      itemType: learn
+      text: Póngase en contacto con el soporte de Surface Duo
+    - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
+      itemType: learn
+      text: Obtenga el SDK de Surface Duo
+    - url: https://www.microsoft.com/download/details.aspx?id=100847
+      itemType: learn
+      text: Descargar el emulador de Surface Duo
