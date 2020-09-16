@@ -15,12 +15,12 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
-ms.openlocfilehash: 32d8fded8c325766f7ab6bbc750ba7fe13e01d70
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 0e136bd0a69db7a4c4e5cea7d2c065727dcc8fcc
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834393"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016448"
 ---
 # Acelerador de implementaciones de Microsoft Surface
 
@@ -32,13 +32,42 @@ La herramienta de código empaquetado abierto basado en scripts aprovecha el Win
 
 La imagen resultante se ajusta estrechamente a la configuración de las imágenes de recuperación de equipos integrados (BMR), sin necesidad de aplicaciones preinstaladas, como Microsoft Office o la aplicación Surface para UWP.
 
+## Requisitos
+
+1. Una unidad USB con un tamaño mínimo de 16 GB. El disco USB tendrá el formato.
+2. Un archivo. ISO con Windows 10 Pro o Windows 10 Enterprise. La herramienta de creación de medios se puede usar para descargar Windows 10 y crear un archivo. ISO. Para obtener más información, consulta [Descargar Windows 10](https://www.microsoft.com/software-download/windows10).
+
+## Cómo ejecutar SDA
+
 **Para ejecutar SDA:**
 
 1. Vaya a [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) en github. 
-2. Seleccione **clonar o descargar** y revisar el archivo Léame.
-3. Edite el script con las variables apropiadas para su entorno, tal y como se documenta en el archivo Léame, y revise antes de ejecutarlo en su entorno de prueba. 
+2. Revise la documentación del [Léame](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) .
+3. En la página [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) , haga clic en el botón **código** y, a continuación, seleccione **Descargar zip** para guardar los archivos de forma local en el equipo.
+4. Haga clic con el botón secundario en el archivo. zip y después haga clic en **propiedades**.
+5. En la pestaña **General** , seleccione la casilla **desbloquear** y, a continuación, haga clic en **Aceptar**.
+6. Extraiga el archivo. zip en una ubicación de la unidad de disco duro (por ejemplo: C:\SDA).
+7. Abra un símbolo del sistema de Windows PowerShell con privilegios elevados y establezca ExecutionPolicy para la sesión actual en no restringido.
 
-   ![Herramienta ejecutar el acelerador de despliegue de Surface](images/surface-deployment-accelerator.png)
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+    ```
+8. Ejecute la secuencia de comandos SDA que especifica los parámetros de su entorno. Por ejemplo, el siguiente comando creará una unidad USB de arranque que se puede usar para instalar Windows 10 en un Surface Hub 2:
+
+    ```powershell
+    .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
+    ```
+
+   ![Herramienta ejecutar el acelerador de despliegue de Surface](images/sda1.png)
+
+    El script requerirá unos 45 minutos para ejecutarse, pero podría tardar más tiempo en función de la CPU y los recursos de disco disponibles. 
+
+    Después de crear una imagen de Windows, la secuencia de comandos le pedirá que confirme la letra de unidad de su unidad USB. A continuación, se formateará la unidad USB, se configurará como arrancable y los archivos se copiarán para habilitar la instalación de la imagen personalizada de Windows 10 para dispositivos de Surface.
+
+9. Inserte la unidad USB en el dispositivo donde quiera instalar Windows 10 y reinicie para empezar a instalar Windows 10. El arranque USB debe estar habilitado en el BIOS, lo cual puede requerir la desactivación temporal del arranque seguro.
+
+> [!IMPORTANT]
+> Iniciar desde la unidad USB iniciará inmediatamente la instalación de Windows 10. Asegúrese de que el dispositivo está listo antes de insertar el USB y reiniciar. 
 
 ## Vínculos relacionados
 
