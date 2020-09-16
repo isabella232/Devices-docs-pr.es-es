@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 312da1d432abce125161febfd7bca3eb82e22074
-  ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
+  ms.openlocfilehash: 5cbfeee6dee7dcb921b5cbecaaeca7b4461073dc
+  ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/08/2020
-  ms.locfileid: "10918910"
+  ms.lasthandoff: 09/16/2020
+  ms.locfileid: "11016409"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
@@ -42,10 +42,10 @@ landingContent:
   linkLists:
   - linkListType: deploy
     links:
-    - text: Herramienta de acelerador de implementación de Surface
-      url: microsoft-surface-deployment-accelerator.md
     - text: Dispositivos Surface y Autopilot
       url: windows-autopilot-and-surface-devices.md
+    - text: Compatibilidad de Surface registration para Windows AutoPilot
+      url: surface-autopilot-registration-support.md
     - text: Windows Virtual Desktop en Surface
       url: windows-virtual-desktop-surface.md
 - title: Administrar dispositivos Surface
@@ -76,15 +76,15 @@ landingContent:
       url: surface-diagnostic-toolkit-for-business-intro.md
     - text: SEMM y UEFI
       url: surface-enterprise-management-mode.md
-    - text: Configuración del límite de batería
-      url: battery-limit.md
+    - text: Herramienta de acelerador de implementación de Surface
+      url: microsoft-surface-deployment-accelerator.md
 - title: Solucionar problemas
   linkLists:
   - linkListType: learn
     links:
     - text: Principales soluciones de soporte técnico
       url: support-solutions-surface.md
-    - text: Procedimientos recomendados para la eliminación de SSD en dispositivos de superficie compatibles
+    - text: Procedimientos recomendados para la eliminación de SSD en dispositivos Surface compatibles
       url: surface-ssd-removal-guide.md
     - text: Blog de profesionales de TI de Surface
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
