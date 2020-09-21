@@ -12,15 +12,15 @@ manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
 ms.author: greglin
-ms.date: 09/16/2020
+ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d908c937c331e36f6b82f4c3c5ee213abf8a0176
-ms.sourcegitcommit: 2ac88d30b7d104d86b3bec657941457c916a116c
+ms.openlocfilehash: 24998848f16803585bc414d50e2099745943dcc7
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11027012"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030427"
 ---
 # Complementos esenciales para Windows 10 Pro y Enterprise en Surface Hub 2
 
@@ -54,6 +54,7 @@ Para obtener más información sobre cómo configurar el lector de huellas digit
 | **Requisito del sistema**          | Windows 10 Pro, Windows 10 Enterprise.                                                                                               |
 | **Certificación de Windows**       | Windows 10                                                                                                                           |
 | **Tasa de aceptación falsa (FAR)** | 1/1,5 millones. Muestra la probabilidad de un sistema de seguridad biométrica para aceptar incorrectamente los intentos de acceso por parte de usuarios no autorizados. |
+| **Tasa de rechazo falsa (FRR)** | 4,9%. FRR muestra la probabilidad de que un sistema de seguridad biométrica rechace los intentos de acceso por parte de los usuarios autorizados. |
 
 
 > [!NOTE]
