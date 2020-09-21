@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 05/11/2020
-ms.openlocfilehash: da3624d5eb271e999334b4859cfb6123eeabfa46
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 09/18/2020
+ms.openlocfilehash: dc1a9b4480f37af6d74699a2e693ef8d5318da76
+ms.sourcegitcommit: 8bd03770279d5e53446436781226ffd51eeec916
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834442"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "11029234"
 ---
 # Borrador de datos de Microsoft Surface
 
@@ -34,26 +34,13 @@ Descubre cómo puedes usar la herramienta Borrador de datos de Microsoft Surface
 
 Los dispositivos Surface compatibles incluyen:
 
-* Surface Book 3
-* Surface Go 2
-* Surface Pro 7
-* Surface Pro X
-* Portátil Surface 3
-* Surface Pro 6
-* Surface Laptop 2
-* Surface Go
-* Surface Book 2
-* Surface Pro con LTE avanzada (modelo 1807)
-* Surface Pro (modelo 1796)
-* Surface Laptop
-* Surface Studio
-* Surface Studio 2
-* Surface Book
-* Surface Pro 4
-* Surface 3 LTE
-* Surface 3
-* Surface Pro 3
-* Surface Pro 2
+- Surface Book (todas las ediciones)
+- Surface Go (todas las ediciones)
+- Surface Pro X (todas las ediciones)
+- Portátil Surface (todas las ediciones)
+- Surface Studio (todas las ediciones)
+- Surface Pro 2 y posterior
+- Windows 10 Pro y Enterprise en Surface Hub 2
 
 A continuación encontrarás algunos escenarios donde el Borrador de datos de Microsoft Surface puede serte útil para realizar lo siguiente:
 
@@ -97,7 +84,7 @@ Cuando tengas instalada la herramienta de creación, sigue estos pasos para crea
    ![Iniciar la herramienta del Borrador de datos de Microsoft Surface](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
 
    *Figura 1. Iniciar la herramienta del Borrador de datos de Microsoft Surface*
-4.  Elija **x64** para la mayoría de los dispositivos de la superficie o **ARM64** para Surface Pro X en la página de **selección de arquitectura** , como se muestra en la ilustración 2. Selecciona **Continuar**.
+4.  Elija **x64** para la mayoría de los dispositivos de la superficie o  **ARM64** para Surface Pro X en la página de **selección de arquitectura** , como se muestra en la ilustración 2. Selecciona **Continuar**.
 
     ![Selección de arquitectura](images/dataeraser-arch.png "Architecture Selection")<br>
        *Figura 2. Seleccionar arquitectura de dispositivo*
@@ -172,6 +159,17 @@ Después de crear un stick USB del Borrador de datos de Microsoft Surface, puede
 
 Microsoft actualiza de vez en cuando el Borrador de datos de Microsoft Surface. Para obtener información sobre los cambios que se proporcionan en cada nueva versión, consulta lo siguiente:
 
+### 3.33.139
+*Fecha de lanzamiento: 9 de septiembre de 2020*
+
+Esta versión del borrador de datos de superficie incluye correcciones de errores y agrega compatibilidad con: 
+
+- Rediseño de arquitectura para reducir la necesidad de actualizar con nuevas versiones de productos
+- Notificación disponible para nuevas actualizaciones de herramientas
+- Adiciones de telemetría
+- Windows 10 Pro y Enterprise en Surface Hub 2
+
+
 ### 3.30.139
 *Fecha de lanzamiento: 11 de mayo de 2020*
 
@@ -227,7 +225,7 @@ Esta versión de Borrador de datos de Microsoft Surface agrega compatibilidad co
 
 
 ### Versión 3.2.46.0
-Esta versión de Borrador de datos de Microsoft Surface agrega compatibilidad con lo siguiente:
+Esta versión del Borrador de datos de Microsoft Surface agrega compatibilidad con lo siguiente:
 
 - Surface Pro con LTE avanzada
 
