@@ -14,16 +14,17 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: f6ea6324799981e57c36a11b33cf2e22ea80039e
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.date: 09/22/2020
+appliesto:
+- Surface Hub 2S
+ms.openlocfilehash: dd580a3b67ffa7c46ce823765d589fec47fadb44
+ms.sourcegitcommit: d7fe059a823b7e5f1daec447d92dac60bdd2a26e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004482"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "11072847"
 ---
 # Configurar Windows 10 Pro o Enterprise en Surface Hub 2
-
-**Se aplica a: Surface Hub 2S** 
 
 Después de completar el proceso de instalación de la migración a Windows 10 Pro o Enterprise, puede realizar los siguientes pasos para configurar las aplicaciones y la configuración de su Surface Hub 2. Estos pasos se recomiendan para garantizar la mejor experiencia de uso de este equipo de pantalla táctil y de lápiz de gran tamaño.
 
@@ -182,7 +183,7 @@ Como alternativa, puede instalar whiteboard desde Microsoft Store:
 3. Instala la aplicación **Surface** . Debe ser la primera aplicación de la lista. Es posible que necesites asociar tu MSA a la tienda para instalar la aplicación.
 4. Ancla la aplicación de **Surface** a la barra de tareas.
 
-### Recorte & esbozo
+### Recorte y anotación
 
 1. Abra el **recorte &** aplicación de boceto y ancle la barra de tareas.
 2. Seleccione los puntos suspensivos en la esquina superior derecha y, a continuación, seleccione **configuración**.
@@ -226,7 +227,7 @@ Configuración recomendada en la red corporativa:
 
   ![Configuración en el trabajo](images/project2.png)
 
-### Tu teléfono
+### Tu Teléfono
 
 La aplicación de **tu teléfono** se instala de forma predeterminada en Windows 10. Si no está presente, también puede instalarlo desde la tienda Windows.
 
@@ -251,9 +252,8 @@ Descarga e instala el nuevo [navegador Edge de cromo](https://www.microsoft.com/
 
 1. Seleccione **Start**  >  **Settings**  >  **System**  >  **Power & Sleep**.
 2. Configure el control deslizante de modo de energía para **obtener el mejor rendimiento**.
-3. Configure valores de pantalla y de espera para sus preferencias.
-
-### Protector de pantalla
+3. Configure valores de pantalla y de espera para su preferencia, así como para la detección de presencia de Doppler que reactiva el dispositivo cuando se detecta movimiento. Como práctica recomendada, se recomienda configurar la pantalla para que se apague **después de dos horas** y el equipo **apagado después de 4 horas.**
+### Protector de pantalla.
 
 1. Busque **pantalla de bloqueo** y Abra **configuración de pantalla de bloqueo**.
 2. Configure la configuración del **protector de pantalla** y la **configuración del tiempo de espera de pantalla** para sus preferencias.
@@ -314,7 +314,7 @@ Activa el modo tableta si así lo deseas.
 4. Comprobar las aplicaciones de la barra de tareas.
     - Conectar aplicación
     - Icono de candado
-    - Recorte & esbozo
+    - Recorte y anotación
     - Teams (si corresponde)
     - Aplicaciones de Office (si corresponde)
     - Aplicación Surface
@@ -324,12 +324,11 @@ Activa el modo tableta si así lo deseas.
 6. Comprobar que los proyectos se han habilitado con la aplicación Connect (la aplicación no necesita estar ejecutándose antes de conectar).
 7. Comprobar la configuración de energía y suspensión.
     - Protector de pantalla: 15 minutos, establecido en (ninguno), de formas o en blanco; casilla para requerir contraseña
-    - Pantalla: 2 horas
-    - PC: 4 horas
+    - Pantalla: **apague después de 2 horas.**
+    - PC:  **apagar después de 4 horas.**
 8. Compruebe que Windows Hello está funcionando.
-9. Compruebe la configuración de energía.
-10. Comprobar la sincronización la configuración está deshabilitada.
-11. Comprobar las aplicaciones de inicio.
+9. Comprobar la sincronización la configuración está deshabilitada.
+10. Comprobar las aplicaciones de inicio.
 
 > [!TIP]
 > Después de instalar y configurar Windows 10, Surface Hub 2S se puede administrar como cualquier otro dispositivo de Windows 10.
