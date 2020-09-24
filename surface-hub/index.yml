@@ -14,17 +14,19 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 610ce6cc1adaba8a3c583790bb72d6c675b40c18
-  ms.sourcegitcommit: 2ac88d30b7d104d86b3bec657941457c916a116c
+  ms.openlocfilehash: 06dbfb75ad1acd544fd146da783ba3b6e6c846e1
+  ms.sourcegitcommit: 3d0f349d020c9f14f016fc29b6e645a7be0d60ee
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/17/2020
-  ms.locfileid: "11026993"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "11068355"
 landingContent:
 - title: Prepárese para Surface Hub 2S
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface Hub 2S de 85 pulgadas
+      url: surface-hub-2s-85.md
     - text: Anuncio de la disponibilidad de Windows 10 Pro y Enterprise en Surface Hub 2
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107
     - text: Migrar a Windows 10 Pro o Enterprise en Surface Hub 2
@@ -33,8 +35,6 @@ landingContent:
       url: surface-hub-install-2020preview.md
     - text: Instalar y configurar el nuevo Microsoft Edge en Surface Hub
       url: surface-hub-install-chromium-edge.md
-    - text: Historial de actualizaciones de Surface Hub
-      url: surface-hub-update-history.md
     - text: Complementos esenciales para Windows 10 Pro y Enterprise en Surface Hub 2
       url: surface-hub-2-essential-add-ons.md
   - linkListType: video
@@ -43,8 +43,8 @@ landingContent:
       url: surface-hub-2s-adoption-videos.md
     - text: Surface Hub 2S con Teams
       url: https://www.youtube.com/watch?v=CH2seLS5Wb0
-    - text: Surface Hub 2S con Microsoft 365
-      url: https://www.youtube.com/watch?v=I4N2lQX4WyI&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ&index=7
+    - text: Microsoft Surface Hub 2S IT pro deep dive
+      url: https://youtu.be/fFiL60JztGk
 - title: Comenzar
   linkLists:
   - linkListType: get-started
@@ -93,6 +93,8 @@ landingContent:
       text: Soluciones de soporte de Surface Hub
     - url: miracast-troubleshooting.md
       text: Solucionar problemas de Miracast en Surface Hub
+    - text: Historial de actualizaciones de Surface Hub
+      url: surface-hub-update-history.md
 - title: Comunidad
   linkLists:
   - linkListType: learn
