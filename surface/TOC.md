@@ -4,6 +4,7 @@
 
 ## Introducción
 
+### [Maximice la rentabilidad de la inversión con Microsoft Surface](forrester-tei-study.md)
 ### [Novedades de Surface Dock 2](surface-dock-whats-new.md)
 ### [Información técnica de la GPU de Surface Book 3](surface-book-GPU-overview.md)
 ### [Información técnica de la tarjeta Quadro RTX 3000 de Surface Book 3 ](surface-book-quadro.md)

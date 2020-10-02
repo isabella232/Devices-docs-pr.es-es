@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 10/01/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: d1e7aa41f8219f0ae6ccd81a36fa0fc142dd1c3c
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 758cde12ea79e42630dad55b06eb50d0ab9dda12
+ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835578"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "11093133"
 ---
 # Implementación, administración y mantenimiento de Surface Pro X
 
@@ -92,9 +92,8 @@ La mayoría de las aplicaciones se ejecutan en PC Windows10 basados en ARM con e
 - Las aplicaciones para UWP de Microsoft Store y ARM64 nativas ofrecen una excelente experiencia de usuario, que usa la velocidad nativa completa del procesador basado en ARM, a la vez que optimiza la duración de la batería.
 - Aplicaciones que usan controladores diseñados para PC Windows10 que se ejecuta en un procesador basado en ARM.
 
-### No se admite
-
-- Las aplicaciones x64 no se ejecutan en un equipo con Windows10 en un procesador basado en ARM.
+> [!NOTE]
+> Con la emulación de 64-bit la cual pronto estará en la vista previa a través del programa Windows Insider, podrá ejecutar aplicaciones de 64 bits (x64) en Surface Pro X.
 
 Para más información sobre cómo ejecutar aplicaciones en SurfaceProX, consulta:
 
