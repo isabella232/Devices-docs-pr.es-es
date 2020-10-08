@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Surface devices documentation
-summary: Harness the power of Surface, Windows, and Office connected together through the cloud.
+title: Documentación de dispositivos Surface
+summary: Aprovecha la potencia de Surface, Windows y Office conectados a través de la nube.
 metadata:
-  title: Surface devices documentation
-  description: Get started with Microsoft Surface devices
+  title: Documentación de dispositivos Surface
+  description: Introducción a los dispositivos Microsoft Surface
   ms.service: product-insights
   ms.topic: landing-page
   manager: laurawi
@@ -18,105 +18,105 @@ metadata:
   ms.lasthandoff: 10/01/2020
   ms.locfileid: "11093103"
 landingContent:
-- title: Surface devices
+- title: Dispositivos Surface
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Surface Laptop Go  for Business
+    - text: Surface portátil Go for Business
       url: https://www.microsoft.com/surface/business/surface-laptop-go
-    - text: Surface Pro X for Business
+    - text: Surface Pro X para empresas
       url: https://www.microsoft.com/surface/business/surface-pro-x
-    - text: Explore all Surface family products
+    - text: Explorar todos los productos de la familia Surface
       url: https://www.microsoft.com/surface/business
-- title: Get started
+- title: Comenzar
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Book 3 GPU technical overview
+    - text: Información técnica de la GPU de Surface Book 3
       url: surface-book-gpu-overview.md
-    - text: Surface Book 3 Quadro RTX 3000 technical overview
+    - text: 'Información técnica de la tarjeta Quadro RTX 3000 de Surface Book 3 '
       url: surface-book-quadro.md
-    - text: What’s new in Surface Dock 2
+    - text: Novedades de Surface Dock 2
       url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
-    - text: Zero Touch Deployment with Surface & AutoPilot
+    - text: Implementación sin interacción con Surface & AutoPilot
       url: https://youtu.be/WQ-wg8fRzN0
-    - text: Surface Pro X and Windows on ARM in a remote world
+    - text: Surface Pro X y Windows en el brazo de un mundo remoto
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Surface Security – Chip to Cloud Modern Endpoint Protection from Microsoft
+    - text: 'Seguridad superficial: chip para la protección de puntos de conexión de la nube moderna de Microsoft'
       url: https://youtu.be/uadAecDbqf4
-- title: Deploy Surface devices
+- title: Implementar dispositivos Surface
   linkLists:
   - linkListType: deploy
     links:
-    - text: Autopilot and Surface devices
+    - text: Dispositivos Surface y Autopilot
       url: windows-autopilot-and-surface-devices.md
-    - text: Surface Registration Support for Windows Autopilot
+    - text: Soporte del registro de Surface para Windows Autopilot
       url: surface-autopilot-registration-support.md
-    - text: Windows Virtual Desktop on Surface
+    - text: Windows Virtual Desktop en Surface
       url: windows-virtual-desktop-surface.md
-- title: Manage Surface devices
+- title: Administrar dispositivos Surface
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Manage and deploy Surface driver and firmware updates
+    - text: Administrar e implementar actualizaciones de controladores y firmware de Surface
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Best practice power settings for Surface devices
+    - text: Procedimiento recomendado de configuración de energía para dispositivos Surface
       url: maintain-optimal-power-settings-on-Surface-devices.md
-    - text: Optimize Wi-Fi connectivity for Surface devices
+    - text: Optimizar la conectividad Wi-Fi para dispositivos Surface
       url: surface-wireless-connect.md
-- title: Explore security guidance
+- title: Explorar la guía de seguridad
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
+    - text: Puertos 2 puertos acoplados de Surface con el modo de administración de empresa de Surface (SEMM)
       url: secure-surface-dock-ports-semm.md
-    - text: Intune management of Surface UEFI settings
+    - text: Administración de Intune de la configuración de la UEFI de Surface
       url: surface-manage-dfci-guide.md
-    - text: Surface Data Eraser tool
+    - text: Herramienta Surface Data Eraser
       url: microsoft-surface-data-eraser.md
-- title: Discover Surface tools
+- title: Detectar herramientas de Surface
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Surface Diagnostic Toolkit for Business
+    - text: Kit de herramientas de diagnóstico de Surface para empresas
       url: surface-diagnostic-toolkit-for-business-intro.md
-    - text: SEMM and UEFI
+    - text: SEMM y UEFI
       url: surface-enterprise-management-mode.md
-    - text: Surface Deployment Accelerator tool
+    - text: Herramienta de acelerador de implementación de Surface
       url: microsoft-surface-deployment-accelerator.md
-- title: Troubleshoot
+- title: Solucionar problemas
   linkLists:
   - linkListType: learn
     links:
-    - text: Top support solutions
+    - text: Principales soluciones de soporte técnico
       url: support-solutions-surface.md
-    - text: Best practices for SSD removal in compatible Surface devices
+    - text: Procedimientos recomendados para la eliminación de SSD en dispositivos Surface compatibles
       url: surface-ssd-removal-guide.md
-    - text: Surface IT Pro Blog
+    - text: Blog de profesionales de TI de Surface
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
-    - text: Protecting your data during Surface repair or service
+    - text: Proteger los datos durante la reparación o el servicio de la superficie
       url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: Troubleshoot Surface Dock and docking stations
+    - text: Solucionar problemas de Surface Dock y de las bases de acoplamiento
       url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
-- title: Participate in Surface Community
+- title: Participar en la comunidad de Surface
   linkLists:
   - linkListType: learn
     links:
-    - text: Surface IT Pro blog
+    - text: Blog de profesionales de TI de Surface
       url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
     - text: Comunidad tecnológica de dispositivos Surface
       url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
     - text: Vídeos de Surface de Microsoft Mechanics
       url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
-- title: Need help?
+- title: ¿Necesitas ayuda?
   linkLists:
   - linkListType: learn
     links:
-    - text: Contact Surface Support
+    - text: Contacta con el Soporte técnico de Surface
       url: contact-surface-support.md
-    - text: Surface for Business warranty and extended service plans
+    - text: Planes de garantía y servicio ampliado para Surface para la empresa
       url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
