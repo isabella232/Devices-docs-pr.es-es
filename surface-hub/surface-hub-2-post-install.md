@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 68f3fe1eb2fba0673444510fc77d3f41e09144af
-ms.sourcegitcommit: e0047f07c42b1e3cbd074b66a4704ea72e9d7bae
+ms.openlocfilehash: 66245f84f4413df2d9ae7b683947afbd84484325
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "11093900"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105381"
 ---
 # Configurar Windows 10 Pro o Enterprise en Surface Hub 2
 
@@ -33,31 +33,46 @@ Al realizar estos pasos, es posible que le resulte útil usar un teclado y un mo
 ## Configurar las opciones del sistema
 
 1. Inicie sesión con una cuenta que tenga privilegios de administrador local en el dispositivo.  
+
     - En los dispositivos Unidos a Azure AD, el usuario que realiza la combinación de Azure AD se agrega automáticamente al grupo de administradores local. Los administradores globales de Azure AD y los administradores de dispositivos Azure AD [también son administradores locales](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
+    
     - Puede escribir **net localgroup Administrators** en un símbolo del sistema para enumerar las cuentas que tienen derechos de administrador local.
+    
 2. Cambie el nombre del dispositivo con un nombre descriptivo, por ejemplo: **nombre de usuario-SHub-escritorio**.
+
 3. Seleccione **Start**  >  **Settings**  >  **accounts**  >  **Sync Your Settings** y desactiva la **configuración de sincronización** . 
+
     - La configuración que se usa aquí tiene el propósito de habilitar la mejor experiencia táctil de pantalla grande y, por lo tanto, es posible que no desee sincronizar otros dispositivos.
+    
 4. Reinicia el dispositivo.
 
 ## Habilitar el teclado táctil y el panel táctil
 
 1. Puntee y mantenga presionado o haga clic con el botón derecho en la barra de tareas y seleccione Mostrar botón de **teclado táctil** y **Mostrar botón de panel táctil**. 
+
     - El teclado táctil es útil para la entrada directa por parte del usuario, y el panel táctil virtual ayuda a seleccionar con precisión, mantener la información en la pantalla o como alternativa para tocar y mantener el mouse. 
     - Consulta el ejemplo siguiente:
 
-     ![Configuración táctil](images/touch.png)
+      ![Configuración táctil](images/touch.png)
 
 2. Configure el teclado táctil en QWERTY y flotantes.
-    1. Seleccione el icono de teclado en la barra de tareas para mostrar el teclado táctil.
+
+    1. Seleccione el icono de **teclado** en la barra de tareas para mostrar el teclado táctil.
+    
     2. En el teclado táctil, seleccione el icono de teclado en la esquina superior izquierda para abrir la configuración del teclado.
+    
     3. Seleccione el siguiente tipo de teclado en la fila superior para habilitar QWERTY y la última opción de la segunda fila para habilitar el flotante, que es muy útil en esta gran pantalla. Vea los ejemplos siguientes:
 
-     ![Configuración del teclado](images/kbd.png)
-
+      ![Configuración del teclado](images/kbd.png)
+ 
 3. Establecer la configuración de teclado de pantalla.
-    1. Buscar y abrir la **configuración de escritura** 
-    2. Habilite todas las opciones de ortografía, escritura y teclado táctil.
+
+
+    1. Seleccione el icono de **configuración** en el teclado táctil o busque y Abra **configuración de escritura**.
+    
+       ![configuración de teclado de software](images/sh2-softkeyboard.png)
+
+    1. Habilite todas las opciones de ortografía, escritura y teclado táctil.
 
 
 En el ejemplo siguiente se muestra el panel táctil, que es útil para desplazarse y seleccionar las opciones. El teclado en pantalla se usa para buscar en Microsoft Store:
@@ -91,16 +106,23 @@ Los archivos de canal de SharePoint y Teams también se pueden sincronizar local
 Para sincronizar los archivos corporativos internos con la unidad local con la aplicación de sincronización de OneDrive:
 
 1. Vaya a un sitio de SharePoint y navegue hasta el directorio de documentos de nivel superior para ver los archivos que le interesa ver o editar desde el dispositivo local.
+
 2. Seleccione el botón **sincronizar** en la parte superior de la cinta de opciones de SharePoint.
+
 3. Seleccione al **abrir** en el elemento emergente **este sitio está intentando abrir Microsoft OneDrive**.
+
 4. Compruebe que los archivos de SharePoint se sincronizan con su unidad local seleccionando en el icono de OneDrive en la parte inferior derecha de la barra de tareas.
+
 5. Compruebe que la configuración esté configurada para mantener los archivos en línea y descargar los archivos solo a medida que los usa:
+
     1. Abra el explorador de archivos.
     2. Desplácese a la y seleccione la derecha en el **Microsoft \ \<SharePoint Document Folder Name\> **.
     3. Seleccione **liberar espacio**.
     4. La columna Estado mostrará el estado de archivos y carpetas. Para obtener más información, vea [sincronizar archivos de SharePoint con el cliente de sincronización de OneDrive](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
+    
 6. Los archivos de canales de equipos se almacenan en sitios de SharePoint, con todas las mismas funciones de documento de SharePoint, incluido el historial de versiones y la sincronización con dispositivos de escritorio locales. Para sincronizar los archivos de canal:
-    1. Navegue hasta el canal de interés de los equipos y seleccione en la pestaña **archivos** de la parte superior. Después, seleccione **sincronizar**. Los archivos comenzarán a sincronizarse y se verán en el explorador de archivos en el **escritorio \ Microsoft \ \<name of the Teams Channel\> **.
+
+    1. Navegue hasta el canal de interés de los equipos y seleccione la pestaña **archivos** en la parte superior. Después, seleccione **sincronizar**. Los archivos comenzarán a sincronizarse y se verán en el explorador de archivos en el **escritorio \ Microsoft \ \<name of the Teams Channel\> **.
     2. Use el mismo procedimiento que usó para sincronizar los sitios de SharePoint para mantener los archivos en la nube y descargarlos solo cuando los use, pulse y mantenga presionado o haga clic con el botón derecho en el explorador de archivos en el nombre de canal de Teams y, a continuación, seleccione **liberar espacio**.
 
 ## Configuración del lápiz de Surface Hub
@@ -110,13 +132,28 @@ Para sincronizar los archivos corporativos internos con la unidad local con la a
 Emparejar el lápiz para mantener actualizado el firmware del lápiz y obtener la información de carga de la batería en la página de configuración del dispositivo Bluetooth o en la aplicación de Surface:
 
 1. Seleccione **Start**  >  **Settings**  >  **Devices**.
+
 2. Seleccione **Agregar Bluetooth u otro dispositivo**.
+
 3. Elija **Bluetooth**.
+
 4. Quite el botón cola de pluma y agite para desconectar la conexión de la batería.
+
 5. Vuelva a colocar el tapón y mantenga presionado el tapón hasta que el LED de emparejamiento parpadee.
+
 6. En la configuración de Bluetooth Surface Hub, seleccione **lápiz de Surface Hub 2**.
+
 7. Complete la operación de emparejamiento. 
-8. Si el emparejamiento no se realiza correctamente, intente volver a emparejar el lápiz. Si es necesario, reinicie el dispositivo e inténtelo de nuevo.
+
+8. Si el emparejamiento no se realiza correctamente, puede intentar volver a emparejar el lápiz. Si esto no funciona, puede comprobar si la batería se cobra comprobando que el lápiz funciona en la aplicación de pizarra. En caso contrario, reemplace la batería y, a continuación, intente volver a emparejar la pluma. Si es necesario, reinicie el dispositivo e inténtelo de nuevo.
+
+**Establecer accesos directos del lápiz** El lápiz del Surface Hub tiene un botón de método abreviado al que a veces se hace referencia como "hacer clic". Para configurar los accesos directos debe emparejar primero el lápiz, como se ha descrito anteriormente.
+
+1. Busque el lápiz y seleccione **pluma & la configuración de Windows Ink**.
+
+2. Cerca de la parte inferior de la página, seleccione los accesos directos del lápiz que abre el cuadro de diálogo, que se muestra aquí:
+
+![Accesos directos de lápiz](images/sh2-pen-shortcuts.png)
 
 ## Configuración de la cámara
 
@@ -177,59 +214,84 @@ Para instalar la pizarra de Microsoft:
 Como alternativa, puede instalar whiteboard desde Microsoft Store:
 
 1. Abra la aplicación Microsoft Store y busque **pizarra**.
+
 2. Elija **no gracias** para iniciar sesión y usar en todos los dispositivos.
+
 3. Anclar pizarra a la barra de tareas.
 
 ### Aplicación Surface
 
 1. En Microsoft Store, busque **Surface**.
+
 2. Establezca el filtro **disponible en en** **todos los dispositivos**.
+
 3. Instala la aplicación **Surface** . Debe ser la primera aplicación de la lista. Es posible que necesites asociar tu MSA a la tienda para instalar la aplicación.
+
 4. Ancla la aplicación de **Surface** a la barra de tareas.
 
 ### Recorte y anotación
 
 1. Abra el **recorte &** aplicación de boceto y ancle la barra de tareas.
+
 2. Seleccione los puntos suspensivos en la esquina superior derecha y, a continuación, seleccione **configuración**.
+
 3. En **configuración**, Active **copiar automáticamente en el portapapeles**, **Guardar recortes**y **varias ventanas** (opcional).
 
 ### Microsoft Office
 
 1. Abra el [portal de Office](https://portal.office.com/account#installs) e instale las aplicaciones que desee.
+
 2. Anclar las aplicaciones de Office que desee a la barra de tareas.
+
 3. Si Outlook está instalado, asegúrese de establecer el OST de Outlook para que solo se guarden las últimas dos semanas de caché. Esto disminuirá en gran medida el uso del disco y el tiempo de configuración.
+
     - Seleccione **File**  >  **configuración** de la cuenta de archivo y seleccione su cuenta.
     - Seleccione **cambiar** y el control deslizante para **usar el modo caché de Exchange** en 14 días.
 
 ### Microsoft Teams
 
 1. Descargue e instale [Microsoft Teams](https://teams.microsoft.com/downloads).
+
 2. Establecer la configuración para la aplicación de inicio automático (opcional).
+
 3. Anclar equipos a la barra de tareas.
+
 4. Considere la posibilidad de reducir las notificaciones de Teams en el dispositivo para evitar distracciones (opcional).
 
-  ![Notificaciones de Teams](images/teams.png)
+   ![Notificaciones de Teams](images/teams.png)
 
 ### Conectar aplicación
 
 > [!IMPORTANT]
-> En Windows 10, versión 2004 y posteriores, la aplicación de conexión para proyección inalámbrica con Miracast no está instalada de forma predeterminada, pero está disponible como una característica opcional. Para instalar la aplicación, seleccione en la **configuración**  >  **Apps**  >  **características opcionales**  >  **Agregar una característica** y, a continuación, instalar la aplicación de **visualización inalámbrica** .
+> En Windows 10, versión 2004 y posteriores, la aplicación de conexión para proyección inalámbrica con Miracast no está instalada de forma predeterminada, pero está disponible como una característica opcional. Si ha instalado (o actualizado a) Windows versión 2004 o posterior, es posible que vea lo siguiente en la pantalla proyectar en este equipo en configuración:
 
-1. Busque **Connect**.
-2. Abra la aplicación y ciérrela (el**proyecto en este equipo** podría no funcionar, a menos que la aplicación se haya ejecutado al menos una vez).
-3. Mantenga pulsado o haga clic con el botón derecho para anclar a la barra de tareas.
-4. Busque la **configuración de proyección**.
-5. En **algunos dispositivos con Windows y Android puede proyectar en este equipo cuando lo digas correctamente**, elija **disponible en todas partes** si el dispositivo no está en una red corporativa. De lo contrario, puede elegir **disponible en todas partes en redes seguras**.
-6. En **preguntar al proyecto en este equipo**, seleccione **solo la primera vez**.
-7. En **requerir PIN para el emparejamiento**, elija **nunca**.
+![Proyectar a este equipo](images/sh2-project.png) 
+
+
+1. Para instalar la aplicación desde la página de configuración "proyectar en este equipo", selecciona **características opcionales**  >  **agrega una característica** y luego instala la aplicación de **visualización inalámbrica** .
+
+2. En **algunos dispositivos con Windows y Android puede proyectar en este equipo cuando lo digas correctamente**, elija:
+
+    - **Disponible en todas partes** si el dispositivo no está en una red corporativa.
+    - En caso contrario, elija **disponible en todas partes en redes seguras**.
+    
+3. En **preguntar al proyecto en este equipo**, seleccione **solo la primera vez**.
+
+4. En **requerir PIN para el emparejamiento**, elija **nunca**.
+
+5. Para iniciar la aplicación y anclarla en la barra de tareas, busque **Connect**.
+
+6. Abra la aplicación. Mientras la aplicación está abierta, haga clic con el botón derecho en el icono de la aplicación conectar en la barra de tareas y seleccione **anclar a la barra de tareas**.
+
+7. Después, cierre la aplicación Connect. Es posible que el **proyecto a este equipo** no funcione a menos que se haya ejecutado la aplicación al menos una vez.
 
 Configuración recomendada cuando no se encuentra en la red corporativa:
 
-  ![Configuración en casa](images/project1.png)
+![Configuración en casa](images/project1.png)
 
 Configuración recomendada en la red corporativa:
 
-  ![Configuración en el trabajo](images/project2.png)
+![Configuración en el trabajo](images/project2.png)
 
 ### Tu Teléfono
 
@@ -250,6 +312,7 @@ Descarga e instala el nuevo [navegador Edge de cromo](https://www.microsoft.com/
 ### Cola de plumas Seleccione para iniciar pizarra
 
 1. Busque el **lápiz** y seleccione **pluma & la configuración de Windows Ink**.
+
 2. Cerca de la parte inferior de la página, en **accesos directos de lápiz** , **Seleccione una vez** para la **pizarra de Microsoft**. 
 
 ### Administración de energía
@@ -261,24 +324,48 @@ Windows 10 Pro o Enterprise en Surface Hub 2 evita que la pantalla pase de la pa
 **Administración de energía: configuración de suspensión de pantalla y PC**
 
 1. Seleccione **Start**  >  **Settings**  >  **System**  >  **Power & Sleep**.
+
 2. Configure el control deslizante de modo de energía para **obtener el mejor rendimiento**.
+
 3. Configure valores de pantalla y de espera para su preferencia, así como para la detección de presencia de Doppler que reactiva el dispositivo cuando se detecta movimiento. Como práctica recomendada, se recomienda configurar la pantalla para que se apague **después de dos horas** y el equipo **apagado después de 4 horas.**
 
 **Administración de energía: protector de pantalla**
 
 1. Busque **pantalla de bloqueo** y Abra **configuración de pantalla de bloqueo**.
-2. Configure la configuración del **protector de pantalla** y la **configuración del tiempo de espera de pantalla** para sus preferencias.
+
+2. Configure la configuración del **protector de pantalla** y la **configuración del tiempo de espera de pantalla** para sus preferencias. Los valores predeterminados recomendados son:
+
+   - Protector de pantalla a (ninguno) o un protector de pantalla de su elección.
+   - Espera "tiempo a 15 minutos.
+   - En reanudar, Mostrar la pantalla de inicio de sesión.
+
+
+**Administración de energía: Directiva de grupo**
+
+Antes de realizar el procedimiento siguiente, consulte con el Departamento de TI para obtener una aprobación para excluir un dispositivo Surface Hub 2S de la Directiva de administración global de energía. Algunas configuraciones de administración de energía pueden deshabilitar la función de detección de presencia.
+
+1. Busque **software Center** y ábralo.
+
+2. Seleccione **Opciones**.
+
+3. Expanda la **Administración de energía**  y seleccione no aplicar la **configuración de energía de mi departamento de ti a este equipo**.
+
+   ![Configuración de software](images/soft-cntr.png)
 
 ### Sensor de almacenamiento
 
 Surface Hub 2 tiene un SSD de 128 GB para almacenamiento local, por lo que es necesario considerar el uso de las medidas de almacenamiento de almacenamiento durante el uso normal.  Para configurar el sensor de almacenamiento:
 
 1.  Busque la **configuración de almacenamiento**, que se encuentra en **configuración del sistema**.
+
 2.  En **configuración**, seleccione **Activar sensor de almacenamiento** para abrir la página Configuración de **almacenamiento** .
+
 3.  Activar el sentido **de**almacenamiento.
+
 4.  Seleccione **configurar sensor de almacenamiento o ejecutarlo ahora** y configure las opciones para mantener los archivos en línea todo lo posible (debido a un espacio en disco limitado).
 
 Configuración recomendada:
+
 - Ejecutar sensor de almacenamiento = todos los días.
 - Elimine los archivos temporales que mis aplicaciones no usan = cada 14 días (al menos).
 - Eliminar archivos de mi carpeta de descargas si ya lo han recibido durante más de = 30 días.
@@ -288,57 +375,65 @@ Configuración recomendada:
 
 Activa el modo tableta si así lo deseas.
 
-### Administración de energía
-
-> [!NOTE]
-> Antes de realizar el procedimiento siguiente, consulte con el Departamento de TI para obtener una aprobación para excluir un dispositivo Surface Hub 2S de la Directiva de administración global de energía. Algunas configuraciones de administración de energía pueden deshabilitar la función de detección de presencia.
-
-1. Busque **software Center** y ábralo.
-2. Seleccione **las opciones** en el panel de navegación.
-3. Expanda la sección **Administración de energía** y seleccione no **aplicar la configuración de energía del Departamento de ti a este equipo**.
-
-   ![Configuración de software](images/soft-cntr.png)
 
 ### Configuración de sonido
 
 1. Busque la **configuración de sonidos** y abra esta página.
+
 2. Seleccione **Panel de control de sonido** a la derecha y seleccione la pestaña **sonidos** .
+
 3. En **eventos de programa** , establezca **Conectar dispositivo** y **desconectar dispositivo** a **ninguno**.
 
 ### Notificaciones de silencio
 
 1. Busque el **Asistente de concentración** y abra esta página.
+
 2. Seleccione **solo alarmas**. Esto evitará controles flotantes de notificaciones constantes.
 
 ### Liberador de espacio en disco
 
 1. Busque el **liberador de espacio en disco** y abra esta aplicación.
+
 2. En **archivos para eliminar**, seleccione los archivos que desea eliminar. 
+
 3. Seleccione **limpiar archivos de sistema**.
 
 ## Completar y comprobar
 
 1. Busque e instale todas las actualizaciones de Windows.
+
 2. Actualizar la Directiva de grupo
-    1. En un símbolo del sistema con privilegios elevados, escriba **gpupdate/force/boot/wait: 0**.
+
+   1. En un símbolo del sistema con privilegios elevados, escriba **gpupdate/force/boot/wait: 0**.
+   
 3. Reinicia el dispositivo.
+
 4. Comprobar las aplicaciones de la barra de tareas.
-    - Conectar aplicación
-    - Icono de candado
-    - Recorte y anotación
-    - Teams (si corresponde)
-    - Aplicaciones de Office (si corresponde)
-    - Aplicación Surface
-    - Pizarra interactiva
+
+   - Conectar aplicación
+   - Icono de candado
+   - Recorte y anotación
+   - Teams (si corresponde)
+   - Aplicaciones de Office (si corresponde)
+   - Aplicación Surface
+   - Pizarra interactiva
+    
 5. Comprobar la detección de presencia.
-    - La detección de presencia será un icono verde en la bandeja del sistema
+
+   - La detección de presencia será un icono verde en la bandeja del sistema.
+    
 6. Comprobar que los proyectos se han habilitado con la aplicación Connect (la aplicación no necesita estar ejecutándose antes de conectar).
+
 7. Comprobar la configuración de energía y suspensión.
+
     - Protector de pantalla: 15 minutos, establecido en (ninguno), de formas o en blanco; casilla para requerir contraseña
-    - Pantalla: **apague después de 2 horas.**
-    - PC:  **apagar después de 4 horas.**
+    - Pantalla: **apague después de 2 horas**.
+    - PC:  **apagar después de 4 horas**.
+    
 8. Compruebe que Windows Hello está funcionando.
+
 9. Comprobar la sincronización la configuración está deshabilitada.
+
 10. Comprobar las aplicaciones de inicio.
 
 > [!TIP]
