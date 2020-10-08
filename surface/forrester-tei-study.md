@@ -1,6 +1,6 @@
 ---
-title: Maximizing your ROI from Microsoft 365 Enterprise with Microsoft Surface
-description: This page provides a downloadable PDF of a Forrester Total Economic Impact Study commissioned by Microsoft.
+title: Maximizar la rentabilidad de Microsoft 365 Enterprise con Microsoft Surface
+description: Esta página ofrece un archivo PDF descargable de un estudio de impacto económico de Forrester total realizado por Microsoft.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -19,11 +19,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/06/2020
 ms.locfileid: "11099862"
 ---
-# Maximizing your ROI from Microsoft 365 Enterprise with Microsoft Surface
+# Maximizar la rentabilidad de Microsoft 365 Enterprise con Microsoft Surface
 
- To improve employee experience across their entire organizations, firms are looking to replace legacy device technologies with more flexible hardware solutions and cloud technologies that lend themselves to modern work environments, where employees can remain productive, communicative, and secure from any location. Microsoft commissioned Forrester Consulting to conduct a Total Economic Impact (TEI) study to examine the potential return on investment (ROI) enterprises may realize by implementing Microsoft 365 Enterprise on Microsoft Surface devices, looking closely at how Microsoft Surface augments and compounds the business benefits of Microsoft 365. The purpose of this study is to provide readers with a framework to evaluate the potential financial impact of Microsoft 365-powered Surface devices on their organizations.
+ Para mejorar la experiencia de los empleados en toda su organización, las empresas buscan reemplazar tecnologías de dispositivos heredados con soluciones de hardware y tecnologías de nube más flexibles que se prestan a entornos de trabajo modernos, en las que los empleados pueden seguir siendo productivos, comunicando y proteger desde cualquier lugar. Microsoft confundó Forrester Consulting para realizar un estudio total de impacto económico (TEI) con el fin de examinar la posibilidad de que las empresas de recuperación de la inversión (ROI) puedan apreciarse implementando Microsoft 365 Enterprise en Microsoft Surface Devices, en la que se observan minuciosamente las ventajas empresariales de 365 Microsoft. El propósito de este estudio es proporcionar a los lectores un marco para evaluar el posible impacto financiero de los dispositivos Surface con Microsoft 365 en sus organizaciones.
 
-[![Maximizing your ROI from Microsoft 365 Enterprise with Microsoft Surface](./images/download-report.png)](./media/forrester-tei-maximizing-your-roi-from-microsoft-365-enterprise-with-microsoft-surface-2020.pdf)
+[![MCómo se Axima la rentabilidad de Microsoft 365 Enterprise con Microsoft Surface](./images/download-report.png)](./media/forrester-tei-maximizing-your-roi-from-microsoft-365-enterprise-with-microsoft-surface-2020.pdf)
 
 
 forrester-tei-maximizing-your-roi-from-microsoft-365-enterprise-with-microsoft-surface-2020.pdf

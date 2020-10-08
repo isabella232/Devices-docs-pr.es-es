@@ -1,6 +1,6 @@
 ---
-title: Surface Pro X app compatibility
-description: This article provides introductory app compatibility information for Surface Pro X ARM-based PCs.
+title: Compatibilidad de aplicaciones Surface Pro X
+description: Este artículo proporciona información de compatibilidad de la aplicación de presentación para PC Surface Pro X ARM.
 ms.prod: w10
 ms.localizationpriority: medium
 ms.mktglfcycl: manage
@@ -19,33 +19,33 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/02/2020
 ms.locfileid: "11093920"
 ---
-# Surface Pro X app compatibility
+# Compatibilidad de aplicaciones Surface Pro X
 
 
 
- ![Image of PC user](images/4527790_en_4.png)<br><br>
+ ![Imagen de usuario de PC](images/4527790_en_4.png)<br><br>
 
 
 
-Windows 10 ARM-based PCs help you keep working wherever you go. Here are some of the primary benefits:
+Los equipos basados en Windows 10 ARM te ayudan a seguir trabajando dondequiera que estés. Estas son algunas de las ventajas principales:
 
-- **Always be connected to the internet.** With a cellular data connection, you can be online wherever you get a cellular signal—just like with your mobile phone. When you’re at work, home, or by another Wi-Fi network you trust, you can connect to Wi-Fi to save cellular data and keep working.
+- **Estar siempre conectado a Internet.** Con una conexión de datos de telefonía móvil, puedes estar conectado dondequiera que recibas una señal de telefonía móvil, igual que con tu teléfono móvil. Cuando estés en el trabajo, en casa o en otra red Wi-Fi en la que confías, puedes conectarte a la red Wi-Fi para guardar los datos móviles y seguir trabajando.
 
-- **Battery life that goes beyond all-day.**  You'll use less power than you would with other PCs, so you can go through a typical work or school day without running out of battery or worrying about finding an outlet to plug into. If you want to use your PC for something more fun, you can play videos stored on your PC for many hours without charging your battery in between.
+- **Duración de la batería que va más allá de todo el día.**  Usted usará menos energía que cualquier otro PC, de modo que pueda pasar por un día de trabajo o escuela normal sin quedarse sin batería ni preocuparse por encontrar una toma para conectarla. Si deseas usar tu PC para algo más divertido, puedes reproducir vídeos almacenados en tu PC durante muchas horas sin necesidad de cargar la batería.
 
-- **Turn on instantly.** When you’re not using your PC, just press the power button like you do on your mobile phone to turn off the screen. When you take out your PC and turn it back on, it turns on instantly. Whenever you have a few minutes in between classes, meetings, or other activities, you can get things done without waiting for your PC to start.
+- **Activa al instante.** Cuando no estés usando tu PC, solo tienes que pulsar el botón de encendido, como lo hace en tu teléfono móvil, para apagar la pantalla. Cuando sacas tu PC y vuelve a encenderlo, se enciende de inmediato. Cuando tenga que esperar unos minutos entre clases, reuniones u otras actividades, puede realizar las tareas sin tener que esperar a que se inicie su PC.
 
-Note that applications run differently on ARM-based Windows 10 PCs such as Surface Pro X. Limitations include the following:
+Ten en cuenta que las aplicaciones se ejecutan de manera diferente en equipos Windows 10 basados en ARM, como Surface Pro X. las limitaciones son las siguientes:
 
-- **Drivers for hardware, games and apps will only work if they're designed for a Windows 10 ARM-based PC**. For more info, check with the hardware manufacturer or the organization that developed the driver. Drivers are software programs that communicate with hardware devices—they're commonly used for antivirus and antimalware software, printing or PDF software, assistive technologies, CD and DVD utilities, and virtualization software. If a driver doesn’t work, the app or hardware that relies on it won’t work either (at least not fully). Peripherals and devices only work if the drivers they depend on are built into Windows 10, or if the hardware developer has released ARM64 drivers for the device.
-- **64-bit (x64) apps**. With 64-bit emulation coming soon in Preview via the Windows Insider program, you'll be able to run 64-bit (x64) apps on Surface Pro X. Without 64-bit emulation support, you can run 64-bit (ARM64) apps, 32-bit (ARM32) apps, or 32-bit (x86) apps (using the x86 emulator). You can usually find 32-bit (x86) versions of apps, but some app developers only offer 64-bit (x64) apps.
-- **Certain games won’t work**. Games and apps won't work if they use a version of OpenGL greater than 1.1, or if they rely on "anti-cheat" drivers that haven't been made for Windows 10 ARM-based PCs. Check with your game publisher to see if a game will work.
-- **Apps that customize the Windows experience might have problems**. This includes some input method editors (IMEs), assistive technologies, and cloud storage apps. The organization that develops the app determines whether their app will work on a Windows 10 ARM-based PC.
-- **Some third-party antivirus software can’t be installed**. You won't be able to install some third-party antivirus software on a Windows 10 ARM-based PC. However, Windows Security will help keep you safe for the supported lifetime of your Windows 10 device.
-- **Windows Fax and Scan isn’t available**. This feature isn’t available on a Windows 10 ARM-based PC.
+- **Los drivers de hardware, juegos y aplicaciones solo funcionarán si están diseñados para un equipo basado en ARM de Windows 10**. Para obtener más información, consulte al fabricante del hardware o a la organización que desarrolló el controlador. Los drivers son programas de software que se comunican con dispositivos de hardware, que suelen usarse para software antivirus y antimalware, software de impresión o PDF, tecnologías de asistencia, utilidades de CD y DVD y software de virtualización. Si un controlador no funciona, la aplicación o el hardware que depende de él no funcionará (al menos no completo). Los periféricos y dispositivos solo funcionan si los drivers de los que dependen están integrados en Windows 10 o si el desarrollador de hardware ha publicado ARM64 drivers para el dispositivo.
+- **aplicaciones de 64 bits (x64)**. Con la emulación de 64 bits próximamente en una versión preliminar a través del programa Windows Insider, podrá ejecutar aplicaciones de 64 bits (x64) en Surface Pro X. Sin la compatibilidad de emulación de 64 bits, puede ejecutar aplicaciones de 64 bits (ARM64), aplicaciones de 32 bits (ARM32) o aplicaciones de 32 bits (x86) (con el emulador x86). Normalmente, puede encontrar las versiones de 32 bits (x86) de las aplicaciones, pero algunos desarrolladores de aplicaciones solo ofrecen aplicaciones de 64 bits (x64).
+- **Algunos juegos no funcionan**. Los juegos y las aplicaciones no funcionarán si usan una versión de OpenGL mayor que 1,1 o si dependen de los "controladores de trampa" que no se han hecho para equipos basados en Windows 10 ARM. Consulta al editor de tu juego para ver si funciona un juego.
+- **Es posible que las aplicaciones que personalizan la experiencia de Windows tengan problemas**. Esto incluye algunos editores de métodos de entrada (IME), tecnologías de asistencia y aplicaciones de almacenamiento en la nube. La organización que desarrolla la aplicación determina si su aplicación funcionará en un equipo con Windows 10 ARM.
+- **No se puede instalar algún software antivirus de terceros**. No podrá instalar un software antivirus de terceros en un equipo con Windows 10 ARM. Sin embargo, la seguridad de Windows le ayudará a mantener el ciclo de vida admitido de su dispositivo Windows 10.
+- **Fax y escáner de Windows no está disponible**. Esta característica no está disponible en un equipo con Windows 10 ARM.
 
-## App assure
+## Asegurar la aplicación
 
-Microsoft is committed to ensuring customers have a great compatibility experience with Windows 10 on ARM64 devices such as the Surface Pro X. We have expanded the App Assure program to support customers who encounter app compat challenges by providing engineers to troubleshoot and provide app remediations – all at no additional cost. The service is available to commercial and EDU customers for your LOB, ISV, and Microsoft first-party apps targeting Windows 10 on ARM64. 
+Microsoft se compromete a garantizar que los clientes tengan una excelente experiencia de compatibilidad con Windows 10 en dispositivos ARM64, como la X de Surface Pro. Hemos ampliado el programa de la aplicación para garantizar que los clientes que encuentren desafíos de compatibilidad de la aplicación ofrezcan a los ingenieros que solucionen problemas y ofrezcan correcciones de la aplicación; todo ello sin costo adicional. El servicio está disponible para los clientes comerciales y de EDU de la LOB, ISV y las aplicaciones de Microsoft de terceros destinados a Windows 10 en ARM64. 
 
-For more information about app compatibility, refer to [Windows 10 ARM-based PCs FAQ](https://support.microsoft.com/en-us/help/4521606).
+Para obtener más información sobre la compatibilidad de las aplicaciones, consulte [preguntas más frecuentes sobre equipos con Windows 10 ARM](https://support.microsoft.com/en-us/help/4521606).
