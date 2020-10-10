@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/19/2020
+ms.date: 10/09/2020
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
@@ -17,12 +17,13 @@ appliesto:
 - Surface Pro X
 - Surface Laptop 3
 - Surface Book 3
-ms.openlocfilehash: 9d83fe9b7febf996d2cb314399505ed050a69a92
-ms.sourcegitcommit: b94832cba98e01014f7d184c85d79f8339e046c4
+- Surface Laptop Go
+ms.openlocfilehash: 20d1b187a565f210eedc632be1addeac5dd714ba
+ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "10941666"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105865"
 ---
 # Administración de Intune de la configuración de la UEFI de Surface
 
@@ -54,6 +55,7 @@ DFCI es compatible con los siguientes dispositivos:
 - Surface Pro X
 - Portátil Surface 3
 - Surface Book 3
+- Portátil Surface Go
 
 > [!NOTE]
 > Surface Pro X no admite la administración de la configuración de DFCI para cámaras, audio y Wi-Fi/Bluetooth incorporados.
@@ -84,7 +86,7 @@ Antes de configurar las opciones de directiva de DFCI, cree un perfil de DFCI y 
     ![Crear Perfil de DFCI](images/df1.png)
 
 5. Haga clic en **Aceptar** y, después, seleccione **crear**.
-6. Seleccione **tareas** y, en **seleccionar grupos para incluir** , seleccione el grupo de seguridad de Azure ad que contiene los dispositivos de destino, como se muestra en la siguiente ilustración. Haga clic en **Guardar**.
+6. Seleccione **tareas** y, en **seleccionar grupos para incluir** , seleccione el grupo de seguridad de Azure ad que contiene los dispositivos de destino, como se muestra en la siguiente ilustración. Haz clic en **Guardar**.
 
     ![Asignar grupo de seguridad](images/df2a.png)
 
