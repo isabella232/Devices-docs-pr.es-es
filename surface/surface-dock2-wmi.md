@@ -8,20 +8,20 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 8/05/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2c7e4ac00eea798613335a320b21ce6fcb9f9f2d
-ms.sourcegitcommit: 97e19fdcd074647bedec9efdfd3ce28e900ae2ea
+ms.openlocfilehash: 06933d49e99862fb19d0f6a09c9680a127b755cd
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "10916512"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114658"
 ---
 # Administrar Surface Dock 2 con WMI
 
-La compatibilidad con el instrumental de administración de Windows (WMI) proporciona un amplio conjunto de información de diagnóstico que permite a los administradores de ti supervisar y administrar de forma remota el firmware más reciente, el estado de la Directiva y los datos relacionados en los dispositivos de Surface Dock 2. Puede usar WMI con Windows PowerShell, System Center Operations Manager y otras herramientas. Para obtener más información sobre WMI, consulte [trabajar con WMI](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?view=powershell-5.1). 
+La compatibilidad con el instrumental de administración de Windows (WMI) proporciona un amplio conjunto de información de diagnóstico que permite a los administradores de ti supervisar y administrar de forma remota el firmware más reciente, el estado de la Directiva y los datos relacionados en los dispositivos de Surface Dock 2. Puede usar WMI con Windows PowerShell, System Center Operations Manager y otras herramientas. Para obtener más información sobre WMI, consulte [trabajar con WMI](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?&preserve-view=true). 
 
 Para habilitar la compatibilidad con WMI, vaya a [los drivers y el firmware de Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317) y descargue el paquete correspondiente:
 
@@ -31,6 +31,7 @@ Para habilitar la compatibilidad con WMI, vaya a [los drivers y el firmware de S
 - Surface Book (segunda generación y versiones posteriores)
 - Surface Go (todas las generaciones)
 - Portátil Surface (todas las generaciones)
+- Portátil Surface Go
 
  **SurfaceDock2_WmiInstanceProvider_Win10_17763_&#60;C1_arm64.msi de versión:** <br>
 
@@ -77,4 +78,4 @@ Para habilitar la compatibilidad con WMI, vaya a [los drivers y el firmware de S
 - [Proteger puertos de Surface Dock 2 con SEMM](secure-surface-dock-ports-semm.md)
 - [Novedades de Surface Dock 2](surface-dock-whats-new.md)
 - [Códigos de error del administrador de dispositivos](https://docs.microsoft.com/windows-hardware/drivers/install/device-manager-error-messages)
-- [Trabajar con WMI](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?view=powershell-5.1)
+- [Trabajar con WMI](https://docs.microsoft.com/powershell/scripting/learn/ps101/07-working-with-wmi?&preserve-view=true)

@@ -13,35 +13,25 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
-ms.date: 04/24/2020
-ms.openlocfilehash: e1a1d34c4d32c5e6f95c985e335e405c0d9e59e4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/12/2020
+ms.openlocfilehash: d9bc720c846b2bb158241a55e1759c841f1d7b3a
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835537"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114528"
 ---
 # Actualizar dispositivos de Surface a Windows 10 con Microsoft Deployment Toolkit
 
 #### Se aplica a
-- Surface Pro 6
-- Surface Laptop 2
-- Surface Go
-- Ir a la superficie con LTE
-- Surface Book 2
-- Surface Pro con LTE avanzada (modelo 1807)
-- Surface Pro (modelo 1796)
-- Surface Laptop
-- Surface Studio
-- Surface Studio 2
-- Surface Book
-- Surface Pro 4
-- Surface 3 LTE
-- Surface 3
-- Surface Pro 3
-- Surface Pro 2
-- Surface Pro
-- Windows 10
+
+- Surface Book (todas las ediciones)
+- Surface Go (todas las ediciones)
+- Surface Pro X (todas las ediciones)
+- Portátil Surface (todas las ediciones)
+- Portátil Surface Go
+- Surface Studio (todas las ediciones)
+- Surface Pro 2 y posterior
 
 Además del método de implementación tradicional de los dispositivos de recreación de imágenes, los administradores que deseen actualizar dispositivos Surface que ejecutan Windows 8,1 o Windows 10 tienen la opción de implementar actualizaciones. Al realizar una implementación de actualización, Windows 10 se puede aplicar a dispositivos sin quitar usuarios, aplicaciones ni configuración. Los usuarios de los dispositivos implementados simplemente pueden continuar usando los dispositivos con las mismas aplicaciones y la misma configuración que usaban antes de la actualización. 
 

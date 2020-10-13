@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/12/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 19aba3e88afd7b17de5b391d1bfe6eaf77db38e9
-ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+ms.openlocfilehash: e96242ab9cef127238bda3ee3ea797c943479798
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "11093143"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114688"
 ---
 # Novedades de Surface Dock 
 
@@ -45,6 +45,7 @@ Surface Dock 2 está diseñado para simplificar la administración de ti, lo que
   - Portátil Surface 3
   - Surface Book 3
   - Surface Go 2
+  - Portátil Surface Go
 
 ## Componentes de Surface docking 2
 
@@ -115,7 +116,7 @@ Surface Dock 2 está diseñado para simplificar la administración de ti, lo que
 
 
 
-1. *Los dispositivos deben estar configurados para Wake on LAN a través del modo de administración de la empresa (SEMM) o la interfaz de control de firmware (DFCI) del dispositivo para reactivarlos desde el estado de hibernación o de apagado. La activación desde hibernación o apagado es compatible con Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3 y Surface Go 2.  Se necesita una licencia de software para algunas características. Se vende por separado.*
+1. *Los dispositivos deben estar configurados para Wake on LAN a través del modo Surface de administración de la empresa (SEMM) o la interfaz de control de firmware del dispositivo (DFCI) para reactivarlos de Estados de hibernación o Power-Off. La activación desde hibernación o Power-Off es compatible con Surface Pro 7, Surface portátil 3, Surface Pro X, Surface Book 3 y Surface Go 2.  Se necesita una licencia de software para algunas características. Se vende por separado.*
 
 2. *Se necesita una licencia de software para algunas características. Se vende por separado.*
 

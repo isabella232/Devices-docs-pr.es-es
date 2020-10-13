@@ -12,9 +12,10 @@ appliesto:
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
+- Surface Laptop Go
 ms.custom:
 - CI 121602
-ms.reviewer: johnk@cadencepreferred.com
+ms.reviewer: hachidan
 description: Describe cómo habilitar y deshabilitar Wake on Power para dispositivos Surface.
 keywords: actualizar, implementar, controlador, WOL, Wake-on-LAN
 ms.prod: w10
@@ -25,12 +26,12 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 272c19baedb295abac08e90012246e453b88f42f
-ms.sourcegitcommit: 6fd7008992503db9ae1f56654aa80110348924d3
+ms.openlocfilehash: dee2a2962cf6b70a1bf11cf597b4d41f4b5568e4
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "10903399"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114578"
 ---
 # Wake on Power para dispositivos Surface
 
@@ -41,7 +42,9 @@ La característica Wake on Power está disponible en los siguientes dispositivos
 - Surface Book 3
 - Surface Pro 7
 - Portátil Surface 3
+- Portátil Surface Go
 - Surface Pro X 
+
 
 ## Información general y requisitos previos
 
@@ -58,13 +61,13 @@ El configurador de Surface UEFI le permite guardar la configuración de UEFI ind
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
 3.  Seleccione **Inicio**y, a continuación, haga clic en **crear** en **paquete de configuración**.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Seleccione crear paquete de configuración.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
 4.  Seleccione **protección de certificado**y agregue el archivo. pfx de certificado. 
 5. Escriba la contraseña, seleccione **siguiente**, agregar **protección con contraseña**, según corresponda y, a continuación, seleccione **siguiente**.
 6.  En la página **elegir el tipo de superficie que desea dirigir** , seleccione los dispositivos de destino según corresponda. Por ejemplo, seleccione **Surface Pro 7**.
 7.  En la página **características avanzadas** , seleccione **Wake on Power**, establezca la característica **en activado**y, a continuación, seleccione **siguiente**.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Seleccione Wake on Power y establezca la configuración en activado."::: 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Seleccione Surface Devices y haga clic en siguiente."::: 
 8.  En la página **correcta** , seleccione **fin**.
 
     > [!NOTE]
@@ -83,10 +86,10 @@ Puede aplicar el paquete MSI a dispositivos en la red mediante herramientas de d
 
 2.  En el cuadro de diálogo de **ADVERTENCIA** , seleccione **Aceptar** o deshabilitar BitLocker, según corresponda.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Seleccione Aceptar o deshabilitar BitLocker según corresponda.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
 3.  En la Página principal, seleccione **siguiente** para ejecutar el paquete y aplicar la configuración UEFI recién configurado.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="En la Página principal, seleccione siguiente.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
 4.  Reinicie el dispositivo. 
 
 La Wake on Power ya está configurada. Para probar la configuración, apague el dispositivo, desconecte la energía y, a continuación, vuelva a conectar la energía. El dispositivo debe iniciarse automáticamente. 

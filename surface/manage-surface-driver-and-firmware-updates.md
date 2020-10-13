@@ -1,6 +1,6 @@
 ---
 title: Administrar e implementar actualizaciones de controladores y firmware de Surface
-description: En este artículo, se describen las opciones disponibles para administrar e implementar actualizaciones de firmware y controladores para dispositivos Surface.
+description: En este artículo se explican las opciones disponibles para administrar e implementar actualizaciones de firmware y controladores para dispositivos Surface.
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
 ms.reviewer: ''
 manager: laurawi
@@ -14,12 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: f41974193d62e4c0cbc1e286976105c20534d906
-ms.sourcegitcommit: ed4478dd3c6116a25b1e01a3a0f5ff6c1f940013
+ms.date: 10/12/2020
+ms.openlocfilehash: 39022ca631e35f4328d3c353b7b0d1e2ebaee6a7
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "10897068"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114638"
 ---
 # Administrar e implementar actualizaciones de controladores y firmware de Surface
 
@@ -68,7 +69,7 @@ A partir del extremo de Configuration Manager, puede sincronizar e implementar a
 
 ## Dispositivos compatibles
 
-Los archivos. msi descargables están disponibles para los dispositivos Surface Pro 2 y versiones posteriores. La información sobre los archivos. msi para los dispositivos de superficie más recientes, como Surface Pro 7 y Surface Laptop 3, estará disponible en esta página al soltarlo.
+Los archivos. msi descargables están disponibles para los dispositivos Surface Pro 2 y versiones posteriores (excepto Surface Pro X, que ejecuta Windows 10 en ARM).
 
 ## Administración del firmware con DFCI
 

@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 06/08/2020
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: de16d76581926a90585b2c6beb2a7bf3b7a695bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 641d023b59426582130dcfb7e0d86c6f3af456e8
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834345"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114698"
 ---
 # Puertos 2 puertos acoplados de Surface con el modo de administración de empresa de Surface (SEMM)
 
@@ -30,7 +30,7 @@ El modo de administración de empresa de Surface (SEMM) permite a los administra
 
 ### Dispositivos compatibles
 
-La administración de Surface Dock 2 con SEMM está disponible para los muelles conectados a Surface Book 3, Surface Laptop 3 y Surface Pro 7. Estos dispositivos de Surface compatibles suelen denominarse **dispositivos host**. Se aplica un paquete a los dispositivos de hospedaje en función de si se **autentica** **o no se autentica a**un dispositivo de hospedaje. La configuración configurada reside en el nivel UEFI en dispositivos hosts, lo que permite que el administrador de TI administre Surface Dock 2 como cualquier otro periférico incorporado, como la cámara.
+La administración de Surface Dock 2 con SEMM está disponible para los muelles conectados a Surface Book 3, Surface Laptop 3, Surface portátiles Go, Surface Pro 7 y Surface Pro X. Estos dispositivos de Surface compatibles suelen denominarse **dispositivos host**. Se aplica un paquete a los dispositivos de hospedaje en función de si se **autentica** **o no se autentica a**un dispositivo de hospedaje. La configuración configurada reside en el nivel UEFI en dispositivos hosts, lo que permite que el administrador de TI administre Surface Dock 2 como cualquier otro periférico incorporado, como la cámara.
 
 >[!NOTE]
 >Puede administrar puertos de Surface Dock 2 solo cuando el Dock está conectado a uno de los siguientes dispositivos compatibles: Surface Book 3, Surface Laptop 3 y Surface Pro 7. Cualquier dispositivo que no reciba la configuración de directiva autenticada UEFI es por naturaleza un dispositivo no autenticado.

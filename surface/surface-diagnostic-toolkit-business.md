@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902988"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114668"
 ---
 # Implementar el Kit de herramientas de diagnóstico de Surface para empresas
 
@@ -46,6 +46,7 @@ Línea de comandos |  Solucione directamente los dispositivos de superficie sin 
 
 SDT para empresas es compatible con los dispositivos Surface 3 y versiones posteriores, entre los que se incluyen:
 
+- Portátil Surface Go
 - Surface Book 3
 - Surface Go 2
 - Surface Pro X
@@ -180,6 +181,17 @@ Puede seleccionar ejecutar una amplia variedad de registros entre las aplicacion
 
 ## Cambios y actualizaciones
 
+### Versión 2.124.139.0
+
+Esta versión de Surface Diagnostic Toolkit para empresas agrega compatibilidad con los siguientes elementos:
+
+- Soporte integrado y transparente
+- Guardar todos los resultados de pruebas
+- Comprobar si la imagen se ha creado de forma personalizada
+- Incluir advertencias desde el administrador de dispositivos
+- Versión del firmware del Dock
+- Marcar unidades como posibles errores en la prueba de almacenamiento
+- Quitar vínculo de tienda 
 
 ### Versión 2.121.139
 *Fecha de lanzamiento: 31 2020 de julio*<br>
