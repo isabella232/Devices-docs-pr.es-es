@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/09/2020
+ms.date: 10/12/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 202818488f19c82ba9d08cfcbfcd091e3e8b7bf6
-ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
+ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105845"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114628"
 ---
 # Implementación, administración y mantenimiento de Surface Pro X
 
@@ -96,8 +96,7 @@ La mayoría de las aplicaciones se ejecutan en PC Windows10 basados en ARM con e
 
 ### App Assure de FastTrack 
 
-El programa App Assure está disponible para clientes comerciales para sus aplicaciones LOB, ISV y originales de Microsoft dirigidas a Windows 10 en ARM. Si los comerciales encuentran un problema de compatibilidad de aplicaciones con Windows 10 en ARM, Microsoft proporcionará recursos para desarrolladores para solucionar problemas y ayudar con las soluciones de aplicaciones, sin coste adicional. Para más información, visite aka.ms/AppAssure
-
+El programa App Assure está disponible para clientes comerciales para sus aplicaciones LOB, ISV y originales de Microsoft dirigidas a Windows 10 en ARM. Si los clientes comerciales experimentan un problema de compatibilidad de aplicaciones con Windows 10 en ARM, Microsoft proporcionará recursos para desarrolladores para solucionar problemas y asistir en las correcciones de aplicaciones, sin coste adicional. Para más información, visite [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure).
 
 Para más información sobre cómo ejecutar aplicaciones en SurfaceProX, consulta:
 
