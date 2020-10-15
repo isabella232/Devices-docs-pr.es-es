@@ -9,16 +9,17 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: ''
+ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: bba99d202d5d0dc5085c454202ae9a95df56109c
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/13/2020
+ms.openlocfilehash: bfd10df3bb7a7dd031c1719d4191ffc46418c4e3
+ms.sourcegitcommit: 30c1eb469610dfd2ad9169c154ca07e565240fdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835522"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "11117856"
 ---
 # Usar Microsoft Endpoint Configuration Manager para administrar dispositivos con SEMM
 
@@ -391,7 +392,7 @@ La mejor manera de ver los nombres e identificadores de configuración más actu
 
 En el script ConfigureSEMM.ps1 se pueden ver los nombres e identificadores de todos los dispositivos.
 
-La configuración de nombres e identificadores para dispositivos específicos se puede ver en los <device name> scripts ConfigureSEMM-. ps1. Por ejemplo, los nombres e identificadores de configuración de Surface Pro X pueden encontrarse en el script ConfigureSEMM – ProX.ps1.
+La configuración de nombres e identificadores para dispositivos específicos se puede ver en los <device name> scripts ConfigureSEMM-. ps1. 
 
 ## Implementar SEMM scripts de Configuration Manager
 
