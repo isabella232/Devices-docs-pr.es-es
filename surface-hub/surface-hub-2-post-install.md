@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/08/2020
+ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 66245f84f4413df2d9ae7b683947afbd84484325
-ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
+ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
+ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "11105381"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "11133185"
 ---
 # Configurar Windows 10 Pro o Enterprise en Surface Hub 2
 
@@ -422,11 +422,11 @@ Activa el modo tableta si así lo deseas.
 
    - La detección de presencia será un icono verde en la bandeja del sistema.
     
-6. Comprobar que los proyectos se han habilitado con la aplicación Connect (la aplicación no necesita estar ejecutándose antes de conectar).
+6. Comprobar que los proyectos se han habilitado con la aplicación Connect. Después de configurar  **Project en esta** configuración de equipo, ejecute la aplicación Connect al menos una vez. (Posteriormente, no es necesario que la aplicación Connect se esté ejecutando para proyectar en Surface hub).
 
 7. Comprobar la configuración de energía y suspensión.
 
-    - Protector de pantalla: 15 minutos, establecido en (ninguno), de formas o en blanco; casilla para requerir contraseña
+    - Protector de pantalla: 15 minutos, establecido en (ninguno), de formas o en blanco; Asegúrese de que la casilla requerir contraseña está seleccionada.
     - Pantalla: **apague después de 2 horas**.
     - PC:  **apagar después de 4 horas**.
     
