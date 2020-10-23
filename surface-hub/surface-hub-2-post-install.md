@@ -17,12 +17,12 @@ ms.topic: article
 ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
-ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
+ms.openlocfilehash: a17d4b05e6ee5f7415fed62d96b9e0a62a6dc123
+ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "11133185"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "11134408"
 ---
 # Configurar Windows 10 Pro o Enterprise en Surface Hub 2
 
@@ -51,6 +51,7 @@ Al realizar estos pasos, es posible que le resulte útil usar un teclado y un mo
 1. Puntee y mantenga presionado o haga clic con el botón derecho en la barra de tareas y seleccione Mostrar botón de **teclado táctil** y **Mostrar botón de panel táctil**. 
 
     - El teclado táctil es útil para la entrada directa por parte del usuario, y el panel táctil virtual ayuda a seleccionar con precisión, mantener la información en la pantalla o como alternativa para tocar y mantener el mouse. 
+    
     - Consulta el ejemplo siguiente:
 
       ![Configuración táctil](images/touch.png)
@@ -63,10 +64,9 @@ Al realizar estos pasos, es posible que le resulte útil usar un teclado y un mo
     
     3. Seleccione el siguiente tipo de teclado en la fila superior para habilitar QWERTY y la última opción de la segunda fila para habilitar el flotante, que es muy útil en esta gran pantalla. Vea los ejemplos siguientes:
 
-      ![Configuración del teclado](images/kbd.png)
+       ![Configuración del teclado](images/kbd.png)
  
 3. Establecer la configuración de teclado de pantalla.
-
 
     1. Seleccione el icono de **configuración** en el teclado táctil o busque y Abra **configuración de escritura**.
     
@@ -90,6 +90,7 @@ Si el dispositivo Surface Hub está cerca de un PC, puedes usar el [mouse sin bo
 Use [OneDrive para la empresa](https://docs.microsoft.com/onedrive/onedrive) para compartir fácilmente herramientas, registros y otros archivos entre todos los dispositivos de su trabajo.
 
 - OneDrive le permite compartir sus archivos de trabajo entre sus equipos portátiles, el escritorio Surface Hub y los dispositivos móviles administrados por Intune. Los archivos se pueden editar en cualquier dispositivo y todos los dispositivos conectados a la red se actualizarán con los cambios.
+
 - Teniendo en cuenta el tamaño de la SSD del Surface Hub (128 GB), si configura OneDrive en su dispositivo de escritorio Surface Hub, asegúrese de que la configuración predeterminada es mantener los archivos en línea y descargar archivos a medida que los usa.
 
 Para configurar OneDrive de modo que descargue los archivos solo cuando sea necesario, establezca la configuración **de archivos a petición** para **ahorrar espacio y descargar archivos a medida que los usa**. Para obtener más información, vea [consultar y establecer los Estados a petición de los archivos en Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
@@ -116,13 +117,17 @@ Para sincronizar los archivos corporativos internos con la unidad local con la a
 5. Compruebe que la configuración esté configurada para mantener los archivos en línea y descargar los archivos solo a medida que los usa:
 
     1. Abra el explorador de archivos.
-    2. Desplácese a la y seleccione la derecha en el **Microsoft \ \<SharePoint Document Folder Name\> **.
+    
+    2. Vaya al nombre de SharePoint y haga clic con el botón secundario. por ejemplo, **contoso \ \<SharePoint Document Folder Name\> **.
+    
     3. Seleccione **liberar espacio**.
+    
     4. La columna Estado mostrará el estado de archivos y carpetas. Para obtener más información, vea [sincronizar archivos de SharePoint con el cliente de sincronización de OneDrive](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
     
 6. Los archivos de canales de equipos se almacenan en sitios de SharePoint, con todas las mismas funciones de documento de SharePoint, incluido el historial de versiones y la sincronización con dispositivos de escritorio locales. Para sincronizar los archivos de canal:
 
-    1. Navegue hasta el canal de interés de los equipos y seleccione la pestaña **archivos** en la parte superior. Después, seleccione **sincronizar**. Los archivos comenzarán a sincronizarse y se verán en el explorador de archivos en el **escritorio \ Microsoft \ \<name of the Teams Channel\> **.
+    1. Navegue hasta el canal de interés de los equipos y seleccione la pestaña **archivos** en la parte superior. Después, seleccione **sincronizar**. Los archivos comenzarán a sincronizarse y se verán en el explorador de archivos en el **escritorio \ contoso \ \<name of the Teams Channel\> **.
+    
     2. Use el mismo procedimiento que usó para sincronizar los sitios de SharePoint para mantener los archivos en la nube y descargarlos solo cuando los use, pulse y mantenga presionado o haga clic con el botón derecho en el explorador de archivos en el nombre de canal de Teams y, a continuación, seleccione **liberar espacio**.
 
 ## Configuración del lápiz de Surface Hub
@@ -153,7 +158,7 @@ Emparejar el lápiz para mantener actualizado el firmware del lápiz y obtener l
 
 2. Cerca de la parte inferior de la página, seleccione los accesos directos del lápiz que abre el cuadro de diálogo, que se muestra aquí:
 
-![Accesos directos de lápiz](images/sh2-pen-shortcuts.png)
+   ![Accesos directos de lápiz](images/sh2-pen-shortcuts.png)
 
 ## Configuración de la cámara
 
@@ -200,7 +205,9 @@ Para agregar un icono a la barra de tareas que permita un único toque de pantal
 Para actualizar todas las aplicaciones de la tienda instaladas:
 
 1. Abra la aplicación Microsoft Store y seleccione **Ver más** puntos suspensivos en la esquina superior derecha.
+
 2. Seleccione **Descargas y actualizaciones**.
+
 2. Seleccione **Obtener actualizaciones**.
 
 ### Microsoft Whiteboard
@@ -246,6 +253,7 @@ Como alternativa, puede instalar whiteboard desde Microsoft Store:
 3. Si Outlook está instalado, asegúrese de establecer el OST de Outlook para que solo se guarden las últimas dos semanas de caché. Esto disminuirá en gran medida el uso del disco y el tiempo de configuración.
 
     - Seleccione **File**  >  **configuración** de la cuenta de archivo y seleccione su cuenta.
+    
     - Seleccione **cambiar** y el control deslizante para **usar el modo caché de Exchange** en 14 días.
 
 ### Microsoft Teams
@@ -307,6 +315,11 @@ Las **zonas súper sofisticadas** ayudan a los usuarios a organizar las ventanas
 
 Descarga e instala el nuevo [navegador Edge de cromo](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL).
 
+
+### Herramienta de diagnóstico de hardware Surface Hub
+
+La [herramienta de diagnóstico de hardware de Surface Hub](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) está disponible gratuitamente en Microsoft Store. La herramienta está diseñada para ayudarte a asegurarte de que Surface Hub funcione de la mejor manera posible. Contiene pruebas para determinar si el firmware está actualizado y configurado correctamente. Las pruebas interactivas permiten confirmar que la funcionalidad esencial funciona según lo esperado. Si surgen problemas, los resultados se pueden guardar y compartir con el equipo de soporte técnico de SurfaceHub. Haga clic en el vínculo para instalarlo desde Microsoft Store y, a continuación, ancle la aplicación a la barra de tareas.
+
 ## Configuración adicional
 
 ### Cola de plumas Seleccione para iniciar pizarra
@@ -336,7 +349,7 @@ Windows 10 Pro o Enterprise en Surface Hub 2 evita que la pantalla pase de la pa
 2. Configure la configuración del **protector de pantalla** y la **configuración del tiempo de espera de pantalla** para sus preferencias. Los valores predeterminados recomendados son:
 
    - Protector de pantalla a (ninguno) o un protector de pantalla de su elección.
-   - Espera "tiempo a 15 minutos.
+   - Tiempo de espera de 15 minutos.
    - En reanudar, Mostrar la pantalla de inicio de sesión.
 
 
