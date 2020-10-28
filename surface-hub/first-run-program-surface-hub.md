@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ad65170b3cc2534fec1b22730c718025026d7bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e070c28d13cd8466bff47022f4508fdb8aa06331
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836226"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142919"
 ---
 # Programa de primera ejecución (Surface Hub)
 
@@ -71,7 +71,7 @@ Si los valores predeterminados que se muestran son correctos, puedes hacer clic 
 ### Qué sucede
 
 >[!NOTE]
-> Una vez que se especifiquen las opciones de configuración en esta página, no puedes volver a esta pantalla a menos que se restablezca el dispositivo (consulta [Restablecimiento del dispositivo](device-reset-surface-hub.md)). Asegúrate de que las opciones de configuración se han configurado correctamente antes de continuar.
+> Una vez que se especifiquen las opciones de configuración en esta página, no puedes volver a esta pantalla a menos que se restablezca el dispositivo (consulta [Restablecimiento del dispositivo](device-reset-surface-hub.md)). Asegúrate de que las opciones de configuración se han configurado correctamente antes de continuar.
 
  
 
@@ -128,17 +128,17 @@ Esta página se mostrará cuando el dispositivo detecte una conexión por cable 
 
 -   Puedes seleccionar una red inalámbrica para usarla en lugar de la conexión por cable limitada.
 -   Puedes omitir la conexión a una red seleccionando **Omitir este paso**. Se abrirá la [Configuración de tu página](#set-up-for-you).
-    **Nota:**  Si lo omite, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en su Surface Hub, como la sincronización del calendario y el correo electrónico. Puede conectarse a una red inalámbrica más adelante con configuración (consulte [Administración de redes inalámbricas](wireless-network-management-for-surface-hub.md)).
+    **Nota**  Si se omite esto, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en el Surface Hub, incluida, como por ejemplo, la sincronización del correo electrónico y del calendario. Puede conectarse a una red inalámbrica más adelante con configuración (consulte [Administración de redes inalámbricas](wireless-network-management-for-surface-hub.md)).
 
      
 
 -   Puedes seleccionar **Introducir opciones de proxy** , lo que te permitirá especificar cómo se usa el proxy de red. Se abrirá la siguiente pantalla.
 
-![Imagen que muestra la página del proxy de red.](images/setupnetworksetup-2.png)
+    ![Imagen que muestra la página del proxy de red.](images/setupnetworksetup-2.png)
 
-Esta es la pantalla que verás si has hecho clic en **Introducir opciones de proxy** en la pantalla anterior.
+    Esta es la pantalla que verás si has hecho clic en **Introducir opciones de proxy** en la pantalla anterior.
 
-![Imagen que muestra los detalles de configuración del servidor proxy.](images/setupnetworksetup-4.png)
+    ![Imagen que muestra los detalles de configuración del servidor proxy.](images/setupnetworksetup-4.png)
 
 ### Detalles
 
@@ -239,7 +239,7 @@ Haz clic en **Omitir configuración de los servicios de Exchange** para omitir e
 -   Iniciar una reunión desde la pantalla de inicio de sesión.
 -   Enviar pizarras por correo electrónico desde OneNote.
 
-Consulta [Introducción a Surface Hub](intro-to-surface-hub.md) para obtener más información sobre las dependencias del programa de instalación.
+Consulta [Introducción a Surface Hub](intro-to-surface-hub.md) para obtener más información acerca de las dependencias del programa de instalación.
 
 Más adelante puedes habilitar los servicios Exchange para una cuenta del dispositivo mediante la aplicación Configuración.
 
@@ -371,9 +371,10 @@ Si has decidido unir el Surface Hub a Azure Active Directory (Azure AD), verás 
 Unirse a Azure AD tiene dos ventajas principales:
 
 1.  Algunos empleados de la organización podrán acceder al dispositivo como administradores y podrán iniciar la aplicación Configuración y configurar el dispositivo. Los usuarios que tengan permisos de administrador se definirán en tu suscripción de Azure AD.
+
 2.  Si tu Azure AD está conectado a una solución de administración de dispositivos móviles (MDM), el dispositivo se inscribirá en esa solución MDM para que puedas aplicar directivas y opciones de configuración.
 
-![Imagen que muestra el mensaje que aparece cuando unes Surface Hub a Azure Active Directory.](images/setupjoiningazuread-1.png)
+    ![Imagen que muestra el mensaje que aparece cuando unes Surface Hub a Azure Active Directory.](images/setupjoiningazuread-1.png)
 
 ### Detalles
 
@@ -451,7 +452,7 @@ Esta página intentará crear una nueva cuenta de administrador con las credenci
 
 Para obtener las últimas características y correcciones, debes actualizar el Surface Hub en cuanto finalices todos los pasos de primera ejecución anteriores.
 
-1.  Asegúrate de que el dispositivo tiene acceso a los servidores de Windows Update o Windows Server Update Services (WSUS). Para configurar WSUS, consulta [Uso de WSUS](manage-windows-updates-for-surface-hub.md#use-windows-server-update-services).
+1.  Asegúrese de que el dispositivo tiene acceso a los servidores de Windows Update. 
 2.  Abre Configuración, haz clic en **Actualización y seguridad**, luego en **Windows Update** y, a continuación, haz clic en **Buscar actualizaciones**.
 3.  Si hay actualizaciones disponibles, se descargarán. Una vez completada la descarga, haz clic en el botón **Actualizar ahora** para instalar las actualizaciones.
 4.  Sigue las instrucciones en pantalla después de que se instalen las actualizaciones. Necesitarás reiniciar el dispositivo.

@@ -1,5 +1,5 @@
 ---
-title: Instalar la compilación 2020 de la actualización de Windows 10 Team
+title: Instalar la versión preliminar de la actualización 2020 de Windows10 Team
 description: La actualización más reciente del sistema operativo Surface Hub, Windows 10 Team 2020, ahora está disponible.
 keywords: separar valores con comas
 ms.prod: surface-hub
@@ -9,20 +9,23 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 08/13/2020
+ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 51d6b9169b0074eb474ddc89b6fe9b43a921bb07
-ms.sourcegitcommit: feb81137d009d9b7c743aabd7d02615e89842200
+ms.openlocfilehash: 6d370db0232ae1f93d1ba6b8ff15b5ff2cfa9f10
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "10929775"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142909"
 ---
-# Instalar la compilación 2020 de la actualización de Windows 10 Team 
+# Instalar la versión preliminar de la actualización 2020 de Windows10 Team 
 
-La actualización más reciente del sistema operativo Surface Hub, **Windows 10 Team 2020**, ahora está disponible sin costo adicional para los dispositivos surface Hub 50-pulgadas y Surface Hub 2s de 55 pulgadas del [programa Windows Insider](https://insider.windows.com). El modelo de 84 de Surface Hub se admitirá en la versión final de la actualización de Windows 10 Teams 2020.
+La versión preliminar del sistema operativo Surface Hub, **Windows 10 Team 2020 Update Preview**, está disponible sin cargo adicional por parte del [programa Windows Insider](https://insider.windows.com). 
 
-Windows 10 Team 2020 Update ofrece mejoras importantes en la implementación y administración de dispositivos junto con las características más recientes de Windows 10. Para obtener más información sobre las novedades, consulte la siguiente entrada de blog: [nueva actualización del sistema operativo de Surface Hub publicada para la versión preliminar pública.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) Para obtener los problemas conocidos, consulte la sección "problemas conocidos" a continuación.
+> [!NOTE] 
+> La versión final de la actualización de Windows 10 Team 2020 ahora está disponible. Para obtener más información, vea [Windows 10 Team 2020 Update](surface-hub-2020-update.md).
+
+Windows 10 Team 2020 Update ofrece mejoras importantes en la implementación y administración de dispositivos junto con las características más recientes de Windows 10. Para obtener más información sobre las novedades, consulte la siguiente entrada de blog: [nueva actualización del sistema operativo de Surface Hub publicada para la versión preliminar pública.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) Para obtener los problemas conocidos, consulte [problemas conocidos: actualización 2020 equipo de Windows 10](surface-hub-2020-team-update-known-issues.md)
  
 ## Requisitos previos
 
