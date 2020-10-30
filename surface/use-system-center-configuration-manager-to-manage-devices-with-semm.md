@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/13/2020
-ms.openlocfilehash: bfd10df3bb7a7dd031c1719d4191ffc46418c4e3
-ms.sourcegitcommit: 30c1eb469610dfd2ad9169c154ca07e565240fdb
+ms.date: 10/28/2020
+ms.openlocfilehash: 2d31f520d8c4da54f47b2b89b58b43e2cb983f1a
+ms.sourcegitcommit: 7f5b97275fe301ef700f9c77954a1054e2e8d046
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "11117856"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "11145621"
 ---
 # Usar Microsoft Endpoint Configuration Manager para administrar dispositivos con SEMM
 
@@ -388,11 +388,6 @@ Para configurar la configuración de Surface UEFI o permisos para la configuraci
 
 El equipo en el que se ejecuta ShowSettingsOptions.ps1 debe tener instalado Microsoft Surface UEFI Manager, pero el script no requiere un dispositivo Surface.
 
-La mejor manera de ver los nombres e identificadores de configuración más actuales para los dispositivos es usar el script de ConfigureSEMM.ps1 o el ConfigureSEMM- <device name> . PS1 de la SEMM_Powershell.zip en [herramientas de Surface para descargas de ti](https://www.microsoft.com/download/details.aspx?id=46703).
-
-En el script ConfigureSEMM.ps1 se pueden ver los nombres e identificadores de todos los dispositivos.
-
-La configuración de nombres e identificadores para dispositivos específicos se puede ver en los <device name> scripts ConfigureSEMM-. ps1. 
 
 ## Implementar SEMM scripts de Configuration Manager
 
