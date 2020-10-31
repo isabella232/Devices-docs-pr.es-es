@@ -1,5 +1,5 @@
 ---
-title: Instalar Windows 10 Team 2020 Update
+title: Instalar la actualización 2020 de Windows10 Team
 description: Obtenga la actualización más reciente del sistema operativo Surface Hub, Windows 10 Team 2020 Update.
 keywords: separar valores con comas
 ms.prod: surface-hub
@@ -11,14 +11,14 @@ audience: Admin
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 68eee89ac1b93501c73eccd3e5f9eecf514a8132
-ms.sourcegitcommit: b4cfb718274fd632661f9112e9fd086a2ad45640
+ms.openlocfilehash: 90bd5714b7427880f6e73c7031c26894d55ac500
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "11143645"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145955"
 ---
-# Instalar Windows 10 Team 2020 Update 
+# Instalar la actualización 2020 de Windows10 Team 
 
 El nuevo sistema operativo Surface Hub, **Windows 10 Team 2020 Update**, basado en Windows 10 versión 20H2, ahora está disponible para todos los dispositivos Surface Hub 2S.  
 
@@ -48,7 +48,7 @@ Windows 10 Team 2020 Update ofrece mejoras importantes en la implementación y a
  
 ## Antes de comenzar
 
-Antes de instalar Windows 10 Team 2020, asegúrese de guardar la clave de BitLocker asociada con el dispositivo. Para obtener más información, consulte [novedades de Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md)
+Antes de instalar Windows 10 Team 2020, asegúrese de guardar la clave de BitLocker asociada con el dispositivo. Para obtener más información, vea [novedades de la actualización 2020 del equipo de Windows 10](surface-hub-2020-update-whats-new.md).
 
 **Para guardar manualmente la clave de BitLocker**
 

@@ -12,12 +12,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 8b113d16f2053fe0904518b2643f1bafeaebdf64
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902978"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145945"
 ---
 # Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio
 
@@ -26,7 +26,7 @@ En este tema se explica cómo usar el kit de herramientas de diagnóstico de Sur
 La ejecución correcta de SDT puede determinar rápidamente si un problema notificado se debe a un error de hardware o de usuario. Para obtener una lista de los dispositivos Surface admitidos en SDT, consulte [deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 
-1. Indique al usuario que instale [el paquete SDT](surface-diagnostic-toolkit-business.md#create-custom-sdt) desde un punto de distribución de software o un recurso compartido de red. Una vez instalado, estará listo para guiar al usuario a través de una serie de pruebas. 
+1. Indique al usuario que instale [el paquete SDT](surface-diagnostic-toolkit-business.md#preparing-the-sdt-package-for-distribution)desde un punto de distribución de software o un recurso compartido de red. Una vez instalado, estará listo para guiar al usuario a través de una serie de pruebas. 
 
 2. Comience en la Página principal, lo que permite a los usuarios introducir una descripción del problema y haga clic en **continuar**, como se muestra en la ilustración 1.
 
@@ -58,12 +58,12 @@ La ejecución correcta de SDT puede determinar rápidamente si un problema notif
 5. Cuando haya finalizado todas las pruebas, la herramienta le pedirá que confirme si el problema se ha corregido. 
 
  ![¿Se ha solucionado el problema? ](images/sdt3.png)
- *Ilustración 3A. ¿Se ha solucionado el problema?*
+ *Ilustración 3A. ¿se ha resuelto el problema?*
 
 6. Si el problema no se resuelve o no sabe, puede enviar un vale de soporte técnico seleccionando **ponerse en contacto con nosotros** para **obtener ayuda ahora.**
  
  ![Enviar una incidencia de soporte técnico ](images/sdt4.png)
- *3B: Enviar una incidencia de soporte técnico*
+ *3B.*
 
 <span id="multiple" />
 

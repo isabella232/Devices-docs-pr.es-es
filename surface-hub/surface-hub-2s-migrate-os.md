@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 96aec50335ab08e9d524c5ae1a595695c1de46d4
-ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+ms.openlocfilehash: 12742cc887ba495f8f7cbded8bd84dc4fd63b6f6
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "11134398"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145975"
 ---
 # Migrar a Windows 10 Pro o Enterprise en Surface Hub 2
 
@@ -167,6 +167,9 @@ El paquete SEMM creado con la herramienta de configuración Surface UEFI debe pr
 1. Conecte una unidad USB a su PC. Elija **Hub 2** y, después, **siguiente**.
 
    ![Seleccionar USB](images/shm-fig13.png)
+
+> [!WARNING]
+> Todos los datos existentes en la unidad USB se borran al crear el paquete SEMM. Antes de crear el paquete SEMM, quite todos los archivos de la unidad USB que desee guardar.
    
 2. Seleccione **generar**.
 
