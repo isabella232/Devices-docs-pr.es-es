@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/21/2020
+ms.date: 11/03/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: a17d4b05e6ee5f7415fed62d96b9e0a62a6dc123
-ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+ms.openlocfilehash: b86776b56e892c34ea8b5abbc55d5c48723a5f9e
+ms.sourcegitcommit: 3ca1d1bc77452acca914d0af03e252ee260ebf1a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "11134408"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "11154132"
 ---
 # Configurar Windows 10 Pro o Enterprise en Surface Hub 2
 
@@ -34,7 +34,7 @@ Al realizar estos pasos, es posible que le resulte útil usar un teclado y un mo
 
 1. Inicie sesión con una cuenta que tenga privilegios de administrador local en el dispositivo.  
 
-    - En los dispositivos Unidos a Azure AD, el usuario que realiza la combinación de Azure AD se agrega automáticamente al grupo de administradores local. Los administradores globales de Azure AD y los administradores de dispositivos Azure AD [también son administradores locales](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
+    - En los dispositivos Unidos a Azure AD, el usuario que realiza la combinación de Azure AD se agrega automáticamente al grupo de administradores local. Los administradores globales de Azure AD y los administradores de dispositivos Azure AD <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank"> también son administradores locales </a> . 
     
     - Puede escribir **net localgroup Administrators** en un símbolo del sistema para enumerar las cuentas que tienen derechos de administrador local.
     
@@ -83,17 +83,17 @@ En el ejemplo siguiente se muestra el panel táctil, que es útil para desplazar
 
 Conecte un teclado y un mouse si usa el dispositivo como dispositivo principal de Windows, o bien Utilícelo a menudo para trabajar con texto o con precisión.
 
-Si el dispositivo Surface Hub está cerca de un PC, puedes usar el [mouse sin bordes](https://aka.ms/mm) para desplazarte sin problemas entre el Surface Hub y el equipo. Para obtener más información, vea [Descargar Microsoft del garaje: mouse sin bordes](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
+Si el dispositivo Surface Hub está cerca de un PC, puedes usar el <a href="https://aka.ms/mm" target="_blank"> mouse sin bordes </a> para desplazarte sin problemas entre el Surface Hub y el equipo. Para obtener más información, vea <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Descargar Microsoft del garaje: mouse sin bordes. </a>
 
 ## OneDrive para la Empresa
 
-Use [OneDrive para la empresa](https://docs.microsoft.com/onedrive/onedrive) para compartir fácilmente herramientas, registros y otros archivos entre todos los dispositivos de su trabajo.
+Use <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneDrive para </a> la empresa para compartir fácilmente herramientas, registros y otros archivos entre todos los dispositivos de su trabajo.
 
 - OneDrive le permite compartir sus archivos de trabajo entre sus equipos portátiles, el escritorio Surface Hub y los dispositivos móviles administrados por Intune. Los archivos se pueden editar en cualquier dispositivo y todos los dispositivos conectados a la red se actualizarán con los cambios.
 
 - Teniendo en cuenta el tamaño de la SSD del Surface Hub (128 GB), si configura OneDrive en su dispositivo de escritorio Surface Hub, asegúrese de que la configuración predeterminada es mantener los archivos en línea y descargar archivos a medida que los usa.
 
-Para configurar OneDrive de modo que descargue los archivos solo cuando sea necesario, establezca la configuración **de archivos a petición** para **ahorrar espacio y descargar archivos a medida que los usa**. Para obtener más información, vea [consultar y establecer los Estados a petición de los archivos en Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
+Para configurar OneDrive de modo que descargue los archivos solo cuando sea necesario, establezca la configuración **de archivos a petición** para **ahorrar espacio y descargar archivos a medida que los usa**. Para obtener más información, vea <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> consultar y establecer los Estados a petición de los archivos en Windows </a> .
 
 ![Configuración de OneDrive](images/onedrive.png)
 
@@ -122,7 +122,7 @@ Para sincronizar los archivos corporativos internos con la unidad local con la a
     
     3. Seleccione **liberar espacio**.
     
-    4. La columna Estado mostrará el estado de archivos y carpetas. Para obtener más información, vea [sincronizar archivos de SharePoint con el cliente de sincronización de OneDrive](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
+    4. La columna Estado mostrará el estado de archivos y carpetas. Para obtener más información, vea <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> sincronizar archivos de SharePoint con el cliente de sincronización de OneDrive </a> .
     
 6. Los archivos de canales de equipos se almacenan en sitios de SharePoint, con todas las mismas funciones de documento de SharePoint, incluido el historial de versiones y la sincronización con dispositivos de escritorio locales. Para sincronizar los archivos de canal:
 
@@ -164,13 +164,13 @@ Emparejar el lápiz para mantener actualizado el firmware del lápiz y obtener l
 
 Puede montar la cámara en la parte superior o en cualquiera de los lados del dispositivo. Monte la cámara en una posición para optimizar el ángulo de la cámara si está usando el Hub con un soporte de escritorio en lugar de un carrito o está cerca del concentrador. La cámara no gira automáticamente, por lo que debe tener una clave hexadecimal 2mm para girar la cámara de forma manual. 
 
-Para obtener más información sobre cómo montar la cámara y girar la cámara de forma manual, consulte [Surface Hub 2s orientación de lente](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation)de la cámara.
+Para obtener más información sobre cómo montar la cámara y girar la cámara de forma manual, consulte <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> Surface Hub 2s orientación de lente de la cámara </a> .
 
 ## Configuración de Windows Hello
 
 Surface Hub 2S si se ejecuta Windows 10 Enterprise, se permite el conjunto completo de aplicaciones de escritorio Win32, así como las opciones de Windows Hello biométricas. El accesorio de lector de huellas dactilares Surface Hub 2 se puede conectar a cualquier puerto USB-C del dispositivo. 
 
-Para solicitar un lector de huellas dactilares Surface Hub 2 o para ver especificaciones técnicas, consulta [Complementos esenciales para Windows 10 Pro y Enterprise en Surface Hub 2](surface-hub-2-essential-add-ons.md). 
+Para solicitar un lector de huellas dactilares Surface Hub 2 o para ver especificaciones técnicas, consulta (surface-hub-2-essential-add-ons.md "target =" _blank ">complementos esenciales para Windows 10 Pro y Enterprise en Surface Hub 2 </a> . 
 
 Después de insertar el lector Fingerprint Reader, seleccione **Start**  >  **Settings**  >  **accounts**  >  **Sign-in Options**  >  **huellator de Windows Hello** para inscribir su huella dactilar.
 
@@ -246,7 +246,7 @@ Como alternativa, puede instalar whiteboard desde Microsoft Store:
 
 ### Microsoft Office
 
-1. Abra el [portal de Office](https://portal.office.com/account#installs) e instale las aplicaciones que desee.
+1. Abra el <a href="https://portal.office.com/account#installs" target="_blank"> portal de Office </a> e instale las aplicaciones que desee.
 
 2. Anclar las aplicaciones de Office que desee a la barra de tareas.
 
@@ -258,7 +258,7 @@ Como alternativa, puede instalar whiteboard desde Microsoft Store:
 
 ### Microsoft Teams
 
-1. Descargue e instale [Microsoft Teams](https://teams.microsoft.com/downloads).
+1. Descargue e instale <a href="https://teams.microsoft.com/downloads" target="_blank"> Microsoft Teams </a> .
 
 2. Establecer la configuración para la aplicación de inicio automático (opcional).
 
@@ -305,20 +305,20 @@ Configuración recomendada en la red corporativa:
 
 La aplicación de **tu teléfono** se instala de forma predeterminada en Windows 10. Si no está presente, también puede instalarlo desde la tienda Windows.
 
-Para obtener información sobre cómo configurar la aplicación, vea [Cómo configurar el teléfono en Windows 10 y cómo sincronizar datos entre su equipo y su teléfono](https://www.windowscentral.com/how-set-your-phone-windows-10). Además, consulta [cómo solucionar problemas comunes con tu aplicación de teléfono en Windows 10](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10).
+Para obtener información sobre cómo configurar la aplicación, vea <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> Cómo configurar el teléfono en Windows 10 y cómo sincronizar datos entre su equipo y su teléfono </a> . Además, consulta <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> cómo solucionar problemas comunes con tu aplicación de teléfono en Windows 10 </a> .
 
 ### Zonas súper sofisticadas
 
-Las **zonas súper sofisticadas** ayudan a los usuarios a organizar las ventanas para maximizar el espacio de la pantalla. Ahora se incluye en [PowerToys](https://github.com/microsoft/PowerToys/releases) en github.
+Las **zonas súper sofisticadas** ayudan a los usuarios a organizar las ventanas para maximizar el espacio de la pantalla. Ahora se incluye en <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys </a> en github.
 
 ### Explorador de cromo de cromo
 
-Descarga e instala el nuevo [navegador Edge de cromo](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL).
+Descarga e instala el nuevo <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> navegador Edge de cromo </a> .
 
 
 ### Herramienta de diagnóstico de hardware Surface Hub
 
-La [herramienta de diagnóstico de hardware de Surface Hub](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) está disponible gratuitamente en Microsoft Store. La herramienta está diseñada para ayudarte a asegurarte de que Surface Hub funcione de la mejor manera posible. Contiene pruebas para determinar si el firmware está actualizado y configurado correctamente. Las pruebas interactivas permiten confirmar que la funcionalidad esencial funciona según lo esperado. Si surgen problemas, los resultados se pueden guardar y compartir con el equipo de soporte técnico de SurfaceHub. Haga clic en el vínculo para instalarlo desde Microsoft Store y, a continuación, ancle la aplicación a la barra de tareas.
+La <a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> herramienta de diagnóstico de hardware de Surface Hub </a> está disponible gratuitamente en Microsoft Store. La herramienta está diseñada para ayudarte a asegurarte de que Surface Hub funcione de la mejor manera posible. Contiene pruebas para determinar si el firmware está actualizado y configurado correctamente. Las pruebas interactivas permiten confirmar que la funcionalidad esencial funciona según lo esperado. Si surgen problemas, los resultados se pueden guardar y compartir con el equipo de soporte técnico de SurfaceHub. Haga clic en el vínculo para instalarlo desde Microsoft Store y, a continuación, ancle la aplicación a la barra de tareas.
 
 ## Configuración adicional
 
@@ -429,7 +429,7 @@ Activa el modo tableta si así lo deseas.
    - Teams (si corresponde)
    - Aplicaciones de Office (si corresponde)
    - Aplicación Surface
-   - Pizarra interactiva
+   - Pizarra
     
 5. Comprobar la detección de presencia.
 
@@ -454,4 +454,4 @@ Activa el modo tableta si así lo deseas.
 
 ## Temas relacionados
 
-[Migrar a Windows 10 Pro o Enterprise en Surface Hub 2](surface-hub-2s-migrate-os.md)
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrar a Windows 10 Pro o Enterprise en Surface Hub 2</a>
