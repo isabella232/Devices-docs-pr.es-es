@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f608e18d04a0d6c48ad2990715b400c95b6d8c12
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: ab43155ee5e2973c5c45fc9ce8dd1395e3ca8bc5
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078730"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174750"
 ---
 # Historial de actualizaciones de SurfaceHub
 
@@ -27,7 +27,17 @@ Actualizaremos esta página a medida que se publiquen nuevas actualizaciones, as
 
 Consulte la página "[información importante del Surface Hub](https://support.microsoft.com/products/surface-devices/surface-hub)" para ver temas relacionados con las versiones actuales y pasadas que pueden requerir su atención.
 
-## Windows 10 Team Creators Update 1703
+## Actualización de Windows 10 Team 2020 (20H2)
+
+<details>
+<summary>Windows 10 Team 2020 Update para Surface Hub: Notas generales de la versión (OS compilación 19042,572)</summary>
+
+Esta actualización para Surface Hub incluye mejoras de calidad y correcciones de seguridad. Las actualizaciones clave para Surface Hub, que aún no se han resaltado en el [historial de actualizaciones de Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history), se indican en la página "[novedades de la actualización de windows 10 Team 2020](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)".
+
+Para obtener más información sobre la disponibilidad de actualizaciones por región, método de distribución y tipo de dispositivo, consulta la página "[instalar la actualización de Windows 10 Team 2020](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)".
+</details>
+
+## Windows 10 Team Creators Update (1703)
 
 <details>
 <summary>1 de septiembre de 2020 — actualización para Surface Hub 2S</summary>
@@ -169,7 +179,7 @@ Consulte la guía del [Administrador de Surface Hub](https://docs.microsoft.com/
 
 Esta actualización para Surface Hub incluye mejoras de calidad y correcciones de seguridad. Las actualizaciones clave de Surface Hub, aún no resaltadas en el [historial de actualizaciones de Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluyen:
 
-* Soluciona un problema que impide que algunos usuarios inicien sesión en "mis reuniones y archivos".
+* Soluciona un problema que impide que algunos usuarios Signing-Inn "mis reuniones y archivos".
 
 Consulte la guía del [Administrador de Surface Hub](https://docs.microsoft.com/surface-hub/) para habilitar o deshabilitar las características y los servicios del dispositivo.
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
@@ -322,7 +332,7 @@ Esta actualización para Surface Hub incluye mejoras de calidad y correcciones d
 <summary>1 de agosto de 2017 — actualización del equipo basado en KB4032188 * (OS Build 15063,498)</summary>
 
 * Skype Empresarial 
-  * Resuelve el problema de inicio de sesión en Skype empresarial, que requirió Reintentar o reiniciar el sistema.
+  * Resuelve el problema de Sign-In de Skype empresarial, que requirió Reintentar o reiniciar el sistema.
   * Resuelve la hora de la reunión de Skype empresarial que se muestra incorrectamente.
   * Soluciones para mejorar la fiabilidad de Skype Hub de Skype empresarial.
 
@@ -416,7 +426,7 @@ Esta actualización para Surface Hub incluye mejoras de calidad y correcciones d
 * Correcciones de rendimiento y confiabilidad
   * Se han resuelto varios problemas de restablecimiento y recuperación
   * Problema de autenticación de Exchange Surface Hub solucionado al utilizar certificados de cliente
-  * Estabilidad mejorada de conexión de red Wi-Fi y credenciales
+  * Mayor estabilidad de conexión de red y de credenciales Wi-Fi
   * Problemas de reproducción y sincronización de audio Miracast fijos durante la reproducción de vídeo
   * Se incluye una opción para deshabilitar el comportamiento de conexión automática
 
@@ -424,7 +434,7 @@ Esta actualización para Surface Hub incluye mejoras de calidad y correcciones d
 
 </details>
 
-## Actualización de aniversario de Windows 10 1607
+## Actualización de aniversario de Windows 10 (1607)
 
 <details>
 <summary>14 de marzo de 2017 — actualización del equipo basado en KB4013429 * (OS Build 14393,953)</summary>
@@ -501,7 +511,7 @@ Esta actualización lleva la actualización de aniversario de Windows 10 Teams a
     * El vídeo de llamadas salientes no se muestra a los demás participantes
   * Problema solucionado con el error de inicio de sesión UPN
   * Problema solucionado con el teclado de marcado durante el uso de llamadas de protocolo de inicio de sesión (SIP)
-* Pizarra interactiva
+* Pizarra
   * Ahora el usuario puede guardar y recuperar sesiones de pizarra con el servicio de OneDrive online (a través de la funcionalidad de uso compartido)
   * Se ha mejorado el inicio de whiteboard al quitar el lápiz del Dock
 * Aplicaciones
@@ -546,7 +556,7 @@ Esta actualización incluye mejoras de calidad y correcciones de seguridad. No s
 * Problema corregido que causa el bloqueo del servicio de apagado
 * Problema corregido en el que algunos datos de la aplicación no se quitaron correctamente después de una sesión
 * Controlador NFC de Broadcom actualizado para mejorar el rendimiento de NFC
-* Controlador Wi-Fi de Marvell actualizado para mejorar el rendimiento de Miracast
+* Controlador de Marvell Wi-Fi actualizado para mejorar el rendimiento de Miracast
 * Controlador NVIDIA actualizado para corregir un error de visualización en el que los dispositivos Surface Hub de 84 "muestran contenido atenuado o aproximado
 * Se han corregido numerosos problemas de Skype empresarial, entre los que se incluyen: 
   * Problema que provocaba que Skype empresarial se desconecte durante las reuniones
