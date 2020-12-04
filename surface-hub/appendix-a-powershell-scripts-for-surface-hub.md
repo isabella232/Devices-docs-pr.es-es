@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/10/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: ebae05d4d1fe67d690c19e003b2755c4720af265
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 92b42139020db13251fa6c5f8439d7084a61a132
+ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836610"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "11195385"
 ---
 # PowerShell para Surface Hub
 
@@ -33,6 +33,9 @@ Scripts de PowerShell para ayudar a configurar y administrar Microsoft Surface H
     -   [Permitir id. de dispositivo para ActiveSync](#whitelisting-device-ids-cmdlet)
     -   [Aceptar o rechazar automáticamente convocatorias de reunión](#auto-accept-meetings-cmdlet)
     -   [Aceptar convocatorias de reunión externas](#accept-ext-meetings-cmdlet)
+    
+ > [!NOTE]
+ > Consulte también la [autenticación moderna y las secuencias de comandos desatendidos en Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
 
 ## Requisitos previos
 
@@ -92,7 +95,7 @@ Estos son los atributos que establecen los scripts:
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><p>EnableRoomMailboxAccount</p></td>
-<td align="left"><p>Verdadero</p></td>
+<td align="left"><p>True</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p></p></td>
@@ -107,17 +110,17 @@ Estos son los atributos que establecen los scripts:
 <tr class="odd">
 <td align="left"><p></p></td>
 <td align="left"><p>RemovePrivateProperty</p></td>
-<td align="left"><p>Falso</p></td>
+<td align="left"><p>False</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><p>DeleteSubject</p></td>
-<td align="left"><p>Falso</p></td>
+<td align="left"><p>False</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p></p></td>
 <td align="left"><p>DeleteComments</p></td>
-<td align="left"><p>Falso</p></td>
+<td align="left"><p>False</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
@@ -127,7 +130,7 @@ Estos son los atributos que establecen los scripts:
 <tr class="odd">
 <td align="left"><p></p></td>
 <td align="left"><p>AddAdditionalResponse</p></td>
-<td align="left"><p>Verdadero</p></td>
+<td align="left"><p>True</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
@@ -142,7 +145,7 @@ Estos son los atributos que establecen los scripts:
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><p>AllowNonProvisionableDevices</p></td>
-<td align="left"><p>Verdadero</p></td>
+<td align="left"><p>True</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Enable-CSMeetingRoom</p></td>
@@ -162,7 +165,7 @@ Estos son los atributos que establecen los scripts:
 <tr class="even">
 <td align="left"><p>Set-MsolUser (solo O365)</p></td>
 <td align="left"><p>PasswordNeverExpires</p></td>
-<td align="left"><p>Verdadero</p></td>
+<td align="left"><p>True</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Set-AdUser (solo local)</p></td>

@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 10/13/2020
+ms.date: 12/03/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: d1099da397e47ad1ea44645623dce48498259eaa
-ms.sourcegitcommit: 5c396f37ed90f81373b9fdf8464cb9163f2797d4
+ms.openlocfilehash: 01c5c8a5c6b9f7ed657829fe792fc9eecd1facb5
+ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "11168579"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "11195405"
 ---
 # Migrar a Windows 10 Pro o Enterprise en Surface Hub 2
 
@@ -65,7 +65,7 @@ El configurador de Surface UEFI funciona como una interfaz en el modo de adminis
 
 Antes de migrar Surface Hub de equipo de Windows 10 a escritorio de Windows 10, necesitas una versión de UEFI que sea al menos de *694.2938.768.0*.
  
-Para comprobar la versión UEFI de su sistema:
+**Para comprobar la versión UEFI de su sistema:**
 
 1. En la página de inicio de Surface Hub 2S, seleccione **Inicio**y, después, abra la aplicación Surface (toda la superficie de**aplicaciones**  >  **Surface**).
 
@@ -74,9 +74,9 @@ Para comprobar la versión UEFI de su sistema:
 
        ![Captura de pantalla que muestra la página de la superficie en la aplicación de Surface.](images/shm-fig1.png)
  
-   - Si la versión de UEFI es anterior a *694.2938.768.0*, obtenga una versión actual con Windows Update.
-
-Para actualizar el UEFI mediante Windows Update:
+   - Si la versión UEFI es anterior a la versión 694.2938.768.0, tendrá que obtener una versión actual instalando la imagen de la ventana 10 Team 2020 (BMR, Bare Metal Recovery) o mediante Windows Update.
+   
+**Para actualizar UEFI a través de Windows Update:**
 
 1. En Surface Hub 2S, inicie sesión como **Administrador**. 
     >[!Note]
@@ -85,8 +85,14 @@ Para actualizar el UEFI mediante Windows Update:
 1. Vaya a configuración de **todas las aplicaciones**  >  **Settings**  >  **y actualice**  >  **Windows Update**y, a continuación, instale todas las actualizaciones. 
 1. Reinicia el dispositivo. 
 1. Verifica la versión UEFI con la aplicación Surface. 
-2. Repita estos pasos hasta que la versión de UEFI sea *694.2938.768.0* o posterior.
-3. Si no ve la versión UEFI actualizada después de varios intentos, consulte el **historial de actualizaciones** y busque las instancias de errores de instalación de firmware. Es posible que tenga que restablecer el dispositivo (actualización de**configuración**  >  **&**  >  **dispositivo de restablecimiento**de seguridad).
+1. En este punto, si la versión de UEFI aún no es la versión 694.2938.768.0 o posterior, puede repetir los pasos anteriores o puede obtener el UEFI más reciente instalando la imagen de recuperación de hardware de Windows 10 Team 2020 (BMR).
+
+**Para actualizar UEFI a través de la imagen de recuperación de hardware (BMR):**
+
+1.  Vaya al [sitio de recuperación de superficie](https://support.microsoft.com/surfacerecoveryimage) y seleccione **Surface Hub 2s** .
+3.  Escribe el número de serie del concentrador (ubicado en la parte posterior del concentrador junto a la conexión de alimentación).
+4.  Siga las instrucciones para descargar la imagen en una unidad USB con formato a través de la instalación de la actualización 2020 del equipo de Windows 10.
+5.  Una vez completada la actualización y cuando el dispositivo entra en la configuración de primera vez de OOBE, no es necesario completar OOBE, la versión de UEFI se actualizará. En su lugar, apague el dispositivo manteniendo presionado el botón de encendido hasta que se apague la pantalla. 
 
 ### Descargar el configurador de Surface UEFI y los drivers y firmware de Surface Hub 2
 
@@ -165,10 +171,20 @@ El paquete SEMM que crea Surface del configurador UEFI debe protegerse con un ce
     
     ![Establezca habilitar la migración de OS en activado.](images/shm-fig12.png)
 
-> [!NOTE]
-> Después de aplicar un paquete SEMM, en el menú UEFI del dispositivo, la configuración de UEFI no está disponible (está bloqueada). Los valores predeterminados para otras opciones como **IPv6 para el arranque PXE** tampoco están disponibles. 
->
->Para cambiar la configuración de UEFI después de finalizar la migración, aplique otro paquete de SEMM o desinscriba el dispositivo de SEMM. Si aplica otro paquete de SEMM para cambiar la configuración de UEFI, debe usar el certificado original cuando compile el nuevo paquete de SEMM. Use la herramienta de configurador UEFI y deje **EnableOSMigration** desactivado (no activado, como se muestra en los pasos de la migración original).
+### Administración de la inscripción de SEMM
+
+La inscripciones de dispositivos a SEMM afecta la manera en que puede administrar el dispositivo hacia adelante. Por ejemplo, después de aplicar un paquete SEMM, en el menú UEFI del dispositivo, la configuración de UEFI no está disponible (está bloqueada). Los valores predeterminados para otras opciones como **IPv6 para el arranque PXE** tampoco están disponibles. 
+
+Para cambiar la configuración de UEFI después de finalizar la migración, aplique otro paquete de SEMM o desinscriba el dispositivo de SEMM. Si aplica otro paquete de SEMM para cambiar la configuración de UEFI, debe usar el certificado original cuando compile el nuevo paquete de SEMM. Use la herramienta de configurador UEFI y deje **EnableOSMigration** desactivado (no activado, como se muestra en los pasos de la migración original).
+
+#### Trabajar con socios
+
+Si su empresa subcontrata la migración a Windows 10 Pro o Enterprise en Surface Hub 2, es posible que quiera que el socio transfiera el certificado SEMM, el paquete SEMM y la contraseña de UEFI.  Como alternativa, después de migrar el Hub, puede anular inmediatamente la inscripción de la SEMM, lo que permitirá la administración local de UEFI y la transferencia del dispositivo a otra persona. Sin embargo, se recomienda encarecidamente usar una contraseña de UEFI, que puede configurarse después de la migración. Para obtener más información, vea [administrar la configuración de Surface UEFI](https://docs.microsoft.com/surface/manage-surface-uefi-settings). 
+
+#### Volver al equipo de Windows 10
+
+Si, después de migrar, elige restaurar el dispositivo a Windows 10 Team, [tal como se describe a continuación](#roll-back-to-windows-10-team), se recomienda anular la inscripción del Hub de semm. Para obtener más información, vea [anular la inscripción de dispositivos de Surface desde SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 
 #### Guardar el paquete SEMM en una unidad USB
 
@@ -299,12 +315,16 @@ Para configurar Surface Hub 2S como dispositivo de productividad personal, consu
 
 Si deseas restaurar el dispositivo en el equipo con Windows 10, consulta <a href="surface-hub-2s-recover-reset.md" target="_blank"> restablecer y recuperar en Surface Hub 2s </a> .
 
+> [!NOTE]
+> Antes de volver al equipo de Windows 10, se recomienda anular en primer lugar el Hub de SEMM. Para obtener más información, vea [anular la inscripción de dispositivos de Surface desde SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 ## Historial de versiones
 
 En la tabla siguiente se resumen los cambios realizados en este artículo.
 
 | Versión | Date               | Descripción                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| v. 1,3  | 3 de diciembre de 2020 | Actualizado con instrucciones sobre la administración de la inscripción de SEMM                                                        |
 | v. 1,2  | 29 de septiembre de 2020 | Actualizaciones varias que tratan los comentarios de uso.                                                        |
 | v. 1,1  | 15 de septiembre de 2020 | Se ha colocado una nota adicional en la introducción que clarifica los requisitos de licencia para instalar un nuevo sistema operativo. |
 | v. 1.0  | 1 de septiembre de 2020  | Nuevo artículo.                                                                                           |
