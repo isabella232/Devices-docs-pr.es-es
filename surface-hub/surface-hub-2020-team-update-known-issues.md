@@ -11,18 +11,18 @@ audience: Admin
 ms.topic: article
 ms.date: 12/04/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 324f6a0125522f8f258b1c8faa614782a20fe6c8
-ms.sourcegitcommit: 16cc2e8d9dfc5d6e061e0b5b6ddfcf35547643f2
+ms.openlocfilehash: 87eb7d193b5afb1f1b2ea6e2dc1c17143d7ef3ef
+ms.sourcegitcommit: f007f40f4b4fb49280fe6073bd857c9d7624a9cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "11196776"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "11218881"
 ---
 # Problemas conocidos: actualización de Windows 10 Team 2020 
 
 En este artículo se enumeran los problemas conocidos para Windows 10 Team 2020 Update, el sistema operativo actual para Surface Hub.
 
-Para asegurarse de que Surface Hub reciba las últimas actualizaciones, inicie sesión con una cuenta de administrador y seleccione la actualización de la configuración de **todas las aplicaciones**  >  **Settings**  >  **y**  >  **Windows Update**y, a continuación, instale todas las actualizaciones.
+Para asegurarse de que Surface Hub reciba las últimas actualizaciones, inicie sesión con una cuenta de administrador y seleccione la actualización de la configuración de **todas las aplicaciones**  >  ****  >  **y**  >  **Windows Update**y, a continuación, instale todas las actualizaciones.
 
 
 
@@ -36,5 +36,5 @@ Para asegurarse de que Surface Hub reciba las últimas actualizaciones, inicie s
 | Los dispositivos Hub 2S no pueden recibir actualizaciones de drivers con WSUS.                                             | Surface Hub 2S admite Windows Update y Windows Update para empresas para distribuir drivers; no se admite la distribución a través de Windows Server Update Services (WSUS).                                                                                                                                                                                                                                                                      | Si usa WSUS, migre a Windows Update para empresas.<br> <br>**Más información**: [¿Qué es Windows Update para empresas?](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)                                                                                                                                                                                                                                                                                                                            |
 | La pizarra de Microsoft no se actualiza desde Microsoft Store                                               | Después de actualizar a Windows 10 Team 2020, la aplicación whiteboard de Microsoft no se actualizará a través de Microsoft Store.                                                                                                                                                                                                                                                                                                                       | Desinstale la aplicación whiteboard y vuelva a instalarla desde Microsoft Store o su proveedor de MDM.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Se produce un error de inicio de sesión único para los dispositivos Unidos a Azure Active Directory al usar un teléfono para iniciar sesión en Surface Hub | Si un administrador de ti ha configurado el inquilino para usar la [autenticación sin contraseñas](surface-hub-2s-phone-authenticate.md) para iniciar sesión en Surface Hub y el dispositivo está unido a AAD, los usuarios no pueden iniciar sesión con un dispositivo móvil, como un teléfono.                                                                                                       | Inicia sesión manualmente en Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-
+| El centro de actividades tiene un vínculo de configuración que no se activa. | Este vínculo no debe aparecer en el equipo de Windows 10 y puede causar confusión.                                                                                                       | La funcionalidad es la misma que antes de la actualización de 2020; la sección aplicaciones del menú Inicio debe usarse para iniciar la aplicación configuración.                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
