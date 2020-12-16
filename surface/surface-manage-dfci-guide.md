@@ -18,18 +18,18 @@ appliesto:
 - Surface Laptop 3
 - Surface Book 3
 - Surface Laptop Go
-ms.openlocfilehash: 20d1b187a565f210eedc632be1addeac5dd714ba
-ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
+ms.openlocfilehash: e984741a8367935eab18351815c5f00d9f8a72b7
+ms.sourcegitcommit: efc38524f81238e0c36371f462eb57123e46d09b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105865"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "11228551"
 ---
 # Administración de Intune de la configuración de la UEFI de Surface
 
 ## Introducción
 
-La capacidad de administrar dispositivos desde la nube ha simplificado considerablemente la implementación y el aprovisionamiento de TI en todo el ciclo de vida. Con los perfiles de la interfaz de configuración de firmware (DFCI) integrado en Microsoft Intune (ahora disponible en la [versión preliminar pública](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)), la administración de Surface UEFI amplía la pila de administración moderna al nivel de hardware de UEFI. DFCI es compatible con el aprovisionamiento sin contacto, elimina las contraseñas del BIOS, proporciona el control de la configuración de seguridad, incluidas las opciones de arranque y los periféricos integrados, y establece las bases para escenarios de seguridad avanzada en el futuro. Para obtener respuestas a las preguntas más frecuentes, consulte [encendido de la 2019: anuncio de la administración remota de la configuración de Surface UEFI desde Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+La capacidad de administrar dispositivos desde la nube ha simplificado considerablemente la implementación y el aprovisionamiento de TI en todo el ciclo de vida. Con los perfiles de la interfaz de configuración de firmware (DFCI) de dispositivos integrados en [Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows), la administración de Surface UEFI extiende la pila de administración moderna al nivel de hardware UEFI. DFCI es compatible con el aprovisionamiento sin contacto, elimina las contraseñas del BIOS, proporciona el control de la configuración de seguridad, incluidas las opciones de arranque y los periféricos integrados, y establece las bases para escenarios de seguridad avanzada en el futuro. Para obtener respuestas a las preguntas más frecuentes, consulte [encendido de la 2019: anuncio de la administración remota de la configuración de Surface UEFI desde Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
 
 ### Segundo plano
 
@@ -39,9 +39,9 @@ A diferencia de otros dispositivos Windows 10 disponibles actualmente en el merc
 
 ### DFCI frente a SEMM
 
-Hasta ahora, la administración del firmware requirió la inactividad de los dispositivos en el modo Surface de administración de la empresa (SEMM) con el overhead de las tareas manuales intensivas en curso. A modo de ejemplo, SEMM requiere que el personal de ti acceda físicamente a cada PC para introducir un PIN de dos dígitos como parte del proceso de administración de certificados. Aunque SEMM sigue siendo una buena solución para las organizaciones en un entorno estrictamente local, la complejidad y los requisitos de ti hacen que sea costoso utilizarlos.
+Anteriormente, la administración del firmware requirió la inactividad de los dispositivos en el modo de administración de empresa de Surface (SEMM) con el overhead de las tareas manuales intensivas en curso. A modo de ejemplo, SEMM requiere que el personal de ti acceda físicamente a cada PC para introducir un PIN de dos dígitos como parte del proceso de administración de certificados. Aunque SEMM sigue siendo una buena solución para las organizaciones en un entorno estrictamente local, la complejidad y los requisitos de ti hacen que sea costoso utilizarlos.
 
-Ahora, con las funciones de administración de firmware de UEFI recientemente integradas en Microsoft Intune, la capacidad de bloquear el hardware se ha simplificado y es más fácil de usar con nuevas características para el aprovisionamiento, la seguridad y la actualización simplificada en una única consola, ahora unificada como [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). La siguiente ilustración muestra la configuración de UEFI visualizada directamente en el dispositivo (a la izquierda) y visualizada en la consola de Endpoint Manager (derecha).
+ Gracias a las capacidades integradas de administración de firmware UEFI en Microsoft Intune, la capacidad de bloquear el hardware se simplifica y es más fácil de usar con nuevas características para el aprovisionamiento, la seguridad y la actualización simplificada en una única consola, ahora unificada como [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). La siguiente ilustración muestra la configuración de UEFI visualizada directamente en el dispositivo (a la izquierda) y visualizada en la consola de Endpoint Manager (derecha).
 
 ![Configuración de UEFI mostrada en el dispositivo (izquierda) y en la consola de Endpoint Manager (derecha)](images/uefidfci.png)
 
@@ -86,7 +86,7 @@ Antes de configurar las opciones de directiva de DFCI, cree un perfil de DFCI y 
     ![Crear Perfil de DFCI](images/df1.png)
 
 5. Haga clic en **Aceptar** y, después, seleccione **crear**.
-6. Seleccione **tareas** y, en **seleccionar grupos para incluir** , seleccione el grupo de seguridad de Azure ad que contiene los dispositivos de destino, como se muestra en la siguiente ilustración. Haz clic en **Guardar**.
+6. Seleccione **tareas** y, en **seleccionar grupos para incluir** , seleccione el grupo de seguridad de Azure ad que contiene los dispositivos de destino, como se muestra en la siguiente ilustración. Haga clic en **Guardar**.
 
     ![Asignar grupo de seguridad](images/df2a.png)
 

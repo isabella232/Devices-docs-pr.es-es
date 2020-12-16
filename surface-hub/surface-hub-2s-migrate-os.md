@@ -9,16 +9,18 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 01c5c8a5c6b9f7ed657829fe792fc9eecd1facb5
-ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
+ms.openlocfilehash: c2851505b3595ea768217de443676b45cc01a9ae
+ms.sourcegitcommit: efc38524f81238e0c36371f462eb57123e46d09b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "11195405"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "11228561"
 ---
 # Migrar a Windows 10 Pro o Enterprise en Surface Hub 2
+
+- [Artículo historial de versiones](#version-history)
 
 Surface Hub 2S viene preinstalado con el equipo con Windows 10. Esta edición personalizada de Windows 10 está diseñada para facilitar la colaboración en entornos de reuniones. Ahora tienes la opción de ejecutar Windows 10 Pro o Enterprise para usar Surface Hub 2 de manera similar a cualquier otro equipo. 
 
@@ -67,7 +69,7 @@ Antes de migrar Surface Hub de equipo de Windows 10 a escritorio de Windows 10, 
  
 **Para comprobar la versión UEFI de su sistema:**
 
-1. En la página de inicio de Surface Hub 2S, seleccione **Inicio**y, después, abra la aplicación Surface (toda la superficie de**aplicaciones**  >  **Surface**).
+1. En la página de inicio de Surface Hub 2S, seleccione **Inicio**y, después, abra la aplicación Surface (toda la superficie de**aplicaciones**  >  ****).
 
 2. Seleccione **la superficie** para mostrar información sobre Surface Hub, incluida la versión UEFI actual en el dispositivo. 
    - Si la versión UEFI es *694.2938.768.0* o posterior, como se muestra en la siguiente imagen, puede crear el paquete SEMM para habilitar la migración del sistema operativo.
@@ -82,7 +84,7 @@ Antes de migrar Surface Hub de equipo de Windows 10 a escritorio de Windows 10, 
     >[!Note]
     > Si no conoce el nombre de usuario o la contraseña de administrador, tendrá que restablecer el dispositivo. Para obtener más información, consulte <a href="https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset" target="_blank"> restablecer y recuperar en Surface Hub 2S.</a>
 
-1. Vaya a configuración de **todas las aplicaciones**  >  **Settings**  >  **y actualice**  >  **Windows Update**y, a continuación, instale todas las actualizaciones. 
+1. Vaya a configuración de **todas las aplicaciones**  >  ****  >  **y actualice**  >  **Windows Update**y, a continuación, instale todas las actualizaciones. 
 1. Reinicia el dispositivo. 
 1. Verifica la versión UEFI con la aplicación Surface. 
 1. En este punto, si la versión de UEFI aún no es la versión 694.2938.768.0 o posterior, puede repetir los pasos anteriores o puede obtener el UEFI más reciente instalando la imagen de recuperación de hardware de Windows 10 Team 2020 (BMR).
@@ -267,7 +269,7 @@ El siguiente procedimiento describe cómo crear una unidad flash USB desde los m
 
    ![Escriba la contraseña de UEFI.](images/shm-fig22.png)
    
-4. En el menú UEFI, seleccione **Management**  >  **instalación de administración desde USB**.
+4. En el menú UEFI, seleccione ****  >  **instalación de administración desde USB**.
 
    ![Seleccione Administración e instale desde U S B.](images/shm-fig21.png)
    
@@ -302,7 +304,7 @@ El siguiente procedimiento describe cómo crear una unidad flash USB desde los m
 
 ### Instalar drivers y firmware de Surface Hub 2
 
-Para asegurarse de que el dispositivo tiene todas las actualizaciones y drivers más recientes, instale los <a href="https://www.microsoft.com/download/details.aspx?id=101974" target="_blank"> drivers y el firmware para Windows 10 Pro y el sistema operativo empresarial en Surface Hub 2 </a> .
+Para asegurarse de que el dispositivo tiene todas las actualizaciones y drivers más recientes, instale los <a href="https://www.microsoft.com/download/details.aspx?id=101974" target="_blank"> drivers y el firmware para Windows 10 Pro y el sistema operativo empresarial en Surface Hub 2 </a> . Después de instalar los MSI drivers y firmware, reinicie el dispositivo. Después, después de volver a encender el concentrador, mantenga encendido una hora del equipo y reinicie el dispositivo de nuevo. No se le pedirá el segundo reinicio. Según el estado de su equipo antes de migrar a Windows 10 Pro o Enterprise, es posible que se necesite este segundo paso para asegurarse de que se haya actualizado todo el firmware.
  
 ## Establecer la configuración recomendada
 
@@ -324,7 +326,8 @@ En la tabla siguiente se resumen los cambios realizados en este artículo.
 
 | Versión | Date               | Descripción                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
-| v. 1,3  | 3 de diciembre de 2020 | Actualizado con instrucciones sobre la administración de la inscripción de SEMM                                                        |
+| v. 1,4  | 14 de diciembre de 2020 | Proporciona [más información](#install-surface-hub-2-drivers-and-firmware) sobre cómo instalar el archivo MSI para "Drivers and firmware for Windows 10 Pro y el sistema operativo empresarial en Surface Hub 2", en el que se advierte que es posible que sea necesario reiniciar el equipo según el estado de su sistema.                                                          |
+| v. 1,3  | 3 de diciembre de 2020 | Actualizado con instrucciones sobre la administración de la [inscripción de SEMM](#managing-semm-enrollment).                                                       |
 | v. 1,2  | 29 de septiembre de 2020 | Actualizaciones varias que tratan los comentarios de uso.                                                        |
 | v. 1,1  | 15 de septiembre de 2020 | Se ha colocado una nota adicional en la introducción que clarifica los requisitos de licencia para instalar un nuevo sistema operativo. |
 | v. 1.0  | 1 de septiembre de 2020  | Nuevo artículo.                                                                                           |
