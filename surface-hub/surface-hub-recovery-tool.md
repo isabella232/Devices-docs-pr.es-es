@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/22/2018
+ms.date: 12/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 1988a6ed59525d7dc77872e532247dbc50f01bdf
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a9ebab6848efa706609a39b0eb99fa42df2156bf
+ms.sourcegitcommit: ce7ad475b776a78ba215e77111ea5371afeb4f28
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836894"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237367"
 ---
 # Uso de la herramienta de recuperación de Surface Hub
 
@@ -53,9 +53,9 @@ Si la herramienta no se completa correctamente, póngase en contacto [con el sop
 
 ## Descargar la herramienta de recuperación de Surface Hub
 
-La herramienta de recuperación de Surface Hub está disponible para su descarga desde las [herramientas de Surface hub para ello](https://www.microsoft.com/download/details.aspx?id=52210) bajo el nombre de archivo **SurfaceHub_Recovery_v1.14.137.0.msi**.
+La herramienta de recuperación de Surface Hub está disponible para su descarga desde las [herramientas de Surface hub para ello](https://www.microsoft.com/download/details.aspx?id=52210)  bajo el nombre de archivo **SurfaceHub_Recovery_v2.0.139.0.msi**.
 
-Para iniciar la descarga, haga clic en **Descargar**, elija **SurfaceHub_Recovery_v1.14.137.0.msi** de la lista y haga clic en **siguiente**. En el menú emergente, elija una de las siguientes opciones:
+Para iniciar la descarga, haga clic en **Descargar**, elija **SurfaceHub_Recovery_v2.0.139.0.msi** de la lista y haga clic en **siguiente**. En el menú emergente, elija una de las siguientes opciones:
 
 - Haga clic en **Ejecutar** para iniciar la instalación inmediatamente.
 - Haga clic en **Guardar** para copiar la descarga en el equipo para su instalación posterior.
@@ -72,13 +72,20 @@ Instale la herramienta de recuperación de Surface Hub en el equipo host.
 
     ![Botón Inicio de la herramienta de recuperación](images/shrt-start.png)
 
+
 3. En la ventana de **guías** , haga clic en **siguiente**.
 
     ![No deje que su equipo pase a la guía de suspensión](images/shrt-guidance.png)
 
-4. Haga clic en **sí** para descargar la imagen. La descarga de la imagen de recuperación depende de la velocidad de conexión a Internet. En una conexión corporativa media, la descarga del archivo de imagen de 8 GB puede tardar hasta una hora.
+4. En la ventana Seleccionar imagen, haga clic en **RS2** o su sucesor **20H2**, seleccione **continuar** y, después, seleccione **Descargar imagen.**
 
-    ![¿Descargar la imagen?](images/shrt-download.png)
+     ![Herramienta de recuperación seleccionar imagen de la ](images/shrt-select-image.png) ![ herramienta de recuperación de imágenes](images/shrt-download-image.png)
+
+5. La descarga de la imagen de recuperación depende de la velocidad de conexión a Internet. En una conexión corporativa media, la descarga del archivo de imagen de 8 GB puede tardar hasta una hora.
+
+    ![Descargando imagen](images/shrt-download.png)
+
+
 
 5. Una vez completada la descarga, la herramienta le indica que conecte una unidad SSD. Si la herramienta no puede ubicar la unidad conectada, existe la posibilidad de que el cable utilizado no informe al nombre de la SSD en Windows.  La herramienta de creación de imágenes debe encontrar el nombre de la unidad como "dispositivo USB LITEon L CH-128V2S" antes de que pueda continuar.  Para obtener más información sobre cómo quitar la unidad existente de su Surface Hub, consulte [sustitución de SSD en Surface Hub](surface-hub-ssd-replacement.md).
 
@@ -86,13 +93,11 @@ Instale la herramienta de recuperación de Surface Hub en el equipo host.
 
 6. Cuando se reconozca la unidad, haga clic en **iniciar** para comenzar el proceso de creación de imágenes. En la advertencia de que se borrarán todos los datos de la unidad, haga clic en **Aceptar**.
 
-    ![Iniciar la creación de imágenes de SSD](images/shrt-drive-start.png)
+
 
     Antes de aplicar la imagen del sistema a la unidad, se vuelve a particionar y formatear SSD. La copia de los archivos binarios del sistema tardará aproximadamente 30 minutos, pero puede tardar más tiempo en función de la velocidad de su bus USB, el cable que se usa o el software antivirus instalado en su sistema.
 
-    ![Copia finalizada](images/shrt-done.png)
 
-    ![Recreación de imágenes completada](images/shrt-complete.png)
 
 ## Solución de problemas y problemas comunes
 
@@ -100,7 +105,19 @@ Problema | Notas
 --- | ---
 La herramienta no puede hacer una imagen de la SSD | Asegúrate de estar usando un SSD suministrado por fábrica y uno de los cables probados.
 El proceso de recreación de imágenes aparece detenido o inmovilizado | Es seguro cerrar y reiniciar la herramienta de recuperación de Surface Hub sin ningún efecto indebido a la SSD.
-La herramienta no reconoce la unidad | Verifica que la SSD del Surface Hub se Enumere como una unidad Lite-on, "dispositivo USB LITE-CH de 128V2S".  Si la unidad se reconoce como otro dispositivo con nombre, el cable actual no es compatible. Prueba otro cable o uno de los cables probados mencionados arriba.
+La herramienta no reconoce la unidad | Verifique que la SSD del Surface Hub se Enumere como una unidad de Lite-On, "dispositivo USB 128V2S").  Si la unidad se reconoce como otro dispositivo con nombre, el cable actual no es compatible. Prueba otro cable o uno de los cables probados mencionados arriba.
 Error:-2147024809 | Abra Disk Manager y quite las particiones de la unidad Surface Hub.  Desconecte y vuelva a conectar la unidad al equipo host. Vuelva a iniciar la herramienta de creación de imágenes.
 
 Si la herramienta no se completa correctamente, póngase en contacto [con el soporte técnico de Surface Hub](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+
+## Historial de versiones
+
+### Versión v 2.0.139.0
+
+*Fecha de lanzamiento: 18 de diciembre de 2020*<br>
+Esta versión de Surface Hub Recovery Tool agrega compatibilidad con los siguientes elementos:
+- Actualización para admitir Windows 10 Team 2020 Update (20H2)
+- Mejoras en la experiencia del usuario
+- Cambios en la arquitectura
+- Adiciones de telemetría
+
