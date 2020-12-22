@@ -9,23 +9,22 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 932e5b801c0990a080148e420db3259cdb7e2ab5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 12/21/2020
+ms.openlocfilehash: e8f01a7e6ce087f649d99c1fc13f149fa375fc8a
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836010"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238115"
 ---
 # Información técnica para el Surface Hub de 84
-
-## Medir 
 
 |
 --- | ---
 Precios | A partir de $21.999 
 Tamaño |  46,12 "x 86,7" x 4,15 "(1171.5 mm x 2202.9 mm x 105.4 mm)
 Almacenamiento/RAM | SSD 128 GB con 8 GB de RAM
-Encargado del tratamiento de datos   | Intel® Core™ i7 
+Procesador   | Intel® Core™ i7 
 Gráficos |  K2200 NVIDIA Quadro 
 Puertos | **PC interno**<br>• (1) USB 3,0 (inferior) + (1) USB 3,0 (acceso de cara)<br>• (4) USB 2,0<br>• Ethernet 1000 Base-T<br>• Salida de video DisplayPort<br>• Salida de sonido estéreo de 3,5 mm<br>• Conector RJ11 para control en el nivel del sistema<br>**PC alternativo**<br>• (2) salida USB 2,0 de tipo B<br>• conexión de cámara, sensores, micrófono, altavoces<br>• (2) entrada de video de DisplayPort<br>**EQUIPO invitado**<br>• Entrada de video DisplayPort<br>• Entrada de video HDMI<br>• Entrada de video VGA<br>• Entrada estéreo de 3,5 mm<br>• (1) USB 2,0 Type B Touchback™ salida
 Sensores  | (2) sensores de presencia de infrarrojos pasivos, sensores de luz ambiental 
@@ -54,6 +53,11 @@ Voltaje de entrada | 110/230V nominal, 90-265V máx.
 Potencia de entrada, operativa |    900W Max
 Alimentación de entrada, Standby    |   5W nominal, 1-10W Max
 
+> [!NOTE]
+> Surface Hub puede usarse de forma continua durante un máximo de 18 horas al día. Para optimizar la eficiencia, Surface Hub usa sensores inteligentes para desactivar la pantalla LED cuando ya no se detecta su presencia, lo que significa que no es necesario apagarla al final del día. Si la unidad está instalada en un entorno de trabajo de 24 horas, los sensores se pueden deshabilitar para cumplir con la recomendación de uso máximo de 18 horas por día. Tenga en cuenta que la visualización prolongada de una señal de vídeo puede hacer que se realice la retención de imágenes o en la pantalla. Para obtener más información sobre cómo administrar la configuración de energía, consulte:
+>
+> - [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md)
+> - [CSP SurfaceHub: administración de clientes de Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 ## Sustituir conexiones de PC 
 
@@ -96,28 +100,28 @@ RJ11, I/O inferior | ![](images/rj11.png) | Se conecta a sistemas de control de 
 
 ## Diagramas de puertos y holguras
 
-***Vista superior de Surface Hub de 84***
+**_Vista superior de la 84 "Surface Hub_*_
 
 ![](images/sh-84-top.png)
 
 ---
 
 
-***Vista frontal de Surface Hub de 84***
+_*_Vista frontal de Surface Hub de 84_*_
 
 ![](images/sh-84-front.png)
 
 
 ---
 
-***Vista inferior de Surface Hub de 84 "***
+_*_Vista inferior de Surface Hub de 84 "_*_
 
 ![](images/sh-84-bottom.png)
 
 
 ---
 
-***Puertos del equipo de reemplazo en Surface Hub 84".***
+_*_Puertos del equipo de reemplazo en Surface Hub 84"._*_
 
 ![](images/sh-84-rpc-ports.png)
 
@@ -125,21 +129,21 @@ RJ11, I/O inferior | ![](images/rj11.png) | Se conecta a sistemas de control de 
 
 ---
 
-***Vista posterior de Surface Hub de 84 "***
+_*_Vista posterior de Surface Hub de 84 "_*_
 
 ![](images/sh-84-rear.png)
 
 
 ---
 
-***Holgura para el Surface Hub de 84***
+_*_Holgura para el Surface Hub de 84_*_
 
 ![](images/sh-84-clearance.png)
 
 ---
 
 
-***Controladores de elevación extraíbles en el Surface Hub de 84***
+_*_Controladores de elevación extraíbles en el Surface Hub de 84_*_
 
 ![](images/sh-84-hand.png)
 
@@ -147,17 +151,17 @@ RJ11, I/O inferior | ![](images/rj11.png) | Se conecta a sistemas de control de 
 ---
 
 
-***Subprocesos de montaje en pared en la parte posterior de la Surface Hub de 84***
+_*_Subprocesos de montaje en pared en la parte posterior de la Surface Hub de 84_*_
 
 ![](images/sh-84-wall.png)
 
 ---
-***Controladores de elevación en la vista superior de la 84 "Surface Hub***
+_*_Controladores de elevación en la vista superior de la 84 "Surface Hub_*_
 
 ![](images/sh-84-hand-top.png)
 
 ---
-***Vista lateral de 84 "Surface Hub***
+*_Vista lateral de 84 "Surface Hub_**
 
 ![](images/sh-84-side.png)
 

@@ -9,23 +9,22 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 05e701d3f591ba1ca85a58eaa4acb585e710d3d8
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 12/21/2020
+ms.openlocfilehash: e321b64ebbbc62da70cfdc1979053ee8facb7235
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834474"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238095"
 ---
 # Información técnica para el Surface Hub de 55
-
-## Medir 
 
 |
 --- | ---
 Precios | A partir de $8.999 
 Tamaño |  31,75 "x 59,62" x 3,38 "(806.4 mm x 1514.3 mm x 85.8 mm)
 Almacenamiento/RAM | SSD 128 GB con 8 GB de RAM
-Encargado del tratamiento de datos | Intel® Core™ i5 
+Procesador | Intel® Core™ i5 
 Gráficos |  Intel® HD 4600 
 Puertos | **PC interno**<br>• (1) USB 3,0 (inferior) + (1) USB 3,0 (acceso de cara) <br>• (2) USB 2,0<br>• Ethernet 1000 Base-T<br>• DisplayPort <br>• Salida de video<br>• Salida de sonido estéreo de 3,5 mm<br>• Conector RJ11 para control en el nivel del sistema<br>**PC alternativo**<br>• (2) salida USB 2,0 de tipo B<br>• Conexión de cámara, sensores, micrófono, altavoces<br>• (1) entrada de video de DisplayPort<br>**EQUIPO invitado**<br>• Entrada de video DisplayPort<br>• Entrada de video HDMI<br>• Entrada de video VGA<br>• Entrada estéreo de 3,5 mm<br>• (1) USB 2,0 Type B Touchback™ salida
 Sensores |   (2) sensores de presencia de infrarrojos pasivos, sensores de luz ambiental 
@@ -53,6 +52,12 @@ Voltaje de entrada | (50/60 Hz) 110/230V nominal, 90-265V máx.
 Potencia de entrada, operativa |    500W Max
 Alimentación de entrada, Standby    |   5W nominal
 
+
+> [!NOTE]
+> Surface Hub puede usarse de forma continua durante un máximo de 18 horas al día. Para optimizar la eficiencia, Surface Hub usa sensores inteligentes para desactivar la pantalla LED cuando ya no se detecta su presencia, lo que significa que no es necesario apagarla al final del día. Si la unidad está instalada en un entorno de trabajo de 24 horas, los sensores se pueden deshabilitar para cumplir con la recomendación de uso máximo de 18 horas por día. Tenga en cuenta que la visualización prolongada de una señal de vídeo puede hacer que se realice la retención de imágenes o en la pantalla. Para obtener más información sobre cómo administrar la configuración de energía, consulte:
+>
+> - [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md)
+> - [CSP SurfaceHub: administración de clientes de Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 ## Sustituir conexiones de PC 
 
@@ -87,63 +92,67 @@ RJ45, I/O en la parte inferior | ![](images/rj45.png) | Se conecta a Ethernet.
 RJ11, I/O inferior | ![](images/rj11.png) | Se conecta a sistemas de control de la habitación.
 
 
-
+> [!NOTE]
+> Surface Hub puede usarse de forma continua durante un máximo de 18 horas al día. Para optimizar la eficiencia, Surface Hub usa sensores inteligentes para desactivar la pantalla LED cuando ya no se detecta su presencia, lo que significa que no es necesario apagarla al final del día. Si la unidad está instalada en un entorno de trabajo de 24 horas, los sensores se pueden deshabilitar para cumplir con la recomendación de uso máximo de 18 horas por día. Tenga en cuenta que la visualización prolongada de una señal de vídeo puede hacer que se realice la retención de imágenes o en la pantalla. Para obtener más información sobre cómo administrar la configuración de energía, consulte:
+>
+> - [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md)
+> - [CSP SurfaceHub: administración de clientes de Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 
 
 
 ## Diagramas de puertos y holguras
 
-***Vista superior de Surface Hub de 55***
+**_Vista superior de la 55 "Surface Hub_*_
 
 ![](images/sh-55-top.png)
 
 ---
 
 
-***Vista frontal de Surface Hub de 55***
+_*_Vista frontal de Surface Hub de 55_*_
 
 ![](images/sh-55-front.png)
 
 
 ---
 
-***Vista inferior de Surface Hub de 55 "***
+_*_Vista inferior de Surface Hub de 55 "_*_
 
 ![](images/sh-55-bottom.png)
 
 
 ---
 
-***Puertos del equipo de reemplazo en Surface Hub 55".***
+_*_Puertos del equipo de reemplazo en Surface Hub 55"._*_
 
 ![](images/sh-55-rpc-ports.png)
 
 
 ---
 
-***Teclado en el lado derecho del Surface Hub de 55***
+_*_Teclado en el lado derecho del Surface Hub de 55_*_
 
 ![](images/key-55.png)
 
 
 ---
 
-***Vista posterior de Surface Hub de 55 "***
+_*_Vista posterior de Surface Hub de 55 "_*_
 
 ![](images/sh-55-rear.png)
 
 
 ---
 
-***Holgura para el Surface Hub de 55***
+_*_Holgura para el Surface Hub de 55_*_
 
 ![](images/sh-55-clearance.png)
 
 ---
 
 
-***Asideros y holguras frontales y inferiores para 55 "Surface Hub"***
+_*_Asideros y holguras frontales y inferiores para 55 "Surface Hub"_*_
 
 ![](images/sh-55-hand.png)
 
@@ -151,7 +160,7 @@ RJ11, I/O inferior | ![](images/rj11.png) | Se conecta a sistemas de control de 
 ---
 
 
-***Asideros traseros y holguras para el Surface Hub de 55***
+_*_Asideros y holguras traseros para el Surface Hub de 55_**
 
 ![](images/sh-55-hand-rear.png)
 
