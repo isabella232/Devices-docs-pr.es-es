@@ -17,19 +17,17 @@ appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
 - Surface Laptop 3
-ms.openlocfilehash: 5d4e4b46c109d9fe24fe75151c9eb1e0a8b702c0
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: d7ae6fc434f77cad86e73f111243968493de4ff2
+ms.sourcegitcommit: e6224f81f8efb6ac862afec0e60e3ddb182e9e6f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834714"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "11247312"
 ---
 # Cómo habilitar el teclado para portátiles Surface durante la implementación de MDT
 
 En este artículo se trata un enfoque de implementación que usa Microsoft Deployment Toolkit (MDT). También puede aplicar esta información a otras metodologías de implementación. En la mayoría de los tipos de dispositivos de superficie, el teclado debe funcionar durante la instalación con Lite Touch (LTI). Sin embargo, Surface Laptop necesita algunos drivers adicionales para habilitar el teclado. Para los dispositivos Surface Laptop (1º gen) y Surface Laptop 2, debe preparar los perfiles de selección y estructura de carpetas que le permiten especificar los drivers de teclado para usarlos durante la fase de entorno de preinstalación de Windows (Windows PE) de LTI. Para obtener más información sobre esta estructura de carpetas, consulte [implementar una imagen de Windows 10 con MDT: paso 5: preparar el repositorio de drivers](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository).
 
-> [!NOTE]
-> Por el momento, no se admite agregar controladores de teclado de Surface Laptop 2 y Surface Laptop 3 en la misma instancia de inicio de Windows PE debido a un conflicto de drivers; Use instancias independientes en su lugar.
 
 > [!IMPORTANT]
 > Si va a implementar una imagen de Windows 10 en un portátil Surface con Windows 10 en modo S preinstalado, consulte KB [4032347, problemas al implementar Windows en dispositivos Surface con el modo preinstalado de Windows 10](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues).
