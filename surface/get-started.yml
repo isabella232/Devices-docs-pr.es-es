@@ -11,18 +11,20 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: c356595e058c45cc95631d2ebd12ee2e5cc75c1d
-  ms.sourcegitcommit: b1c630dcf12530cf7034478bfe66ad3bb11b59c9
+  ms.openlocfilehash: aa883bb614b3d0230e00b4b8254e673182d60751
+  ms.sourcegitcommit: 00b6b59bd110633b6ae46345a592b72d68cc5121
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 11/12/2020
-  ms.locfileid: "11166652"
+  ms.lasthandoff: 01/11/2021
+  ms.locfileid: "11255691"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Surface portátil Go for Business
+    - text: Surface Pro 7+ para empresas
+      url: https://www.microsoft.com/surface/business/surface-pro-7-plus
+    - text: Surface Laptop Go para empresas
       url: https://www.microsoft.com/surface/business/surface-laptop-go
     - text: Surface Pro X para empresas
       url: https://www.microsoft.com/surface/business/surface-pro-x
@@ -32,8 +34,8 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Maximice la rentabilidad de la inversión con Microsoft Surface
-      url: forrester-tei-study.md
+    - text: Novedades de Surface Pro 7+ para empresas
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
     - text: Windows Virtual Desktop en Surface
       url: windows-virtual-desktop-surface.md
     - text: Novedades de Surface Dock 2
@@ -42,11 +44,11 @@ landingContent:
   linkLists:
   - linkListType: video
     links:
-    - text: Implementación sin interacción con Surface & AutoPilot
+    - text: Implementación sin toque con Surface & AutoPilot
       url: https://youtu.be/WQ-wg8fRzN0
-    - text: Surface Pro X y Windows en el brazo de un mundo remoto
+    - text: Surface Pro X y Windows en ARM en un mundo remoto
       url: https://youtu.be/bDw77ZQNPPw
-    - text: 'Seguridad superficial: chip para la protección de puntos de conexión de la nube moderna de Microsoft'
+    - text: 'Surface Security: Protección de puntos de conexión moderna de chip a nube de Microsoft'
       url: https://youtu.be/uadAecDbqf4
 - title: Implementar dispositivos Surface
   linkLists:
@@ -56,7 +58,7 @@ landingContent:
       url: windows-autopilot-and-surface-devices.md
     - text: Soporte del registro de Surface para Windows Autopilot
       url: surface-autopilot-registration-support.md
-    - text: Herramienta de acelerador de implementación de Surface
+    - text: Herramienta Acelerador de implementaciones de Surface
       url: microsoft-surface-deployment-accelerator.md
 - title: Administrar dispositivos Surface
   linkLists:
@@ -82,9 +84,9 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Protección de DMA en dispositivos Surface
+    - text: Protección DMA en dispositivos Surface
       url: dma-protect.md
-    - text: Puertos 2 puertos acoplados de Surface con el modo de administración de empresa de Surface (SEMM)
+    - text: Puertos seguros de Surface Dock 2 con el Modo de administración de Surface Enterprise (SEMM)
       url: secure-surface-dock-ports-semm.md
     - text: Herramienta Surface Data Eraser
       url: microsoft-surface-data-eraser.md
