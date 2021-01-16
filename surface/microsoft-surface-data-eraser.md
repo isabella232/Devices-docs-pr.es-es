@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 10/12/2020
-ms.openlocfilehash: 8b201ce45533c28740a7c6bdfcb56688ada25718
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.date: 01/15/2021
+ms.openlocfilehash: 2ae1b7b3af93c1449b96bf6307c830a928c1f0a7
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114708"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271414"
 ---
 # Borrador de datos de Microsoft Surface
 
@@ -37,10 +37,10 @@ Los dispositivos Surface compatibles incluyen:
 - Surface Book (todas las ediciones)
 - Surface Go (todas las ediciones)
 - Surface Pro X (todas las ediciones)
-- Portátil Surface (todas las ediciones)
-- Portátil Surface Go
+- Surface Laptop (todas las ediciones)
+- Surface Laptop Go
 - Surface Studio (todas las ediciones)
-- Surface Pro 2 y posterior
+- Surface Pro 2 y versiones posteriores
 - Windows 10 Pro y Enterprise en Surface Hub 2
 
 A continuación encontrarás algunos escenarios donde el Borrador de datos de Microsoft Surface puede serte útil para realizar lo siguiente:
@@ -60,7 +60,7 @@ A continuación encontrarás algunos escenarios donde el Borrador de datos de Mi
 >Dado que la capacidad para el arranque desde el USB es necesaria para ejecutar el Borrador de datos de Microsoft Surface, si el dispositivo no está configurado para arrancar desde el USB o si no es capaz de arrancar o realizar pruebas automáticas de encendido (POST) correctamente, el Borrador de datos de Microsoft Surface no funcionará.
 
 >[!NOTE]
->El borrador de datos de superficie en Surface Studio y Surface Studio 2 puede demorar hasta 6 minutos en iniciar WinPE antes de que se produzca la eliminación de disco.
+>El Borrador de datos de Surface en Surface Studio y Surface Studio 2 puede tardar hasta 6 minutos en arrancar en WinPE antes de que se produzca la eliminación del disco.
 
 
 ## Cómo crear un stick USB del Borrador de datos de Microsoft Surface
@@ -68,7 +68,7 @@ A continuación encontrarás algunos escenarios donde el Borrador de datos de Mi
 
 Para crear un stick USB del Borrador de datos de Microsoft Surface, primero debes instalar la herramienta de instalación del Borrador de datos de Microsoft Surface que encontrarás en el Centro de descarga de Microsoft, al cual podrás acceder mediante el vínculo que está al principio de este artículo. No necesitas un dispositivo Surface para *crear* el stick USB. Una vez hayas descargado el archivo de instalación en el equipo, sigue estos pasos para instalar la herramienta que te permitirá crear el Borrador de datos de Microsoft Surface.
 
-1.  Ejecute el DataEraserSetup.msi archivo de instalación que ha descargado desde el [centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=46703).
+1.  Ejecute el DataEraserSetup.msi de instalación que descargó del Centro [de descarga de Microsoft.](https://www.microsoft.com/download/details.aspx?id=46703)
 
 2.  Selecciona la casilla para aceptar los términos del contrato de licencia y, a continuación, haz clic en **Instalar**.
 
@@ -85,13 +85,13 @@ Cuando tengas instalada la herramienta de creación, sigue estos pasos para crea
    ![Iniciar la herramienta del Borrador de datos de Microsoft Surface](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
 
    *Figura 1. Iniciar la herramienta del Borrador de datos de Microsoft Surface*
-4.  Elija **x64** para la mayoría de los dispositivos de la superficie o  **ARM64** para Surface Pro X en la página de **selección de arquitectura** , como se muestra en la ilustración 2. Selecciona **Continuar**.
+4.  Elige **x64 para** la mayoría de los dispositivos Surface o  **ARM64** para Surface Pro X en la página **Selección** de arquitectura, como se muestra en la figura 2. Selecciona **Continuar**.
 
     ![Selección de arquitectura](images/dataeraser-arch.png "Architecture Selection")<br>
        *Figura 2. Seleccionar arquitectura de dispositivo*
     
 
-4. Seleccione la unidad USB que elija en la página de **selección de unidad USB** , como se muestra en la ilustración 3 y, a continuación, haga clic en **iniciar** para iniciar el proceso de creación de USB. Se formateará la unidad que selecciones y los datos que tengas guardados en esa unidad se perderán.
+4. Selecciona la unidad USB que elijas en la página Selección de unidad **** **USB,** como se muestra en la figura 3, y luego haz clic en Iniciar para iniciar el proceso de creación de USB. Se formateará la unidad que selecciones y los datos que tengas guardados en esa unidad se perderán.
 
    >[!NOTE]
    >Si ves que el botón Inicio está deshabilitado, comprueba que la unidad extraíble tenga una capacidad total de 4 GB, como mínimo.
@@ -102,7 +102,7 @@ Cuando tengas instalada la herramienta de creación, sigue estos pasos para crea
 
 5. Después de finalizar el proceso de creación, verás que se ha formateado la unidad USB y que tiene copiados todos los archivos binarios. Haz clic en **Finalizó con éxito**.
 
-6. Cuando veas la pantalla de **Enhorabuena**, podrás expulsar y retirar la unidad USB. De esta manera, ya tienes la unidad lista para conectarla a un dispositivo Surface, arrancarlo desde esa unidad y eliminar cualquier dato del dispositivo. Haga clic en **Finalizar** para finalizar el proceso de creación de USB, como se muestra en la ilustración 4.
+6. Cuando veas la pantalla de **Enhorabuena**, podrás expulsar y retirar la unidad USB. De esta manera, ya tienes la unidad lista para conectarla a un dispositivo Surface, arrancarlo desde esa unidad y eliminar cualquier dato del dispositivo. Haz **clic en Completar** para finalizar el proceso de creación de USB, como se muestra en la figura 4.
 
    ![Proceso de creación del USB del Borrador de datos de Surface](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
 
@@ -130,7 +130,7 @@ Después de crear un stick USB del Borrador de datos de Microsoft Surface, puede
    >[!NOTE]
    >Si el dispositivo no arranca desde USB tras seguir estos pasos, es posible que debas activar la opción **Enable Alternate Boot Sequence** en la UEFI de Surface. Puedes leer más sobre la configuración de arranque de la UEFI de Surface en [Administrar la configuración de la UEFI de Surface](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).
 
-3. Cuando se inicia el dispositivo Surface, se muestra un archivo de texto **SoftwareLicenseTerms** , tal como se muestra en la figura 5.
+3. Cuando se inicia el dispositivo Surface, se muestra un archivo de texto **SoftwareLicenseTerms,** como se muestra en la figura 5.
 
    ![Arrancar el stick USB del Borrador de datos de Microsoft Surface](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
 
@@ -160,13 +160,20 @@ Después de crear un stick USB del Borrador de datos de Microsoft Surface, puede
 
 Microsoft actualiza de vez en cuando el Borrador de datos de Microsoft Surface. Para obtener información sobre los cambios que se proporcionan en cada nueva versión, consulta lo siguiente:
 
+### 2.34.139.0
+*Fecha de lanzamiento: 15 de enero de 2021*
+
+Esta versión del Borrador de datos de Surface:
+
+- Incluye correcciones de errores
+
 ### 3.33.139
 *Fecha de lanzamiento: 9 de septiembre de 2020*
 
-Esta versión del borrador de datos de superficie incluye correcciones de errores y agrega compatibilidad con: 
+Esta versión del Borrador de datos de Surface incluye correcciones de errores y agrega compatibilidad para: 
 
-- Rediseño de arquitectura para reducir la necesidad de actualizar con nuevas versiones de productos
-- Notificación disponible para nuevas actualizaciones de herramientas
+- Diseño de arquitectura para reducir la necesidad de actualizar con nuevas versiones de producto
+- Notificación disponible para actualizaciones de nuevas herramientas
 - Adiciones de telemetría
 - Windows 10 Pro y Enterprise en Surface Hub 2
 
@@ -174,58 +181,68 @@ Esta versión del borrador de datos de superficie incluye correcciones de errore
 ### 3.30.139
 *Fecha de lanzamiento: 11 de mayo de 2020*
 
-Esta versión del borrador de datos de superficie agrega compatibilidad con: 
+Esta versión del Borrador de datos de Surface agrega compatibilidad para: 
 - Surface Book 3
 - Surface Go 2
 - Nuevo SSD en Surface Go
 
 ### 3.28.137
-*Fecha de lanzamiento: 11 de noviembre de 2019* Esta versión del borrador de datos de superficie:
+*Fecha de lanzamiento: 11 de noviembre de 2019*
+
+Esta versión del Borrador de datos de Surface:
 
 - Incluye correcciones de errores
 
 ### Versión 3.21.137
-*Fecha de lanzamiento: 21 Oct 2019* Esta versión del borrador de datos de superficie está compilada para x86 y agrega compatibilidad con los siguientes dispositivos:
+*Fecha de lanzamiento: 21 de octubre de 2019*
 
-- Compatible con Surface Pro 7, Surface Pro X y portátil Surface 3
+Esta versión del Borrador de datos de Surface está compilada para x86 y agrega compatibilidad con los siguientes dispositivos:
+
+- Surface Pro 7, Surface Pro X y Surface Laptop 3
 
 ### Versión 3.2.78.0
-*Fecha de lanzamiento: 4 Dic 2018*
 
-Esta versión del borrador de datos de superficie:
+*Fecha de lanzamiento: 4 de diciembre de 2018*
+
+Esta versión del Borrador de datos de Surface:
 
 - Incluye correcciones de errores
 
 
 ### Versión 3.2.75.0
+
 *Fecha de lanzamiento: 12 de noviembre de 2018*
 
-Esta versión del borrador de datos de superficie:
+Esta versión del Borrador de datos de Surface:
 
 - Agrega compatibilidad a Surface Studio 2
-- Soluciona problemas con la tarjeta SD
+- Corrige problemas con la tarjeta SD
 
 ### Versión 3.2.69.0
+
 *Fecha de lanzamiento: 12 de octubre de 2018*
 
-Esta versión del borrador de datos de superficie agrega compatibilidad para los siguientes elementos:
+Esta versión del Borrador de datos de Surface agrega compatibilidad con lo siguiente:
 
 - Surface Pro 6
 - Surface Laptop 2
 
 ### Versión 3.2.68.0
+
 Esta versión de Borrador de datos de Microsoft Surface agrega compatibilidad con lo siguiente:
 
 - Surface Go
 
 
 ### Versión 3.2.58.0
+
 Esta versión de Borrador de datos de Microsoft Surface agrega compatibilidad con lo siguiente:
 
-- Dispositivos de almacenamiento adicionales (unidades) para dispositivos Surface Pro y Surface portátil
+- Dispositivos de almacenamiento adicionales (unidades) para dispositivos Surface Pro y Surface Laptop
 
 
 ### Versión 3.2.46.0
+
 Esta versión del Borrador de datos de Microsoft Surface agrega compatibilidad con lo siguiente:
 
 - Surface Pro con LTE avanzada

@@ -1,6 +1,6 @@
 ---
 title: Controlador de Surface y ciclo de vida del firmware para dispositivos basados en Windows
-description: Este artículo proporciona información detallada sobre el ciclo de vida para ayudar a planear y administrar implementaciones de hardware y software.
+description: En este artículo se proporciona información detallada sobre el ciclo de vida para ayudar a planear y administrar las implementaciones de hardware y software.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,71 +12,70 @@ ms.date: 11/12/2020
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: f8a097a8cf889c65ed27e7b04dbe2840da2ebcc9
-ms.sourcegitcommit: b1c630dcf12530cf7034478bfe66ad3bb11b59c9
+ms.openlocfilehash: aec3645d64487ef2709de6098c7f2ae0b99660d8
+ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "11167331"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "11271117"
 ---
 # Controlador de Surface y ciclo de vida del firmware para dispositivos basados en Windows
  
-En respuesta a las solicitudes de los clientes para obtener información más detallada del ciclo de vida para ayudar a planificar y administrar implementaciones de hardware y software, Surface ofrece directrices adicionales para las actualizaciones de drivers y firmware.
+En respuesta a las solicitudes de los clientes de información de ciclo de vida más detallada para ayudar a planear y administrar implementaciones de hardware y software, Surface ofrece instrucciones adicionales sobre nuestras actualizaciones de controladores y firmware.
  
-Esta directiva de ciclo de vida cubre drivers y versiones de firmware para dispositivos Surface basados en Windows. El ciclo de vida comienza cuando se suelta un dispositivo por primera vez y concluye cuando la superficie cesa la publicación de las actualizaciones de drivers y firmware al final de la fecha de servicio. En las secciones siguientes se definen la Directiva de ciclo de vida y el final de las fechas de servicio.
+Esta directiva de ciclo de vida cubre los controladores y las versiones de firmware para dispositivos Surface basados en Windows. El ciclo de vida comienza cuando se lanza un dispositivo por primera vez y concluye cuando Surface deja de publicar controladores y actualizaciones de firmware en la fecha de finalización del mantenimiento. En las secciones siguientes se define la directiva de ciclo de vida y las fechas de finalización del servicio.
 
-## Ciclo de vida del controlador y firmware de Surface
+## Ciclo de vida de compatibilidad con controladores y firmware de Surface
  
-El controlador de la superficie y el ciclo de vida de firmware están compuestos de dos partes: el período de soporte del controlador y firmware para un dispositivo y la compatibilidad suministrada para las versiones del sistema operativo durante ese período.
+El ciclo de vida de controladores y firmware de Surface se compone de dos partes: el período de compatibilidad de controladores y firmware para un dispositivo y la compatibilidad proporcionada para las versiones del sistema operativo durante ese período.
 
-- **Período de asistencia del dispositivo.** El período de soporte del dispositivo define el período durante el cual la superficie admitirá actualizaciones de drivers y firmware para un dispositivo. El período de asistencia del dispositivo comienza cuando se libera un dispositivo. Los dispositivos Surface recibirán actualizaciones de drivers y firmware durante al menos 4 años desde que se lanzó el dispositivo por primera vez. En los casos en que la duración del soporte técnico sea superior a 4 años, se publicará una fecha de servicio actualizada antes de la fecha del último mantenimiento.
+- **Período de compatibilidad con dispositivos.** El período de compatibilidad del dispositivo define el período durante el cual Surface admitirá actualizaciones de controladores y firmware para un dispositivo. El período de soporte técnico del dispositivo se inicia cuando se libera un dispositivo. Los dispositivos Surface recibirán actualizaciones de controladores y firmware durante al menos 4 años a partir de la primera vez que se lanzó el dispositivo. En los casos en los que la duración del soporte sea superior a 4 años, se publicará un final actualizado de la fecha de mantenimiento antes de la fecha del último servicio.
 
-- **Compatibilidad con la versión del sistema operativo.** La compatibilidad con la versión del sistema operativo define las versiones del sistema operativo admitidas por Surface durante el período de soporte del dispositivo. Surface Devices recibirá actualizaciones de drivers y firmware para las versiones de Windows OS publicadas en los 30 meses anteriores. Surface no admitirá versiones del sistema operativo Windows anteriores a las versiones del sistema operativo admitidas en la versión del dispositivo. Para conocer la versión mínima del sistema operativo compatible de su dispositivo Surface, consulte [compatibilidad con sistemas operativos compatibles con Surface.](https://support.microsoft.com/help/2858199/surface-supported-operating-systems)  
+- **Compatibilidad con versiones del sistema operativo.** La compatibilidad con la versión del sistema operativo define las versiones del sistema operativo admitidas por Surface durante el período de compatibilidad del dispositivo. Los dispositivos Surface recibirán actualizaciones de controladores y firmware para las versiones del sistema operativo Windows publicadas en los 30 meses anteriores. Surface no admitirá versiones del sistema operativo Windows anteriores a las versiones del sistema operativo admitidas en la versión del dispositivo. Para obtener la versión mínima compatible del sistema operativo del dispositivo Surface, consulta [los sistemas operativos compatibles con Surface.](https://support.microsoft.com/help/2858199/surface-supported-operating-systems)  
 
  
-Una vez concluido el período de soporte del dispositivo al final de la fecha de servicio, los dispositivos continuarán recibiendo las actualizaciones de seguridad y la característica del sistema operativo de Windows de acuerdo con la Directiva de ciclo de vida de Windows según se describe en la  [Página compatibilidad con la Directiva del ciclo de vida de Microsoft](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
- 
-
-## Fechas de asistencia de dispositivos Surface
-
-La siguiente tabla muestra la fecha de lanzamiento y el fin de la fecha de servicio de cada dispositivo Surface con una directiva definida de ciclo de vida del firmware y el controlador:
+Una vez finalizado el período de soporte técnico del dispositivo al finalizar la fecha de finalización del mantenimiento, los dispositivos seguirán recibiendo actualizaciones de seguridad y características del sistema operativo Windows de acuerdo con la Directiva de ciclo de vida de Windows, tal como se describe en la página de soporte técnico de la Directiva de ciclo de vida de [Microsoft.](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy)
  
 
- Dispositivo                             | Fecha de lanzamiento | Fin de fecha de mantenimiento |
+## Fechas de mantenimiento de controladores y firmware de Surface
+
+En la siguiente tabla se enumeran la fecha de lanzamiento y la fecha de finalización del servicio para cada dispositivo Surface con una directiva de ciclo de vida de controladores y firmware definida:
+ 
+
+ Dispositivo                             | Fecha de lanzamiento | Fecha de finalización del mantenimiento |
 | ---------------------------------- | ------------ | --------------------- |
 | Surface RT <sup> 1</sup>             | 26 de octubre de 2012   | 11 de abril de 2017             |
 | Surface Pro <sup> 1</sup>            | 9 de febrero de 2013     | 11 de abril de 2017             |
-| Superficie 2 <sup> 1</sup>              | 22 de octubre de 2013   | 10 de abril de 2018             |
+| Surface 2 <sup> 1</sup>              | 22 de octubre de 2013   | 10 de abril de 2018             |
 | Surface Pro 2 <sup> 1</sup>          | 22 de octubre de 2013   | 10 de abril de 2018             |
 | Surface Pro 3                      | 20 de junio de 2014    | 13 de noviembre de 2021            |
 | Surface 3                          | 5 de mayo de 2015     | 13 de noviembre de 2021            |
 | Surface Book                       | 26 de octubre de 2015   | 13 de noviembre de 2021            |
 | Surface Pro 4                      | 26 de octubre de 2015   | 13 de noviembre de 2021            |
-| Libro de Surface con rendimiento básico | 10 de noviembre de 2016   | 13 de noviembre de 2021            |
+| Surface Book con Base de rendimiento | 10 de noviembre de 2016   | 13 de noviembre de 2021            |
 | Surface Studio (1ª generación)           | 15 de diciembre de 2016   | 13 de noviembre de 2021            |
 | Surface Laptop (1ª generación)           | 14 de junio de 2017    | 13 de noviembre de 2021            |
 | Surface Pro (5ª generación)              | 15 de junio de 2017    | 13 de noviembre de 2021            |
 | Surface Book 2                     | 17 de noviembre de 2017   | 17 de noviembre de 2021            |
-| Surface Pro LTE (modelo 1807)       | 1 de diciembre de 2017    | 1 de diciembre de 2021             |
+| Surface Pro LTE (modelo 1807)       | 1 de diciembre de 2017    | 15 de enero de 2024             |
 | Surface Go                         | 2 de agosto de 2018     | 2 de agosto de 2022              |
-| Surface Studio 2                   | 2 de octubre de 2018    | 2 de octubre de 2022             |
+| Surface Studio 2                   | 2 de octubre de 2018    | 2 de octubre de 2024             |
 | Surface Laptop 2                   | 16 de octubre de 2018   | 16 de octubre de 2022            |
 | Surface Pro 6                      | 16 de octubre de 2018   | 16 de octubre de 2022            |
 | Surface Go con LTE Advanced       | 20 de noviembre de 2018   | 20 de noviembre de 2022            |
-| Portátil Surface 3                   | 22 de octubre de 2019   | 22 de octubre de 2023            |
+| Surface Laptop 3                   | 22 de octubre de 2019   | 22 de octubre de 2023            |
 | Surface Pro 7                      | 22 de octubre de 2019   | 22 de octubre de 2023            |
-| Surface Pro X                      | 5 de noviembre de 2019    | 5 de noviembre de 2023             |
+| Surface Pro X                      | 5 de noviembre de 2019    | 13 de octubre de 2024             |
 | Surface Go 2                       | 6 de mayo de 2020     | 6 de mayo de 2024              |
 | Surface Book 3                     | 26 de mayo de 2020    | 26 de mayo de 2024             |
-| Surface Pro X SQ2                  | 13 de octubre de 2020   | 13 de octubre de 2024            |
-| Portátil Surface Go                  | 13 de octubre de 2020   | 13 de octubre de 2024            |
+| Surface Laptop Go                  | 13 de octubre de 2020   | 13 de octubre de 2024            |
+| Surface Pro 7+                     | 15 de enero de 2021 | 15 de enero de 2025 |
 
  
- **1.** *indica los dispositivos con un fin de la fecha de soporte técnico de mantenimiento de controladores o firmware previamente declarado.*
+ **1.** Indica dispositivos con una fecha de soporte de fin *de firmware/controlador* declarada anteriormente.
  
-## Obtén más información
+## Más información
 
-Para obtener más información sobre compatibilidad con LTSC [, vea compatibilidad de dispositivos de Surface con el canal de mantenimiento de Windows 10 Long-Term (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
- 
- 
+Para obtener información adicional sobre la compatibilidad con LTSC, consulta Compatibilidad de dispositivos Surface con [Windows 10 Long-Term de mantenimiento (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
 
+Para obtener información adicional sobre la garantía de hardware y el soporte al cliente, consulta [Planes de garantía y soporte técnico de Surface.](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)

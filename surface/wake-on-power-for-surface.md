@@ -1,14 +1,14 @@
 ---
-title: Cómo habilitar la reactivación de energía para Surface
+title: Cómo habilitar La activación en la alimentación para Surface
 ms.author: v-todmc
 author: mccoybot
-ms.date: 7/30/2020
 audience: ITPro
 search.appverid:
 - SPO160
 - MET150
 appliesto:
 - Surface Book 3
+- Surface Pro 7+
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
@@ -16,8 +16,8 @@ appliesto:
 ms.custom:
 - CI 121602
 ms.reviewer: hachidan
-description: Describe cómo habilitar y deshabilitar Wake on Power para dispositivos Surface.
-keywords: actualizar, implementar, controlador, WOL, Wake-on-LAN
+description: Describe cómo habilitar y deshabilitar La activación en la alimentación para dispositivos Surface.
+keywords: update, deploy, implementar, driver, driver, controlador, wake-on-lan, wake-on-lan
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices
@@ -26,79 +26,81 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: dee2a2962cf6b70a1bf11cf597b4d41f4b5568e4
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.date: 01/15/2021
+ms.openlocfilehash: 6ad359861f6af29c567bf0fbf26878ec15c7c642
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114578"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271564"
 ---
 # Wake on Power para dispositivos Surface
 
-Los dispositivos de Surface se pueden apagar mientras está lejos de la oficina o en modo de hibernación para ahorrar vida de la batería. Para mejorar la capacidad de administración de estos dispositivos, Wake on Power permite que los dispositivos de Surface compatibles se inicien de forma automática cuando se vuelven a conectar a la alimentación. Para configurar la Wake on Power, puede usar el modo de administración de la empresa de Surface (SEMM), ya sea a través del configurador Surface UEFI o el administrador UEFI.
+Los dispositivos Surface se pueden apagar mientras estás fuera de tu escritorio o configurarse para hibernar en modo para ahorrar batería. Para mejorar la capacidad de administración de estos dispositivos, La activación en la alimentación permite que los dispositivos Surface compatibles se inicien automáticamente cuando se vuelvan a conectar a la alimentación. Para configurar La activación en la alimentación, puedes usar el Modo de administración de Surface Enterprise (SEMM) a través del Configurador de UEFI de Surface o el Administrador de UEFI.
 
-La característica Wake on Power está disponible en los siguientes dispositivos:
+La característica Activar en energía está disponible en los siguientes dispositivos:
 
+- Surface Pro 7+
 - Surface Book 3
 - Surface Pro 7
-- Portátil Surface 3
-- Portátil Surface Go
+- Surface Laptop 3
+- Surface Laptop Go
 - Surface Pro X 
 
 
 ## Información general y requisitos previos
 
-El configurador de Surface UEFI le permite guardar la configuración de UEFI individual en un paquete. msi de Windows Installer para distribuirlo a los dispositivos de destino. 
+El Configurador de UEFI de Surface te permite guardar la configuración de UEFI individual en un paquete .msi de Windows Installer para su distribución en dispositivos de destino. 
 
 > [!NOTE]
-> En este artículo se da por supuesto que sabe cómo usar SEMM. Para obtener más información, consulte la documentación del [modo de administración de Surface Enterprise (SEMM)](surface-enterprise-management-mode.md) .
+> En este artículo se supone que sabe cómo usar SEMM. Para obtener más información, consulta la documentación del Modo [de administración de Surface Enterprise (SEMM).](surface-enterprise-management-mode.md)
 
-## Para habilitar Wake on Power
+## Para habilitar La activación en la alimentación
 
-1.  Descarga la última versión del [configurador de Surface UEFI](https://www.microsoft.com/download/confirmation.aspx?id=46703).
-2.  Inicie sesión en el dispositivo Surface como administrador, Abra **Surface configurador UEFI**, seleccione **Surface Devices**y, después, haga clic en **siguiente**.
+1.  Descarga la versión más reciente de [Surface UEFI Configurator.](https://www.microsoft.com/download/confirmation.aspx?id=46703)
+2.  Inicia sesión en el dispositivo Surface como administrador, abre el **Configurador de UEFI**de Surface, selecciona **Dispositivos Surface**y, a continuación, **selecciona Siguiente.**
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
-3.  Seleccione **Inicio**y, a continuación, haga clic en **crear** en **paquete de configuración**.
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Selecciona Dispositivos Surface y selecciona Siguiente.":::
+3.  Seleccione **Inicio**y, a continuación, **seleccione Crear en** Paquete de **configuración.**
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
-4.  Seleccione **protección de certificado**y agregue el archivo. pfx de certificado. 
-5. Escriba la contraseña, seleccione **siguiente**, agregar **protección con contraseña**, según corresponda y, a continuación, seleccione **siguiente**.
-6.  En la página **elegir el tipo de superficie que desea dirigir** , seleccione los dispositivos de destino según corresponda. Por ejemplo, seleccione **Surface Pro 7**.
-7.  En la página **características avanzadas** , seleccione **Wake on Power**, establezca la característica **en activado**y, a continuación, seleccione **siguiente**.
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Seleccione Crear paquete de configuración.":::
+4.  Seleccione **Protección de**certificados y agregue el archivo .pfx del certificado. 
+5. Escriba su contraseña, seleccione **Siguiente,** agregue **Protección con contraseña,** según corresponda y, a continuación, **seleccione Siguiente**.
+6.  En la **página Elegir el tipo de Surface al** que quieres dirigirte, selecciona los dispositivos de destino según corresponda. Por ejemplo, selecciona **Surface Pro 7.**
+7.  En la **página Características avanzadas,** seleccione **Activar al**encender , establezca la característica en **Activar**y, a continuación, seleccione **Siguiente**.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Seleccione Surface Devices y haga clic en siguiente."::: 
-8.  En la página **correcta** , seleccione **fin**.
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Seleccione Activar al activar y establecer en Activar."::: 
+8.  En la **página Correcto,** seleccione **Finalizar**.
 
     > [!NOTE]
-    > Si esta es la primera vez que proporciona la configuración a su dispositivo, se le pedirá que proporcione también los dos últimos caracteres de la huella digital del certificado. 
-9.  Guarde el paquete. msi. 
+    > Si es la primera vez que proporcionas la configuración al dispositivo, también se te pedirá que proporciones los dos últimos caracteres de la huella digital del certificado. 
+9.  Guarde el paquete .msi. 
 
 ## Aplicar el paquete MSI 
 
-Puede aplicar el paquete MSI a dispositivos en la red mediante herramientas de distribución de software como Microsoft Endpoint Configuration Manager. Este procedimiento incluye pasos para instalar el paquete en el equipo local. 
+Puedes aplicar el paquete MSI a dispositivos de toda la red mediante herramientas de distribución de software como Microsoft Endpoint Configuration Manager. Este procedimiento incluye pasos para instalar el paquete en el equipo local. 
 
-1.  En un símbolo del sistema con privilegios elevados, escriba la ruta de acceso completa del archivo. msi para ejecutar el paquete. msi. 
+1.  En un símbolo del sistema con privilegios elevados, escriba la ruta de acceso completa del archivo .msi para ejecutar el paquete .msi. 
 
     ```
     C:\SEMM\wake-on-power.msi 
     ```
 
-2.  En el cuadro de diálogo de **ADVERTENCIA** , seleccione **Aceptar** o deshabilitar BitLocker, según corresponda.
+2.  En el **cuadro de** diálogo Advertencia, selecciona **Aceptar** o deshabilita BitLocker, según corresponda.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
-3.  En la Página principal, seleccione **siguiente** para ejecutar el paquete y aplicar la configuración UEFI recién configurado.
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Selecciona Aceptar o deshabilita BitLocker según corresponda.":::
+3.  En la página principal, selecciona **Siguiente** para ejecutar el paquete y aplicar la configuración de UEFI recién configurada.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Seleccione Surface Devices y haga clic en siguiente.":::
-4.  Reinicie el dispositivo. 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Una de las páginas de bienvenida, seleccione Siguiente.":::
+4.  Reinicia el dispositivo. 
 
-La Wake on Power ya está configurada. Para probar la configuración, apague el dispositivo, desconecte la energía y, a continuación, vuelva a conectar la energía. El dispositivo debe iniciarse automáticamente. 
+La activación en la alimentación ya está configurada. Para probar la configuración, apaga el dispositivo, desconecta la alimentación y, a continuación, vuelve a conectar la energía. El dispositivo debe iniciarse automáticamente. 
 
 ## Referencias
 
-Para obtener más información, consulte los artículos siguientes. 
+Para obtener más información, vea los artículos siguientes. 
 
 - [Modo de administración de Surface Enterprise](surface-enterprise-management-mode.md)
-- [Wake on LAN para dispositivos Surface](wake-on-lan-for-surface-devices.md)
+- [Activar en LAN para dispositivos Surface](wake-on-lan-for-surface-devices.md)
 
-¿Aún necesitas ayuda? Vaya a [Microsoft Community](https://answers.microsoft.com/).
+¿Aún necesitas ayuda? Vaya a [Microsoft Community.](https://answers.microsoft.com/)
