@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/12/2020
+ms.date: 1/15/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 30f7cd7d861b6497cd536aeb0ea348b6946a2674
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114628"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271364"
 ---
 # Implementación, administración y mantenimiento de Surface Pro X
 
@@ -42,7 +42,7 @@ Las organizaciones que ya usan soluciones modernas de administración, seguridad
 
 ## Consideraciones de implementación basada en imagen
 
-Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager (anteriormente System Center Configuration Manager) no admiten actualmente SurfaceProX para la implementación de sistemas operativos. Los clientes que dependen de la implementación basada en imagen deben pensar en SurfacePro7 mientras continúan evaluando el momento adecuado para realizar la transición a soluciones de implementación modernas. 
+Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager (anteriormente System Center Configuration Manager) no admiten actualmente SurfaceProX para la implementación de sistemas operativos. Los clientes que dependen de la implementación basada en imagen deberían considerar SurfacePro7+ mientras continúan evaluando el momento más adecuado para hacer la transición a soluciones de implementación modernas. 
 
 ## Administración de dispositivos SurfaceProX
 
@@ -178,11 +178,11 @@ En las tablas siguientes se muestra la disponibilidad de las características cl
 
 ## Preguntas más frecuentes
 
-### ¿Puedo implementar Surface Pro X con MDT o Endpoint Configuration Manager?
+### ¿Puedo implementar Surface Pro X con MDT o con el Administrador de configuración de Endpoint?
 
-Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager actualmente no admiten SurfaceProX para la implementación de sistemas operativos. Los clientes que tengan una implementación basada en imagen deben pensar en SurfacePro7 mientras siguen evaluando el momento adecuado para realizar la transición a la nube.
+Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager actualmente no admiten SurfaceProX para la implementación de sistemas operativos. Los clientes que dependen de la implementación basada en imagen deberían considerar SurfacePro7+ mientras continúan evaluando el momento más adecuado para hacer la transición a la nube.
 
-### ¿cómo puedo implementar Surface Pro X?
+### ¿Cómo puedo implementar Surface Pro X?
 
 Implementa Surface Pro X con Windows Autopilot.
 
