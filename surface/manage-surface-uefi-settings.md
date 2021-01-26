@@ -12,17 +12,17 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/15/2021
-ms.openlocfilehash: d8d47db3bd6f69783670b285a797337373e02d72
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.date: 01/25/2021
+ms.openlocfilehash: af9eac171dea5d29ce9776766a2c5842bea9eb8c
+ms.sourcegitcommit: 1b12ea363785697ddc705b0a0cc7bb35cad6b327
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271434"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "11300701"
 ---
 # Administrar la configuración de la UEFI de Surface
 
-Todas las generaciones actuales y futuras de dispositivos Surface usan una interfaz de firmware extensible unificada (UEFI) única diseñada por Microsoft específicamente para estos dispositivos. La configuración de UEFI de Surface proporciona la capacidad de habilitar o deshabilitar dispositivos y componentes integrados, proteger la configuración de UEFI de cambios y ajustar la configuración de arranque del dispositivo Surface. 
+ Los dispositivos Surface PC están diseñados para usar una interfaz de firmware extensible unificada (UEFI) única diseñada por Microsoft específicamente para estos dispositivos. La configuración de UEFI de Surface proporciona la capacidad de habilitar o deshabilitar dispositivos y componentes integrados, proteger la configuración de UEFI de cambios y ajustar la configuración de arranque del dispositivo Surface. 
 
 ## Productos admitidos
 
@@ -32,7 +32,7 @@ La administración de UEFI es compatible con lo siguiente:
 - Surface Laptop (1.ª generación), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go
 - Surface Studio (1ª generación), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
-- Surface Go, Surface Go 2
+- Surface Go, Surface Go 2[ <sup> 1 </sup> ](#references)
 
 ## Compatibilidad con la administración basada en la nube
 
@@ -44,7 +44,7 @@ Para ajustar la configuración de UEFI durante el inicio del sistema:
 
 1. Apaga Surface y espera unos 10 segundos para asegurarte de que está apagada.
 2. Mantén presionado el **botón Subir** volumen y, al mismo tiempo, presiona y suelta el botón **De encendido.**
-3. Cuando aparezca el logotipo de Microsoft o Surface **** en la pantalla, mantén presionado el botón Subir volumen hasta que aparezca la pantalla UEFI.
+3. A medida que aparezca el logotipo de Microsoft **** o Surface en la pantalla, mantén presionado el botón Subir volumen hasta que aparezca la pantalla UEFI.
 
 ## Página de información de UEFI PC
 
@@ -159,7 +159,7 @@ También puedes activar y desactivar la compatibilidad con IPv6 PXE con la opci�
 La página Administración te permite administrar el uso de la administración de UEFI sin entrada táctil y otras características en dispositivos elegibles, como Surface Pro 7, Surface Pro X y Surface Laptop 3.  
 
 ![Administrar el acceso a zero Touch UEFI Management y otras características ](images/manage-surface-uefi-fig7a.png "Manage access to Zero Touch UEFI Management and other features")
- *en la figura 8. Administrar el acceso a zero Touch UEFI Management y otras características* 
+ *de la figura 8. Administrar el acceso a zero Touch UEFI Management y otras características* 
 
 
 Zero Touch UEFI Management te permite administrar de forma remota la configuración de UEFI mediante un perfil de dispositivo en Intune denominado Device Firmware Configuration Interface (DFCI). Si no configuras esta opción, la capacidad de administrar dispositivos elegibles con DFCI se establece en **Listo.** Para evitar DFCI, seleccione **Optar por no participar.** 
@@ -209,7 +209,7 @@ Cuando actualizas el firmware del dispositivo Surface, ya sea mediante Windows U
 
 ![Firmware de Surface Trackpad con barra de progreso gris](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
 
-*Figura 17. La actualización de firmware del Surface Trackpad muestra una barra de progreso rosa*
+*Figura 17. La actualización de firmware de Surface Trackpad muestra una barra de progreso rosa*
 
 ![Firmware de Surface TCON con barra de progreso gris claro](images/manage-surface-uefi-fig16.png "Surface TCON firmware with light gray progress bar")
 
@@ -227,6 +227,10 @@ Cuando actualizas el firmware del dispositivo Surface, ya sea mediante Windows U
 ![Pantalla de arranque de Surface que indica que el arranque seguro se ha deshabilitado](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *Figura 20. Pantalla de arranque de Surface que indica que el arranque seguro se ha deshabilitado en la configuración de la UEFI de Surface*
+
+## Referencias
+
+1. Surface Go y Surface Go 2 usan una UEFI de terceros y no admiten DFCI. 
 
 ## Temas relacionados
 
