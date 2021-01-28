@@ -1,7 +1,7 @@
 ---
-title: Referencia de SKU del sistema (Surface)
-description: Consulta una referencia de los nombres de modelo de sistema y SKU del sistema.
-keywords: uefi, configurar, firmware, seguro, semm
+title: Referencia SKU del sistema de Surface
+description: Consulta una referencia de los nombres de modelo de sistema y SKU del sistema para todos los dispositivos Surface.
+keywords: uefi, configurar, firmware, seguro, semm, Autopilot
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices, security
@@ -9,21 +9,21 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 01/27/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 2140faf346229842bffc4f9348041f4667b94686
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.openlocfilehash: 0fe13750e7e8c8188b52726c114a6b3668434d39
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271374"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304833"
 ---
-# Referencia de SKU del sistema
+# Referencia SKU del sistema de Surface
 
-Este documento proporciona una referencia de los nombres de modelo de sistema y SKU del sistema que puedes usar para determinar rápidamente el estado de la máquina de un dispositivo específico mediante PowerShell o WMI.
+Este documento proporciona una referencia que se puede usar para diversas tareas de TI, como registrar dispositivos Surface con Windows Autopilot o comprobar el estado de la máquina de un dispositivo específico con PowerShell o WMI.
 
 El modelo del sistema y la SKU del sistema son variables que se almacenan en las tablas de BIOS de administración del sistema (SMBIOS) en la capa UEFI de dispositivos Surface. Usa el nombre de SKU del sistema siempre que necesites diferenciar entre dispositivos con el mismo nombre del modelo de sistema, como Surface Pro y Surface Pro con LTE Advanced.
 
@@ -68,8 +68,8 @@ Usa el siguiente comando de PowerShell para extraer la información de SKU del s
 gwmi -namespace root\wmi -class MS_SystemInformation | select SystemSKU 
 ```
 
-**Recuperación de la SKU mediante la información del sistema**  
-También puedes encontrar la SKU del sistema y el modelo de sistema de un dispositivo en **Información del sistema.** Para ello, sigua estos pasos:
+**Recuperación de la SKU mediante información del sistema**  
+También puedes encontrar la SKU del sistema y el modelo de sistema de un dispositivo en **Información del sistema.** Para ello, sigue estos pasos:
 
 1. Seleccione **Inicio**y, a continuación, **escriba MSInfo32** en el cuadro de búsqueda.  
 1. Seleccione **Información del sistema.**
@@ -81,3 +81,8 @@ Puedes usar la información de SKU del sistema en Microsoft Deployment Toolkit (
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
  ``` 
+
+## Más información
+
+- [Referencia de WMI](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
+- [Soporte del registro de Surface para Windows Autopilot](surface-autopilot-registration-support.md)
