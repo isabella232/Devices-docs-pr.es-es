@@ -1,6 +1,6 @@
 ---
-title: PowerShell para Surface Hub (Surface Hub)
-description: Scripts de PowerShell para ayudar a configurar y administrar Microsoft Surface Hub.
+title: PowerShell para Surface Hub (v1)
+description: Esta página incluye scripts de PowerShell destinados al Surface Hub original (v1)
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 ms.reviewer: ''
 manager: laurawi
@@ -10,18 +10,19 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 01/10/2018
+ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 92b42139020db13251fa6c5f8439d7084a61a132
-ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
+ms.openlocfilehash: c0fa06153dc5597827f2973ecc9f728e35d79e85
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "11195385"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312006"
 ---
-# PowerShell para Surface Hub
+# PowerShell para Surface Hub (v1)
 
-Scripts de PowerShell para ayudar a configurar y administrar Microsoft Surface Hub.
+> [!NOTE]
+ >Esta página incluye scripts de PowerShell destinados al Surface Hub original (v1). Para obtener los scripts de creación de cuentas más recientes para Surface Hub 2S, consulta Crear cuenta del dispositivo [Surface Hub 2S.](surface-hub-2s-account.md)
 
 -   [Scripts de PowerShell para administradores de Surface Hub](#scripts-for-admins)
     -   [Crear una cuenta local](#create-on-premises-ps-scripts)
@@ -30,12 +31,12 @@ Scripts de PowerShell para ayudar a configurar y administrar Microsoft Surface H
     -   [Habilitar Skype Empresarial (EnableSfb.ps1)](#enable-sfb-ps-scripts)
 -   [Cmdlets útiles](#useful-cmdlets)
     -   [Creación de una directiva de Exchange ActiveSync compatible con Surface Hub](#create-compatible-as-policy)
-    -   [Permitir id. de dispositivo para ActiveSync](#whitelisting-device-ids-cmdlet)
+    -   [Permitir id. de dispositivo para ActiveSync](#allowing-device-ids-for-activesync)
     -   [Aceptar o rechazar automáticamente convocatorias de reunión](#auto-accept-meetings-cmdlet)
     -   [Aceptar convocatorias de reunión externas](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
- > Consulte también la [autenticación moderna y las secuencias de comandos desatendidos en Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
+ > Vea también [Autenticación moderna y scripts desatendidos en Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
 
 ## Requisitos previos
 
@@ -993,7 +994,7 @@ else
 
 ## <a href="" id="acct-verification-ps-scripts"></a>Script de verificación de cuenta
 
-Este script validará la cuenta del dispositivo creada anteriormente en un Surface Hub, sea cual sea método que se usó para crearla. Este script es básicamente correcto o incorrecto. Si se produce un error en una de las pruebas, se mostrará un mensaje de error detallado, pero si se superan todas las pruebas, el resultado final será un informe de resumen. Por ejemplo, puedes ver:
+Este script valida la cuenta del dispositivo creada anteriormente en Surface Hub y Surface Hub 2S, independientemente del método que se usó para crearla. Este script es básicamente correcto o incorrecto. Si se produce un error en una de las pruebas, se mostrará un mensaje de error detallado, pero si se superan todas las pruebas, el resultado final será un informe de resumen. Por ejemplo, puedes ver:
 
 ``` syntax
 15 tests executed
@@ -1642,7 +1643,7 @@ Ahora la cuenta del dispositivo solo se debe convertir de nuevo en un tipo sala.
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### <a href="" id="whitelisting-device-ids-cmdlet"></a>Permitir id. de dispositivo para ActiveSync
+### Permitir id. de dispositivo para ActiveSync
 
 Para permitir una cuenta `$strRoomUpn`, ejecuta el siguiente comando:
 
@@ -1671,7 +1672,7 @@ Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 Para que una cuenta del dispositivo acepte convocatorias de reunión externas (una convocatoria de reunión desde una cuenta que no esté en el mismo dominio o inquilino), la cuenta del dispositivo se debe establecer para permitir el procesamiento de convocatorias de reunión externas. Una vez establecida, la cuenta del dispositivo aceptará o rechazará automáticamente las convocatorias de reunión desde cuentas externas, así como desde cuentas locales.
 
 > [!Note]
-> Si el atributo **AutomateProcessing** no se establece en **AutoAccept**, la configuración no tendrá ningún efecto.
+> Si el **atributo AutomateProcessing** no está establecido en **AutoAccept**, establecerlo no tendrá ningún efecto.
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true
