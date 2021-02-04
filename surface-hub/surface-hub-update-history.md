@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 28f6f844818a00078f2efa812da8bdd7dc28b115
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: b26351fa822f1c3bc8933578902ea304581f5e6f
+ms.sourcegitcommit: 040dffc996fa5be0d93103b5093748c8d919679e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311996"
+ms.locfileid: "11312716"
 ---
 # Historial de actualizaciones de SurfaceHub
 
@@ -28,6 +28,20 @@ We'll be refreshing this page as new updates are released, so stay tuned for the
 Consulta la página "Información importante[de Surface Hub"](https://support.microsoft.com/products/surface-devices/surface-hub)para obtener temas relacionados sobre las versiones actuales y pasadas que pueden requerir tu atención.
 
 ## Windows 10 Team 2020 Update (20H2)
+
+<details>
+<summary>2 de febrero de 2021: actualización de Team basada en KB4598291* (compilación del sistema operativo 19042.789)</summary>
+
+Esta actualización del Surface Hub incluye mejoras de calidad y correcciones de seguridad. Las actualizaciones clave de Surface Hub, que aún no se han descrito en el historial de actualizaciones de [Windows 10,](https://support.microsoft.com/help/4581839/windows-10-update-history)incluyen:
+
+* Corrección que permite que la sincronización de calendarios con Exchange funcione cuando el UPN de la cuenta del dispositivo no es igual a su SMTP.
+* Agrega la capacidad de que los administradores deshabiliten el uso de la autenticación moderna durante la sincronización del calendario con Exchange.
+* Garantiza que no se pida a los usuarios de Surface Hub que escriban credenciales de proxy después de habilitar la característica "Usar credenciales de cuenta de dispositivo".
+* Resuelve un problema en el que las comprobaciones de actualizaciones de Windows Update y store nunca se completaría si se usara un proxy que requiere autenticación.
+* Mejora la confiabilidad de la aplicación Connect durante escenarios de ingesta por cable.
+
+Consulta la guía de administración [de Surface Hub](https://docs.microsoft.com/surface-hub/) para habilitar o deshabilitar los servicios y características del dispositivo. *[KB4598291](https://support.microsoft.com/help/4598291)
+</details>
 
 <details>
 <summary>15 de enero de 2021: actualización de Surface Hub 2S</summary>
