@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 11/26/2020
+ms.date: 02/05/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 093185838250e9b52c078ece4e206639f8b7a630
-ms.sourcegitcommit: 38bb1d92064fb1ab0fe69f9c88ef6e44c9232b97
+ms.openlocfilehash: 01d9712bce55a6be28a58adccdc9a2eef0837c52
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "11304508"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314393"
 ---
 # Introducción a Surface Hub 2S 85" & técnicas
 
@@ -33,23 +33,25 @@ La versión de 85" de la familia Surface Hub aporta la experiencia de Surface Hu
 | Componente    | Descripción                                                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dimensiones        | 44,5" x 77,1" x 3,4"<br>(1130 x 1959 mm x 85,6 mm)                                                                                                                                                                                                        |
-| Grosor            | 185 lb (84 kilos)                                                                                                                                                                                                                                            |
+| Dimensiones de envío        | 89,5" x 62" x 22,8"<br>(2275 x 1573 mm x 580 mm)                                                                                                                                                                                                        |
+| Grosor            | 185 pesos (84 kilos)                                                                                                                                                                                                                                            |
+| Peso del envío            | 399 pesos (181 kilos)                                                                                                                                                                                                                                            |
 | Resolución        | 3840 x 2160                                                                                                                                                                                                                                               |
 | Pantalla           | PixelSense™ Display, relación de aspecto de 16:9, color de 10 bits, ancho del borde de 30,5 mm, anti-glare, IPS LCD, entrada táctil en la celda con 20 puntos táctiles simultáneos                                                                                                           |
 | Cálculo           | Modular Compute Estampó<br>Procesador Intel de 8ª generación de cuatro núcleos® Core™ i5, 8 GB de RAM, SSD 1 de 128 GB <sup></sup>                                                                                                                                                      |
 | Software <sup> 2</sup>         | Sistema operativo Windows 10 Team <sup> 3</sup><br>Microsoft Teams para Surface Hub<br>Skype Empresarial<br>Microsoft Whiteboard<br>Microsoft Office (móvil)<br>Microsoft Power BI                                                                                                   |
-| Conexiones       | USB-A<br>Mini-DisplayPort salida de vídeo<br>GIGABIT45 Gigabit Ethernet<br>Entrada de vídeo HDMI<br>USB-C® con entrada DisplayPort<br>(3) USB-C® (en pantalla)                                                                                                           |
+| Conexiones       | USB-A<br>Mini-DisplayPort salida de vídeo<br>RJ45 Gigabit Ethernet<br>Entrada de vídeo HDMI<br>USB-C® con entrada DisplayPort<br>(3) USB-C® (en pantalla)                                                                                                           |
 | Gráficos          | Intel® OHD Graphics 620                                                                                                                                                                                                                                   |
-| Audio y vídeo       | 100Hz - 12 KHz de altavoces estéreo de 3 vías, incluidos (2) rango medio/alto y (1) rango medio/bajo en la parte trasera. <br>Matriz de micrófono MEMS de 8 elementos de banda completa<br>Microsoft Surface Hub 2 Camera, 4K, USB-C® conexión, 90 grados ÚLTIMOOV |
+| Audio y vídeo       | 100Hz - 12 KHz, altavoces estéreo de 3 vías, incluidos (2) rango medio/alto y (1) rango medio/bajo en la parte trasera. <br>Matriz de micrófono MEMS de 8 elementos de banda completa<br>Microsoft Surface Hub 2 Camera, 4K, USB-C® conexión, 90 grados ÚLTIMOOV |
 | Lápiz               | Lápiz de Microsoft Surface Hub 2 (activo)<br>Surface Surface Pen compatible                                                                                                                                                                                       |
 | Sensores           | Sensor de ocupación doppler <sup> 4</sup>                                                                                                                                                                                                                                 |
 | Conexión inalámbrica          | Wi-Fi 5: compatible con IEEE 802.11 a/b/g/n/ac<br>Bluetooth® inalámbrica 5.0<br>Visualización de Miracast                                                                                                                                                      |
-| Exterior          | Mayúsculas y minúsculas: máquina de precisión con una resin compuesta de café<br>Color: Anillos<br>Botones físicos: energía, volumen, origen                                                                                                                            |
+| Exterior          | Mayúsculas y minúsculas: máquina de precisión con una resin compuesta por una máquina de precisión<br>Color: Anillos<br>Botones físicos: energía, volumen, origen                                                                                                                            |
 | Garantía         | Garantía limitada de hardware de 1 año <sup> 5</sup>                                                                                                                                                                                                                          |
 | Qué hay en el cuadro | (1) Surface Hub 2S<br>(2) Lápiz de Surface Hub 2<br>(1) Cámara de Surface Hub 2<br>Cable de alimentación de CA de 4 m<br>Guía de inicio rápido                                                                                                                                         |
 
 > [!NOTE]
-> Surface Hub se puede usar continuamente durante un máximo de 18 horas al día. Para optimizar la eficiencia, Surface Hub usa sensores inteligentes para desactivar la pantalla LED cuando ya no se detecta la presencia, lo que significa que no es necesario apagarla al final del día. Si la unidad está instalada en un entorno de trabajo de 24 horas, los sensores se pueden deshabilitar para cumplir con la recomendación de uso máximo de 18 horas al día. Ten en cuenta que la visualización prolongada de una señal de vídeo puede provocar la grabación o la retención de imágenes en la pantalla. Para obtener más información sobre cómo administrar la configuración de energía, vea:
+> Surface Hub se puede usar continuamente durante un máximo de 18 horas al día. Para optimizar la eficiencia, Surface Hub usa sensores inteligentes para desactivar la pantalla LED cuando ya no se detecta la presencia, lo que significa que no es necesario apagarla al final del día. Si la unidad se instala en un entorno de trabajo de 24 horas, los sensores se pueden deshabilitar para cumplir con la recomendación de uso máximo de 18 horas al día. Ten en cuenta que la visualización prolongada de una señal de vídeo puede provocar la grabación o la retención de imágenes en la pantalla. Para obtener más información sobre cómo administrar la configuración de energía, vea:
 >
 > - [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md)
 > - [SurfaceHub CSP: Administración de clientes de Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)

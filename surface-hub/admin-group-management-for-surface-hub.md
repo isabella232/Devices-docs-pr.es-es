@@ -12,12 +12,15 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 36c6010307603b36b8798a09aed26f8b337b2c1b
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: c76ac577c1560020bf865a25d4a812343089013a
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311956"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314443"
 ---
 # Administración de grupos de administradores para Surface Hub
 
@@ -51,7 +54,7 @@ Los Surface Hubs usan unión a un dominio para:
 - Copia de seguridad de la clave de recuperación de BitLocker del dispositivo, almacenándola en el objeto del equipo en AD. Consulta [Guardar la clave de BitLocker](save-bitlocker-key-surface-hub.md) para obtener más información.
 - Sincronizar el reloj del sistema con el controlador de dominio para la comunicación cifrada
 
-Surface Hub no admite la aplicación de directivas de grupo o los certificados del controlador de dominio.
+Surface Hub no admite la aplicación de directivas de grupo o certificados desde el controlador de dominio.
 
 > [!NOTE]
 > Si el Surface Hub pierde confianza en el dominio (por ejemplo, si se quita el Surface Hub del dominio cuando esté unido a este), no podrás autenticarte en el dispositivo ni abrir Configuración. Si decides quitar la relación de confianza entre el Surface Hub y tu dominio, [restablece el dispositivo](device-reset-surface-hub.md) en primer lugar.

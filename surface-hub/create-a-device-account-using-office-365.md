@@ -1,10 +1,10 @@
 ---
-title: Crear una cuenta del dispositivo mediante la interfaz de usuario (Surface Hub)
+title: Crear una cuenta del dispositivo mediante la interfaz de usuario (Surface Hub v1)
 description: Si prefieres usar una interfaz gráfica de usuario, puedes crear una cuenta del dispositivo para tu Microsoft Surface Hub con la Interfaz de usuario de Office 365 o el Centro de administración de Exchange.
 ms.assetid: D11BCDC4-DABA-4B9A-9ECB-58E02CC8218C
 ms.reviewer: ''
 manager: laurawi
-keywords: crear una cuenta de dispositivo, Office 365 UI, centro de administración de Exchange, centro de administración de Microsoft 365, Skype empresarial, Directiva de buzón de dispositivo móvil
+keywords: crear cuenta del dispositivo, interfaz de usuario de Office 365, Centro de administración de Exchange, Centro de administración de Microsoft 365, Skype Empresarial, directiva de buzón de dispositivo móvil
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -12,22 +12,24 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 05/04/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: e1f82f084103d4eef942e812c5e4f0e8bf425def
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9e6d72dc2b36bb149ee09c2edab885c80e60ac14
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836745"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314473"
 ---
-# Crear una cuenta del dispositivo mediante la interfaz de usuario (Surface Hub)
+# Crear una cuenta del dispositivo mediante la interfaz de usuario (Surface Hub v1)
 
+ > [!NOTE]
+ >Esta página incluye información sobre el Surface Hub original (v1). Para Surface Hub 2S, consulta [Crear cuenta del dispositivo Surface Hub 2S.](surface-hub-2s-account.md)
 
 Si prefieres usar una interfaz gráfica de usuario, puedes crear una cuenta del dispositivo para tu Microsoft Surface Hub con la [Interfaz de usuario de Office 365](#create-device-acct-o365) o el [Centro de administración de Exchange](#create-device-acct-eac).
 
 ## <a href="" id="create-device-acct-o365"></a>Crear una cuenta del dispositivo mediante Office 365
 
 
-1.  [Cree la cuenta en el centro de administración de Microsoft 365](#create-device-acct-o365-admin-ctr).
+1.  [Cree la cuenta en el Centro de administración de Microsoft 365.](#create-device-acct-o365-admin-ctr)
 2.  [Crear una directiva de buzón (ActiveSync) de dispositivos móviles desde el Centro de administración de Microsoft Exchange](#create-device-acct-o365-mbx-policy).
 3.  [Usar PowerShell para completar la creación de cuentas de dispositivo](#create-device-acct-o365-complete-acct).
 4.  [Usar PowerShell para configurar las propiedades de Exchange de la cuenta](#create-device-acct-o365-configure-exch-prop).
@@ -35,14 +37,14 @@ Si prefieres usar una interfaz gráfica de usuario, puedes crear una cuenta del 
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>Crear la cuenta en el centro de administración
 
-1.  Inicie sesión en Office 365 visitandohttps://portal.office.com
-2.  Proporciona las credenciales de administrador para tu inquilino de Office 365. Esto le llevará a su centro de administración de Microsoft 365.
+1.  Inicie sesión en Office 365 visitando https://portal.office.com
+2.  Proporciona las credenciales de administrador para tu inquilino de Office 365. Esto le llevará al Centro de administración de Microsoft 365.
 
     ![Centro de administración de Microsoft 365.](images/setupdeviceaccto365-02.png)
 
-3. En el centro de administración, vaya a **recursos** en el panel izquierdo y, a continuación, haga clic en **salas & equipo**.
+3. En el centro de administración, vaya a **Recursos** en el panel izquierdo y, a continuación, haga clic en Salas **& equipo.**
 
-    ![Opción salas & equipamiento en el centro de administración](images/room-equipment.png)
+    ![Salas & opción de equipamiento en el Centro de administración](images/room-equipment.png)
 
 4. Haga clic en **Agregar** para crear una nueva cuenta de la sala. Introduce un nombre para mostrar y la dirección de correo electrónico y, a continuación, haz clic en **Agregar**.
 
@@ -54,9 +56,9 @@ Si prefieres usar una interfaz gráfica de usuario, puedes crear una cuenta del 
 
 ### <a href="" id="create-device-acct-o365-mbx-policy"></a>Crear una directiva de buzón (ActiveSync) de dispositivo móvil desde el Centro de administración de Exchange
 
-1.  En el panel izquierdo del centro de administración, haga clic en **Administrador**y, a continuación, en **Exchange**.
+1.  En el panel izquierdo del centro de administración, haga clic en **ADMINISTRACIÓN**y, a continuación, haga clic **en Exchange.**
 
-    ![Centro de administración, que muestra los usuarios activos de Exchange.](images/setupdeviceaccto365-08.png)
+    ![centro de administración, que muestra los usuarios activos de Exchange.](images/setupdeviceaccto365-08.png)
 
 2.  Se abrirá otra ficha en el explorador que te llevará al Centro de administración de Exchange, donde puedes crear y establecer la configuración del buzón de Surface Hub.
 
@@ -82,7 +84,7 @@ De ahora en adelante, debes finalizar el proceso de creación de cuenta mediante
 
 Para poder ejecutar los cmdlets usados por estos scripts de PowerShell, se debe instalar lo siguiente en la consola de administración de PowerShell:
 
--   [Ayudante para el inicio de sesión de Microsoft Online Services para profesionales de ti RTW](https://www.microsoft.com/download/details.aspx?id=41950)
+-   [Microsoft Online Services Sign-In asistente para profesionales de TI RTW](https://www.microsoft.com/download/details.aspx?id=41950)
 -   [Módulo de Windows Azure Active Directory para Windows PowerShell](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [Skype Empresarial Online, módulo de Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)
 
@@ -197,10 +199,10 @@ Habilitar la cuenta del dispositivo con Skype Empresarial.
 
 Para habilitar Skype Empresarial, tu entorno deberá cumplir los siguientes requisitos previos:
 
--   Necesitará tener el plan independiente 2 o superior de Skype empresarial online en su plan de O365. El plan debe admitir la funcionalidad de conferencia.
--   Si necesita Enterprise Voice (telefonía RTC) con proveedores de servicios de telefonía para Surface Hub, necesita el plan independiente 3 de Skype empresarial online.
+-   Necesitará tener Skype Empresarial Online plan independiente 2 o superior en su plan de O365. El plan debe admitir la funcionalidad de conferencia.
+-   Si necesitas usar Telefonía IP empresarial (telefonía RTC) con proveedores de servicios de telefonía para Surface Hub, necesitas skype empresarial online plan independiente 3.
 -   Los usuarios de inquilino deben tener buzones de Exchange.
--   La cuenta de Surface Hub requiere un plan independiente 2 de Skype empresarial online o una licencia de plan independiente 3 de Skype empresarial online, pero no requiere una licencia de Exchange Online.
+-   Tu cuenta de Surface Hub requiere una licencia del Plan independiente 2 de Skype Empresarial Online o skype empresarial Online plan independiente 3, pero no requiere una licencia de Exchange Online.
 
 1.  Comienza creando una sesión de PowerShell remoto desde un equipo.
 
@@ -225,7 +227,7 @@ Para habilitar Skype Empresarial, tu entorno deberá cumplir los siguientes requ
 ## <a href="" id="create-device-acct-eac"></a>Crear una cuenta del dispositivo mediante el Centro de administración de Exchange
 
 >[!NOTE]
->Este método solo funciona si está sincronizando desde un Active Directory local.
+>Este método solo funcionará si está sincronizando desde un Active Directory local.
 
 Puedes usar el Centro de administración de Exchange para crear una cuenta del dispositivo:
 
@@ -248,7 +250,7 @@ Puedes usar el Centro de administración de Exchange para crear una cuenta del d
 ### <a href="" id="create-device-acct-exch-mbx-policy"></a>Crear una directiva de buzón de dispositivo móvil desde el Centro de administración de Exchange
 
 >[!NOTE]
->Si desea crear y asignar una directiva a la cuenta que ha creado, y está usando Exchange 2010, busque la información correspondiente relacionada con la creación de directivas y la asignación de directivas al usar EMC (consola de administración de Exchange).
+>Si desea crear y asignar una directiva a la cuenta que creó y usa Exchange 2010, busque la información correspondiente sobre la creación de directivas y la asignación de directivas al usar la EMC (consola de administración de Exchange).
 
  
 
@@ -314,7 +316,7 @@ Ahora que estás conectado a los servicios en línea, puedes finalizar la config
 
     Verás la dirección de correo electrónico correcta.
 
-2.  Debe convertir la cuenta en un buzón de sala, así que ejecute:
+2.  Debe convertir la cuenta en un buzón de sala, por lo que ejecute:
 
     ``` syntax
     Set-Mailbox $strEmail -Type Room
@@ -357,12 +359,12 @@ Habilitar la cuenta del dispositivo con Skype Empresarial.
 
 Para habilitar Skype Empresarial, tu entorno deberá cumplir los siguientes requisitos previos:
 
--   Necesitará tener el plan independiente 2 o superior de Skype empresarial online en su plan de O365. El plan debe admitir la funcionalidad de conferencia.
--   Si necesita Enterprise Voice (telefonía RTC) con proveedores de servicios de telefonía para Surface Hub, necesita el plan independiente 3 de Skype empresarial online.
--   Los usuarios de inquilino deben tener buzones de Exchange.
--   La cuenta de Surface Hub requiere un plan independiente 2 de Skype empresarial online o una licencia de plan independiente 3 de Skype empresarial online, pero no requiere una licencia de Exchange Online.
+- Necesitará tener Skype Empresarial Online plan independiente 2 o superior en su plan de O365. El plan debe admitir la funcionalidad de conferencia.
+- Si necesitas usar Telefonía IP empresarial (telefonía RTC) con proveedores de servicios de telefonía para Surface Hub, necesitas skype empresarial online plan independiente 3.
+- Los usuarios de inquilino deben tener buzones de Exchange.
+- Tu cuenta de Surface Hub requiere una licencia del Plan independiente 2 de Skype Empresarial Online o skype empresarial Online plan independiente 3, pero no requiere una licencia de Exchange Online.
 
-1.  Comienza creando una sesión de PowerShell remoto desde un equipo.
+1. Comienza creando una sesión de PowerShell remoto desde un equipo.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -370,23 +372,16 @@ Para habilitar Skype Empresarial, tu entorno deberá cumplir los siguientes requ
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Recuperar el grupo de registrador de cuentas de Surface Hub
+2. Recuperar el grupo de registradores de cuentas de Surface Hub
 
 Si no estás seguro de qué valor usar para el parámetro `RegistrarPool` en el entorno, puedes obtener el valor a partir de un usuario de Skype Empresarial con este cmdlet:
 
-    ```PowerShell
+ ```PowerShell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
-    ```
-    
+ ```
+
 3. Para habilitar la cuenta de Surface Hub para Skype Empresarial Server, ejecuta este cmdlet:
 
    ```PowerShell
    Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
-
-    
-
-
-
-
-
