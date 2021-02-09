@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 12/2/2020
+ms.date: 02/08/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 81c224cf6c5232c4cefd4e64889bd2f724d22bac
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.openlocfilehash: d1eb3a6e01d28dc5b3239396c8149c97c0e6a91e
+ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271137"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11319204"
 ---
 # Novedades de Surface Dock 
 
@@ -55,7 +55,7 @@ Surface Dock 2 está diseñado para simplificar la administración de TI, lo que
 ### USB
 
 - Dos puertos USB-C frontales.
-- Dos puertos USB-C (gen 2) orientados hacia atrás.
+- Dos puertos USB-C (generación 2) orientados hacia atrás.
 - Dos puertos USB-A orientados hacia atrás. 
 
 ### Vídeo
@@ -99,14 +99,14 @@ Surface Dock 2 está diseñado para simplificar la administración de TI, lo que
 | Puerto mini display                   | 2 orientación trasera (DP1.2)                                       | Ninguno                                                                                                | Ninguno             |
 | USB-C                               | Ninguno                                                        | 2 USB frontales de 3.2 gen. 2<br>(Alimentación de 15 W)<br>2 USB de orientación trasera 3.2 Gen 2 (DP1.4a)<br>(Alimentación de 7,5 W) | 1 USB 3.2 Gen 2  |
 | Entrada y salida de audio de 3,5 mm                 | Sí                                                         | Sí                                                                                                 | Sí              |
-| Ethernet                            | Sí, 1 gigabit                                              | Sí 1 gigabit                                                                                       | Sí, 1 gigabit   |
+| Ethernet                            | Sí, 1 gigabit                                              | Sí, 1 gigabit                                                                                       | Sí, 1 gigabit   |
 | Entrada de alimentación de DC                         | Sí                                                         | Sí                                                                                                 |                  |
 | Bloqueo de Kensington                     | Sí                                                         | Sí                                                                                                 |                  |
 | Longitud del cable surflink               | 65cm                                                        | 80cm                                                                                                | 20cm             |
 | Potencia del host de Surflink                 | 60W                                                         | 120W                                                                                                | N/D              |
 | Alimentación de carga USB                      | 30W                                                         | 60W                                                                                                 |                  |
 | Velocidad de bits USB                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
-| Supervisar la compatibilidad                     | 2 x 4 k @30fps o<br>1 x 4 k a 60 fps                         | 2 x 4 K a 60 fps                                                                                      | 1 x 4K a 60 fps   |
+| Supervisar la compatibilidad                     | 2 x 4 k @30fps o<br>1 x 4 k a 60 fps                         | 2 x 4 K a 60 fps<br> o 1 x 4 K @120fps                                                                                     | 1 x 4K a 60 fps   |
 | Activar en LAN desde el modo de espera <sup> conectado 1</sup> | Sí                                                         | Sí                                                                                                 |                  |
 | Reactivación en LAN desde modos de suspensión S4/S5  | No                                                          | Sí                                                                                                 |          Sí        |
 | Arranque PXE de red                    | Sí                                                         | Sí                                                                                                 |        Sí          |
@@ -118,7 +118,7 @@ Surface Dock 2 está diseñado para simplificar la administración de TI, lo que
 
 
 
-1. *Los dispositivos deben configurarse para Activar en LAN a través del Modo de administración de Surface Enterprise (SEMM) o la Interfaz de control de firmware de dispositivo (DFCI) para que se resalte desde la hibernación o Power-Off dispositivos. Activar desde la hibernación o Power-Off se admite en Surface Pro 7+, Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3 y Surface Go 2.  Licencia de software necesaria para algunas características. Se vende por separado.*
+1. *Los dispositivos deben configurarse para Activar en LAN a través del Modo de administración de Surface Enterprise (SEMM) o la Interfaz de control de firmware de dispositivo (DFCI) para que se resalte desde la hibernación o Power-Off dispositivos. Activar desde la hibernación o Power-Off es compatible con Surface Pro 7+, Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3 y Surface Go 2.  Licencia de software necesaria para algunas características. Se vende por separado.*
 
 2. *Licencia de software necesaria para algunas características. Se vende por separado.*
 
@@ -126,9 +126,9 @@ Surface Dock 2 está diseñado para simplificar la administración de TI, lo que
 
 Surface ha publicado una funcionalidad de administración optimizada a través de Windows Update que permite a los administradores de TI usar las siguientes características de nivel empresarial:
 
-- **Actualizaciones sin fricción.** Actualiza las bases de datos de forma silenciosa y automática, con Windows Update o Microsoft Endpoint Configuration Manager (anteriormente System Center Configuration Manager - SCCM) u otras herramientas de implementación de MSI. 
+- **Actualizaciones sin fricción.** Actualiza las bases de datos de forma silenciosa y automática, con Windows Update o Microsoft Endpoint Configuration Manager , (anteriormente System Center Configuration Manager - SCCM) u otras herramientas de implementación de MSI. 
 - **Activar desde la red.** Administra y accede a los dispositivos corporativos sin depender de los usuarios para mantener sus dispositivos encendidos. Incluso cuando un dispositivo acoplado está en modo de suspensión, hibernación o apagado, el equipo puede activarse desde la red para el servicio y la administración, mediante Endpoint Configuration Manager u otras herramientas de administración empresarial.
-- **Control de IT centralizado.** Controla quién puede conectarse a Surface Dock 2 al activar y desactivar los puertos. Restringe los dispositivos host que se pueden usar con Surface Dock 2. Limite el acceso de acoplamiento a un solo usuario o configure las bases de acoplamiento para que solo puedan acceder a ellos usuarios específicos de su equipo o de toda la empresa.
+- **Control de IT centralizado.** Controla quién puede conectarse a Surface Dock 2 al activar y desactivar los puertos. Restringe los dispositivos host que se pueden usar con Surface Dock 2. Limite el acceso al dock a un solo usuario o configure las bases de acoplamiento para que solo puedan acceder a ellos usuarios específicos de su equipo o de toda la empresa.
 
 ## Pasos siguientes
 

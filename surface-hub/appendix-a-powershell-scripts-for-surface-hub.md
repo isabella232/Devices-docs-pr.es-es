@@ -14,12 +14,12 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 09d600efbf07bb58de1b5ebffcb6731e4125a62d
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314433"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11317984"
 ---
 # PowerShell para Surface Hub (v1)
 
@@ -68,11 +68,11 @@ Para ejecutar correctamente estos scripts de PowerShell, necesitarás instalar l
 
 Los scripts de creación de cuenta podrán:
 
--   Solicitar credenciales de administrador
--   Crear cuentas de dispositivo en el dominio o inquilino
--   Crear o asignar una directiva de ActiveSync compatible con Surface Hub a las cuentas de dispositivo
+-   Solicite credenciales de administrador.
+-   Cree cuentas de dispositivo en su dominio o inquilino.
+-   Crea o asigna una directiva de ActiveSync compatible con Surface Hub a las cuentas del dispositivo.
 -   Establecer varios atributos de las cuentas creadas en Exchange y Skype Empresarial.
--   Asignar licencias y permisos a las cuentas creadas
+-   Asignar licencias y permisos a las cuentas creadas.
 
 Estos son los atributos que establecen los scripts:
 
@@ -551,7 +551,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Crear una cuenta del dispositivo mediante Office 365
 
-Crea una cuenta, como se describe en [Crear una cuenta del dispositivo mediante Office 365](create-a-device-account-using-office-365.md)
+Crea una cuenta como se describe [en Crear una cuenta de dispositivo con Office 365](create-a-device-account-using-office-365.md).
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -998,7 +998,7 @@ else
 
 Este script valida la cuenta del dispositivo creada anteriormente en Surface Hub y Surface Hub 2S, independientemente del método que se usó para crearla. Este script es básicamente correcto o incorrecto. Si se produce un error en una de las pruebas, se mostrará un mensaje de error detallado, pero si se superan todas las pruebas, el resultado final será un informe de resumen. Por ejemplo, puedes ver:
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings
