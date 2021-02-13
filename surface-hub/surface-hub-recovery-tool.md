@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/18/2020
+ms.date: 02/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 9df9de731ac5c8f8acb393db3d4b16e9d1c98a9e
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: 34a05eeabd284e0ad43317577b8e7ff9348ffe21
+ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11312036"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "11327344"
 ---
 # Uso de la herramienta de recuperación de Surface Hub
 
@@ -53,16 +53,19 @@ Si la herramienta no consigue restablecer la unidad, ponte en contacto con el so
 
 ## Descargar la Herramienta de recuperación de Surface Hub
 
-La Herramienta de recuperación de Surface Hub está disponible para su descarga desde herramientas [de Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) para TI en el nombre de archivo **SurfaceHub_Recovery_v2.0.139.0.msi. **
+La Herramienta de recuperación de Surface Hub está disponible para su descarga desde [herramientas de Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) para TI en el nombre de archivo **SurfaceHub_Recovery_v2.7.139.0.msi. **
 
-Para iniciar la descarga, haga **clic en Descargar**, elija **SurfaceHub_Recovery_v2.0.139.0.msi** de la lista y haga clic en **Siguiente.** En la ventana emergente, elija una de las siguientes opciones:
+> [!IMPORTANT]
+> Esta versión, publicada el 11 de febrero de 2021, reemplaza a la compilación anterior, que ya no funciona. Si has descargado esta herramienta anteriormente, descarta y usa la versión actual.
+
+Para iniciar la descarga, haga **clic en Descargar**, elija **SurfaceHub_Recovery_v2.7.139.0.msi** de la lista y haga clic en **Siguiente.** En la ventana emergente, elija una de las siguientes opciones:
 
 - Haga **clic en Ejecutar** para iniciar la instalación inmediatamente.
 - Haga **clic en** Guardar para copiar la descarga en el equipo para su instalación posterior.
 
 Instala la Herramienta de recuperación de Surface Hub en el equipo host.
 
-## Ejecutar la herramienta de recuperación de Surface Hub
+## Ejecutar la Herramienta de recuperación de Surface Hub
 
 1. En el equipo host, selecciona el botón Inicio, desplázate por la lista alfabética de la izquierda y selecciona el acceso directo de la herramienta de recuperación. ****
 
@@ -73,7 +76,7 @@ Instala la Herramienta de recuperación de Surface Hub en el equipo host.
     ![Botón Inicio de la herramienta de recuperación](images/shrt-start.png)
 
 
-3. En la **ventana Guía,** haga clic **en Siguiente**.
+3. En la **ventana Guía,** haga clic en **Siguiente**.
 
     ![No dejar que la máquina vaya a la guía de suspensión](images/shrt-guidance.png)
 
@@ -112,7 +115,19 @@ Si la herramienta no consigue restablecer la unidad, ponte en contacto con el so
 
 ## Historial de versiones
 
+
+### Versión v2.7.139.0
+
+*Fecha de lanzamiento: 11 de febrero de 2021*<br>
+Esta versión de la Herramienta de recuperación de Surface Hub agrega compatibilidad con lo siguiente:
+
+- Actualización de seguridad
+
+
 ### Versión v2.0.139.0
+
+> [!IMPORTANT]
+> Esta versión ya no funciona. Descargue la versión actual, enumerada anteriormente. 
 
 *Fecha de lanzamiento: 18 de diciembre de 2020*<br>
 Esta versión de la Herramienta de recuperación de Surface Hub agrega compatibilidad con lo siguiente:

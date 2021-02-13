@@ -9,17 +9,17 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/08/2021
+ms.date: 02/10/2021
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 74ae47e80447f89753110c52a49daf649478dd50
-ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
+ms.openlocfilehash: 2bc11fb18137ce21cba27368e0c12bbb9e73a4c2
+ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "11319174"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "11327314"
 ---
 # Instalar y configurar el nuevo MicrosoftEdge en SurfaceHub
 
@@ -32,7 +32,7 @@ Windows 10 Team 2020 Update admite el nuevo Microsoft Edge basado en Chromium (v
 
 1. Desde un equipo, descarga el paquete de aprovisionamiento [de Microsoft Edge](https://aka.ms/HubEdge) (MicrosoftEdgeInstaller.ppkg) en la carpeta raíz de una unidad USB.
 2. Inserta la unidad USB en Surface Hub.
-3. Desde Surface Hub, abre **Configuración** y escribe tus credenciales de administrador cuando se te pida.
+3. En Surface Hub, abre **Configuración** y escribe tus credenciales de administrador cuando se te pida.
 4. Navega hasta **Surface Hub** > **Administración de dispositivos**. En **Paquetes de aprovisionamiento**, selecciona **Agregar o quitar un paquete de aprovisionamiento**.
 5. Selecciona **Agregar un paquete**.
 6. Elija el paquete de aprovisionamiento de Microsoft Edge y seleccione **Agregar**.
@@ -75,7 +75,7 @@ Microsoft Edge está preconfigurado con las siguientes configuraciones de direct
 | Configuración de directiva                                                                                                   | Experiencia recomendada                                                                                                                                                                                                                                               | Valor predeterminado |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
 | [AutoImportAtFirstRun](https://docs.microsoft.com/deployedge/microsoft-edge-policies#autoimportatfirstrun)             | No importe automáticamente los tipos de datos y la configuración de Microsoft Edge (versión heredada). Esto evita cambiar los perfiles de los usuarios que han iniciado sesión con la configuración compartida desde Surface Hub.                                                                                                 | 4                 |
-| [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Permite que los procesos de Microsoft Edge sigan ejecutándose en segundo plano incluso después de cerrar la última ventana del explorador, lo que permite un acceso más rápido a las aplicaciones web durante una sesión.                                                                                                      | 1                 |
+| [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Permitir que los procesos de Microsoft Edge sigan ejecutándose en segundo plano incluso después de cerrar la última ventana del explorador, lo que permite un acceso más rápido a las aplicaciones web durante una sesión.                                                                                                      | 1                 |
 | [BrowserAddProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | No permita que los usuarios creen nuevos perfiles en Microsoft Edge. Esto simplifica la experiencia de exploración y de sesión.                                                                                                                                                      | 0                 |
 | [BrowserGuestModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browserguestmodeenabled)       | Permite que solo un usuario inicie sesión en Microsoft Edge. Esto simplifica la experiencia de exploración y de sesión                                                                                                                                                                | 0                 |
 | [BrowserSignin](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browsersignin)                           | Permite a los usuarios disfrutar de Sign-On único (SSO) en Microsoft Edge. Cuando un usuario ha iniciado sesión en Surface Hub, sus credenciales pueden fluir a los sitios web compatibles sin tener que volver a autenticarse.  | 1                 |
@@ -93,7 +93,7 @@ Microsoft Edge está preconfigurado con las siguientes configuraciones de direct
 
 ### Configurar las opciones de directiva de Microsoft Edge
 
-Use [directivas de explorador de Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-policies) para configurar la configuración del explorador en Microsoft Edge. Estas directivas se pueden aplicar mediante:
+Use [las directivas de explorador de Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-policies) para configurar la configuración del explorador en Microsoft Edge. Estas directivas se pueden aplicar mediante:
 
 - [Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune),
 - [El proveedor de administración de dispositivos móviles (MDM) preferido que admite la ingesta de ADMX](https://docs.microsoft.com/deployedge/configure-edge-with-mdm)o
@@ -108,33 +108,10 @@ Ten en cuenta que Surface Hub no admite las siguientes directivas de actualizaci
 - **Allowsxs:** en Surface Hub, el canal estable de Microsoft Edge siempre reemplaza a Microsoft Edge (versión heredada).
 - **CreateDesktopShortcut:** Surface Hub no usa accesos directos de escritorio.
 
-> [!NOTE]
+> [!TIP]
 >  Microsoft Edge requiere conectividad a Internet para posibilitar sus funciones. Asegúrese de que las [direcciones URL de dominio necesarias](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) se agregan a la lista de permitidos para garantizar las comunicaciones a través de firewalls y otros mecanismos de seguridad.
- 
-### Mostrar Microsoft Edge en el menú Inicio de Surface Hub
-
-Si usas el diseño predeterminado del menú Inicio, puedes instalar el menú Inicio con el paquete de aprovisionamiento de Microsoft Edge para agregar Microsoft Edge como aplicación anclada.
-Si quieres aplicar un diseño de menú Inicio personalizado, usa el siguiente XML para agregar un icono anclado para Microsoft Edge.
-
-```xml
-
-<start:DesktopApplicationTile
-
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-
-Size="2x2"
-
-Row="0"
-
-Column="0"/>
-```
-
-Para obtener más información, consulta [Configurar el menú Inicio de Surface Hub.](https://docs.microsoft.com/surface-hub/surface-hub-start-menu)
- 
-> [!NOTE]
-> El nuevo Microsoft Edge no admite sitios web anclados.
 
 ## Vínculos relacionados
 
-- [Documentación de Microsoft Edge](https://docs.microsoft.com/microsoft-edge/).
+- [Documentación de Microsoft Edge](https://docs.microsoft.com/microsoft-edge/)
 
