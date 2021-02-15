@@ -19,7 +19,7 @@
 
 ## Planificar
 
-### [Compatibilidad de los dispositivos Surface con la Rama de mantenimiento a largo plazo de Windows10](surface-device-compatibility-with-windows-10-ltsc.md)
+### [Compatibilidad de los dispositivos Surface con la Rama de mantenimiento a largo plazo de Windows 10](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Rama de mantenimiento a largo plazo para dispositivos Surface](ltsb-for-surface.md)
 ### [Wake on LAN para dispositivos Surface](wake-on-lan-for-surface-devices.md)
 ### [Consideraciones para Surface y Endpoint Configuration Manager](considerations-for-surface-and-system-center-configuration-manager.md)
@@ -81,8 +81,8 @@
 ### [Ayuda para los usuarios finales](https://support.microsoft.com/products/surface-devices)
 ### [Controlador de Surface y ciclo de vida del firmware para dispositivos basados en Windows](surface-driver-firmware-lifecycle-support.md)
 
-## Planes de garantía y servicio ampliado
-### [Planes de garantía y servicio ampliado para Surface para la empresa](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+## Planes de garantía y protección
+### [Planes de protección y garantía de Surface para empresas](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [Términos y condiciones](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
 ### [Comprobar el estado de garantía del dispositivo](https://mybusinessservice.surface.com/)
 ### [Proteger los datos al enviar Surface para su reparación](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
