@@ -12,18 +12,18 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 34a05eeabd284e0ad43317577b8e7ff9348ffe21
-ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
+ms.openlocfilehash: 0cc444eab51e9c3cc0bf2f9c2f0c36ac491906b1
+ms.sourcegitcommit: 7b09b4bc757c5385c4f5560713cb03448afde9ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "11327344"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "11339371"
 ---
 # Uso de la herramienta de recuperación de Surface Hub
 
 La Herramienta de recuperación de [Microsoft Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) te ayuda a volver a crear una imagen de la unidad de estado sólido (SSD) de Surface Hub con un dispositivo de escritorio Windows 10, sin llamar al soporte técnico ni reemplazar el SSD. Con esta herramienta, puedes volver a crear una imagen de un SSD que tenga una contraseña de administrador desconocida, errores de arranque, no haya podido completar una recuperación en la nube o para un dispositivo que tenga una versión anterior del sistema operativo. La herramienta no corregirá los SSD físicamente dañados.
 
-Para volver a crear una imagen de la SSD de Surface Hub con la Herramienta de recuperación, tendrás que quitar el SSD de Surface Hub, conectar la unidad al cable USB a SATA y, a continuación, conectar el cable al equipo de escritorio en el que está instalada la herramienta de recuperación. Para obtener más información sobre cómo quitar la unidad existente de Surface Hub, consulta reemplazo de [SSD de Surface Hub.](surface-hub-ssd-replacement.md)
+Para volver a crear una imagen de la SSD de Surface Hub con la Herramienta de recuperación, debes quitar el SSD de Surface Hub, conectar la unidad al cable USB a SATA y, a continuación, conectar el cable al equipo de escritorio en el que está instalada la Herramienta de recuperación. Para obtener más información sobre cómo quitar la unidad existente de Surface Hub, consulta Reemplazo de [SSD de Surface Hub.](surface-hub-ssd-replacement.md)
 
 > [!IMPORTANT]
 > No deje que el dispositivo se ponga en modo de suspensión ni interrumpa la descarga del archivo de imagen.
@@ -39,7 +39,7 @@ Si la herramienta no consigue restablecer la unidad, ponte en contacto con el so
 - Puerto USB 2.0 abierto o posterior
 - Cable USB a SATA
 - 10 GB de espacio libre en disco en el equipo host
-- Ssd que se suministran con Surface Hub o un SSD proporcionado por el soporte técnico como reemplazo. Los SSD no proporcionados por Microsoft no son compatibles.
+- Ssd enviados con Surface Hub o un SSD proporcionado por el soporte técnico como reemplazo. Los SSD no proporcionados por Microsoft no son compatibles.
 
 ### Recomendaciones
 
@@ -53,19 +53,19 @@ Si la herramienta no consigue restablecer la unidad, ponte en contacto con el so
 
 ## Descargar la Herramienta de recuperación de Surface Hub
 
-La Herramienta de recuperación de Surface Hub está disponible para su descarga desde [herramientas de Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) para TI en el nombre de archivo **SurfaceHub_Recovery_v2.7.139.0.msi. **
+La Herramienta de recuperación de Surface Hub está disponible para su descarga desde herramientas [de Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) para TI en el nombre de archivo **SurfaceHub_Recovery_v2.7.139.0.msi. **
 
 > [!IMPORTANT]
-> Esta versión, publicada el 11 de febrero de 2021, reemplaza a la compilación anterior, que ya no funciona. Si has descargado esta herramienta anteriormente, descarta y usa la versión actual.
+> Esta versión, publicada el 11 de febrero de 2021, reemplaza a la compilación anterior, que ya no funciona. Si descargó esta herramienta anteriormente, desinstale e instale la versión actual.
 
-Para iniciar la descarga, haga **clic en Descargar**, elija **SurfaceHub_Recovery_v2.7.139.0.msi** de la lista y haga clic en **Siguiente.** En la ventana emergente, elija una de las siguientes opciones:
+Para iniciar la descarga, haga **clic en Descargar**, elija **SurfaceHub_Recovery_v2.7.139.0.msi** en la lista y, a continuación, haga clic **en Siguiente.** En la ventana emergente, elija una de las siguientes opciones:
 
 - Haga **clic en Ejecutar** para iniciar la instalación inmediatamente.
 - Haga **clic en** Guardar para copiar la descarga en el equipo para su instalación posterior.
 
 Instala la Herramienta de recuperación de Surface Hub en el equipo host.
 
-## Ejecutar la Herramienta de recuperación de Surface Hub
+## Ejecutar la herramienta de recuperación de Surface Hub
 
 1. En el equipo host, selecciona el botón Inicio, desplázate por la lista alfabética de la izquierda y selecciona el acceso directo de la herramienta de recuperación. ****
 
@@ -90,7 +90,7 @@ Instala la Herramienta de recuperación de Surface Hub en el equipo host.
 
 
 
-5. Una vez completada la descarga, la herramienta te indica que conectes una unidad SSD. Si la herramienta no puede encontrar la unidad conectada, es muy posible que el cable que se usa no notifique el nombre del SSD a Windows.  La herramienta de creación de imágenes debe encontrar el nombre de la unidad como "Dispositivo USB LITEON L CH-128V2S" para poder continuar.  Para obtener más información sobre cómo quitar la unidad existente de Surface Hub, consulta reemplazo de [SSD de Surface Hub.](surface-hub-ssd-replacement.md)
+5. Una vez completada la descarga, la herramienta te indica que conectes una unidad SSD. Si la herramienta no puede encontrar la unidad conectada, es muy posible que el cable que se usa no notifique el nombre del SSD a Windows.  La herramienta de creación de imágenes debe encontrar el nombre de la unidad como "Dispositivo USB LITEON L CH-128V2S" para poder continuar.  Para obtener más información sobre cómo quitar la unidad existente de Surface Hub, consulta Reemplazo de [SSD de Surface Hub.](surface-hub-ssd-replacement.md)
 
     ![Connect SSD](images/shrt-drive.png)
 
@@ -98,7 +98,7 @@ Instala la Herramienta de recuperación de Surface Hub en el equipo host.
 
 
 
-    Antes de aplicar la imagen del sistema a la unidad, el SSD se vuelve a particionar y formatear. La copia de los archivos binarios del sistema llevará aproximadamente 30 minutos, pero puede tardar más en función de la velocidad del bus USB, el cable que se usa o el software antivirus instalado en el sistema.
+    Antes de aplicar la imagen del sistema a la unidad, el SSD se vuelve a particionar y dar formato. La copia de los archivos binarios del sistema llevará aproximadamente 30 minutos, pero puede tardar más en función de la velocidad del bus USB, el cable que se usa o el software antivirus instalado en el sistema.
 
 
 
