@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 88f5d912f7505aecaa5bd7ba659acab2d6c4fa1a
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
+ms.openlocfilehash: 64ceee291d3d3e067f581707d9431fa92398c785
+ms.sourcegitcommit: ecb4909c091e69b7bdb1faacfc8c34b480dc884b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304813"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "11342980"
 ---
 # Restablecimiento y recuperación de Surface Hub 2S
 
-Si tienes problemas con Surface Hub 2S, puedes restablecer el dispositivo a la configuración de fábrica o restaurarlo mediante una unidad USB.
+Si tienes problemas con Surface Hub 2S, puedes restablecer la configuración de fábrica del dispositivo o restaurarlo mediante una unidad USB.
 
 Para empezar, inicia sesión en Surface Hub 2S con credenciales de administrador, abre la aplicación Configuración, selecciona Actualizar & seguridad y, **a**continuación, selecciona **Recuperación.** ****
 
@@ -38,7 +38,7 @@ Para empezar, inicia sesión en Surface Hub 2S con credenciales de administrador
   
 3. Para volver a configurar el dispositivo, ejecuta el programa de instalación por primera vez.
 
-4. Si administra el dispositivo con Microsoft Intune u otra solución de administración de dispositivos móviles, retire y elimine el registro anterior y vuelva a inscribir el nuevo dispositivo. Para obtener más información, consulta Quitar dispositivos mediante borrar, retirar o deshacer manualmente [la inscripción del dispositivo.](https://docs.microsoft.com/intune/devices-wipe)
+4. Si administra el dispositivo con Microsoft Intune u otra solución de administración de dispositivos móviles, retire y elimine el registro anterior y vuelva a inscribir el nuevo dispositivo. Para obtener más información, consulta Quitar dispositivos mediante el borrado, la retirada o la [eliminación manual de la inscripción del dispositivo.](https://docs.microsoft.com/intune/devices-wipe)
 
    > [!div class="mx-imgBorder"]
    > ![*Restablecer y recuperar Surface Hub 2S*](images/sh2-reset.png)
@@ -57,11 +57,25 @@ Con Surface Hub 2S, puedes reinstalar el dispositivo mediante una imagen de recu
 
 1. Desde un equipo independiente, descarga la imagen de recuperación del archivo .zip desde el sitio web de [Recuperación](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) de Surface y, a continuación, vuelve a estas instrucciones. 
 
-1. Descomprima el archivo descargado en la raíz de la unidad USB.  
+1. En el cuadro de búsqueda de la barra de tareas, **escriba**la unidad de recuperación y, a continuación, seleccione Crear una unidad de **recuperación** o unidad **de** recuperación a partir de los resultados. Es posible que tenga que escribir una contraseña de administrador o confirmar su elección.
+
+1. En el **cuadro Control de cuentas** de usuario, seleccione **Sí**.
+
+1. Asegúrese de borrar la casilla De copia de seguridad de **los archivos del sistema en** la unidad de recuperación y, a continuación, seleccione **Siguiente**.
+
+1. Selecciona la unidad USB y, a continuación, selecciona **> Crear**.  Algunas utilidades deben copiarse en la unidad de recuperación, por lo que esto puede tardar unos minutos.
+
+1. Cuando la unidad de recuperación esté lista, seleccione **Finalizar**.
+
+1. Haz doble clic en el archivo .zip de imagen de recuperación que descargaste anteriormente para abrirlo.
+
+1. Seleccione todos los archivos de la carpeta de imagen de recuperación, cópielos en la raíz de la unidad USB y, a continuación, seleccione Elegir para reemplazar los **archivos en el destino.**
+
+1. Una vez que los archivos han terminado de copiarse, selecciona el icono Quitar **hardware** y medios de expulsar de forma segura en la barra de tareas y quita la unidad USB.
 
 1. Conecta la unidad USB a cualquier puerto USB-C o USB-A en Surface Hub 2S.
 
-1. Desactiva el dispositivo:
+1. Desactiva el hub y, a continuación, toma estos pasos para arrancar desde la unidad USB:
 
    1. Al presionar el botón Bajar volumen, presione el botón De encendido.
    1. Mantén presionado ambos botones hasta que veas el logotipo de Windows.
