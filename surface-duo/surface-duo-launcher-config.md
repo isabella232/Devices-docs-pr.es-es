@@ -1,6 +1,6 @@
 ---
-title: Configurar Microsoft Selector para Surface Duo
-description: En este artículo se resume cómo configurar Microsoft Selector para dispositivos administrados en entornos comerciales.
+title: Configurar Microsoft Launcher para Surface Duo
+description: En este artículo se resume cómo configurar Microsoft Selector dispositivos administrados en entornos comerciales.
 ms.technology: windows
 ms.prod: surface
 ms.mktglfcycl: manage
@@ -23,26 +23,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 02/10/2021
 ms.locfileid: "11326309"
 ---
-# Configurar Microsoft Selector para Surface Duo
+# Configurar Microsoft Launcher para Surface Duo
 
-Surface Duo es compatible con Microsoft Selector para empresas, una aplicación de Android que permite a los usuarios personalizar su teléfono, organizarse sobre la marcha y sincronizar sin problemas su calendario, tarea, notas y mucho más entre dispositivos móviles y sus equipos. De hecho, el iniciador Surface Duo es una versión personalizada de Microsoft Selector de dos pantallas que puedes ajustar para definir las experiencias preferidas en los dispositivos totalmente administrados para tu organización, así como permitir a los usuarios algunas opciones para personalizar sus experiencias en estos dispositivos corporativos. Por ejemplo, puede seleccionar qué aplicaciones desea anclar a la pantalla principal, implementar un fondo de pantalla con marca u ocultar una barra de búsqueda mientras permite a los usuarios habilitar la barra de búsqueda si lo desea.
+Surface Duo es compatible con Microsoft Selector para empresas, una aplicación Android que permite a los usuarios personalizar su teléfono, mantenerse organizados en cualquier lugar y sincronizar sin problemas su calendario, tarea, notas y mucho más entre dispositivos móviles y sus equipos. De hecho, el iniciador de Surface Duo es una versión personalizada de Dos pantallas de Microsoft Selector que puedes ajustar para definir las experiencias preferidas en los dispositivos totalmente administrados para tu organización, así como permitir a los usuarios algunas opciones personalizar sus experiencias en estos dispositivos corporativos. Por ejemplo, puedes seleccionar qué aplicaciones quieres anclar a la pantalla principal, implementar un fondo de pantalla de marca u ocultar una barra de búsqueda mientras permites a los usuarios habilitar la barra de búsqueda si lo deseas.
 
-## Configuración de Selector Microsoft
+## Configuración Selector Microsoft
 
 Microsoft Selector incluye la siguiente configuración para personalizar la experiencia del usuario final:
 
 
-- Se permite el cambio de usuario del pedido de la aplicación en la pantalla inicio
+- Pantalla principal App Order User Change Allowed
 - Establecer tamaño de cuadrícula
 - Establecer fondo de pantalla del dispositivo
-- Establecer el cambio de usuario de fondo de pantalla del dispositivo permitido
+- Establecer el cambio de usuario del fondo de pantalla del dispositivo permitido
 - Habilitar fuente
-- Fuente habilitar el cambio de usuario permitido
+- Feed Enable User Change Allowed
 - Ubicación de la barra de búsqueda
 - Se permite el cambio de usuario de ubicación de la barra de búsqueda
 - Modo dock
-- Se permite el cambio de usuario del modo dock
+- Cambio de usuario del modo dock permitido
 
-Para obtener detalles completos de cada opción, consulta [Configurar Microsoft Selector para Android Enterprise con Intune.](https://docs.microsoft.com/mem/intune/apps/configure-microsoft-launcher)
+Para obtener detalles completos de cada configuración, consulte [Configure Microsoft Selector for Android Enterprise with Intune](https://docs.microsoft.com/mem/intune/apps/configure-microsoft-launcher).
 
-Para obtener instrucciones paso a paso sobre la implementación, consulte Cómo configurar Microsoft Selector en dispositivos [totalmente administrados de Android Enterprise con Intune.](https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-setup-microsoft-launcher-on-android-enterprise-fully/ba-p/1482134)
+Para obtener instrucciones de implementación paso a paso, consulte [How to Setup Microsoft Selector on Android Enterprise Fully Managed Devices with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-setup-microsoft-launcher-on-android-enterprise-fully/ba-p/1482134).
