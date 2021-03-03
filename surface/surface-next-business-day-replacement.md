@@ -1,9 +1,9 @@
 ---
-title: Información de reemplazo del próximo día & áreas de cobertura
+title: Información de reemplazo del siguiente día laborable & áreas de cobertura
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/11/2021
+ms.date: 02/19/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -14,27 +14,27 @@ appliesto:
 - Surface
 - Surface Hub
 ms.reviewer: irenewhite
-description: Información de reemplazo del próximo día & áreas de cobertura.
-ms.openlocfilehash: 494016dc8d6dd4b9d59420cbbda3d889fa7e9d19
-ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
+description: Información de reemplazo del siguiente día laborable & áreas de cobertura.
+ms.openlocfilehash: e3634ff69729ac7e4452dbaecea191b7253e5686
+ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "11328233"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "11385158"
 ---
-# Información de reemplazo del próximo día & áreas de cobertura
+# <a name="next-business-day-replacement-information--coverage-areas"></a>Información de reemplazo del siguiente día laborable & áreas de cobertura
 
-El próximo día laborable el reemplazo es un servicio de pago en el que un dispositivo Surface de reemplazo se entregará a tus instalaciones el próximo día laborable. 
+El reemplazo del siguiente día laborable es un servicio de pago en el que un dispositivo Surface de reemplazo se entregará a tu local el siguiente día laborable. 
 
-La sustitución del siguiente día laborable está disponible con los planes de protección Complete for Business Plus en la mayoría de las áreas metropolitanas de Estados Unidos, Canadá, Europa (limitada a Austria, Bélgica, República Checa, Francia, Alemania, Países Bajos, Polonia, Reino Unido), Australia, Singapur y Japón. Estos servicios se aplican después de que un agente haya determinado que se requiere un dispositivo de reemplazo, tenemos un inventario disponible y ordenamos un reemplazo por un tiempo de límite estándar, predeterminado por Microsoft. 
+Next Business Day Replacement está disponible con los planes de protección Complete for Business Plus en Estados Unidos, Canadá, Europa (limitado a Austria, Bélgica, República Checa, Francia, Alemania, Países Bajos, Polonia, Reino Unido), Australia, Singapur y Japón. Estos servicios se aplican después de que un agente haya determinado que se requiere un dispositivo de reemplazo, tenemos inventario disponible y ordenamos un reemplazo por un tiempo de corte estándar, predeterminado por Microsoft. 
 
-## Instrucciones
+## <a name="guidelines"></a>Instrucciones
 
-- La entrega por la noche está sujeta a la disponibilidad de nuestros operadores de entrega autorizados durante la noche.
-- Para garantizar la entrega de un dispositivo de reemplazo para el siguiente día laborable, las solicitudes de reemplazo de dispositivos deben completarse con los tiempos de límite enumerados en la tabla 1. 
-- Para obtener términos y condiciones [completos, consulte Garantías, planes de](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5) servicio ampliados y Términos & condiciones para su dispositivo
+- La entrega durante la noche está sujeta a la disponibilidad de nuestros operadores de entrega autorizados durante la noche.
+- Para garantizar la entrega de un dispositivo de reemplazo para el siguiente día laborable, las solicitudes de reemplazo de dispositivos deben completarse con los tiempos de límite indicados en la tabla 1. 
+- Para obtener términos y condiciones [completos, consulta Garantías, planes](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5) de servicio extendidos y Términos & condiciones para tu dispositivo
 
-### Tabla 1. Tiempos de límite de la solicitud de reemplazo por configuración regional
+### <a name="table-1-replacement-request-cutoff-times-by-locale"></a>Tabla 1. Tiempos de corte de solicitudes de reemplazo por configuración regional
 
 | País                                                                                                    | Tiempo de corte |
 | -------------------------------------------------------------------------------------------------------------- | --------------- |
@@ -45,35 +45,38 @@ La sustitución del siguiente día laborable está disponible con los planes de 
 | **Japón**                                                                                                      | 13:00 JST (UTC+9)   |
 
 
-## Disponibilidad de Japón 
+##  <a name="available-areas-in-japan"></a>Áreas disponibles en Japón 
 
-La sustitución del siguiente día laborable está disponible en las siguientes ubicaciones, sujetas a la disponibilidad de nuestros operadores de entrega autorizados durante la noche. 
+Estará disponible en las siguientes regiones de Japón. Para obtener más información, consulta [Surface Complete para Empresas Plus (Japón)](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
 
-- A alá
-- Akita
 - Aomori
-- Chiba
-- Fbrui
-- Desc.
-- Fbrubru
-- Gifu
-- Resalte
-- Hyogo
-- Ishihi
 - Iwate
-- Kanawat
-- Torón
-- Mie
 - Miyagi
-- Torón
-- Indeste
-- Nigata
-- Osaka
+- Akita
+- Yamagata
+- Fukushima
+- Ibaraki
 - Saitama
-- Manga
-- Chizuzuzu
+- Chiba
 - Tokio
-- Toy
-- Wakalexia
-- Deserción
+- Kanagawa
+- Niigata
+- Toyama
+- Ishikawa
+- Fukui
+- Yamanashi
+- Nagano
+- Gifu
+- Shizuoka
+- Aichi
+- Mie
+- Shiga
+- Kioto
+- Osaka
+- Hyogo
+- Nara
+- Wakayama
+- Tottori
+- Hiroshima
+- Yamaguchi
 

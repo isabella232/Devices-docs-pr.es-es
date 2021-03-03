@@ -1,6 +1,6 @@
 ---
 title: Configurar y usar Microsoft Whiteboard
-description: La última actualización de Microsoft whiteboard incluye la capacidad de que dos Surface Hub colaboren en tiempo real en el mismo panel.
+description: La última actualización de Microsoft Whiteboard incluye la capacidad de dos Surface Hubs para colaborar en tiempo real en el mismo tablero.
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -10,31 +10,31 @@ ms.date: 03/18/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 55db1240c13bf2bb124603717f37e0a0da154683
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1b19aced34bdd6580836406015deec42f169e30b
+ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834793"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "11385188"
 ---
-# Configurar y usar Microsoft Whiteboard
+# <a name="set-up-and-use-microsoft-whiteboard"></a>Configurar y usar Microsoft Whiteboard
 
-La aplicación whiteboard de Microsoft incluye la capacidad de Surface Hub y otros dispositivos con la aplicación de pizarra de Microsoft instalada para colaborar en tiempo real en el mismo panel.
+La aplicación Pizarra de Microsoft incluye la funcionalidad de Surface Hubs y otros dispositivos con la aplicación Pizarra de Microsoft instalada para colaborar en tiempo real en el mismo tablero.
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
-Para usar la colaboración de whiteboard, realice las siguientes acciones:
+Para usar la colaboración en pizarras, complete las siguientes acciones:
 
-- Agrega Whiteboard.ms, whiteboard.microsoft.com y wbd.ms a tu lista de sitios permitidos.
-- Abrir puerto: **https: 443** (normalmente configurado al ejecutar Surface Hub por primera vez).
+- Agregue Whiteboard.ms, whiteboard.microsoft.com y wbd.ms a la lista de sitios permitidos.
+- Puerto abierto: **HTTPS: 443** (normalmente configurado cuando ejecutas Por primera vez Surface Hub).
 
-## Requisitos de Office 365
+## <a name="office-365-requirements"></a>Requisitos de Office 365
 
-- La colaboración de whiteboard solo se admite en el entorno comercial de Office 365 y requiere Office 365 con Azure Active Directory basado en la nube (Azure AD).
-- Solo puede ejecutar sesiones de colaboración entre usuarios que pertenezcan al mismo inquilino de Office 365.
-- Office 365 Germany u Office 365 operado por 21Vianet no admite la colaboración de Whiteboard.
+- La colaboración en pizarra solo se admite en el entorno comercial de Office 365 y requiere Office 365 con Azure Active Directory basado en la nube (Azure AD).
+- Solo puede ejecutar sesiones de colaboración entre usuarios pertenecientes al mismo inquilino de Office 365.
+- Office 365 Germany u Office 365 operado por 21Vianet no admiten la colaboración en pizarras.
 
-## Colaborar con pizarras
+## <a name="collaborating-with-whiteboards"></a>Colaboración con pizarras
 
 Para iniciar una sesión de colaboración:
 
@@ -43,37 +43,38 @@ Para iniciar una sesión de colaboración:
 3. Pulsa el botón **Invitar** situado junto a tu nombre, en la parte superior de la aplicación.
 4. Escriba o escriba los nombres de los compañeros con los que desea colaborar.
 
-En el otro dispositivo, como Surface Hub, cuando haya iniciado sesión, el panel compartido aparecerá ahora en la galería de paneles.
+En el otro dispositivo, como Surface Hub, cuando haya iniciado sesión, el tablero compartido aparecerá ahora en la galería de tableros.
 
-### Sugerencias para usuarios
-- Inicia sesión para acceder a tus pizarras. Mientras trabaja, los cambios se guardan automáticamente.
-- Asigne un nombre a las pizarras para organizar el contenido y encontrarlo rápidamente. Seleccione... para abrir el menú. Seleccione el icono de engranaje **Opciones** para acceder a más herramientas y características de la pizarra.
-- Use la **entrada de lápiz a forma** para convertir a formas reales como círculos, cuadrados y triángulos.
-- Use la **entrada de lápiz a tabla** para convertir una cuadrícula dibujada en una tabla con filas y columnas.
-- También puede cambiar el color de fondo y el diseño de sólido a cuadrícula o puntos. Seleccione el fondo y, a continuación, elija el color de la rueda que lo circunda.
-- Puede exportar una copia de la colaboración de whiteboard para usted a través del acceso a compartir y abandonar el panel para que otros usuarios puedan seguir trabajando.
+### <a name="user-tips"></a>Sugerencias de usuario
 
-Para obtener más información, vea [usar whiteboard de Microsoft en un Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d).
+- Inicie sesión para obtener acceso a las pizarras. Mientras trabaja, los cambios se guardan automáticamente.
+- Asigne un nombre a las pizarras para ayudar a organizar el contenido y encontrarlo rápidamente. Seleccione la opción ... para abrir el menú. Seleccione el **icono de** engranaje Opciones para obtener acceso a más herramientas y características de la pizarra.
+- Usa **Ink para dar forma** para convertir el dibujo en formas reales como círculos, cuadrados y triángulos.
+- Use **Ink to table** para convertir una cuadrícula dibujada en una tabla con filas y columnas.
+- También puede cambiar el color de fondo y el diseño de sólido a cuadrícula o puntos. Elija el fondo y, a continuación, elija el color de la rueda que le rodea.
+- Puede exportar una copia de la colaboración de pizarra por sí mismo a través del acceso Compartir y dejar la pizarra para que otros continúen trabajando.
 
-> [!NOTE]
->  Si está usando whiteboard y no puede iniciar sesión, puede colaborar si se une a una reunión de equipos o de Skype empresarial y, a continuación, comparte la pantalla. Cuando haya terminado, pulse **configuración**  >  **exportar al correo electrónico** o guardar una copia del panel. Si elige exportar a SVG, exporta gráficos vectoriales y proporciona una resolución superior a la de PNG y puede abrirse en un explorador Web.
+Para obtener más información, consulta [Usar la pizarra de Microsoft en un Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d).
 
-## Nuevas características de whiteboard
+> [!TIP]
+>  Si usa whiteboard y no puede iniciar sesión, puede colaborar uniéndose a una reunión de Teams o Skype Empresarial y, a continuación, compartir la pantalla. Una vez que haya terminado, pulse **Configuración Exportar**a  >  **correo electrónico** o guarde una copia del tablero. Si elige exportar a SVG, exporta gráficos vectoriales y proporciona una resolución mayor que PNG y se puede abrir en un explorador web.
 
-La aplicación whiteboard de Microsoft, actualizada para Surface Hub el 1 de julio de 2019 incluye una gran cantidad de nuevas características, entre las que se incluyen:
+## <a name="new-features-in-whiteboard"></a>Nuevas características en pizarra
 
-- Los paneles de **guardado automático** se guardan automáticamente en la nube cuando inicia sesión y puede encontrarlos en la galería de paneles. No hay ningún directorio ni nombre de carpeta local.
-- **Colaboración extendida en todos los dispositivos** : puede colaborar con las nuevas aplicaciones para Windows 10 PC y iOS, y una versión web para otros dispositivos.
-- **Lienzo más enriquecido** : además de la entrada de lápiz y las imágenes, la pizarra ahora incluye notas rápidas, texto y archivos GIF, con más objetos disponibles próximamente.
-- **Inteligencia** : además de la entrada de lápiz a forma y tabla, la pizarra ahora incluye la entrada de lápiz beautification para mejorar la escritura a mano y la entrada de lápiz para convertir las imágenes a la entrada de lápiz.
-- **Más opciones de color y de fondo** : la pizarra ahora incluye más colores y opciones de grosor, además de diseños y colores de fondo adicionales.
-- **Integración con equipos** : puede iniciar automáticamente una pizarra desde una reunión de Teams y compartir con los participantes (actualmente en versión preliminar).
+La aplicación Pizarra de Microsoft, actualizada para Surface Hub el 1 de julio de 2019, incluye una gran cantidad de nuevas características, entre las que se incluyen:
+
+- **Guardado automático:** los paneles se guardan en la nube automáticamente al iniciar sesión y se pueden encontrar en la galería de paneles. No hay ningún nombre de carpeta local ni directorio.
+- **Colaboración extendida entre** dispositivos: puedes colaborar con nuevas aplicaciones para pc con Windows 10 e iOS, y una versión web para otros dispositivos.
+- **Lienzo más enriquecido:** además de la tinta y las imágenes, la pizarra ahora incluye notas pegajosas, texto y GIF, con más objetos próximamente.
+- **Inteligencia:** además de la tinta para la forma y la tabla, whiteboard ahora incluye la mejora de la tinta para mejorar la escritura a mano y la toma de lápiz para convertir imágenes en tinta.
+- **Más opciones de color y fondo:** pizarra ahora incluye más colores de lápiz y opciones de grosor junto con colores de fondo y diseños adicionales.
+- **Integración de Teams:** puede iniciar automáticamente pizarra desde una reunión de Teams y compartirla con los participantes.
 
 
-## Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
 
 - [Windows 10 Creators Update para Surface Hub](https://www.microsoft.com/surface/support/surface-hub/windows-10-creators-update-surface-hub)
 
 - [Documentación de soporte técnico de Microsoft Whiteboard](https://support.office.com/article/Whiteboard-Help-0c0f2aa0-b1bb-491c-b814-fd22de4d7c01)
 
-- [Usar whiteboard de Microsoft en un Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
+- [Usar Microsoft Whiteboard en un Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)

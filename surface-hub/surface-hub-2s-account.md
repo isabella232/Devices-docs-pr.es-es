@@ -9,45 +9,45 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 02/18/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 76ac960be2ab30a30b4e29618f350a13a284f52a
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: 3afd4115ff4bd22a84f9a5fb86ceb6805c347f8a
+ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11312026"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "11385228"
 ---
-# Crear cuenta del dispositivo para Surface Hub 2S
+# <a name="create-surface-hub-2s-device-account"></a>Crear cuenta del dispositivo para Surface Hub 2S
 
-La creación de una cuenta de dispositivo Surface Hub (también conocida como buzón de sala) permite a Surface Hub 2S recibir, aprobar o rechazar solicitudes de reunión y unirse a reuniones. Configura la cuenta del dispositivo durante la configuración rápida (OOBE). Si es necesario, puedes cambiarlo más adelante (sin pasar por la configuración OOBE).
+Crear una cuenta de dispositivo Surface Hub (también conocido como buzón de sala) permite a Surface Hub 2S recibir, aprobar o rechazar las solicitudes de reunión y unirse a reuniones. Configure la cuenta del dispositivo durante la configuración de la experiencia de salida (OOBE). Si es necesario, puede cambiarlo más adelante (sin pasar por la configuración de OOBE).
 
 Puede crear la cuenta desde el Centro de administración de Microsoft 365 en combinación con Windows PowerShell: 
 
-- **Crear cuenta a través del Centro de administración.** Para cumplir los requisitos mínimos, puede configurar todo lo que necesita para la cuenta directamente desde el Centro [de administración de Microsoft 365.](https://admin.microsoft.com/AdminPortal) Algunas características, como el uso compartido de pizarras directamente desde la aplicación de pizarra, requieren el uso de PowerShell para configurar ActiveSync; Consulta [Habilitar ActiveSync si se requiere el uso de](#enable-activesync-if-use-of-email-app-is-required) la aplicación de correo electrónico en esta página.
+- **Crear cuenta a través del Centro de administración**. Para cumplir los requisitos mínimos, puede configurar todo lo que necesita para la cuenta directamente desde el Centro de administración [de Microsoft 365](https://admin.microsoft.com/AdminPortal). Algunas características como compartir pizarras directamente desde la aplicación de pizarra requieren usar PowerShell para configurar ActiveSync; consulta [Habilitar ActiveSync si el uso de la aplicación de correo electrónico es necesario](#enable-activesync-if-use-of-email-app-is-required) en esta página.
 
 - **Crear cuenta a través de PowerShell**. Puede usar scripts de PowerShell para facilitar la creación de varias cuentas de dispositivo y configurar rápidamente características específicas, como:
-    - Procesamiento de calendario para cada cuenta del dispositivo Surface Hub.
+    - Procesamiento de calendario para cada cuenta de dispositivo Surface Hub.
     - Respuestas automáticas personalizadas a solicitudes de programación.
     - Si la directiva de buzón de ActiveSync predeterminada ya ha sido modificada por otra persona o por otro proceso, es probable que tenga que crear y asignar una nueva directiva de buzón de ActiveSync.
 
 > [!TIP]
-> Para comprobar la configuración de la cuenta, ejecute el [script de comprobación de cuenta que se muestra a](#account-verification-script) continuación.
+> Para comprobar la configuración de la cuenta, ejecute el [script de comprobación de la cuenta que se muestra](#account-verification-script) a continuación.
 
 > [!NOTE]  
 > La cuenta del dispositivo Surface Hub no admite proveedores de identidades federadas (FIP) de terceros y debe ser una cuenta estándar de Active Directory o Azure Active Directory.
 
-## Crear cuenta a través del Centro de administración
+## <a name="create-account-via-admin-center"></a>Crear cuenta a través del Centro de administración
 
-1. En el Centro de administración de **** Microsoft 365, vaya a Recursos y elija Salas **& Equipamiento** y, a continuación, seleccione + **Agregar recurso.**
+1. En el Centro de administración de Microsoft 365, vaya a **Recursos** y elija **Salas & Equipamiento** y, a continuación, seleccione + **Agregar recurso**.
 
-2. Proporciona un nombre y una dirección de correo electrónico para la cuenta del dispositivo. Deje la configuración restante sin cambios en el estado predeterminado.
+2. Proporcione un nombre y una dirección de correo electrónico para la cuenta del dispositivo. Deje la configuración restante sin cambios en el estado predeterminado.
 
    ![Proporcionar un nombre y una dirección de correo electrónico](images/sh2-account2.png)
 
    ![Dejar la configuración restante sin cambios en el estado predeterminado](images/sh2-account3.png)
 
-3. Establece la contraseña de la cuenta del dispositivo. Para establecer la contraseña, elija **Usuarios y,** a continuación, **seleccione Usuarios activos.** Ahora busque el usuario recién creado para establecer la contraseña. Asegúrese de no **seleccionar la opción** Hacer que este usuario cambie su contraseña cuando inicie sesión por primera **vez.**
+3. Establece la contraseña de la cuenta del dispositivo. Para establecer la contraseña, elija **Usuarios y,** a continuación, **seleccione Usuarios activos**. Ahora busque el usuario recién creado para establecer la contraseña. Asegúrese de que **no selecciona la** opción Hacer que este usuario cambie su contraseña cuando inicie sesión por primera **vez.**
 
    ![Establecer la contraseña de la cuenta del dispositivo](images/sh2-account4.png)
 
@@ -57,19 +57,19 @@ Puede crear la cuenta desde el Centro de administración de Microsoft 365 en com
 
 
 > [!NOTE]  
-> If using Skype for Business, you will need to finalize setup via PowerShell -- Skype for Business Calendar: Set [Calendar Autoprocessing](#set-calendar-auto-processing-skype-for-business-only) for this account. 
+> Si usa Skype Empresarial, tendrá que finalizar la instalación a través de PowerShell -- Skype Empresarial Calendar: Establecer el [autoprocesamiento](#set-calendar-auto-processing-skype-for-business-only) de calendario para esta cuenta. 
 
-## Crear cuenta a través de PowerShell
+## <a name="create-account-via-powershell"></a>Crear cuenta a través de PowerShell
 
- El uso de PowerShell para automatizar rápidamente las tareas en Surface Hub no requiere necesariamente experiencia de PowerShell. Asegúrese de que ha completado los requisitos previos de configuración antes de usar los scripts adecuados en esta página.
+ El uso de PowerShell para automatizar rápidamente las tareas en Surface Hub no requiere necesariamente experiencia de PowerShell. Asegúrese de haber completado los requisitos previos de configuración antes de usar los scripts adecuados en esta página.
 
-### Requisitos previos para usar PowerShell para administrar Surface Hub 
+### <a name="prerequisites-for-using-powershell-to-manage-surface-hub"></a>Requisitos previos para usar PowerShell para administrar Surface Hub 
 
-1. Inicie PowerShell con privilegios elevados de cuenta **(Ejecutar**como administrador) y asegúrese de que el sistema está configurado para ejecutar scripts de PowerShell. Para obtener más información, consulte Acerca [de las directivas de ejecución.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?) 
-2. [Instale el módulo de Azure PowerShell.](https://docs.microsoft.com/powershell/azure/install-az-ps)
+1. Inicie PowerShell con privilegios de cuenta elevados **(Ejecutar**como administrador) y asegúrese de que el sistema está configurado para ejecutar scripts de PowerShell. Para obtener más información, consulte [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
+2. [Instalar el módulo de PowerShell de Azure](https://docs.microsoft.com/powershell/azure/install-az-ps).
 
 
-### Conectarse a Exchange Online PowerShell
+### <a name="connect-to-exchange-online-powershell"></a>Conectarse a Exchange Online PowerShell
 
 ```powershell
 Install-Module -Name ExchangeOnlineManagement
@@ -77,22 +77,22 @@ Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName admin@contoso.com -ShowProgress $true
 ```
 
-### Crear buzón
+### <a name="create-mailbox"></a>Crear buzón
 
 ```powershell
 New-Mailbox -MicrosoftOnlineServicesID 'SurfaceHub01@contoso.com' -Alias SurfaceHub01 -Name "Surface Hub 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'Pass@word1' -AsPlainText -Force)
 ```
 
-### Configurar el procesamiento automático del calendario (solo Skype Empresarial)
+### <a name="set-calendar-auto-processing-skype-for-business-only"></a>Establecer el procesamiento automático del calendario (solo Skype Empresarial)
 
 ```powershell
 Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
 Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Surface Hub. Please make sure this meeting is a Microsoft Teams meeting!"
 ```
 
-### Habilitar ActiveSync si se requiere el uso de la aplicación de correo electrónico
+### <a name="enable-activesync-if-use-of-email-app-is-required"></a>Habilitar ActiveSync si se requiere el uso de la aplicación de correo electrónico
 
- La directiva de ActiveSync predeterminada funcionará si no se modifica. De lo contrario, crea una nueva directiva y asígnela.
+ La directiva de ActiveSync predeterminada funcionará si no se modifica. De lo contrario, cree una nueva directiva y asígnela.
 
 ```powershell
 New-MobileDeviceMailboxPolicy -Name:"SurfaceHub" -PasswordEnabled:$false
@@ -100,13 +100,13 @@ New-MobileDeviceMailboxPolicy -Name:"SurfaceHub" -PasswordEnabled:$false
 Set-CASMailbox -Identity SurfaceHub01@contoso.com -ActiveSyncMailboxPolicy "SurfaceHub"
 ```
 
-### Conexión a Azure AD
+### <a name="connect-to-azure-ad"></a>Conexión a Azure AD
 
 ```powershell
 Connect-AzureAD
 ```
 
-### Asignar una licencia
+### <a name="assign-a-license"></a>Asignar una licencia
 
 ```powershell
 Set-AzureADUser -ObjectId 'SurfaceHub01@contoso.com' -UsageLocation US
@@ -117,7 +117,7 @@ $Licenses.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId 'SurfaceHub01@contoso.com' -AssignedLicenses $Licenses
 ```
 
-### Buscar licencias disponibles
+### <a name="check-for-available-licenses"></a>Buscar licencias disponibles
 
 ```powershell
 Get-AzureADUser -Filter "userPrincipalName eq 'SurfaceHub01@contoso.com'" |fl *
@@ -125,9 +125,9 @@ Get-AzureADUser -Filter "userPrincipalName eq 'SurfaceHub01@contoso.com'" |fl *
 6070a4c8-34c6-4937-8dfb-39bbc6397a60
 ```
 
-## Script de verificación de cuenta
+## <a name="account-verification-script"></a>Script de verificación de cuenta
 
-Después de crear la cuenta del dispositivo, puedes ejecutar el siguiente script de comprobación. Este script valida una cuenta de dispositivo creada anteriormente y genera un informe de resumen. Por ejemplo:
+Después de crear la cuenta del dispositivo, puedes ejecutar el siguiente script de verificación. Este script valida una cuenta de dispositivo creada anteriormente y genera un informe de resumen. Por ejemplo:
 
 ``` syntax
 15 tests executed
@@ -432,6 +432,6 @@ function Validate()
 }
 ```
 
-## Más información
+## <a name="learn-more"></a>Más información
 
 - [Crear cuentas locales de Surface Hub 2S con PowerShell](surface-hub-2s-onprem-powershell.md)
