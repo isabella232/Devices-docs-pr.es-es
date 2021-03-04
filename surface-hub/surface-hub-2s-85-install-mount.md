@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/01/2020
+ms.date: 03/02/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 28278827aeba20f46d5fd79b7a1de6c54bfce1e8
-ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "11385258"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387485"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Instalar y montar Surface Hub 2S 85"
 
@@ -24,7 +24,11 @@ En este artículo se proporcionan instrucciones de soporte técnico para instala
 
 ## <a name="unboxing-video"></a>Vídeo de desboxing
 
-Un vídeo complementario para mover e instalar Surface Hub 2S 85" ya está disponible. Antes de comenzar, revisa [Microsoft Surface Hub 2S 85" Unboxing and Set Up](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV).  
+- Antes de empezar, revisa Microsoft Surface Hub 2S 85" Unboxing and Set Up video:
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
+
+- Una versión en chino de este vídeo está disponible en el [apéndice B siguiente.](#appendix-b-unboxing-video) 
 
 ## <a name="follow-all-safety-precautions"></a>Seguir todas las precauciones de seguridad 
 
@@ -37,7 +41,7 @@ Un vídeo complementario para mover e instalar Surface Hub 2S 85" ya está dispo
 >- Para evitar riesgos de tropiez, mantenga el área de ensamblado libre de materiales de empaquetado.
 
 > [!IMPORTANT]
->Antes de continuar, revise la información de seguridad adicional que se muestra en el [Apéndice siguiente.](#appendix)
+>Antes de continuar, revise la información de seguridad adicional que se muestra [a continuación en el Apéndice A.](#appendix-a-additional-safety-information)
 
 ## <a name="1-remove-outer-packaging-materials"></a>1. Quitar los materiales de empaquetado externos
 
@@ -151,9 +155,7 @@ Si usas otras opciones de montaje (que no son steelcase), necesitarás espaciado
 
 Se puede encontrar un conjunto adicional de materiales de fleje de empaquetado interno en el kit adjunto en la parte posterior, inferior derecha.
 
-## <a name="appendix"></a>Apéndice 
-
-### <a name="additional-safety-information"></a>Información de seguridad adicional
+## <a name="appendix-a-additional-safety-information"></a>Apéndice A: Información de seguridad adicional
 
 > [!WARNING]
 > **Elevación de objetos pesados/ergonómicos**<br>
@@ -203,6 +205,14 @@ Una pantalla táctil descomprimida o recortada causada por el uso incorrecto o e
 > [!WARNING]
 >  **Instalación adecuada**<br>
 Para evitar riesgos relacionados con la instalación incorrecta del dispositivo, las personas que han leído y entendido la instrucción de instalación deben realizar la instalación antes de comenzar el trabajo. Si no tiene el equipamiento o la experiencia necesarios, o si no está seguro de que la superficie de montaje puede admitir correctamente consultar a un instalador profesional.
+
+
+## <a name="appendix-b-unboxing-video"></a>Apéndice B: Vídeo de desboxeo
+
+
+### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85" Unboxing and Set Up video (chino)
+
+> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
 
 ## <a name="more-information"></a>Más información

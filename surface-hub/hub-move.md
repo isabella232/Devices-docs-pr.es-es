@@ -9,21 +9,18 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/01/2021
+ms.date: 03/02/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: a656733f9a60088809e9a336bbe02ccf63e030f8
-ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+ms.openlocfilehash: fc876887eea54a5b732d13224d9584f0909833b2
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "11385198"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387454"
 ---
 # <a name="moving-and-handling-surface-hub-2s-85"></a>Mover y controlar Surface Hub 2S 85"
 
-Para obtener instrucciones prácticas recomendadas sobre cómo mover Surface Hub 2S 85, revisa el siguiente vídeo: 
-- [Microsoft Surface Hub 2S 85" Unboxing and Set Up](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV). 
-
-Cada paso que se muestra en el vídeo se explica en el siguiente artículo:
+Para obtener instrucciones prácticas recomendadas sobre cómo mover Surface Hub 2S 85, consulta: 
 
 - [Instalar y montar Surface Hub 2S 85"](surface-hub-2s-85-install-mount.md)
 

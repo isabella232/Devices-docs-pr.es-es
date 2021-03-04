@@ -12,24 +12,24 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/17/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 935f67e88af8b784230becb1cd89f7360b8a0857
-ms.sourcegitcommit: 8e809e8481023fe4421abcdaa1e055a6f2f74f5f
+ms.openlocfilehash: 5e7fca007549d8804a756ef2a042f092f0acb1c3
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "10924966"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387437"
 ---
-# Administrar Microsoft Surface Hub
+# <a name="manage-microsoft-surface-hub"></a>Administrar Microsoft Surface Hub
 
-Tras la configuración inicial de Microsoft Surface Hub, las opciones de configuración del dispositivo y la configuración se pueden modificar o cambiar de un par de maneras:
+Después de la configuración inicial de Microsoft Surface Hub, la configuración y la configuración del dispositivo se pueden modificar o cambiar de un par de maneras:
 
 - **Administración local** - Cada Surface Hub se puede configurar localmente con la aplicación **Configuración** en el dispositivo. Para impedir que usuarios no autorizados cambien la configuración, la aplicación Configuración requiere credenciales de administrador para abrir la aplicación. Para obtener más información, consulta [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md).
-- **Administración remota** : Surface HUB permite que los administradores de ti administren la configuración y las directivas con un proveedor de administración de dispositivos móviles (MDM), como Microsoft Intune, Microsoft Endpoint Configuration Manager y otros proveedores de terceros. Además, los administradores pueden supervisar los Surface Hubs con Microsoft Operations Management Suite (OMS). Para obtener más información, consulta [Administrar la configuración con un proveedor de MDM](manage-settings-with-mdm-for-surface-hub.md) y [Supervisar Microsoft Surface Hub](monitor-surface-hub.md). 
+- **Administración remota:** Surface Hub permite a los administradores de TI administrar la configuración y las directivas con un proveedor de administración de dispositivos móviles (MDM), como Microsoft Intune, Microsoft Endpoint Configuration Manager y otros proveedores de terceros. Además, los administradores pueden supervisar Surface Hubs con Azure Monitor.  Para obtener más información, consulta Administrar [la configuración con](manage-settings-with-mdm-for-surface-hub.md)un proveedor MDM y Supervisar Surface [Hubs con Azure Monitor para realizar un seguimiento de su estado.](https://docs.microsoft.com/azure/azure-monitor/insights/surface-hubs) 
 
 > [!NOTE]
-> Estos métodos de administración no son mutuamente excluyentes. Los dispositivos pueden administrarse tanto local como remotamente, si así lo eliges. Sin embargo, la configuración y las directivas de MDM sobrescribirán los cambios locales cuando el Surface Hub se sincronice con el servidor de administración. 
+> Estos métodos de administración no son mutuamente excluyentes. Los dispositivos pueden administrarse tanto local como remotamente, si así lo eliges. Sin embargo, las directivas y la configuración de MDM sobrescribirán los cambios locales cuando Surface Hub se sincronice con el servidor de administración. 
 
-## En esta sección
+## <a name="in-this-section"></a>En esta sección
 
 Obtén información sobre cómo administrar y actualizar Surface Hub.
 
@@ -47,9 +47,9 @@ Obtén información sobre cómo administrar y actualizar Surface Hub.
 | [Miracast en la red inalámbrica o LAN existente](miracast-over-infrastructure.md) | Puedes usar Miracast en tu red inalámbrica o LAN para conectarte a Surface Hub. |
  [Habilitar la autenticación por cable 802.1X](enable-8021x-wired-authentication.md) | Se han habilitado políticas MDM de autenticación por cable 802.1x en dispositivos de Surface Hub. 
 | [Uso de un sistema de control de sala](https://technet.microsoft.com/itpro/surface-hub/use-room-control-system-with-surface-hub) | Los sistemas de control de la sala se pueden usar con tu Microsoft Surface Hub.|
-[Uso de la herramienta de recuperación de Surface Hub](surface-hub-recovery-tool.md) | Use la herramienta de recuperación de Surface hub para volver a crear una imagen de la SSD del Surface Hub.
-[Reemplazo de SSD de Surface Hub](surface-hub-ssd-replacement.md) | Aprenda a quitar y reemplazar la unidad de estado sólido en el Surface Hub.
+[Uso de la herramienta de recuperación de Surface Hub](surface-hub-recovery-tool.md) | Usa la Herramienta de recuperación de Surface Hub para volver a crear una imagen de la SSD de Surface Hub.
+[Reemplazo de SSD de Surface Hub](surface-hub-ssd-replacement.md) | Aprende a quitar y reemplazar la unidad de estado sólido en tu Surface Hub.
 
-## Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
 
 - [Ver modo de presentación de Power BI en Surface Hub y Windows 10](https://powerbi.microsoft.com/documentation/powerbi-mobile-win10-app-presentation-mode/)
