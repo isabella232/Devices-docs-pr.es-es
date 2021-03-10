@@ -10,18 +10,18 @@ ms.date: 08/28/2017
 ms.reviewer: ''
 manager: laurawi
 localizationpriority: medium
-ms.openlocfilehash: 11768488d2ef7509af6a592b9e4ac945a7e35650
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f8a2bf8ddb75ca6dd3ff89e16fe0d37e099be29d
+ms.sourcegitcommit: 85f5a2e67b34fe073ec588ed441ebee239ab0ac6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835257"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11400741"
 ---
-# Iniciar sesión en Surface Hub con Microsoft Authenticator
+# <a name="sign-in-to-surface-hub-with-microsoft-authenticator"></a>Iniciar sesión en Surface Hub con Microsoft Authenticator
 
 Las personas de tu organización pueden iniciar sesión en un dispositivo Surface Hub sin una contraseña con la aplicación Microsoft Authenticator, disponible en Android e iOS.
 
-## Requisitos previos de la organización
+## <a name="organization-prerequisites"></a>Requisitos previos de la organización
 
 Para permitir que las personas de tu organización inicien sesión en Surface Hub con sus teléfonos y otros dispositivos en lugar de una contraseña, tendrás que asegúrate de que la organización cumple estos requisitos previos: 
 
@@ -39,9 +39,7 @@ Para permitir que las personas de tu organización inicien sesión en Surface Hu
 
 - Surface Hub está configurado con una cuenta local o unida a un dominio.
 
-Actualmente, no puedes usar Microsoft Authenticator para iniciar sesión en los Surface Hub que estén unidos a Azure AD.
-
-## Requisitos previos individuales
+## <a name="individual-prerequisites"></a>Requisitos previos individuales
 
 - Un teléfono Android que ejecuta 6.0 o versión posterior, o un iPhone o iPad que ejecuta iOS9 o versión posterior 
 
@@ -54,9 +52,7 @@ Actualmente, no puedes usar Microsoft Authenticator para iniciar sesión en los 
 
 - El código de acceso o pantalla de bloqueo están habilitados en el dispositivo
 
-- Una dirección de correo electrónico SMTP estándar (ejemplo: jose@contoso.com). Actualmente, las direcciones de correo electrónico SMTP no estándares o personalizadas (ejemplo: nombre.apellido@contoso.com) no funcionan.
-
-## Cómo configurar la aplicación Microsoft Authenticator
+## <a name="how-to-set-up-the-microsoft-authenticator-app"></a>Cómo configurar la aplicación Microsoft Authenticator
 
 >[!NOTE]
 >Si el Portal de empresa está instalado en tu dispositivo Android, desinstálalo antes de configurar Microsoft Authenticator. Después de configurar la aplicación, puedes reinstalar Portal de empresa.
@@ -67,7 +63,7 @@ Actualmente, no puedes usar Microsoft Authenticator para iniciar sesión en los 
 2. Ve a **Configuración** y registrar tu dispositivo.
 3. Vuelve a la página de cuentas y elige **Habilitar el inicio de sesión en el teléfono** en el menú desplegable Cuenta.
 
-## Cómo iniciar sesión en Surface Hub durante una reunión
+## <a name="how-to-sign-in-to-surface-hub-during-a-meeting"></a>Cómo iniciar sesión en Surface Hub durante una reunión
 
 1. Después de configurar una reunión, ve a Surface Hub y selecciona **Inicia sesión para ver las reuniones y los archivos**.
 
