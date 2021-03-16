@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b6797a83936b919aa43a7ae9fc8ae4dd720223a
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 8d9a4f995abda4e005e8136ace62e10fb564c9b8
+ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406658"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "11408815"
 ---
 # <a name="reset-or-recover-a-surface-hub"></a>Restablecer o recuperar un Surface Hub
 
@@ -49,18 +49,21 @@ Durante el proceso de restablecimiento, si ve una pantalla en blanco durante lar
 
 1. En tu Surface Hub, abre **Configuración**.
 
-   ![Imagen que muestra la aplicación Configuración de Surface Hub.](images/sh-settings.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagen que muestra la aplicación Configuración de Surface Hub.](images/sh-settings.png)
 
 2. Seleccione **Actualizar & seguridad**.
 
-   ![Imagen que muestra Actualizar & seguridad en la aplicación Configuración de Surface Hub.](images/sh-settings-update-security.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagen que muestra Actualizar & seguridad en la aplicación Configuración de Surface Hub.](images/sh-settings-update-security.png)
 
 3. Selecciona **Recuperación**y, a continuación, en **Restablecer dispositivo,** selecciona **Introducción.**
 
    > [!IMPORTANT]
    > Asegúrate de que tienes la clave de BitLocker disponible antes de restablecer el dispositivo, como se te pedirá más adelante. Para obtener más información, [consulta Guardar la clave de BitLocker](save-bitlocker-key-surface-hub.md). Cuando el concentrador se reinicia en la partición de recuperación, se te pedirá que escribas la clave de BitLocker. Si se omite ese mensaje, se producirá un error en el restablecimiento.
    
-   ![Imagen que muestra la opción Restablecer dispositivo en la aplicación Configuración de Surface Hub.](images/sh-settings-reset-device.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagen que muestra la opción Restablecer dispositivo en la aplicación Configuración de Surface Hub.](images/sh-settings-reset-device.png)
 
    Una vez terminado el proceso de restablecimiento, Surface Hub vuelve a [iniciar el primer programa de ejecución.](first-run-program-surface-hub.md) Si el proceso de restablecimiento encuentra un problema, revierte Surface Hub a la imagen del sistema operativo existente anteriormente y, a continuación, muestra la pantalla de bienvenida.
 
@@ -86,7 +89,8 @@ Si la cuenta del dispositivo entra en un estado inestable o si la cuenta de admi
 
 2. En **Recuperar desde la nube,** seleccione Reiniciar **ahora**.
 
-   ![recuperar desde la nube](images/recover-from-the-cloud.png)
+   > [!div class="mx-imgBorder"]
+   > ![recuperar desde la nube](images/recover-from-the-cloud.png)
 
 ### <a name="recover-a-locked-surface-hub"></a>Recuperar un Surface Hub bloqueado
 
@@ -99,26 +103,31 @@ En raras ocasiones, un Surface Hub puede producir un error al limpiar los datos 
 3. Usa el conmutador de energía para volver a activar Surface Hub. El dispositivo se inicia y muestra la pantalla logotipo de Surface Hub. Cuando veas puntos giratorios debajo del logotipo de Surface Hub, usa el conmutador de energía para desactivar el Surface Hub de nuevo.  
 
 4. Repita el paso 3 tres veces o hasta que Surface Hub muestre el mensaje "Preparar reparación automática". Después de mostrar este mensaje, Surface Hub muestra la pantalla Windows RE.
-
  
-5. Selecciona **Restablecer para volver a instalar Windows**. 
-![restablecer para volver a instalar](images/recover-from-cloud.png)
+5. Selecciona **Restablecer**. 
 
-8. Seleccione **Descarga en la nube.** 
+6. Si se te pide que escribas la clave de BitLocker, sigue uno de estos procedimientos:
+   - Para conservar la información que BitLocker protege en Surface Hub, escribe la clave de BitLocker.
+   - Para descartar la información protegida, seleccione Omitir esta unidad
+
+7. Seleccione **Descarga en la nube.** 
 
    ![Descarga en la nube](images/recover-cloud-download.png)
 
->[!IMPORTANT]
->Si recibe un mensaje de error que indica **No se puede descargar,** seleccione **Cancelar** e inténtelo de nuevo.
+   >[!IMPORTANT]
+   >Si recibe un mensaje de error que indica **No se puede descargar**, seleccione **Cancelar** y, a continuación, **Restablecer de** nuevo.
 
-9. Seleccione **Limpiar completamente la unidad.**  
-![ recuperar y limpiar completamente la unidad](images/recover-fully-clean-drive.png)
+8. Seleccione **Limpiar completamente la unidad.**
+ 
+   ![recuperar y limpiar completamente la unidad](images/recover-fully-clean-drive.png)
 
-10. Se te **preguntará ¿Estás listo para restablecer este dispositivo?**. Selecciona **Restablecer**. 
-![recuperar y confirmar el restablecimiento](images/recover-confirm-reset.png)
+9. Se te **preguntará ¿Estás listo para restablecer este dispositivo?**. Selecciona **Restablecer**. 
+   
+   ![recuperar y confirmar el restablecimiento](images/recover-confirm-reset.png)
 
-11. La descarga comienza y el proceso de recuperación indica **restablecer este dispositivo**. 
-![recuperación que se muestra en curso](images/recover-in-progress.png)
+10. La descarga comienza y el proceso de recuperación indica **restablecer este dispositivo**.
+
+    ![recuperación que se muestra en curso](images/recover-in-progress.png)
 
 ## <a name="contact-support"></a>Contactar con el soporte técnico
 
