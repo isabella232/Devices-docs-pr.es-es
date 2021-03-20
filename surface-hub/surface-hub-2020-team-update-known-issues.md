@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 02/09/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: ddfa9369c03296d9a7792ee0b28bf3b91163b9c7
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 903307112433d794052a4a4e9694f3e793d248c8
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406603"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442118"
 ---
 # <a name="known-issues-windows-10-team-2020-update"></a>Problemas conocidos: Windows 10 Team 2020 Update 
 
@@ -37,4 +37,3 @@ Para asegurarte de que Surface Hub recibe las **** actualizaciones más reciente
 | Error de inicio de sesión único para dispositivos unidos a Azure Active Directory al usar un teléfono para iniciar sesión en Surface Hub | Si un administrador de TI [](surface-hub-2s-phone-authenticate.md) ha configurado el espacio empresarial para que use la autenticación sin contraseña para iniciar sesión en Surface Hub y el dispositivo está unido a AAD, los usuarios no podrán iniciar sesión con un dispositivo móvil como un teléfono.                                                                                                       | Inicia sesión manualmente en Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Cuando se usa edge Legacy browser Web Notes no se puede compartir por correo electrónico. | Después de crear una nota web y pasar por el flujo de recurso compartido para enviar por correo electrónico la nota, no aparece el botón "Enviar". Como resultado, la nota no se puede compartir por correo electrónico. | Los Surface Hubs que tienen instalada la actualización de 2020 se pueden actualizar al nuevo explorador de Microsoft Edge y compartir notas por correo electrónico funciona con ese explorador.<br> <br>**Más información:** [Instalar el nuevo Microsoft Edge en Surface Hub](surface-hub-install-chromium-edge.md) |
 | El Centro de acciones tiene un vínculo Configuración que no se puede hacer clic. | Este vínculo no debe aparecer en El equipo de Windows 10 y puede causar confusión.   | La funcionalidad es la misma que antes de la actualización de 2020; la sección Aplicaciones del menú Inicio debe usarse para iniciar la aplicación Configuración.    |
-| Hub 2S Devices reporting all 0s for Serial Number after updating to November 24, 2020 update for Windows 10 Team 2020 for 2S. | Después de instalar la actualización de Surface Hub 2S el 24 de noviembre para Windows 10 Team 2020 o instalar la imagen de recuperación de Windows 10 Team 2020 (BMR), algunos dispositivos informan de todos los ceros del número de serie. Esto impide que los dispositivos se inscriban en proveedores mdm.  | Este problema se produjo cuando un dispositivo no tenía la actualización de **firmware de Surface SMC 1.177.139.0** (parte del 1 de septiembre, Actualización de 2020 para Windows 10 Team Creators Update) antes de pasar a la actualización de **firmware de SMC 3.91.139.0** (incluida en el BMR original de Windows 10 Team 2020 o parte de la actualización del 24 de noviembre de 2020 para Windows 10 Team 2020). Como la actualización de firmware de **Surface SMC 3.93.139.0** ahora se incluye en el BMR actual de Windows 10 Team 2020 y se ofrece a dispositivos Surface Hub 2S a través de Windows Update, ya no es posible encontrarse con este problema. Los dispositivos que ya se han visto afectados tendrán un nuevo número de serie generado una vez instalada la actualización de firmware. Ten en cuenta que el dispositivo tendrá que reiniciarse dos veces después de instalar la actualización para completar la instalación. **Más información:** [Historial de actualizaciones de Surface Hub](surface-hub-update-history.md). |

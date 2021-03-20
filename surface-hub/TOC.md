@@ -22,7 +22,7 @@
 #### [Hoja de datos de configuración](setup-worksheet-surface-hub.md)
 #### [Introducción a los puertos y el teclado numérico de Surface Hub 2S](surface-hub-2s-port-keypad-overview.md)
 #### [Conectar dispositivos a Surface Hub 2S](surface-hub-2s-connect.md)
-### [Preparar el entorno para Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md)
+### [Preparar el entorno para Microsoft Surface Hub](prepare-your-environment-for-surface-hub.md)
 
 
 ## Implementar
