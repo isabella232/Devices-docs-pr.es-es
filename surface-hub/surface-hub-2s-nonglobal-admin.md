@@ -1,7 +1,7 @@
 ---
-title: Configurar cuentas de administrador no global en Surface Hub 2S
-description: En este artículo se describe cómo configurar cuentas de administrador no globales para administrar Surface Hub 2S.
-keywords: Surface Hub 2S
+title: Configurar cuentas de administrador no globales en Surface Hub
+description: En este artículo se describe cómo configurar cuentas de administrador no globales para administrar Surface Hub y Surface Hub 2S.
+keywords: Surface Hub, Surface Hub v1, Surface Hub 2S
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,30 +9,31 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/07/2020
+ms.date: 03/22/2021
 ms.localizationpriority: Medium
 appliesto:
-- Surface Hub 2S 2020 Update
-ms.openlocfilehash: e16e4f8bd4b2b253233fa9790987287cf17966c7
-ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: ceac8fc1b0e168b206d937197ef404990b8e40ae
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "11385178"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442904"
 ---
-# <a name="configure-non-global-admin-accounts-on-surface-hub-2s"></a>Configurar cuentas de administrador no global en Surface Hub 2S
+# <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Configurar cuentas de administrador no globales en Surface Hub
 
-Cuando unes Surface Hub 2S a un dominio de Azure AD, puedes configurar cuentas de administrador no globales que limiten los permisos a la administración de la aplicación Configuración en Surface Hub 2S. Esto te permite tener en cuenta los permisos de administrador solo para Surface Hub 2S e impedir el acceso de administrador potencialmente no deseado en todo un dominio de Azure AD. Antes de empezar, asegúrate de que Surface Hub 2S esté unido a Azure AD. Si no es así, deberás restablecer Surface Hub 2S y completar el programa de configuración de la primera vez y lista para usar (OOBE), eligiendo la opción de unirte a Azure AD.
+Cuando unes Surface Hub v1 o Surface Hub 2S a un dominio de Azure AD, puedes configurar cuentas de administrador no globales que limiten los permisos a la administración de la aplicación Configuración en Surface Hub. Esto te permite tener en cuenta los permisos de administrador solo para Surface Hub y evitar el acceso de administrador potencialmente no deseado en todo un dominio de Azure AD. Antes de empezar, asegúrate de que Surface Hub esté unido a Azure AD. Si no es así, deberás restablecer Surface Hub y completar el programa de configuración de la primera vez que se haya configurado (OOBE), eligiendo la opción de unirte a Azure AD.
 
 ## <a name="summary"></a>Resumen 
 
 El proceso de creación de cuentas de administración no globales implica los siguientes pasos: 
 
-1. En Microsoft Intune, crea un grupo de seguridad que contenga los administradores designados para administrar Surface Hub 2S.
+1. En Microsoft Intune, crea un grupo de seguridad que contenga los administradores designados para administrar Surface Hub.
 2. Obtener SID de grupo de Azure AD con PowerShell.
 3. Cree un archivo XML que contenga sid de grupo de Azure AD.
-4. Crea un grupo de seguridad que contenga los dispositivos Surface Hub 2S que administrará el grupo seguridad de administradores no globales.
-5. Crea un perfil de configuración personalizado destinado al grupo de seguridad que contiene tus dispositivos Surface Hub 2S. 
+4. Crea un grupo de seguridad que contenga los dispositivos Surface Hub que administrará el grupo seguridad de administradores no globales.
+5. Crea un perfil de configuración personalizado destinado al grupo de seguridad que contiene los dispositivos Surface Hub. 
 
 
 ## <a name="create-azure-ad-security-groups"></a>Crear grupos de seguridad de Azure AD
@@ -46,9 +47,9 @@ En primer lugar, cree un grupo de seguridad que contenga las cuentas de administ
 
      ![Crear grupo de seguridad para administradores de concentradores](images/sh-create-sec-group.png)
 
-3. Abre el grupo, selecciona **Miembros**y, a continuación, elige Agregar miembros para escribir las cuentas de administrador que quieras designar como administradores no globales en Surface Hub 2S. **** Para obtener más información sobre cómo crear grupos en Intune, consulte [Agregar grupos para organizar usuarios y dispositivos.](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)
+3. Abre el grupo, selecciona **Miembros**y, a continuación, elige Agregar miembros para escribir las cuentas de administrador que quieras designar como administradores no globales en Surface Hub. **** Para obtener más información sobre cómo crear grupos en Intune, consulte [Agregar grupos para organizar usuarios y dispositivos.](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)
 
-### <a name="create-security-group-for-surface-hub-2s-devices"></a>Crear grupo de seguridad para dispositivos Surface Hub 2S
+### <a name="create-security-group-for-surface-hub-devices"></a>Crear grupo de seguridad para dispositivos Surface Hub
 
 1. Repita el procedimiento anterior para crear un grupo de seguridad independiente para dispositivos concentradores; por ejemplo, **dispositivos Surface Hub**. 
 
@@ -119,12 +120,12 @@ En primer lugar, cree un grupo de seguridad que contenga las cuentas de administ
      ![cargar archivo de configuración xml de administración local](images/sh-local-admin-config.png)
 
 7. Haz clic en **Guardar**.
-8. Haz **clic en Seleccionar grupos para incluir** y elegir el grupo de seguridad que [creaste anteriormente](#create-security-group-for-surface-hub-2s-devices) (**dispositivos Surface Hub**). Haz clic en **Siguiente**.
+8. Haz **clic en Seleccionar grupos para incluir** y elegir el grupo de seguridad que [creaste anteriormente](#create-security-group-for-surface-hub-devices) (**dispositivos Surface Hub**). Haz clic en **Siguiente**.
 9. En Reglas de aplicabilidad, agregue una regla si lo desea. De lo contrario, **seleccione Siguiente** y, a continuación, **seleccione Crear**.
 
 Para obtener más información sobre los perfiles de configuración personalizados con cadenas OMA-URI, consulta Usar la configuración personalizada para dispositivos [Windows 10 en Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10).
 
 
-## <a name="non-global-admins-managing-surface-hub-2s"></a>Administradores no globales que administran Surface Hub 2S
+## <a name="non-global-admins-managing-surface-hub"></a>Administradores no globales que administran Surface Hub
 
-Los miembros del grupo seguridad de **administradores** locales de Surface Hub ahora pueden iniciar sesión en la aplicación Configuración de Surface Hub 2S y administrar la configuración.
+Los miembros del grupo seguridad de **administradores locales** de Surface Hub ahora pueden iniciar sesión en la aplicación Configuración de Surface Hub y administrar la configuración.

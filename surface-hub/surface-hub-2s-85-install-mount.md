@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/02/2020
+ms.date: 03/22/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387485"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442914"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Instalar y montar Surface Hub 2S 85"
 
@@ -27,8 +27,6 @@ En este artículo se proporcionan instrucciones de soporte técnico para instala
 - Antes de empezar, revisa Microsoft Surface Hub 2S 85" Unboxing and Set Up video:
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
-
-- Una versión en chino de este vídeo está disponible en el [apéndice B siguiente.](#appendix-b-unboxing-video) 
 
 ## <a name="follow-all-safety-precautions"></a>Seguir todas las precauciones de seguridad 
 
@@ -205,15 +203,6 @@ Una pantalla táctil descomprimida o recortada causada por el uso incorrecto o e
 > [!WARNING]
 >  **Instalación adecuada**<br>
 Para evitar riesgos relacionados con la instalación incorrecta del dispositivo, las personas que han leído y entendido la instrucción de instalación deben realizar la instalación antes de comenzar el trabajo. Si no tiene el equipamiento o la experiencia necesarios, o si no está seguro de que la superficie de montaje puede admitir correctamente consultar a un instalador profesional.
-
-
-## <a name="appendix-b-unboxing-video"></a>Apéndice B: Vídeo de desboxeo
-
-
-### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85" Unboxing and Set Up video (chino)
-
-> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
-
 
 ## <a name="more-information"></a>Más información
 

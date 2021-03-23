@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 3/19/2021
-ms.openlocfilehash: 1fbbf899876d154469d48fa75a179196697205c1
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 9c3302616de97cf60b7d750948fed653456a7cba
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442176"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442894"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a>Wake on LAN para dispositivos Surface
 
@@ -44,7 +44,7 @@ Los administradores de TI pueden desencadenar dispositivos mediante una activaci
 Muchas soluciones de administración, como Microsoft Endpoint Configuration Manager y aplicaciones de Microsoft Store de terceros proporcionan compatibilidad integrada con WOL. Ten en cuenta que los dispositivos deben estar en modo de espera conectado (suspensión) y conectados a la alimentación de CA. Para obtener más información sobre cómo activar dispositivos con Endpoint Configuration Manager, consulte [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).
 
 
-## <a name="to-check-wol-is-enabled-on-your-device"></a>Para comprobar que WOL está habilitado en el dispositivo
+### <a name="to-check-wol-is-enabled-on-your-device"></a>Para comprobar que WOL está habilitado en el dispositivo
 
 1. En el dispositivo conectado a Ethernet, seleccione el adaptador de red y, a continuación, seleccione **Propiedades**.
 
