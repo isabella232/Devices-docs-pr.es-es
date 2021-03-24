@@ -48,7 +48,7 @@
 ### [Instalar y configurar el nuevo MicrosoftEdge en SurfaceHub](surface-hub-install-chromium-edge.md)        
 ### [Administrar Surface Hub 2S con Microsoft Intune](surface-hub-2s-manage-intune.md)
 ### [Administración local para la configuración de Surface Hub 2S](local-management-surface-hub-settings.md)
-### [Administrar la rotación de contraseñas de cuentas de dispositivos](surface-hub-2s-manage-passwords.md)
+### [Administrar la rotación de contraseñas de cuentas de dispositivos](password-management-for-surface-hub-device-accounts.md)
 ### [Administrar las actualizaciones de Windows](manage-windows-updates-for-surface-hub.md)
 ### [Miracast en una red inalámbrica o LAN existente](miracast-over-infrastructure.md)
 ### [Guardar la clave de BitLocker](save-bitlocker-key-surface-hub.md)
