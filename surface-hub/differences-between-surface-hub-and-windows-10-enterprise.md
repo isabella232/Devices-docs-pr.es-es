@@ -7,16 +7,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: f3ffcc46912fba3313e4489f5713b6ffcacf2d8a
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 9c76f9405146c5cda4afe6b46ce7e1cce0062682
+ms.sourcegitcommit: 88ce9e77afdc3d09984edc05286cd0f1eb054223
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387481"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "11448304"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Conceptos básicos del sistema operativo (Surface Hub)
 
@@ -71,26 +71,26 @@ Los archivos que se guardan localmente en estos directorios se eliminan cuando l
 Con pocas excepciones, las aplicaciones predeterminadas para la Plataforma universal de Windows (UWP) de Surface Hub también están disponibles en los equipos con Windows 10.
 
 Aplicaciones para UWP instaladas previamente en Surface Hub:
+
 - Alarmas y reloj
 - Calculadora
 - Conectar
 - Excel Mobile
 - Centro de opiniones
-- Explorador de archivos*
+- Explorador de archivos
 - Introducción
 - Mapas
 - Microsoft Edge
 - Microsoft Power BI
+- Microsoft Teams
+- Microsoft Whiteboard
 - OneDrive
 - Fotos
 - PowerPoint Mobile
-- Configuración*
-- Skype Empresarial*
+- Configuración
 - Tienda
-- Pizarra interactiva*
+- Sugerencias
 - Word Mobile
-
-*Las aplicaciones con un asterisco (&ast;) son exclusivas de Surface Hub*
 
 *Directivas de la organización que esto puede afectar:* <br> Usa las directrices de Windows 10 Enterprise para determinar las características y los requisitos de red de las aplicaciones predeterminadas en Surface Hub.
 
@@ -106,11 +106,11 @@ Para que Surface Hub se use en espacios comunes, como reuniones de las salas, su
 
 Surface Hub implementa las siguientes características de seguridad de Windows 10:
 - [Arranque seguro de la UEFI](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)
-- [Integridad de código del modo de usuario (UMCI) con Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
+- [Control de aplicaciones de Windows Defender y protección basada en la virtualización de la integridad del código](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
 - [Directivas de restricción de aplicaciones con AppLocker](https://technet.microsoft.com/itpro/windows/keep-secure/applocker-overview)
 - [Cifrado de unidad BitLocker](https://technet.microsoft.com/itpro/windows/keep-secure/bitlocker-overview)
 - [Módulo de plataforma segura (TPM)](https://technet.microsoft.com/itpro/windows/keep-secure/trusted-platform-module-overview)
-- [Windows Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
+- [Microsoft Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
 - [Control de cuentas de usuario (UAC)](https://technet.microsoft.com/itpro/windows/keep-secure/user-account-control-overview) para acceder a la aplicación Configuración
 
 Las siguientes características de Surface Hub proporcionan seguridad adicional:
@@ -121,6 +121,8 @@ Las siguientes características de Surface Hub proporcionan seguridad adicional:
 - La descarga de controladores Plug and Play avanzados está deshabilitada
 
 *Directivas de la organización que esto puede afectar:* <br> Ten en cuenta las siguientes características al realizar la evaluación de seguridad de Surface Hub.
+
+Para obtener más información, consulta Introducción a la [seguridad de Surface Hub](surface-hub-security.md)
 
 ## <a name="management"></a>Administración
 
