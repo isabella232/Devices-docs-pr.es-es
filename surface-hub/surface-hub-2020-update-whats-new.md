@@ -1,5 +1,5 @@
 ---
-title: Novedades de Windows10 Team 2020
+title: Novedades de la actualización Windows10 Team 2020
 description: Echa un vistazo a las novedades de la última actualización del sistema operativo Surface Hub, Windows 10 Team 2020 Update.
 keywords: separar valores con comas
 ms.prod: surface-hub
@@ -9,25 +9,34 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 96452885e19adc9784bb8d14be8ac6f2f86e883d
-ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.openlocfilehash: 14e08cf099ac441f7b2b3b76366406868ac6c056
+ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "11442875"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "11470428"
 ---
-# <a name="whats-new-in-windows-10-team-2020-update"></a>Novedades de Windows10 Team 2020
+# <a name="whats-new-in-windows-10-team-2020-update"></a>Novedades de la actualización Windows10 Team 2020
 
 Windows 10 Team 2020 Update ofrece mejoras importantes en la implementación y la facilidad de administración de dispositivos, junto con las características más recientes de Windows 10.
 
 ##  <a name="deployment-and-manageability"></a>Implementación y facilidad de administración
 
 - **Autenticación moderna para cuentas de dispositivo en la nube.** Surface Hub admite la autenticación basada en servicios web de Exchange (EWS) y biblioteca de autenticación de Active Directory (ADAL) para conectarse a Exchange, lo que permite a los clientes dejar de usar la autenticación básica. Para obtener más información, consulta [Autenticación moderna en Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-modern-auth).
-- **Más de 20 directivas de**administración de dispositivos móviles (MDM) nuevas y actualizadas.      Estas directivas dan a los administradores de TI un control mejorado sobre la configuración de varios dispositivos, incluidos: actualizaciones de aplicaciones de Microsoft Store, configuración de proyección inalámbrica como Miracast sobre infraestructura, configuración de red como calidad de servicio y autenticación por cable 802.1x y nueva configuración relacionada con la privacidad y el RGPD. Para obtener más información, vea: 
-- [Administrar Surface Hub con Microsoft Intune](surface-hub-2s-manage-intune.md).
-- [CSP de directivas admitidas por Microsoft Surface Hub](https://docs.microsoft.com//windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- **Más de 20 configuraciones**de directiva de administración de dispositivos móviles (MDM) nuevas y actualizadas.  Estas configuraciones de directiva dan a los administradores de TI un control mejorado sobre la configuración de varios dispositivos, incluidos: actualizaciones de aplicaciones de Microsoft Store, configuración de proyección inalámbrica como Miracast sobre infraestructura, configuración de red como calidad de servicio y autenticación por cable 802.1x y nueva configuración relacionada con la privacidad y el RGPD. Los nuevos proveedores de servicios de configuración (SPC) incluyen: 
+
+  - [Cuentas de CSP](https://docs.microsoft.com/windows/client-management/mdm/accounts-csp) 
+  - [Firewall-CSP](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) 
+  - [RemoteWipe CSP](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp) 
+  - [Wifi-CSP](https://docs.microsoft.com/windows/client-management/mdm/wifi-csp) 
+  - [Wirednetwork-CSP](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) 
+
+Para obtener más información, vea: 
+- [CSP compatibles con Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [Administrar Surface Hub con un proveedor MDM](manage-settings-with-mdm-for-surface-hub.md)
+
 
 ##  <a name="azure-active-directory-joined-devices"></a>Dispositivos unidos a Azure Active Directory
 

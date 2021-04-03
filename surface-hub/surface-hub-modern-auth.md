@@ -13,19 +13,18 @@ ms.date: 12/10/2020
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S 2020 Update
-ms.openlocfilehash: 1674b7abd74a666e2ab1040f66d9ea548ab3c201
-ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+ms.openlocfilehash: 3873d0ac7ffff3fa790f44b474d937772e5a0900
+ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "11385168"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "11474776"
 ---
 # <a name="modern-authentication-on-surface-hub"></a>Autenticación moderna en Surface Hub
 
 La actualización de Windows 10 Team 2020 agrega compatibilidad con la autenticación moderna de la cuenta del dispositivo Hub en algunos escenarios. Una vez instalada la actualización de 2020, puede migrar desde la autenticación básica heredada para usar las mejoras de seguridad más recientes si la cuenta del dispositivo se autentica a través de Azure Active Directory y el buzón de la cuenta está hospedado en Exchange Online. Con la actualización de 2020, Surface Hub admite protocolos de Exchange Web Services (EWS) y autenticación basada en la Biblioteca de autenticación de Active Directory (ADAL) al sincronizar la cuenta del dispositivo con Exchange Online.
 
-Para las nuevas cuentas basadas en la nube, Surface Hub usa automáticamente la autenticación moderna para conectarse a Exchange Online sin necesidad de configuración adicional más allá de simplemente crear cuentas de dispositivo con el formato [alias@contoso.com](mailto:alias@contoso.com). No use el formato heredado: Contoso\alias, que no es compatible con la autenticación moderna. Para obtener más información, consulta [Create Surface Hub 2S device account](https://docs.microsoft.com/surface-hub/surface-hub-2s-account).
+Para las nuevas cuentas basadas en la nube, Surface Hub usa automáticamente la autenticación moderna para conectarse a Exchange Online sin necesidad de configuración adicional más allá de simplemente agregar la cuenta de dispositivo a Surface Hub con el formato [alias@contoso.com](mailto:alias@contoso.com). No use el formato heredado: Contoso\alias, que no es compatible con la autenticación moderna. Para obtener más información, consulta [crear y probar una cuenta de dispositivo.](create-and-test-a-device-account-surface-hub.md)
 
 > [!NOTE]
-> Surface Hub no admite la autenticación moderna para cuentas locales. Las cuentas deben crearse en la nube.
-
+> La autenticación moderna no es compatible con las cuentas locales de Surface Hub. Las cuentas solo deben usar Azure AD para la autenticación.
