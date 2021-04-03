@@ -45,7 +45,7 @@
 ### [Problemas conocidos: actualización 2020 de Windows 10 Team](surface-hub-2020-team-update-known-issues.md)
 ### [Configurar cuentas de administrador no globales en Surface Hub](surface-hub-2s-nonglobal-admin.md)
 ### [Instalar y configurar el nuevo MicrosoftEdge en SurfaceHub](surface-hub-install-chromium-edge.md)        
-### [Administrar Surface Hub 2S con Microsoft Intune](surface-hub-2s-manage-intune.md)
+### [Administrar Surface Hub con un proveedor MDM](manage-settings-with-mdm-for-surface-hub.md)
 ### [Administración local para la configuración de Surface Hub 2S](local-management-surface-hub-settings.md)
 ### [Administrar la rotación de contraseñas de cuentas de dispositivos](password-management-for-surface-hub-device-accounts.md)
 ### [Administrar las actualizaciones de Windows](manage-windows-updates-for-surface-hub.md)
