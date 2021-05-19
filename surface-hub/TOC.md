@@ -3,7 +3,7 @@
 # Surface Hub 2S
 
 ## Introducción
-### [Novedades de la actualización Windows10 Team 2020](surface-hub-2020-update-whats-new.md)
+### [Novedades de la actualización Windows 10 Team 2020](surface-hub-2020-update-whats-new.md)
 ### [Especificaciones técnicas de Surface Hub 2S 50"](surface-hub-2s-techspecs.md) 
 ### [Especificaciones técnicas de Surface Hub 2S 85"](surface-hub-2s-85.md)
 ### [Conceptos básicos del sistema operativo (Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
@@ -41,10 +41,10 @@
 ### [Migrar a Windows 10 Pro o Enterprise en Surface Hub 2](surface-hub-2s-migrate-os.md)
 ### [Configurar Windows 10 Pro o Enterprise en Surface Hub 2](surface-hub-2-post-install.md)
 ### [Complementos esenciales para Windows 10 Pro y Enterprise en Surface Hub 2](surface-hub-2-essential-add-ons.md)
-### [Instalar la actualización 2020 de Windows10Team](surface-hub-2020-update.md)  
+### [Instalar la actualización 2020 de Windows 10 Team](surface-hub-2020-update.md)  
 ### [Problemas conocidos: actualización 2020 de Windows 10 Team](surface-hub-2020-team-update-known-issues.md)
 ### [Configurar cuentas de administrador no globales en Surface Hub](surface-hub-2s-nonglobal-admin.md)
-### [Instalar y configurar el nuevo MicrosoftEdge en SurfaceHub](surface-hub-install-chromium-edge.md)        
+### [Instalar y configurar el nuevo Microsoft Edge en Surface Hub](surface-hub-install-chromium-edge.md)        
 ### [Administrar Surface Hub con un proveedor MDM](manage-settings-with-mdm-for-surface-hub.md)
 ### [Administración local para la configuración de Surface Hub 2S](local-management-surface-hub-settings.md)
 ### [Administrar la rotación de contraseñas de cuentas de dispositivos](password-management-for-surface-hub-device-accounts.md)
@@ -99,7 +99,7 @@
 
 ## Administrar
 ### [Administrar Microsoft Surface Hub](manage-surface-hub.md) 
-### [Instalar y configurar el nuevo MicrosoftEdge en SurfaceHub](surface-hub-install-chromium-edge.md)    
+### [Instalar y configurar el nuevo Microsoft Edge en Surface Hub](surface-hub-install-chromium-edge.md)    
 ### [PowerShell para Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md)
 ### [Administración remota de Surface Hub](remote-surface-hub-management.md)
 #### [Administrar la configuración con un proveedor de MDM](manage-settings-with-mdm-for-surface-hub.md)
@@ -132,7 +132,7 @@
 ## Solucionar problemas
 ### [Uso de la herramienta de recuperación de Surface Hub](surface-hub-recovery-tool.md)
 ### [Reemplazo de SSD de Surface Hub](surface-hub-ssd-replacement.md)
-### [Soluciones principales de soporte técnico para SurfaceHub](support-solutions-surface-hub.md)
+### [Soluciones principales de soporte técnico para Surface Hub](support-solutions-surface-hub.md)
 ### [Solucionar problemas de Microsoft Surface Hub](troubleshoot-surface-hub.md)
 ### [Historial de actualizaciones de Surface Hub](surface-hub-update-history.md)
 ### [Problemas conocidos e información adicional sobre Microsoft Surface Hub](known-issues-and-additional-info-about-surface-hub.md)
