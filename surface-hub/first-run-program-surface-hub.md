@@ -12,14 +12,14 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: e070c28d13cd8466bff47022f4508fdb8aa06331
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: af6f6cc71a94d075341637499fe98f8206157e49
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142919"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576580"
 ---
-# Programa de primera ejecución (Surface Hub)
+# <a name="first-run-program-surface-hub"></a>Programa de primera ejecución (Surface Hub)
 
 
 El término "primera ejecución" se refiere a la serie de pasos que recorrerás la primera vez que enciendas Microsoft Surface Hub y significa lo mismo que "configuración rápida" (OOBE). En esta sección te guiará por el proceso.
@@ -47,7 +47,7 @@ Cada una de estas secciones también contiene información acerca de las rutas d
 
  
 
-## <a href="" id="first-page"></a>Página de bienvenida
+## <a name="hi-there-page"></a><a href="" id="first-page"></a>Página de bienvenida
 
 
 Esta es la primera pantalla que verás al encender el Surface Hub por primera vez. Es donde se escribe la información de localización para el dispositivo.
@@ -59,7 +59,7 @@ Esta es la primera pantalla que verás al encender el Surface Hub por primera ve
 
 ![Imagen que muestra las opciones de la lista de comprobación de ICD.](images/setuplocale.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Si los valores predeterminados que se muestran son correctos, puedes hacer clic en **Siguiente** para continuar. De lo contrario, deberás escribir datos en los cuadros correspondientes.
 
@@ -68,7 +68,7 @@ Si los valores predeterminados que se muestran son correctos, puedes hacer clic 
 -   **Distribución del teclado:** Selecciona la distribución del teclado para los teclados físicos y en pantalla que se usarán con el dispositivo.
 -   **Zona horaria:** selecciona la zona horaria en la que se usará Surface Hub.
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 >[!NOTE]
 > Una vez que se especifiquen las opciones de configuración en esta página, no puedes volver a esta pantalla a menos que se restablezca el dispositivo (consulta [Restablecimiento del dispositivo](device-reset-surface-hub.md)). Asegúrate de que las opciones de configuración se han configurado correctamente antes de continuar.
@@ -79,58 +79,59 @@ Cuando se acepten las opciones de configuración, el dispositivo buscará una co
 
 Si no se encuentra ninguna conexión por cable, el dispositivo intentará establecer una conexión inalámbrica y mostrará la [Página de configuración de red](#network-setup).
 
-## <a href="" id="network-setup"></a>Página de configuración de red
+## <a name="network-setup-page"></a><a href="" id="network-setup"></a>Página de configuración de red
 
 
 Si el dispositivo no detecta una conexión por cable que pueda usar para conectarse a una red o a Internet, verás esta página. Aquí, puedes conectarte a una red inalámbrica u omitir la conexión de red.
 
 ![Imagen que muestra la página de configuración de red.](images/setupnetworksetup-1.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Esta pantalla se muestra solo si el dispositivo no detecta una red por cable. Si aparece esta pantalla, tienes tres opciones:
 
 -   Puedes seleccionar una de las redes inalámbricas que se muestran. Si la red está protegida, se te llevará a una página de inicio de sesión. Consulta [Configuración de red inalámbrica](#wireless) para obtener más información.
 -   Haz clic en **Omitir este paso** para omitir la conexión a una red. Se abrirá la [Configuración de tu página](#set-up-for-you).
     >[!NOTE]
-    >Si se omite esto, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en el Surface Hub, incluidas las actualizaciones del sistema y la sincronización de correo electrónico y calendario. Puede conectarse a una red inalámbrica más adelante con configuración (consulte [Administración de redes inalámbricas](wireless-network-management-for-surface-hub.md)).
+    >Si se omite esto, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en el Surface Hub, incluidas las actualizaciones del sistema y la sincronización de correo electrónico y calendario. Puede conectarse a una red inalámbrica más adelante mediante Configuración (consulte [Administración de red inalámbrica](wireless-network-management-for-surface-hub.md)).
 
      
 
 -   Puedes conectar un cable de red mientras esta pantalla esté visible. El dispositivo lo detectará y agregará **Siguiente** a la pantalla. Haz clic en **Siguiente** para continuar con la conexión por cable.
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 Si el dispositivo tiene una conexión por cable al iniciarse y se puede establecer una conexión de red o a Internet, no se mostrará esta página. Si quieres conectar el dispositivo a una conexión inalámbrica, asegúrate de que no haya ningún cable Ethernet enchufado en la primera ejecución, lo que te llevará a esta pantalla. Independientemente de lo que decidas configurar ahora, puedes [usar Configuración](wireless-network-management-for-surface-hub.md) para configurar conexiones diferentes más adelante.
 
 Si quieres conectarte a una red inalámbrica segura desde esta página, haz clic en la red de tu elección y, a continuación, proporciona la información necesaria (credenciales de cuenta o contraseña) para conectarte. Consulta [Configuración de red inalámbrica](#wireless).
 
-## <a href="" id="wireless"></a>Configuración de red inalámbrica
+## <a name="wireless-network-setup"></a><a href="" id="wireless"></a>Configuración de red inalámbrica
 
 
 Esta página se mostrará cuando hayas seleccionado una red inalámbrica segura.
 
 ![Imagen que muestra la página de configuración de la red inalámbrica.](images/setupnetworksetup-3.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 -   **Nombre de usuario:** Escribe el nombre de usuario para la red inalámbrica seleccionada.
 -   **Contraseña:** Esta es la contraseña de la red.
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 El dispositivo intentará conectarse a la red especificada. Si se realiza correctamente, se abrirá la [Configuración de tu página](#set-up-for-you).
 
-## <a href="" id="proxy"></a>Configuración de proxy de red
+## <a name="network-proxy-setup"></a><a href="" id="proxy"></a>Configuración de proxy de red
 
 
 Esta página se mostrará cuando el dispositivo detecte una conexión por cable con conectividad limitada. Tiene tres opciones:
 
 -   Puedes seleccionar una red inalámbrica para usarla en lugar de la conexión por cable limitada.
--   Puedes omitir la conexión a una red seleccionando **Omitir este paso**. Se abrirá la [Configuración de tu página](#set-up-for-you).
-    **Nota**  Si se omite esto, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en el Surface Hub, incluida, como por ejemplo, la sincronización del correo electrónico y del calendario. Puede conectarse a una red inalámbrica más adelante con configuración (consulte [Administración de redes inalámbricas](wireless-network-management-for-surface-hub.md)).
 
-     
+-   Puedes omitir la conexión a una red seleccionando **Omitir este paso**. Se abrirá la [Configuración de tu página](#set-up-for-you).
+
+    > [!NOTE]
+    > Si se omite esto, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en el Surface Hub, incluida, por ejemplo, la sincronización de correo electrónico y calendario. Puede conectarse a una red inalámbrica más adelante mediante Configuración (consulte [Administración de red inalámbrica](wireless-network-management-for-surface-hub.md)).
 
 -   Puedes seleccionar **Introducir opciones de proxy** , lo que te permitirá especificar cómo se usa el proxy de red. Se abrirá la siguiente pantalla.
 
@@ -140,42 +141,42 @@ Esta página se mostrará cuando el dispositivo detecte una conexión por cable 
 
     ![Imagen que muestra los detalles de configuración del servidor proxy.](images/setupnetworksetup-4.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Para realizar una conexión de red, deberás rellenar un nombre de script o la información acerca del servidor proxy y los puertos.
 
 -   **Script de proxy:** Proporciona la dirección de un script de proxy.
 -   **Servidor proxy y puerto:** Puedes proporcionar la dirección del servidor proxy y el puerto.
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 Al hacer clic en **Siguiente**, el dispositivo intentará conectarse al servidor proxy. Si se realiza correctamente, se abrirá la [Configuración de tu página](#set-up-for-you).
 
 Puedes omitir la conexión a una red seleccionando **Omitir este paso**. Se abrirá la [Configuración de tu página](#set-up-for-you).
 
 >[!NOTE]
->Si se omite esto, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en el Surface Hub, incluida, por ejemplo, la sincronización de correo electrónico y calendario. Puede conectarse a una red inalámbrica más adelante con configuración (consulte [Administración de redes inalámbricas](wireless-network-management-for-surface-hub.md)).
+>Si se omite esto, el dispositivo no tendrá una conexión de red y nada que requiera una conexión de red funcionará en el Surface Hub, incluida, por ejemplo, la sincronización de correo electrónico y calendario. Puede conectarse a una red inalámbrica más adelante mediante Configuración (consulte [Administración de red inalámbrica](wireless-network-management-for-surface-hub.md)).
 
  
 
-## <a href="" id="set-up-for-you"></a>Configuración de tu página
+## <a name="set-up-for-you-page"></a><a href="" id="set-up-for-you"></a>Configuración de tu página
 
 
 Esta pantalla es meramente informativa y muestra la configuración recomendada habilitada de forma predeterminada.
 
 ![Imagen que muestra la configuración de tu página.](images/setupsetupforyou.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Debes leer esta pantalla y tener en cuenta qué servicios están habilitados de forma predeterminada. Todos ellos pueden cambiarse mediante la aplicación Configuración si es necesario, pero debes tener cuidado con los efectos que conlleva. Consulta [Introducción a Surface Hub](intro-to-surface-hub.md) para conocer los detalles.
 
 Una vez que hayas terminado de revisar la configuración, haz clic en **Siguiente** para continuar.
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 La configuración que se muestra en la página ya se ha realizado y no se puede cambiar hasta después de completarse la primera ejecución.
 
-## <a href="" id="device-account"></a>Página de la cuenta del dispositivo
+## <a name="device-account-page"></a><a href="" id="device-account"></a>Página de la cuenta del dispositivo
 
 
 En esta página, Surface Hub pedirá las credenciales de la cuenta del dispositivo que hayas configurado anteriormente. (Consulta [Crear y probar una cuenta del dispositivo](create-and-test-a-device-account-surface-hub.md)), El Surface Hub intentará detectar varias propiedades de la cuenta y puede solicitar más información en otra página si no lo consigue.
@@ -186,7 +187,7 @@ En esta página, Surface Hub pedirá las credenciales de la cuenta del dispositi
 
 ![Imagen que muestra la página Introducir información de la cuenta del dispositivo.](images/setupdeviceacct.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Usa un **nombre principal de usuario (UPN)** o un **dominio\\nombre de usuario** como el identificador de cuenta en el primer campo de entrada. Usa el formato que coincida con el entorno y escribe la contraseña.
 
@@ -208,9 +209,9 @@ Si omites la configuración ahora, puedes agregar una cuenta del dispositivo má
 
 Si haces clic en **Omitir configuración de una cuenta del dispositivo**, el dispositivo mostrará un cuadro de diálogo que muestra lo que sucederá si el dispositivo no tiene una cuenta del dispositivo. Si eliges **Sí, deseo omitir este paso**, se abrirá la [página Asignar un nombre a este dispositivo](#name-this-device).
 
-![Imagen que muestra el mensaje se muestra para confirmar que desea omitir la creación de una cuenta de dispositivo.](images/setupskipdeviceacct.png)
+![Imagen que muestra el mensaje que se muestra para confirmar que quieres omitir la creación de una cuenta de dispositivo.](images/setupskipdeviceacct.png)
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 El dispositivo usará el UPN o el dominio\\nombre de usuario y la contraseña para que la cuenta del dispositivo realice lo siguiente:
 
@@ -222,14 +223,14 @@ El dispositivo usará el UPN o el dominio\\nombre de usuario y la contraseña pa
 -   Busca la dirección de Protocolo de inicio de sesión (SIP) para la cuenta.
 -   Extrae el nombre para mostrar de la cuenta y los atributos Alias
 
-## <a href="" id="exchange-server"></a>Página del servidor Exchange
+## <a name="exchange-server-page"></a><a href="" id="exchange-server"></a>Página del servidor Exchange
 
 
 Esta página solo se mostrará si hay un problema. Por lo general, significa que se ha encontrado la cuenta del dispositivo que proporcionaras en Active Directory (AD) o Azure Active Directory (Azure AD), pero no se ha detectado el servidor Exchange para dicha cuenta.
 
 ![Imagen que muestra la página Servidor de Exchange.](images/setupexchangeserver-01.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Escribe el nombre del servidor de Exchange donde esta hospedado el buzón de la cuenta del dispositivo.
 
@@ -247,13 +248,13 @@ Si haces clic en **Omitir configuración de los servicios de Exchange**, el disp
 
 ![Imagen que muestra el mensaje de confirmación que aparece cuando se omite la configuración de los servicios de Exchange.](images/setupexchangeserver-02.png)
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 El Surface Hub intentará validar la cuenta del dispositivo en el servidor de Exchange que especifiques aquí. Si el servidor Exchange se puede alcanzar y validar, la primera ejecución continuará.
 
 Si decides omitir la configuración de los servicios de Exchange, el Surface Hub detendrá la búsqueda del servidor Exchange y no se habilitará ningún servicio de Exchange (correo electrónico y calendario).
 
-## <a href="" id="exchange-policies"></a>Página de directivas de Exchange
+## <a name="exchange-policies-page"></a><a href="" id="exchange-policies"></a>Página de directivas de Exchange
 
 
 Esta página se mostrará cuando:
@@ -266,14 +267,14 @@ Esta página se mostrará cuando:
 
 ![Imagen que muestra la página de directivas de Exchange.](images/setupexchangepolicies.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Esta página es meramente informativa, por lo que no se requiere ninguna acción. Sin embargo, tienes dos opciones para continuar: saltar adelante o volver a intentar la validación que causó el error. Antes de decidir qué opción es mejor, lee la siguiente sección: **Qué sucede** . Es posible que puedas solucionar el problema en otro lugar antes de hacer clic en una de las opciones.
 
 -   **Haz clic aquí para continuar usando las directivas no admitidas**: Haz clic aquí para continuar con la primera ejecución. El Surface Hub no podrá usar los servicios Exchange ni sincronizar.
 -   **Reintentar**: Vuelve a comprobar la directiva en el servidor de Exchange.
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 El Surface Hub comprueba si la directiva EAS de la cuenta del dispositivo tiene la directiva PasswordEnabled establecida en 0 (false). Si este no es el caso, no se pueden sincronizar el correo electrónico y el calendario, y el Surface Hub no puede usar ningún servicio de Exchange. Puedes usar las herramientas de administración de Exchange desde un equipo para comprobar que la cuenta del dispositivo tiene la directiva PasswordEnabled establecida en 0. Si no es el caso, puedes volver a configurar la cuenta y hacer clic en **Reintentar** aquí.
 
@@ -283,14 +284,14 @@ Otro posible motivo para no poder alcanzar Exchange es la autenticación basada 
 
 Si decides omitir esta comprobación, el Surface Hub detendrá la búsqueda del servidor Exchange y la validación de directivas EAS, y no se habilitarán los servicios de Exchange. Consulta [Introducción a Surface Hub](intro-to-surface-hub.md) para obtener más información acerca de las dependencias del programa de instalación.
 
-## <a href="" id="name-this-device"></a>Página Asignar un nombre a este dispositivo
+## <a name="name-this-device-page"></a><a href="" id="name-this-device"></a>Página Asignar un nombre a este dispositivo
 
 
 Esta página te pide que proporciones dos nombres que se usarán para identificar el Surface Hub.
 
 ![Imagen que muestra la página Asignar un nombre a este dispositivo.](images/setupnamedevice.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Si los valores predeterminados que se muestran son correctos, puedes hacer clic en **Siguiente** para continuar. De lo contrario, escribe datos en uno o ambos cuadros de texto.
 
@@ -299,7 +300,7 @@ Si los valores predeterminados que se muestran son correctos, puedes hacer clic 
 
 Siempre que ambos nombres estén dentro de los requisitos de longitud y no usen caracteres restringidos, al hacer clic en **Siguiente** , aparecerá la siguiente página, [Configurar administradores para este dispositivo](#setup-admins).
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 El Surface Hub requiere dos nombres para el dispositivo, cuyos valores predeterminados serán:
 
@@ -314,7 +315,7 @@ Aunque cualquiera de los nombres se puede cambiar más adelante, ten en cuenta q
 >[!NOTE]
 >Si quieres habilitar [Miracast sobre infraestructura](miracast-over-infrastructure.md), el nombre del dispositivo debe ser reconocible mediante DNS. Puedes lograrlo permitiendo que Surface Hub se registre automáticamente a través de DNS dinámico, o crear manualmente un registro A o AAAA para el nombre de host del dispositivo Surface Hub.
 
-## <a href="" id="setup-admins"></a>Configurar los administradores para esta página de dispositivo
+## <a name="set-up-admins-for-this-device-page"></a><a href="" id="setup-admins"></a>Configurar los administradores para esta página de dispositivo
 
 
 En esta página, podrás seleccionar una de varias opciones sobre cómo quieres configurar las cuentas de administrador para administrar el dispositivo de forma local.
@@ -328,7 +329,7 @@ Dado que cada Surface Hub puede usarlo cualquier número de empleados autenticad
 
 ![Imagen que muestra la página Configurar los administradores para este dispositivo](images/setupsetupadmins.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Elige una de las tres opciones disponibles:
 
@@ -336,18 +337,16 @@ Elige una de las tres opciones disponibles:
 -   **Usar los Servicios de dominio de Active Directory**
 -   **Usar un administrador local**
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 Esto es lo que sucede al seleccionar una opción.
 
 -   **Usar Microsoft Azure Active Directory**
 
-    Al hacer clic en esta opción podrás unir el equipo a Azure AD. Una vez que hagas clic en **Siguiente**, el dispositivo se reiniciará para aplicar algunas opciones de configuración y, a continuación, aparecerá la página [Usar Microsoft Azure Active Directory](#use-microsoft-azure) y se te pedirá que escribas las credenciales necesarias para unirte a Azure AD. Los miembros del rol de administrador global de Azure de la organización de la que se ha unido podrán usar la aplicación configuración. Los usuarios específicos que se permitirán dependerán de tu suscripción de Azure AD y de cómo hayas configurado las opciones de configuración de la organización de Azure AD.
+    Al hacer clic en esta opción podrás unir el equipo a Azure AD. Una vez que hagas clic en **Siguiente**, el dispositivo se reiniciará para aplicar algunas opciones de configuración y, a continuación, aparecerá la página [Usar Microsoft Azure Active Directory](#use-microsoft-azure) y se te pedirá que escribas las credenciales necesarias para unirte a Azure AD. Los miembros del rol Administradores globales de Azure de la organización unida podrán usar la Configuración aplicación. Los usuarios específicos que se permitirán dependerán de tu suscripción de Azure AD y de cómo hayas configurado las opciones de configuración de la organización de Azure AD.
     
     > [!IMPORTANT]
-    > Los administradores agregados a la función Administrador de dispositivos de Azure después de unir el dispositivo a Azure AD no podrán usar la aplicación configuración.
-    >
-    > Si unes Surface Hub a Azure AD durante la configuración de primera ejecución, el inicio de sesión único (SSO) para aplicaciones de Office no funcionará correctamente. Los usuarios tendrán que iniciar sesión individualmente en cada aplicación de Office.
+    > Para configurar quién puede usar la aplicación Configuración para administrar Surface Hubs, asegúrese de que la inscripción automática de [Intune](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) está habilitada en el inquilino antes de unir el dispositivo a Azure AD. Las directivas de Intune se pueden usar para [configurar administradores](surface-hub-2s-nonglobal-admin.md) que no son globales en Surface Hubs.
 
 -   **Usar Active Directory Domain Services**
 
@@ -364,7 +363,7 @@ Esto es lo que sucede al seleccionar una opción.
 
  
 
-### <a href="" id="use-microsoft-azure"></a>Usar Microsoft Azure Active Directory
+### <a name="use-microsoft-azure-active-directory"></a><a href="" id="use-microsoft-azure"></a>Usar Microsoft Azure Active Directory
 
 Si has decidido unir el Surface Hub a Azure Active Directory (Azure AD), verás la página **Qué sucede después**. Léela y haz clic en **Siguiente** para ir a la **página Inicia sesión**.
 
@@ -376,7 +375,7 @@ Unirse a Azure AD tiene dos ventajas principales:
 
     ![Imagen que muestra el mensaje que aparece cuando unes Surface Hub a Azure Active Directory.](images/setupjoiningazuread-1.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Se requiere la siguiente entrada:
 
@@ -389,11 +388,11 @@ Si llegas a este punto y no tienes credenciales válidas para una cuenta de Azur
 
 ![Imagen que muestra la página Configurar una cuenta de administrador.](images/setupjoiningazuread-3.png)
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 Una vez que escribas unas credenciales válidas de una cuenta de Azure AD, el dispositivo intentará unirse a la organización de Azure AD asociada. Si se realiza correctamente, el dispositivo aprovisionará empleados en la organización para que sean administradores locales en el dispositivo. Si se configuró el inquilino de Azure AD para ello, el dispositivo también se inscribirá en MDM.
 
-### <a href="" id="use-active-directory"></a>Usar los Servicios de dominio de Active Directory
+### <a name="use-active-directory-domain-services"></a><a href="" id="use-active-directory"></a>Usar los Servicios de dominio de Active Directory
 
 Esta página te pedirá las credenciales para unirte a un dominio, de modo que el Surface Hub pueda aprovisionar un grupo de seguridad como administradores del dispositivo.
 
@@ -401,7 +400,7 @@ Una vez que el dispositivo esté unido a un dominio, debes especificar un grupo 
 
 ![Imagen que muestra la página Configurar administradores que usan unión a dominio.](images/setupdomainjoin.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Se requiere la siguiente entrada:
 
@@ -413,7 +412,7 @@ Tras comprobar las credenciales, se te pedirá que escribas un nombre de grupo d
 
 ![Imagen que muestra la página Indicar un grupo de seguridad.](images/setupsecuritygroup-1.png)
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 Mediante el dominio proporcionado, las credenciales de la cuenta de la [página Usar los Servicios de dominio de Active Directory](#use-active-directory) y el nombre del dispositivo de la página [Asignar un nombre a este dispositivo](#name-this-device) , el Surface Hub intentará unirse al dominio. Si la unión se realiza correctamente, la primera ejecución continuará y te preguntará por un grupo de seguridad. Si la unión no se realiza correctamente, la primera ejecución se detendrá y te pedirá que cambies la información proporcionada.
 
@@ -424,13 +423,13 @@ Si la unión se realiza correctamente, verás la página **Especificar un grupo 
 
  
 
-### Usar un administrador local
+### <a name="use-a-local-admin"></a>Usar un administrador local
 
 Si decides no usar Azure Active Directory (Azure AD) ni Active Directory (AD) para administrar el Surface Hub, debes crear una cuenta de administrador local.
 
 ![Imagen que muestra la página Configurar una cuenta de administrador para el administrador local.](images/setuplocaladmin.png)
 
-### Detalles
+### <a name="details"></a>Detalles
 
 Se requiere la siguiente entrada:
 
@@ -438,11 +437,11 @@ Se requiere la siguiente entrada:
 -   **Contraseña:** Esta es la contraseña de la cuenta del dispositivo.
 -   **Volver a escribir la contraseña:** Escribe la contraseña igual que en el cuadro anterior para verificarla.
 
-### Qué sucede
+### <a name="what-happens"></a>Qué sucede
 
 Esta página intentará crear una nueva cuenta de administrador con las credenciales que especifiques aquí. Si se realiza correctamente, la primera ejecución finalizará. De lo contrario, se te pedirán unas credenciales distintas.
 
-## <a href="" id="update-surface-hub"></a>Actualizar Surface Hub
+## <a name="update-the-surface-hub"></a><a href="" id="update-surface-hub"></a>Actualizar Surface Hub
 
 
 >[!IMPORTANT]
@@ -452,7 +451,7 @@ Esta página intentará crear una nueva cuenta de administrador con las credenci
 
 Para obtener las últimas características y correcciones, debes actualizar el Surface Hub en cuanto finalices todos los pasos de primera ejecución anteriores.
 
-1.  Asegúrese de que el dispositivo tiene acceso a los servidores de Windows Update. 
+1.  Asegúrate de que el dispositivo tiene acceso a los servidores Windows Update. 
 2.  Abre Configuración, haz clic en **Actualización y seguridad**, luego en **Windows Update** y, a continuación, haz clic en **Buscar actualizaciones**.
 3.  Si hay actualizaciones disponibles, se descargarán. Una vez completada la descarga, haz clic en el botón **Actualizar ahora** para instalar las actualizaciones.
 4.  Sigue las instrucciones en pantalla después de que se instalen las actualizaciones. Necesitarás reiniciar el dispositivo.
