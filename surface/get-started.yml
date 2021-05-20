@@ -11,20 +11,22 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 9360df030e5a562dfeb3ad471c228408122c3471
-  ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
+  ms.openlocfilehash: 301a4b733ee477c1e9999dba84cd58283c02844f
+  ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "11328184"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "11576830"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface Laptop 4 + para empresas
+      url: https://www.microsoft.com/surface/business/surface-laptop-4
     - text: Surface Pro 7+ para empresas
       url: https://www.microsoft.com/surface/business/surface-pro-7-plus
-    - text: Surface Laptop Go para empresas
+    - text: Surface Laptop Ir para empresas
       url: https://www.microsoft.com/surface/business/surface-laptop-go
     - text: Surface Pro X para empresas
       url: https://www.microsoft.com/surface/business/surface-pro-x
@@ -34,21 +36,21 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Novedades de Surface Pro 7+ para empresas
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
+    - text: Surface Laptop de tecnología de 4 procesadores
+      url: surface-laptop-processors.md
+    - text: Surface Headphones de tecnología 2+
+      url: surface-headphones.md
     - text: Windows Virtual Desktop en Surface
       url: windows-virtual-desktop-surface.md
-    - text: Novedades de Surface Dock 2
-      url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
-    - text: Implementación sin toque con Surface & AutoPilot
+    - text: Implementación sin contacto con Surface & AutoPilot
       url: https://youtu.be/WQ-wg8fRzN0
     - text: Surface Pro X y Windows en ARM en un mundo remoto
       url: https://youtu.be/bDw77ZQNPPw
-    - text: 'Surface Security: Protección de puntos de conexión moderna de chip a nube de Microsoft'
+    - text: 'Seguridad de Surface: chip a nube moderna Endpoint Protection microsoft'
       url: https://youtu.be/uadAecDbqf4
 - title: Implementar dispositivos Surface
   linkLists:
@@ -58,18 +60,18 @@ landingContent:
       url: windows-autopilot-and-surface-devices.md
     - text: Soporte del registro de Surface para Windows Autopilot
       url: surface-autopilot-registration-support.md
-    - text: Herramienta Acelerador de implementaciones de Surface
+    - text: Herramienta Acelerador de implementación de Surface
       url: microsoft-surface-deployment-accelerator.md
 - title: Administrar dispositivos Surface
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Modo de administración de Surface Enterprise
+      url: surface-enterprise-management-mode.md
     - text: Administrar e implementar actualizaciones de controladores y firmware de Surface
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Administración de Intune de la configuración de la UEFI de Surface
+    - text: Administrar DFCI en dispositivos Surface
       url: surface-manage-dfci-guide.md
-    - text: Implementación, administración y mantenimiento de Surface Pro X
-      url: surface-pro-arm-app-management.md
 - title: Solucionar problemas
   linkLists:
   - linkListType: learn
@@ -84,9 +86,9 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Protección DMA en dispositivos Surface
+    - text: Protección de DMA en dispositivos Surface
       url: dma-protect.md
-    - text: Puertos seguros de Surface Dock 2 con el Modo de administración de Surface Enterprise (SEMM)
+    - text: Puertos seguros de Surface Dock 2 con surface Enterprise management mode (SEMM)
       url: secure-surface-dock-ports-semm.md
     - text: Herramienta Surface Data Eraser
       url: microsoft-surface-data-eraser.md
