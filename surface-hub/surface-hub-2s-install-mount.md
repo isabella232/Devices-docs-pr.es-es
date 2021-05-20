@@ -1,6 +1,6 @@
 ---
-title: Instalar y montar Surface Hub 2S
-description: Más información sobre cómo instalar y montar Surface Hub 2S.
+title: Instalar y montar Surface Hub 2S de 50 pulgadas
+description: Obtenga información sobre cómo instalar y montar Surface Hub 2S de 50 pulgadas.
 keywords: separar valores con comas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,33 +9,33 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 04/16/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7e8e71b1c2d18f1c285ecbb4e494423fcd066723
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: de8274250de25085bc53c70e7f7d2a7f77b73f4d
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836911"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577110"
 ---
-# Instalar y montar Surface Hub 2S
+# <a name="install-and-mount-surface-hub-2s-50"></a>Instalar y montar Surface Hub 2S 50"
 
-Surface Hub 2S está diseñado para facilitar la movilidad con un factor de forma que te permite instalar y comenzar a usar el dispositivo rápidamente. Microsoft se ha asociado con Steelcase en las siguientes soluciones de montaje certificadas: soporte móvil para teléfonos móviles y montura de pared roaming. Ambos se integran completamente con el diseño de Surface Hub 2S, lo que permite un acceso no obstaculizado al cartucho de cómputo, la alimentación, USB-A, USB-C y otros puertos.
+Surface Hub 2S 50" está diseñado para facilitar la movilidad con un factor de forma que te permite instalar rápidamente y empezar a usar el dispositivo. Microsoft se ha asociado con Steelcase en las siguientes soluciones de montaje certificadas: Roam Mobile Stand y Roam Wall Mount. Ambos se integran completamente con el diseño de Surface Hub 2S 50", lo que permite un acceso sin intervención al cartucho de cálculo, la alimentación, USB-A, USB-C y otros puertos.
 
-Puedes montar Surface Hub 2S con el soporte certificado para pared o el soporte de teléfono móvil certificado, ambos desarrollados en colaboración con Steelcase. Ambos se integran completamente con el diseño de Surface Hub 2S, lo que permite un acceso no obstaculizado al cartucho de cómputo junto con todos los puertos y la alimentación de e/s. 
+Puede montar Surface Hub 2S 50" con el soporte de pared certificado o el soporte móvil certificado, ambos desarrollados en asociación con Steelcase. Ambos se integran completamente con el diseño de Surface Hub 2S 50", lo que permite un acceso sin intervención al cartucho de cálculo junto con todos los puertos de E/S y la alimentación. 
 
-Para obtener más información, consulte [accesorios de terceros oficialmente autorizados](http://licensedhardware.azurewebsites.net/surface) y consultar demostraciones de instalación desde el equipo del producto de Surface en [Steelcase y batería APC](https://youtu.be/VTzdu4Skpkg).
+Para obtener más información, consulta [Accesorios](http://licensedhardware.azurewebsites.net/surface) de terceros con licencia oficial y ver las demostraciones de instalación del equipo de producto de Surface en el stand móvil de Steelcase y la batería [de APC configurada.](https://youtu.be/VTzdu4Skpkg)
 
- ![Reborde de Surface Hub de 2 en móviles](images/sh2-mobile-stand.png)<br>
+ ![Surface Hub 2S 50" en el soporte móvil de Roam](images/sh2-mobile-stand.png)<br>
 
-Si no usa accesorios con licencia, consulte [personalizar el montaje en pared de Surface Hub 2s](surface-hub-2s-custom-install.md).
+Si no usa accesorios con licencia, vea Personalizar montaje en pared de [Surface Hub 2S 50".](surface-hub-2s-custom-install.md)
 
-| 1. **configure primero su montaje** | |
+| 1. **Configure el montaje primero** | |
 |:------ |:-------- |
-| Deje el Surface Hub en el cuadro hasta que se configure el montaje y se aplique el montaje del hardware. No se incluye el montaje. Tu montaje se vende por separado. | ![* Configura tu montaje primero *](images/sh2-setup-1.png) <br> |
-| 2. **adjunte hardware al Surface Hub** | |
-| El montaje de hardware y de instrucciones específicas se encuentra en el cuadro de montaje. | ![* Adjuntar hardware al Surface Hub *](images/sh2-setup-2.png) <br> |
+| Deje el Surface Hub en el cuadro hasta que se configure el montaje y se aplique el hardware de montaje. El montaje no está incluido. El montaje se vende por separado. | ![* Configure el montaje primero *](images/sh2-setup-1.png) <br> |
+| 2. **Adjunte hardware al Surface Hub** | |
+| El hardware de montaje y las instrucciones específicas se encuentran en la caja del montaje. | ![* Adjuntar hardware a la Surface Hub *](images/sh2-setup-2.png) <br> |
 | 3. **Quite la etiqueta de instrucciones antes de montarla.** | |
-| Obtén a alguien para que te ayude a levantar y montar tu Surface Hub. Asegúrate de mantener presionado el concentrador de superficie desde la parte inferior. | ![* Quitar la etiqueta de instrucciones antes de montar *](images/sh2-setup-3.png) <br> |
-| 4. **adjunte accesorios y encendidos** | |
-| Instala accesorios y conecta el cable de alimentación como se muestra. Vea guías en la pantalla de aferrarnos. Quitar el ajuste de aferrarnos de la pantalla. Pulsa el botón de encendido para encenderlo. | ![* Adjuntar accesorios y encender *](images/sh2-setup-4.png) <br> |
+| Obtén a alguien que te ayude a levantar y montar tu Surface Hub. Asegúrese de mantener y levantar el Surface Hub desde la parte inferior. | ![* Quite la etiqueta de instrucciones antes de montar *](images/sh2-setup-3.png) <br> |
+| 4. **Conecte los accesorios y la alimentación** | |
+| Instale los accesorios y adjunte el cable de alimentación como se muestra. Consulta guías en la pantalla. Quite el ajuste de ajuste de la pantalla. Presione el botón de encendido para encender. | ![* Conecte accesorios y alimentación *](images/sh2-setup-4.png) <br> |

@@ -10,20 +10,20 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: c5b6a083d543649eab899d2fea36327d08f8bc29
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834514"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576850"
 ---
-# Configurar el menú Inicio de Surface Hub
+# <a name="configure-surface-hub-start-menu"></a>Configurar el menú Inicio de Surface Hub
 
 La [actualización de 17 de enero de 2018 a Windows 10](https://support.microsoft.com/help/4057144) (compilación 15063.877) permite menús Inicio personalizados en dispositivos Surface Hub. Aplica el diseño del menú Inicio personalizado usando administración de dispositivos móviles (MDM).
 
 Al aplicar un diseño de menú Inicio personalizado a Surface Hub, los usuarios no pueden anclar, desanclar ni desinstalar aplicaciones desde Inicio. 
 
-## Cómo aplicar un menú Inicio personalizado a Surface Hub
+## <a name="how-to-apply-a-customized-start-menu-to-surface-hub"></a>Cómo aplicar un menú Inicio personalizado a Surface Hub
 
 El menú Inicio personalizado se define en un archivo XML de diseño de Inicio. Tienes dos opciones para crear el archivo XML de diseño de Inicio:
 
@@ -41,19 +41,23 @@ Para editar el XML predeterminado o el diseño exportado, familiarízate con el 
 Cuando tengas el menú Inicio definido en un XML de diseño de Inicio, [crea una directiva MDM para aplicar el diseño.](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
-## Diferencias entre los menús Inicio de Surface Hub y de escritorio
+
+## <a name="differences-between-surface-hub-and-desktop-start-menu"></a>Diferencias entre los menús Inicio de Surface Hub y de escritorio
 
 Existen unas pocas diferencias clave entre la personalización del menú Inicio para Surface Hub y para un escritorio de Windows 10:
 
-- No puede usar **DesktopApplicationTile** ( https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) en el formato XML de comenzar porque no se admiten las aplicaciones de escritorio de Windows (Win32) en Surface Hub.
+- No puede usar **DesktopApplicationTile** ( en el XML de diseño de inicio porque Windows aplicaciones de escritorio https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) (Win32) no se admiten en Surface Hub.
 - No puedes usar el XML de diseño de Inicio para configurar la barra de tareas o la pantalla de inicio de sesión de Surface Hub.  
+- La directiva de diseño de inicio solo debe asignarse a dispositivos, no a usuarios.
+- La configuración de OMA-URI que se va a usar en la directiva es `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - Surface Hub admite un máximo de 6 columnas (6 ventanas 1 x 1); sin embargo, **debes** definir `GroupCellWidth=8` incluso aunque Surface Hub muestre solo ventanas de pantalla en las columnas 0 - 5, y no en las columnas 6 y 7.
 - Surface Hub admite un número máximo de 6 filas (6 iconos de 1 x 1)
 - `SecondaryTile`, que se usa para vínculos, que abrirán el vínculo en Microsoft Edge.
 
 
 <span id="default" />
-## Ejemplo: Diseño de Inicio de Surface Hub predeterminado
+
+## <a name="example-default-surface-hub-start-layout"></a>Ejemplo: Diseño de Inicio de Surface Hub predeterminado
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -110,9 +114,10 @@ Existen unas pocas diferencias clave entre la personalización del menú Inicio 
 ```
 
 <span id="edge" />
-## Ejemplo: Diseño de Inicio que incluye un vínculo de Microsoft Edge
 
-Este ejemplo muestra un vínculo a un sitio web y un vínculo a un archivo .pdf. El icono secundario de Microsoft Edge usa un icono de 150 x 150 de píxel.
+## <a name="example-start-layout-that-includes-a-microsoft-edge-link"></a>Ejemplo: Diseño de Inicio que incluye un vínculo de Microsoft Edge
+
+Este ejemplo muestra un vínculo a un sitio web y un vínculo a un archivo .pdf. El icono secundario de Microsoft Edge usa un icono de 150 x 150 píxeles.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -186,4 +191,4 @@ Este ejemplo muestra un vínculo a un sitio web y un vínculo a un archivo .pdf.
 ```
 
 >[!NOTE]
->El valor predeterminado de `ForegroundText` es Light; no es necesario incluirlo `ForegroundText` en el archivo XML a menos que cambie el valor a Dark.
+>El valor predeterminado de es light; no es necesario incluirlo en el XML a menos que cambie el `ForegroundText` `ForegroundText` valor a oscuro.

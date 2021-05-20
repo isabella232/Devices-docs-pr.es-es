@@ -11,18 +11,18 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 524d207ec1c117fb81d26ee233ea382ccb8d71d9
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 2403c57f88b0e14209b77b9f666141694384868d
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836682"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577040"
 ---
-# Administración local para la configuración de Surface Hub
+# <a name="local-management-for-surface-hub-settings"></a>Administración local para la configuración de Surface Hub
 
 Tras la configuración inicial de Microsoft Surface Hub, la configuración del dispositivo se puede administrar localmente mediante **Configuración**.
 
-## Configuración de Surface Hub
+## <a name="surface-hub-settings"></a>Configuración de Surface Hub
 
 Los Surface Hubs tienen muchas opciones que son comunes a otros dispositivos Windows, pero también tienen opciones de configuración que solo se pueden configurar en los Surface Hubs. En esta tabla se enumeran las opciones de configuración que solo son configurables en los Surface Hubs. 
 
@@ -45,20 +45,19 @@ Los Surface Hubs tienen muchas opciones que son comunes a otros dispositivos Win
 | Canal de proyección inalámbrica (Miracast) | Surface Hub > Proyección | Establecer el canal para la proyección de Miracast. |
 | Información de la reunión que se muestra en la pantalla de inicio de sesión | Surface Hub > Pantalla de inicio de sesión | Elegir si el organizador de la reunión, la hora y el asunto se mostrarán en la pantalla de inicio de sesión. |
 | Fondo de pantalla de inicio de sesión |  Surface Hub > Pantalla de inicio de sesión | Elegir una imagen de fondo para la pantalla de inicio de sesión. |
-| Pantalla de bienvenida de tiempo de espera de sesión | > de & de la sesión de Surface Hub | Elegir cuánto tiempo hasta que Surface Hub vuelve a la pantalla de inicio después de que no se detecte ningún movimiento. |
-| Reanudar la sesión | > de & de la sesión de Surface Hub | Elegir si se debe permitir que los usuarios reanuden la sesión después de que no se detecté ningún movimiento o limpiar automáticamente una sesión. |
-| Acceso a archivos y reuniones de Office 365 | > de & de la sesión de Surface Hub | Elige si un usuario puede iniciar sesión en Office 365 para acceder a sus reuniones y archivos. |
-| Activar la pantalla con sensores de movimiento | > de & de la sesión de Surface Hub | Elegir si la pantalla se activa cuando se detecte movimiento. |
-| Tiempo de espera en pantalla | > de & de la sesión de Surface Hub | Elige cuánto tiempo debe estar inactivo el dispositivo antes de apagar la pantalla. |
-| Tiempo de espera de suspensión | > de & de la sesión de Surface Hub | Elegir cuánto tiempo el dispositivo debe estar inactivo antes de pasar al modo de suspensión. |
+| Tiempo de espera de sesión a la pantalla de bienvenida | Surface Hub > de & sesión | Elegir cuánto tiempo hasta que Surface Hub vuelve a la pantalla de inicio después de que no se detecte ningún movimiento. |
+| Reanudar la sesión | Surface Hub > de & sesión | Elegir si se debe permitir que los usuarios reanuden la sesión después de que no se detecté ningún movimiento o limpiar automáticamente una sesión. |
+| Acceso a archivos y reuniones de Office 365 | Surface Hub > de & sesión | Elige si un usuario puede iniciar sesión en Office 365 para acceder a sus reuniones y archivos. |
+| Activar la pantalla con sensores de movimiento | Surface Hub > de & sesión | Elegir si la pantalla se activa cuando se detecte movimiento. |
+| Tiempo de espera de pantalla | Surface Hub > de & sesión | Elige cuánto tiempo debe estar inactivo el dispositivo antes de desactivar la pantalla. |
+| Tiempo de espera de suspensión | Surface Hub > de & sesión | Elegir cuánto tiempo el dispositivo debe estar inactivo antes de pasar al modo de suspensión. |
 | Nombre descriptivo | Surface Hub > Acerca de | Establecer el nombre del Surface Hub que los contactos verán al conectarse de forma inalámbrica. |
 | Horas de mantenimiento | Actualización y seguridad > Windows Update > Opciones avanzadas | Configurar cuando se pueden instalar actualizaciones. |
-| Configurar el servidor de Windows Server Update Services (WSUS) | Actualización y seguridad > Windows Update > Opciones avanzadas | Cambiar si el Surface Hub recibe actualizaciones desde un servidor WSUS en lugar de Windows Update. |
 | Recuperar desde la nube | Actualización y seguridad > Recuperación | Reinstalar el sistema operativo en Surface Hub a una compilación del fabricante desde la nube. |
 | Guardar la clave de BitLocker | Actualización y seguridad > Recuperación | Hacer copia de seguridad de la clave de BitLocker de tu Surface Hub en una unidad USB. |
 | Recopilar registros | Actualización y seguridad > Recuperación | Guardar los registros en una unidad USB para enviar a Microsoft más adelante. | 
 
-## Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
 
 [Administrar la configuración de Surface Hub](manage-surface-hub-settings.md)
 

@@ -12,21 +12,21 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/16/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: ecbeca9f0910f1fa1ff2721bcf1b745195552ca2
-ms.sourcegitcommit: f74253629aaf073b35b1af69439f76e63392c5aa
+ms.openlocfilehash: 5e0714d284cc5c8207633719ec8fb52cec9f95cb
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "11103804"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576990"
 ---
-# Crear paquetes de aprovisionamiento (Surface Hub)
+# <a name="create-provisioning-packages-surface-hub"></a>Crear paquetes de aprovisionamiento (Surface Hub)
 
 En este tema se describe cómo crear un paquete de aprovisionamiento con el Diseñador de configuraciones de Windows y aplicarlo a dispositivos Surface Hub. En el caso de Surface Hub, puedes usar paquetes de aprovisionamiento para agregar certificados, instalar aplicaciones para la Plataforma universal de Windows (UWP), así como personalizar directivas y la configuración.
 
 Puedes aplicar un paquete de aprovisionamiento con un stick USB durante la configuración de la primera ejecución o con la aplicación **Configuración**. 
 
 
-## Ventajas
+## <a name="advantages"></a>Ventajas
 -   Configuración rápida de dispositivos sin tener que usar un proveedor de administración de dispositivos móviles (MDM).
 
 -   No se necesita conectividad de red.
@@ -36,7 +36,7 @@ Puedes aplicar un paquete de aprovisionamiento con un stick USB durante la confi
 [Más información sobre las ventajas y los usos de los paquetes de aprovisionamiento.](https://technet.microsoft.com/itpro/windows/configure/provisioning-packages)
 
 
-## Requisitos 
+## <a name="requirements"></a>Requisitos 
 
 Para crear y aplicar un paquete de aprovisionamiento en un dispositivo Surface Hub, necesitarás lo siguiente:
 
@@ -47,7 +47,7 @@ Para crear y aplicar un paquete de aprovisionamiento en un dispositivo Surface H
 El paquete de aprovisionamiento se crea en un equipo que ejecuta Windows10, se guarda en una unidad USB y luego se implementa en el dispositivo Surface Hub.
 
 
-## Elementos admitidos para paquetes de aprovisionamiento de Surface Hub
+## <a name="supported-items-for-surface-hub-provisioning-packages"></a>Elementos admitidos para paquetes de aprovisionamiento de Surface Hub
 
 Con el asistente **Aprovisionar dispositivos Surface Hub**, puedes:
 
@@ -70,11 +70,11 @@ Con el editor de aprovisionamiento avanzado puedes agregar estos elementos a paq
 >
 >![abrir el editor avanzado](images/icd-simple-edit.png)
 
-## Usar al asistente para aprovisionar Surface Hub
+## <a name="use-the-surface-hub-provisioning-wizard"></a>Usar al asistente para aprovisionar Surface Hub
 
 Tras [instalar el Diseñador de configuraciones de Windows](https://technet.microsoft.com/itpro/windows/configure/provisioning-install-icd), puedes crear un paquete de aprovisionamiento.
 
-### Crear un paquete de aprovisionamiento 
+### <a name="create-the-provisioning-package"></a>Crear un paquete de aprovisionamiento 
 
 1. Abre el Diseñador de configuraciones de Windows:
    - En la pantalla Inicio o el panel de búsqueda del menú Inicio, escribe "Diseñador de configuraciones de Windows" y haz clic en el acceso directo a Diseñador de configuraciones de Windows. 
@@ -87,21 +87,21 @@ Tras [instalar el Diseñador de configuraciones de Windows](https://technet.micr
 
 3. Asigna un nombre al proyecto y haz clic en **Siguiente**.
 
-### Definir configuración
+### <a name="configure-settings"></a>Definir configuración
 
 <table>
 <tr><td style="width:45%" valign="top"><img src="images/one.png" alt="step one"/> <img src="images/add-certificates.png" alt="add certificates"/></br></br>Para aprovisionar el dispositivo con un certificado, haz clic en <strong>Agregar un certificado</strong>. Escribe un nombre de certificado y luego busca y selecciona el certificado que quieres usar.</td><td><img src="images/add-certificates-details.png" alt="add a certificate"/></td></tr> 
-<tr><td style="width:45%" valign="top"><img src="images/two.png" alt="step two"/>  <img src="images/proxy.png" alt="configure proxy settings"/></br></br>Alterna <strong>Sí</strong> o <strong>No</strong> para la configuración de proxy. La configuración predeterminada para Surface Hub es detectar automáticamente la configuración de proxy, por lo que puedes seleccionar <strong>No</strong> si es la configuración que quieres. Sin embargo, si anteriormente tu infraestructura requería el uso de un servidor proxy y ahora ha cambiado y ya no lo requiere, puedes usar un paquete de aprovisionamiento para revertir los dispositivos Surface Hub a la configuración predeterminada seleccionando <strong>Sí</strong> y <strong>Detectar la configuración automáticamente</strong>. </br></br>Si cambias a <strong>Sí</strong>, puedes seleccionar la detección automática de la configuración de proxy o puedes configurar manualmente la configuración escribiendo una dirección URL para un script de configuración o una dirección estática de servidor proxy. También puedes identificar si quieres usar el servidor proxy para direcciones locales y escribir excepciones (direcciones a las que Surface Hub se debe conectar directamente, sin usar el servidor proxy).  </td><td><img src="images/proxy-details.png" alt="configure proxy settings"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/three.png" alt="step three"/>  <img src="images/set-up-device-admins.png" alt="device admins"/></br></br>Puedes inscribir el dispositivo en Active Directory y especificar un grupo de seguridad para que use la aplicación Configuración, inscribirlo en Azure Active Directory para permitir que los administradores globales usen la aplicación Configuración o crear una cuenta de administrador local en el dispositivo.</br></br>Para inscribir el dispositivo en Active Directory, escribe las credenciales de una cuenta de usuario con privilegios mínimos para unir el equipo al dominio y especifica que el grupo de seguridad tenga credenciales de administrador en Surface Hub. Si un paquete de aprovisionamiento que inscribe un dispositivo en Active Directory se va a aplicar a un Surface Hub que se ha restablecido, solo se puede usar la misma cuenta de dominio si la cuenta es un administrador de dominio o es la misma cuenta que ha configurado Surface Hub inicialmente. De lo contrario, se tiene que usar una cuenta de dominio diferente en el paquete de aprovisionamiento.</br></br>Antes de usar un asistente del Diseñador de configuraciones de Windows para configurar la inscripción masiva en AzureAD, <a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">configura la unión a Azure AD en la organización</a>. La opción <strong>Número máximo de dispositivos por usuario</strong> del inquilino de Azure AD determina cuántas veces se puede usar el token masivo que se obtiene en el asistente. Para inscribir el dispositivo en Azure AD, selecciona esa opción y escribe un nombre descriptivo para el token masivo que obtendrás mediante el asistente. Establece una fecha de expiración del token (el máximo es de 30 días a partir de la fecha de obtención del token). Haz clic en <strong>Get bulk token</strong>. En la <strong> ventana ¿permitir que&#39;s inicie sesión? </strong> , escriba una cuenta que tenga permisos para unirse a un dispositivo a Azure ad y, a continuación, la contraseña. Haz clic en <strong>Aceptar</strong> para dar al Diseñador de configuraciones de Windows los permisos necesarios.</br></br>Para crear una cuenta de administrador local, selecciona esa opción y escribe un nombre de usuario y una contraseña. </br></br><strong>Importante:</strong> Si creas una cuenta local en el paquete de aprovisionamiento, debes cambiar la contraseña con la aplicación <strong>Configuración</strong> cada 42 días. Si la contraseña no se cambia en ese período, es posible que se bloquee y no se pueda iniciar sesión.  </td><td><img src="images/set-up-device-admins-details.png" alt="join Active Directory, Azure AD, or create a local admin account"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/four.png" alt="step four"/> <img src="images/enroll-mdm.png" alt="enroll in device management"/></br></br>Alterna <strong>Sí</strong> o <strong>No</strong> para la inscripción en MDM. </br></br>Si cambias a <strong>Sí</strong>, tienes que proporcionar una cuenta y contraseña del servicio o la huella digital del certificado autorizado para inscribir el dispositivo, además de especificar el tipo de autenticación. Si tu proveedor MDM lo requiere, también tendrás que escribir las direcciones URL para el servicio de detección, el servicio de inscripción y el servicio de directivas. <a href="manage-settings-with-mdm-for-surface-hub.md" data-raw-source="[Learn more about managing Surface Hub with MDM.](manage-settings-with-mdm-for-surface-hub.md)">Obtén más información sobre cómo administrar Surface Hub con MDM.</a></td><td><img src="images/enroll-mdm-details.png" alt="enroll in mobile device management"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/five.png" alt="step five"/> <img src="images/add-applications.png" alt="add applications"/></br></br>Puedes instalar varias aplicaciones para la Plataforma universal de Windows (UWP) en un paquete de aprovisionamiento. Para ayuda con la configuración, consulta <a href="https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps" data-raw-source="[Provision PCs with apps](https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps)">Aprovisionar equipos con aplicaciones</a>. </br></br><strong>Importante: </strong> aunque la interfaz del asistente le permite seleccionar una aplicación Win32 clásica, incluya solo las aplicaciones para UWP en un paquete de aprovisionamiento que se aplicará a Surface Hub. Si incluyes una aplicación Win32 clásica, el aprovisionamiento fallará. </td><td><img src="images/add-applications-details.png" alt="add an application"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>No&#39;configurar ninguna de las opciones de este paso. Proporciona instrucciones para incluir un archivo de configuración que contiene una lista de cuentas del dispositivo. El archivo de configuración no debe contener encabezados de columna. Cuando se aplica el paquete de aprovisionamiento a Surface Hub, si se ha incluido un archivo de configuración de Surface Hub en la unidad USB, puedes seleccionar la cuenta y el nombre descriptivo para el dispositivo en el archivo. Consulta <a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">Archivo de configuración de ejemplo</a> para ver un ejemplo.</br></br><strong>Importante: </strong> el archivo de configuración solo se puede aplicar durante la experiencia de configuración rápida (OOBE) y solo se puede usar con paquetes de aprovisionamiento creados con el diseñador de configuración de Windows con Windows 10, versión 1703.  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
-<tr><td style="width:45%" valign="top">  <img src="images/finish.png" alt="finish"/></br></br>Puedes establecer una contraseña para proteger el paquete de aprovisionamiento. Debes escribir esta contraseña cuando apliques el paquete de aprovisionamiento a un dispositivo.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/two.png" alt="step two"/>  <img src="images/proxy.png" alt="configure proxy settings"/></br></br>Alterna <strong>Sí</strong> o <strong>No</strong> para la configuración de proxy. La configuración predeterminada para Surface Hub es detectar automáticamente la configuración de proxy, por lo que puedes seleccionar <strong>No</strong> si es la configuración que quieres. Sin embargo, si anteriormente tu infraestructura requería el uso de un servidor proxy y ahora ha cambiado y ya no lo requiere, puedes usar un paquete de aprovisionamiento para revertir los dispositivos Surface Hub a la configuración predeterminada seleccionando <strong>Sí</strong> y <strong>Detectar la configuración automáticamente</strong>. </br></br>Si cambias a <strong>Sí</strong>, puedes seleccionar la detección automática de la configuración de proxy o puedes configurar manualmente la configuración escribiendo una dirección URL para un script de configuración o una dirección estática de servidor proxy. También puedes identificar si quieres usar el servidor proxy para direcciones locales y escribir excepciones (direcciones a las que Surface Hub se debe conectar directamente, sin usar el servidor proxy).  </td><td><img src="images/proxy-details.png" alt="proxy configuration details"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/three.png" alt="step three"/>  <img src="images/set-up-device-admins.png" alt="device admins"/></br></br>Puedes inscribir el dispositivo en Active Directory y especificar un grupo de seguridad para que use la aplicación Configuración, inscribirlo en Azure Active Directory para permitir que los administradores globales usen la aplicación Configuración o crear una cuenta de administrador local en el dispositivo.</br></br>Para inscribir el dispositivo en Active Directory, escribe las credenciales de una cuenta de usuario con privilegios mínimos para unir el equipo al dominio y especifica que el grupo de seguridad tenga credenciales de administrador en Surface Hub. Si un paquete de aprovisionamiento que inscribe un dispositivo en Active Directory se va a aplicar a un Surface Hub que se ha restablecido, solo se puede usar la misma cuenta de dominio si la cuenta es un administrador de dominio o es la misma cuenta que ha configurado Surface Hub inicialmente. De lo contrario, se tiene que usar una cuenta de dominio diferente en el paquete de aprovisionamiento.</br></br>Antes de usar un asistente del Diseñador de configuraciones de Windows para configurar la inscripción masiva en AzureAD, <a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">configura la unión a Azure AD en la organización</a>. La opción <strong>Número máximo de dispositivos por usuario</strong> del inquilino de Azure AD determina cuántas veces se puede usar el token masivo que se obtiene en el asistente. Para inscribir el dispositivo en Azure AD, selecciona esa opción y escribe un nombre descriptivo para el token masivo que obtendrás mediante el asistente. Establece una fecha de expiración del token (el máximo es de 30 días a partir de la fecha de obtención del token). Haz clic en <strong>Get bulk token</strong>. En la ventana Permitir&#39;sesión, escriba una cuenta que tenga permisos para unir un dispositivo <strong> a Azure AD y, a continuación, </strong> la contraseña. Haz clic en <strong>Aceptar</strong> para dar al Diseñador de configuraciones de Windows los permisos necesarios.</br></br>Para crear una cuenta de administrador local, selecciona esa opción y escribe un nombre de usuario y una contraseña. </br></br><strong>Importante:</strong> Si creas una cuenta local en el paquete de aprovisionamiento, debes cambiar la contraseña con la aplicación <strong>Configuración</strong> cada 42 días. Si la contraseña no se cambia en ese período, es posible que se bloquee y no se pueda iniciar sesión.  </td><td><img src="images/set-up-device-admins-details.png" alt="join Active Directory, Azure AD, or create a local admin account"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/four.png" alt="step four"/> <img src="images/enroll-mdm.png" alt="enroll in device management"/></br></br>Usa esta sección para inscribirte en proveedores de MDM además de Intune. Para la inscripción de Intune, use La unión de Azure AD en la sección anterior con <a href="https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment" data-raw-source="[automatic Intune enrollment](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)"> la inscripción automática de Intune </a> .</br></br>Alterna <strong>Sí</strong> o <strong>No</strong> para la inscripción en MDM. </br></br>Si cambias a <strong>Sí</strong>, tienes que proporcionar una cuenta y contraseña del servicio o la huella digital del certificado autorizado para inscribir el dispositivo, además de especificar el tipo de autenticación. Si tu proveedor MDM lo requiere, también tendrás que escribir las direcciones URL para el servicio de detección, el servicio de inscripción y el servicio de directivas. <a href="manage-settings-with-mdm-for-surface-hub.md" data-raw-source="[Learn more about managing Surface Hub with MDM.](manage-settings-with-mdm-for-surface-hub.md)">Obtén más información sobre cómo administrar Surface Hub con MDM.</a></td><td><img src="images/enroll-mdm-details.png" alt="enroll in mobile device management"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/five.png" alt="step five"/> <img src="images/add-applications.png" alt="add applications"/></br></br>Puedes instalar varias aplicaciones para la Plataforma universal de Windows (UWP) en un paquete de aprovisionamiento. Para ayuda con la configuración, consulta <a href="https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps" data-raw-source="[Provision PCs with apps](https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps)">Aprovisionar equipos con aplicaciones</a>. </br></br><strong>Importante: Aunque la interfaz del asistente te permite seleccionar una aplicación Win32 clásica, solo incluye aplicaciones para UWP en un paquete de aprovisionamiento que se aplicará </strong> a Surface Hub. Si incluyes una aplicación Win32 clásica, el aprovisionamiento fallará. </td><td><img src="images/add-applications-details.png" alt="add an application"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>No puede&#39;ninguna configuración en este paso. Proporciona instrucciones para incluir un archivo de configuración que contiene una lista de cuentas del dispositivo. El archivo de configuración no debe contener encabezados de columna. Cuando se aplica el paquete de aprovisionamiento a Surface Hub, si se ha incluido un archivo de configuración de Surface Hub en la unidad USB, puedes seleccionar la cuenta y el nombre descriptivo para el dispositivo en el archivo. Consulta <a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">Archivo de configuración de ejemplo</a> para ver un ejemplo.</br></br><strong>Importante: El archivo de configuración solo se puede aplicar durante la experiencia de configuración lista para usar (OOBE) y solo se puede usar con paquetes de aprovisionamiento creados con el Diseñador de configuraciones de Windows publicado con Windows 10, versión </strong> 1703.  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
+<tr><td style="width:45%" valign="top">  <img src="images/finish.png" alt="finish creating your package"/></br></br>Puedes establecer una contraseña para proteger el paquete de aprovisionamiento. Debes escribir esta contraseña cuando apliques el paquete de aprovisionamiento a un dispositivo.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
 </table>
 
 Cuando haya terminado, haz clic en **Crear**. El proceso solo tarda unos pocos segundos. Cuando se genera el paquete, la ubicación donde se almacena el paquete se muestra como un hipervínculo en la parte inferior de la página.
 
-## Archivo de configuración de ejemplo
+## <a name="sample-configuration-file"></a>Archivo de configuración de ejemplo
 
 Un archivo de configuración de Surface Hub contiene una lista de cuentas de dispositivo que tu dispositivo puede usar para conectarse a Exchange y Skype Empresarial. Al aplicar un paquete de aprovisionamiento a Surface Hub, puedes incluir un archivo de configuración en el directorio raíz de la unidad flash USB y, a continuación, seleccionar la cuenta que quieres aplicar a ese dispositivo. El archivo de configuración solo puede aplicarse durante la configuración rápida (OOBE) y solo puede usarse con paquetes de aprovisionamiento creados con el Diseñador de configuraciones de Windows publicado con Windows 10, versión 1703.
 
@@ -139,11 +139,11 @@ StHelens@contoso.com,password,St Helens Surface Hub
 Rushmore@contoso.com,password,Rushmore Surface Hub
 ```
 
-## Usar aprovisionamiento avanzado
+## <a name="use-advanced-provisioning"></a>Usar aprovisionamiento avanzado
 
 Tras [instalar el Diseñador de configuraciones de Windows](https://technet.microsoft.com/itpro/windows/configure/provisioning-install-icd), puedes crear un paquete de aprovisionamiento.
 
-### Crear el paquete de aprovisionamiento (avanzado)
+### <a name="create-the-provisioning-package-advanced"></a>Crear el paquete de aprovisionamiento (avanzado)
 
 1. Abre el Diseñador de configuraciones de Windows:
    - En la pantalla Inicio o el panel de búsqueda del menú Inicio, escribe "Diseñador de configuraciones de Windows" y haz clic en el acceso directo a Diseñador de configuraciones de Windows. 
@@ -156,24 +156,26 @@ Tras [instalar el Diseñador de configuraciones de Windows](https://technet.micr
    
 3. Asigna un nombre al proyecto y haz clic en **Siguiente**.
 
-4. Seleccione **común para equipo con Windows 10**, haga clic en **siguiente**y, a continuación, haga clic en **Finalizar**.
+4. Seleccione **Común para Windows 10 Team**, haga clic en **Siguiente**y, a continuación, haga clic en **Finalizar**.
 
     ![Proyecto nuevo de ICD](images/icd-new-project.png)
 
-5. En el proyecto, en **personalizaciones disponibles**, seleccione **configuración común del equipo**.
+5. En el proyecto, en **Personalizaciones disponibles,** seleccione **Configuración común del equipo**.
 
     ![Configuración común de ICD](images/icd-common-settings.png)
 
 
-### Agregar un certificado al paquete
+### <a name="add-a-certificate-to-your-package"></a>Agregar un certificado al paquete
 Puedes usar paquetes de aprovisionamiento para instalar certificados que permitirán que el dispositivo se autentique en MicrosoftExchange.
 
 > [!NOTE]
-> Los paquetes de aprovisionamiento solo pueden instalar certificados en el almacén de dispositivo (máquina local), pero no en el almacén del usuario. Si la organización necesita que los certificados se instalen en el almacén de usuario, usa Administración de dispositivos móviles (MDM) para implementar estos certificados. Consulta la documentación de la solución MDM para obtener más información.
+> Los paquetes de aprovisionamiento solo pueden instalar certificados en el almacén de dispositivo (máquina local), pero no en el almacén del usuario. Si su organización requiere que los certificados se instalen **** en el almacén de usuarios, puede usar el botón Importar certificado en la sección Actualizar certificados de seguridad **de &** de la aplicación de Configuración  >  **** hub. **** Como alternativa, las directivas de administración de dispositivos móviles [(MDM)](manage-settings-with-mdm-for-surface-hub.md) se pueden usar para implementar certificados en el almacén de dispositivos o en el almacén de usuarios.
 
-1. En el panel **Personalizaciones disponibles**, ve a **Configuración de tiempo de ejecución** > **Certificados** > **ClientCertificates**. 
+1. En el panel **Personalizaciones disponibles**, ve a **Configuración de tiempo de ejecución** > **Certificados** > **ClientCertificates**.
+   > [!NOTE]
+   > La **sección ClientCertificates** es para los archivos .pfx con una clave privada; los archivos .cer para las CA raíz deben colocarse en la sección **RootCertificates** y para las CA intermedias en la **sección CACertificates.**
 
-2. Escribe el **CertificateName** y después haz clic en **Agregar**. 
+2. Escriba una etiqueta para **CertificateName** y, a continuación, haga clic **en Agregar**. 
 
 2. Escribe el valor **CertificatePassword**. 
 
@@ -184,12 +186,12 @@ Puedes usar paquetes de aprovisionamiento para instalar certificados que permiti
 5. Para el objeto **KeyLocation**, selecciona **Software solo**.
 
 
-### Agregar una aplicación para Plataforma universal de Windows (UWP) al paquete
+### <a name="add-a-universal-windows-platform-uwp-app-to-your-package"></a>Agregar una aplicación para Plataforma universal de Windows (UWP) al paquete
 Antes de agregar una aplicación para UWP a un paquete de aprovisionamiento, necesitas el paquete de la aplicación (un archivo .appx o .appxbundle) y los archivos de dependencia. Si adquiriste la aplicación en la Microsoft Store para Empresas, también necesitarás la licencia de la aplicación *sin codificar*. Consulta [Distribuir aplicaciones sin conexión](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app) para conocer cómo descargar estos elementos de la Microsoft Store para Empresas.
 
 1. En el panel **Personalizaciones disponibles**, ve a **Configuración de tiempo de ejecución** > **UniversalAppInstall** > **DeviceContextApp**.
 
-2. Especifica un valor **PackageFamilyName** para la aplicación y luego haz clic en **Agregar**. Por motivos de coherencia, usa el nombre de familia de paquete de la aplicación. Si adquiriste la aplicación en la Microsoft Store para Empresas, puedes encontrar el nombre de familia de paquete en la licencia de la aplicación. Abra el archivo de licencia con un editor de texto y use el valor entre las \<PFM\> etiquetas... \</PFM\> .
+2. Especifica un valor **PackageFamilyName** para la aplicación y luego haz clic en **Agregar**. Por motivos de coherencia, usa el nombre de familia de paquete de la aplicación. Si adquiriste la aplicación en la Microsoft Store para Empresas, puedes encontrar el nombre de familia de paquete en la licencia de la aplicación. Abra el archivo de licencia con un editor de texto y use el valor entre \<PFM\> las \</PFM\> etiquetas ... .
 
 3. Para **ApplicationFile**, haz clic en **Examinar** para buscar y seleccionar la aplicación de destino (\*.appx o \*.appxbundle).
 
@@ -201,12 +203,12 @@ Si adquiriste la aplicación en la Microsoft Store para Empresas, tienes que agr
 
 2. En ICD, en el panel **Personalizaciones disponibles**, ve a **Configuración de tiempo de ejecución** > **UniversalAppInstall** > **DeviceContextAppLicense**.
 
-3. Especifica un valor **LicenseProductId** y después haz clic en **Agregar**. Por motivos de coherencia, usa el identificador de licencia de aplicación de la licencia de la aplicación. Abre el archivo de licencia con un editor de texto. A continuación, en la \<License\> etiqueta, usa el valor del atributo **LicenseID** .
+3. Especifica un valor **LicenseProductId** y después haz clic en **Agregar**. Por motivos de coherencia, usa el identificador de licencia de aplicación de la licencia de la aplicación. Abre el archivo de licencia con un editor de texto. A continuación, \<License\> en la etiqueta, use el valor del **atributo LicenseID.**
 
 4. Selecciona el nuevo nodo **LicenseProductId**. Para el elemento **LicenseInstall**, haz clic en **Examinar** para buscar y seleccionar el archivo de licencia al que cambiaste el nombre en el paso 1.
 
 
-### Agregar una directiva al paquete
+### <a name="add-a-policy-to-your-package"></a>Agregar una directiva al paquete
 Surface Hub admite un subconjunto de directivas incluidas en el [Proveedor de servicios de configuración de directivas](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx). Algunas de estas directivas pueden configurarse con ICD.
 
 1. En el panel **Personalizaciones disponibles**, ve a **Configuración de tiempo de ejecución** > **Directivas**.
@@ -216,18 +218,18 @@ Surface Hub admite un subconjunto de directivas incluidas en el [Proveedor de se
 3. Selecciona y establece la directiva que quieras agregar al paquete de aprovisionamiento.
 
 
-### Agregar valores de configuración de Surface Hub al paquete 
+### <a name="add-surface-hub-settings-to-your-package"></a>Agregar valores de configuración de Surface Hub al paquete 
 
 Puedes agregar valores de configuración del [Proveedor de servicios de configuración de SurfaceHub](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx) al paquete de aprovisionamiento. 
 
-1. En el panel **personalizaciones disponibles** , vaya a **configuración del tiempo de ejecución**  >  **SurfaceHub**.
+1. En el **panel Personalizaciones disponibles,** ve a **Configuración de tiempo de ejecución**  >  **SurfaceHub**.
 
 2. Selecciona una de las áreas de configuración disponibles.
 
 3. Selecciona y establece la configuración que quieras agregar al paquete de aprovisionamiento. 
 
 
-## Compilar el paquete
+## <a name="build-your-package"></a>Compilar el paquete
 
 1. Cuando hayas terminado de configurar el paquete de aprovisionamiento, en el menú **Archivo**, haz clic en **Guardar**.
 
@@ -252,7 +254,7 @@ Puedes agregar valores de configuración del [Proveedor de servicios de configur
     -   **Habilitar la firma del paquete**: si seleccionas esta opción, debes seleccionar un certificado válido que se usará para firmar el paquete. Para especificar el certificado, haz clic en **Examinar...** y elige el certificado que quieras usar para firmar el paquete.
 
         > [!IMPORTANT]
-        > Te recomendamos incluir un certificado de aprovisionamiento de confianza en el paquete de aprovisionamiento. Cuando el paquete se aplica a un dispositivo, el certificado se agrega al almacén del sistema y cualquier paquete firmado con dicho certificado podrá aplicarse de forma silenciosa de ahí en adelante. 
+        > Te recomendamos incluir un certificado de aprovisionamiento de confianza en el paquete de aprovisionamiento. Cuando el paquete se aplica a un dispositivo, el certificado se agrega al almacén del sistema y cualquier paquete firmado con dicho certificado podrá aplicarse de forma silenciosa de ahí en adelante. 
 
 7. Haz clic en **Siguiente** para especificar la ubicación de salida donde quieras ubicar el paquete de aprovisionamiento una vez compilado. De forma predeterminada, Windows ICD usa la carpeta de proyecto como la ubicación de salida.<p>
 También puedes hacer clic en **Examinar** para cambiar la ubicación de salida predeterminada.
@@ -272,15 +274,15 @@ Si la compilación es correcta, se mostrará el nombre del paquete de aprovision
 11. Selecciona el vínculo **Ubicación del resultado** para ir a la ubicación del paquete. Copia el archivo .ppkg a una unidad flash USB.
 
 
-## Aplicar un paquete de aprovisionamiento a un dispositivo Surface Hub
+## <a name="apply-a-provisioning-package-to-surface-hub"></a>Aplicar un paquete de aprovisionamiento a un dispositivo Surface Hub
 
-Existen dos opciones para implementar paquetes de aprovisionamiento en un Surface Hub. [Durante el primer Asistente de ejecución](#apply-a-provisioning-package-during-first-run), puede aplicar un paquete de aprovisionamiento que instale certificados o, una vez completado el programa de primera ejecución, puede aplicar un paquete de aprovisionamiento que configure las opciones de configuración, las aplicaciones y los certificados con la [configuración](#apply-a-package-using-settings). 
+Existen dos opciones para implementar paquetes de aprovisionamiento en un Surface Hub. [Durante](#apply-a-provisioning-package-during-first-run)el asistente para la primera ejecución, puede aplicar un paquete de aprovisionamiento que instale certificados o, una vez completado el programa de primera ejecución, puede aplicar un paquete de aprovisionamiento que configure la configuración, las aplicaciones y los certificados [mediante Configuración](#apply-a-package-using-settings). 
 
 
-### Aplicar un paquete de aprovisionamiento durante la primera ejecución
+### <a name="apply-a-provisioning-package-during-first-run"></a>Aplicar un paquete de aprovisionamiento durante la primera ejecución
 
 > [!IMPORTANT]
-> Durante el primer programa de ejecución, solo puede usar paquetes de aprovisionamiento para instalar certificados. Usa la aplicación **Configuración** para instalar aplicaciones y aplicar otras configuraciones.
+> Durante el programa de primera ejecución, solo puede usar paquetes de aprovisionamiento para instalar certificados. Usa la aplicación **Configuración** para instalar aplicaciones y aplicar otras configuraciones.
 
 1. Cuando actives el dispositivo Surface Hub por primera vez, el programa de primera ejecución mostrará la [**página de bienvenida**](first-run-program-surface-hub.md#first-page). Asegúrate de que las opciones de configuración se hayan configurado correctamente antes de continuar.
 
@@ -310,7 +312,7 @@ Existen dos opciones para implementar paquetes de aprovisionamiento en un Surfac
     
 La configuración del paquete de aprovisionamiento se aplicará al dispositivo y se completará la configuración rápida. Una vez reiniciado el dispositivo, puedes quitar la unidad flash USB.
 
-### Aplicar un paquete mediante la aplicación Configuración
+### <a name="apply-a-package-using-settings"></a>Aplicar un paquete mediante la aplicación Configuración
 
 1. Inserta la unidad flash USB que contiene el archivo .ppkg en el Surface Hub.
 

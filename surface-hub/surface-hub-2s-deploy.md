@@ -1,6 +1,6 @@
 ---
 title: Crear paquetes de aprovisionamiento para Surface Hub 2S
-description: Esta página describe cómo implementar Surface Hub 2S con paquetes de aprovisionamiento y otras herramientas.
+description: En esta página se describe cómo implementar Surface Hub 2S mediante paquetes de aprovisionamiento y otras herramientas.
 keywords: separar valores con comas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,60 +11,68 @@ audience: Admin
 ms.topic: article
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 8f91b751a10977d80210d10ac1b48a93d9ba0f6f
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 214a71a759358ae08eb0da7942ea190946deb327
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10836941"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576870"
 ---
-# Crear paquetes de aprovisionamiento para Surface Hub 2S
+# <a name="create-provisioning-packages-for-surface-hub-2s"></a>Crear paquetes de aprovisionamiento para Surface Hub 2S
 
-Puede usar el diseñador de configuración de Windows (WCD) para crear paquetes de aprovisionamiento para automatizar el proceso de implementación de Surface Hub 2S. Use paquetes de aprovisionamiento para agregar certificados, configurar servidores proxy, configurar cuentas de dispositivos y administradores de dispositivos. También puede usar paquetes de aprovisionamiento junto con un archivo de configuración para implementar varios Surface Hub con una sola unidad USB.
+Puede usar Windows Configuration Designer (WCD) para crear paquetes de aprovisionamiento para automatizar la implementación de Surface Hub 2S. Usa paquetes de aprovisionamiento para agregar certificados, configurar servidores proxy, configurar administradores de dispositivos y cuentas de dispositivo. También puedes usar paquetes de aprovisionamiento junto con un archivo de configuración para implementar varios Surface Hubs con una única unidad usb.
 
-### Instalar el Diseñador de configuraciones de Windows
+### <a name="install-windows-configuration-designer"></a>Instalar el Diseñador de configuraciones de Windows
 
-Instale el diseñador de configuración de Windows desde Windows Assessment and Deployment Kit (ADK) para Windows 10. Descargue e instale [ADK para Windows 10, versión 1703](https://go.microsoft.com/fwlink/p/?LinkId=845542). Para obtener más información, consulte [Descargar e instalar Windows ADK](https://docs.microsoft.com/windows-hardware/get-started/adk-install).
+Instale Windows de configuración desde el kit de evaluación Windows e implementación (ADK) para Windows 10. Descargue e instale [el ADK para Windows 10, versión 1703](https://go.microsoft.com/fwlink/p/?LinkId=845542). Para obtener más información, consulte [Descargar e instalar Windows ADK](https://docs.microsoft.com/windows-hardware/get-started/adk-install).
 
-### Agregar certificados
+### <a name="add-certificates"></a>Agregar certificados
 
 Puede importar certificados de entidad de certificación a Surface Hub 2S.
-Para agregar certificados a Surface Hub 2S, necesita una copia de cada certificado como X. 509 en formato. cer. No puedes importar. CRT,. pfx ni otros formatos de contenedor. Los certificados deben importarse al diseñador de configuración de Windows y organizarse por jerarquía:
+Para agregar certificados a Surface Hub 2S, necesita una copia de cada certificado como X.509 en formato .cer. No puede importar .crt, .pfx u otros formatos de contenedor. Los certificados deben importarse a Windows de configuración y organizarse por jerarquía:
 
- ![Agregar certificados](images/sh2-wcd.png)
+> [!div class="mx-imgBorder"]
+> ![Agregar certificados](images/sh2-wcd.png)
 
-### Configurar el proxy durante OOBE
+### <a name="configure-proxy-during-oobe"></a>Configurar proxy durante OOBE
 
-En el diseñador de configuración de Windows, vaya a la pestaña configurar ajustes de proxy y escriba la configuración adecuada como se muestra a continuación.
+En Windows Configuration Designer, vaya a la pestaña Configurar opciones de proxy y escriba la configuración adecuada como se muestra a continuación.
 
- ![Definir la configuración de proxy](images/sh2-proxy.png) 
+> [!div class="mx-imgBorder"]
+> ![Definir la configuración de proxy](images/sh2-proxy.png) 
 
 > [!NOTE]
-> Al configurar la configuración de proxy, desactive **detectar automáticamente la configuración** si tiene previsto usar una secuencia de comandos de configuración o un servidor proxy. Puede usar un script de configuración *o* un servidor proxy, no ambos.
+> Al configurar la configuración de proxy, desactiva **Detectar automáticamente** la configuración si quieres usar un script de instalación o un servidor proxy. Puede usar un script de instalación *o un* servidor proxy, no ambos.
 
-### Surface Hub 2 de afiliados con Azure Active Directory
+### <a name="affiliate-surface-hub-2s-with-azure-active-directory"></a>Filiale Surface Hub 2S con Azure Active Directory
 
-Puede afiliar Surface Hub 2 con Azure Active Directory con un paquete de aprovisionamiento: como administrador global de Azure Active Directory, puede unir un gran número de dispositivos Windows nuevos a Azure Active Directory e Intune con un token en masa.
+Puede asociar Surface Hub 2S con Azure Active Directory mediante un paquete de aprovisionamiento: como administrador global de Azure Active Directory, puede unir un gran número de nuevos dispositivos Windows a Azure Active Directory e Intune mediante un token masivo.
 
-Para crear un token en masa, asígnele un nombre descriptivo, configure la fecha de expiración (máximo de 30 días) y use sus credenciales de administrador para adquirir el token tal y como se muestra a continuación:
+Para crear un token masivo, asigne un nombre descriptivo, configure la fecha de expiración (máximo de 30 días) y use sus credenciales de administrador para adquirir el token como se muestra a continuación:
 
- ![Configurar administradores de dispositivos](images/sh2-token.png) <br><br>
- ![Configurar administradores de dispositivos](images/sh2-token2.png) <br><br>
- ![Configurar administradores de dispositivos](images/sh2-token3.png) <br><br>
+> [!div class="mx-imgBorder"]
+> ![Ejemplo 1 de configuración de administradores de dispositivos](images/sh2-token.png)
 
-### Aprovisionamiento de varios dispositivos (archivo. csv)
+> [!div class="mx-imgBorder"]
+> ![Ejemplo 2 de configurar administradores de dispositivos](images/sh2-token2.png)
 
-Además del paquete de aprovisionamiento, puede usar un archivo de configuración de Surface hub para que sea aún más fácil configurar los dispositivos. Un archivo de configuración de Surface Hub contiene una lista de cuentas de dispositivos y nombres descriptivos para la proyección inalámbrica. Durante la primera ejecución, se obtiene una opción para elegir una cuenta del dispositivo y un nombre descriptivo en un archivo de configuración.
+> [!div class="mx-imgBorder"]
+> ![Ejemplo 3 de configurar administradores de dispositivos](images/sh2-token3.png)
 
-### Para crear un archivo de configuración de Surface Hub
 
-1. Con Microsoft Excel u otro editor de CSV, cree un archivo CSV denominado: **SurfaceHubConfiguration.csv**
-2. Escriba una lista de cuentas de dispositivos y nombres descriptivos en este formato:
+### <a name="provisioning-multiple-devices-csv-file"></a>Aprovisionamiento de varios dispositivos (.csv archivo)
 
-```
-<DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
-```
+Además del paquete de aprovisionamiento, puedes usar un archivo de configuración Surface Hub para que sea aún más fácil configurar los dispositivos. Un Surface Hub de configuración contiene una lista de cuentas de dispositivo y nombres descriptivos para la proyección inalámbrica. Durante la primera ejecución, obtienes una opción para elegir una cuenta de dispositivo y un nombre descriptivo de un archivo de configuración.
 
-3. Guarde el archivo en la raíz de la unidad USB en la que ha copiado el archivo PPKG.
+### <a name="to-create-a-surface-hub-configuration-file"></a>Para crear un archivo Surface Hub de configuración
 
-    ![Ejemplo de archivo de configuración](images/sh2-config-file.png)
+1. Con Microsoft Excel u otro editor CSV, cree un archivo CSV denominado: **SurfaceHubConfiguration.csv**
+
+2. Escribe una lista de cuentas de dispositivo y nombres descriptivos en este formato:
+
+    `<DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>`
+
+3. Guarde el archivo en la raíz de la unidad usb donde copió el archivo PPKG.
+
+    > [!div class="mx-imgBorder"]
+    > ![Ejemplo de archivo de configuración](images/sh2-config-file.png)
