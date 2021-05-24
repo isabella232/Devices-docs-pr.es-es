@@ -4,10 +4,11 @@
 
 ## Introducción
 
+### [Surface Laptop 4 para empresas](https://www.microsoft.com/surface/business/surface-laptop-4)
+### [Información general técnica sobre los procesadores de Surface Laptop 4](surface-laptop-processors.md)
 ### [Surface Pro 7+ para empresas](https://www.microsoft.com/surface/business/surface-pro-7-plus)
 ### [Surface Go 2 para empresas](https://www.microsoft.com/surface/business/surface-go-2)
 ### [Surface Pro X para empresas](https://www.microsoft.com/surface/business/surface-pro-x)
-### [Surface Laptop 3 para empresas](https://www.microsoft.com/surface/business/surface-laptop-3)
 ### [Surface Studio 2 para empresas](https://www.microsoft.com/surface/business/surface-studio-2)
 ### [Surface Book 3 para empresas](https://www.microsoft.com/surface/business/surface-book-3)
 ### [Maximiza la rentabilidad de tu inversión con Microsoft Surface](forrester-tei-study.md)
@@ -16,8 +17,10 @@
 ### [Información técnica de la GPU de Surface Book 3](surface-book-GPU-overview.md)
 ### [Información técnica de la tarjeta Quadro RTX 3000 de Surface Book 3 ](surface-book-quadro.md)
 ### [Movilidad segura que permite trabajar en cualquier lugar con LTE Advanced](https://www.microsoft.com/surface/business/lte-laptops-and-tablets)
+### [formación general técnica sobre Surface Headphones 2+](surface-headphones.md)
 
-## Planificar
+
+## Planear
 
 ### [Compatibilidad de los dispositivos Surface con la Rama de mantenimiento a largo plazo de Windows 10](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Rama de mantenimiento a largo plazo para dispositivos Surface](ltsb-for-surface.md)

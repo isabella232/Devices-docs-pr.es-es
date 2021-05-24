@@ -27,14 +27,14 @@ conceptualContent:
   title: Dispositivos Surface
   summary: Encuentra recursos para tus dispositivos Surface de Microsoft.
   items:
-    - title: Visión general de Surface
+    - title: Información general de Surface
       links:
+        - url: 'https://www.microsoft.com/surface/business/surface-laptop-4'
+          itemType: concept
+          text: Surface Laptop 4 para empresas
         - url: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
           itemType: concept
-          text: Surface Laptop Pro 7+ para empresas
-        - url: 'https://www.microsoft.com/surface/business/surface-laptop-go'
-          itemType: concept
-          text: Surface Laptop Go para empresas
+          text: Surface Pro 7+ para empresas
         - url: 'https://www.microsoft.com/surface/business'
           itemType: concept
           text: Explorar todos los productos de la familia Surface
@@ -85,7 +85,7 @@ conceptualContent:
           text: Contacta con el Soporte técnico de Surface
     - title: Ayuda de Surface Hub
       links:
-        - url: 'https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e'
+        - url: 'https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false'
           itemType: learn
           text: Contacta con el Soporte técnico de Surface Hub
     - title: Ayuda de Surface Duo
