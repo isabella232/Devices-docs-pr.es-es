@@ -30,7 +30,7 @@ ms.locfileid: "11145621"
 > [!Note]
 > <span data-ttu-id="77d6a-112">Aunque el proceso descrito en este artículo puede funcionar con versiones anteriores de Endpoint Configuration Manager o con otras soluciones de administración de terceros, la administración de SEMM con Microsoft Surface UEFI Manager y PowerShell solo se admite en la rama actual del administrador de configuración de extremo.</span><span class="sxs-lookup"><span data-stu-id="77d6a-112">Although the process described in this article may work with earlier versions of Endpoint Configuration Manager or with other third-party management solutions, management of SEMM with Microsoft Surface UEFI Manager and PowerShell is supported only with the Current Branch of Endpoint Configuration Manager.</span></span>
 
-#### <span data-ttu-id="77d6a-113">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="77d6a-113">Prerequisites</span></span>
+#### <a name="prerequisites"></a><span data-ttu-id="77d6a-113">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="77d6a-113">Prerequisites</span></span>
 
 <span data-ttu-id="77d6a-114">Antes de comenzar el proceso descrito en este artículo, familiarícese con las siguientes tecnologías y herramientas:</span><span class="sxs-lookup"><span data-stu-id="77d6a-114">Before you begin the process outlined in this article, familiarize yourself with the following technologies and tools:</span></span>
 
