@@ -123,12 +123,12 @@ Se establece una ventana de mantenimiento predeterminada para todos los Surface 
 Para cambiar la ventana de mantenimiento con MDM, establezca el nodo **MaintenanceHoursSimple** en el [proveedor de servicio de configuración de SurfaceHub](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). Consulta [Administrar la configuración con un proveedor de MDM](manage-settings-with-mdm-for-surface-hub.md) para obtener más información.
 
 
-## Más información
+##  <a name="learn-more"></a>Más información
 
 - [Entrada de blog: mantenimiento, vuelo y administración de actualizaciones de Surface Hub (con Intune, por supuesto)](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
 
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 [Administrar Microsoft Surface Hub](manage-surface-hub.md)
 

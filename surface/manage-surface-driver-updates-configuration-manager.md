@@ -23,11 +23,11 @@ ms.locfileid: "10897078"
 ---
 # Administrar actualizaciones de controladores de Surface en Configuration Manager
 
-## Resumen
+##  <a name="summary"></a>Resumen
 
 A partir de [Microsoft System Center Configuration Manager versión 1710](https://docs.microsoft.com/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates), puede sincronizar e implementar actualizaciones de controladores y firmware de Microsoft Surface directamente a través del cliente de Configuration Manager. El proceso es similar al de implementar actualizaciones regulares. Sin embargo, para obtener las actualizaciones de los drivers de Surface en tu catálogo, necesitarás otras configuraciones adicionales.
 
-## Requisitos previos
+##  <a name="prerequisites"></a>Requisitos previos
 
 Para administrar las actualizaciones de los controladores de Surface, se deben cumplir los siguientes requisitos previos:
 

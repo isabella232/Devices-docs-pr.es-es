@@ -27,7 +27,7 @@ Surface Book 3 para empresas con tecnología NVIDIA® Quadro RTX™ 3000 GPU est
 - **Inteligencia artificial** : elimine tareas redundantes y tediosas, y el trabajo intensivo con 240 tensor Cores para AI con aceleración por GPU.
 - **Tecnología de cálculo y gráficos avanzados** : Disfrute de la velocidad y la interactividad de la mayor parte de los gráficos más fiscales y de las cargas de trabajo con 1.920 CUDA núcleos y 6 GB de memoria GDDR6.
 
-## Solución Enterprise-grade
+##  <a name="enterprise-grade-solution"></a>Solución Enterprise-grade
 
 De primordial importancia para los clientes comerciales, el Quadro RTX 3000 ofrece una solución totalmente profesional que combina un seguimiento de rayos acelerado y capacidades de aprendizaje en profundidad con una solución integrada de soporte y administración del nivel empresarial. Los drivers Quadro han sido probados y certificados por más de 100 aplicaciones profesionales por ISV líderes, lo que proporciona un nivel adicional de garantía de calidad para validar la estabilidad, la confiabilidad y el rendimiento.
  
@@ -36,7 +36,7 @@ Quadro incluye herramientas empresariales dedicadas para la administración remo
 NVIDIA desarrolla y mantiene drivers óptimos para empresas (ODE) que están optimizadas, probadas y validadas para proporcionar estabilidad a nivel empresarial, confiabilidad, disponibilidad y soporte con disponibilidad de productos ampliada. Cada versión del controlador implica más de 2.000 de hombre: días de pruebas con conjuntos de pruebas y casos de prueba de aplicaciones profesionales, así como la certificación WHQL. Las amenazas de seguridad se supervisan continuamente y se publican actualizaciones de seguridad periódicas para protegerse contra vulnerabilidades descubiertas recientemente. Además, los drivers Quadro se someten a una capa adicional de pruebas por ingeniería superficial antes de la publicación a través de Windows Update.
  
 
-## Diseñado para cargas de trabajo con cálculo intensivo
+##  <a name="built-for-compute-intensive-workloads"></a>Diseñado para cargas de trabajo con cálculo intensivo
 
 El Surface Book 3 con Quadro RTX 3000 ofrece el mejor rendimiento de gráficos de cualquier portátil Surface, lo que permite a los profesionales avanzados trabajar desde cualquier lugar.
  
@@ -89,7 +89,7 @@ El Surface Book 3 con Quadro RTX 3000 ofrece el mejor rendimiento de gráficos d
 | Tarjeta NVIDIA Optimus                                             | Sí             |
 
  
-## Prueba de ISV & la aceleración de aplicaciones
+##  <a name="isv-testing-&-app-acceleration"></a>Prueba de ISV & la aceleración de aplicaciones
 
 Como se muestra en la tabla 3, Surface Book 3 con Quadro RTX 3000 es probado y aprobado por los principales ISV, y ofrece aceleración significativamente más rápida en aplicaciones profesionales. Resultados de pruebas de Benchmark de SPECview Perf 13 comparar Surface Book 3 15-pulgada con NVIDIA Quadro RTX 3000 en comparación con el Surface Book 2 15 con dispositivos NVIDIA GeForce GTX 1060.
 
@@ -125,7 +125,7 @@ Como se muestra en la tabla 3, Surface Book 3 con Quadro RTX 3000 es probado y a
 
 
 
-## SKU
+##  <a name="skus"></a>Sku
 
 **Tabla 4. Surface Book 3 con SKU Quadro RTX 3000**
 
@@ -134,7 +134,7 @@ Como se muestra en la tabla 3, Surface Book 3 con Quadro RTX 3000 es probado y a
 | 15 pulgadas | Núcleo cuádruple de núcleo 10 gen de i7-1065G7 | Gráficos Intel iris™s<br>NVIDIA Quadro RTX 3000. Diseño Max-Q con memoria gráfica de 6 GB GDDR6 | 32 LPDDR4x | 512 GB      |
 | 15 pulgadas | Núcleo cuádruple de núcleo 10 gen de i7-1065G7 | Gráficos Intel iris™s<br>NVIDIA Quadro RTX 3000. Diseño Max-Q con memoria gráfica de 6 GB GDDR6 | 32 LPDDR4x | 1TB        |
 
-## Resumen
+##  <a name="summary"></a>Resumen
 
 El Surface Book 3 con Quadro RTX 3000 ofrece el mejor rendimiento de gráficos de cualquier portátil Surface, lo que ofrece a arquitectos, ingenieros, desarrolladores y científicos de datos con las herramientas que necesitan para trabajar de forma eficaz desde cualquier lugar:
  
@@ -142,7 +142,7 @@ El Surface Book 3 con Quadro RTX 3000 ofrece el mejor rendimiento de gráficos d
 - Rendimiento de calidad de escritorio en un formato móvil.
 - Características de clase empresarial, confiabilidad y soporte técnico para proyectos de misión crítica.
 
-## Obtén más información
+##  <a name="learn-more"></a>Obtén más información
 
 - [Información técnica de la GPU de Surface Book 3](surface-book-GPU-overview.md)
 - [Surface para empresas](https://www.microsoft.com/surface/business)

@@ -48,14 +48,14 @@ La característica Activar en energía está disponible en los siguientes dispos
 - Surface Pro X 
 
 
-## Información general y requisitos previos
+##  <a name="overview-and-prerequisites"></a>Información general y requisitos previos
 
 El Configurador de UEFI de Surface te permite guardar la configuración de UEFI individual en un paquete .msi de Windows Installer para su distribución en dispositivos de destino. 
 
 > [!NOTE]
 > En este artículo se supone que sabe cómo usar SEMM. Para obtener más información, consulta la documentación del Modo [de administración de Surface Enterprise (SEMM).](surface-enterprise-management-mode.md)
 
-## Para habilitar La activación en la alimentación
+##  <a name="to-enable-wake-on-power"></a>Para habilitar La activación en la alimentación
 
 1.  Descarga la versión más reciente de [Surface UEFI Configurator.](https://www.microsoft.com/download/confirmation.aspx?id=46703)
 2.  Inicia sesión en el dispositivo Surface como administrador, abre el **Configurador de UEFI**de Surface, selecciona **Dispositivos Surface**y, a continuación, **selecciona Siguiente.**
@@ -76,7 +76,7 @@ El Configurador de UEFI de Surface te permite guardar la configuración de UEFI 
     > Si es la primera vez que proporcionas la configuración al dispositivo, también se te pedirá que proporciones los dos últimos caracteres de la huella digital del certificado. 
 9.  Guarde el paquete .msi. 
 
-## Aplicar el paquete MSI 
+##  <a name="apply-the-msi-package"></a>Aplicar el paquete MSI 
 
 Puedes aplicar el paquete MSI a dispositivos de toda la red mediante herramientas de distribución de software como Microsoft Endpoint Configuration Manager. Este procedimiento incluye pasos para instalar el paquete en el equipo local. 
 
@@ -96,7 +96,7 @@ Puedes aplicar el paquete MSI a dispositivos de toda la red mediante herramienta
 
 La activación en la alimentación ya está configurada. Para probar la configuración, apaga el dispositivo, desconecta la alimentación y, a continuación, vuelve a conectar la energía. El dispositivo debe iniciarse automáticamente. 
 
-## Referencias
+##  <a name="references"></a>Referencias
 
 Para obtener más información, vea los artículos siguientes. 
 

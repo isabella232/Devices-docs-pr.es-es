@@ -25,7 +25,7 @@ La aplicación y la habilitación de la autenticación por cable 802.1X en Surfa
 
 La configuración principal que se establecerá es la directiva **LanProfile**. Según el método de autenticación seleccionado, otras directivas pueden ser necesarias, ya sea la directiva **EapUserData** o a través de directivas de MDM para agregar certificados de usuario o equipo (como [ClientCertificateInstall](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp) para certificados de usuario/dispositivo o [RootCATrustedCertificates](https://docs.microsoft.com/windows/client-management/mdm/rootcacertificates-csp) para certificados de dispositivo). 
 
-## Elemento de directiva LanProfile
+##  <a name="lanprofile-policy-element"></a>Elemento de directiva LanProfile
 
 Para configurar Surface Hub para que use uno de los métodos de autenticación 802.1X admitidos, utilice el siguiente OMA-URI. 
 
@@ -49,7 +49,7 @@ Profile File Name: .\Ethernet.xml
 1 profile(s) were exported successfully.
 ```
 
-## Elemento de directiva EapUserData
+##  <a name="eapuserdata-policy-element"></a>Elemento de directiva EapUserData
 
 Si tu método de autenticación seleccionado requiere un nombre de usuario y una contraseña en lugar de un certificado, puedes usar el elemento **EapUserData** para especificar las credenciales para el dispositivo que se usará para autenticar en la red. 
 
@@ -61,7 +61,7 @@ Este nodo de OMA-URI toma una cadena de texto de XML como parámetro. El XML pro
 
 
 
-## Agregar certificados
+##  <a name="adding-certificates"></a>Agregar certificados
 
 Si el método de autenticación seleccionado es basado en certificados, tendrá que [crear un paquete de aprovisionamiento](provisioning-packages-for-surface-hub.md), [usar MDM](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp)o importar un certificado desde configuración (actualización de**configuración**  >  **y**  >  **certificados**de seguridad) para implementar esos certificados en el dispositivo Surface Hub en el almacén de certificados correspondiente. Al agregar certificados, cada PFX debe contener un certificado único (un PFX no puede tener varios certificados).
 

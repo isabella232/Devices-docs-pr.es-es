@@ -35,7 +35,7 @@ Los dispositivos Surfaces de propósito general están pensados para que se ejec
 
 Los dispositivos Surface en escenarios especializados (como equipos que controlan equipos médicos, sistemas de puntos de venta y cajeros automáticos) pueden considerar el uso de LTSC. Estos sistemas de propósito especial generalmente realizan una única tarea y no requieren actualizaciones de características con tanta frecuencia como otros dispositivos de la organización. 
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 - [Blog de profesionales de TI de Surface](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
 

@@ -61,7 +61,7 @@ Energía de entrada, espera    |   5W nominal, 1-10W max
 > - [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md)
 > - [SurfaceHub CSP: Administración de clientes de Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
-## Conexiones de equipo de reemplazo 
+##  <a name="replacement-pc-connections"></a>Conexiones de equipo de reemplazo 
 
 Conector y ubicación | Etiqueta | Descripción
 --- | --- | ---
@@ -72,7 +72,7 @@ Usb tipo B, E/S inferior | ![](images/usb.png) | Proporciona conexión USB para 
 Usb tipo B, E/S inferior | ![](images/usb.png) | Proporciona conexión USB para el concentrador integrado.
 
 
-## Conexiones de conexión con cable
+##  <a name="wired-connect-connections"></a>Conexiones de conexión con cable
 
 Conector y ubicación | Etiqueta | Descripción
 --- | --- | ---
@@ -82,7 +82,7 @@ VGA, E/S inferior | ![](images/vga.png) | Proporciona entrada VGA para el equipo
 3,5 mm, E/S inferior | ![](images/35mm.png) | Proporciona entrada de audio analógico.
 Usb tipo B, E/S inferior | ![](images/usb.png) | Proporciona conexión USB para la entrada táctil de ingesta de vídeo.
 
-## Conexiones adicionales
+##  <a name="additional-connections"></a>Conexiones adicionales
 
 Conector y ubicación | Etiqueta | Descripción
 --- | --- | ---
@@ -100,7 +100,7 @@ RJ11, E/S inferior | ![](images/rj11.png) | Se conecta a los sistemas de control
 
 
 
-## Diagramas de puertos y autorizaciones
+##  <a name="diagrams-of-ports-and-clearances"></a>Diagramas de puertos y autorizaciones
 
 ***Vista superior de Surface Hub de 84"***
 

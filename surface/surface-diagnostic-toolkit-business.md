@@ -42,7 +42,7 @@ Modo |  Escenarios principales | Descargar | Más información
 Modo de escritorio |  Ayudar a los usuarios a ejecutar SDT en sus dispositivos Surface para solucionar problemas.<br>Crea un paquete personalizado para implementarlo en uno o varios dispositivos Surface, lo que permite a los usuarios seleccionar registros específicos para recopilar y analizar. | Paquete MSI distribuible de SDT:<br>Microsoft Surface Diagnostic Toolkit for Business Installer<br>[Herramientas de Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) | [Usar Surface Diagnostic Toolkit en modo de escritorio](surface-diagnostic-toolkit-desktop-mode.md)
 Línea de comandos |  Solucionar directamente problemas de dispositivos Surface de forma remota sin la interacción del usuario, con herramientas estándar como Configuration Manager. Incluye los siguientes comandos:<br>`-DataCollector` recopila todos los archivos de registro<br>`-bpa` ejecuta diagnósticos de estado mediante el Analizador de procedimientos recomendados.<br>`-windowsupdate` comprueba windows Update si faltan actualizaciones de controladores o firmware.<br>`-warranty` comprueba la información de garantía. <br><br>| Aplicación de consola de SDT:<br>Microsoft Surface Diagnostics App Console<br>[Herramientas de Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) | [Ejecutar Surface Diagnostic Toolkit con comandos](surface-diagnostic-toolkit-command-line.md)
 
-## Dispositivos compatibles 
+##  <a name="supported-devices"></a>Dispositivos compatibles 
 
 SDT para empresas es compatible con Dispositivos Surface 3 y posteriores, incluidos:
 
@@ -160,12 +160,12 @@ Puedes seleccionar ejecutar una amplia variedad de registros en aplicaciones, co
 
 *Figura 7. Opción de registro y guardar paquete*
 
-## Pasos siguientes
+##  <a name="next-steps"></a>Pasos siguientes
 
 - [Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio](surface-diagnostic-toolkit-desktop-mode.md)
 - [Usar Surface Diagnostic Toolkit para empresas mediante comandos](surface-diagnostic-toolkit-command-line.md)
 
-## Cambios y actualizaciones
+##  <a name="changes-and-updates"></a>Cambios y actualizaciones
 
 ### Versión 2.131.139.0
 

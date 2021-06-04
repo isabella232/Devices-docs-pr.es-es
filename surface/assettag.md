@@ -21,13 +21,13 @@ ms.locfileid: "10834746"
 
 La etiqueta de activo de Surface es una utilidad de interfaz de línea de comandos (CLI) que permite ver, asignar y modificar un valor de etiqueta de activo asignado para dispositivos de Surface. Funciona en Surface Pro 3 y en todos los dispositivos de superficie más recientes.
 
-## Requisitos del sistema
+##  <a name="system-requirements"></a>Requisitos del sistema
 
 - Surface Pro 3 o posterior
 
 - Versión de firmware UEFI 3.9.150.0 o posterior
 
-## Uso de etiquetas de activos de Surface 
+##  <a name="using-surface-asset-tag-"></a>Uso de etiquetas de activos de Surface 
 
 Para ejecutar la etiqueta de inventario de Surface:
 
@@ -40,7 +40,7 @@ Para ejecutar la etiqueta de inventario de Surface:
 
 3.  Superficie de reinicio.
 
-### Comandos de la herramienta etiqueta de activos   
+###  <a name="asset-tag-tool-commands"></a>Comandos de la herramienta etiqueta de activos   
 En los siguientes ejemplos, AssetTag.exe se guarda en un directorio en un equipo local (C:\assets). 
 
 Para obtener la etiqueta de activo propuesta, ejecute AssetTag-g.
@@ -70,7 +70,7 @@ C:\assets\AssetTag.exe -s testassettag12
 >El valor de la etiqueta de activo debe contener entre 1 y 36 caracteres. Los caracteres válidos son A-Z, a-z, 0-9, punto (.) y guión (-).
 
 
-## Administración de etiquetas de activos
+##  <a name="managing-asset-tags"></a>Administración de etiquetas de activos
 
 Puede ver la etiqueta de activo existente en la configuración de UEFI en información del dispositivo (**Panel de Control > recuperación > inicio avanzado > reiniciar ahora**).
 
@@ -91,7 +91,7 @@ Como alternativa, puede usar WMI para consultar la etiqueta de activo existente 
 C:\Windows\System32> (Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
   ```
   
-### Uso de PowerShell
+###  <a name="using-powershell"></a>Uso de PowerShell
 
 Puede usar la siguiente secuencia de comandos como forma de obtener el valor propuesto e interpretar los errores.
 

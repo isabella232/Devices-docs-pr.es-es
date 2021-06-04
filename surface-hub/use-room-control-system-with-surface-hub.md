@@ -102,7 +102,7 @@ Los cambios en los niveles de brillo se pueden enviar mediante un sistema de con
 | Brightness+ | Controladora de administración del sistema (SMC) envía el comando de subir brillo.</br></br>El servicio del equipo en el sistema de control de la sala notifica a SMC del nuevo nivel de brillo. |  Brightness = 51 |
 | Brightness- |  SMC envía el comando de bajar brillo.</br></br>El servicio del equipo notifica a SMC del nuevo nivel de brillo. | Brightness = 50 |
 
-## Volumen
+##  <a name="volume"></a>Volumen
 
 El nivel de volumen actual está en un intervalo de 0 a 100.
 
@@ -167,7 +167,7 @@ Los errores se devuelven según el formato de esta tabla.
 
  
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 
 [Administrar Microsoft Surface Hub](manage-surface-hub.md)

@@ -24,7 +24,7 @@ Use esta guía de preparación del sitio para ayudar a planear la instalación d
 - Recomendaciones para mover y almacenar 
 - Vínculos a instrucciones para desempaquetar y montar 
 
-## Planeación de la disponibilidad de sitios
+##  <a name="site-readiness-planning"></a>Planeación de la disponibilidad de sitios
 
 El salón debe ser lo suficientemente grande como para proporcionar un buen ángulo de visión, pero lo suficientemente pequeño como para que los micrófonos recojan señales claras de las personas que están en el salón. La mayoría de las habitaciones de aproximadamente 22 metros (siete metros) le proporcionarán una buena experiencia de reunión. En el área de conferencia, Monte Surface Hub donde:
 
@@ -35,7 +35,7 @@ El salón debe ser lo suficientemente grande como para proporcionar un buen áng
 - Los micrófonos no se ven afectados por las fuentes de ruido, como los ventiladores o los orificios de ventilación.
 Puede encontrar más detalles en 55 las secciones de información técnica de [Microsoft Surface Hub Hub](surface-hub-technical-55.md) o de [84 "](surface-hub-technical-84.md) Microsoft Surface Hub.  Para obtener información sobre limpieza, cuidado y seguridad, consulte las guías de montaje y la guía para usuarios en https://www.microsoft.com/surface/support/surface-hub .
 
-### Consideraciones de hardware
+###  <a name="hardware-considerations"></a>Consideraciones de hardware
 
 Surface Hub llega con:
 - Dos lápices de Surface Hub de Microsoft
@@ -54,7 +54,7 @@ Microsoft Surface Hub tiene un equipo interno y no requiere un sistema informát
 
 Para obtener recomendaciones de energía, consulte [55 "información técnica de Microsoft Surface Hub](surface-hub-technical-55.md) o [84" información técnica de Microsoft Surface Hub](surface-hub-technical-84.md). Para las advertencias de seguridad del cable de alimentación, consulte las guías de montaje en https://www.microsoft.com/surface/support/surface-hub .
 
-### Datos y otras conexiones
+###  <a name="data-and-other-connections"></a>Datos y otras conexiones
 
 Para usar Surface Hub, necesita un puerto Ethernet activo y una toma de corriente estándar. Además, es posible que desee:
 
@@ -66,7 +66,7 @@ Para usar Surface Hub, necesita un puerto Ethernet activo y una toma de corrient
     - Puertos de vídeo (DisplayPort, HDMI, VGA, etc.) 
 
 
-## Cuando llega Surface Hub
+##  <a name="when-surface-hub-arrives"></a>Cuando llega Surface Hub
 
 Surface Hub es grande y grande, así que puedes avisar cuando llegue y saber qué debe hacer para manejarlo de manera segura. Para obtener más información sobre los pesos de embalaje y otras especificaciones, consulte [55 "información técnica de Microsoft Surface Hub](surface-hub-technical-55.md) o [84" información técnica de Microsoft Surface Hub](surface-hub-technical-84.md).
 
@@ -76,22 +76,22 @@ Considere lo siguiente:
 - Consulte las reglas de la Unión laboral local que requieren que use mano de obra de Unión para descargar o mover Surface Hub.   
 - No deje Surface Hub en un entorno caliente o húmedo. Al igual que con cualquier equipo informático o de pantalla, el calor y la humedad pueden dañar Surface Hub. Las temperaturas de almacenamiento recomendadas son de 32 a 95 ° f, con una humedad relativa de menos del 70 por ciento. 
 
-### Surface Hub en movimiento
+###  <a name="moving-surface-hub"></a>Surface Hub en movimiento
 
 Antes de mover Surface Hub, asegúrate de que todas las puertas, umbrales, vestíbulos y ascensores sean lo suficientemente grandes como para acomodarlo. Para obtener información sobre las dimensiones y el peso de su Surface Hub en su contenedor de envío, consulte [55 "información técnica de Microsoft Surface Hub](surface-hub-technical-55.md) o [84" información técnica de Microsoft Surface Hub](surface-hub-technical-84.md).
 
-### Desembalar Surface Hub
+###  <a name="unpacking-surface-hub"></a>Desembalar Surface Hub
 
 Para desembalar la información, consulta la guía de desembalaje incluida en el contenedor de envío. Puedes abrir las instrucciones de desembalaje antes de abrir el contenedor de envío.  Estas instrucciones también pueden encontrarse aquí:https://www.microsoft.com/surface/support/surface-hub
 
 >[!IMPORTANT]
 >Conserva y almacena todos los materiales de envío de Surface Hub, incluidos el pallet, el contenedor y los tornillos, en caso de que tengas que enviar Surface Hub a una nueva ubicación o enviarlo para su reparación. Para el Surface Hub de 84, conserve los controladores de elevación. 
 
-### Surface Hub de elevación
+###  <a name="lifting-surface-hub"></a>Surface Hub de elevación
 
 El Surface Hub de 55 requiere dos personas para levantar y montar de forma segura. El Surface Hub de 84 requiere cuatro personas para levantar y montar con seguridad. Esos ayudantes deben poder levantar 70 libras a la altura de waist. Para obtener información sobre cómo levantar Surface Hub, consulta la guía de desembalaje y de montaje. Puedes encontrarla en https://www.microsoft.com/surface/support/surface-hub .
 
-## Montar y configurar
+##  <a name="mounting-and-setup"></a>Montar y configurar
 
 Para obtener instrucciones detalladas, consulta la guía de montaje https://www.microsoft.com/surface/support/surface-hub . 
 
@@ -106,7 +106,7 @@ Para obtener especificaciones sobre los montajes disponibles para el Surface Hub
 - [Hoja de la hoja de remontaje y resalte Surface Hub](https://download.microsoft.com/download/5/0/1/501F98D9-1BCC-4448-A1DB-47056CEE33B6/20160711_Surface_Hub_Mounts_and_Stands_Datasheet.pdf)
 - [Especificaciones de soporte de Surface Hub y de montaje en pared](https://download.microsoft.com/download/7/A/7/7A75BD0F-5A46-4BCE-B313-A80E47AEB581/20160720_Combined_Stand_Wall_Mount_Drawings.pdf)
 
-## La experiencia de conexión
+##  <a name="the-connect-experience"></a>La experiencia de conexión
 
 Conectar permite a las personas proyectar el portátil, la tableta o el teléfono en la pantalla de Surface Hub. Conectar permite tipos de conexión inalámbrica o cableada.
 
@@ -138,6 +138,6 @@ Para obtener más información sobre Touchback y Inkback, consulte la guía para
 
 
 
-## Consulte también
+##  <a name="see-also"></a>Consulte también
 
 [Ver el vídeo (se abre en un reproductor multimedia emergente)](https://compass.xbox.com/assets/27/aa/27aa7dd7-7cb7-40ea-9bd6-c7de0795f68c.mov?n=04.07.16_installation_video_01_site_readiness.mov)  

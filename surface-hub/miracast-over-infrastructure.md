@@ -31,7 +31,7 @@ Miracast a través de infraestructura ofrece una serie de ventajas:
 - Aprovecha la conexión existente, lo que reduce el tiempo de conexión y ofrece una emisión muy estable.
 
 
-## Cómo funciona
+##  <a name="how-it-works"></a>Cómo funciona
 
 Los usuarios intentan conectarse a un receptor Miracast a través de su adaptador Wi-Fi como antes. Cuando se llena la lista de receptores de Miracast, Windows 10 identificará el receptor que puede admitir una conexión a través de la infraestructura. Cuando el usuario selecciona un receptor de Miracast, Windows 10 intentará resolver el nombre de host del dispositivo a través de DNS estándar y de DNS multidifusión (mDNS). Si el nombre no se puede resolver a través de ninguno de estos métodos DNS, Windows 10 recurrirá a establecer la sesión de Miracast con la conexión de Wi-Fi Direct estándar.
 
@@ -41,7 +41,7 @@ Los usuarios intentan conectarse a un receptor Miracast a través de su adaptado
 
 
 
-## Habilitar Miracast a través de la infraestructura 
+##  <a name="enabling-miracast-over-infrastructure-"></a>Habilitar Miracast a través de la infraestructura 
 
 Si tienes un dispositivo Surface Hub u otro dispositivo con Windows 10 que se ha actualizado a Windows 10, versión 1703, tendrás automáticamente esta nueva característica. Para poder aprovecharla en el entorno, debes asegurarte de que se cumplan las siguientes condiciones en la implementación:
 
@@ -59,6 +59,6 @@ Es importante tener en cuenta que Miracast a través de la infraestructura no es
 
 La opción de configuración **InBoxApps/WirelessProjection/PinRequired** en el [proveedor de servicios de configuración (CSP) de SurfaceHub](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/surfacehub-csp) no es necesaria para Miracast a través de la infraestructura. Esto es porque Miracast a través de la infraestructura solo funciona si ambos dispositivos están conectados a la misma red de empresa. De este modo, se elimina de Miracast la restricción de seguridad que faltaba anteriormente. Te recomendamos que sigas usando esta opción de configuración (si la usabas anteriormente), ya que Miracast recurrirá a Miracast normal si la conexión a través de la infraestructura no funciona. 
 
-## Preguntas más frecuentes
+##  <a name="faq"></a>Preguntas más frecuentes
 **¿Por qué todavía necesito Wi-Fi para usar Miracast en la infraestructura?**<br>
 Las solicitudes de detección para identificar receptores de Miracast solo pueden realizarse a través del adaptador Wi-Fi. Una vez que se hayan identificado los receptores, Windows 10 podrá entonces intentar la conexión a la red.

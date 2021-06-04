@@ -35,7 +35,7 @@ Hay varias maneras de administrar la clave de BitLocker en Surface Hub.
 3.  Si está usando una cuenta de administrador local para administrar el dispositivo, puede guardarla en la aplicación **configuración** y navegar para **Actualizar &** la &gt; **recuperación**de seguridad. Inserta una unidad USB y selecciona la opción para guardar la clave de BitLocker. La clave se guardará en un archivo de texto en la unidad USB.
 
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 [Administrar Microsoft Surface Hub](manage-surface-hub.md)
 

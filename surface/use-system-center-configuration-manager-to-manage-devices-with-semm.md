@@ -30,7 +30,7 @@ Para las organizaciones con Microsoft Endpoint Configuration Manager, existe una
 > [!Note]
 > Aunque el proceso descrito en este artículo puede funcionar con versiones anteriores de Endpoint Configuration Manager o con otras soluciones de administración de terceros, la administración de SEMM con Microsoft Surface UEFI Manager y PowerShell solo se admite en la rama actual del administrador de configuración de extremo.
 
-#### Requisitos previos
+####  <a name="prerequisites"></a>Requisitos previos
 
 Antes de comenzar el proceso descrito en este artículo, familiarícese con las siguientes tecnologías y herramientas:
 

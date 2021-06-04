@@ -38,7 +38,7 @@ La herramienta atenúa automáticamente la pantalla cuando no está en uso e inc
 
 - Instale surfacebrightnesscontrol.msi en el dispositivo de destino y el control de brillo de la superficie comenzará a funcionar inmediatamente.
 
-## Configuración de control de brillo de superficie
+##  <a name="configuring-surface-brightness-control"></a>Configuración de control de brillo de superficie
 
 Puede ajustar los valores predeterminados a través del registro de Windows. Para obtener más información sobre cómo usar el registro de Windows, consulte la [documentación del registro](https://docs.microsoft.com/windows/desktop/sysinfo/registry).
 
@@ -60,18 +60,18 @@ Brillo completo   | Valor predeterminado: 100  <br>Opción: intervalo del 0-100 
 | Tiempo de espera de inactividad| Valor predeterminado: 30 segundos <br>Opción: cualquier valor numérico  <br>Tipo de datos: entero  <br> Escriba: REG_DWORD | Esta configuración te permite administrar el período de inactividad antes de atenuar el dispositivo. Si no establece esta configuración, el tiempo de espera de inactividad es de 30 segundos.|
 | Telemetría habilitada | Valor predeterminado: 01 <br>Opción: 01, 00 <br> Escriba: REG_BINARY  | Esta configuración le permite administrar el uso compartido de la información de uso de aplicaciones para mejorar el software y proporcionar una mejor experiencia de usuario. Para deshabilitar la telemetría, establece el valor en 00. Si no establece esta configuración, la información de telemetría se comparte con Microsoft de acuerdo con la [declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement). |
 
-## Cambios y actualizaciones
+##  <a name="changes-and-updates"></a>Cambios y actualizaciones
 
-### Versión 1.16.137<br>
+###  <a name="version-1.16.137"></a>Versión 1.16.137<br>
 *Fecha de lanzamiento: 22 de octubre de 2019*<br>
 Esta versión del control de brillo de la superficie agrega compatibilidad con los siguientes elementos:-recompiled para x86, agrega compatibilidad para Surface Pro 7, Surface Pro X y Surface Laptop 3. 
 
-### Versión 1.12.239.0
+###  <a name="version-1.12.239.0"></a>Versión 1.12.239.0
 *Fecha de lanzamiento: 26 de abril de 2019*<br>
 Esta versión del control de brillo de la superficie agrega compatibilidad con los siguientes elementos:
 - Correcciones de retraso de la entrada táctil.
 
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 - [Configuración del límite de batería](battery-limit.md)

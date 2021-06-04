@@ -22,7 +22,7 @@ ms.locfileid: "10835689"
 
 Puede instalar aplicaciones adicionales para satisfacer las necesidades de su equipo o de la organización.
 
-## Pautas para desarrolladores
+##  <a name="developer-guidelines"></a>Pautas para desarrolladores
 
 - Surface Hub solo puede ejecutar [aplicaciones de la Plataforma universal de Windows (UWP)](https://msdn.microsoft.com/windows/uwp/get-started/whats-a-uwp). Las aplicaciones creadas con [Desktop App Converter](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-run-desktop-app-converter) no se ejecutarán en Surface Hub.
 - Las aplicaciones deben elegirse para la [familia de dispositivos universales](https://msdn.microsoft.com/library/windows/apps/dn894631) o la familia de dispositivos del Equipo de Windows.
@@ -31,7 +31,7 @@ Puede instalar aplicaciones adicionales para satisfacer las necesidades de su eq
 - Al desarrollar y enviar aplicaciones a Microsoft Store, establezca disponibilidad de familia de dispositivos y opciones de licencia organizacional para asegurarse de que las aplicaciones estén disponibles para su ejecución en Surface Hub.
 - Necesita credenciales de administrador para instalar aplicaciones en Surface Hub. Diseñado para su uso en salas de reuniones y otros espacios compartidos, Surface Hub impide que los usuarios normales tengan acceso a Microsoft Store para descargar e instalar aplicaciones.
 
-## Instrucciones de implementación
+##  <a name="deployment-guidelines"></a>Instrucciones de implementación
 
 Puedes implementar aplicaciones de la plataforma universal de Windows (UWP) en Surface Hub 2S con Intune, lo que facilita la implementación de aplicaciones en dispositivos.
 

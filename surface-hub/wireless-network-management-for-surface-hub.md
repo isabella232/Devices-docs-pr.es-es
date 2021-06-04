@@ -24,12 +24,12 @@ ms.locfileid: "10834754"
 
 Microsoft Surface Hub ofrece dos opciones de conectividad de red a la red corporativa y a Internet: inalámbrica y con cable. Si bien ambas proporcionan acceso a la red, te recomendamos usar una conexión por cable.
 
-## Modificar, agregar o revisar una conexión de red
+##  <a name="modifying,-adding,-or-reviewing-a-network-connection"></a>Modificar, agregar o revisar una conexión de red
 
 
 Si la conexión de red con cable no está disponible, el Surface Hub puede de usar una red inalámbrica para acceder a Internet. Debe haber un punto de acceso Wi-Fi conectado y configurado correctamente disponible y dentro del alcance del Surface Hub.
 
-### Elige un punto de acceso inalámbrico
+###  <a name="choose-a-wireless-access-point"></a>Elige un punto de acceso inalámbrico
 
 1.  En el Surface Hub, abre **Configuración** y escribe las credenciales de administrador.
 2.  Haz clic en **Red e Internet**. En **Wi-Fi**, elige un punto de acceso. Si quieres que Surface Hub se conecte automáticamente a este punto de acceso, haz clic en **Conectar automáticamente**. Haz clic en **Connect**.
@@ -40,7 +40,7 @@ Si la conexión de red con cable no está disponible, el Surface Hub puede de us
 
     ![Imagen que muestra las instrucciones de clave de seguridad y contraseña para conectarse a la red Wi-Fi protegida.](images/networkmgtwireless-02.png)
 
-### Revisa la configuración inalámbrica
+###  <a name="review-wireless-settings"></a>Revisa la configuración inalámbrica
 
 1.  En Surface Hub, abre **Configuración** y escribe las credenciales de administrador.
 2.  Haz clic en **Red e Internet**, luego en **Wi-Fi** y, a continuación, en **Opciones avanzadas**.
@@ -48,7 +48,7 @@ Si la conexión de red con cable no está disponible, el Surface Hub puede de us
 
     ![Imagen que muestra las propiedades de conexión Wi-Fi.](images/networkmgtwireless-04.png)
 
-### Revisar opciones de red por cable
+###  <a name="review-wired-settings"></a>Revisar opciones de red por cable
 
 1.  En el Surface Hub, abre **Configuración** y escribe las credenciales de administrador.
 2.  Haz clic en **Sistema**, **Redes e Internet** y, a continuación, haz clic en la red en Ethernet.
@@ -59,7 +59,7 @@ Si la conexión de red con cable no está disponible, el Surface Hub puede de us
 
     ![Imagen que muestra las propiedades para la conexión a Ethernet.](images/networkmgtwired-02.png)
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 
 [Administrar Microsoft Surface Hub](manage-surface-hub.md)

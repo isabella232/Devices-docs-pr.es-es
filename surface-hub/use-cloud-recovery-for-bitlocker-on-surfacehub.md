@@ -31,7 +31,7 @@ En este artículo se describe cómo usar la función de recuperación de la nube
 > [!IMPORTANT]
 > Este proceso requiere una conexión a Internet abierta que no use un proxy u otro método de autenticación.
 
-## Proceso de recuperación en la nube
+##  <a name="cloud-recovery-process"></a>Proceso de recuperación en la nube
 
 Para realizar una recuperación en la nube, siga estos pasos:
 
@@ -61,7 +61,7 @@ Para realizar una recuperación en la nube, siga estos pasos:
 
    ![Captura de pantalla de fuera del cuadro](images/06-out-of-box.png)
 
-## Mensaje de error "se ha encontrado un error"
+##  <a name="something-went-wrong-error-message"></a>Mensaje de error "se ha encontrado un error"
 
 Este error suele deberse a problemas de red que se producen durante la descarga de la recuperación. Cuando se produzca este problema, no desactive el concentrador porque no podrá reiniciarlo. Si recibe este mensaje de error, vuelva al paso "recuperar desde la nube" y, a continuación, reinicie el proceso de recuperación.
 

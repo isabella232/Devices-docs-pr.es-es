@@ -30,9 +30,9 @@ Para volver a crear una imagen de la SSD de Surface Hub con la Herramienta de re
 
 Si la herramienta no consigue restablecer la unidad, ponte en contacto con el soporte [técnico de Surface Hub.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
-## Requisitos previos
+##  <a name="prerequisites"></a>Requisitos previos
 
-### Mandatory
+###  <a name="mandatory"></a>Mandatory
 
 - Equipo host que ejecuta la versión de 64 bits de Windows 10, versión 1607 o posterior.
 - Acceso a Internet
@@ -41,7 +41,7 @@ Si la herramienta no consigue restablecer la unidad, ponte en contacto con el so
 - 10 GB de espacio libre en disco en el equipo host
 - Ssd enviados con Surface Hub o un SSD proporcionado por el soporte técnico como reemplazo. Los SSD no proporcionados por Microsoft no son compatibles.
 
-### Recomendaciones
+###  <a name="recommended"></a>Recomendaciones
 
 - Conexión a Internet de alta velocidad
 - Puerto USB 3.0 abierto
@@ -51,7 +51,7 @@ Si la herramienta no consigue restablecer la unidad, ponte en contacto con el so
     - Rosawill RCUC16001
     - Ugreen 20231
 
-## Descargar la Herramienta de recuperación de Surface Hub
+##  <a name="download-surface-hub-recovery-tool"></a>Descargar la Herramienta de recuperación de Surface Hub
 
 La Herramienta de recuperación de Surface Hub está disponible para su descarga desde herramientas [de Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) para TI en el nombre de archivo **SurfaceHub_Recovery_v2.7.139.0.msi. **
 
@@ -65,7 +65,7 @@ Para iniciar la descarga, haga **clic en Descargar**, elija **SurfaceHub_Recover
 
 Instala la Herramienta de recuperación de Surface Hub en el equipo host.
 
-## Ejecutar la herramienta de recuperación de Surface Hub
+##  <a name="run-surface-hub-recovery-tool"></a>Ejecutar la herramienta de recuperación de Surface Hub
 
 1. En el equipo host, selecciona el botón Inicio, desplázate por la lista alfabética de la izquierda y selecciona el acceso directo de la herramienta de recuperación. ****
 
@@ -102,7 +102,7 @@ Instala la Herramienta de recuperación de Surface Hub en el equipo host.
 
 
 
-## Solución de problemas y problemas comunes
+##  <a name="troubleshooting-and-common-problems"></a>Solución de problemas y problemas comunes
 
 Problema | Notas
 --- | ---
@@ -113,10 +113,10 @@ Error: -2147024809 | Abre el Administrador de discos y quita las particiones de 
 
 Si la herramienta no consigue restablecer la unidad, ponte en contacto con el soporte [técnico de Surface Hub.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
-## Historial de versiones
+##  <a name="version-history"></a>Historial de versiones
 
 
-### Versión v2.7.139.0
+###  <a name="version-v2.7.139.0"></a>Versión v2.7.139.0
 
 *Fecha de lanzamiento: 11 de febrero de 2021*<br>
 Esta versión de la Herramienta de recuperación de Surface Hub agrega compatibilidad con lo siguiente:
@@ -124,7 +124,7 @@ Esta versión de la Herramienta de recuperación de Surface Hub agrega compatibi
 - Actualización de seguridad
 
 
-### Versión v2.0.139.0
+###  <a name="version-v2.0.139.0"></a>Versión v2.0.139.0
 
 > [!IMPORTANT]
 > Esta versión ya no funciona. Descargue la versión actual, enumerada anteriormente. 

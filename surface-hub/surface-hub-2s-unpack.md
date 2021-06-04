@@ -20,7 +20,7 @@ ms.locfileid: "10836081"
 ---
 # Desempaquetar 2 de Surface Hub
 
-## Desempaquetamiento de Surface Hub 2S
+##  <a name="unpacking-the-surface-hub-2s"></a>Desempaquetamiento de Surface Hub 2S
 
 Antes de quitar Surface Hub 2S del cuadro, asegúrate de tener la solución de montaje montada y de que alguien esté disponible para ayudarte.
 
@@ -33,7 +33,7 @@ Antes de quitar Surface Hub 2S del cuadro, asegúrate de tener la solución de m
 7. Alinee el hardware instalado con las ranuras del montaje para que quede firmemente en su lugar.
 8. Siga las instrucciones que se adjuntan con la solución de montaje.
 
-## Instalar el lápiz y la cámara
+##  <a name="install-pen-and-camera"></a>Instalar el lápiz y la cámara
 
 1. Desenvolver el lápiz de Surface Hub 2 y adjuntarlo de forma magnética a tu lado preferido del dispositivo.
 2. Extraiga la lente aferrarnos de la cámara y adjúntela al puerto USB-C en la parte superior de la Surface Hub 2S.

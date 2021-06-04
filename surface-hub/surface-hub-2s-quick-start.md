@@ -20,7 +20,7 @@ ms.locfileid: "10835337"
 ---
 # Inicio rápido de Surface Hub 2S
 
-## Desempaquetar 2 de Surface Hub
+##  <a name="unpack-surface-hub-2s"></a>Desempaquetar 2 de Surface Hub
 
 1. Use los controladores de cada lado del cuadro para moverlo al espacio donde lo configurará.
 2. Antes de la apertura, quite los clips (4) de la parte frontal y trasera, y, a continuación, levante la parte superior del cuadro con los controladores.
@@ -29,7 +29,7 @@ ms.locfileid: "10835337"
 
 Vea este vídeo para obtener más información sobre cómo aplicar la [conversión unboxing y la configuración](https://youtu.be/fCrxdNXvru4).
 
-## Instalar y ajustar el lápiz
+##  <a name="install-and-adjust-pen"></a>Instalar y ajustar el lápiz
 
 1. Adjunte magnéticamente el lápiz del concentrador 2 a su cara preferida del dispositivo.
 
@@ -39,11 +39,11 @@ Vea este vídeo para obtener más información sobre cómo aplicar la [conversi�
 
 ![* Ajustar el control deslizante para cambiar la presión del lápiz *](images/sh2-pen-pressure.png) <br>
 
-## Instalar cámara
+##  <a name="install-camera"></a>Instalar cámara
 
 Extraiga la lente aferrarnos de la cámara y adjúntela al puerto USB-C en la parte superior de la Surface Hub 2S.
 
-## Iniciar Surface Hub 2S
+##  <a name="start-surface-hub-2s"></a>Iniciar Surface Hub 2S
 
 1. Inserte el cable de alimentación en la parte trasera del dispositivo y conéctelo a una toma de corriente. Ejecuta el cable a través de cualquier guía de cable de la solución de montaje y quita el Clang de la pantalla.
 2. Para empezar, presione el botón de encendido de la parte inferior derecha.

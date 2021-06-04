@@ -24,11 +24,11 @@ ms.locfileid: "11271384"
 
 Para mantener la conexión con la duración de la batería de todo el día, los dispositivos Surface implementan configuraciones de conectividad inalámbrica que equilibra el rendimiento y la alimentación. Fuera de los escenarios de movilidad más exigentes, los usuarios pueden mantener suficiente conectividad inalámbrica sin modificar el adaptador de red predeterminado o la configuración relacionada. Esta página resalta las consideraciones clave de conectividad inalámbrica en escenarios móviles con los dispositivos Surface más recientes, como Surface Pro 7+, Surface Laptop Go, Surface Go 2, Surface Pro X, Surface Laptop 3, Surface Book 3 y Surface Pro 7.
 
-## Requisitos previos
+##  <a name="prerequisites"></a>Requisitos previos
 
 En este documento se supone que has implementado correctamente una red inalámbrica compatible con 802.11n (Wi-Fi 4) o posterior de acuerdo con las recomendaciones de prácticas recomendadas de los principales proveedores de equipos.
 
-## Configuración de puntos de acceso para unas capacidades de movilidad óptimas
+##  <a name="configuring-access-points-for-optimal-roaming-capabilities"></a>Configuración de puntos de acceso para unas capacidades de movilidad óptimas
 
 Si administras una red inalámbrica a la que normalmente acceden muchos tipos diferentes de dispositivos cliente, se recomienda habilitar protocolos específicos en puntos de acceso (PUNTOS de acceso) en tu WLAN, como se describe en [Fast Roaming con 802.11k, 802.11v y 802.11r.](https://docs.microsoft.com/windows-hardware/drivers/network/fast-roaming-with-802-11k--802-11v--and-802-11r) Los dispositivos Surface pueden aprovechar los siguientes protocolos inalámbricos:
 
@@ -37,18 +37,18 @@ Si administras una red inalámbrica a la que normalmente acceden muchos tipos di
 
 Los dispositivos Surface específicos también pueden usar "Fotogramas de administración de transición BSS" de 802.11v, que funciona de forma muy parecido a 802.11k para proporcionar información sobre los ap candidatos cercanos. Estos incluyen Surface Pro 7+, Surface Go, Surface Go 2, Surface Pro 7, Surface Pro X y Surface Laptop 3. 
 
-## Administración de la configuración de usuario
+##  <a name="managing-user-settings"></a>Administración de la configuración de usuario
 
 Puedes lograr capacidades de movilidad óptimas a través de una red bien diseñada que admite 802.11r y 802.11k en todos los puntos de acceso. Asegurarse de que la red está configurada correctamente para proporcionar a los usuarios la mejor experiencia inalámbrica es el enfoque recomendado frente a intentar administrar la configuración de usuario en dispositivos individuales. 
 
-### Configuración de usuario recomendada y procedimientos recomendados
+###  <a name="recommended-user-settings-and-best-practices"></a>Configuración de usuario recomendada y procedimientos recomendados
 
 En determinadas situaciones, la modificación de la configuración avanzada del adaptador de red integrada en dispositivos Surface puede facilitar una conexión más confiable. No obstante, tenga en cuenta que la incapacidad de conectarse a recursos inalámbricos suele deberse a un problema de punto de acceso, un error de diseño de red o un problema del sitio del entorno.
 
 > [!NOTE]
 > La forma en que mantienes Surface Pro o Surface Go también puede afectar a la intensidad de la señal. Si está experimentando una pérdida de ancho de banda, compruebe que no está manteniendo la parte superior de la pantalla, donde se encuentra el receptor de Wi-Fi de radio. Aunque mantener la parte superior de la pantalla no bloquea las señales inalámbricas, puede desencadenar que el controlador del dispositivo inicie cambios que reduzcan la conectividad.
 
-### Mantener la configuración predeterminada de Auto para la funcionalidad de ancho de banda dual
+###  <a name="keep-default-auto-setting-for-dual-bandwidth-capability"></a>Mantener la configuración predeterminada de Auto para la funcionalidad de ancho de banda dual
 
 En la mayoría de los dispositivos Surface, puedes configurar las opciones del adaptador de red de cliente para que solo se conecten a puntos de acceso inalámbricos a más de 5 gigahercios (GHz), solo conectarse a más de 2,4 GHz o permitir que el sistema operativo elija la mejor opción (configuración automática predeterminada).
 
@@ -69,7 +69,7 @@ Tenga en cuenta que 2,4 GHz tiene algunas ventajas sobre 5 GHz: se extiende aún
 
 También puede alternar la configuración de banda según sea necesario para adaptarse a su entorno. Por ejemplo, los usuarios que viven en edificios de departamentos de alta densidad con varias zonas de acceso Wi-Fi (evitar la presencia de dispositivos de consumo en todas las transmisiones a través de 2,4 GHz) probablemente se beneficiarán configurando su dispositivo Surface para conectarse solo a 5 GHz y, a continuación, revertir a Auto cuando sea necesario.
 
-### Configuración de agresividad de movilidad en dispositivos Surface con adaptadores Intel 
+###  <a name="roaming-aggressiveness-settings-on-surface-devices-with-intel-adapters"></a>Configuración de agresividad de movilidad en dispositivos Surface con adaptadores Intel 
 
 Es posible que los usuarios deseen seleccionar un umbral de intensidad de señal que pida al dispositivo que busque un nuevo punto de acceso cuando la señal caiga (agresividad de movilidad). De manera predeterminada, los dispositivos Surface con adaptadores Intel intentan tracción a un nuevo punto de acceso si la intensidad de la señal cae por debajo de **Medium** (72 por ciento de intensidad de señal). Ten en cuenta también que las organizaciones pueden implementar protocolos inalámbricos creados a propósito en varios puntos de acceso de red para facilitar la movilidad de entornos de red congestionados, como se explicó anteriormente en esta página. 
 
@@ -86,7 +86,7 @@ Se recomienda dejar la configuración de agresividad de movilidad en el estado p
 
 ![* Configuración de agresividad de movilidad-Intel *](images/wifi-roaming-int.png) <br>
 
-### Configuración de agresividad de movilidad en Surface Go y Surface Pro X
+###  <a name="roaming-aggressiveness-settings-on-surface-go-and-surface-pro-x"></a>Configuración de agresividad de movilidad en Surface Go y Surface Pro X
 
 Es posible que los trabajadores de primera línea que usan Surface Go deseen seleccionar un umbral de intensidad de señal que pida al dispositivo que busque un nuevo punto de acceso cuando la intensidad de señal disminuye (agresividad de movilidad). De forma predeterminada, los dispositivos Surface intentan llegar a un nuevo punto de acceso si la intensidad de la señal cae por debajo de **Medium** (50 por ciento de intensidad de señal). Ten en cuenta que siempre que aumentas la agresividad de movilidad, aceleras el consumo de energía de la batería.
 
@@ -102,6 +102,6 @@ Deje la configuración de agresividad de movilidad en el estado predeterminado a
 ![* Configuración de agresividad de movilidad-QualComm *](images/wifi-roaming.png) <br>
 
 
-## Conclusión
+##  <a name="conclusion"></a>Conclusión
 
 Los dispositivos Surface están diseñados con la configuración predeterminada para una conectividad inalámbrica óptima equilibrada junto con la necesidad de conservar la duración de la batería. La forma más eficaz de habilitar una conectividad confiable para dispositivos Surface es a través de una red bien diseñada que admite 802.11r y 802.11k. Los usuarios pueden ajustar la configuración del adaptador de red o la agresividad de movilidad, pero solo deben hacerlo en respuesta a factores específicos del entorno y volver al estado predeterminado si no hay ninguna mejora notable.

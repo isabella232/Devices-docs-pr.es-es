@@ -23,7 +23,7 @@ ms.locfileid: "11271404"
 
 Los dispositivos Surface están diseñados para aprovechar los últimos avances en el consumo de energía de dispositivos móviles para ofrecer una experiencia optimizada en todas las cargas de trabajo. En función de lo que estés haciendo, Surface ajusta dinámicamente la forma en que fluye la energía a componentes de hardware individuales, activando momentáneamente los componentes del sistema para controlar las tareas en segundo plano , como un correo electrónico entrante o el tráfico de red, antes de volver a un estado inactivo de bajo consumo (S0ix).
 
-## Resumen de recomendaciones para administradores de TI
+##  <a name="summary"></a>Resumen de recomendaciones para administradores de TI
 
 Para garantizar que los dispositivos Surface de toda la organización se beneficien completamente de las características de optimización de energía de Surface:
 
@@ -71,7 +71,7 @@ Surface integra las siguientes características diseñadas para ayudar a los usu
 
 Surface está diseñado para una experiencia de administración de energía optimizada que elimina la necesidad de crear planes de energía personalizados o configurar manualmente las opciones de energía. Microsoft simplifica la experiencia del usuario al ofrecer un único plan de energía (equilibrado) que reemplaza los planes de energía múltiples de las compilaciones estándar de Windows.
 
-### Interfaz de usuario de configuración de energía simplificada
+###  <a name="user-interface"></a>Interfaz de usuario de configuración de energía simplificada
 
 Surface proporciona una interfaz de usuario simplificada de acuerdo con las recomendaciones de configuración de energía de prácticas recomendadas. En general, se recomienda ajustar solo la configuración visible en la interfaz de usuario predeterminada y evitar la configuración avanzada de energía o la configuración de directiva de grupo. Usar los tiempos de espera predeterminados de pantalla y de suspensión a la vez que se evitan los niveles máximos de brillo son las formas más eficaces para que los usuarios mantengan una mayor duración de la batería.
 
@@ -128,7 +128,7 @@ Para obtener más información, consulte:
 | Comprobar el uso de la aplicación | Tus aplicaciones | Cierra aplicaciones.|
 | Compruebe si hay daños en el cable de alimentación.| Cable de alimentación | Reemplace el cable de alimentación si se daña o se daña.|
 
-## Más información 
+##  <a name="learn-more"></a>Más información 
 
 - [Espera moderna](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources)
 

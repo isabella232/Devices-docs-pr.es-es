@@ -32,7 +32,7 @@ La herramienta de código empaquetado abierto basado en scripts aprovecha el Win
 
 La imagen resultante se ajusta estrechamente a la configuración de las imágenes de recuperación de equipos integrados (BMR), sin necesidad de aplicaciones preinstaladas, como Microsoft Office o la aplicación Surface para UWP.
 
-## Requisitos
+##  <a name="requirements"></a>Requisitos
 
 1. Una unidad USB con un tamaño mínimo de 16 GB. El disco USB tendrá el formato.
 2. Un archivo. ISO con Windows 10 Pro o Windows 10 Enterprise. La herramienta de creación de medios se puede usar para descargar Windows 10 y crear un archivo. ISO. Para obtener más información, consulta [Descargar Windows 10](https://www.microsoft.com/software-download/windows10).
@@ -40,7 +40,7 @@ La imagen resultante se ajusta estrechamente a la configuración de las imágene
 
 Consulte la sección [requisitos previos](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#prerequisites) del documento Léame para obtener una lista detallada de los requisitos.
 
-## Cómo ejecutar el SDA
+##  <a name="how-to-run-the-sda"></a>Cómo ejecutar el SDA
 
 **Para ejecutar SDA:**
 
@@ -75,7 +75,7 @@ Consulte la sección [requisitos previos](https://github.com/microsoft/SurfaceDe
 > [!IMPORTANT]
 > Iniciar desde la unidad USB iniciará inmediatamente la instalación de Windows 10. Asegúrese de que el dispositivo está listo antes de insertar el USB y reiniciar. 
 
-## Vínculos relacionados
+##  <a name="related-links"></a>Vínculos relacionados
 
  - [Herramienta de implementación de imagen de Open Source Publicada en GitHub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/open-source-image-deployment-tool-released-on-github/ba-p/1314115)
  - [Descargar e instalar Windows ADK](https://docs.microsoft.com/windows-hardware/get-started/adk-install)

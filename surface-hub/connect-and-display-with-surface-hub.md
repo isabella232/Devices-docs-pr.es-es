@@ -248,11 +248,11 @@ Si el equipo que usas para el modo Invitado no es compatible con touchback e ink
 
 En el modo Equipo de reemplazo, el equipo integrado de Surface Hub se apaga y se conecta un equipo externo a Surface Hub. Las conexiones con los puertos del equipo de reemplazo dan acceso a dispositivos periféricos clave de Surface Hub, lo que incluye la pantalla, el lápiz y las características táctiles. Esto significa que tu Surface Hub no tendrá el beneficio de la experiencia del Equipo de Windows, pero tendrás la flexibilidad que ofrecen el proporcionar y el administrar su propio equipo Windows.
 
-### Requisitos de software
+###  <a name="requirements"></a>Requisitos de software
 
 Surface Hub puede ejecutarse en modo Equipo de reemplazo con las versiones de 64 bits de Windows10 Home, Windows10 Pro y Windows10 Enterprise. Puedes descargar el [paquete de controladores de PC de reemplazo para Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) desde el Centro de descarga de Microsoft. Te recomendamos que instales a estos controladores en cualquier equipo que vayas a usar como equipo de reemplazo.
 
-### Requisitos de hardware
+###  <a name="requirements"></a>Requisitos de hardware
 
 Surface Hub es compatible con una gran variedad de hardware. Elige la confirmación del procesador y la memoria para el equipo de reemplazo, de forma que admita los programas que usarás. El hardware del equipo de reemplazo debe admitir las versiones de 64 bits de Windows10.
 

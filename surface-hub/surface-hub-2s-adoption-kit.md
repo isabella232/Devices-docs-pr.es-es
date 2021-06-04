@@ -22,15 +22,15 @@ ms.locfileid: "10835770"
 
 Ya sea que sea una empresa pequeña o grande, un plan de adopción de Surface Hub es fundamental para generar los casos de uso correctos y ayudar a los usuarios a sentirse cómodos con el dispositivo. Consulte estas guías descargables diseñadas para ayudarle a ofrecer formación en toda la organización.
 
-## Formación a petición
+##  <a name="on-demand-training"></a>Formación a petición
 
 - [Vídeos de adopción y formación de Surface Hub 2S](surface-hub-2s-adoption-videos.md)
 
-## Kit de herramientas de adopción
+##  <a name="adoption-toolkit"></a>Kit de herramientas de adopción
 
 - [Kit de herramientas de adopción de Surface Hub](downloads/SurfaceHubAdoptionToolKit.pdf)
 
-## Guías de aprendizaje
+##  <a name="training-guides"></a>Guías de aprendizaje
 
 - [Guía de aprendizaje: usuario final](downloads/TrainingGuide-SurfaceHub2S-EndUser.pdf)
 - [Guía de aprendizaje: usuario avanzado](downloads/TrainingGuide-SurfaceHub2S-PowerUser.pdf)
@@ -39,7 +39,7 @@ Ya sea que sea una empresa pequeña o grande, un plan de adopción de Surface Hu
 
 [Descargar todas las guías de aprendizaje](https://download.microsoft.com/download/2/2/3/2234F70E-E65A-4790-93DF-F4C373A75B8E/SurfaceHub2S-TrainerGuides-July2019.zip)
 
-## Guías para el usuario final
+##  <a name="end-user-guides"></a>Guías para el usuario final
 
 - [Guía para la navegación en Surface Hub](downloads/Guide-SurfaceHub2S-Navigation.pptx)
 - [Guía de Office 365 en Surface Hub](downloads/Guide-SurfaceHub2S-Office365.pptx)
@@ -48,7 +48,7 @@ Ya sea que sea una empresa pequeña o grande, un plan de adopción de Surface Hu
 
 [Descargar todas las guías para el usuario final](https://download.microsoft.com/download/E/7/F/E7FC6611-BB55-43E1-AF36-7BD5CE6E0FE0/SurfaceHub2S-EndUserGuides-July2019.zip)
 
-## Tarjetas de referencia rápida
+##  <a name="quick-reference-cards"></a>Tarjetas de referencia rápida
 
 - [Conectar el equipo](downloads/QRCConnectYourPC.pdf) 
 - [Unirse a una reunión de Teams](downloads/QRCJoinTeamsMeeting.pdf)

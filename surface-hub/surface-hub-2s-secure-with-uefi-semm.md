@@ -43,11 +43,11 @@ Use el configurador UEFI de Microsoft Surface para activar o desactivar los sigu
     - Arranque
     - Fecha y hora
 
-## Crear imagen de configuración UEFI
+##  <a name="create-uefi-configuration-image"></a>Crear imagen de configuración UEFI
 
 A diferencia de otros dispositivos de Surface, no puede usar un archivo MSI o una imagen Win PE para aplicar esta configuración en Surface Hub 2S. En su lugar, debe crear una imagen USB para cargarla en el dispositivo. Para crear una imagen de configuración UEFI de Surface Hub 2S, descargue e instale la última versión del configurador Microsoft Surface UEFI desde la página [herramientas de Surface para ti](https://www.microsoft.com/download/details.aspx?id=46703) del centro de descarga de Microsoft. Para obtener más información sobre el uso de UEFI y SEMM, consulte [modo de administración de Microsoft Surface Enterprise](https://docs.microsoft.com/surface/surface-enterprise-management-mode).
 
-## Para configurar UEFI en Surface Hub 2S
+##  <a name="to-configure-uefi-on-surface-hub-2s"></a>Para configurar UEFI en Surface Hub 2S
 
 1. Inicie el configurador UEFI y, en la primera pantalla, elija **paquete de configuración**.<br><br>
 ![* Inicie el configurador UEFI y seleccione paquete de configuración *](images/sh2-uefi1.png) <br> <br>
@@ -68,6 +68,6 @@ A diferencia de otros dispositivos de Surface, no puede usar un archivo MSI o un
 9. Una vez que se haya creado el paquete correctamente, el configurador mostrará los dos últimos caracteres de la huella digital de su certificado. Estos caracteres se necesitan al importar a la configuración a Surface Hub 2S.<br>
 ![* Configuración correcta del paquete *](images/sh2-uefi10.png) <br>
 
-## Para arrancar en UEFI
+##  <a name="to-boot-into-uefi"></a>Para arrancar en UEFI
 
 Desactiva Surface Hub 2S. Mantén pulsado el botón **subir el volumen** y pulsa el botón de **encendido** . Mantenga pulsado el botón subir el volumen hasta que aparezca el menú UEFI.

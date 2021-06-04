@@ -28,7 +28,7 @@ ms.locfileid: "11271544"
 ---
 # Compatibilidad con Surface
 
-### Antes de ponerse en contacto con nosotros:  
+###  <a name="before-you-contact-us"></a>Antes de ponerse en contacto con nosotros:  
 
 Ejecuta [Surface Diagnostic Toolkit para empresas](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business) (SDT). La SDT permite a los administradores de TI investigar, solucionar problemas y resolver problemas de hardware, software y firmware rápidamente con dispositivos Surface. Puedes ejecutar una serie de pruebas de diagnóstico y reparaciones de software, además de obtener información sobre el estado del dispositivo y instrucciones para resolver problemas. 
 
@@ -52,7 +52,7 @@ Para los clientes premier de Microsoft: [envíe su solicitud de servicio en el C
 
 ## [Compatibilidad en la tienda](#tab/instore)
 
-## China, India
+##  <a name="china,-india"></a>China, India
 
 Realiza una cita en un Centro de Walk-In Surface para ayudar a resolver el problema:
 

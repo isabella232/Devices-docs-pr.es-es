@@ -28,7 +28,7 @@ En este artículo se proporcionan instrucciones y respuestas para ayudarle a rea
 
 La implementación de red en dispositivos Surface puede suponer algunos retos únicos para los administradores del sistema. Debido a la falta de un adaptador Ethernet nativo con cable, los administradores deben proporcionar conectividad a través de un adaptador Ethernet extraíble.
 
-## Seleccionar un adaptador Ethernet para dispositivos Surface
+##  <a name="select-an-ethernet-adapter-for-surface-devices"></a>Seleccionar un adaptador Ethernet para dispositivos Surface
 
 
 Antes de que puedas abordar los problemas de cómo arrancará en el entorno de implementación o cómo la solución de implementación reconocerá los dispositivos, tienes que usar un adaptador de red con cable.
@@ -53,7 +53,7 @@ Los dispositivos Ethernet siguientes son compatibles con el arranque de red con 
 
 También se admiten adaptadores Ethernet de terceros para la implementación de red, aunque no son compatibles con el arranque PXE. Para usar un adaptador Ethernet de terceros, debes cargar los controladores en la imagen de arranque de implementación y debe iniciar esa imagen de arranque desde un dispositivo de almacenamiento independiente, como un stick USB.
 
-## Arrancar dispositivos Surface desde la red
+##  <a name="boot-surface-devices-from-the-network"></a>Arrancar dispositivos Surface desde la red
 
 Para arrancar desde la red o un stick USB conectado, debes indicar al dispositivo Surface que arranque desde un dispositivo de arranque alternativo. Puedes modificar el orden de arranque en el firmware del sistema para dar prioridad a los dispositivos de arranque USB, o bien puede indicarle que arranque desde un dispositivo de arranque alternativo durante el proceso de arranque.
 

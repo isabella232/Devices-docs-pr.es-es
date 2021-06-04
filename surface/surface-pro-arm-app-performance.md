@@ -44,7 +44,7 @@ Ten en cuenta que las aplicaciones se ejecutan de manera diferente en equipos Wi
 - **No se puede instalar algún software antivirus de terceros**. No podrá instalar un software antivirus de terceros en un equipo con Windows 10 ARM. Sin embargo, la seguridad de Windows le ayudará a mantener el ciclo de vida admitido de su dispositivo Windows 10.
 - **Fax y escáner de Windows no está disponible**. Esta característica no está disponible en un equipo con Windows 10 ARM.
 
-## Asegurar la aplicación
+##  <a name="app-assure"></a>Asegurar la aplicación
 
 Microsoft se compromete a garantizar que los clientes tengan una excelente experiencia de compatibilidad con Windows 10 en dispositivos ARM64, como la X de Surface Pro. Hemos ampliado el programa de la aplicación para garantizar que los clientes que encuentren desafíos de compatibilidad de la aplicación ofrezcan a los ingenieros que solucionen problemas y ofrezcan correcciones de la aplicación; todo ello sin costo adicional. El servicio está disponible para los clientes comerciales y de EDU de la LOB, ISV y las aplicaciones de Microsoft de terceros destinados a Windows 10 en ARM64. 
 

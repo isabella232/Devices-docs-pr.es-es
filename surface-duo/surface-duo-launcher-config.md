@@ -27,7 +27,7 @@ ms.locfileid: "11326309"
 
 Surface Duo es compatible con Microsoft Selector para empresas, una aplicación Android que permite a los usuarios personalizar su teléfono, mantenerse organizados en cualquier lugar y sincronizar sin problemas su calendario, tarea, notas y mucho más entre dispositivos móviles y sus equipos. De hecho, el iniciador de Surface Duo es una versión personalizada de Dos pantallas de Microsoft Selector que puedes ajustar para definir las experiencias preferidas en los dispositivos totalmente administrados para tu organización, así como permitir a los usuarios algunas opciones personalizar sus experiencias en estos dispositivos corporativos. Por ejemplo, puedes seleccionar qué aplicaciones quieres anclar a la pantalla principal, implementar un fondo de pantalla de marca u ocultar una barra de búsqueda mientras permites a los usuarios habilitar la barra de búsqueda si lo deseas.
 
-## Configuración Selector Microsoft
+##  <a name="microsoft-launcher-settings"></a>Configuración Selector Microsoft
 
 Microsoft Selector incluye la siguiente configuración para personalizar la experiencia del usuario final:
 

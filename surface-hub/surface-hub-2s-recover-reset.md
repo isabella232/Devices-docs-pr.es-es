@@ -24,7 +24,7 @@ Si tienes problemas con Surface Hub 2S, puedes restablecer la configuración de 
 
 Para empezar, inicia sesión en Surface Hub 2S con credenciales de administrador, abre la aplicación Configuración, selecciona Actualizar & seguridad y, **a**continuación, selecciona **Recuperación.** ****
 
-## Restablecer el dispositivo
+##  <a name="reset-the-device"></a>Restablecer el dispositivo
 
    > [!IMPORTANT]
    > Asegúrate de que tienes la clave de BitLocker disponible antes de restablecer el dispositivo, ya que se te pedirá más adelante. Para obtener más información, consulta [Guardar la clave de BitLocker.](save-bitlocker-key-surface-hub.md)
@@ -44,11 +44,11 @@ Para empezar, inicia sesión en Surface Hub 2S con credenciales de administrador
    > ![*Restablecer y recuperar Surface Hub 2S*](images/sh2-reset.png)
    <br/>*Figura 1. Restablecimiento y recuperación de Surface Hub 2S* 
 
-## Recuperar Surface Hub 2S mediante una unidad de recuperación USB
+##  <a name="recover-surface-hub-2s-by-using-a-usb-recovery-drive"></a>Recuperar Surface Hub 2S mediante una unidad de recuperación USB
 
 Nuevo en Surface Hub 2S, ahora puedes reinstalar el dispositivo mediante una imagen de recuperación.
 
-### Recuperación desde una unidad USB
+###  <a name="recovery-from-a-usb-drive"></a>Recuperación desde una unidad USB
 
 Con Surface Hub 2S, puedes reinstalar el dispositivo mediante una imagen de recuperación. Al hacerlo, puedes reinstalar el dispositivo en la configuración de fábrica si has perdido la clave de BitLocker o si ya no tienes credenciales de administrador en la aplicación Configuración.
 
@@ -90,6 +90,6 @@ Con Surface Hub 2S, puedes reinstalar el dispositivo mediante una imagen de recu
 
 Cuando aparezca la pantalla de configuración por primera vez, quita la unidad USB.
 
-## Contactar con el soporte técnico
+##  <a name="contact-support"></a>Contactar con el soporte técnico
 
 Si tiene preguntas o necesita ayuda, puede crear [una solicitud de soporte técnico.](https://support.microsoft.com/supportforbusiness/productselection)

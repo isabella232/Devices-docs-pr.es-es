@@ -26,25 +26,25 @@ Surface Hub es un dispositivo de colaboración que se ha diseñado para que lo u
 
 En este tema se explica qué restablece la opción **Terminar la sesión** para cada uno de estos estados.
 
-## Aplicaciones
+##  <a name="applications"></a>Aplicaciones
 Al iniciar aplicaciones en Surface Hub, estas se almacenan en la memoria y los datos se almacenan en el nivel de la aplicación. Estos datos están disponibles para todos los usuarios durante esa sesión (o reunión) hasta que se quitan o se sobrescriben. Cuando se selecciona **Terminar la sesión**, el estado de aplicación de Surface Hub se limpia mediante el cierre de aplicaciones, la eliminación del historial del navegador, el restablecimiento de las aplicaciones y la eliminación de los registros de Skype.
 
-### Cierre de aplicaciones
+###  <a name="close-applications"></a>Cierre de aplicaciones
 Surface Hub cierra todas las ventanas visibles, incluidas las aplicaciones Win32 y la Plataforma universal de Windows (UWP). La fase de cierre de aplicaciones usa la vista de multitarea para consultar las ventanas visibles. Las ventanas de Win32 que se cierran en un determinado período de tiempo se cierran mediante **TerminateProcess**. 
    
-### Eliminación del historial del navegador
+###  <a name="delete-browser-history"></a>Eliminación del historial del navegador
 Surface Hub usa la función Eliminar historial del explorador (DBH) de Edge para borrar el historial de Edge y los datos almacenados en caché. Esto es similar a la forma en la que un usuario puede borrar el historial de su navegador manualmente, pero **Terminar la sesión** también garantiza que los estados de las aplicaciones se borran y los datos se eliminan antes de que empiece la siguiente sesión o reunión. 
  
-### Restablecer las aplicaciones
+###  <a name="reset-applications"></a>Restablecer las aplicaciones
 **Terminar la sesión** restablece el estado de todas las aplicaciones instaladas en Surface Hub. El restablecimiento de una aplicación borra todas las tareas en segundo plano, los datos de las aplicaciones, las notificaciones y los cuadros de diálogo de consentimiento del usuario. Las aplicaciones vuelven a su estado de primera ejecución para las siguientes personas que usen Surface Hub.  
  
-### Eliminación de los registros de Skype
+###  <a name="remove-skype-logs"></a>Eliminación de los registros de Skype
 Skype no almacena información de identificación personal en Surface Hub. La información se almacena en el servicio de Skype para cumplir con las pautas existentes de Skype Empresarial. La información de registro local de Skype son los únicos datos que se quitan cuando se selecciona **Terminar la sesión**. Esto incluye los registros de la plataforma unificada de cliente de comunicaciones (UCCP) y los registros multimedia.   
 
-## Sistema operativo
+##  <a name="operating-system"></a>Sistema operativo
 El sistema operativo contiene una gran variedad de información sobre el estado de las sesiones que debe borrarse después de cada reunión de Surface Hub. 
 
-### Sistema de archivos
+###  <a name="file-system"></a>Sistema de archivos
 Los asistentes a la reunión tienen acceso a un conjunto limitado de directorios en Surface Hub. Cuando se selecciona **Terminar la sesión**, Surface Hub borra estos directorios:<br>
 - Música
 - Vídeos
@@ -61,13 +61,13 @@ Surface Hub, también borra estos directorios, dado que muchas aplicaciones a me
 - Vídeos públicos
 - Descargas públicas
 
-### Credenciales
+###  <a name="credentials"></a>Credenciales
 Las credenciales de usuario que se almacenan en **TokenBroker**, **PasswordVault** o el **Administrador de credenciales** se borran al pulsar **Terminar la sesión**.
 
-## Interfaz de usuario
+##  <a name="user-interface"></a>Interfaz de usuario
 Las opciones de configuración de la interfaz de usuario vuelven a sus valores predeterminados cuando se selecciona **Terminar la sesión**. 
 
-### Elementos de la interfaz de usuario
+###  <a name="ui-items"></a>Elementos de la interfaz de usuario
 - Restablecimiento de las acciones rápidas a su estado predeterminado
 - Borrado de las notificaciones del sistema
 - Restablecimiento de los niveles de volumen
@@ -75,7 +75,7 @@ Las opciones de configuración de la interfaz de usuario vuelven a sus valores p
 - Restablecer el diseño del modo de tableta
 - Cerrar la sesión del usuario en las reuniones y archivos de Office 365
 
-### Accesibilidad
+###  <a name="accessibility"></a>Accesibilidad
 Las características de accesibilidad y las aplicaciones se devuelven a la configuración predeterminada cuando se selecciona **Terminar la sesión**.
 - Teclas de filtro
 - Contraste alto
@@ -85,10 +85,10 @@ Las características de accesibilidad y las aplicaciones se devuelven a la confi
 - Lupa
 - Narrador
 
-### Portapapeles
+###  <a name="clipboard"></a>Portapapeles
 El portapapeles se borra para eliminar los datos copiados en él durante la sesión. 
 
-## Preguntas más frecuentes
+##  <a name="faq"></a>Preguntas más frecuentes
 **¿Qué sucede si olvido pulsar Terminar la sesión al final de una reunión y otra persona usa Surface Hub más adelante?**<br>
 Surface Hub solo limpia el contenido de las reuniones cuando los usuarios pulsan **Terminar la sesión**. Si abandonas la reunión sin pulsar **Terminar la sesión**, el dispositivo volverá a la pantalla de inicio de sesión transcurrido cierto tiempo. Desde la pantalla de inicio de sesión, los usuarios pueden reanudar la sesión anterior o iniciar una nueva. También puedes deshabilitar la posibilidad de reanudar la sesión si no se pulsa **Terminar la sesión**.
 

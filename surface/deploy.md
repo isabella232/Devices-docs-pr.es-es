@@ -23,7 +23,7 @@ ms.locfileid: "10835113"
 
 Más información sobre la implementación de dispositivos Surface basados en ARM e Intel.
 
-## Implementación de dispositivos basados en ARM
+##  <a name="deploying-arm-based-devices"></a>Implementación de dispositivos basados en ARM
 
 | Tema | Descripción |
 | --- | --- |
@@ -32,7 +32,7 @@ Más información sobre la implementación de dispositivos Surface basados en AR
 | [Compatibilidad de aplicaciones con equipos basados en Windows 10 ARM](surface-pro-arm-app-performance.md) | Revise la guía de compatibilidad de aplicaciones para Surface Pro X. |
 
 
-## Implementación de dispositivos basados en Intel 
+##  <a name="deploying-intel-based-devices"></a>Implementación de dispositivos basados en Intel 
 
 | Tema | Descripción |
 | --- | --- |
@@ -45,7 +45,7 @@ Más información sobre la implementación de dispositivos Surface basados en AR
 | [Acelerador de implementaciones de Surface](microsoft-surface-deployment-accelerator.md)| Descubra cómo el acelerador de implementación de Microsoft Surface ofrece un mecanismo de implementación rápido y sencillo para que las organizaciones representen dispositivos de Surface. |
 [Configuración del límite de batería](battery-limit.md) | Aprenda a usar el límite de la batería, una configuración de UEFI que cambia el modo en que se cobra la batería del dispositivo Surface y puede prolongar su longevidad.
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 [Blog de profesionales de TI de Surface](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
 

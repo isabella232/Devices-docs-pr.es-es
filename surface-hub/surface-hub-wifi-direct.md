@@ -26,13 +26,13 @@ En este artículo se describen las vulnerabilidades de seguridad de Wi-Fi Direct
 
 Las audiencias previstas para este artículo son administradores de ti y de redes que desean implementar Surface Hub en su entorno corporativo con una configuración de seguridad óptima.
 
-## Introducción
+##  <a name="introduction"></a>Introducción
 
 La seguridad de Surface Hub depende ampliamente de Wi-Fi Direct/Miracast y de los estándares asociados de 802,11, Wi-Fi Protected Access (WPA2) y de configuración protegida inalámbrica (WPS). Dado que el dispositivo solo es compatible con WPS (a diferencia de la clave previamente compartida de WPA2 o WPA2 Enterprise), los problemas que se suelen asociar con el cifrado de 802,11 se simplifican.
 
 Surface Hub funciona de su equivalente con el campo de los receptores Miracast. Por lo tanto, es vulnerable a un conjunto similar de exploits que todos los dispositivos de red inalámbrica basados en WPS. Pero la implementación de Surface Hub de WPS tiene precauciones adicionales integradas. Además, su arquitectura interna ayuda a evitar que un atacante que ha puesto en peligro la capa Wi-Fi Direct o Miracast pase la interfaz de red a otras superficies de ataque y redes empresariales conectadas.
 
-## Wi-Fi Direct en segundo plano
+##  <a name="wi-fi-direct-background"></a>Wi-Fi Direct en segundo plano
 
 Miracast forma parte del estándar de visualización de Wi-Fi, que es compatible con el protocolo Wi-Fi Direct. Estos estándares son compatibles con dispositivos móviles modernos para colaboración y uso compartido de pantalla.
 
@@ -46,7 +46,7 @@ En Wi-Fi Direct, los grupos se crean como uno de los siguientes tipos:
 
 Los grupos de Wi-Fi Direct determinan el propietario de un *Grupo* (ir) a través de un protocolo de negociación, que imita la funcionalidad "estación" o "punto de acceso" para el grupo de Wi-Fi Direct establecido. Wi-Fi Direct GO proporciona autenticación (a través de un "registrador interno") y facilita la transmisión de conexiones de red. Para Surface Hub, la negociación de este GO no se produce. La red solo funciona en modo "autónomo" y Surface Hub siempre es el propietario del grupo. Por último, Surface Hub no se une a otras redes Wi-Fi Direct como cliente.
 
-## Cómo afronta Surface Hub las vulnerabilidades de Wi-Fi Direct
+##  <a name="how-surface-hub-addresses-wi-fi-direct-vulnerabilities"></a>Cómo afronta Surface Hub las vulnerabilidades de Wi-Fi Direct
 
 **Vulnerabilidades y ataques en las invitaciones directas, la difusión y el proceso de detección de Wi-Fi:** Los ataques de Wi-Fi Direct/Miracast pueden dirigirse a debilidades en el establecimiento de grupos, detección de elementos de mismo nivel, difusión de dispositivo o procesos de invitación.
 
@@ -106,7 +106,7 @@ Los grupos de Wi-Fi Direct determinan el propietario de un *Grupo* (ir) a travé
 | --- | --- |
 | Al imitar o clonar el nombre inalámbrico o el "SSID" de la red de destino, un atacante puede engañar al usuario para que se conecte a una red falsa y malintencionada. Al permitir la combinación automática de Miracast sin autenticar, un atacante podría capturar los materiales de visualización previstos o lanzar ataques de red en el dispositivo de conexión. | Aunque no existen protecciones específicas contra la Unión a un Surface Hub imitado, esta vulnerabilidad se ha mitigado parcialmente de dos maneras. En primer lugar, cualquier potencial ataque debe producirse físicamente dentro del alcance Wi-Fi. En segundo lugar, este ataque solo es posible durante la primera conexión. Las conexiones posteriores usan un grupo de Wi-Fi Direct persistente y Windows recordará y establecerá la prioridad de esta conexión anterior durante el uso del concentrador. (Nota: no se consideró la suplantación de la dirección MAC, el canal Wi-Fi y el SSID al mismo tiempo para este informe y esto puede dar lugar a un comportamiento de Wi-Fi incoherente). En general, este punto débil es un problema fundamental para cualquier red inalámbrica de 802,11 que carezca de protocolos de WPA2 empresarial como EAP-TLS o EAP-PWD, que no es compatible con Wi-Fi Direct. |
 
-## Directrices de refuerzo de Surface Hub
+##  <a name="surface-hub-hardening-guidelines"></a>Directrices de refuerzo de Surface Hub
 
 Surface Hub está diseñado para facilitar la colaboración y permitir que los usuarios puedan iniciar o unirse a reuniones de una manera rápida y eficaz. La configuración predeterminada de Wi-Fi Direct para Surface Hub está optimizada para este escenario.
 
@@ -118,7 +118,7 @@ También se recomienda:
 - [Instalar actualizaciones normales del sistema](manage-windows-updates-for-surface-hub.md) 
 - Actualizar la configuración de Miracast para deshabilitar el modo de presentación automática
 
-## Más información
+##  <a name="learn-more"></a>Más información
 
 - [Especificaciones de Wi-Fi Direct](http://www.wi-fi.org/discover-wi-fi/wi-fi-direct)
 - [Especificación de Wireless Protected Setup (WPS)](http://www.wi-fi.org/discover-wi-fi/wi-fi-protected-setup)

@@ -34,7 +34,7 @@ Surface Duo tiene protección integrada en cada capa con hardware, firmware y so
 - **ATP de Microsoft Defender.** El antivirus de nivel empresarial y el software de protección contra malware para Windows 10 ahora está disponible para dispositivos Android administrados desde Intune. Para obtener más información, vea [ATP de Microsoft Defender para Android.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-android) 
 
 
-## Seguridad de administración de dispositivos móviles
+##  <a name="mobile-device-management-security"></a>Seguridad de administración de dispositivos móviles
 
 Surface Duo está protegido en un entorno corporativo con una solución de Administración de movilidad empresarial (EMM) que proporciona un conjunto coherente de herramientas de protección, tecnologías y procedimientos recomendados que puedes adaptar para satisfacer los requisitos de cumplimiento normativo y organizativo. Una amplia gama de API de administración ofrece a los departamentos de TI las herramientas para ayudar a evitar la fuga de datos y aplicar el cumplimiento en una variedad de escenarios. La compatibilidad con varios perfiles y las opciones de administración de dispositivos permiten la separación de datos personales y de trabajo, lo que ayuda a mantener la seguridad de los datos de la empresa.
 
@@ -43,13 +43,13 @@ La seguridad de MDM se basa en un conjunto en expansión de tecnologías de conf
 Por ejemplo, es posible que quieras reforzar la autenticación de dispositivos exigiendo a los usuarios que escriban una patilla alfanumérica de 6 dígitos junto con la autenticación de 2 factores.  es posible que desee restringir los dispositivos que los usuarios pueden inscribir para ayudar a garantizar que cumple con los límites de licencia o evitar conceder acceso a teléfonos "liberados" u otros tipos de dispositivos no compatibles.
 Intune y otros EMMs proporcionan a las organizaciones la flexibilidad para administrar dispositivos según sus necesidades.
 
-## Directivas de protección de aplicaciones
+##  <a name="app-protection-policies"></a>Directivas de protección de aplicaciones
 
 Las directivas de protección de aplicaciones (APP) son reglas que garantizan que los datos de una organización permanezcan seguros o contenidos en una aplicación administrada. Una directiva puede ser una regla que se aplica cuando el usuario intenta acceder o mover datos "corporativos", o un conjunto de acciones que están prohibidas o supervisadas cuando el usuario está dentro de la aplicación. Una aplicación administrada es una aplicación que tiene aplicadas directivas de protección de aplicaciones y que Intune puede administrar.
 
 Las directivas de protección de aplicaciones permiten administrar y proteger los datos de la organización dentro de una aplicación. Muchas aplicaciones de productividad, como las aplicaciones de Microsoft Office, se pueden administrar mediante Mam de Intune. Consulta la lista oficial de aplicaciones [protegidas de Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps) disponibles para uso público.
 
-## Consideraciones de seguridad para administrar Surface Duo
+##  <a name="security-considerations-for-managing-surface-duo"></a>Consideraciones de seguridad para administrar Surface Duo
 
 El creciente número de configuraciones de directivas disponibles en las soluciones de administración de dispositivos móviles permite a las organizaciones ajustar los niveles de protección para satisfacer sus necesidades específicas. Para ayudar a las organizaciones a priorizar la configuración de seguridad de Surface Duo (o cualquier otro dispositivo Android), Intune ha introducido su marco de configuración de seguridad de [Android Enterprise](https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework) organizado en varios escenarios de configuración distintos, lo que proporciona instrucciones para el perfil de trabajo y los escenarios totalmente administrados.
  

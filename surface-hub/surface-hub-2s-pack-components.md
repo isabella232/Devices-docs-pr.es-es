@@ -25,7 +25,7 @@ Si reemplaza Surface Hub 2S, uno de sus componentes o un accesorio relacionado, 
 >[!IMPORTANT]  
 >Cuando Empaquete el dispositivo para el envío, asegúrate de usar el embalaje en el que llegó el dispositivo de sustitución.  
 
-## Cómo empaquetar tu Surface Hub 2S 50 "
+##  <a name="how-to-pack-your-surface-hub-2s-50"></a>Cómo empaquetar tu Surface Hub 2S 50 "
 
 Use los siguientes pasos para empaquetar su Surface Hub 2S 50 "para el envío.
 
@@ -45,7 +45,7 @@ Use los siguientes pasos para empaquetar su Surface Hub 2S 50 "para el envío.
 | **11.** | Cierre las cuatro imágenes prediseñadas.                                                                                            | ![Cierre las cuatro imágenes prediseñadas.](images/surface-hub-2s-repack-13.png)|
 
 
-## Cómo reemplazar y empaquetar el cartucho de cómputo de Surface Hub 2
+##  <a name="how-to-replace-and-pack-your-surface-hub-2s-compute-cartridge"></a>Cómo reemplazar y empaquetar el cartucho de cómputo de Surface Hub 2
 
 Siga estos pasos para quitar el cartucho de cómputo de Surface Hub 2S, empaquetarlo para el envío e instalar el nuevo cartucho de proceso.<br>
     ![Imagen del cartucho de cálculo.](images/surface-hub-2s-replace-cartridge-1.png)
@@ -62,7 +62,7 @@ Siga estos pasos para quitar el cartucho de cómputo de Surface Hub 2S, empaquet
 | **8.**| Deslice el cartucho de reemplazo por la unidad.                                                                                          | ![Deslice el cartucho de reemplazo por la unidad.](images/surface-hub-2s-replace-cartridge-9.png) |
 | **9.**| Sujetar el tornillo de bloqueo y deslizar la portada en tu sitio                                                                                         | ![Sujeta el tornillo de bloqueo y desliza la portada en tu sitio.](images/surface-hub-2s-replace-cartridge-10.png) |
 
-## Cómo sustituir la cámara de Surface Hub 2S
+##  <a name="how-to-replace-your-surface-hub-2s-camera"></a>Cómo sustituir la cámara de Surface Hub 2S
 
 Siga estos pasos para quitar la cámara de Surface Hub 2S e instalar la nueva cámara.
 

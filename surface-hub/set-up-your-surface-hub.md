@@ -26,7 +26,7 @@ Las instrucciones de configuración para Surface Hub incluyen una hoja de cálcu
 
 Antes de encender Microsoft Surface Hub por primera vez, asegúrate de haber completado la lista de comprobación al final de la sección [Preparar el entorno para Surface Hub](prepare-your-environment-for-surface-hub.md) y de que se muestra la información en la [hoja de cálculo del programa de instalación](setup-worksheet-surface-hub.md). Al encenderlo, el dispositivo te guiará a través de una serie de pantallas de instalación. Si no has configurado correctamente el entorno o no tienes la información necesaria, tendrás que realizar trabajo adicional después para asegurarte de que la configuración sea correcta.
 
-## En esta sección:
+##  <a name="in-this-section"></a>En esta sección:
 
 
 <table>

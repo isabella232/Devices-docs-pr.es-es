@@ -44,14 +44,14 @@ En este artículo se proporciona un resumen de los escenarios donde una implemen
 
  
 
-## Escenario 1: Redes inalámbricas en OOBE con MDT 2013
+##  <a name="scenario-1:-wireless-networking-in-oobe-with-mdt-2013"></a>Escenario 1: Redes inalámbricas en OOBE con MDT 2013
 
 
 Cuando un adaptador de red inalámbrica está presente durante la configuración rápida, aparece la página **Unirse a una red inalámbrica**, que pide al usuario que se conecte a una red inalámbrica. Las tecnologías de implementación, como MDT 2013, no ocultan automáticamente esta página y, por lo tanto, se mostrará incluso cuando una implementación se configura para una automatización completa.
 
 Para garantizar que esta página no haya detenido una implementación automatizada, la página debe ocultarse mediante la configuración de una opción adicional en el archivo de respuesta **HideWirelessSetupInOOBE**. Puedes encontrar información adicional sobre la opción **HideWirelessSetupInOOBE** en la [Referencia de instalación desatendida de Windows](https://technet.microsoft.com/library/ff716213.aspx).
 
-## Escenario 2: Emparejamiento del Lápiz para Surface en OOBE
+##  <a name="scenario-2:-surface-pen-pairing-in-oobe"></a>Escenario 2: Emparejamiento del Lápiz para Surface en OOBE
 
 
 Cuando saques por primera vez tu Surface Pro 3, Surface Pro 4, Surface Book o Surface Studio del paquete y lo inicies, la experiencia de primera ejecución de la imagen de fábrica incluye un mensaje que te pide que emparejes con el dispositivo el Lápiz para Surface incluido. Este mensaje solo se proporciona en la imagen de fábrica que se incluye con el dispositivo y no está incluido en otras imágenes usadas para la implementación, como los medios de instalación de Windows Enterprise descargados del Centro de servicios de licencias por volumen. Dado que el emparejamiento del Lápiz para Surface Bluetooth fuera de esta experiencia requiere que vayas al Panel de control o a la Configuración de PC y emparejes manualmente un dispositivo Bluetooth, puede que quieras que los usuarios o un técnico usen este mensaje para realizar la operación de emparejamiento.

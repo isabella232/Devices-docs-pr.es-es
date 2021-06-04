@@ -29,7 +29,7 @@ ms.locfileid: "10893082"
 
 Estas son las soluciones de soporte técnico de Microsoft para problemas comunes que pueden surgir al usar dispositivos de Surface en una empresa. Si el problema no aparece aquí, es [posible](contact-surface-support.md?tabs=online)que se admita la superficie de contacto.
 
-## Drivers y firmware de Surface
+##  <a name="surface-drivers-and-firmware"></a>Drivers y firmware de Surface
 
 Microsoft publica periódicamente actualizaciones y soluciones para dispositivos Surface. Para garantizar que los dispositivos pueden recibir actualizaciones futuras, incluidas las actualizaciones de seguridad, es importante mantener los dispositivos Surface actualizados.
 
@@ -40,34 +40,34 @@ Microsoft publica periódicamente actualizaciones y soluciones para dispositivos
 - [Administrar las actualizaciones de controladores y firmware de Surface](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
 - [Cómo administrar las actualizaciones de los controladores de Surface en Configuration Manager](https://support.microsoft.com/help/4098906)
 
-## Problemas de los muelles de superficie
+##  <a name="surface-dock-issues"></a>Problemas de los muelles de superficie
 
 - [Solucionar problemas de Surface Dock y de las bases de acoplamiento](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
 - [Solucionar problemas de superficie de conexión a una segunda pantalla](https://support.microsoft.com/help/4023496)
 - [Actualización del firmware Microsoft Surface Dock](https://docs.microsoft.com/surface/surface-dock-updater)
 
-## Problemas de teclado o funda de dispositivo
+##  <a name="device-cover-or-keyboard-issues"></a>Problemas de teclado o funda de dispositivo
 
 - [Solucionar problemas de teclado o funda con teclado de Surface](https://www.microsoft.com/surface/support/hardware-and-drivers/troubleshoot-surface-keyboards)
 
-## Problemas de pantalla agrietada o arañada
+##  <a name="screen-cracked-or-scratched-issues"></a>Problemas de pantalla agrietada o arañada
 
 - [Contacta con el Soporte técnico de Surface](contact-surface-support.md?tabs=online)
 
-## Problemas de energía o batería
+##  <a name="surface-power-or-battery-issues"></a>Problemas de energía o batería
 
 - [Cómo cargar la superficie de carga (información de la alimentación de superficie)](https://support.microsoft.com/help/4023496)
 - [La batería de la superficie no se cargará o no se ejecutará con batería](https://support.microsoft.com/help/4023536)
 - [Surface no se enciende o no se reactiva desde el modo de suspensión](https://support.microsoft.com/help/4023537)
 - [Maximizar la duración de la batería de Surface](https://support.microsoft.com/help/4483194)
 
-## Restablecer dispositivo
+##  <a name="reset-device"></a>Restablecer dispositivo
 
 - [Crear y usar una unidad de recuperación USB para Surface](https://support.microsoft.com/help/4023512)
 - [Preguntas más frecuentes: proteger los datos si envía la superficie para el servicio](https://support.microsoft.com/help/4023508)
 - [Borrador de datos de Microsoft Surface](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
 
-## Problemas de implementación
+##  <a name="deployment-issues"></a>Problemas de implementación
 
 - [DISK0 no se encontró al implementar Windows en Surface pro modelo 1796 o portátil Surface](https://support.microsoft.com/help/4046108)
 - [Surface pro modelo 1796 y Surface portátil de 1 TB muestran dos unidades](https://support.microsoft.com/help/4046105)

@@ -102,7 +102,7 @@ SDT proporciona una amplia compatibilidad de diagnósticos compatibles con el re
 
 Según los registros, SDT genera un informe de problemas basados en el software y el firmware que puede guardar en una ubicación preferida.
 
-## Temas relacionados
+##  <a name="related-topics"></a>Temas relacionados
 
 - [Ejecutar el Kit de herramientas de diagnóstico de Surface para empresas con comandos](surface-diagnostic-toolkit-command-line.md)
 

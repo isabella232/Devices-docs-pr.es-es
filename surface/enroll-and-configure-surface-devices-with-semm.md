@@ -40,7 +40,7 @@ Ejecuta el archivo del Configurador de UEFI de Microsoft Surface para Windows In
 >[!NOTE]
 >El Configurador de UEFI de Microsoft Surface solo se admite en Windows 10.
 
-## Crear un paquete de configuración de LA UEFI de Surface
+##  <a name="create-a-surface-uefi-configuration-package"></a>Crear un paquete de configuración de LA UEFI de Surface
 
 El paquete de configuración de LA UEFI de Surface realiza el rol de aplicar una nueva configuración de la configuración de LA UEFI de Surface a un dispositivo Surface administrado con SEMM y el rol de inscribir dispositivos Surface en SEMM. La creación de un paquete de configuración requiere que tenga un certificado de firma que se usará con SEMM para proteger la configuración de las opciones de UEFI en cada dispositivo Surface. Para obtener más información sobre los requisitos para el certificado SEMM, consulta El modo de administración [de Microsoft Surface Enterprise.](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)
 
@@ -100,7 +100,7 @@ Ahora que has creado el paquete de configuración de LA UEFI de Surface, puedes 
 >[!NOTE]
 >Cuando se crea un paquete de configuración de UEFI de Surface, se crea un archivo de registro en el escritorio con detalles de las opciones y opciones del paquete de configuración.
 
-## Inscribir un dispositivo Surface en SEMM
+##  <a name="enroll-a-surface-device-in-semm"></a>Inscribir un dispositivo Surface en SEMM
 Cuando se ejecuta el paquete de configuración de LA UEFI de Surface, el certificado SEMM y los archivos de configuración de LA UEFI de Surface se ejecutan por fases en el almacenamiento de firmware del dispositivo Surface. Cuando el dispositivo Surface se reinicia, La UEFI de Surface procesa estos archivos y comienza el proceso de aplicar la configuración de la UEFI de Surface o inscribir el dispositivo Surface en SEMM, como se muestra en la figura 7.
 
 ![Proceso de SEMM para la configuración de la UEFI o la inscripción de Surface](images/surface-semm-enroll-fig7.png "SEMM process for configuration of Surface UEFI or enrollment")
@@ -143,7 +143,7 @@ También puedes comprobar que el dispositivo está inscrito en SEMM en la UEFI d
 *Figura 11. Página de administración de Surface UEFI Enterprise*
 
 
-## Configurar la UEFI de Surface con SEMM
+##  <a name="configure-surface-uefi-settings-with-semm"></a>Configurar la UEFI de Surface con SEMM
 
 Después de inscribir un dispositivo en SEMM, puedes ejecutar paquetes de configuración de UEFI de Surface firmados con el mismo certificado SEMM para aplicar nuevas opciones de configuración de LA UEFI de Surface. Esta configuración se aplica automáticamente la próxima vez que se inicia el dispositivo, sin ninguna interacción del usuario. Puedes usar soluciones de implementación de aplicaciones como Microsoft Endpoint Configuration Manager para implementar paquetes de configuración de LA UEFI de Surface en dispositivos Surface para cambiar o administrar la configuración en la UEFI de Surface.
 

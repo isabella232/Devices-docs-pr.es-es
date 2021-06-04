@@ -29,7 +29,7 @@ La siguiente ilustración muestra la ubicación de los puertos y los botones fí
 
  ![Vista frontal y inferior de las conexiones de e/s y los botones físicos](images/hub2s-schematic.png)
 
-## Referencia sobre el puerto y el componente de teclado
+##  <a name="port-and-keypad-component-reference"></a>Referencia sobre el puerto y el componente de teclado
 
 |**Key**|**Componente**|**Descripción**|**Parámetros clave**|
 |:--- |:--------- |:----------- |:-------------- |

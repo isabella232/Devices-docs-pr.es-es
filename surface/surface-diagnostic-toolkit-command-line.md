@@ -25,7 +25,7 @@ La ejecución de Surface Diagnostic Toolkit (SDT) en un símbolo del sistema req
 >[!NOTE]
 >Para ejecutar SDT mediante comandos, debes haber iniciado sesión en la cuenta de administrador o haber iniciado sesión en una cuenta que sea miembro del grupo Administrador en el dispositivo Surface.
 
-## Ejecución de la consola de la aplicación de SDT
+##  <a name="running-sdt-app-console"></a>Ejecución de la consola de la aplicación de SDT
 
 Descarga e instala la consola de la aplicación SDT desde la página de descarga de [Herramientas de Surface para TI.](https://www.microsoft.com/download/details.aspx?id=46703) Puedes usar el símbolo del sistema de Windows (cmd.exe) o Windows PowerShell para: 
 
@@ -49,7 +49,7 @@ Comando | Notas
 >[!NOTE]
 >Para ejecutar la consola de la aplicación SDT de forma remota en dispositivos de destino, puedes usar una herramienta de administración de configuración como Microsoft Endpoint Configuration Manager. Como alternativa, puedes crear un archivo .zip que contenga la aplicación de consola y los comandos de consola adecuados e implementar según los procesos de distribución de software de la organización. 
 
-## Ejecución del Analizador de procedimientos recomendados 
+##  <a name="running-best-practice-analyzer"></a>Ejecución del Analizador de procedimientos recomendados 
 
 Puedes ejecutar pruebas BPA en componentes clave como BitLocker, Arranque seguro y Módulo de plataforma segura (TPM) y, a continuación, generar los resultados en un archivo que se pueda compartir. La herramienta genera una serie de tablas con encabezados codificados por colores y descriptores de condición, junto con instrucciones sobre cómo abordar la resolución del problema. 
 
@@ -57,7 +57,7 @@ Puedes ejecutar pruebas BPA en componentes clave como BitLocker, Arranque seguro
 - Naranja indica que el componente no se está ejecutando en una condición óptima (no es óptima).
 - El color rojo indica que el componente está en un estado anómalo. 
 
-### Resultados de BPA de ejemplo
+###  <a name="sample-bpa-results-output"></a>Resultados de BPA de ejemplo
 
 <table>
 <tr><th colspan="2"><font color="00ff00">BitLocker</font></th></tr>

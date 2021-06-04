@@ -25,11 +25,11 @@ ms.locfileid: "11105420"
 
 El formulario de garantía y reclamación de servicio le permite enviar varias reclamaciones en una solicitud de servicio de Microsoft Surface, Microsoft Surface Hub, Microsoft HoloLens 2 y productos de Microsoft Azure Kinect.
 
-## Cuándo usar este formulario
+##  <a name="when-to-use-this-form"></a>Cuándo usar este formulario
 
 Use el formulario de garantía y reclamación de servicio cuando tenga que presentar una reclamación de garantía de hardware o solicitar un ajuste a la garantía.  
 
-## Cómo usar el formulario
+##  <a name="how-to-use-the-form"></a>Cómo usar el formulario
 
 1.  Descargue el formulario y seleccione Habilitar.
 2.  Escriba la información del producto:
@@ -67,13 +67,13 @@ Use el formulario de garantía y reclamación de servicio cuando tenga que prese
         1. Si solicita un ajuste de garantía, proporcione una declaración que deslinee la solicitud. Si no está solicitando un ajuste de garantía, deje este campo en blanco.
         2. Para agilizar el proceso, carga la prueba de hardware o la garantía de compra de hardware junto con tu solicitud.
 
-## Tarifas de servicio fuera de garantía
+##  <a name="out-of-warranty-service-fees"></a>Tarifas de servicio fuera de garantía
 
 Los abogados de soporte técnico asistido comunicarán las tarifas de no garantía de los productos de Surface Hub, HoloLens y Azure Kinect.
 
 Para obtener más información sobre las tarifas de servicio de no garantía, consulte [¿Cuánto cuesta el servicio de falta de garantía para su dispositivo Surface o accesorio?](https://support.microsoft.com/help/4563717)
 
-## Más información
+##  <a name="learn-more"></a>Más información
 
 Para obtener más información sobre el servicio para Surface, vea [Cómo obtener el servicio para Surface](https://support.microsoft.com/help/4023527/surface-how-to-get-service-for-surface).
 

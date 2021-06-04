@@ -22,7 +22,7 @@ ms.locfileid: "10836633"
 
 Surface Hub 2S proporciona una visualización en pantalla para el volumen, el brillo y el control de entrada. El botón de origen funciona como una tecla de alternancia para cambiar entre los menús volumen, brillo y control de entrada.
 
-## Para mostrar la visualización en pantalla
+##  <a name="to-show-the-on-screen-display"></a>Para mostrar la visualización en pantalla
 
 - Mantén pulsado el botón de **origen** durante 4 segundos.
 
@@ -30,16 +30,16 @@ Surface Hub 2S proporciona una visualización en pantalla para el volumen, el br
 
  Cuando la visualización en pantalla esté visible, use uno o más botones para tener acceso a la configuración deseada.
  
-## Para ajustar el volumen
+##  <a name="to-adjust-volume"></a>Para ajustar el volumen
 
 - Use el botón **subir o bajar** el volumen para aumentar o disminuir el volumen.
 
-## Para ajustar el brillo
+##  <a name="to-adjust-brightness"></a>Para ajustar el brillo
 
 1. Vuelva a presionar el botón **origen** para cambiar al menú brillo.
 2. Use el botón **subir o bajar de volumen** para aumentar o disminuir el brillo.
 
-## Para ajustar la entrada
+##  <a name="to-adjust-input"></a>Para ajustar la entrada
 
 1. Presione el botón **origen** dos veces para cambiar al menú origen.
 2. Use el botón **subir o bajar el volumen** para cambiar entre las entradas de PC, HDMI y USB-C.

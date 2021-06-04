@@ -29,7 +29,7 @@ El inicio de sesión sin contraseña simplifica el acceso a tus aplicaciones, re
 - [Habilitar el inicio de sesión con una clave de seguridad sin contraseñas](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
 
 
-## Configurar el inicio de sesión con la aplicación Microsoft Authenticator
+##  <a name="configure-sign-in-using-microsoft-authenticator-app"></a>Configurar el inicio de sesión con la aplicación Microsoft Authenticator
 
 **Nota:** A partir de la actualización de Windows 10 Team 2020, los usuarios pueden usar sus alias de correo electrónico preferidos en Azure AD, así como su nombre principal de usuario (UPN), para iniciar sesión con Microsoft Authenticator. Por ejemplo, un usuario puede usar su alias preferido (John.Doe@contoso.com) o su UPN (jdoe@contoso.com) para iniciar sesión.
  
@@ -43,7 +43,7 @@ La aplicación Microsoft Authenticator le ayuda a iniciar sesión en Surface Hub
 3. Desde la aplicación Microsoft Authenticator en su dispositivo móvil, [Active y use el inicio de sesión](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-sign-in#turn-on-and-use-phone-sign-in-for-your-work-or-school-account) para su cuenta profesional o educativa.
 
  
-## Configurar el inicio de sesión con las claves de seguridad de FIDO2
+##  <a name="configure-sign-in-using-fido2-security-keys"></a>Configurar el inicio de sesión con las claves de seguridad de FIDO2
 
 > [!NOTE]
 >  El inicio de sesión sin contraseñas en Surface Hub con claves de seguridad FIDO2 requiere la actualización de Windows 10 Team 2020.
@@ -53,7 +53,7 @@ La aplicación Microsoft Authenticator le ayuda a iniciar sesión en Surface Hub
  
 También puede iniciar sesión en Surface Hub con una clave de seguridad FIDO2 proporcionada por su organización. 
 
-### Para configurar el inicio de sesión con una clave de seguridad:
+###  <a name="to-configure-sign-in-using-a-security-key"></a>Para configurar el inicio de sesión con una clave de seguridad:
 
 
 1. En su equipo, vaya a la [https://myprofile.microsoft.com/](https://myprofile.microsoft.com/) página e inicie sesión con su cuenta profesional o educativa.
@@ -65,7 +65,7 @@ También puede iniciar sesión en Surface Hub con una clave de seguridad FIDO2 p
 7. En la página **clave de seguridad** , asigne un nombre a la clave de seguridad y, a continuación, seleccione **siguiente**.
 8. Seleccione **listo** para completar el proceso.
 
-## Iniciar sesión en Surface Hub
+##  <a name="sign-in-to-surface-hub"></a>Iniciar sesión en Surface Hub
 
 Una vez que haya configurado el inicio de sesión sin contraseñas, puede usarlo para facilitar el acceso a sus aplicaciones, reuniones y archivos en Surface Hub:
 
@@ -75,7 +75,7 @@ Una vez que haya configurado el inicio de sesión sin contraseñas, puede usarlo
 - Una vez que haya iniciado sesión en Surface Hub, puede usar otras aplicaciones sin tener que iniciar sesión de nuevo hasta que seleccione **finalizar sesión**. Al seleccionar **finalizar sesión** , se eliminan las credenciales, los archivos y los datos personales del dispositivo. Para obtener más información, consulte [finalizar sesión](finishing-your-surface-hub-meeting.md).
 
 
-## Obtén más información
+##  <a name="learn-more"></a>Obtén más información
 
 - [Opciones de autenticación no de contraseña para Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless)
 - [Inicio de sesión sin contraseña con la aplicación Microsoft Authenticator](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-phone)
