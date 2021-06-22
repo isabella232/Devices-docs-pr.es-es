@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 301a4b733ee477c1e9999dba84cd58283c02844f
-  ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+  ms.openlocfilehash: 021d30e782bc50e0c89fad6478c8e784234c768d
+  ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "11576830"
+  ms.lasthandoff: 06/22/2021
+  ms.locfileid: "11613929"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
@@ -36,9 +36,9 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Laptop de tecnología de 4 procesadores
+    - text: Información general técnica sobre los procesadores de Surface Laptop 4
       url: surface-laptop-processors.md
-    - text: Surface Headphones de tecnología 2+
+    - text: formación general técnica sobre Surface Headphones 2+
       url: surface-headphones.md
     - text: Windows Virtual Desktop en Surface
       url: windows-virtual-desktop-surface.md
@@ -86,10 +86,10 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Introducción a la seguridad de Surface
+      url: surface-security.md
     - text: Protección de DMA en dispositivos Surface
       url: dma-protect.md
-    - text: Puertos seguros de Surface Dock 2 con surface Enterprise management mode (SEMM)
-      url: secure-surface-dock-ports-semm.md
     - text: Herramienta Surface Data Eraser
       url: microsoft-surface-data-eraser.md
 - title: Detectar herramientas de Surface

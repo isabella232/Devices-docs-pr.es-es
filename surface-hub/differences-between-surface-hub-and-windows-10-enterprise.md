@@ -1,6 +1,6 @@
 ---
 title: Conceptos básicos del sistema operativo (Surface Hub)
-description: En este tema se explican aspectos únicos del sistema operativo Windows 10 Team y cómo difiere de Windows 10 Enterprise.
+description: En este tema se explican aspectos únicos del Windows 10 Team operativo y cómo difiere de Windows 10 Enterprise.
 keywords: historial de cambios
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,12 +11,12 @@ ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 9c76f9405146c5cda4afe6b46ce7e1cce0062682
-ms.sourcegitcommit: 88ce9e77afdc3d09984edc05286cd0f1eb054223
+ms.openlocfilehash: 54fe39fe35a63d27447fb0b4a01642f249475afc
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "11448304"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613819"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Conceptos básicos del sistema operativo (Surface Hub)
 
@@ -122,7 +122,7 @@ Las siguientes características de Surface Hub proporcionan seguridad adicional:
 
 *Directivas de la organización que esto puede afectar:* <br> Ten en cuenta las siguientes características al realizar la evaluación de seguridad de Surface Hub.
 
-Para obtener más información, consulta Introducción a la [seguridad de Surface Hub](surface-hub-security.md)
+Para obtener más información, vea [Surface Hub de seguridad](surface-hub-security.md)
 
 ## <a name="management"></a>Administración
 
@@ -138,13 +138,13 @@ Las características administrativas de Windows 10 Enterprise, como Microsoft Ma
 
 ### <a name="remote-management-and-monitoring"></a>Administración y supervisión remotas
 
-Surface Hub admite la administración remota a través de soluciones de administración de dispositivos móviles (MDM), como [Microsoft Intune](https://docs.microsoft.com/intune/) y supervisión a través de [Azure Monitor.](https://azure.microsoft.com/services/monitor/) 
+Surface Hub admite la administración remota a través de soluciones [](/mem/intune/) de administración de dispositivos móviles (MDM), como Microsoft Intune y supervisión a través [de Azure Monitor.](/azure/azure-monitor/) 
 
 *Directivas de la organización que esto puede afectar:* <br> Surface Hub no admite la instalación de los agentes de Win32 que requiere la mayoría de las herramientas de administración y supervisión de equipos tradicionales, como System Center Operations Manager.
 
 ### <a name="group-policy"></a>Directiva de grupo
 
-Surface Hub no admite la directiva de grupo de Windows, incluida la auditoría. En su lugar, usa MDM para aplicar directivas a Surface Hub. Para obtener más información sobre MDM, consulta [Administrar la configuración con un proveedor de MDM (Surface Hub)](manage-settings-with-mdm-for-surface-hub.md).
+Surface Hub no admite Windows de grupo, incluida la auditoría. En su lugar, usa MDM para aplicar directivas a Surface Hub. Para obtener más información sobre MDM, consulta [Administrar la configuración con un proveedor de MDM (Surface Hub)](manage-settings-with-mdm-for-surface-hub.md).
 
 *Directivas de la organización que esto puede afectar:* <br> Usa MDM para administrar Surface Hub en lugar de directivas de grupo.
 
@@ -158,7 +158,7 @@ Surface Hub no admite la asistencia remota.
 
 ### <a name="domain-join-and-azure-active-directory-azure-ad-join"></a>Unirse a un dominio y unirse Azure Active Directory (Azure AD) 
 
-Surface Hub usa la unión a un dominio y la unión a Azure AD principalmente para proporcionar un grupo de administradores respaldados por el directorio. Los usuarios no pueden iniciar sesión con una cuenta de dominio. Para obtener más información, consulta [Administración del grupo de administradores](admin-group-management-for-surface-hub.md).
+Surface Hub usa la unión a un dominio y la unión a Azure AD principalmente para proporcionar un grupo de administradores respaldados por el directorio. No se admite la combinación híbrida. Los usuarios no pueden iniciar sesión con una cuenta de dominio. Para obtener más información, consulta [Administración del grupo de administradores](admin-group-management-for-surface-hub.md).
 
 *Directivas de la organización que esto puede afectar:* <br> Las directivas de grupo no se aplican cuando un dispositivo Surface Hub está unido al dominio. Las directivas relacionadas con la pertenencia a un dominio no se aplican a Surface Hub.
 
