@@ -24,8 +24,7 @@
 
 ### [Compatibilidad de los dispositivos Surface con la Rama de mantenimiento a largo plazo de Windows 10](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Rama de mantenimiento a largo plazo para dispositivos Surface](ltsb-for-surface.md)
-### [Wake on LAN para dispositivos Surface](wake-on-lan-for-surface-devices.md)
-### [Consideraciones para Surface y Endpoint Configuration Manager](considerations-for-surface-and-system-center-configuration-manager.md)
+### [Consideraciones para Surface y Microsoft Endpoint Configuration Manager](considerations-for-surface-and-system-center-configuration-manager.md)
 ### [Implementar la aplicación Surface con Microsoft Store para Empresas](deploy-surface-app-with-windows-store-for-business.md)
 ### [Habilitar PEAP, EAP-FAST y Cisco LEAP en dispositivos Surface](enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md)
 ### [Adaptadores Ethernet e implementación de Surface](ethernet-adapters-and-surface-device-deployment.md)
@@ -57,10 +56,13 @@
 ### [Configuración del límite de batería](battery-limit.md)
 ### [Control de brillo de Surface](microsoft-surface-brightness-control.md)
 ### [Etiqueta de activo de Surface](assettag.md)
+### [Wake on LAN para dispositivos Surface](wake-on-lan-for-surface-devices.md)
+### [Wake on LAN con Surface Dock 2](wake-on-lan-surface-dock2.md)
 ### [Wake on Power para dispositivos Surface](wake-on-power-for-surface.md)
 
 ## Seguro
 
+### [Introducción a la seguridad de Surface](surface-security.md)
 ### [Administración de Intune de la configuración de la UEFI de Surface](surface-manage-dfci-guide.md)
 ### [Administrar la configuración de la UEFI de Surface](manage-surface-uefi-settings.md)
 ### [Características avanzadas de seguridad de UEFI para Surface Pro 3](advanced-uefi-security-features-for-surface-pro-3.md)
@@ -73,7 +75,6 @@
 ### [Protección de DMA para Surface](dma-protect.md)
 
 ## Solucionar problemas
-### [Contacta con el Soporte técnico de Surface](contact-surface-support.md)
 ### [Soluciones principales de soporte técnico para dispositivos Surface](support-solutions-surface.md)
 ### [Procedimientos recomendados para la eliminación de SSD en dispositivos Surface compatibles](surface-ssd-removal-guide.md)
 ### [Blog de profesionales de TI de Surface](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro)
@@ -83,10 +84,12 @@
 #### [Ejecutar el Kit de herramientas de diagnóstico de Surface para empresas mediante comandos](surface-diagnostic-toolkit-command-line.md)
 ### [Ayuda para los usuarios finales](https://support.microsoft.com/products/surface-devices)
 ### [Controlador de Surface y ciclo de vida del firmware para dispositivos basados en Windows](surface-driver-firmware-lifecycle-support.md)
+### [Contacta con el Soporte técnico de Surface](contact-surface-support.md)
 
-## Planes de garantía y protección
+## Garantía y servicio 
 ### [Planes de protección y garantía de Surface para empresas](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [Términos y condiciones](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [Garantía y servicio de autoservicio de Surface](self-serve-warranty-service.md)
 ### [Reemplazo del siguiente día laborable](surface-next-business-day-replacement.md)
 ### [Comprobar el estado de garantía del dispositivo](https://mybusinessservice.surface.com/)
 ### [Proteger los datos al enviar Surface para su reparación](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
