@@ -3,7 +3,7 @@ title: Información de reemplazo del siguiente día laborable y áreas de cobert
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/23/2021
+ms.date: 06/17/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -11,15 +11,14 @@ localization_priority: high
 ms.custom: references_regions
 appliesto:
 - Surface
-- Surface Hub
 ms.reviewer: irenewhite
 description: Información de reemplazo del siguiente día laborable y áreas de cobertura.
-ms.openlocfilehash: 2708890c864582cf638c48474f85ddc01ef36576
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: 4488d2f1cc8a3e6c240710d59f3465d05abae12b
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585931"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613849"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>Información de reemplazo del siguiente día laborable y áreas de cobertura
 
@@ -58,6 +57,7 @@ Para ver una lista de códigos de publicación admitidos, vea "Cobertura del sig
 - [Suecia](#sweden)
 - [Suiza](#switzerland)
 - [Países Bajos](#the-netherlands)
+- [Reino Unido](#united-kingdom)
 - [Estados Unidos](#united-states)
 
 
@@ -106,7 +106,8 @@ Para ver una lista de códigos de publicación admitidos, vea "Cobertura del sig
 
 #### <a name="hong-kong"></a>Hong Kong
 
-- Hora de corte: 16:00 HKT (UTC+8) 
+- Hora límite: 16:00 HKT (UTC+8) 
+- La cobertura del siguiente día laborable está disponible en todos los códigos postales de Hong Kong.
 
 #### <a name="ireland"></a>Irlanda
 
@@ -142,11 +143,12 @@ Para ver una lista de códigos de publicación admitidos, vea "Cobertura del sig
 #### <a name="singapore"></a>Singapur
 
 - Hora límite: 13:00 SGT (UTC+8)
+- La cobertura del siguiente día laborable está disponible en todos los códigos postales de este país.
 
 #### <a name="spain"></a>España
 
 - Hora límite: 12:00 CET (UTC+1)
-- [Cobertura del siguiente día laborable](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+- [Cobertura del siguiente día laborable](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage-%20Spain%20Post%20Codes%20030321.xlsx)
 
 #### <a name="sweden"></a>Suecia
 
@@ -162,6 +164,10 @@ Para ver una lista de códigos de publicación admitidos, vea "Cobertura del sig
 
 - Hora límite: 12:00 CET (UTC+1)
 - [Cobertura del siguiente día laborable](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
+
+### <a name="united-kingdom"></a>Reino Unido
+
+- Hora límite: 12:00 CET (UTC+1)
 
 #### <a name="united-states"></a>Estados Unidos 
 
