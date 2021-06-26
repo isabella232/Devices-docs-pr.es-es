@@ -1,6 +1,6 @@
 ---
 title: Especificaciones técnicas de Surface Hub 2S
-description: Ver las especificaciones técnicas de Surface Hub 2S, entre las que se incluyen las especificaciones opcionales de batería para teléfonos móviles.
+description: Vea las especificaciones técnicas para Surface Hub 2S, incluidas las especificaciones de la batería móvil, la cámara y el lápiz.
 keywords: separar valores con comas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,46 +11,46 @@ audience: Admin
 ms.topic: article
 ms.date: 12/21/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: aa895e2fe5e2774d17f7f4729a3d1d613f59612d
-ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
+ms.openlocfilehash: 114d5345b9c64247a6efdbe15d75abecf69ebbcb
+ms.sourcegitcommit: b7fa6865e8f4209552a8130b861a1edef1b6666d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "11238085"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "11615520"
 ---
-# Especificaciones técnicas de Surface Hub 2S de 50 pulgadas
+# <a name="surface-hub-2s-50-inch-tech-specs"></a>Especificaciones técnicas de Surface Hub 2S de 50 pulgadas
 
-|**Elemento**|**Detalles**|
+| Elemento | Detalles |
 |:------ |:--------- |
-|**Dimensiones**| 29,2 "x 43,2" x 3,0 "(741 mm x 1097 mm x 76 mm) |
-|**Dimensiones de envío**| 47,64 "x 36,89" x 9,92 "(1.210 mm x 937 mm x 252 mm)|
-|**Grosor**| 61,6 libras (28 kg) |
-|**Peso de envío**| 81,08 libras (36,77 kg) |
+|**Dimensiones**| 29,2" x 43,2" x 3,0" (741 mm x 1097 mm x 76 mm) |
+|**Dimensiones de envío**| 47,64" x 36,89" x 9,92" (1.210 mm x 937 mm x 252 mm)|
+|**Grosor**| 61,6 lb. (28 kg) |
+|**Peso del envío**| 81,08 lb. (36,77 kg) |
 |**Resolución**| 3840 x 2560 |
-|**Pantalla**| Pantalla de PixelSense, 3:2 de color de 10 bits, borde de 15,5 mm, brillo, LCD IPS |
-|**Procesador**| Procesador Quad Core i5 Intel Core de 8 GB, 8 GB de RAM, 128 GB SSD <sup> 1</sup> |
-|**Gráficos**| 620 Intel UHD Graphics |
-|**Conexión inalámbrica**| Wi-Fi 5 (IEEE 802,11 a/b/g/n/AC compatible) tecnología Bluetooth Wireless 4,1 <br> Pantalla Miracast |
-|**Conexiones**| USB-A <br> Salida de video Mini-DisplayPort 1,2 <br> Gigabit Ethernet RJ45 (1000/100/10 BaseT) <br> Entrada de video HDMI (HDMI 2,0, HDCP 2,2/1,4) <br> USB-C con entrada de DisplayPort <br> Cuatro USB-C (en pantalla) |
-|**Sensores**| Ocupación de Doppler <sup> 2</sup> <br> Acelerómetro <br> Giroscopio |
-|**Audio/Vídeo**| Altavoces estéreo de 3 vías frontales de gama completa <br> Matriz de micrófono MEMS de banda completa de 8 elementos <br> Cámara Microsoft Surface Hub 2, 4K, conexión USB-C, 90-degree HFOV |
-|**Lápiz**| Lápiz de Microsoft Surface Hub 2 (activo) |
-|**Software**| Windows 10 <br> Microsoft Teams para Surface Hub <sup> 3</sup> <br> Skype Empresarial <br> Microsoft Whiteboard <br> Microsoft Office (móvil) <br> Microsoft Power BI <sup> 2</sup> |
-|**Exterior**| Carcasa: aluminio mecanizado de precisión con resina compuesta <br> Color: Platinum <br> Botones físicos: energía, volumen, origen |
-|**Contenido del cuadro**| Un Surface Hub 2S <br> Un Surface Hub 2 plumilla  <br> Una cámara Surface Hub 2 <br> Cable de alimentación de CA de 2,5 m <br> Guía de inicio rápido |
-|**Garantía**| garantía de hardware limitada de 1 año |
-|**BTU**| 1518 BTU/h |
-|**Voltaje de entrada**| 50/60 Hz 110/230V nominal, 90-265V máx. |
-|**Potencia de entrada, operativa**| 445 w (495 de pico de carga) |
-|**Corriente de entrada**| 5,46 A |
-|**Alimentación de entrada, Standby**| 5 W máx.  |
+|**Pantalla**| PixelSense Pantalla, relación de aspecto de 3:2, color de 10 bits, borde de 15,5 mm, deslumbramiento, PANTALLA IPS LCD |
+|**Procesador**| Procesador Intel Core i5 de 8ª generación de cuatro núcleos, 8 GB de RAM, SSD de 128 GB <sup> 1</sup> |
+|**Gráficos**| Gráficos Intel UHD 620 |
+|**Conexión inalámbrica**| Wi-Fi 5 (compatible con IEEE 802.11 a/b/g/n/ac) Bluetooth tecnología Inalámbrica 4.1 <br> Miracast pantalla |
+|**Conexiones**| USB-A <br> Mini-DisplayPort salida de vídeo 1.2 <br> Ethernet DE 45 gigabits DE RJ (1000/100/10 BaseT) <br> Entrada de vídeo HDMI (HDMI 2.0, HDCP 2.2 /1.4) <br> USB-C con entrada DisplayPort <br> Cuatro USB-C (en pantalla) |
+|**Sensores**| Ocupación doppler <sup> 2</sup> <br> Acelerómetro <br> Giroscopio |
+|**Audio/Vídeo**| Altavoces estéreo de 3 vías de alcance completo y orientados frontalmente <br> Matriz de micrófono MEMS de banda completa de 8 elementos <br> Microsoft Surface Hub 2 cámara, 4K, conexión USB-C, 90 grados HFOV |
+|**Lápiz**| Microsoft Surface Hub 2 bolígrafos (activo) |
+|**Software <sup> 3</sup>**| Windows 10 <br> Microsoft Teams para Surface Hub <br> Skype Empresarial <br> Microsoft Whiteboard <br> Microsoft Office (móvil) <br> Microsoft Power BI |
+|**Exterior**| Carcasa: aluminio mecado de precisión con resina compuesta por minerales <br> Color: Platino <br> Botones físicos: Power, Volume, Source |
+|**Qué hay en el cuadro**| One Surface Hub 2S <br> One Surface Hub 2 Pen  <br> Una Surface Hub 2 cámara <br> Cable de alimentación de CA de 2,5 m <br> Guía de inicio rápido |
+|**Garantía**| Garantía limitada de hardware de 1 año <sup> 4</sup> |
+|**BTU**| 1518 BTU/hr |
+|**Tensión de entrada**| 50/60Hz nominal de 110/230v, 90-265v max |
+|**Alimentación de entrada, en funcionamiento**| 445 W (carga de sobrecarga de 495 W) |
+|**Corriente de entrada**| 5.46 A |
+|**Energía de entrada, en espera**| 5 W max  |
 
 > [!NOTE]
-> <sup>1 el </sup> software del sistema usa un espacio de almacenamiento significativo. El almacenamiento disponible está sujeto a cambios basados en las actualizaciones de software del sistema y en el uso de aplicaciones. 1 GB = 1 mil millones bytes. Para obtener más información, consulta Surface.com/Storage. <br> <sup>2 el </sup> sensor de Doppler no está disponible en Hong Kong, India, Kuwait y Omán a causa de la normativa local.
-<br> <sup>3 </sup> necesita una licencia de software para algunas características. Se vende por separado.<br> 
+> <sup>1 </sup> El software del sistema usa un espacio de almacenamiento significativo. El almacenamiento disponible está sujeto a cambios en función de las actualizaciones de software del sistema y el uso de aplicaciones. 1 GB= 1.000 millones de bytes. Vea Surface.com/Storage para obtener más detalles. <br> <sup>2 </sup> El sensor Doppler no está disponible en Hong Kong, India, Kuwait y Omán debido a las normativas locales.
+<br> <sup>3 </sup> Licencia de software necesaria para algunas características. Se vende por separado.<br> <sup>4 </sup> La garantía limitada de Microsoft se suma a los derechos de la ley del consumidor. 
 
 > [!NOTE]
-> Surface Hub puede usarse de forma continua durante un máximo de 18 horas al día. Para optimizar la eficiencia, Surface Hub usa sensores inteligentes para desactivar la pantalla LED cuando ya no se detecta su presencia, lo que significa que no es necesario apagarla al final del día. Si la unidad está instalada en un entorno de trabajo de 24 horas, los sensores se pueden deshabilitar para cumplir con la recomendación de uso máximo de 18 horas por día. Tenga en cuenta que la visualización prolongada de una señal de vídeo puede hacer que se realice la retención de imágenes o en la pantalla. Para obtener más información sobre cómo administrar la configuración de energía, consulte:
+> Surface Hub puede usarse continuamente durante un máximo de 18 horas al día. Para optimizar la eficacia, Surface Hub usa sensores inteligentes para desactivar la pantalla LED cuando ya no se detecta la presencia, lo que significa que no es necesario apagarla al final del día. Si la unidad está instalada en un entorno de trabajo las 24 horas, los sensores se pueden deshabilitar para cumplir con la recomendación de uso máximo de 18 horas al día. Tenga en cuenta que la visualización prolongada de una señal de vídeo puede provocar que se produzca una grabación o retención de imágenes en la pantalla. Para obtener más información sobre cómo administrar la configuración de energía, consulte:
 >
 > - [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md)
-> - [CSP SurfaceHub: administración de clientes de Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+> - [CSP de SurfaceHub: administración Windows cliente](/windows/client-management/mdm/surfacehub-csp)
