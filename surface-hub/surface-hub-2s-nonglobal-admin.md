@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: cdb6dbdb49b34857f7b30feebb39f7a5c36e883c
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: 11170f6c202faef7aa3dddcb8aa8c6fa84bea80f
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585961"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643866"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Configurar cuentas de administrador no globales en Surface Hub
 
@@ -95,14 +95,14 @@ En primer lugar, cree un grupo de seguridad que contenga las cuentas de administ
 
     ```xml
       <groupmembership>   
-      <accessgroup desc = "Administrators">        
+      <accessgroup desc = "S-1-5-32-544">        
       <member name = "Administrator" />        
       <member name = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX" />  
       </accessgroup>
       </groupmembership>
       ```
       > [!IMPORTANT]
-      > No quite el miembro de administrador predeterminado del archivo XML.
+      > Es posible que deba usar el [nombre localizado para la cuenta de administrador](https://social.technet.microsoft.com/wiki/contents/articles/13813.localized-names-for-administrator-account-in-windows.aspx). No quite el miembro de administrador predeterminado del archivo XML.
 
 2. Reemplace el SID de marcador de posición (empezando por S-1-12-1) por su **SID** de grupo de Azure AD y, a continuación, guarde el archivo como XML; por ejemplo, **aad-local-admin.xml**. 
 

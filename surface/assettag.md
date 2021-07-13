@@ -1,6 +1,6 @@
 ---
 title: Herramienta de etiqueta de activos de Surface
-description: En este tema se explica cómo usar la herramienta de etiqueta de activos de Surface.
+description: En este tema se explica cómo usar la Herramienta de etiqueta de activos de Surface.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -8,105 +8,103 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: hachidan
+ms.reviewer: carlol
+ms.date: 06/29/2021
 manager: laurawi
-ms.openlocfilehash: ca6a71a6b864692953fcd96eb687c2752527c9f5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: b130f6b0bf52dc1c3a28231a2330cae51a5ef44a
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834746"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643836"
 ---
-# Herramienta de etiqueta de activos de Surface
+# <a name="surface-asset-tag-tool"></a>Herramienta de etiqueta de activos de Surface
 
-La etiqueta de activo de Surface es una utilidad de interfaz de línea de comandos (CLI) que permite ver, asignar y modificar un valor de etiqueta de activo asignado para dispositivos de Surface. Funciona en Surface Pro 3 y en todos los dispositivos de superficie más recientes.
+Surface Asset Tag es una utilidad de interfaz de línea de comandos (CLI) que te permite ver, asignar y modificar un valor de etiqueta de activo asignado para dispositivos Surface. Funciona en Surface Pro 3 y todos los dispositivos Surface más recientes.
 
-##  <a name="system-requirements"></a>Requisitos del sistema
+## <a name="system-requirements"></a>Requisitos del sistema
 
 - Surface Pro 3 o posterior
 
-- Versión de firmware UEFI 3.9.150.0 o posterior
+- Versión de firmware uefi 3.9.150.0 o posterior
 
-##  <a name="using-surface-asset-tag-"></a>Uso de etiquetas de activos de Surface 
+## <a name="using-surface-asset-tag"></a>Usar etiqueta de activos de Surface
 
-Para ejecutar la etiqueta de inventario de Surface:
+Para ejecutar la etiqueta de activos de Surface:
 
-1.  En el dispositivo Surface, descargue **surface Tag.zip** en el [centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=46703), extraiga el archivo zip y guarde AssetTag.exe en la carpeta deseada (en este ejemplo, C:\\assets).
+1. En el dispositivo Surface, descarga **Surface Asset Tag.zip** desde el Centro de descarga de [Microsoft,](https://www.microsoft.com/download/details.aspx?id=46703)extrae el archivo zip y guarda AssetTag.exe en la carpeta deseada (en este ejemplo, C:\\assets).
 
     > [!NOTE]
-    > Para Surface Pro X, use la aplicación denominada **AssetTag_x86** en el archivo zip. 
+    > Para Surface Pro X, use la aplicación denominada **AssetTag_x86** en el archivo ZIP.
 
-2.  Abra una consola de comandos como administrador y ejecute AssetTag.exe, para ello, escriba la ruta completa de la herramienta.
+2. Abra una consola de comandos como administrador y ejecute AssetTag.exe, especificando la ruta de acceso completa a la herramienta.
 
-3.  Superficie de reinicio.
+3. Reinicie Surface.
 
-###  <a name="asset-tag-tool-commands"></a>Comandos de la herramienta etiqueta de activos   
-En los siguientes ejemplos, AssetTag.exe se guarda en un directorio en un equipo local (C:\assets). 
+    > [!NOTE]
+    > Después de establecer la etiqueta de activo, se requiere un segundo reinicio antes de que aparezca en WMI.
 
-Para obtener la etiqueta de activo propuesta, ejecute AssetTag-g.
+### <a name="asset-tag-tool-commands"></a>Comandos de la herramienta Etiqueta de activos
 
-**Ejemplo**
+En los ejemplos siguientes, AssetTag.exe se guarda en un directorio de una máquina local (C:\assets).
 
-   ```
- C:\assets\AssetTag.exe -g
-  ```
- 
- Para borrar la etiqueta de activo propuesta, ejecute AssetTag-s.
- 
- **Ejemplo**
- 
-   ```
+Para obtener la etiqueta de activo propuesta, ejecute **AssetTag -g**:
+
+```console
+C:\assets\AssetTag.exe -g
+```
+
+Para borrar la etiqueta de activo propuesta, ejecute **AssetTag -s**:
+
+```console
 C:\assets\AssetTag.exe -s
-  ```
-Para establecer la etiqueta de activo propuesta, ejecute AssetTag-s testassettag12.
+```
 
-**Ejemplo**
+Para establecer la etiqueta de activo propuesta, ejecute **AssetTag -s testassettag12**:
 
 ```
 C:\assets\AssetTag.exe -s testassettag12
 ```
 
 >[!NOTE]
->El valor de la etiqueta de activo debe contener entre 1 y 36 caracteres. Los caracteres válidos son A-Z, a-z, 0-9, punto (.) y guión (-).
+>El valor de la etiqueta de activo debe contener entre 1 y 36 caracteres. Los caracteres válidos incluyen A-Z, a-z, 0-9, punto (.) y guión (-).
 
+## <a name="managing-asset-tags"></a>Administración de etiquetas de activos
 
-##  <a name="managing-asset-tags"></a>Administración de etiquetas de activos
+Puedes ver la etiqueta de activo existente en la configuración de UEFI en Información del dispositivo ( Panel de**control > Recuperación**> inicio > reiniciar ahora ).)
 
-Puede ver la etiqueta de activo existente en la configuración de UEFI en información del dispositivo (**Panel de Control > recuperación > inicio avanzado > reiniciar ahora**).
+En la figura siguiente se muestran los resultados de la ejecución de la Herramienta de etiqueta de activos en Surface Go.
 
-La siguiente ilustración muestra los resultados de la ejecución de la herramienta de etiqueta de activos en Surface go.
+![Resultados de la ejecución de la herramienta Etiqueta de activos de Surface en Surface Go.](images/assettag-fig1.png)
 
-![Resultados de la herramienta de etiqueta de activos de Surface en Surface go.
-](images/assettag-fig1.png)
+> **Figura 1.** Resultados de la ejecución de la herramienta Etiqueta de activos de Surface en Surface Go
 
-> **Figura 1.** Resultados de la herramienta de etiqueta de activos de Surface en la superficie Go
+Como alternativa, puedes usar WMI para consultar la etiqueta de activo existente en un dispositivo:
 
-Como alternativa, puede usar WMI para consultar la etiqueta de activo existente en un dispositivo:
+(Get-WmiObject -query "Select * from Win32_SystemEnclosure")
 
-(Get-WmiObject-Query "Select * from Win32_SystemEnclosure")
+### <a name="example"></a>Por ejemplo:
 
-**Ejemplo**
-
-   ```
-C:\Windows\System32> (Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
-  ```
+```console
+C:\Windows\System32> (Get-WmiObject -query "Select * from Win32_SystemEnclosure")
+```
   
-###  <a name="using-powershell"></a>Uso de PowerShell
+### <a name="using-powershell"></a>Uso de PowerShell
 
-Puede usar la siguiente secuencia de comandos como forma de obtener el valor propuesto e interpretar los errores.
+Puede usar el script siguiente como una forma de obtener el valor propuesto e interpretar cualquier error.
 
- ```
+```powershell
 AssetTag -g \> $asset\_tag 2\> $error\_message  
 $asset\_tag\_return\_code = $LASTEXITCODE  
-$asset\_tag = $asset\_tag.Trim(“\`r\`n”)
+$asset\_tag = $asset\_tag.Trim("\`r\`n")
 
 if ($asset\_tag\_return\_code -eq 0) {  
-Write-Output (“Good Tag = ” + $asset\_tag)  
+Write-Output ("Good Tag = " + $asset\_tag)  
 } else {  
 Write-Output (  
-“Failure: Code = ” + $asset\_tag\_return\_code +  
-“Tag = ” + $asset\_tag +  
-“Message = ” + $error\_message)
+"Failure: Code = " + $asset\_tag\_return\_code +  
+"Tag = " + $asset\_tag +  
+"Message = " + $error\_message)
 
 }
- ```
+```

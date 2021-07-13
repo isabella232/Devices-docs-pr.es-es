@@ -13,13 +13,13 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 6/03/2021
-ms.openlocfilehash: 74b36b60cb58ecb9042b73b8cdba7271d0af8c80
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.date: 7/02/2021
+ms.openlocfilehash: 4a74efb8af776e9805ad3148ea656f0a65d5d09c
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614147"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643856"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>Wake on LAN con Surface Dock 2
 
@@ -48,7 +48,7 @@ Surface Dock 2 proporciona compatibilidad con WOL para dispositivos en los sigui
 
 - Modo de espera conectado
 - Hibernación (estado de energía S4)
-- Hibernación (estado de alimentación "soft off" de S5)
+- Apagado (estado de apagado suave de S5)
 
 Para obtener más información sobre los estados de energía, consulte [System Power States](/windows/win32/power/system-power-states).
 
