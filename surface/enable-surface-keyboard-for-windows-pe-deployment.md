@@ -19,12 +19,12 @@ appliesto:
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
-ms.openlocfilehash: c02837b0cfda72c6f2a447b99ff4c94a027bb29c
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 1ee3376a24d3e83cc66c8a220a1f7afa195840d0
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613869"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676724"
 ---
 # <a name="how-to-enable-the-surface-laptop-keyboard-during-mdt-deployment"></a>Cómo habilitar el teclado Surface Laptop durante la implementación de MDT
 
@@ -36,7 +36,7 @@ En este artículo se aborda un enfoque de implementación que usa Microsoft Depl
 > - Mantenga presionado el botón De encendido durante 30 segundos. Si está conectado a una unidad de fuente de alimentación (PSU), presione y mantenga presionado el botón De encendido hasta que vea la luz al final del cable PSU que se apague brevemente antes de volver a activarse.
 
 > [!IMPORTANT]
-> Si vas a implementar una imagen de Windows 10 en un Surface Laptop que tiene Windows 10 en modo S preinstalado, consulta KB [4032347,](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)Problemas al implementar Windows en dispositivos Surface con Windows 10 preinstalado en modo S .
+> Si vas a implementar una imagen de Windows 10 en un Surface Laptop que tiene Windows 10 en modo S preinstalado, consulta KB 4032347, Problemas al implementar Windows en dispositivos Surface con Windows 10 [preinstalado en](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)modo S .
 
 ## <a name="add-keyboard-drivers-to-the-selection-profile"></a>Agregar controladores de teclado al perfil de selección
 
@@ -95,4 +95,4 @@ Importe las siguientes carpetas según corresponda para su Surface Laptop dispos
 
     ![Imagen que muestra los controladores Surface Laptop (1ª generación) de la carpeta Surface Laptop de Deployment Workbench](./images/surface-laptop-keyboard-5.png)
 
-Después de configurar el recurso compartido de implementación de MDT para usar el nuevo perfil de selección y la configuración relacionada, continúe el proceso de implementación tal como se describe en [Deploy a Windows 10 image using MDT: Step 6: Create the deployment task sequence](/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence).
+Después de configurar el recurso compartido de implementación de MDT para usar el nuevo perfil de selección y la configuración relacionada, continúe el proceso de implementación tal como se describe en [Deploy a Windows 10 image using MDT: Step 6: Create the deployment task sequence](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence).

@@ -12,14 +12,14 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2036379ce52f3b7824570ab10473568a57f64fb0
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 0abdd30f3bdc136dd94fcaf41cf7af16cc3c53ab
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576650"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676414"
 ---
-# <a name="whats-new-in-surface-dock"></a>Novedades de Surface Dock
+# <a name="whats-new-in-surface-dock-2"></a>Novedades de Surface Dock 2
 
 Surface Dock 2, la próxima generación de Surface Dock, permite a los usuarios conectar monitores externos y varios periféricos para obtener una experiencia de escritorio totalmente modernizada desde un dispositivo Surface. Diseñado para maximizar la eficiencia en la oficina, en un área de trabajo flexible o en casa, Surface Dock 2 cuenta con siete puertos, incluidos dos puertos USB-C frontales, con 15 vatios de potencia de carga rápida para teléfonos y accesorios. 
 
@@ -132,7 +132,7 @@ Surface ha lanzado una funcionalidad de administración optimizada mediante Wind
 - **Activar desde la red**. Administrar y acceder a dispositivos corporativos sin depender de los usuarios para mantener sus dispositivos encendidos. Incluso cuando un dispositivo acoplado está en modo de suspensión, hibernación o apagado, el equipo puede activarse desde la red para el servicio y la administración, con Endpoint Configuration Manager u otras herramientas de administración de empresa.
 - **Control de IT centralizado**. Controla quién se puede conectar a Surface Dock 2 al activar y desactivar los puertos. Restringir qué dispositivos host se pueden usar con Surface Dock 2. Limite el acceso de acoplamiento a un solo usuario o configure los muelles para que solo puedan acceder a ellos usuarios específicos de su equipo o de toda la compañía.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 - [Puertos de Surface Dock 2 seguros con surface Enterprise modo de administración](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Modo de administración de Surface Enterprise](surface-enterprise-management-mode.md)

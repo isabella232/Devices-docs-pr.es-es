@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/27/2017
 ms.localizationpriority: medium
-ms.openlocfilehash: 215736527121306c712932f57a5a3a853fb3bb20
-ms.sourcegitcommit: 366eedceb9f859f5e87ba032b161f248360cb895
+ms.openlocfilehash: ab2726577201157ed9a7ff4d265e826c063cf477
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "11445586"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676614"
 ---
 # <a name="password-management-surface-hub"></a>Administración de contraseñas (Surface Hub)
 
@@ -36,9 +36,9 @@ Establece la propiedad **PasswordNeverExpires** de la cuenta del dispositivo en 
 
 ## <a name="allow-the-surface-hub-to-automatically-rotate-the-device-accounts-password"></a>Permitir que el Surface Hub rote automáticamente la contraseña de la cuenta del dispositivo
 
-Surface Hub puede cambiar automáticamente la contraseña de una cuenta de dispositivo sin necesidad de actualizarla manualmente. Puedes habilitar esta característica en **Configuración Cuentas**de  >  **Surface Hub**  >  ****. Si activas La rotación de contraseñas, Surface Hub intentará cambiar la contraseña cada 7 días durante las horas de mantenimiento. Las contraseñas no cambian durante una reunión. Si han transcurrido 7 días desde la última rotación de contraseña, pero Surface Hub estaba desactivado, intentará cambiar la contraseña inmediatamente cuando se haya activado o cada 10 minutos hasta que se haya realizado correctamente.
+El Surface Hub puede cambiar automáticamente la contraseña de una cuenta de dispositivo sin necesidad de actualizarla manualmente. Puede habilitar esta característica en **Configuración**  >  **Surface Hub**  >  **Cuentas**. Si activa la rotación de contraseñas, Surface Hub intentará cambiar la contraseña cada 7 días durante el horario de mantenimiento. Las contraseñas no cambian durante una reunión. Si han transcurrido 7 días desde la última rotación de contraseña, pero el Surface Hub estaba desactivado, intentará cambiar la contraseña inmediatamente cuando se haya activado o cada 10 minutos hasta que se haya realizado correctamente.
 
-Las contraseñas generadas automáticamente contienen de 15 a 32 caracteres, incluida una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Ten en cuenta que cuando se cambie la contraseña de la cuenta del dispositivo, no se mostrará la nueva contraseña. Si necesitas iniciar sesión en la cuenta o volver a proporcionar la contraseña (por ejemplo, si quieres cambiar la configuración de la cuenta del dispositivo en Surface Hub), necesitarás usar Active Directory o el portal de administración de Microsoft 365 para restablecer la contraseña.
+Las contraseñas generadas automáticamente contienen de 15 a 32 caracteres, incluida una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Ten en cuenta que cuando se cambie la contraseña de la cuenta del dispositivo, no se mostrará la nueva contraseña. Si necesitas iniciar sesión en la cuenta o volver a proporcionar la contraseña (por ejemplo, si quieres cambiar la configuración de la cuenta de dispositivo en el Surface Hub), necesitarás usar Active Directory o el portal de administración de Microsoft 365 para restablecer la contraseña.
 
 > [!IMPORTANT]
-> El formato usado al agregar la cuenta de dispositivo [](prepare-your-environment-for-surface-hub.md) a Surface Hub tiene un impacto en la opción de afiliación del dispositivo que se debe usar para que funcione la rotación de contraseñas. Si agrega la cuenta en **formato dominio\nombredeusuario,** afilia el Concentrador a Active Directory local durante la instalación inicial. Si agrega la cuenta en `username@domain.com` formato, afilia el Concentrador a Azure Active Directory durante la instalación inicial. De lo contrario, la rotación de contraseñas no funcionará.
+> La [opción de afiliación](prepare-your-environment-for-surface-hub.md) de dispositivos seleccionada durante la configuración inicial del Surface Hub tiene un impacto en el formato de cuenta del dispositivo que se puede usar con el giro de contraseña. Los concentradores asociados con un Active Directory local solo pueden girar las contraseñas de las cuentas de dispositivo especificadas en **formato dominio\nombredeusuario.** Los concentradores asociados con un Azure Active Directory solo pueden girar las contraseñas de las cuentas de dispositivo especificadas en formato, pero solo si la cuenta es solo en la nube o si el dominio de AAD está configurado para la autenticación en la nube y la escritura de escritura de `username@domain.com` contraseñas. [](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) [](/azure/active-directory/authentication/concept-sspr-writeback)

@@ -14,12 +14,12 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: c7a882859339ff3d7feeb685c62672bc57c301ec
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 339a6a3ab76f36004f2399b333d48487c9d6e31d
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576530"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676694"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>Implementar la aplicación Surface con Microsoft Store para Empresas y Educación
 
@@ -47,21 +47,7 @@ ms.locfileid: "11576530"
 - Surface Pro 3
 
 
-La aplicación Surface es una aplicación ligera Microsoft Store que proporciona control de muchas opciones y configuraciones específicas de Surface, entre las que se incluyen: 
-
-* Habilitar o deshabilitar el botón Windows en el dispositivo Surface 
- 
-
-* Ajustar la sensibilidad de un Lápiz para Surface 
- 
-
-* Personalizar las acciones del botón de Lápiz para Surface 
- 
-
-* Habilitar o deshabilitar las mejoras de audio de Surface 
- 
-
-* Acceso rápido a la documentación y la información de soporte técnico para el dispositivo
+La aplicación Surface es una aplicación Microsoft Store ligera que proporciona control de muchas opciones y configuraciones específicas de Surface con acceso rápido a la información del dispositivo, incluido el número de serie, el nombre del modelo de Surface, la versión UEFI y los controladores relacionados.  
 
 Los clientes que Windows update recibirán normalmente la aplicación Surface como parte de las actualizaciones automáticas. Pero si tu organización prepara imágenes para la implementación en tus dispositivos Surface, es posible que quieras incluir la aplicación Surface (anteriormente denominada Surface Hub) en el proceso de creación de imágenes e implementación en lugar de requerir que los usuarios de cada dispositivo individual descarguen e instalen la aplicación desde el Microsoft Store o desde tu Microsoft Store para Empresas. 
 
@@ -70,7 +56,7 @@ Los clientes que Windows update recibirán normalmente la aplicación Surface co
 
 ## <a name="surface-app-overview"></a>Introducción a la aplicación Surface
 
-La aplicación Surface está disponible como descarga gratuita desde el [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Los usuarios pueden descargarlo e instalarlo desde el Microsoft Store, pero si su organización usa Microsoft Store para Empresas en su lugar, tendrá que agregarlo al inventario de la tienda y posiblemente incluir la aplicación como parte del proceso de implementación de Windows. Estos procesos se de abordan a lo largo de este artículo. Para obtener más información acerca Microsoft Store para Empresas, [vea Microsoft Store para Empresas](https://docs.microsoft.com/microsoft-store/) en el Windows TechCenter. 
+La aplicación Surface está disponible como descarga gratuita desde el [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Los usuarios pueden descargarlo e instalarlo desde el Microsoft Store, pero si su organización usa Microsoft Store para Empresas en su lugar, tendrá que agregarlo al inventario de la tienda y posiblemente incluir la aplicación como parte del proceso de implementación de Windows. Estos procesos se de abordan a lo largo de este artículo. Para obtener más información Microsoft Store para Empresas, vea [Microsoft Store para Empresas](/microsoft-store/). 
 
 ## <a name="add-surface-app-to-a-microsoft-store-for-business-account"></a>Agregar aplicación Surface a una cuenta Microsoft Store para Empresas usuario 
 
@@ -80,17 +66,15 @@ Para que los usuarios puedan instalar o implementar una aplicación desde la cue
 
 2. Inicie sesión en el portal. 
 
-3. Habilitar licencias sin conexión: haga clic en Administrar **** >Configuración de la Tienda **y, a**continuación, seleccione la casilla Mostrar aplicaciones con licencia sin conexión a las personas que compran en la tienda, como se muestra en la figura 1. Para obtener más información sobre Microsoft Store para Empresas de licencias de aplicaciones, [consulta Aplicaciones en Microsoft Store para Empresas y Educación](https://docs.microsoft.com/microsoft-store/).
+3. Habilitar licencias sin **** conexión: haga clic en Administrar Configuración y, a continuación, active la casilla Mostrar aplicaciones con licencia sin conexión a las personas que compran en la tienda, como se muestra en la  >  **** figura 1. **** Para obtener más información sobre Microsoft Store para Empresas de licencias de aplicaciones, [consulta Aplicaciones en Microsoft Store para Empresas y Educación](/microsoft-store/).
 
    > [!div class="mx-imgBorder"]
    > ![Casilla Mostrar aplicaciones de licencias sin conexión](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *Figura 1. Habilitar aplicaciones para uso sin conexión*
 
-4. Agrega la aplicación Surface a tu Microsoft Store para Empresas de usuario siguiendo este procedimiento:
+4. Agrega la aplicación Surface a tu Microsoft Store para Empresas cuenta:
 
-    * Haga clic en **el menú** Tienda.
-    
-    * En el cuadro de búsqueda, escribe **Surface app**y, a continuación, haz clic en el icono de búsqueda.
+    * Buscar en la tienda la **aplicación Surface** 
     
     * Después de que la aplicación Surface se presente en los resultados de la búsqueda, haz clic en el icono de la aplicación.
     
@@ -233,4 +217,4 @@ Después de importar, la aplicación Surface **** estará disponible para su sel
 
 3. Selecciona **Instalar una sola aplicación y** especifica Surface **App** como la aplicación que se va **a instalar.**
 
-Para obtener más información acerca de cómo incluir aplicaciones en Windows implementaciones, vea [Deploy Windows 10 with the Microsoft Deployment Toolkit](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-the-microsoft-deployment-toolkit).
+Para obtener más información acerca de cómo incluir aplicaciones en Windows implementaciones, vea [Prepare for deployment with MDT](/windows/deployment/deploy-windows-mdt/prepare-for-windows-deployment-with-mdt).
