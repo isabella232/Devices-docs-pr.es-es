@@ -13,57 +13,54 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 1a9bef0a6e0bfdd4bede1b508b4013fd14e1a0bd
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 3cb8af88e0aab78d5c1aa7f30c983d1da81216c0
+ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835970"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "11708751"
 ---
-# Habilitar PEAP, EAP-FAST y Cisco LEAP en dispositivos Surface
-
+# <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>Habilitar PEAP, EAP-FAST y Cisco LEAP en dispositivos Surface
 
 Averigua cómo habilitar la compatibilidad con los protocolos PEAP, EAP-FAST o Cisco LEAP en tu dispositivo Surface.
 
-Si usas PEAP, EAP-FAST o Cisco LEAP en tu red de empresa, probablemente ya sabes que estos tres protocolos de autenticación inalámbrica no son compatibles con dispositivos Surface de fábrica. Algunos usuarios pueden descubrir esto cuando intenten conectarse a la red inalámbrica; otros pueden descubrirlo cuando no puedes obtener acceso a recursos de red, como recursos compartidos de archivos y sitios internos. Para obtener más información, consulta [Extensible Authentication Protocol](https://technet.microsoft.com/network/bb643147) (Protocolo de autenticación extensible).
+Si usas PEAP, EAP-FAST o Cisco LEAP en tu red de empresa, probablemente ya sabes que estos tres protocolos de autenticación inalámbrica no son compatibles con dispositivos Surface de fábrica. Algunos usuarios pueden descubrir esto cuando intenten conectarse a la red inalámbrica; otros pueden descubrirlo cuando no puedes obtener acceso a recursos de red, como recursos compartidos de archivos y sitios internos. Para obtener más información, consulta [Extensible Authentication Protocol](/previous-versions/windows/it-pro/windows-xp/bb457039(v=technet.10)?) (Protocolo de autenticación extensible).
 
-Para agregar compatibilidad para cada uno de los protocolos, puedes ejecutar un pequeño paquete MSI desde un stick USB o desde un recurso compartido de archivos. Para las organizaciones que desean habilitar la compatibilidad de EAP en sus dispositivos Surface, el formato de paquete MSI admite la implementación con muchas herramientas de administración e implementación, como Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager.
+Para agregar compatibilidad para cada uno de los protocolos, puedes ejecutar un pequeño paquete MSI desde un stick USB o desde un recurso compartido de archivos. Para las organizaciones que desean habilitar la compatibilidad con EAP en sus dispositivos Surface, el formato de paquete MSI admite la implementación con muchas herramientas de administración e implementación, como microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager.
 
-## <a href="" id="download-peap--eap-fast--or-cisco-leap-installation-files--"></a>Descargar archivos de instalación de PEAP, EAP-FAST o Cisco LEAP
-
+## <a name="download-peap-eap-fast-or-cisco-leap-installation-files"></a><a href="" id="download-peap--eap-fast--or-cisco-leap-installation-files--"></a>Descargar archivos de instalación de PEAP, EAP-FAST o Cisco LEAP
 
 Puedes descargar los archivos de instalación de MSI para PEAP, EAP-FAST o Cisco LEAP en un único archivo zip desde el Centro de descarga de Microsoft. Para descargar este archivo, ve a la página [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) en el Centro de descarga de Microsoft, haz clic en **Download** (Descargar) y luego selecciona el archivo **Cisco EAP-Supplicant Installer.zip**.
 
-##  <a name="deploy-peap,-eap-fast,-or-cisco-leap-with-mdt"></a>Implementar PEAP, EAP-FAST o Cisco LEAP con MDT
-
+## <a name="deploy-peap-eap-fast-or-cisco-leap-with-mdt"></a>Implementar PEAP, EAP-FAST o Cisco LEAP con MDT
 
 Si ya estás realizando una implementación de Windows en dispositivos Surface en tu organización, es rápido y fácil agregar los archivos de instalación para cada protocolo en el recurso compartido de implementación y configurar la instalación automática durante la implementación. Incluso puedes configurar una secuencia de tareas que actualice los dispositivos Surface implementados anteriormente para proporcionar compatibilidad con estos protocolos mediante el mismo proceso.
 
 Para habilitar la compatibilidad con PEAP, EAP-FAST o Cisco LEAP en dispositivos Surface recientemente implementados, sigue estos pasos:
 
-1.  Descarga y extrae los archivos de instalación para cada protocolo en carpetas independientes en una ubicación de fácil acceso.
+1. Descarga y extrae los archivos de instalación para cada protocolo en carpetas independientes en una ubicación de fácil acceso.
 
-2.  Abre Deployment Workbench de MDT y expande el recurso compartido de implementación en la **Aplicaciones**.
+2. Abre Deployment Workbench de MDT y expande el recurso compartido de implementación en la **Aplicaciones**.
 
-3.  Selecciona **Nueva aplicación** desde el panel **Acción**.
+3. Selecciona **Nueva aplicación** desde el panel **Acción**.
 
-4.  Elige **Aplicación con archivos de origen** para copiar los archivos MSI en el recurso compartido de implementación.
+4. Elige **Aplicación con archivos de origen** para copiar los archivos MSI en el recurso compartido de implementación.
 
-5.  Selecciona la carpeta que creaste en el paso 1 del protocolo deseado.
+5. Selecciona la carpeta que creaste en el paso 1 del protocolo deseado.
 
-6.  Asigna un nombre a la carpeta en el recurso compartido de implementación donde se almacenarán los archivos de instalación.
+6. Asigna un nombre a la carpeta en el recurso compartido de implementación donde se almacenarán los archivos de instalación.
 
-7.  Especifica la línea de comandos para implementar la aplicación:
+7. Especifica la línea de comandos para implementar la aplicación:
 
-    -   Para PEAP, usa **EAP-PEAP.msi /qn /norestart**.
+    - Para PEAP, usa **EAP-PEAP.msi /qn /norestart**.
 
-    -   Para LEAP, usa **EAP-LEAP.msi /qn /norestart**.
+    - Para LEAP, usa **EAP-LEAP.msi /qn /norestart**.
 
-    -   Para EAP-FAST, usa **FAST.msi EAP/qn /norestart**.
+    - Para EAP-FAST, usa **FAST.msi EAP/qn /norestart**.
 
-8.  Usa las opciones predeterminadas para completar el Asistente para nueva aplicación.
+8. Usa las opciones predeterminadas para completar el Asistente para nueva aplicación.
 
-9.  Repite los pasos 3 a 8 para cada protocolo deseado.
+9. Repite los pasos 3 a 8 para cada protocolo deseado.
 
 Una vez que hayas realizado estos pasos para importar los tres paquetes MSI como aplicaciones en MDT, estarán disponibles para la selección en la página Aplicaciones del Asistente para la implementación de Windows. Aunque en algunos escenarios de implementación sencillos puede ser suficiente que los técnicos seleccionen cada paquete en el momento de la implementación, no se recomienda. Este procedimiento introduce la posibilidad de que un técnico intentara aplicar estos paquetes en equipos que no sean dispositivos Surface o que se implemente en un dispositivo Surface sin compatibilidad EAP debido a errores humanos.
 
@@ -71,30 +68,20 @@ Para ocultar estas aplicaciones desde la página Instalar aplicaciones, seleccio
 
 Para especificar los protocolos de forma explícita, sigue estos pasos:
 
-1.  Abre las propiedades de la secuencia de tareas de implementación de Surface desde Deployment Workbench de MDT.
+1. Abre las propiedades de la secuencia de tareas de implementación de Surface desde Deployment Workbench de MDT.
 
-2.  En la pestaña **Secuencia de tareas**, selecciona el paso **Instalar aplicaciones** en **Restaurar estado**. Normalmente se encuentra entre los pasos previos y posteriores a la aplicación de Windows Update.
+2. En la pestaña **Secuencia de tareas**, selecciona el paso **Instalar aplicaciones** en **Restaurar estado**. Normalmente se encuentra entre los pasos previos y posteriores a la aplicación de Windows Update.
 
-3.  Usa el botón **Agregar** para crear un nuevo paso **Instalar aplicación** desde la categoría **General**.
+3. Usa el botón **Agregar** para crear un nuevo paso **Instalar aplicación** desde la categoría **General**.
 
-4.  Selecciona **Instalar una sola aplicación** en la pestaña **Propiedades**.
+4. Selecciona **Instalar una sola aplicación** en la pestaña **Propiedades**.
 
-5.  Selecciona el protocolo EAP deseado de la lista.
+5. Selecciona el protocolo EAP deseado de la lista.
 
-6.  Repite los pasos 2 a 5 para cada protocolo deseado.
+6. Repite los pasos 2 a 5 para cada protocolo deseado.
 
-##  <a name="deploy-peap,-eap-fast,-or-cisco-leap-with-configuration-manager"></a>Implementar PEAP, EAP-FAST o Cisco LEAP con Configuration Manager
-
+## <a name="deploy-peap-eap-fast-or-cisco-leap-with-configuration-manager"></a>Implementar PEAP, EAP-FAST o Cisco LEAP con Configuration Manager
 
 Para las organizaciones que administran dispositivos Surface con Configuration Manager, es incluso más fácil implementar la compatibilidad de PEAP, EAP-FAST o Cisco LEAP en dispositivos Surface. Simplemente importa cada archivo MSI como una aplicación desde la biblioteca de software y configura una implementación en tu colección de dispositivos Surface.
 
-Para obtener más información sobre cómo implementar aplicaciones con Configuration Manager, consulta [Cómo crear aplicaciones en Configuration Manager](https://technet.microsoft.com/library/gg682159.aspx) y [Cómo implementar aplicaciones en Configuration Manager](https://technet.microsoft.com/library/gg682082.aspx).
-
- 
-
- 
-
-
-
-
-
+Para obtener más información sobre cómo implementar aplicaciones con Configuration Manager, vea [Create and deploy an application with Configuration Manager](/mem/configmgr/apps/get-started/create-and-deploy-an-application.md).

@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 0abdd30f3bdc136dd94fcaf41cf7af16cc3c53ab
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: a43566461ab6bbac8045326801617bd6f723316e
+ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676414"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "11708771"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Novedades de Surface Dock 2
 
@@ -29,6 +29,7 @@ Surface Dock 2 está diseñado para simplificar la administración de TI, lo que
 
 - Surface Enterprise Management Mode (SEMM) permite a los administradores de TI proteger puertos en Surface Dock 2. Para obtener más información, [consulta Secure Surface Dock 2 ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999).
 -  Windows La compatibilidad con instrumental de administración (WMI) permite a los administradores de TI supervisar y administrar de forma remota el firmware, el estado de directiva y los datos relacionados más recientes en dispositivos Surface Dock 2. Para obtener más información, consulta [Administrar Surface Dock 2 con WMI](surface-dock2-wmi.md).
+- Centralice las actualizaciones en la red local mediante herramientas de distribución de software. [Descargar firmware y controladores de Surface Dock 2](https://www.microsoft.com/en-us/download/details.aspx?id=101317).
 
 ## <a name="general-system-requirements"></a>Requisitos generales del sistema
 
