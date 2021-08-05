@@ -13,18 +13,18 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 3cb8af88e0aab78d5c1aa7f30c983d1da81216c0
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: e887a449fb00b76c14de5b8ede51a1ba91a6b4c4
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708751"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721250"
 ---
 # <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>Habilitar PEAP, EAP-FAST y Cisco LEAP en dispositivos Surface
 
 Averigua cómo habilitar la compatibilidad con los protocolos PEAP, EAP-FAST o Cisco LEAP en tu dispositivo Surface.
 
-Si usas PEAP, EAP-FAST o Cisco LEAP en tu red de empresa, probablemente ya sabes que estos tres protocolos de autenticación inalámbrica no son compatibles con dispositivos Surface de fábrica. Algunos usuarios pueden descubrir esto cuando intenten conectarse a la red inalámbrica; otros pueden descubrirlo cuando no puedes obtener acceso a recursos de red, como recursos compartidos de archivos y sitios internos. Para obtener más información, consulta [Extensible Authentication Protocol](/previous-versions/windows/it-pro/windows-xp/bb457039(v=technet.10)?) (Protocolo de autenticación extensible).
+Si usas PEAP, EAP-FAST o Cisco LEAP en tu red de empresa, probablemente ya sabes que estos tres protocolos de autenticación inalámbrica no son compatibles con dispositivos Surface de fábrica. Algunos usuarios pueden descubrir esto cuando intenten conectarse a la red inalámbrica; otros pueden descubrirlo cuando no puedes obtener acceso a recursos de red, como recursos compartidos de archivos y sitios internos. Para obtener más información, consulta [Extensible Authentication Protocol](/windows-server/networking/technologies/extensible-authentication-protocol/network-access) (Protocolo de autenticación extensible).
 
 Para agregar compatibilidad para cada uno de los protocolos, puedes ejecutar un pequeño paquete MSI desde un stick USB o desde un recurso compartido de archivos. Para las organizaciones que desean habilitar la compatibilidad con EAP en sus dispositivos Surface, el formato de paquete MSI admite la implementación con muchas herramientas de administración e implementación, como microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager.
 

@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: e72abd2fbd3289989d64f23bbc06fa72d3c5b1d2
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: f704541a2d862550250794308df6201c38b09e15
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676654"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721270"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>Personalizar la OOBE para las implementaciones de Surface
 
@@ -44,7 +44,7 @@ En este artículo se proporciona un resumen de los escenarios donde una implemen
 
 Cuando un adaptador de red inalámbrica está presente durante la configuración rápida, aparece la página **Unirse a una red inalámbrica**, que pide al usuario que se conecte a una red inalámbrica. Las tecnologías de implementación, como MDT 2013, no ocultan automáticamente esta página y, por lo tanto, se mostrará incluso cuando una implementación se configura para una automatización completa.
 
-Para garantizar que esta página no haya detenido una implementación automatizada, la página debe ocultarse mediante la configuración de una opción adicional en el archivo de respuesta **HideWirelessSetupInOOBE**. Puedes encontrar información adicional sobre la opción **HideWirelessSetupInOOBE** en la [Referencia de instalación desatendida de Windows](/previous-versions/windows/it-pro/windows-8.1-and-8/ff716213(v=win.10)).
+Para garantizar que esta página no haya detenido una implementación automatizada, la página debe ocultarse mediante la configuración de una opción adicional en el archivo de respuesta **HideWirelessSetupInOOBE**. Puedes encontrar información adicional sobre la opción **HideWirelessSetupInOOBE** en la [Referencia de instalación desatendida de Windows](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oobe-hidewirelesssetupinoobe).
 
 ## <a name="scenario-2-surface-pen-pairing-in-oobe"></a>Escenario 2: Emparejamiento del Lápiz para Surface en OOBE
 
