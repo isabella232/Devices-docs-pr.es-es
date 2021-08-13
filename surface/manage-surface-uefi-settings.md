@@ -13,20 +13,20 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: ea995eda277ecf235eedd92f3af6edb0b60ae68a
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 1ba8da50472927ff106b7243d89c15995844b191
+ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576510"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "11883027"
 ---
 # <a name="manage-surface-uefi-settings"></a>Administrar la configuración de la UEFI de Surface
 
- Los dispositivos Surface PC están diseñados para usar una interfaz de firmware extensible unificada (UEFI) única diseñada por Microsoft específicamente para estos dispositivos. La configuración de UEFI de Surface proporciona la capacidad de habilitar o deshabilitar los componentes y dispositivos integrados, proteger la configuración de UEFI para que no se cambie y ajustar la configuración de arranque del dispositivo Surface. 
+ Los dispositivos Surface PC están diseñados para usar una interfaz de firmware extensible unificada (UEFI) única diseñada por Microsoft específicamente para estos dispositivos. La configuración de UEFI de Surface proporciona la capacidad de habilitar o deshabilitar los componentes y dispositivos integrados, proteger la configuración de UEFI para que no se cambie y ajustar la configuración de arranque del dispositivo Surface.
 
 ## <a name="supported-products"></a>Productos compatibles
 
-La administración de UEFI se admite en lo siguiente: 
+La administración de UEFI se admite en lo siguiente:
 
 - Surface Pro 4, Surface Pro (5ª generación), Surface Pro 6, Surface Pro 7, Surface Pro 7+, Surface Pro X
 - Surface Laptop (1ª generación), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go, Surface Laptop 4
@@ -48,49 +48,49 @@ Para ajustar la configuración de UEFI durante el inicio del sistema:
 
 ## <a name="uefi-pc-information-page"></a>Página de información de PC UEFI
 
-La página de información del equipo incluye información detallada sobre el dispositivo Surface: 
+La página de información del equipo incluye información detallada sobre el dispositivo Surface:
 
-- **Modelo:** el modelo del dispositivo Surface se mostrará aquí, como Surface Book 2 o Surface Pro 7. No se muestra la configuración exacta de tu dispositivo (por ejemplo, el procesador, el tamaño del disco o el tamaño de la memoria). 
-- **UUID**: este número de identificación único universal es específico de tu dispositivo y se usa para identificar el dispositivo durante la implementación o la administración. 
+- **Modelo:** el modelo del dispositivo Surface se mostrará aquí, como Surface Book 2 o Surface Pro 7. No se muestra la configuración exacta de tu dispositivo (por ejemplo, el procesador, el tamaño del disco o el tamaño de la memoria).
+- **UUID**: este número de identificación único universal es específico de tu dispositivo y se usa para identificar el dispositivo durante la implementación o la administración.
 
 - **Número de serie**: este número se usa para identificar este dispositivo de Surface específico para etiquetas de inventario y en escenarios de soporte técnico.
-- **Etiqueta de inventario**: la etiqueta de inventario se asigna al dispositivo de Surface con la [Herramienta de etiqueta de inventario](https://docs.microsoft.com/surface/assettag). 
+- **Etiqueta de inventario**: la etiqueta de inventario se asigna al dispositivo de Surface con la [Herramienta de etiqueta de inventario](assettag.md).
 
-También encontrarás información detallada sobre el firmware del dispositivo Surface. Los dispositivos Surface tienen varios componentes internos y cada uno ejecuta distintas versiones de firmware. La versión de firmware de cada uno de los siguientes dispositivos se muestra en la página **Información del equipo** (como se muestra en la figura 1): 
+También encontrarás información detallada sobre el firmware del dispositivo Surface. Los dispositivos Surface tienen varios componentes internos y cada uno ejecuta distintas versiones de firmware. La versión de firmware de cada uno de los siguientes dispositivos se muestra en la página **Información del equipo** (como se muestra en la figura 1):
 
-- UEFI del sistema 
+- UEFI del sistema
 
-- Controladora SAM 
+- Controladora SAM
 
-- Motor de administración de Intel 
+- Motor de administración de Intel
 
-- Controlador integrado del sistema 
+- Controlador integrado del sistema
 
-- Firmware de entrada táctil 
+- Firmware de entrada táctil
 
-![Información del sistema e información de la versión de firmware](images/manage-surface-uefi-figure-1.png "System information and firmware version information")
+:::image type="content" alt-text="Información del sistema e información de versión de firmware." source="images/manage-surface-uefi-figure-1.png":::
 
 *Figura 1. Información del sistema e información de la versión de firmware*
 
-Puedes encontrar información actualizada sobre la versión de firmware más reciente para el dispositivo Surface en el [Historial de actualizaciones Surface](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history) para el dispositivo. 
+Puedes encontrar información actualizada sobre la versión de firmware más reciente para el dispositivo Surface en el [Historial de actualizaciones Surface](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history) para el dispositivo.
 
-## <a name="uefi-security-page"></a>Página Seguridad de UEFI 
+## <a name="uefi-security-page"></a>Página Seguridad de UEFI
 
-![Configuración de las opciones de seguridad de la UEFI de Surface](images/manage-surface-uefi-fig4.png "Configure Surface UEFI security settings")
+:::image type="content" alt-text="Configurar la configuración de seguridad de UEFI de Surface." source="images/manage-surface-uefi-fig4.png":::
 
 *Figura 2. Configuración de las opciones de seguridad de la UEFI de Surface*
 
-La página Seguridad permite establecer una contraseña para proteger la configuración de UEFI. Esta contraseña se debe especificar cuando se arranque el dispositivo Surface en la UEFI. La contraseña puede contener los siguientes caracteres (como se muestra en la figura 3): 
+La página Seguridad permite establecer una contraseña para proteger la configuración de UEFI. Esta contraseña se debe especificar cuando se arranque el dispositivo Surface en la UEFI. La contraseña puede contener los siguientes caracteres (como se muestra en la figura 3):
 
-- Letras mayúsculas: A-Z 
+- Letras mayúsculas: A-Z
 
-- Letras minúsculas: a-z 
+- Letras minúsculas: a-z
 
-- Números: 1-0 
+- Números: 1-0
 
-- Caracteres especiales: !@#$%^&*()?<>{} []-_=+|.,;:''" 
+- Caracteres especiales: !@#$%^&*()?<>{} []-_=+|.,;:''"
 
-La contraseña debe tener al menos 6 caracteres y distingue mayúsculas de minúsculas. 
+La contraseña debe tener al menos 6 caracteres y distingue mayúsculas de minúsculas.
 
 ![Agregar una contraseña para proteger la configuración de la UEFI de Surface](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
@@ -102,76 +102,76 @@ En la página Seguridad también puedes cambiar la configuración de arranque se
 
 *Figura 4. Configurar el arranque seguro*
 
-Según el dispositivo, es posible que también puedas ver si el TPM está habilitado o deshabilitado. Si no ve la configuración Habilitar **TPM,** abra tpm.msc en Windows para comprobar el estado, como se muestra en la figura 5. El TPM se usa para autenticar el cifrado de datos de tu dispositivo con BitLocker. Para obtener más información, vea [BitLocker overview](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview). 
+Según el dispositivo, es posible que también puedas ver si el TPM está habilitado o deshabilitado. Si no ve la configuración Habilitar **TPM,** abra tpm.msc en Windows para comprobar el estado, como se muestra en la figura 5. El TPM se usa para autenticar el cifrado de datos de tu dispositivo con BitLocker. Para obtener más información, consulta [Introducción a BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview).
 
 ![Consola tpm](images/manage-surface-uefi-fig5-a.png "TPM console")
 
 *Figura 5. Consola tpm*
 
-
-## <a name="uefi-menu-devices"></a>Menú UEFI: dispositivos 
+## <a name="uefi-menu-devices"></a>Menú UEFI: dispositivos
 
 La página Dispositivos le permite habilitar o deshabilitar dispositivos y componentes específicos, incluidos:
 
-- Acoplamiento y puertos USB 
+- Puerto USB de acoplamiento
 
-- Ranura para tarjeta microSD o SD 
+- Ranura para tarjeta microSD o SD
 
-- Cámara trasera 
+- Cámara trasera
 
-- Cámara frontal 
+- Cámara frontal
 
-- Cámara de infrarrojos (IR) 
+- Cámara de infrarrojos (IR)
 
-- Wi-Fi y Bluetooth 
+- Wi-Fi y Bluetooth
 
-- Audio integrado (altavoces y micrófono) 
+- Audio integrado (altavoces y micrófono)
 
-Cada dispositivo aparece con un botón deslizante que puedes mover a **la posición Activado** (habilitado) o **Desactivado** (deshabilitado), como se muestra en la figura 6. 
+Cada dispositivo aparece con un botón deslizante que puedes mover a **la posición Activado** (habilitado) o **Desactivado** (deshabilitado), como se muestra en la figura 6.
 
-![Habilitar y deshabilitar dispositivos específicos](images/manage-surface-uefi-fig5a.png "Enable and disable specific devices")
+:::image type="content" alt-text="Habilitar y deshabilitar dispositivos específicos." source="images/manage-surface-uefi-fig5a.png":::
 
 *Figura 6. Habilitar y deshabilitar dispositivos específicos*
 
-## <a name="uefi-menu-boot-configuration"></a>Menú UEFI: configuración de arranque 
+## <a name="uefi-menu-boot-configuration"></a>Menú UEFI: configuración de arranque
 
-La página Configuración de arranque permite cambiar el orden de los dispositivos de arranque, así como habilitar o deshabilitar el arranque de los siguientes dispositivos: 
+La página Configuración de arranque permite cambiar el orden de los dispositivos de arranque, así como habilitar o deshabilitar el arranque de los siguientes dispositivos:
 
-- Administración de arranque de Windows 
+- Administración de arranque de Windows
 
-- Almacenamiento USB 
+- Almacenamiento USB
 
-- Red PXE 
+- Red PXE
 
-- Almacenamiento interno 
+- Almacenamiento interno
 
-Puedes arrancar desde un dispositivo específico inmediatamente o puedes deslizar rápidamente hacia la izquierda en la entrada del dispositivo en la lista con la pantalla táctil. También puedes arrancar inmediatamente en un dispositivo USB o un adaptador Ethernet USB cuando el dispositivo Surface esté apagado, presionando el botón **Bajar el volumen** y el botón **Inicio/apagado** simultáneamente. 
+Puedes arrancar desde un dispositivo específico inmediatamente o puedes deslizar rápidamente hacia la izquierda en la entrada del dispositivo en la lista con la pantalla táctil. También puedes arrancar inmediatamente en un dispositivo USB o un adaptador Ethernet USB cuando el dispositivo Surface esté apagado, presionando el botón **Bajar el volumen** y el botón **Inicio/apagado** simultáneamente.
 
-Para que el orden de arranque especificado **** entre en vigor, debe establecer la opción Habilitar secuencia de arranque alternativa en **On**, tal como se muestra en la figura 7. 
+Para que el orden de arranque especificado **** entre en vigor, debe establecer la opción Habilitar secuencia de arranque alternativa en **On**, tal como se muestra en la figura 7.
 
-![Configurar el orden de arranque para el dispositivo Surface](images/manage-surface-uefi-fig6.png "Configure the boot order for your Surface device")
+:::image type="content" alt-text="Configura el orden de arranque del dispositivo Surface." source="images/manage-surface-uefi-fig6.png":::
 
-*Figura 7. Configurar el orden de arranque para el dispositivo Surface* 
+*Figura 7. Configurar el orden de arranque para el dispositivo Surface*
 
 También puedes activar y desactivar la compatibilidad con IPv6 PXE con la opción **Habilitar IPv6 para el arranque de Red PXE**, por ejemplo, al realizar una implementación de Windows con PXE en el que el servidor PXE está configurado solo para IPv4.  
 
 ## <a name="uefi-menu-management"></a>Menú UEFI: Administración
+
 La página Administración le permite administrar el uso de Zero Touch UEFI Management y otras características en dispositivos elegibles, incluidos Surface Pro 7, Surface Pro X y Surface Laptop 3.  
 
-![Administrar el acceso a Zero Touch UEFI Management y otras características ](images/manage-surface-uefi-fig7a.png "Manage access to Zero Touch UEFI Management and other features")
- *Figura 8. Administrar el acceso a Zero Touch UEFI Management y otras características* 
+:::image type="content" alt-text="Administrar el acceso a Zero Touch UEFI Management y otras características." source="images/manage-surface-uefi-fig7a.png":::
 
+*Figura 8. Administrar el acceso a Zero Touch UEFI Management y otras características*
 
-Zero Touch UEFI Management te permite administrar de forma remota la configuración de UEFI mediante un perfil de dispositivo dentro de Intune denominado Device Firmware Configuration Interface (DFCI). Si no configura esta configuración, la capacidad de administrar dispositivos elegibles con DFCI se establece en **Listo**. Para evitar DFCI, seleccione **Optar por no participar.** 
+Zero Touch UEFI Management te permite administrar de forma remota la configuración de UEFI mediante un perfil de dispositivo dentro de Intune denominado Device Firmware Configuration Interface (DFCI). Si no configura esta configuración, la capacidad de administrar dispositivos elegibles con DFCI se establece en **Listo**. Para evitar DFCI, seleccione **Optar por no participar.**
 
 > [!NOTE]
 > La página de configuración de administración de UEFI y el uso de DFCI están disponibles actualmente para Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 y Surface Pro X. Para obtener más información, consulta [Administración de Intune de la configuración de UEFI de Surface](surface-manage-dfci-guide.md).
 
-## <a name="uefi-menu-exit"></a>Menú UEFI: Salir 
+## <a name="uefi-menu-exit"></a>Menú UEFI: Salir
 
-Use el **botón Reiniciar ahora** de la **página** Salir para salir de la configuración de UEFI, como se muestra en la figura 9. 
+Use el **botón Reiniciar ahora** de la **página** Salir para salir de la configuración de UEFI, como se muestra en la figura 9.
 
-![Salir de la UEFI de Surface y reiniciar el dispositivo](images/manage-surface-uefi-fig7.png "Exit Surface UEFI and restart the device")
+:::image type="content" alt-text="Salga de UEFI de Surface y reinicie el dispositivo." source="images/manage-surface-uefi-fig7.png":::
 
 *Figura 9. Haz clic en Reiniciar ahora para salir de la UEFI de Surface y reiniciar el dispositivo*
 
@@ -215,11 +215,9 @@ Cuando actualizas el firmware del dispositivo Surface, ya sea mediante Windows U
 
 *Figura 18. La actualización de firmware de Surface TCON muestra una barra de progreso gris claro*
 
-
 ![Firmware de TPM de Surface con barra de progreso púrpura claro](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *Figura 19. La actualización de firmware del TPM de Surface muestra una barra de progreso púrpura*
-
 
 >[!NOTE]
 >Se muestra un mensaje de advertencia adicional que indica que el arranque seguro está deshabilitado, como se muestra en la figura 19.
@@ -230,10 +228,10 @@ Cuando actualizas el firmware del dispositivo Surface, ya sea mediante Windows U
 
 ## <a name="references"></a>Referencias
 
-1. Surface Go y Surface Go 2 usan una UEFI de terceros y no admiten DFCI. 
+1. Surface Go y Surface Go 2 usan una UEFI de terceros y no admiten DFCI.
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Administración de Intune de la configuración de la UEFI de Surface](surface-manage-dfci-guide.md)
 
--  [Modo de administración de Surface Enterprise](surface-enterprise-management-mode.md)
+- [Modo de administración de Surface Enterprise](surface-enterprise-management-mode.md)

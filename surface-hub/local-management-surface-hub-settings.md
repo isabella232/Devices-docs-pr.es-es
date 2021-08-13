@@ -11,12 +11,12 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 2403c57f88b0e14209b77b9f666141694384868d
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 92b60fb0f0ac83c2516ebb1ebde0748d9d933c4e
+ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577040"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "11883007"
 ---
 # <a name="local-management-for-surface-hub-settings"></a>Administración local para la configuración de Surface Hub
 
@@ -44,7 +44,7 @@ Los Surface Hubs tienen muchas opciones que son comunes a otros dispositivos Win
 | Requerir un PIN para la proyección inalámbrica | Surface Hub > Proyección | Elegir si los contactos tienen que escribir un PIN antes de usar la proyección inalámbrica. |
 | Canal de proyección inalámbrica (Miracast) | Surface Hub > Proyección | Establecer el canal para la proyección de Miracast. |
 | Información de la reunión que se muestra en la pantalla de inicio de sesión | Surface Hub > Pantalla de inicio de sesión | Elegir si el organizador de la reunión, la hora y el asunto se mostrarán en la pantalla de inicio de sesión. |
-| Fondo de pantalla de inicio de sesión |  Surface Hub > Pantalla de inicio de sesión | Elegir una imagen de fondo para la pantalla de inicio de sesión. |
+| Fondo de pantalla de inicio de sesión |  Surface Hub > Pantalla de inicio de sesión | Elija una imagen que se usará como fondo durante las sesiones de usuario y en la pantalla de bienvenida. |
 | Tiempo de espera de sesión a la pantalla de bienvenida | Surface Hub > de & sesión | Elegir cuánto tiempo hasta que Surface Hub vuelve a la pantalla de inicio después de que no se detecte ningún movimiento. |
 | Reanudar la sesión | Surface Hub > de & sesión | Elegir si se debe permitir que los usuarios reanuden la sesión después de que no se detecté ningún movimiento o limpiar automáticamente una sesión. |
 | Acceso a archivos y reuniones de Office 365 | Surface Hub > de & sesión | Elige si un usuario puede iniciar sesión en Office 365 para acceder a sus reuniones y archivos. |
