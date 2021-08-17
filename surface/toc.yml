@@ -10,7 +10,7 @@
           items:
             - name: Introducción a la seguridad de Surface
               href: surface-security.md
-            - name: Windows Virtual Desktop en Surface
+            - name: Azure Virtual Desktop en Surface
               href: windows-virtual-desktop-surface.md
             - name: Información general técnica sobre los procesadores de Surface Laptop 4
               href: surface-laptop-processors.md

@@ -1,6 +1,6 @@
 ---
-title: Windows Virtual Desktop en Surface
-description: En este artículo se explica cómo los dispositivos Surface ofrecen un nodo final ideal para las soluciones de escritorio virtual de Windows, lo que proporciona Windows 10 los clientes factores de forma flexibles, seguridad y facilidad de administración de dispositivos modernos y compatibilidad con escenarios de trabajo & petición y persistentes.
+title: Azure Virtual Desktop en Surface
+description: En este artículo se explica cómo los dispositivos Surface ofrecen un nodo final ideal para las soluciones de Escritorio virtual de Azure, lo que proporciona Windows 10 los clientes factores de forma flexibles, seguridad y facilidad de administración de dispositivos modernos, y compatibilidad con escenarios de trabajo persistentes y & petición.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,32 +12,32 @@ ms.date: 01/15/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9118cb69a0f4ed770e2adce3b02976ca34128d46
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 680fea05112605aa0c26f63c135cb3bc4208e3ad
+ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676634"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "11902629"
 ---
-# <a name="windows-virtual-desktop-on-surface"></a>Windows Virtual Desktop en Surface
+# <a name="azure-virtual-desktop-on-surface"></a>Azure Virtual Desktop en Surface
 
 ## <a name="introduction"></a>Introducción
 
-Windows Escritorio virtual en Surface te permite ejecutar Infraestructura de escritorio virtual (VDI) en un dispositivo Surface, desenfoque las líneas entre la experiencia de escritorio local y el escritorio virtual donde la autenticación táctil, lápiz, tinta y biométrica abarca entornos físicos y virtuales. Representando otro hito en la evolución de la informática, Windows Virtual Desktop en Surface 1 combina Microsoft 365 , virtualizado en la nube de Azure, con las protecciones de seguridad avanzadas, la capacidad de administración a nivel empresarial y las herramientas de productividad mejoradas de <a href="#1"><sup> </sup></a> Windows 10 en Surface. Esta fusión de factores de forma premium y Infraestructura de escritorio virtual en Azure permite a las organizaciones ofrecer experiencias avanzadas de usuario, portabilidad, seguridad, continuidad empresarial y administración moderna.
+Azure Virtual Desktop en Surface te permite ejecutar Infraestructura de escritorio virtual (VDI) en un dispositivo Surface, desenfoque las líneas entre la experiencia de escritorio local y el escritorio virtual donde la autenticación táctil, lápiz, tinta y biométrica abarca entornos físicos y virtuales. Representando otro hito en la evolución de la informática, Azure Virtual Desktop en Surface 1 combina Microsoft 365 , virtualizado en la nube de Azure, con las protecciones de seguridad avanzadas, la capacidad de administración a nivel empresarial y las herramientas de productividad mejoradas de <a href="#1"><sup> </sup></a> Windows 10 en Surface. Esta fusión de factores de forma premium y Infraestructura de escritorio virtual en Azure permite a las organizaciones ofrecer experiencias avanzadas de usuario, portabilidad, seguridad, continuidad empresarial y administración moderna.
 
-### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
+### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Windows Virtual Desktop (WVD) es un servicio completo de virtualización de aplicaciones y escritorio que se ejecuta en la nube de Azure. Es la única infraestructura de escritorio virtual que ofrece administración simplificada, Windows 10 [](https://www.microsoft.com/microsoft-365) de varias sesiones, optimizaciones para Aplicaciones Microsoft 365 y compatibilidad con entornos de Servicios de escritorio remoto (RDS). Con WVD puede implementar y escalar rápidamente Windows escritorios y aplicaciones en Azure y obtener características integradas de seguridad y cumplimiento.
+Azure Virtual Desktop (AVD) es un servicio completo de virtualización de aplicaciones y escritorio que se ejecuta en la nube de Azure. Es la única infraestructura de escritorio virtual que ofrece administración simplificada, Windows 10 [](https://www.microsoft.com/microsoft-365) de varias sesiones, optimizaciones para Aplicaciones Microsoft 365 y compatibilidad con entornos de Servicios de escritorio remoto (RDS). Con AVD puede implementar y escalar rápidamente Windows escritorios y aplicaciones en Azure y obtener características integradas de seguridad y cumplimiento.
 
-### <a name="windows-virtual-desktop-partner-integrations"></a>Windows Integraciones de partners de Escritorio virtual
+### <a name="azure-virtual-desktop-partner-integrations"></a>Integraciones de partners de Azure Virtual Desktop
 
-Para obtener una lista de proveedores de partners aprobados y proveedores de software independientes, visite [Azure Marketplace](https://azuremarketplace.microsoft.com) y busque Windows Virtual Desktop. Algunos partners también proporcionan Escritorio virtual como servicio (DaaS). DaaS le libera de tener que mantener sus propias máquinas virtuales (VM) proporcionando un servicio de escritorio y virtualización totalmente administrado y llave en mano. La capacidad de entregar escritorios personalizados a usuarios de cualquier parte del mundo permite a las empresas ajustarse rápidamente a las condiciones cambiantes del mercado al girar los escritorios en la nube a petición, cuando y donde se necesitan.
+Para obtener una lista de proveedores de partners aprobados y proveedores de software independientes, visite [Azure Marketplace](https://azuremarketplace.microsoft.com) y busque Azure Virtual Desktop. Algunos partners también proporcionan Escritorio virtual como servicio (DaaS). DaaS le libera de tener que mantener sus propias máquinas virtuales (VM) proporcionando un servicio de escritorio y virtualización totalmente administrado y llave en mano. La capacidad de entregar escritorios personalizados a usuarios de cualquier parte del mundo permite a las empresas ajustarse rápidamente a las condiciones cambiantes del mercado al girar los escritorios en la nube a petición, cuando y donde se necesitan.
 
 ## <a name="microsoft-surface-devices"></a>Dispositivos De Microsoft Surface
 
-La ingeniería de Surface ha establecido durante mucho tiempo nuevos estándares para la innovación al ir más allá del teclado y el mouse para imaginar formas más naturales de interactuar con dispositivos, ya sea por contacto táctil, voz, tinta o Surface Dial. Además, con la integración de chip a nube de Microsoft 365 y la seguridad y la facilidad de administración de Windows 10 Pro, Surface ofrece hardware, software, aplicaciones y servicios conectados de la forma en que estaban diseñadas. Aunque es posible ejecutar WVD desde dispositivos Windows que se remontan Windows Windows 7, los dispositivos De Microsoft Surface proporcionan ventajas únicas, incluida la compatibilidad con:
+La ingeniería de Surface ha establecido durante mucho tiempo nuevos estándares para la innovación al ir más allá del teclado y el mouse para imaginar formas más naturales de interactuar con dispositivos, ya sea por contacto táctil, voz, tinta o Surface Dial. Además, con la integración de chip a nube de Microsoft 365 y la seguridad y la facilidad de administración de Windows 10 Pro, Surface ofrece hardware, software, aplicaciones y servicios conectados de la forma en que estaban diseñadas. Aunque es posible ejecutar AVD desde Windows dispositivos que se remontan Windows Windows 7, los dispositivos Microsoft Surface proporcionan ventajas únicas, incluida la compatibilidad con:
 
-- Factores de forma **flexibles:** como dispositivos 2 en 1 como Surface Pro 7+, Surface Go 2, Surface Pro 7 y Surface Pro X con lápiz, teclado táctil y extraíble. Incluso puedes usar [Surface Duo para](/surface-duo/) conectarte a WVD.
+- Factores de forma **flexibles:** como dispositivos 2 en 1 como Surface Pro 7+, Surface Go 2, Surface Pro 7 y Surface Pro X con lápiz, teclado táctil y extraíble. Incluso puedes usar [Surface Duo para](/surface-duo/) conectarte a AVD.
 - **Escenarios de** trabajo persistentes, a petición y justo a tiempo: con acceso sin conexión y en el dispositivo para experiencias más productivas.
 - **Windows 10 y la capacidad de** administración de dispositivos modernos, lo que proporciona la flexibilidad necesaria para ser productivos en cualquier lugar.
 
@@ -63,7 +63,7 @@ Los dispositivos Surface 2 en 1, [incluidos Surface Go 2](https://www.microsoft.
 
 ### <a name="device-redirection-support"></a>Compatibilidad con redirección de dispositivos
 
-Las experiencias de productividad centradas en Surface enumeradas anteriormente se vuelven aún más atractivas en Windows entornos de Escritorio virtual aprovechando las capacidades de redireccionamiento de dispositivos con Windows 10. Surface proporciona una amplia gama de compatibilidad con la redirección de dispositivos, especialmente si se compara con clientes delgados oem y terminales fijos, Android, iOS/macOS y acceso basado en web. Los clientes de la Bandeja de entrada de Windows (MSTSC) y de escritorio de Windows (MSRDC) proporcionan la mayoría de las capacidades de redirección de dispositivos, como redirección de entrada (teclado, mouse, lápiz y táctil), redirección de puertos (serie y USB) y otras redirecciones (cámaras, portapapeles, unidad/almacenamiento local, ubicación, micrófonos, impresoras, escáneres, tarjetas inteligentes y altavoces). Para obtener una comparación detallada de la compatibilidad con la redirección de dispositivos, consulte la documentación de redirección [de dispositivos](/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support).
+Las experiencias de productividad centradas en Surface enumeradas anteriormente se vuelven aún más atractivas en entornos de Azure Virtual Desktop al aprovechar las capacidades de redireccionamiento de dispositivos con Windows 10. Surface proporciona una amplia gama de compatibilidad con la redirección de dispositivos, especialmente si se compara con clientes delgados oem y terminales fijos, Android, iOS/macOS y acceso basado en web. Los clientes de la Bandeja de entrada de Windows (MSTSC) y de escritorio de Windows (MSRDC) proporcionan la mayoría de las capacidades de redirección de dispositivos, como redirección de entrada (teclado, mouse, lápiz y táctil), redirección de puertos (serie y USB) y otras redirecciones (cámaras, portapapeles, unidad/almacenamiento local, ubicación, micrófonos, impresoras, escáneres, tarjetas inteligentes y altavoces). Para obtener una comparación detallada de la compatibilidad con la redirección de dispositivos, consulte la documentación de redirección [de dispositivos](/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support).
 
 ### <a name="familiar-desktop-experience"></a>Experiencia de escritorio familiar
 
@@ -71,7 +71,7 @@ La ejecución del cliente de escritorio de Windows en dispositivos Surface no so
 
 ### <a name="persistent-on-demand-and-just-in-time-work-scenarios"></a>Escenarios de trabajo persistentes, a petición y justo a tiempo
 
-Windows Escritorio virtual en Surface ayuda a los clientes a cumplir requisitos empresariales y de seguridad cada vez más complejos en todos los sectores, roles de empleados y entornos de trabajo. Entre ellos se incluyen los siguientes:
+Azure Virtual Desktop en Surface ayuda a los clientes a cumplir requisitos de seguridad y negocio cada vez más complejos en todos los sectores, roles de empleados y entornos de trabajo. Entre ellos se incluyen los siguientes:
 
 - Seguridad multicapa de acceso a datos y recursos de la organización
 - Cumplimiento de las normativas del sector
@@ -80,7 +80,7 @@ Windows Escritorio virtual en Surface ayuda a los clientes a cumplir requisitos 
 - Capacidad para admitir cargas de trabajo especializadas y intensivas en procesador.
 - Resistencia para mantener las operaciones durante las interrupciones.
 
-### <a name="table-1-windows-virtual-desktop-business-conversations"></a>Tabla 1. Windows Conversaciones empresariales de Escritorio virtual
+### <a name="table-1-azure-virtual-desktop-business-conversations"></a>Tabla 1. Conversaciones empresariales de Azure Virtual Desktop
 
 | Reglamento de & seguridad                                | Fuerza de trabajo elástica                                                            | Roles de trabajo                                                        | Cargas de trabajo especiales                                                            | Continuidad empresarial                                  |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -114,11 +114,11 @@ Incluso en un entorno de escritorio virtualizado, Microsoft 365 y Surface ofrece
 ### <a name="security-and-management"></a>Seguridad y administración
 
 De chip a nube, Microsoft 365 y Surface ayudan a las organizaciones a mantenerse protegidas y actualizadas.
-Con el hardware y el software de Surface , diseñados, creados y probados por Microsoft, los usuarios pueden estar seguros de que son productivos y protegidos por tecnologías líderes desde el chip hasta la nube. A medida que más usuarios trabajan de forma remota, la protección de los datos corporativos y la propiedad intelectual se vuelve más importante que nunca. Windows Virtual Desktop en Surface está diseñado en torno a un modelo de seguridad de confianza cero en el que cada solicitud de acceso se autentica fuertemente, se autoriza dentro de las restricciones de directiva e se inspecciona en busca de anomalías antes de conceder acceso.
+Con el hardware y el software de Surface , diseñados, creados y probados por Microsoft, los usuarios pueden estar seguros de que son productivos y protegidos por tecnologías líderes desde el chip hasta la nube. A medida que más usuarios trabajan de forma remota, la protección de los datos corporativos y la propiedad intelectual se vuelve más importante que nunca. Azure Virtual Desktop en Surface está diseñado en torno a un modelo de seguridad de confianza cero en el que todas las solicitudes de acceso están fuertemente autenticadas, autorizadas dentro de las restricciones de directiva e inspeccionadas en busca de anomalías antes de conceder acceso.
 
 Al maximizar las eficiencias de la informática en la nube, la administración moderna permite a TI satisfacer mejor las necesidades de los usuarios, las partes interesadas y los clientes en un entorno empresarial cada vez más competitivo. Por ejemplo, puedes hacer que los dispositivos Surface se ejecuten con una interacción mínima de tu equipo. El programa de instalación es automático y autointeresa. Las actualizaciones son rápidas e indolorías tanto para el equipo como para los usuarios. Puedes administrar dispositivos independientemente de su ubicación física.
 
-Las características de seguridad y administración que se entregan Windows escritorio virtual en Surface incluyen:
+Las características de seguridad y administración que se entregan con Azure Virtual Desktop en Surface incluyen:
 
 - **Windows Update.** Mantener Windows actualizado le ayuda a mantenerse al tanto de las nuevas amenazas de seguridad. Windows 10 se ha diseñado desde el primer momento para ser más seguro y usar las últimas capacidades de hardware para mejorar la seguridad. Con una UEFI 5 y una actualización de Windows para empresas que responde a amenazas en evolución, la protección de un extremo a otro es segura <a href="#5"><sup> </sup></a> y simplificada.
 - **Cifrado de hardware.** El cifrado de dispositivos te permite proteger los datos de Surface para que solo puedan acceder a los usuarios autorizados. Todos los Surface para empresas cuentan con un módulo discreto de plataforma de confianza (dTPM) protegido por hardware contra la intrusión, mientras que el software usa claves y medidas protegidas para comprobar la validez del software.
@@ -136,13 +136,13 @@ Surface realiza evaluaciones del ciclo de vida para calcular el impacto ambienta
 
 ## <a name="summary"></a>Resumen
 
-Windows Escritorio virtual en Surface proporciona a las organizaciones una mayor flexibilidad y resistencia para satisfacer las diversas necesidades de los usuarios, las partes interesadas y los clientes. La ejecución Windows soluciones de Escritorio virtual en dispositivos Surface ofrece ventajas únicas sobre la dependencia continua de los dispositivos heredados. Factores de forma flexibles como Surface Go 2 y Surface Pro 7+ conectados a la nube (o sin conexión), permiten a los usuarios ser productivos desde cualquier lugar y en cualquier momento. Ya sea que los empleados trabajen en escenarios persistentes, a petición o justos a tiempo, Windows Virtual Desktop en Surface ofrece a las empresas la versatilidad para mantener la productividad a lo largo de las interrupciones de emergencias de salud pública u otros eventos imprevistos. Con la seguridad integrada y multicapa y la capacidad de administración moderna de Windows 10, las empresas pueden aprovechar un ecosistema en expansión de servicios basados en la nube para implementar y escalar rápidamente Windows escritorios y aplicaciones. En pocas palabras, Windows Virtual Desktop en Surface ofrece tecnología críticamente necesaria a organizaciones y empresas de todos los tamaños.
+Azure Virtual Desktop en Surface proporciona a las organizaciones una mayor flexibilidad y resistencia para satisfacer las diversas necesidades de los usuarios, las partes interesadas y los clientes. La ejecución de soluciones de Escritorio virtual de Azure en dispositivos Surface ofrece ventajas únicas sobre la dependencia continua de los dispositivos heredados. Factores de forma flexibles como Surface Go 2 y Surface Pro 7+ conectados a la nube (o sin conexión), permiten a los usuarios ser productivos desde cualquier lugar y en cualquier momento. Ya sea que los empleados trabajen en escenarios persistentes, a petición o justos a tiempo, Azure Virtual Desktop en Surface ofrece a las empresas la versatilidad para mantener la productividad durante las interrupciones de las emergencias de salud pública u otros eventos imprevistos. Con la seguridad integrada y multicapa y la capacidad de administración moderna de Windows 10, las empresas pueden aprovechar un ecosistema en expansión de servicios basados en la nube para implementar y escalar rápidamente Windows escritorios y aplicaciones. En pocas palabras, Azure Virtual Desktop en Surface ofrece tecnología críticamente necesaria a organizaciones y empresas de todos los tamaños.
 
 ## <a name="learn-more"></a>Obtén más información
 
 Para obtener más información, consulta los siguientes recursos:
 
-- [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/)
+- [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/)
 - [Surface para empresas](https://www.microsoft.com/surface/business)
 - [Modernizar el personal con Microsoft Surface](https://boards.microsoft.com/public/prism/103849?token=754435c36d)
 - [Guía del contenido técnico y las soluciones de Surface](https://boards.microsoft.com/public/prism/104362/category/90968?token=09e688ec4a)
@@ -150,7 +150,7 @@ Para obtener más información, consulta los siguientes recursos:
 
 ----------
 
-<a id="1">1. Windows Virtual Desktop en Surface hace referencia a la ejecución de Azure Infraestructura de escritorio virtual en un dispositivo Surface y se describe aquí como una solución arquitectónica, no como un producto </a> disponible por separado.<br>
+<a id="1">1. Azure Virtual Desktop en Surface hace referencia a la ejecución de Azure Infraestructura de escritorio virtual en un dispositivo Surface y se describe aquí como una solución arquitectónica, no como un </a> producto disponible por separado.<br>
 <a id="2">2. </a> La duración de la batería varía considerablemente con la configuración, el uso y otros factores.<br>
 <a id="3">3. </a> Disponibilidad y rendimiento del servicio sujeto a la red del proveedor de servicios. Póngase en contacto con su proveedor de servicios para obtener detalles, compatibilidad, precios, tarjeta SIM y activación. Consulta todas las especificaciones y frecuencias en surface.com.<br>
 <a id="4">4. </a> Forrester Consulting, "A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface", encargado por Microsoft, 2018.<br> 

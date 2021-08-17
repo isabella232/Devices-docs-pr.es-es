@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 9367329bcaa7c42a31cc8de5ffcee2e65f4c8437
-  ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+  ms.openlocfilehash: 88674469b94de346a6a3a2b427f4cff034a3d405
+  ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 07/24/2021
-  ms.locfileid: "11676514"
+  ms.lasthandoff: 08/17/2021
+  ms.locfileid: "11902679"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
@@ -40,9 +40,9 @@ landingContent:
     links:
     - text: Información general técnica sobre los procesadores de Surface Laptop 4
       url: surface-laptop-processors.md
-    - text: formación general técnica sobre Surface Headphones 2+
+    - text: Introducción técnica sobre Surface Headphones 2+
       url: surface-headphones.md
-    - text: Windows Virtual Desktop en Surface
+    - text: Azure Virtual Desktop en Surface
       url: windows-virtual-desktop-surface.md
 - title: Microsoft Ignite
   linkLists:
