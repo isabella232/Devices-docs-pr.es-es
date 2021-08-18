@@ -27,7 +27,7 @@
 ## Implementar
 ### [Adopción de Surface Hub 2S y formación](surface-hub-2s-adoption-kit.md)
 ### [Vídeos de adopción de Surface Hub 2S](surface-hub-2s-adoption-videos.md)
-### [Primera instalación de Surface Hub 2S](surface-hub-2s-setup.md)
+### [Primera instalación de Surface Hub 2S](first-run-program-surface-hub.md)
 ### [Conectar dispositivos a Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Crear y probar una cuenta de dispositivo](create-and-test-a-device-account-surface-hub.md)
 ### [Crear paquetes de aprovisionamiento para Surface Hub](provisioning-packages-for-surface-hub.md)
