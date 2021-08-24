@@ -12,12 +12,12 @@ ms.date: 06/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 67ba96129d69cafaa7a1b24ce3dde98767b676ef
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 193053745628b434c07a63f23a042e95fead32eb
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614157"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911815"
 ---
 # <a name="surface-security-overview"></a>Introducción a la seguridad de Surface
 
@@ -87,7 +87,7 @@ La raíz de confianza de los dispositivos Surface comprueba las firmas y las med
 Como se muestra en la figura 2, la integridad del firmware se comprueba en cada fase desde presionar el botón de encendido hasta ejecutar el sistema operativo.
 
  > [!div class="mx-imgBorder"]
- > ![Figura 1. Arranque seguro para dispositivos Surface ](images/secboot.png)
+ > ![Figura 1. Arranque seguro para dispositivos Surface. ](images/secboot.png)
   *Figura 1. Arranque seguro para dispositivos Surface*
 
 | Paso  | Fase de arranque seguro                                                                                                                                                                                                                                      |

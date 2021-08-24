@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 11170f6c202faef7aa3dddcb8aa8c6fa84bea80f
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.openlocfilehash: a941879d43909a44c18a492d6c4f607cbafbe707
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643866"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911375"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Configurar cuentas de administrador no globales en Surface Hub
 
@@ -45,7 +45,7 @@ En primer lugar, cree un grupo de seguridad que contenga las cuentas de administ
 1. Inicie sesión en Intune a [través Microsoft Endpoint Manager centro](https://go.microsoft.com/fwlink/?linkid=2109431)de administración, seleccione Grupos nuevos grupos > y, en Tipo de ****  >  **** grupo, seleccione **Seguridad.** 
 2. Escriba un nombre de grupo (por ejemplo, **Surface Hub administradores locales)** y, a continuación, **seleccione Crear.** 
 
-     ![Crear grupo de seguridad para administradores de concentradores](images/sh-create-sec-group.png)
+     ![Crear grupo de seguridad para administradores de concentradores.](images/sh-create-sec-group.png)
 
 3. Abra el grupo, seleccione **Miembros**y, a continuación, elija Agregar miembros para especificar las cuentas de administrador que desea designar como administradores no globales en Surface Hub. **** Para obtener más información sobre cómo crear grupos en Intune, consulte [Agregar grupos para organizar usuarios y dispositivos.](/mem/intune/fundamentals/groups-add)
 
@@ -53,7 +53,7 @@ En primer lugar, cree un grupo de seguridad que contenga las cuentas de administ
 
 1. Repita el procedimiento anterior para crear un grupo de seguridad independiente para dispositivos concentradores; por ejemplo, **Surface Hub dispositivos**. 
 
-     ![Crear grupo de seguridad para dispositivos concentradores](images/sh-create-sec-group-devices.png) 
+     ![Crear grupo de seguridad para dispositivos concentradores.](images/sh-create-sec-group-devices.png) 
 
 ## <a name="obtain-azure-ad-group-sid-using-powershell"></a>Obtener SID de grupo de Azure AD con PowerShell
 
@@ -77,7 +77,7 @@ En primer lugar, cree un grupo de seguridad que contenga las cuentas de administ
 
 5. En Intune, seleccione el grupo que creó anteriormente y copie el identificador de objeto, como se muestra en la siguiente ilustración. 
 
-     ![Copy Object id. del grupo de seguridad](images/sh-objectid.png)
+     ![Copiar id. de objeto del grupo de seguridad.](images/sh-objectid.png)
 
 6. Ejecute el siguiente commandlet para obtener el SID del grupo de seguridad:
 
@@ -122,7 +122,7 @@ En primer lugar, cree un grupo de seguridad que contenga las cuentas de administ
     ```
 6. En Tipo de datos, seleccione **String XML** y busque para abrir el archivo XML que creó en el paso anterior. 
 
-     ![cargar archivo de configuración xml de administración local](images/sh-local-admin-config.png)
+     ![cargar archivo de configuración xml de administración local.](images/sh-local-admin-config.png)
 
 7. Haz clic en **Guardar**.
 8. Haga **clic en Seleccionar grupos para incluir** y elegir el grupo de seguridad que [creó anteriormente](#create-security-group-for-surface-hub-devices) ( Surface Hub**dispositivos**). Haz clic en **Siguiente**.

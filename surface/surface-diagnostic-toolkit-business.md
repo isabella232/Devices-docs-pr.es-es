@@ -12,12 +12,12 @@ ms.date: 07/27/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 13480c4b642ff64883c0ee69c73161a51f3f1e96
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 50ea987273c5d9a10bd28e67358ee83e1d8bc295
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708811"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911835"
 ---
 # <a name="surface-diagnostic-toolkit-for-business"></a>Kit de herramientas de diagnóstico de Surface para empresas
 
@@ -67,7 +67,7 @@ Para crear un paquete de SDT que pueda distribuir a los usuarios de su organizac
     >[!NOTE]
     >Si no aparece el asistente para la instalación, asegúrese de que ha iniciado sesión en la cuenta de administrador en el equipo.
 
-    ![bienvenido al Asistente para la configuración Toolkit diagnóstico de Surface](images/sdt-1.png)
+    ![bienvenido al Asistente para la Toolkit de configuración de Surface Diagnostic.](images/sdt-1.png)
 
     *Figura 1. Asistente para configuración Toolkit diagnóstico de Surface*
 
@@ -79,7 +79,7 @@ Para crear un paquete de SDT que pueda distribuir a los usuarios de su organizac
     >[!NOTE]
     >La opción estándar permite a los usuarios ejecutar la herramienta de diagnóstico directamente en su dispositivo Surface siempre que se haya iniciado sesión en su dispositivo con una cuenta de administrador.
 
-     ![Opciones de instalación: Avanzadas](images/sdt-install.png)
+     ![Opciones de instalación: Avanzadas.](images/sdt-install.png)
 
 7. Haga **clic en Siguiente** y, a continuación, en **Instalar**.
 
@@ -110,7 +110,7 @@ Tanto SDT como la consola de la aplicación SDT se instalan en `C:\Program Files
 
 Además del archivo .exe, SDT instala un archivo JSON y un archivo admin.dll (modules\admin.dll), como se muestra en la figura 2.
 
-![lista de archivos instalados de SDT en el Explorador de archivos](images/sdt-2.png)
+![lista de archivos instalados de SDT en el Explorador de archivos.](images/sdt-2.png)
 
 *Figura 2. Archivos instalados por SDT*
 
@@ -121,7 +121,7 @@ La creación de un paquete personalizado le permite dirigir la herramienta a pro
 1. Haz **clic en > Ejecutar**, escribe **Surface** y, a continuación, haz clic en Surface Diagnostic Toolkit **para empresas**.
 2. Cuando se abra la herramienta, haga clic **en Crear paquete personalizado**, como se muestra en la figura 3.
 
-    ![Opción Crear paquete personalizado](images/sdt-3.png)
+    ![Crear una opción de paquete personalizado.](images/sdt-3.png)
 
     *Figura 3. Crear paquete personalizado*
 
@@ -132,7 +132,7 @@ La creación de un paquete personalizado le permite dirigir la herramienta a pro
 >[!NOTE]
 >Esta configuración no afecta a la telemetría mínima almacenada automáticamente en los servidores De Microsoft al ejecutar pruebas y reparaciones que requieren una conexión a Internet, como una reparación de actualización y software de Windows, o proporcionar comentarios con los botones Smile o Frown de la barra de herramientas de la aplicación.
 
-![Seleccionar idioma y configuración de telemetría](images/sdt-4.png)
+![Seleccione la configuración de idioma y telemetría.](images/sdt-4.png)
 
 *Figura 4. Seleccionar idioma y configuración de telemetría*
 
@@ -140,7 +140,7 @@ La creación de un paquete personalizado le permite dirigir la herramienta a pro
 
 Seleccione la opción adecuada para su organización. La mayoría de las organizaciones con varios usuarios suelen seleccionar recibir actualizaciones a través de Windows Server Update Services (WSUS), como se muestra en la figura 5. Si usas paquetes Windows Update o WSUS, escribe la ruta de acceso según corresponda.
 
-![Seleccionar Windows actualizar](images/sdt-5.png)
+![Seleccione Windows opción Actualizar.](images/sdt-5.png)
 
 *Figura 5. Windows Opción Actualizar*
 
@@ -148,7 +148,7 @@ Seleccione la opción adecuada para su organización. La mayoría de las organiz
 
 Esto le permite seleccionar o quitar la opción para ejecutar actualizaciones de reparación de software.
 
-![Seleccionar opción de reparación de software](images/sdt-6.png)
+![Seleccione la opción de reparación de software.](images/sdt-6.png)
 
 *Figura 6. Opción de reparación de software*
 
@@ -156,11 +156,11 @@ Esto le permite seleccionar o quitar la opción para ejecutar actualizaciones de
 
 Puede seleccionar ejecutar una amplia variedad de registros en aplicaciones, controladores, hardware y el sistema operativo. Haga clic en el área adecuada y seleccione en el menú de registros disponibles. A continuación, puede guardar el paquete en un punto de distribución de software o una ubicación equivalente a la que los usuarios puedan tener acceso.
 
-![Seleccionar opciones de registro](images/sdt-7.png)
+![Seleccione opciones de registro.](images/sdt-7.png)
 
 *Figura 7. Opción Registrar y guardar paquete*
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 - [Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio](surface-diagnostic-toolkit-desktop-mode.md)
 - [Usar Surface Diagnostic Toolkit para empresas mediante comandos](surface-diagnostic-toolkit-command-line.md)

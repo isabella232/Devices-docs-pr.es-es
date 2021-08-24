@@ -13,12 +13,12 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: 1ba8da50472927ff106b7243d89c15995844b191
-ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
+ms.openlocfilehash: 60ace1e2b9344faeb9f130a56686ffac4643fc37
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "11883027"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911325"
 ---
 # <a name="manage-surface-uefi-settings"></a>Administrar la configuración de la UEFI de Surface
 
@@ -92,19 +92,19 @@ La página Seguridad permite establecer una contraseña para proteger la configu
 
 La contraseña debe tener al menos 6 caracteres y distingue mayúsculas de minúsculas.
 
-![Agregar una contraseña para proteger la configuración de la UEFI de Surface](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
+![Agrega una contraseña para proteger la configuración de UEFI de Surface.](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
 *Figura 3. Agregar una contraseña para proteger la configuración de la UEFI de Surface*
 
 En la página Seguridad también puedes cambiar la configuración de arranque seguro en el dispositivo Surface. La tecnología de arranque seguro impide que el código de arranque no autorizado arranque en el dispositivo Surface, lo que protege contra infecciones de malware de tipo bootkit y rootkit. Puedes deshabilitar el arranque seguro para permitir el dispositivo Surface en sistemas operativos de terceros de arranque o medios de arranque. También puede configurar el arranque seguro para que funcione con certificados de terceros, como se muestra en la figura 4. Lee más sobre el [Arranque seguro](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview) en la biblioteca de TechNet.
 
-![Configurar el arranque seguro](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
+![Configurar arranque seguro.](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 
 *Figura 4. Configurar el arranque seguro*
 
 Según el dispositivo, es posible que también puedas ver si el TPM está habilitado o deshabilitado. Si no ve la configuración Habilitar **TPM,** abra tpm.msc en Windows para comprobar el estado, como se muestra en la figura 5. El TPM se usa para autenticar el cifrado de datos de tu dispositivo con BitLocker. Para obtener más información, consulta [Introducción a BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview).
 
-![Consola tpm](images/manage-surface-uefi-fig5-a.png "TPM console")
+![Consola tpm.](images/manage-surface-uefi-fig5-a.png "TPM console")
 
 *Figura 5. Consola tpm*
 
@@ -179,50 +179,50 @@ Use el **botón Reiniciar ahora** de la **página** Salir para salir de la confi
 
 Cuando actualizas el firmware del dispositivo Surface, ya sea mediante Windows Update o la instalación manual, las actualizaciones no se aplican de inmediato en el dispositivo, sino durante el próximo ciclo de reinicio. Puedes obtener más información sobre el proceso de actualización de firmware de Surface en Administrar e implementar actualizaciones de [controladores y firmware de Surface.](manage-surface-driver-and-firmware-updates.md) El progreso de la actualización del firmware se muestra en una pantalla con barras de progreso de colores diferentes para indicar el firmware para cada componente. La barra de progreso de cada componente se muestra en las figuras 9 a 18.
 
-![Actualización del firmware de la UEFI de Surface con barra de progreso azul](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
+![Actualización de firmware uefi de Surface con barra de progreso azul.](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
 *Figura 10. La actualización del firmware de la UEFI de Surface muestra una barra de progreso azul*
 
-![Firmware de controlador integrado del sistema con la barra de progreso verde](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
+![Firmware del controlador incrustado del sistema con barra de progreso verde.](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
 
 *Figura 11. La actualización del firmware de controlador integrado del sistema muestra una barra de progreso verde*
 
-![Actualización del firmware de controladora SAM con barra de progreso naranja](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
+![Actualización de firmware del controlador SAM con barra de progreso naranja.](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
 
 *Figura 12. La actualización de firmware de la controladora SAM muestra una barra de progreso naranja*
 
-![Firmware del motor de administración de Intel con barra de progreso roja](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
+![Firmware del motor de administración intel con barra de progreso roja.](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
 
 *Figura 13. La actualización del firmware del motor de administración de Intel muestra una barra de progreso roja*
 
-![Firmware de entrada táctil de Surface con barra de progreso gris](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
+![Firmware táctil de Surface con barra de progreso gris.](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
 
 *Figura 14. La actualización del firmware de entrada táctil de Surface muestra una barra de progreso gris*
 
-![Firmware de SURFACE KIP con barra de progreso verde claro](images/manage-surface-uefi-fig13.png "Surface touch firmware with light green progress bar")
+![Firmware DE SURFACE KIP con barra de progreso verde claro.](images/manage-surface-uefi-fig13.png "Surface touch firmware with light green progress bar")
 
 *Figura 15. La actualización de firmware de Surface KIP muestra una barra de progreso verde claro*
 
-![Firmware ish de Surface con barra de progreso rosa](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
+![Firmware ish de Surface con barra de progreso rosa.](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
 
 *Figura 16 La actualización de firmware ish de Surface muestra una barra de progreso rosa claro*
 
-![Firmware de Surface Trackpad con barra de progreso gris](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
+![Firmware de Surface Trackpad con barra de progreso gris.](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
 
 *Figura 17. La actualización de firmware de Surface Trackpad muestra una barra de progreso rosa*
 
-![Firmware de Surface TCON con barra de progreso gris claro](images/manage-surface-uefi-fig16.png "Surface TCON firmware with light gray progress bar")
+![Firmware de Surface TCON con barra de progreso gris claro.](images/manage-surface-uefi-fig16.png "Surface TCON firmware with light gray progress bar")
 
 *Figura 18. La actualización de firmware de Surface TCON muestra una barra de progreso gris claro*
 
-![Firmware de TPM de Surface con barra de progreso púrpura claro](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
+![Firmware de TPM de Surface con barra de progreso púrpura claro.](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *Figura 19. La actualización de firmware del TPM de Surface muestra una barra de progreso púrpura*
 
 >[!NOTE]
 >Se muestra un mensaje de advertencia adicional que indica que el arranque seguro está deshabilitado, como se muestra en la figura 19.
 
-![Pantalla de arranque de Surface que indica que el arranque seguro se ha deshabilitado](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
+![Pantalla de arranque de Surface que indica que el arranque seguro se ha deshabilitado.](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *Figura 20. Pantalla de arranque de Surface que indica que el arranque seguro se ha deshabilitado en la configuración de la UEFI de Surface*
 

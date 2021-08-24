@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: bb5c08454d6c148c5e07b80ee0b4452e5b768a87
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 9f0f63cb44c54b6350bc478e4fc15455ba94e85f
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676714"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911825"
 ---
 # <a name="create-provisioning-packages-for-surface-hub"></a>Crear paquetes de aprovisionamiento para Surface Hub
 
@@ -43,21 +43,21 @@ Los paquetes de aprovisionamiento te permiten automatizar la implementación de 
 ## <a name="use-surface-hub-provisioning-wizard"></a>Usar Surface Hub de aprovisionamiento
 
 1. Abra Windows Configuration Designer y seleccione **Aprovisionar Surface Hub dispositivos**.<br>
-    ![Usar al asistente para aprovisionar Surface Hub](images/sh-prov-start.png)
+    ![Use el asistente Surface Hub de aprovisionamiento.](images/sh-prov-start.png)
     
 2. Asigne un nombre al proyecto y seleccione **Siguiente**.
 
 ### <a name="add-certificates"></a>Agregar certificados
 
 > [!div class="mx-imgBorder"]
-> ![agregar un certificado](images/sh-prov-cert.png)
+> ![agregar un certificado.](images/sh-prov-cert.png)
 
 Para aprovisionar el dispositivo con un certificado, **seleccione Agregar un certificado**. Escriba un nombre para el certificado y, a continuación, busque para seleccionar el certificado que se va a usar.  Para obtener opciones avanzadas de aprovisionamiento, consulte la sección siguiente [Agregar un certificado al paquete](#add-a-certificate-to-your-package).
 
 ### <a name="configure-proxy-settings"></a>Definir la configuración de proxy
 
 > [!div class="mx-imgBorder"]
-> ![definir configuración de proxy](images/sh-prov-proxy.png)
+> ![configurar la configuración de proxy.](images/sh-prov-proxy.png)
 
 1. Alterna **Sí** o **No** para la configuración de proxy. De forma predeterminada, Surface Hub automáticamente detecta la configuración de proxy. Sin embargo, si anteriormente tu infraestructura requería el uso de un servidor proxy y ahora ha cambiado y ya no lo requiere, puedes usar un paquete de aprovisionamiento para revertir los dispositivos Surface Hub a la configuración predeterminada seleccionando **Sí** y **Detectar la configuración automáticamente**.
 2. Si alterna **Sí**, puede seleccionar para detectar automáticamente la configuración de proxy o configurar manualmente la configuración especificando una de las siguientes opciones:
@@ -72,7 +72,7 @@ Para aprovisionar el dispositivo con un certificado, **seleccione Agregar un cer
 ### <a name="set-up-device-admins"></a>Configurar administradores de dispositivos
 
  > [!div class="mx-imgBorder"]
- > ![Unirse a Active Directory, Azure AD o crear una cuenta de administrador local](images/sh2-wcd.png)
+ > ![Únase a Active Directory, Azure AD o cree una cuenta de administrador local.](images/sh2-wcd.png)
 
 Puedes inscribir el dispositivo en Active Directory y especificar un grupo de seguridad para que use la aplicación Configuración, inscribirlo en Azure Active Directory para permitir que los administradores globales usen la aplicación Configuración o crear una cuenta de administrador local en el dispositivo.
 
@@ -87,7 +87,7 @@ Puedes inscribir el dispositivo en Active Directory y especificar un grupo de se
 ### <a name="enroll-in-third-party-mdm-provider"></a>Inscribirse en un proveedor MDM de terceros
 
 > [!div class="mx-imgBorder"]
-> ![Inscribirse en la administración de dispositivos móviles de terceros](images/sh-prov-mdm.png)
+> ![Inscríbase en la administración de dispositivos móviles de terceros.](images/sh-prov-mdm.png)
 
 Si usas un proveedor de administración de dispositivos móviles (MDM) de terceros, puedes usar esta sección para inscribir Surface Hub. Para inscribirse en Intune, configure primero la combinación de Azure AD, tal como se describe en la sección anterior, y siga las instrucciones de la siguiente documentación de Intune: Configurar la inscripción automática para [dispositivos Windows 10.](/mem/intune/enrollment/quickstart-setup-auto-enrollment)
 
@@ -100,7 +100,7 @@ Si usas un proveedor de administración de dispositivos móviles (MDM) de tercer
 ### <a name="add-applications"></a>Agregar aplicaciones
 
 > [!div class="mx-imgBorder"]
-> ![agregar una aplicación](images/sh-prov-apps.png)
+> ![agregar una aplicación.](images/sh-prov-apps.png)
 
 Puedes instalar varias aplicaciones para la Plataforma universal de Windows (UWP) en un paquete de aprovisionamiento. Para obtener más información, consulta [Aprovisionar equipos con aplicaciones.](/windows/configuration/provisioning-packages/provision-pcs-with-apps)
 
@@ -142,17 +142,17 @@ Si solo necesita configurar opciones comunes, seleccione **Finalizar**crear y  >
 ## <a name="use-advanced-provisioning"></a>Usar aprovisionamiento avanzado
 
 > [!TIP]
-> Usa el asistente para crear un paquete con la configuración común y después usa el editor avanzado para agregar otras configuraciones.<br><br> ![Cambiar al editor avanzado](images/icd-simple-edit.png)
+> Usa el asistente para crear un paquete con la configuración común y después usa el editor avanzado para agregar otras configuraciones.<br><br> ![Cambie al editor avanzado.](images/icd-simple-edit.png)
 
 1. Si continúa en la sección anterior, seleccione **Cambiar al editor** avanzado de lo **contrario, abra Windows Diseñador** de configuraciones y seleccione **Aprovisionamiento avanzado**.
 
-   ![Usar aprovisionamiento avanzado](images/sh-prov-adv.png)
+   ![Usar el aprovisionamiento avanzado.](images/sh-prov-adv.png)
 
 2. Asigne un nombre al proyecto y seleccione **Siguiente**.
 
 3. Seleccione **Común para Windows 10 Team**, seleccione **Siguiente**y, a continuación, seleccione **Finalizar**.
 
-   ![Nuevo proyecto wcd](images/icd-new-project.png)
+   ![Nuevo proyecto WCD.](images/icd-new-project.png)
 
 4. En el proyecto, en **Personalizaciones disponibles,** seleccione **Configuración común del equipo**.
 

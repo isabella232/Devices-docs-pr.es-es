@@ -14,16 +14,16 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: 339a6a3ab76f36004f2399b333d48487c9d6e31d
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 463f5670c5e2b7eac9ac7a41b5b2b04da3ebb83e
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676694"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911185"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>Implementar la aplicación Surface con Microsoft Store para Empresas y Educación
 
-**Se aplica a**
+**Aplicable a**
 
 - Surface Laptop 4
 - Surface Pro 7+
@@ -69,7 +69,7 @@ Para que los usuarios puedan instalar o implementar una aplicación desde la cue
 3. Habilitar licencias sin **** conexión: haga clic en Administrar Configuración y, a continuación, active la casilla Mostrar aplicaciones con licencia sin conexión a las personas que compran en la tienda, como se muestra en la  >  **** figura 1. **** Para obtener más información sobre Microsoft Store para Empresas de licencias de aplicaciones, [consulta Aplicaciones en Microsoft Store para Empresas y Educación](/microsoft-store/).
 
    > [!div class="mx-imgBorder"]
-   > ![Casilla Mostrar aplicaciones de licencias sin conexión](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
+   > ![Casilla Mostrar aplicaciones de licencias sin conexión.](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *Figura 1. Habilitar aplicaciones para uso sin conexión*
 
 4. Agrega la aplicación Surface a tu Microsoft Store para Empresas cuenta:
@@ -81,7 +81,7 @@ Para que los usuarios puedan instalar o implementar una aplicación desde la cue
     * Se le presenta una opción (seleccione **En** línea o **sin**conexión), como se muestra en la figura 2.
     
       > [!div class="mx-imgBorder"]
-      > ![Selecciona el modo de licencias sin conexión y agrega la aplicación al inventario](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
+      > ![Selecciona el modo de licencias sin conexión y agrega la aplicación al inventario.](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
       *Figura 2. Selecciona el modo de licencias sin conexión y agrega la aplicación al inventario*
     
     * Haga **clic en Sin** conexión para seleccionar el modo de licencias sin conexión.
@@ -89,7 +89,7 @@ Para que los usuarios puedan instalar o implementar una aplicación desde la cue
     * Haz **clic en Obtener la aplicación** para agregar la aplicación a tu Microsoft Store para Empresas inventario. Como se muestra en la figura 3, verás un cuadro de diálogo que te pedirá que reconozcas que las aplicaciones sin conexión se pueden implementar con una herramienta de administración o descargarse desde la página de inventario de la compañía en su tienda privada.
     
       > [!div class="mx-imgBorder"]
-      > ![Ventana de confirmación de la aplicación con licencia sin conexión ](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
+      > ![Ventana de confirmación de la aplicación con licencia sin conexión. ](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
        *Figura 3. Confirmación de la aplicación con licencia sin conexión*
       
     * Haga clic en **Aceptar**.
@@ -106,7 +106,7 @@ Después de agregar una aplicación a la cuenta Microsoft Store para Empresas en
 4. Seleccione las opciones **de plataforma** **y arquitectura** deseadas de las selecciones disponibles para la aplicación seleccionada, como se muestra en la figura 4.
 
     > [!div class="mx-imgBorder"]
-    > ![Ejemplo del paquete AppxBundle](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
+    > ![Ejemplo del paquete AppxBundle.](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
     *Figura 4. Descargar el paquete AppxBundle para una aplicación*
     
 5. Haga clic **en Descargar**. Se descargará el paquete AppxBundle. Asegúrese de tener en cuenta la ruta de acceso del archivo descargado porque lo necesitará más adelante en este artículo.
@@ -121,7 +121,7 @@ Después de agregar una aplicación a la cuenta Microsoft Store para Empresas en
 En la figura 5 se muestran los marcos necesarios para la aplicación Surface.
 
 > [!div class="mx-imgBorder"]
-> ![Marcos necesarios para la aplicación Surface](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
+> ![Marcos necesarios para la aplicación Surface.](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
 *Figura 5. Marcos necesarios para la aplicación Surface*
 
 >[!NOTE]

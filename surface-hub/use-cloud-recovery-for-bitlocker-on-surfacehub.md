@@ -9,74 +9,74 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 7912f9d1bab2ba625995c56d6d7da4e6b2d3df37
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e220be7d4613fcb6a14180e482dc4f2c66a5ddc8
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834873"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911035"
 ---
-# Resumen
+# <a name="summary"></a>Resumen
 
-En este artículo se describe cómo usar la función de recuperación de la nube si se lo solicita inesperadamente mediante BitLocker en un dispositivo Surface Hub.
+En este artículo se describe cómo usar la función de recuperación en la nube si BitLocker te pide inesperadamente en un Surface Hub dispositivo.
 
 > [!NOTE]
-> Debe seguir estos pasos solo si no está disponible una clave de recuperación de BitLocker.
+> Solo debes seguir estos pasos si una clave de recuperación de BitLocker no está disponible.
 
 > [!WARNING]
-> * Este proceso de recuperación elimina el contenido de la unidad interna. Si se produce un error en el proceso, la unidad interna quedará totalmente inutilizable. Si esto sucede, tendrá que registrar una solicitud de servicio con Microsoft para obtener una solución.
-> * Una vez completado el proceso de recuperación, el dispositivo se restablecerá a la configuración de fábrica y se devolverá al estado de la misma.
-> * Después de la recuperación, el Surface Hub debe reconfigurarse por completo.
+> * Este proceso de recuperación elimina el contenido de la unidad interna. Si se produce un error en el proceso, la unidad interna se volverá completamente inutilizable. Si esto ocurre, tendrá que registrar una solicitud de servicio con Microsoft para obtener una resolución.
+> * Una vez completado el proceso de recuperación, el dispositivo se restablecerá a la configuración de fábrica y se devolverá a su estado de experiencia fuera de la caja.
+> * Después de la recuperación, Surface Hub debe volver a configurarse completamente.
 
 > [!IMPORTANT]
 > Este proceso requiere una conexión a Internet abierta que no use un proxy u otro método de autenticación.
 
-##  <a name="cloud-recovery-process"></a>Proceso de recuperación en la nube
+## <a name="cloud-recovery-process"></a>Proceso de recuperación en la nube
 
 Para realizar una recuperación en la nube, siga estos pasos:
 
-1. Seleccione **ESC para ver más opciones de recuperación**.
+1. Seleccione **Presionar Esc para obtener más opciones de recuperación.**
 
-   ![Captura de pantalla de escape](images/01-escape.png)
+   ![Captura de pantalla de Escape.](images/01-escape.png)
 
-1. Seleccione **omitir esta unidad**.
+1. Seleccione **Omitir esta unidad**.
 
-   ![Captura de pantalla de omitir esta unidad](images/02-skip-this-drive.png)
+   ![Captura de pantalla de Omitir esta unidad.](images/02-skip-this-drive.png)
 
-1. Seleccione **recuperar en la nube**.
+1. Seleccione **Recuperar desde la nube**.
 
-   ![Captura de pantalla de la recuperación desde la nube](images/03-recover-from-cloud.png)
+   ![Captura de pantalla de Recuperar desde la nube.](images/03-recover-from-cloud.png)
 
-1. Seleccione **sí**.
+1. Seleccione **Sí**.
 
-   ![Captura de pantalla de sí](images/04-yes.png)
+   ![Captura de pantalla de Sí.](images/04-yes.png)
 
-1. Seleccione **reinstalar**.
+1. Seleccione **Reinstalar**.
 
-   ![Captura de pantalla de reinstalar](images/05a-reinstall.png)
+   ![Captura de pantalla de Reinstalar.](images/05a-reinstall.png)
 
-   ![Captura de pantalla de la descarga](images/05b-downloading.png)
+   ![Captura de pantalla de descarga.](images/05b-downloading.png)
 
-1. Una vez completado el proceso **de recuperación de**la nube, inicie la reconfiguración con la configuración rápida.
+1. Una vez completado el proceso de recuperación en la nube, inicie la reconfiguración mediante **la experiencia de inicio de la caja**.
 
-   ![Captura de pantalla de fuera del cuadro](images/06-out-of-box.png)
+   ![Captura de pantalla de Fuera de la caja.](images/06-out-of-box.png)
 
-##  <a name="something-went-wrong-error-message"></a>Mensaje de error "se ha encontrado un error"
+## <a name="something-went-wrong-error-message"></a>Mensaje de error "Algo salió mal"
 
-Este error suele deberse a problemas de red que se producen durante la descarga de la recuperación. Cuando se produzca este problema, no desactive el concentrador porque no podrá reiniciarlo. Si recibe este mensaje de error, vuelva al paso "recuperar desde la nube" y, a continuación, reinicie el proceso de recuperación.
+Este error suele deberse a problemas de red que se producen durante la descarga de recuperación. Cuando se produzca este problema, no desactive el concentrador porque no podrá reiniciarlo. Si recibe este mensaje de error, vuelva al paso "Recuperar de la nube" y, a continuación, reinicie el proceso de recuperación.
 
 1. Seleccione **Cancelar**.
 
-   ![Captura de pantalla de cancelar](images/07-cancel.png)
+   ![Captura de pantalla de Cancelar.](images/07-cancel.png)
 
-1. Seleccione **solucionar problemas**.
+1. Seleccione **Solucionar problemas**.
 
-   ![Captura de pantalla de solución de problemas](images/08-troubleshoot.png)
+   ![Captura de pantalla de Solución de problemas.](images/08-troubleshoot.png)
 
-1. Seleccione **recuperar en la nube**.
+1. Seleccione **Recuperar desde la nube**.
 
-   ![Captura de pantalla de la recuperación desde la nube](images/09-recover-from-cloud2.png)
+   ![Captura de pantalla de Recuperar desde la nube.](images/09-recover-from-cloud2.png)
 
-1. Si se produce un error de **no se encontró la red cableada** , seleccione **Cancelar**y, a continuación, deje que Surface Hub vuelva a descubrir la red cableada.
+1. Si no **se encuentra** un error en la red cableada, seleccione **Cancelar**y, a continuación, deje que el Surface Hub detección de la red cableada.
 
-   ![Captura de pantalla de red cableada no encontrada](images/10-cancel.png)
+   ![No se encuentra la captura de pantalla de la red cableada.](images/10-cancel.png)

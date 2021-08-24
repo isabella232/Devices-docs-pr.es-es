@@ -12,14 +12,14 @@ ms.date: 5/06/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 26a6d49af6010f66ed80d0aba1193ef009c91ff0
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 31ce5192670b8c9051ba499273909fdf31c1062d
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676524"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911965"
 ---
-# <a name="surface-book-3-gpu-tech-overview"></a>Surface Book de tecnología de 3 GPU
+# <a name="surface-book-3-gpu-tech-overview"></a>Introducción a la tecnología de GPU de Surface Book 3
 
 ## <a name="introduction"></a>Introducción
 
@@ -136,7 +136,7 @@ En algunos casos, Windows 10 puede asignar una aplicación gráficamente exigent
 
 2. Seleccione **Agregar** para crear una nueva entrada en la lista del programa seleccionado, seleccione Opciones para abrir Especificaciones de gráficos y, a continuación, seleccione la opción que desee.
 
-   ![Seleccionar opciones de GPU de alto rendimiento o ahorro de energía](./images/graphics-settings2.png)
+   ![Seleccione opciones de GPU de alto rendimiento o de ahorro de energía.](./images/graphics-settings2.png)
 
 3. Para comprobar qué GPU se usa para cada aplicación, abra el Administrador de **tareas,** **seleccione** Rendimiento y vea la columna Motor **de GPU.**
 

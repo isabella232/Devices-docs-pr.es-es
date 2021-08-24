@@ -20,12 +20,12 @@ appliesto:
 - Surface Book 3
 - Surface Laptop Go
 - Surface Laptop 4
-ms.openlocfilehash: 871bead0ae5f73c546b8dbe219d71b819d3a865e
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: b9b58406bbd256e79aec9065c5e25f618e584a02
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676454"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911975"
 ---
 # <a name="manage-dfci-on-surface-devices"></a>Administrar DFCI en dispositivos Surface
 
@@ -45,7 +45,7 @@ Anteriormente, la administración del firmware requería la inscripción de disp
 
  Con las capacidades de administración de firmware UEFI integradas en Microsoft Intune, la capacidad de bloquear el hardware se simplifica y es más fácil de usar con nuevas características para el aprovisionamiento, la seguridad y la actualización optimizada de todo en una sola consola, ahora unificada [como Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). En la siguiente figura se muestra la configuración de UEFI que se ve directamente en el dispositivo (izquierda) y se ve en la Endpoint Manager (derecha).
 
-![Configuración de UEFI que se muestra en el dispositivo (izquierda) y en la consola Endpoint Manager (derecha)](images/uefidfci.png)
+![Configuración de UEFI que se muestra en el dispositivo (izquierda) y en la consola Endpoint Manager (derecha).](images/uefidfci.png)
 
 Crucially, DFCI enables zero touch management, eliminating the need for manual interaction by IT admins. DFCI se implementa mediante Windows Autopilot mediante la funcionalidad de perfiles de dispositivo en Intune. Un perfil de dispositivo te permite agregar y configurar opciones que luego se pueden implementar en dispositivos inscritos en la administración dentro de la organización. Una vez que el dispositivo recibe el perfil del dispositivo, las características y la configuración se aplican automáticamente. Algunos ejemplos de perfiles de dispositivo comunes son correo electrónico, restricciones de dispositivo, VPN, Wi-Fi y plantillas administrativas. DFCI es simplemente un perfil de dispositivo adicional que permite administrar las opciones de configuración de UEFI desde la nube sin tener que mantener la infraestructura local.  
 
@@ -87,12 +87,12 @@ Antes de configurar las opciones de directiva DFCI, primero cree un perfil DFCI 
 3. Seleccione **Windows 10 y posteriores** para el tipo de plataforma.
 4. En la lista desplegable Tipo de perfil, seleccione Interfaz de configuración de **firmware** de dispositivo para abrir la hoja DFCI que contiene toda la configuración de directiva disponible. Para obtener información sobre la configuración de DFCI, consulte la tabla 1 de esta página o la [documentación de Intune](/intune/configuration/device-firmware-configuration-interface-windows). Puede configurar dfci durante el proceso de configuración inicial o posterior editando el perfil DFCI.
 
-    ![Crear perfil DFCI](images/df1.png)
+    ![Crear perfil DFCI.](images/df1.png)
 
 5. Haga **clic en Aceptar** y, a **continuación, seleccione Crear**.
 6. Seleccione **Asignaciones y,** en **Seleccionar grupos,** seleccione el grupo de seguridad de Azure AD que contiene los dispositivos de destino, como se muestra en la siguiente figura. Haz clic en **Guardar**.
 
-    ![Asignar grupo de seguridad](images/df2a.png)
+    ![Asignar grupo de seguridad.](images/df2a.png)
 
 ## <a name="create-autopilot-profile"></a>Crear perfil de Autopilot
 
@@ -105,7 +105,7 @@ Antes de configurar las opciones de directiva DFCI, primero cree un perfil DFCI 
 
 4. Deje la configuración predeterminada restante sin cambios y seleccione **Siguiente**, como se muestra en la ilustración siguiente.
 
-    ![Crear perfil de Autopilot](images/df3b.png)
+    ![Crear perfil de Autopilot.](images/df3b.png)
 
 5. En la página Asignaciones, elija **Seleccionar grupos para incluir y** haga clic en el grupo de seguridad de Azure AD. Selecciona **Siguiente**.
 6. Acepte el resumen y, a continuación, **seleccione Crear**. El perfil de Autopilot ahora se crea y se asigna al grupo.
@@ -125,7 +125,7 @@ Para configurar la directiva DFCI, edite el perfil DFCI desde Endpoint Manager, 
 
 - En Endpoint Manager en devicemanagement.microsoft.com, seleccione **Dispositivos > Windows > perfiles**de configuración > "Nombre de perfil DFCI" > propiedades > Configuración .
 
-    ![Configurar las opciones de DFCI](images/dfciconfig.png)
+    ![Configure las opciones de DFCI.](images/dfciconfig.png)
 
 ### <a name="block-user-access-to-uefi-settings"></a>Bloquear el acceso de usuario a la configuración de UEFI
 
@@ -172,7 +172,7 @@ En un entorno de prueba, puedes comprobar la configuración en la interfaz UEFI 
 1. Abra La UEFI de Surface, que implica presionar los botones **Volumen +** y **Energía** al mismo tiempo.
 2. Seleccione **Dispositivos**. El menú UEFI reflejará la configuración, como se muestra en la siguiente figura.
 
-    ![Surface UEFI](images/df3.png)
+    ![UEFI de Surface.](images/df3.png)
 
     Tenga en cuenta cómo:
 

@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9a98eb9bab9b0be7f225dedf00ee6cfe7944b05e
-ms.sourcegitcommit: 657d0d73a51f0dd35ad60740ed523164a55d2e04
+ms.openlocfilehash: a6b1dcdb3cf0ff8fe2f6485520c6b6301f5d2b2f
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11720934"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912005"
 ---
 # <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>Puertos seguros de Surface Dock 2 con surface Enterprise management mode (SEMM)
 
@@ -106,15 +106,15 @@ Cuando haya obtenido o creado los certificados, estará listo para crear el paqu
 
 1. Ejecute El **Configurador uefi de**Surface .
 
-   ![Ejecutar Surface UEFI Configurator](images/secure-surface-dock-ports-semm-1.png)
+   ![Ejecuta Surface UEFI Configurator.](images/secure-surface-dock-ports-semm-1.png)
 
 1. Selecciona **Surface Dock**.
 
-   ![Seleccionar Surface Dock](images/secure-surface-dock-ports-semm-2.png)
+   ![Selecciona Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
 
 1. Escriba los certificados **adecuados**  en la página del certificado. Los certificados de demostración están disponibles en [Surface Tools para](https://www.microsoft.com/download/details.aspx?id=46703) ** TI: ** descargueSEMM_PowerShell.zipy consulte **CreateSurfaceDock2Certificates.ps1**. Asegúrese de instalar **SurfaceDock2_WmiInstanceProvider** antes de ejecutar los scripts de demostración.
 
-   ![escriba los certificados adecuados](images/secure-surface-dock-ports-semm-3.png)
+   ![escriba los certificados adecuados.](images/secure-surface-dock-ports-semm-3.png)
 
 1. Agregue los RN de acoplamiento adecuados a la lista.
 
@@ -146,19 +146,19 @@ Objetivo: configurar las opciones de directiva para permitir el acceso de puerto
 
 1. Active todos los puertos para usuarios autenticados y desconéctelos para usuarios no autenticados.
 
-   ![Habilitar puertos para usuarios autenticados](images/secure-surface-dock-ports-semm-4.png)
+   ![Habilitar puertos para usuarios autenticados.](images/secure-surface-dock-ports-semm-4.png)
 
 1. Aplica el paquete de configuración al dispositivo de destino y, a continuación, conecta Surface Dock 2.
 
 1. Abre **Surface App** y selecciona Surface **Dock** para ver el estado resultante de la directiva de Surface Dock. Si se aplica la configuración de directiva, Surface App indicará que los puertos están disponibles.
 
-   ![La aplicación Surface muestra todos los puertos disponibles para usuarios autenticados](images/secure-surface-dock-ports-semm-5.png)
+   ![La aplicación Surface muestra que todos los puertos están disponibles para usuarios autenticados.](images/secure-surface-dock-ports-semm-5.png)
 
 1. Ahora debe comprobar que la configuración de directiva ha desactivado correctamente todos los puertos para usuarios no autenticados. Conectar Surface Dock 2 para un dispositivo no administrado, es decir, cualquier dispositivo Surface fuera del ámbito de administración del paquete de configuración que creaste.
 
 1. Abre **Surface App** y selecciona Surface **Dock**. El estado de directiva resultante indicará que los puertos están desactivados.
 
-   ![Aplicación surface que muestra puertos desactivados para usuarios no autenticados ](images/secure-surface-dock-ports-semm-6.png)
+   ![Aplicación de Surface que muestra puertos desactivados para usuarios no autenticados.](images/secure-surface-dock-ports-semm-6.png)
 
 >[!TIP]
 >Si quieres mantener la propiedad del dispositivo, pero permitir el acceso completo a todos los usuarios, puedes crear un nuevo paquete con todo activado. Si quieres quitar por completo las restricciones y la propiedad del dispositivo (que no esté administrado), selecciona **Restablecer** en Surface UEFI Configurator para crear un paquete que se aplique a los dispositivos de destino.

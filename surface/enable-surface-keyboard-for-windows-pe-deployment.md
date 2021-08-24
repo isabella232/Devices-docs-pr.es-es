@@ -19,12 +19,12 @@ appliesto:
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
-ms.openlocfilehash: 1ee3376a24d3e83cc66c8a220a1f7afa195840d0
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 96c1a641ae964752afa4f4ea3c2817a026a419ba
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676724"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912015"
 ---
 # <a name="how-to-enable-the-surface-laptop-keyboard-during-mdt-deployment"></a>Cómo habilitar el teclado Surface Laptop durante la implementación de MDT
 
@@ -78,21 +78,21 @@ Importe las siguientes carpetas según corresponda para su Surface Laptop dispos
 
 1. Compruebe que la carpeta WindowsPEX64 ahora contiene los controladores importados, como se muestra en la siguiente figura:
 
-   ![Imagen que muestra los controladores recién importados en la carpeta WindowsPEX64 de Deployment Workbench](./images/surface-laptop-keyboard-2.png)
+   ![Imagen que muestra los controladores recién importados en la carpeta WindowsPEX64 de Deployment Workbench.](./images/surface-laptop-keyboard-2.png)
 1. Configure un perfil de selección que use la carpeta WindowsPEX64, como se muestra en la siguiente figura:
 
-   ![Imagen que muestra la carpeta WindowsPEX64 seleccionada como parte de un perfil de selección](./images/surface-laptop-keyboard-3.png)
+   ![Imagen que muestra la carpeta WindowsPEX64 seleccionada como parte de un perfil de selección.](./images/surface-laptop-keyboard-3.png)
 1. Configure las Windows PE del recurso compartido de implementación de MDT para usar el nuevo perfil de selección, de la siguiente manera:
     - Para **Plataforma**, seleccione **x64**.
     - En **Perfil de selección,** seleccione el nuevo perfil.
     - Seleccione **Incluir todos los controladores del perfil de selección**.
 
-    ![Imagen que muestra las propiedades Windows PE del recurso compartido de implementación de MDT](./images/surface-laptop-keyboard-4.png)
+    ![Imagen que muestra las Windows PE del recurso compartido de implementación de MDT.](./images/surface-laptop-keyboard-4.png)
 4. Compruebe que ha configurado los controladores de Surface Laptop utilizando un perfil de selección o una variable **DriverGroup001.**
     - Para Surface Laptop (1ª generación), el modelo **es Surface Laptop**. Los controladores de Surface Laptop restantes deben residir en la carpeta \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop, como se muestra en la figura siguiente.
     - Para Surface Laptop 2, el modelo **Surface Laptop 2**. El resto Surface Laptop controladores deben residir en la carpeta \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 2.
     - Para Surface Laptop 3 con procesador Intel, el modelo es Surface Laptop 3. El resto de Surface Laptop se encuentran en la carpeta \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3.
 
-    ![Imagen que muestra los controladores Surface Laptop (1ª generación) de la carpeta Surface Laptop de Deployment Workbench](./images/surface-laptop-keyboard-5.png)
+    ![Imagen que muestra los controladores Surface Laptop (1ª generación) de la carpeta Surface Laptop de Deployment Workbench.](./images/surface-laptop-keyboard-5.png)
 
 Después de configurar el recurso compartido de implementación de MDT para usar el nuevo perfil de selección y la configuración relacionada, continúe el proceso de implementación tal como se describe en [Deploy a Windows 10 image using MDT: Step 6: Create the deployment task sequence](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence).

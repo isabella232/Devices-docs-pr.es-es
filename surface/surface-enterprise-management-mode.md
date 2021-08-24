@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 04/16/2021
-ms.openlocfilehash: 08221db2e4a49ccce1b372689b4dc30d8241ad0d
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 8e30234e72b6533da3d36ca38188c7e199beeeac
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676704"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11910995"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Modo de administración Enterprise Microsoft Surface
 
@@ -58,7 +58,7 @@ Estos paquetes contienen un archivo de configuración que especifica la configur
 >[!TIP]
 >Ahora puedes usar Surface UEFI Configurator y SEMM para administrar puertos en Surface Dock 2. Para obtener más información, [consulta Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md).
 
-![Microsoft Surface UEFI Configurator](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
+![Configurador UEFI de Microsoft Surface.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
 
 *Figura 1. Microsoft Surface UEFI Configurator*
 
@@ -76,7 +76,7 @@ Puedes descargar Microsoft Surface UEFI Configurator desde la página [Herramien
 
 Los paquetes de configuración de UEFI de Surface son el mecanismo principal para implementar y administrar SEMM en dispositivos Surface. Estos paquetes contienen un archivo de configuración y un archivo de certificado, como se muestra en la figura 2. El archivo de configuración contiene las opciones de UEFI que se especifican cuando se crea el paquete en Microsoft Surface UEFI Configurator. Cuando un paquete de configuración se ejecuta por primera vez en un dispositivo Surface que aún no está inscrito en SEMM, aprovisiona el archivo de certificado en el firmware del dispositivo e inscribe el dispositivo en SEMM. Al inscribir un dispositivo en SEMM, y antes de almacenar el certificado y finalizar la inscripción, se te pedirá que confirmes la operación proporcionando los dos últimos dígitos de la huella digital del certificado SEMM. Esta confirmación requiere que un usuario esté físicamente presente en el dispositivo durante la inscripción para realizar la confirmación.
 
-![Proteger un paquete de configuración de SEMM con un certificado](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
+![Proteger un paquete de configuración de SEMM con un certificado.](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
 
 *Figura 2. Proteger un paquete de configuración de SEMM con un certificado*
 
@@ -129,13 +129,13 @@ En la siguiente lista se muestran todos los dispositivos disponibles que puede a
 >[!TIP]
 >Al crear un paquete de configuración de SEMM, se muestran dos caracteres en la página **Correcto,** como se muestra en la figura 3.
 
-![Presentación de huella digital del certificado](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
+![Presentación de huella digital del certificado.](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
 
 *Figura 3. Mostrar los dos últimos caracteres de la huella digital del certificado en la página Correcto*
 
 Estos caracteres son los dos últimos caracteres de la huella digital del certificado y deben escribirse o grabarse. Los caracteres son necesarios para confirmar la inscripción en SEMM en un dispositivo Surface, como se muestra en la figura 4.
 
-![Confirmación de inscripción en SEMM](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
+![Confirmación de inscripción en SEMM.](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
 
 *Figura 4. Confirmación de inscripción en SEMM con la huella digital del certificado SEMM*
 
@@ -163,7 +163,7 @@ Un paquete de restablecimiento de UEFI de Surface se usa para realizar una sola 
 En algunos escenarios, es posible que sea imposible usar un paquete de restablecimiento de UEFI de Surface. (Por ejemplo, si Windows se vuelve inutilizable en el dispositivo Surface). En estos escenarios, puedes desenrollar el dispositivo Surface desde SEMM a través de la página de administración de **Enterprise** de Surface UEFI (que se muestra en la figura 5) con una operación de solicitud de recuperación.
 
 > [!div class="mx-imgBorder"]
-> ![Iniciar una solicitud de recuperación de SEMM](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
+> ![Inicie una solicitud de recuperación de SEMM.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *Figura 5. Iniciar una solicitud de recuperación de SEMM en la página Enterprise administración*
 

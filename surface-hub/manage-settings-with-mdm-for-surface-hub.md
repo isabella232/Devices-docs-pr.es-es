@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/25/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4308ce1ea8ff382dc15706e68d2d706d0fd33f5f
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 384d2d76274121236e76b1b5e45b30505e929c19
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576760"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911811"
 ---
 # <a name="manage-surface-hub-with-an-mdm-provider"></a>Administrar Surface Hub con un proveedor MDM
 
@@ -65,7 +65,7 @@ En resumen, las opciones para configurar y administrar la configuración de dire
 4. Seleccione **Crear**, agregar un nombre y, a continuación, **seleccione Siguiente.**
 6. Ahora puede examinar y elegir entre la configuración de restricción de dispositivos preestablecida para Surface Hub en las siguientes categorías: Aplicaciones y experiencia, Información operativa de Azure, Mantenimiento, Sesión y proyección inalámbrica. En el ejemplo que se muestra en la figura siguiente se especifica una ventana de mantenimiento de 4 horas y un tiempo de espera de 15 minutos para la pantalla, el suspensión y la reanudación de la sesión.
 
-     ![Configurar Surface Hub configuración con el perfil de restricción de dispositivos de Intune](images/sh-device-restrictions.png)
+     ![Configure Surface Hub configuración con el perfil de restricción de dispositivos de Intune.](images/sh-device-restrictions.png)
 
 Para obtener más información acerca de la creación y administración de perfiles, vea Restringir las características [de dispositivos](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile)mediante la directiva en Microsoft Intune .
  

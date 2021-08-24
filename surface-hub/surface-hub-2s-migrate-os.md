@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/14/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 472dc41bd73ace90cccdeb4e52884401c2f9d6d7
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: bdf39a2e664aa9abbd2fbf4790aec0b04c084f64
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613859"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911885"
 ---
 # <a name="migrate-to-windows-10-pro-or-enterprise-on-surface-hub-2"></a>Migrar a Windows 10 Pro o Enterprise en Surface Hub 2
 
@@ -187,7 +187,7 @@ Si eliges restaurar el dispositivo a Windows 10 Team después de la migración, 
 1. Conectar una unidad USB al equipo.
 1. Elija **Concentrador 2S**y, a continuación, **seleccione Siguiente**.
 
-   ![La captura de pantalla muestra dónde seleccionar el concentrador 2S](images/shm-fig13.png)
+   ![La captura de pantalla muestra dónde seleccionar concentrador 2S.](images/shm-fig13.png)
 
    > [!WARNING]
    > Todos los datos existentes en la unidad USB se borrarán cuando se haya creado el paquete SEMM. Antes de crear el paquete SEMM, quite los archivos que necesite de la unidad USB.

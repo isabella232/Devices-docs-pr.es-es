@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 7/30/2021
-ms.openlocfilehash: 935cec6eed15b7831bffafdc2078a9cadf2067e2
-ms.sourcegitcommit: 6a7f96a497c8749a5997972db139542563769101
+ms.openlocfilehash: 84a87342891dac2e4c0b0490458941c82fa0d018
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "11710584"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911615"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>Wake on LAN con Surface Dock 2
 
@@ -30,7 +30,7 @@ Para mantener los dispositivos totalmente actualizados, los administradores de T
 Los dispositivos deben tener una conexión por cable con Surface Dock 2 y mantenerse conectados a AC Power.
 
 > [!div class="mx-imgBorder"]
-> ![Surface Dock 2](images/surface-dock2-angled.png)
+> ![Surface Dock 2.](images/surface-dock2-angled.png)
 
 > [!NOTE]
 > Para activar dispositivos conectados a Surface Dock 2 no es necesario usar el Modo de administración de Surface Enterprise (SEMM) ni habilitar ninguna configuración de directiva uefi.

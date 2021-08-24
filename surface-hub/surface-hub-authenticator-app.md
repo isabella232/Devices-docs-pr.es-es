@@ -10,12 +10,12 @@ ms.date: 08/28/2017
 ms.reviewer: ''
 manager: laurawi
 localizationpriority: medium
-ms.openlocfilehash: f8a2bf8ddb75ca6dd3ff89e16fe0d37e099be29d
-ms.sourcegitcommit: 85f5a2e67b34fe073ec588ed441ebee239ab0ac6
+ms.openlocfilehash: e07591a25958677fb6efd5411d75f8b8e1549fed
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "11400741"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912025"
 ---
 # <a name="sign-in-to-surface-hub-with-microsoft-authenticator"></a>Iniciar sesión en Surface Hub con Microsoft Authenticator
 
@@ -31,7 +31,7 @@ Para permitir que las personas de tu organización inicien sesión en Surface Hu
 
 - [Configurar la autenticación multifactor](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings). Asegúrate de que la opción **Notificación a través de aplicación móvil** está seleccionada. 
 
-    ![opciones de autenticación multifactor](images/mfa-options.png)
+    ![opciones de autenticación multifactor.](images/mfa-options.png)
 
 - Habilitar el hospedaje de contenido en servicios de Azure AD como Office, SharePoint, etc. 
 
@@ -70,18 +70,18 @@ Para permitir que las personas de tu organización inicien sesión en Surface Hu
     >[!NOTE]
     >Si no está seguro cómo programar una reunión en Surface Hub, consulta [Programar un Surface Hub](https://support.microsoft.com/help/17325/surfacehub-schedulemeeting).
 
-    ![captura de pantalla de la opción de inicio de sesión en Surface Hub](images/sign-in.png)
+    ![captura de pantalla de la opción Iniciar sesión en Surface Hub.](images/sign-in.png)
 
 2. Verás una lista de las personas invitadas a la reunión. Selecciónate a ti mismo (o selecciona la persona que quiere iniciar sesión, asegurándote de que esta persona haya realizado los pasos para configurar su dispositivo antes de la reunión) y luego selecciona **Continuar**.
 
-    ![captura de pantalla de la lista de personas que asistirán a una reunión](images/attendees.png)
+    ![captura de pantalla de la lista de asistentes a una reunión.](images/attendees.png)
 
     Verás un código en el dispositivo Surface Hub.
 
-    ![captura de pantalla del código de aprobación de inicio de sesión](images/approve-signin.png)
+    ![captura de pantalla del código para Aprobar inicio de sesión.](images/approve-signin.png)
 
 3. Para aprobar el inicio de sesión, abre la aplicación Authenticator, escribe el código de cuatro dígitos que se muestra en Surface Hub y selecciona **Aprobar**. Se te pedirá que especifiques el PIN o que uses tu huella digital para completar el inicio de sesión. 
 
-    ![captura de pantalla de la pantalla de inicio de sesión de aprobación en Microsoft Authenticator](images/approve-signin2.png)
+    ![captura de pantalla de la pantalla Aprobar inicio de sesión en Microsoft Authenticator.](images/approve-signin2.png)
 
 Ahora puedes acceder a todos los archivos a través de la aplicación OneDrive.

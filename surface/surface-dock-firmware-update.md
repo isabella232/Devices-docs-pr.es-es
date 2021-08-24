@@ -12,12 +12,12 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 2/08/2021
-ms.openlocfilehash: 544aa8ab7cb9bb443f368bfbbcecb1fa256d32c5
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 070139370fc8175a116cb2e2a329404af8ac09b9
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708761"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911155"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Actualización de firmware de Surface Dock 1
 
@@ -125,7 +125,7 @@ La finalización correcta de la actualización de firmware de Surface Dock 1 da 
 
 2. Busque las claves del Registro: **Component10CurrentFwVersion y Component20CurrentFwVersion**, que hacen referencia al firmware que está actualmente en el dispositivo.
 
-   ![Proceso de instalación de actualización de firmware de Surface Dock 1](images/regeditDock.png)
+   ![Proceso de instalación de actualización de firmware de Surface Dock 1.](images/regeditDock.png)
 
 3. Compruebe que los nuevos valores de clave del Registro coincidan con los valores de clave del Registro actualizados que aparecen en la referencia Versiones al final de este documento. Si los valores coinciden, el firmware se actualizó correctamente.
 

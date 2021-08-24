@@ -14,19 +14,19 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.prod: surface-hub
 ms.sitesec: library
-ms.openlocfilehash: 79507f5b4bb22b23d1e6c4db6b4aab6ea891d876
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: c9617ec9c77d0f0c0333a156448ca24c18aec1db
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10834850"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911765"
 ---
-# Configurar el nombre de dominio de Skype Empresarial
+# <a name="configure-domain-name-for-skype-for-business"></a>Configurar el nombre de dominio de Skype Empresarial
 
 Existen algunos escenarios donde es necesario especificar el nombre de dominio del servidor de Skype Empresarial:
 - **Varios sufijos DNS**: cuando tu infraestructura de Skype Empresarial tiene espacios de nombres inconexos como ese o más servidores tienen un sufijo DNS que no coincide con el sufijo de la dirección de inicio de sesión (SIP) para Skype Empresarial.  
 - **Los sufijos de Skype Empresarial y Exchange son diferentes**: cuando el sufijo de la dirección de inicio de sesión para Skype Empresarial es diferente al sufijo de la dirección de Exchange usada para la cuenta del dispositivo.
-- **Trabajar con certificados** : organizaciones grandes con servidores locales de Skype empresarial suelen usar certificados con su propia entidad de certificación (CA) raíz. El dominio de entidad de certificación raíz suele ser diferente al dominio del servidor de Skype Empresarial, por lo que no se confía en el certificado y se produzca un error de inicio de sesión.  Skype debe conocer el nombre de dominio del certificado para configurar una relación de confianza. Las empresas suelen usar directivas de grupo para insertarlo en el escritorio de Skype, pero la directiva de grupo no se admite en Surface Hub.
+- **Trabajar con certificados:** las organizaciones grandes con servidores de Skype Empresarial locales usan normalmente certificados con su propia entidad de certificación raíz (CA). El dominio de entidad de certificación raíz suele ser diferente al dominio del servidor de Skype Empresarial, por lo que no se confía en el certificado y se produzca un error de inicio de sesión.  Skype debe conocer el nombre de dominio del certificado para configurar una relación de confianza. Las empresas suelen usar directivas de grupo para insertarlo en el escritorio de Skype, pero la directiva de grupo no se admite en Surface Hub.
 
 **Para configurar el nombre de dominio de Skype Empresarial Server**</br>
 1. En Surface Hub, abre **Configuración**.
@@ -36,4 +36,4 @@ Existen algunos escenarios donde es necesario especificar el nombre de dominio d
    > [!TIP]
    > Puedes escribir varios nombres de dominio separados por comas. <br> Por ejemplo: lync.com, outlook.com, lync.glbdns.microsoft.com
 
-    ![Agregar FQDN de Skype empresarial a la configuración](images/system-settings-add-fqdn.png)
+    ![Agregue Skype Empresarial FQDN a Configuración.](images/system-settings-add-fqdn.png)

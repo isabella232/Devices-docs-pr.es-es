@@ -11,38 +11,38 @@ audience: Admin
 ms.topic: article
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: c79a2b86d1e697a1839c2c4d945ed385bc1eccde
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 5fb7d0953f6867afea4311fe0ed0ee9824a512e4
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835353"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911575"
 ---
-# Introducción a los puertos y el teclado numérico de Surface Hub 2S
+# <a name="surface-hub-2s-ports-and-keypad-overview"></a>Introducción a los puertos y el teclado numérico de Surface Hub 2S
 
-En esta página, se describen los puertos, los botones físicos y la información de configuración esenciales para conectar con Surface Hub 2S ya sea a través de métodos alámbricos, Wi-Fi o Bluetooth. También incluye recomendaciones de prácticas recomendadas para escenarios de conectividad clave.
+En esta página se describen los puertos, los botones físicos y la información de configuración esenciales para conectarse a Surface Hub 2S, ya sea a través de métodos con cable, Wi-Fi o Bluetooth configuración. También incluye recomendaciones de procedimientos recomendados para escenarios clave de conectividad.
 
 > [!NOTE]
-> Puede encontrar el número de serie en la parte externa del embalaje, en la pantalla con el cable de alimentación o mediante la aplicación Surface. 
+> Puedes encontrar el número de serie en el exterior del empaquetado, en la pantalla por el cable de alimentación o mediante la aplicación Surface. 
 
-La siguiente ilustración muestra la ubicación de los puertos y los botones físicos en un teclado adjunto en la parte inferior del dispositivo. La tabla incluye descripciones detalladas de cada elemento.
+En la figura siguiente se muestra la ubicación de los puertos y los botones físicos en un teclado conectado a la parte inferior del dispositivo. La tabla incluye descripciones detalladas de cada elemento.
 
- ![Vista frontal y inferior de las conexiones de e/s y los botones físicos](images/hub2s-schematic.png)
+ ![Vista frontal e inferior de conexiones de E/S y botones físicos.](images/hub2s-schematic.png)
 
-##  <a name="port-and-keypad-component-reference"></a>Referencia sobre el puerto y el componente de teclado
+## <a name="port-and-keypad-component-reference"></a>Referencia de componentes de teclado y puerto
 
 |**Key**|**Componente**|**Descripción**|**Parámetros clave**|
 |:--- |:--------- |:----------- |:-------------- |
-| uno | **C USB** | **USB 3,1 gen 1** <br> Se usa como puerto de repaso para conectar periféricos como las unidades de control. Los puertos de invitados están en cada lado del dispositivo (4).<br> <br> *Nota: este es el puerto recomendado para conectar una cámara externa. Las características adicionales de montaje de cámaras se incorporan en el diseño para ayudarle a mantener la retención de las cámaras adjuntas.*<br> <br> Nota: estos puertos no admiten la recopilación de TouchBack y video. | Escriba C <br> <br> Puerto de 15 W (5V/3A)       |
-| 1 | **Alimentación de CA** | **entrada de 100-240 V** <br> Conectar a la alimentación de CA estándar y Surface Hub 2 cambiará automáticamente a la norma de potencia local (as110 voltios) en los Estados Unidos y Canadá o 220 voltios del Reino Unido. | IEC 60320 C14 |
-| 2 | **Energía de CC** | **Puerto de entrada de un CD de 24 v** <br> Usar para conectarse a una batería de telefonía móvil. | Conector de Xbox1 dual de cañón para Anderson |
-| cuatro | **Ethernet** | **1000/100/10 Base-T** <br> Se usa para proporcionar una conexión continua en un entorno corporativo y escenarios relacionados que requieren la máxima estabilidad o capacidad. | RJ45 |
-| 4 | **USB-A** | **USB 3,1 gen 1** <br> Se usa como puerto de repaso para conectar periféricos como las unidades de control. | Escriba una<br>7,5 W puerto (5V/1,5 A) |
-| 6 | **USB-C** | **USB 3,1 gen 1** <br> Se usa como puerto de repaso para conectar equipos externos y dispositivos relacionados o para conectar periféricos, como unidades Thumbs.<br> <br> *Nota: este es el puerto de entrada recomendado para video, TouchBack y InkBack.* | Escriba C <br> Puerto de 18 W (5V/3A, 9V/2A) |
-| siete | **HDMI-in** | **HDMI 2,0, HDCP 2,2/1,4** <br> Se usa para varios escenarios, como entrada de invitados HDMI-to-HDMI. | HDMI estándar |
-| 4,8 | **Mini DP** | **Salida de mini DP 1,2** <br> Usar para escenarios de salida de video, como el reflejo de la visualización de Surface Hub 2S a un proyector más grande.<br> <br> *Nota: esto admite una resolución máxima de 3840 x 2160 (4K UHD) @60Hz.* | Mini DP |
-| 99,999 | **Source**  | Se usa para alternar entre las fuentes de recopilación incorporada: equipos externos, HDMI y mini DP. | n/d |
-| base10 | **Volumen** | Use +/-para ajustar el audio de forma local en el dispositivo. <br> <br> *Nota: al desplazarse hasta el control de brillo, use +/-en el control deslizante del volumen para controlar el brillo de la pantalla.* | n/d |
-| once | **Alimentación** | Dispositivo de encendido y apagado. <br> Use también para desplazarse por los menús de visualización y seleccionar elementos. | n/d |
+| 1 | **USB C** | **USB 3.1 Gen 1** <br> Úselo como puerto de acceso para conectar periféricos, como unidades usb. Los puertos invitados están en cada lado del dispositivo (4).<br> <br> *NOTA: Este es el puerto recomendado para conectar una cámara externa. Las características de montaje de cámara adicionales se incorporan al diseño para ayudar a admitir la retención de cámaras conectadas.*<br> <br> NOTA: TouchBack y la ingesta de vídeo no se admiten en estos puertos. | Tipo C <br> <br> Puerto de 15 W (5V/3A)       |
+| 2 | **Alimentación de CA** | **Entrada de 100 a 240 V** <br> Conectar a la alimentación de CA estándar y Surface Hub 2S cambiarán automáticamente al estándar de energía local, como 110 volts en Estados Unidos y Canadá o 220 volts en el Reino Unido. | IEC 60320 C14 |
+| 3 | **Alimentación de CC** | **Puerto de entrada dc de 24V** <br> Se usa para conectarse a la batería móvil. | Xbox1 Dual barrel to Anderson connector |
+| 4 | **Ethernet** | **1000/100/10 Base-T** <br> Se usa para proporcionar una conexión continua en un entorno corporativo y escenarios relacionados que requieren la máxima estabilidad o capacidad. | RJ45 |
+| 5 | **USB-A** | **USB 3.1 Gen 1** <br> Úselo como puerto de acceso para conectar periféricos, como unidades usb. | Tipo A<br>Puerto de 7,5 W (5V/1,5A) |
+| 6 | **USB-C** | **USB 3.1 Gen 1** <br> Úselo como puerto de acceso para conectar equipos externos y dispositivos relacionados o conectar periféricos, como unidades digitales.<br> <br> *NOTA: Este es el puerto de entrada recomendado para vídeo, TouchBack y InkBack.* | Tipo C <br> Puerto de 18 W (5V/3A, 9V/2A) |
+| 7 | **HDMI-in** | **HDMI 2.0, HDCP 2.2 /1.4** <br> Se usa para varios escenarios, incluida la entrada de invitado HDMI a HDMI. | HDMI estándar |
+| 8 | **Mini DP-out** | **Salida Mini DP 1.2** <br> Se usa para escenarios de salida de vídeo, como la creación Surface Hub pantalla 2S en un proyector más grande.<br> <br> *NOTA: Esto admite una resolución máxima de 3840 x 2160 (4K UHD) @60Hz.* | Mini DP |
+| 9 | **Source**  | Se usa para alternar entre orígenes de ingesta conectados: modos de PC externo, HDMI y Mini DP. | n/d |
+| 10 | **Volumen** | Usa +/- para ajustar el audio localmente en el dispositivo. <br> <br> *NOTA: Cuando vaya al control de brillo, use +/- en el control deslizante de volumen para controlar el brillo de la pantalla.* | n/d |
+| 11 | **Inicio/apagado** | Encienda y apague el dispositivo. <br> Úselo también para navegar por los menús para mostrar y seleccionar elementos. | n/d |
 
- ![Vista de cara posterior de dispositivos inalámbricos, audio & componentes relacionados](images/hub2s-rear.png)
+ ![Vista trasera de los componentes inalámbricos, de audio & relacionados.](images/hub2s-rear.png)

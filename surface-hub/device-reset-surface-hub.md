@@ -1,6 +1,6 @@
 ---
 title: Restablecer o recuperar un Surface Hub
-description: Describe los procesos de restablecimiento y recuperación de Surface Hub y proporciona instrucciones.
+description: Describe los procesos de restablecimiento y recuperación del Surface Hub y proporciona instrucciones.
 ms.assetid: 44E82EEE-1905-464B-A758-C2A1463909FF
 ms.reviewer: ''
 manager: laurawi
@@ -12,30 +12,30 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 8d9a4f995abda4e005e8136ace62e10fb564c9b8
-ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
+ms.openlocfilehash: ee8ac1129aab34afeb3be783133681fe80434831
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "11408815"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911025"
 ---
 # <a name="reset-or-recover-a-surface-hub"></a>Restablecer o recuperar un Surface Hub
 
 En este artículo se describe cómo restablecer o recuperar un Microsoft Surface Hub.  
 
-[Restablecer Surface Hub devuelve](#reset-a-surface-hub) su sistema operativo a la última actualización acumulativa de Windows y quita todos los archivos de usuario locales y la información de configuración. La información que se quita incluye lo siguiente:
+[Al restablecer el Surface Hub,](#reset-a-surface-hub) se devuelve su sistema operativo a la última actualización Windows acumulativa y se quitan todos los archivos de usuario locales y la información de configuración. La información que se quita incluye lo siguiente:
 
 - La cuenta del dispositivo
 - Información de cuenta para los administradores locales del dispositivo
 - Información de unión a dominio o unión a Azure AD
 - Información de inscripción de Administración de dispositivos móviles (MDM)
-- Información de configuración que se estableció mediante MDM o la aplicación Configuración
+- Información de configuración que se estableció mediante MDM o la Configuración aplicación
 
-[Recuperar un Surface Hub de la nube](#recover-a-surface-hub-from-the-cloud) también quita esta información. Además, Surface Hub descarga una nueva imagen del sistema operativo e la instala. Puedes especificar si el proceso de recuperación conserva otra información almacenada en Surface Hub. La herramienta de recuperación de [Surface Hub](surface-hub-recovery-tool.md) usa la misma imagen del sistema operativo si necesitas recuperar un Surface Hub para el que no se pueda usar ninguna de estas opciones.
+[La recuperación de Surface Hub de la nube](#recover-a-surface-hub-from-the-cloud) también quita esta información. Además, el Surface Hub descarga una nueva imagen del sistema operativo e la instala. Puede especificar si el proceso de recuperación conserva otra información almacenada en el Surface Hub. La herramienta de recuperación [](surface-hub-recovery-tool.md) de Surface Hub usa la misma imagen del sistema operativo si necesita recuperar una Surface Hub para la que no se puede usar ninguna de estas opciones.
 
 ## <a name="reset-a-surface-hub"></a>Restablecer un Surface Hub
 
-Es posible que deba restablecer Surface Hub por motivos como los siguientes:
+Es posible que tenga que restablecer el Surface Hub por motivos como los siguientes:
 
 - Estás reconfigurando el dispositivo para un nuevo espacio de reuniones y quieres volver a configurarlo.
 - Quieres cambiar el modo en que se administra el dispositivo de forma local.
@@ -45,17 +45,17 @@ Es posible que deba restablecer Surface Hub por motivos como los siguientes:
 Durante el proceso de restablecimiento, si ve una pantalla en blanco durante largos períodos de tiempo, espere y no realice ninguna acción.
 
 > [!WARNING]
-> El proceso de restablecimiento del dispositivo puede tardar hasta seis horas. No desactives ni desenchufes Surface Hub hasta que el proceso haya finalizado. Si interrumpes el proceso, el dispositivo se vuelve inoperable. El dispositivo requiere el servicio de garantía para volver a funcionar.
+> El proceso de restablecimiento del dispositivo puede tardar hasta seis horas. No desactive ni desenchufe el Surface Hub hasta que el proceso haya finalizado. Si interrumpes el proceso, el dispositivo se vuelve inoperable. El dispositivo requiere el servicio de garantía para volver a funcionar.
 
 1. En tu Surface Hub, abre **Configuración**.
 
    > [!div class="mx-imgBorder"]
-   > ![Imagen que muestra la aplicación Configuración de Surface Hub.](images/sh-settings.png)
+   > ![Imagen que muestra Configuración aplicación para Surface Hub.](images/sh-settings.png)
 
 2. Seleccione **Actualizar & seguridad**.
 
    > [!div class="mx-imgBorder"]
-   > ![Imagen que muestra Actualizar & seguridad en la aplicación Configuración de Surface Hub.](images/sh-settings-update-security.png)
+   > ![Imagen que muestra Actualizar & seguridad en Configuración aplicación para Surface Hub.](images/sh-settings-update-security.png)
 
 3. Selecciona **Recuperación**y, a continuación, en **Restablecer dispositivo,** selecciona **Introducción.**
 
@@ -63,20 +63,20 @@ Durante el proceso de restablecimiento, si ve una pantalla en blanco durante lar
    > Asegúrate de que tienes la clave de BitLocker disponible antes de restablecer el dispositivo, como se te pedirá más adelante. Para obtener más información, [consulta Guardar la clave de BitLocker](save-bitlocker-key-surface-hub.md). Cuando el concentrador se reinicia en la partición de recuperación, se te pedirá que escribas la clave de BitLocker. Si se omite ese mensaje, se producirá un error en el restablecimiento.
    
    > [!div class="mx-imgBorder"]
-   > ![Imagen que muestra la opción Restablecer dispositivo en la aplicación Configuración de Surface Hub.](images/sh-settings-reset-device.png)
+   > ![Imagen que muestra la opción Restablecer dispositivo en Configuración aplicación para Surface Hub.](images/sh-settings-reset-device.png)
 
-   Una vez terminado el proceso de restablecimiento, Surface Hub vuelve a [iniciar el primer programa de ejecución.](first-run-program-surface-hub.md) Si el proceso de restablecimiento encuentra un problema, revierte Surface Hub a la imagen del sistema operativo existente anteriormente y, a continuación, muestra la pantalla de bienvenida.
+   Una vez terminado el proceso de restablecimiento, el Surface Hub inicia el [primer programa de ejecución de](first-run-program-surface-hub.md) nuevo. Si el proceso de restablecimiento encuentra un problema, revierte el Surface Hub a la imagen del sistema operativo existente anteriormente y, a continuación, muestra la pantalla de bienvenida.
 
 <span id="cloud-recovery" />
 
 ## <a name="recover-a-surface-hub-from-the-cloud"></a>Recuperar un Surface Hub desde la nube
 
-Si, por algún motivo, Surface Hub se vuelve inutilizable, puedes recuperarlo de la nube sin la ayuda del soporte técnico de Microsoft. Surface Hub puede descargar una imagen del sistema operativo nueva de la nube y usar esa imagen para reinstalar su sistema operativo.
+Si por algún motivo el Surface Hub se vuelve inutilizable, aún puede recuperarlo de la nube sin la ayuda del soporte técnico de Microsoft. El Surface Hub puede descargar una imagen del sistema operativo nueva de la nube y usar esa imagen para reinstalar su sistema operativo.
 
 Es posible que tenga que usar este tipo de proceso de recuperación en las siguientes circunstancias:
 
-- [Surface Hub o sus cuentas relacionadas han entrado en un estado inestable](#recover-a-surface-hub-in-a-bad-state)
-- [Surface Hub está bloqueado](#recover-a-locked-surface-hub)
+- [El Surface Hub o sus cuentas relacionadas han entrado en un estado inestable](#recover-a-surface-hub-in-a-bad-state)
+- [El Surface Hub está bloqueado](#recover-a-locked-surface-hub)
 
 >[!IMPORTANT]
 >El **proceso Recuperar desde la nube** requiere una conexión por cable que proporciona conectividad a Internet abierta (sin proxy u otros mensajes de autenticación).
@@ -85,49 +85,49 @@ Es posible que tenga que usar este tipo de proceso de recuperación en las sigui
 
 Si la cuenta del dispositivo entra en un estado inestable o si la cuenta de administrador tiene problemas, puedes usar la aplicación Configuración para iniciar el proceso de recuperación en la nube. Solo debes usar el proceso de recuperación en la nube cuando [el](#reset-a-surface-hub) proceso de restablecimiento del dispositivo no solucione el problema.
 
-1. En Surface Hub, selecciona **Configuración** &gt; **Actualizar & recuperación de** &gt; **seguridad.**
+1. En el Surface Hub, seleccione **Configuración** &gt; **Actualizar & de** &gt; **seguridad**.
 
 2. En **Recuperar desde la nube,** seleccione Reiniciar **ahora**.
 
    > [!div class="mx-imgBorder"]
-   > ![recuperar desde la nube](images/recover-from-the-cloud.png)
+   > ![recuperarse de la nube.](images/recover-from-the-cloud.png)
 
 ### <a name="recover-a-locked-surface-hub"></a>Recuperar un Surface Hub bloqueado
 
 En raras ocasiones, un Surface Hub puede producir un error al limpiar los datos de usuario y de la aplicación al final de una sesión. Cuando esto sucede, el dispositivo se reinicia automáticamente e intenta de nuevo la operación. Pero si esta operación falla repetidamente, el dispositivo se bloquea automáticamente para proteger los datos del usuario. Para desbloquearlo, debes [restablecer el](#reset-a-surface-hub) dispositivo o, si no funciona, recuperarlo de la nube.
 
-1. Localiza el conmutador de energía en la parte inferior de Surface Hub. El conmutador de alimentación está junto a la conexión del cable de alimentación. Para obtener más información acerca del conmutador de alimentación, consulta la Guía de preparación del sitio de [Surface Hub (PDF).](surface-hub-site-readiness-guide.md)
+1. Busque el conmutador de alimentación en la parte inferior de Surface Hub. El conmutador de alimentación está junto a la conexión del cable de alimentación. Para obtener más información acerca del conmutador de alimentación, consulte la Surface Hub guía de preparación [del sitio (PDF).](surface-hub-site-readiness-guide.md)
 
-2. Mientras surface hub muestra la pantalla de bienvenida, usa el botón de encendido para desactivar Surface Hub.
+2. Mientras el Surface Hub muestra la pantalla de bienvenida, use el conmutador de alimentación para desactivar el Surface Hub.
 
-3. Usa el conmutador de energía para volver a activar Surface Hub. El dispositivo se inicia y muestra la pantalla logotipo de Surface Hub. Cuando veas puntos giratorios debajo del logotipo de Surface Hub, usa el conmutador de energía para desactivar el Surface Hub de nuevo.  
+3. Use el conmutador de alimentación para volver a activar Surface Hub la red. El dispositivo se inicia y muestra la Surface Hub logotipo. Cuando veas puntos giratorios debajo del logotipo de Surface Hub, usa el conmutador de energía para volver a desactivar Surface Hub.  
 
-4. Repita el paso 3 tres veces o hasta que Surface Hub muestre el mensaje "Preparar reparación automática". Después de mostrar este mensaje, Surface Hub muestra la pantalla Windows RE.
+4. Repita el paso 3 tres veces o hasta que Surface Hub muestra el mensaje "Preparación de reparación automática". Después de mostrar este mensaje, el Surface Hub muestra la Windows RE pantalla.
  
-5. Selecciona **Restablecer**. 
+5. Seleccione **Restablecer**. 
 
 6. Si se te pide que escribas la clave de BitLocker, sigue uno de estos procedimientos:
-   - Para conservar la información que BitLocker protege en Surface Hub, escribe la clave de BitLocker.
+   - Para conservar la información que BitLocker protege en el Surface Hub, escriba la clave de BitLocker.
    - Para descartar la información protegida, seleccione Omitir esta unidad
 
 7. Seleccione **Descarga en la nube.** 
 
-   ![Descarga en la nube](images/recover-cloud-download.png)
+   ![Descarga en la nube.](images/recover-cloud-download.png)
 
    >[!IMPORTANT]
    >Si recibe un mensaje de error que indica **No se puede descargar**, seleccione **Cancelar** y, a continuación, **Restablecer de** nuevo.
 
 8. Seleccione **Limpiar completamente la unidad.**
  
-   ![recuperar y limpiar completamente la unidad](images/recover-fully-clean-drive.png)
+   ![recuperar y limpiar completamente la unidad.](images/recover-fully-clean-drive.png)
 
-9. Se te **preguntará ¿Estás listo para restablecer este dispositivo?**. Selecciona **Restablecer**. 
+9. Se te **preguntará ¿Estás listo para restablecer este dispositivo?**. Seleccione **Restablecer**. 
    
-   ![recuperar y confirmar el restablecimiento](images/recover-confirm-reset.png)
+   ![recuperar y confirmar el restablecimiento.](images/recover-confirm-reset.png)
 
 10. La descarga comienza y el proceso de recuperación indica **restablecer este dispositivo**.
 
-    ![recuperación que se muestra en curso](images/recover-in-progress.png)
+    ![recuperación que se muestra en curso.](images/recover-in-progress.png)
 
 ## <a name="contact-support"></a>Contactar con el soporte técnico
 

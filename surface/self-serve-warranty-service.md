@@ -12,12 +12,12 @@ ms.date: 06/07/2021
 ms.reviewer: louannh
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a6021a58c85ac6ee4c039959dcde9bab632ea1bb
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 57801a7eb663d08a0af28c825c698318f8673d40
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614151"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911995"
 ---
 # <a name="surface-self-serve-warranty-and-service"></a>Garantía y servicio de autoservicio de Surface
 
@@ -53,7 +53,7 @@ Para obtener más información acerca de los usuarios y los permisos, vea [Micro
 2. Ve a **Compatibilidad con las**  >  **reparaciones de dispositivos Surface** y selecciona Crear solicitud de **reparación.** (Si no ve esta opción de reparación, no tiene permiso para acceder a esta página).
 
     > [!div class="mx-imgBorder"]
-    > ![Iniciar solicitud de reparación de autoservicio](images/self-serve-fig1.png)
+    > ![Inicie la solicitud de reparación de autoservicio.](images/self-serve-fig1.png)
 
 3. Puede crear una solicitud de reparación para uno o varios dispositivos. Seleccione **Enviar 1 dispositivo** a la vez **o** Enviar varios dispositivos para usar un archivo .csv para cargar varios números de serie y seleccione **Siguiente**.
 
@@ -72,27 +72,25 @@ Para obtener más información acerca de los usuarios y los permisos, vea [Micro
     > - El formulario valida automáticamente la información de direcciones y es posible que se corrija para realizar cambios si el sistema postal local no reconoce la dirección. La dirección de correo electrónico se usa para enviar notificaciones y comunicaciones para la solicitud de reparación.
 
     > [!div class="mx-imgBorder"]
-    > ![
-      Agregar nueva dirección
-    ](images/self-serve-fig2a.png)
+    > ![Agregar nueva dirección.](images/self-serve-fig2a.png)
 
 5. Agrega el dispositivo especificando el número de serie del dispositivo en el bloque de texto. Para obtener más información, consulta [Números de serie del dispositivo](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). Si el número de serie es válido, aparecerá una imagen y la información del producto, incluida la fecha de garantía y el número de modelo. Seleccione **Agregar dispositivo si** la información es correcta.
 
     > [!div class="mx-imgBorder"]
-    > ![Agregar dispositivos](images/self-serve-fig2.png)
+    > ![Agregar dispositivos.](images/self-serve-fig2.png)
 
 6. Repita los pasos del 1 al 2 para agregar varios dispositivos (hasta 20 en total) a la solicitud.
 7. En el menú desplegable, seleccione el tipo de problema que mejor describe el problema y seleccione **Siguiente.**
 
     > [!div class="mx-imgBorder"]
-    > ![Seleccionar categoría de problema](images/self-serve-fig3.png)
+    > ![Seleccione categoría de problema.](images/self-serve-fig3.png)
 
 8. Revise su pedido. Si alguna información es incorrecta, elija **Atrás para** corregir errores.
 9. Acepte los términos de las condiciones.
 10. Si el resumen de la solicitud es correcto, **seleccione Enviar la solicitud**.
 
     > [!div class="mx-imgBorder"]
-    > ![Enviar solicitud de reparación de autoservicio](images/self-serve-fig4.png)
+    > ![Enviar solicitud de reparación de autoservicio.](images/self-serve-fig4.png)
 
 Cuando se muestra la página principal, puede ver la solicitud de servicio en la lista de resumen y recibir un correo electrónico de confirmación.
 
