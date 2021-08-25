@@ -10,12 +10,12 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: ff08b8ab6e59af77761fb365980af261c47030a9
+ms.sourcegitcommit: 09a47921ec2e565a92ba2baa61e181d218706ad9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576850"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "11921829"
 ---
 # <a name="configure-surface-hub-start-menu"></a>Configurar el menú Inicio de Surface Hub
 
@@ -31,14 +31,14 @@ El menú Inicio personalizado se define en un archivo XML de diseño de Inicio. 
 
     O bien
 
-- Configurar el menú Inicio deseado en un equipo de escritorio (anclando solo aplicaciones que estén disponibles en Surface Hub) y luego [exportar el diseño](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout#export-the-start-layout).
+- Configurar el menú Inicio deseado en un equipo de escritorio (anclando solo aplicaciones que estén disponibles en Surface Hub) y luego [exportar el diseño](/windows/configuration/customize-and-export-start-layout#export-the-start-layout).
 
 >[!TIP]
 >Para agregar una ventana con un vínculo web al menú Inicio de escritorio, ve al vínculo en Microsoft Edge, selecciona `...` en la esquina superior derecha y selecciona **Anclar esta página a Inicio**. Consulta [un diseño de Inicio que incluya un vínculo de Microsoft Edge](#edge) para ver un ejemplo de cómo aparecerán los vínculos en el XML.
 
-Para editar el XML predeterminado o el diseño exportado, familiarízate con el [XML de diseño de Inicio](https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop). Hay unas pocas [diferencias entre el diseño de Inicio en un escritorio y en Surface Hub.](#differences)
+Para editar el XML predeterminado o el diseño exportado, familiarízate con el [XML de diseño de Inicio](/windows/configuration/start-layout-xml-desktop). Hay unas pocas [diferencias entre el diseño de Inicio en un escritorio y en Surface Hub.](#differences)
 
-Cuando tengas el menú Inicio definido en un XML de diseño de Inicio, [crea una directiva MDM para aplicar el diseño.](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
+Cuando tengas el menú Inicio definido en un XML de diseño de Inicio, [crea una directiva MDM para aplicar el diseño.](/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
 
@@ -46,7 +46,7 @@ Cuando tengas el menú Inicio definido en un XML de diseño de Inicio, [crea una
 
 Existen unas pocas diferencias clave entre la personalización del menú Inicio para Surface Hub y para un escritorio de Windows 10:
 
-- No puede usar **DesktopApplicationTile** ( en el XML de diseño de inicio porque Windows aplicaciones de escritorio https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) (Win32) no se admiten en Surface Hub.
+- No puede usar **[DesktopApplicationTile en](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** el XML de diseño de inicio porque Windows aplicaciones de escritorio (Win32) no se admiten en Surface Hub.
 - No puedes usar el XML de diseño de Inicio para configurar la barra de tareas o la pantalla de inicio de sesión de Surface Hub.  
 - La directiva de diseño de inicio solo debe asignarse a dispositivos, no a usuarios.
 - La configuración de OMA-URI que se va a usar en la directiva es `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
@@ -66,8 +66,8 @@ Existen unas pocas diferencias clave entre la personalización del menú Inicio 
     <StartLayoutCollection>
       <defaultlayout:StartLayout GroupCellWidth="8" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
         <start:Group Name="" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
-        <start:Tile
-            AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+        <start:DesktopApplicationTile
+            DesktopApplicationID="MSEdge"
             Size="2x2"
             Row="0"
             Column="0"/>
@@ -141,8 +141,8 @@ Este ejemplo muestra un vínculo a un sitio web y un vínculo a un archivo .pdf.
               Size="2x2"
               Row="0"
               Column="4"/>
-    <start:Tile
-              AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+          <start:DesktopApplicationTile
+              DesktopApplicationID="MSEdge"
               Size="2x2"
               Row="2"
               Column="0"/>
