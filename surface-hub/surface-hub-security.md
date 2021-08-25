@@ -11,24 +11,24 @@ audience: Admin
 ms.topic: article
 ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: 446166618161fc54a77bab94b2d61ad85359a082
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
-ms.translationtype: MT
+ms.openlocfilehash: cd0112f805b60b16c7f32099d5f5e3fde3c821fb
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304853"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911385"
 ---
-# Introducción a la seguridad de Surface Hub
+# <a name="surface-hub-security-overview"></a>Introducción a la seguridad de Surface Hub
 
-Surface Hub proporciona una experiencia de dispositivo bloqueada con firmware de plataforma personalizado que ejecuta el sistema operativo Windows 10 Team. El dispositivo resultante adopta la filosofía tradicional de quiosco seguro de "uso único" en el que "solo ejecuta lo que necesita" y ofrece un enfoque moderno al respecto. Diseñado para dar soporte a una experiencia de usuario colaborativa rica, Surface Hub se protege frente a las amenazas de seguridad en constante evolución.
+Surface Hub ofrece una experiencia similar a la de un dispositivo bloqueado con un firmware de plataforma personalizado que ejecuta el sistema operativo Windows 10 Team. El dispositivo resultante adopta la filosofía tradicional de quiosco seguro de "uso único" en el que "solo ejecuta lo que necesita" y ofrece un enfoque moderno al respecto. Diseñado para dar soporte a una experiencia de usuario colaborativa rica, Surface Hub se protege frente a las amenazas de seguridad en constante evolución.
 
-Creado a partir de Windows10, Surface Hub ofrece seguridad moderna a nivel empresarial, lo que permite a los administradores de TI aplicar la protección de datos con BitLocker, el Módulo de plataforma segura 2.0 (TPM), además de seguridad con tecnología de la nube con Windows Defender (también conocido como Microsoft Defender).
+Creado a partir de Windows 10, Surface Hub ofrece seguridad moderna a nivel empresarial, lo que permite a los administradores de TI aplicar la protección de datos con BitLocker, el Módulo de plataforma segura 2.0 (TPM), además de seguridad con tecnología de la nube con Windows Defender (también conocido como Microsoft Defender).
 
-##  <a name="defense-in-depth-security"></a>Seguridad de Defensa en profundidad
+## <a name="defense-in-depth-security"></a>Seguridad de Defensa en profundidad
 
 Los protocolos de seguridad se ponen en marcha en cuanto se enciende Surface Hub. Empezando por el nivel de firmware, Surface Hub solo cargará el sistema operativo y sus componentes en respuesta a las múltiples comprobaciones de seguridad. Surface Hub emplea una estrategia denominada Defensa en profundidad que involucra organizar en capas subcomponentes de defensa independientes para proteger todo el sistema en caso de fallo parcial. Esta práctica del sector ha demostrado ser muy eficaz en la mitigación de posibles ataques unilaterales y de puntos débiles en los subcomponentes.
 
-Microsoft configura de forma estática y segura la interfaz de firmware extensible unificado (UEFI) para que solo arranque un sistema operativo Windows 10 Team autenticado desde el almacenamiento interno.  La firma de todas las líneas de código que se ejecuten en Surface Hub se comprueba antes de su ejecución. Solo las aplicaciones firmadas por Microsoft, ya sea como parte del sistema operativo o instaladas desde la Microsoft Store, pueden ejecutarse en Surface Hub. El código o las aplicaciones que no cumplan estos requisitos se bloquearán.
+Microsoft ha configurado la Unified Extensible Firmware Interface (UEFI) de forma estática y segura para arrancar únicamente un sistema operativo Windows 10 Team autenticado desde un almacenamiento interno.  La firma de todas las líneas de código que se ejecuten en Surface Hub se comprueba antes de su ejecución. Solo las aplicaciones firmadas por Microsoft, ya sea como parte del sistema operativo o instaladas desde la Microsoft Store, pueden ejecutarse en Surface Hub. El código o las aplicaciones que no cumplan estos requisitos se bloquearán.
 
 Los sistemas de seguridad de Surface Hub incluyen lo siguiente:
 
@@ -36,17 +36,17 @@ Los sistemas de seguridad de Surface Hub incluyen lo siguiente:
 - **Defensas de sistema operativo.** Se protege contra la ejecución de código o software no intencionado o malintencionado.
 - **Defensas de la interfaz de usuario.** Se ofrece una interfaz de usuario segura para los usuarios finales, lo que les impide el acceso a actividades potencialmente peligrosas como iniciar archivos ejecutables desde la línea de comandos.
 
-###  <a name="boot-time-defenses"></a>Defensas durante el arranque
+### <a name="boot-time-defenses"></a>Defensas durante el arranque
 
 El SoC tiene un procesador de seguridad independiente de cualquier otro núcleo. La primera vez que inicie Surface Hub, solo se iniciará el procesador de seguridad antes de que se pueda cargar cualquier otro elemento.
 
-![Fases de inicio de SurfaceHub en las que se muestran las protecciones del procesador de seguridad](images/hub-sec-1.png)
+![Fases de inicio de Surface Hub en las que se muestran las protecciones del procesador de seguridad.](images/hub-sec-1.png)
 
-#### Arranque seguro
+#### <a name="secure-boot"></a>Arranque seguro
 
-El Arranque seguro se usa para comprobar que los componentes del proceso de inicio, incluidos los controladores y el sistema operativo, se validan con una base de datos de firmas válidas y conocidas. En Surface Hub, debe validarse primero una firma específica de la plataforma antes de que se pueda cargar el sistema operativo de WindowsTeam autorizado. Esto ayuda a evitar que se produzcan ataques de un sistema clonado o modificado en el que se ejecuta código malintencionado oculto en lo que parece ser una experiencia de usuario normal.  Para obtener más información, consulte [Información sobre el arranque seguro](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot).
+El Arranque seguro se usa para comprobar que los componentes del proceso de inicio, incluidos los controladores y el sistema operativo, se validan con una base de datos de firmas válidas y conocidas. En Surface Hub, debe validarse primero una firma específica de la plataforma antes de que se pueda cargar el sistema operativo de Windows Team autorizado. Esto ayuda a evitar que se produzcan ataques de un sistema clonado o modificado en el que se ejecuta código malintencionado oculto en lo que parece ser una experiencia de usuario normal.  Para obtener más información, consulte [Información sobre el arranque seguro](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot).
 
-###  <a name="operating-system-defenses"></a>Defensas de sistema operativo
+### <a name="operating-system-defenses"></a>Defensas de sistema operativo
 
 Una vez que se comprueba el sistema operativo como originario de Microsoft y Surface Hub completa satisfactoriamente el proceso de inicio, el dispositivo inspecciona el código ejecutable. Nuestro método para proteger el sistema operativo consiste en identificar la firma de código de todos los archivos ejecutables, de modo que solo los que superen las restricciones se carguen en tiempo de ejecución. Este método de firma de código permite al sistema operativo comprobar el autor y confirmar que el código no se ha modificado antes de ejecutarse en el dispositivo.
 
@@ -70,7 +70,7 @@ Además de bloquear el código sin firma o firmado de forma incorrecta mediante 
 
 - [Control de aplicaciones de Windows Defender y protección basada en la virtualización de la integridad del código](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
-###  <a name="user-interface-defenses"></a>Defensas de la interfaz de usuario
+### <a name="user-interface-defenses"></a>Defensas de la interfaz de usuario
 
 Aunque las defensas en tiempo de arranque y las protecciones de bloqueo del sistema operativo proporcionan seguridad fundamental, la interfaz de usuario ofrece un nivel adicional que se ha diseñado para reducir los riesgos. Para impedir que algún código malintencionado llegue al dispositivo a través de los controladores, Surface Hub no descarga controladores avanzados para dispositivos Plug and Play (PnP). Los dispositivos que aprovechan los controladores básicos, como las unidades flash USB o los periféricos de Surface Hub certificados (altavoces, micrófonos y cámaras) funcionan como se espera, pero los sistemas avanzados, como las impresoras, no lo harán.
 
@@ -80,7 +80,7 @@ Las defensas de la interfaz de usuario también simplifican la interfaz de usuar
 
 - **Inicio y Todas las aplicaciones.** Los componentes Inicio y Todas las aplicaciones de Surface Hub no exponen el acceso al Símbolo del sistema, PowerShell u otros componentes de Windows bloqueados mediante el Control de aplicaciones. Además, la funcionalidad de ejecución de Windows, a la que generalmente se accede en equipos PC desde el cuadro de búsqueda, está desactivada para Surface Hub.
 
-##  <a name="security-enhancements-in-surface-hub-2s"></a>Mejoras en la seguridad de Surface Hub 2S
+## <a name="security-enhancements-in-surface-hub-2s"></a>Mejoras en la seguridad de Surface Hub 2S
 
 Aunque Surface Hub y Surface Hub 2S ejecutan el mismo sistema operativo, algunas características exclusivas de Surface Hub 2S proporcionan capacidades de administración y seguridad adicionales que permiten a los administradores de TI realizar las siguientes tareas:
 
@@ -88,15 +88,15 @@ Aunque Surface Hub y Surface Hub 2S ejecutan el mismo sistema operativo, algunas
 - Recuperar Hub con un USB de arranque
 - Reforzar la cuenta del dispositivo mediante la rotación de contraseñas
 
-###  <a name="manage-uefi-settings-with-semm"></a>Administrar la configuración de UEFI con SEMM
+### <a name="manage-uefi-settings-with-semm"></a>Administrar la configuración de UEFI con SEMM
 
 UEFI es una interfaz situada entre las partes de la plataforma de hardware subyacente y el sistema operativo. En Surface Hub, una implementación personalizada de UEFI permite tener control específico sobre esta configuración y evita que cualquier entidad que no sea de Microsoft cambie la configuración de UEFI del dispositivo, o el arranque desde una unidad extraíble para modificar o cambiar el sistema operativo.
 
-En un nivel superior, durante el proceso de aprovisionamiento de fábrica, la UEFI de Surface Hub se configura previamente para que permita el arranque seguro y se establece que arranque únicamente desde una unidad interna de estado sólido (SSD), con el acceso a los menús de UEFI bloqueado y los accesos directos eliminados. Esto sella el acceso a la UEFI y garantiza que el dispositivo solo pueda arrancar en el sistema operativo WindowsTeam instalado en Surface Hub.
+En un nivel superior, durante el proceso de aprovisionamiento de fábrica, la UEFI de Surface Hub se configura previamente para que permita el arranque seguro y se establece que arranque únicamente desde una unidad interna de estado sólido (SSD), con el acceso a los menús de UEFI bloqueado y los accesos directos eliminados. Esto sella el acceso a la UEFI y garantiza que el dispositivo solo pueda arrancar en el sistema operativo Windows Team instalado en Surface Hub.
 
 Cuando se administra a través del Surface Enterprise Management Mode (SEMM) de Microsoft, los administradores de TI pueden implementar la configuración de UEFI en los dispositivos Hub de toda una organización. Esto incluye la posibilidad de habilitar o deshabilitar los componentes de hardware integrados, evitar que los usuarios no autorizados cambien la configuración de UEFI y ajustar la configuración de arranque.
 
-![Configuración de UEFI de Surface Hub](images/hub-sec-2.png)
+![Configuración de UEFI de Surface Hub.](images/hub-sec-2.png)
 
 Los administradores pueden implementar SEMM y los dispositivos inscritos en Surface Hub 2S con el [Configurador de UEFI de Surface de Microsoft](https://www.microsoft.com/download/details.aspx?id=46703) descargable. Para obtener más información, consulte [Proteger y administrar Surface Hub 2S con SEMM y UEFI](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm).
 SEMM, que está protegido por un certificado para salvaguardar la configuración frente a la alteración o eliminación no autorizadas, permite la administración de los siguientes componentes:
@@ -116,24 +116,24 @@ SEMM, que está protegido por un certificado para salvaguardar la configuración
     - Fecha y hora
 
     
-###  <a name="recover-hub-with-bootable-usb"></a>Recuperar Hub con un USB de arranque
+### <a name="recover-hub-with-bootable-usb"></a>Recuperar Hub con un USB de arranque
 
 Surface Hub 2S permite a los administradores devolver el dispositivo a la configuración de fábrica con una imagen de recuperación en tan solo 20 minutos. Normalmente, solo sería necesario llevar a cabo esta acción si Surface Hub deja de funcionar. La recuperación también es útil si ha perdido la clave de BitLocker o ya no tiene credenciales de administrador para la aplicación Configuración.
 
-###  <a name="harden-device-account-with-password-rotation"></a>Reforzar la cuenta del dispositivo mediante la rotación de contraseñas
+### <a name="harden-device-account-with-password-rotation"></a>Reforzar la cuenta del dispositivo mediante la rotación de contraseñas
 
 Surface Hub usa una cuenta de dispositivo, también denominada "cuenta de sala", para autenticar con Exchange, Microsoft Teams y otros servicios. Cuando se habilita la rotación de contraseñas, Hub 2S genera automáticamente una nueva contraseña cada 7 días, que se compone de entre 15 y 32 caracteres con una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Como nadie conoce la contraseña, la rotación de contraseñas de la cuenta del dispositivo mitiga eficazmente el riesgo asociado a errores humanos y posibles ataques de seguridad mediante ingeniería social.
 
-##  <a name="windows-10-enterprise-grade-security"></a>Seguridad empresarial de Windows10
+## <a name="windows-10-enterprise-grade-security"></a>Seguridad empresarial de Windows 10
 
-Además de las configuraciones y características específicas de Surface Hub que se tratan en este documento, Surface Hub también usa las características de seguridad estándares de Windows10. Entre ellos se incluyen los siguientes:
+Además de las configuraciones y características específicas de Surface Hub que se tratan en este documento, Surface Hub también usa las características de seguridad estándares de Windows 10. Entre ellos se incluyen los siguientes:
 
 - **BitLocker**. El SSD de Surface Hub está equipado con BitLocker para proteger los datos en el dispositivo. Su configuración sigue los estándares del sector. Para obtener más información, consulte [Introducción a BitLocker](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot).
 - **Windows Defender.** El motor antimalware de Windows Defender se ejecuta de forma continua en Surface Hub y corrige automáticamente las amenazas que se encuentren en Surface Hub. El motor de Windows Defender recibe actualizaciones automáticamente y se administra mediante herramientas de administración remota para administradores de TI. El motor de Windows Defender es un ejemplo perfecto de nuestro enfoque de Defensa en profundidad: si el malware puede encontrar una manera de evitar nuestra solución básica de seguridad basada en código firmado, se detectará aquí. Para obtener más información, consulte [Control de aplicaciones de Windows Defender y protección basada en la virtualización de la integridad del código](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control).
 - **Controladores Plug and Play.** Para impedir que un código malintencionado llegue al dispositivo a través de los controladores, Surface Hub no descarga controladores avanzados para dispositivos PnP. Esto permite que los dispositivos que usan controladores básicos, como las unidades flash USB, funcionen como se espera, a la vez que se bloquean sistemas más avanzados como impresoras.
 - **Módulo de plataforma segura 2.0** Surface Hub tiene un módulo de plataforma segura diferenciado (dTPM) estándar del sector para generar y almacenar claves criptográficas y hashes. El dTPM protege las claves que se usan para la comprobación de las fases de arranque, la clave maestra de BitLocker, la clave de inicio de sesión sin contraseña y mucho más. El dTPM cumple la certificación [FIPS 140-2 de nivel 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation), el estándar de seguridad de equipos de la administración de Estados Unidos, y cumple con la certificación de [criterios comunes](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria) usada en todo el mundo.
 
-##  <a name="wireless-security-for-surface-hub"></a>Seguridad inalámbrica para Surface Hub
+## <a name="wireless-security-for-surface-hub"></a>Seguridad inalámbrica para Surface Hub
 
 Surface Hub usa la tecnología Wi-Fi Direct o Miracast y los estándares 802.11, Acceso protegido Wi-Fi (WPA2) y Wireless Protected Setup (WPS) asociados. Dado que el dispositivo solo admite WPS (en lugar de clave precompartida de WPA2 (PSK) o WPA2 Enterprise), los problemas que se asociaban tradicionalmente con el cifrado 802.11 se simplificaron por diseño.
 
@@ -143,7 +143,7 @@ Wi-Fi Direct o Wi-Fi "Punto a punto" (P2P) es un estándar publicado por Wi-Fi A
 
 La seguridad de Wi-Fi Direct la proporciona WPA2 con el estándar WPS. Los dispositivos pueden autenticarse con un PIN numérico, un botón de comando físico o virtual, o un mensaje fuera de banda mediante transmisión de datos en proximidad. Surface Hub es compatible de forma predeterminada con el botón de comando y con métodos PIN. Para obtener más información, consulte [Cómo gestiona Surface Hub los problemas de seguridad de Wi-Fi Direct](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct).
 
-##  <a name="learn-more"></a>Obtén más información
+## <a name="learn-more"></a>Obtén más información
 
 - [Introducción al arranque seguro](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)
 
