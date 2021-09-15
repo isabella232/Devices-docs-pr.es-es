@@ -13,12 +13,12 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: 60ace1e2b9344faeb9f130a56686ffac4643fc37
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e21febfcbcbf139aea832c51e354759c0a49f896
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911325"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939541"
 ---
 # <a name="manage-surface-uefi-settings"></a>Administrar la configuración de la UEFI de Surface
 
@@ -96,7 +96,7 @@ La contraseña debe tener al menos 6 caracteres y distingue mayúsculas de minú
 
 *Figura 3. Agregar una contraseña para proteger la configuración de la UEFI de Surface*
 
-En la página Seguridad también puedes cambiar la configuración de arranque seguro en el dispositivo Surface. La tecnología de arranque seguro impide que el código de arranque no autorizado arranque en el dispositivo Surface, lo que protege contra infecciones de malware de tipo bootkit y rootkit. Puedes deshabilitar el arranque seguro para permitir el dispositivo Surface en sistemas operativos de terceros de arranque o medios de arranque. También puede configurar el arranque seguro para que funcione con certificados de terceros, como se muestra en la figura 4. Lee más sobre el [Arranque seguro](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview) en la biblioteca de TechNet.
+En la página Seguridad también puedes cambiar la configuración de arranque seguro en el dispositivo Surface. La tecnología de arranque seguro impide que el código de arranque no autorizado arranque en el dispositivo Surface, lo que protege contra infecciones de malware de tipo bootkit y rootkit. Puedes deshabilitar el arranque seguro para permitir el dispositivo Surface en sistemas operativos de terceros de arranque o medios de arranque. También puede configurar el arranque seguro para que funcione con certificados de terceros, como se muestra en la figura 4. Para obtener más información, vea [Secure Boot](/windows-hardware/design/device-experiences/oem-secure-boot).
 
 ![Configurar arranque seguro.](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 
