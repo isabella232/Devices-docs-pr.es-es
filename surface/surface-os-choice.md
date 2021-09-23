@@ -17,7 +17,7 @@ ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "12036981"
+ms.locfileid: "12037084"
 ---
 # <a name="os-choice-for-new-surface-devices"></a>Elección del sistema operativo para nuevos dispositivos Surface
  
