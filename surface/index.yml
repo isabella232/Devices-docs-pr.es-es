@@ -16,45 +16,45 @@ highlightedContent:
   items:
     - title: Documentación de dispositivos Surface
       itemType: learn
-      url: 'https://docs.microsoft.com/surface/get-started'
+      url: /surface/get-started
     - title: Documentación de Surface Hub
       itemType: learn
-      url: 'https://docs.microsoft.com/surface-hub/index'
+      url: /surface-hub/index
     - title: Documentación de Surface Duo
       itemType: learn
-      url: 'https://docs.microsoft.com/surface-duo/index'
+      url: /surface-duo/index
 conceptualContent:
   title: Dispositivos Surface
   summary: Encuentra recursos para tus dispositivos Surface de Microsoft.
   items:
-    - title: Información general de Surface
+    - title: Introducción a Surface
       links:
-        - url: 'https://www.microsoft.com/surface/business/surface-laptop-4'
+        - url: 'https://www.microsoft.com/surface/business/surface-pro-8'
           itemType: concept
-          text: Surface Laptop 4 para empresas
-        - url: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
+          text: Surface Pro 8 para empresas
+        - url: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
           itemType: concept
-          text: Surface Pro 7+ para empresas
+          text: Surface Laptop Studio para empresas
         - url: 'https://www.microsoft.com/surface/business'
           itemType: concept
           text: Explorar todos los productos de la familia Surface
     - title: Información general de Surface Hub
       links:
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-85-install-mount'
+        - url: /surface-hub/surface-hub-2s-85-install-mount
           itemType: how-to-guide
           text: Instalar y montar Surface Hub 2S 85" (guía de preparación)
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new'
+        - url: /microsoftteams/rooms/surface-hub-manage-config
           itemType: concept
-          text: Novedades de Surface Hub 2S
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs'
+          text: Administrar la configuración de Microsoft Teams en Surface Hub
+        - url: /surface-hub/surface-hub-2s-techspecs
           itemType: concept
           text: Especificaciones técnicas de Surface Hub 2S
     - title: Introducción a Surface Duo
       links:
-        - url: 'https://docs.microsoft.com/surface-duo/surface-duo-manage'
+        - url: /surface-duo/surface-duo-manage
           itemType: concept
           text: Introducción a la administración de Surface Duo
-        - url: 'https://docs.microsoft.com/surface-duo/surface-duo-secure'
+        - url: /surface-duo/surface-duo-secure
           itemType: concept
           text: Introducción a la seguridad de Surface Duo
         - url: 'https://www.microsoft.com/surface/business/surface-duo'
@@ -90,10 +90,10 @@ conceptualContent:
           text: Contacta con el Soporte técnico de Surface Hub
     - title: Ayuda de Surface Duo
       links:
-        - url: 'https://docs.microsoft.com/en-us/surface-duo/contact-surface-duo-support'
+        - url: /surface-duo/contact-surface-duo-support
           itemType: learn
           text: Póngase en contacto con el soporte de Surface Duo
-        - url: 'https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows'
+        - url: /dual-screen/android/get-duo-sdk?tabs=windows
           itemType: learn
           text: Obtenga el SDK de Surface Duo
         - url: 'https://www.microsoft.com/download/details.aspx?id=100847'

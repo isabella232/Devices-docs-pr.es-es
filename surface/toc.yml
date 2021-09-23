@@ -22,19 +22,23 @@
               href: surface-headphones.md
         - name: Pedir dispositivos Surface
           items:
-            - name: Surface Laptop 4 para empresas
-              href: 'https://www.microsoft.com/surface/business/surface-laptop-4'
-            - name: Surface Pro 7+ para empresas
-              href: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
-            - name: Surface Go 2 para empresas
-              href: 'https://www.microsoft.com/surface/business/surface-go-2'
+            - name: Elección del sistema operativo Surface
+              href: surface-os-choice.md
+            - name: Surface Pro 8 para empresas
+              href: 'https://www.microsoft.com/surface/business/surface-pro-8'
             - name: Surface Pro X para empresas
               href: 'https://www.microsoft.com/surface/business/surface-pro-x'
+            - name: Surface Laptop Studio para empresas
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
+            - name: Surface Go 3 para empresas
+              href: 'https://www.microsoft.com/surface/business/surface-go-3'
+            - name: Surface Laptop 4 para empresas
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-4'
+            - name: Surface Laptop Go para empresas
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-go'
             - name: Surface Studio 2 para empresas
               href: 'https://www.microsoft.com/surface/business/surface-studio-2'
-            - name: Surface Book 3 para empresas
-              href: 'https://www.microsoft.com/surface/business/surface-book-3'
-    - name: Planear
+    - name: Plan
       items:
         - name: Compatibilidad de los dispositivos Surface con la Rama de mantenimiento a largo plazo de Windows 10
           href: surface-device-compatibility-with-windows-10-ltsc.md
