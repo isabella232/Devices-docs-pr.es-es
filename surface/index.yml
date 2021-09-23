@@ -27,7 +27,7 @@ conceptualContent:
   title: Dispositivos Surface
   summary: Encuentra recursos para tus dispositivos Surface de Microsoft.
   items:
-    - title: Introducción a Surface
+    - title: Información general de Surface
       links:
         - url: 'https://www.microsoft.com/surface/business/surface-pro-8'
           itemType: concept
