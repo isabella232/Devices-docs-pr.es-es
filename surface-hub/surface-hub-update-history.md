@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 40bca71dcc740cf95b79bd9386c5217a1772c9e1
-ms.sourcegitcommit: 1d540913ca2d49ef5b8fa3c6dffe9131a197b270
+ms.openlocfilehash: 57acd34fc83c3f186d3ed4683e6e0f191b9291be
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "11936773"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057667"
 ---
 # <a name="surface-hub-update-history"></a>Historial de actualizaciones de SurfaceHub
 
@@ -29,6 +29,24 @@ Actualizaremos esta página a medida que se den a conocer nuevas actualizaciones
 Consulte la página "[Surface Hub Información](https://support.microsoft.com/products/surface-devices/surface-hub)importante " para temas relacionados sobre las versiones actuales y pasadas que puedan requerir su atención.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team 2020 Update (20H2)
+
+<details>
+<summary>30 de septiembre de 2021: KB5004196, KB5004198 y KB5004199</summary>
+
+Estas actualizaciones de la Surface Hub entregan el cliente Teams room, el Teams del Centro de administración y el agente de salas de reuniones administradas. Las características clave se describen [en Teams Room en Surface Hub](surface-hub-teams-rooms.md).
+ 
+Consulte la guía de [administración Surface Hub para](/surface-hub/) habilitar o deshabilitar las características y servicios del dispositivo.
+</details>
+
+<details>
+<summary>30 de septiembre de 2021: actualización para Team basada en KB5005611* (compilación del sistema operativo 19042.1266)</summary>
+
+Esta actualización a la Surface Hub incluye mejoras de calidad y correcciones de seguridad. Las actualizaciones clave de Surface Hub, que aún no se describen [en Windows 10 historial](https://support.microsoft.com/help/4581839/windows-10-update-history)de actualizaciones, incluyen:
+
+* Reemplaza el modo de reunión 1 (Teams preferido/SfB disponible) por la funcionalidad del modo 2 (Teams solamente); cualquiera de las dos opciones puede usarse, pero ambas tienen el mismo efecto.
+
+Consulte la guía de [administración Surface Hub para](/surface-hub/) habilitar o deshabilitar las características y servicios del dispositivo. *[KB5005611](https://support.microsoft.com/help/5005611)
+</details>
 
 <details>
 <summary>1 de septiembre de 2021: actualización para Team basada en KB5005101* (compilación del sistema operativo 19042.1202)</summary>

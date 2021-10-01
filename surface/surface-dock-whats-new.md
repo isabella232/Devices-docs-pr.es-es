@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 14b4b5ee72ac92618a2906894840a51dd2229d42
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e36e01ec9387779ba4b920e21bf51f1f210cbdde
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911165"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057677"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Novedades de Surface Dock 2
 
@@ -121,7 +121,7 @@ Surface Dock 2 está diseñado para simplificar la administración de TI, lo que
 
 
 
-1. *Los dispositivos deben configurarse para Activar en LAN mediante el modo de administración de Surface Enterprise (SEMM) o la Interfaz de control de firmware de dispositivo (DFCI) para que se descierte de la hibernación o Power-Off estado. Wake from Hibernation o Power-Off se admite en Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3 y Surface Go 2.  Licencia de software necesaria para algunas características. Se vende por separado.*
+1. *Los dispositivos deben configurarse para Activar en LAN mediante el modo de administración de Surface Enterprise (SEMM) o la Interfaz de control de firmware de dispositivo (DFCI) para que se descierte de la hibernación o Power-Off estado. Wake from Hibernation o Power-Off se admite en Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3, Surface Go 3 y Surface Go 2.  Licencia de software necesaria para algunas características. Se vende por separado.*
 
 2. *Licencia de software necesaria para algunas características. Se vende por separado.*
 

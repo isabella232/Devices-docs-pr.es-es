@@ -8,11 +8,14 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/13/2021
+ms.date: 10/01/2021
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 appliesto:
+- Surface Laptop Studio
+- Surface Pro 8
+- Surface Go 3
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
@@ -20,12 +23,12 @@ appliesto:
 - Surface Book 3
 - Surface Laptop Go
 - Surface Laptop 4
-ms.openlocfilehash: b9b58406bbd256e79aec9065c5e25f618e584a02
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: fcaf434c5c26ec6515feccfbf134d5eb6614a318
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911975"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057657"
 ---
 # <a name="manage-dfci-on-surface-devices"></a>Administrar DFCI en dispositivos Surface
 
@@ -53,6 +56,9 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 
 DFCI se admite en los siguientes dispositivos:
 
+- Surface Laptop Studio
+- Surface Pro 8
+- Surface Go 3
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X

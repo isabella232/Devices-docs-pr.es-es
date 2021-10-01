@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/04/2021
+ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 193053745628b434c07a63f23a042e95fead32eb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e329b0cd1b74060e01ad1105a75c63d2883c6a4e
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911815"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057651"
 ---
 # <a name="surface-security-overview"></a>Introducción a la seguridad de Surface
 
@@ -132,7 +132,7 @@ Los administradores de TI pueden administrar dispositivos Surface de forma remot
 
 ## <a name="references"></a>Referencias
 
-1. Surface Go y Surface Go 2 usan una UEFI de terceros y no admiten DFCI. DFCI está disponible actualmente para Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 y Surface Pro X. 
+1. Surface Go y Surface Go 2 usan una UEFI de terceros y no admiten DFCI. DFCI está disponible actualmente para Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 y Surface Pro X. 
 
 ## <a name="learn-more"></a>Obtén más información
 
