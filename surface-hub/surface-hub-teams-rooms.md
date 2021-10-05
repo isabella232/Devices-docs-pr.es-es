@@ -11,12 +11,12 @@ ms.date: 08/20/2021
 ms.reviewer: dpandre
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3cb72801f58424ed8c515e57cbd25799f3a9d709
-ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
+ms.openlocfilehash: a2f382b1120ba071e7dc709f1464ddb1e5118d28
+ms.sourcegitcommit: 7ffb1d2d86a713a3ed4a7faa8ac82cfc49dbd55e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "12057687"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "12068471"
 ---
 # <a name="microsoft-teams-rooms-on-surface-hub"></a>Salas de Microsoft Teams en Surface Hub
 
@@ -29,7 +29,7 @@ Salas de Teams para Surface Hub reemplazará automáticamente la aplicación [](
 - Salas de Teams en Surface Hub puede ejecutarse en paralelo con otras aplicaciones o ejecutarse minimizado.
 - Los administradores pueden configurar características como reunión coordinada y unión de proximidad para Surface Hub. [Los archivos XML](/microsoftteams/rooms/surface-hub-manage-config#teams-configuration-file-syntax) son compatibles y se migrarán al nuevo modelo de configuración.
 - Nuevas opciones de QoS y requisitos de red. Para obtener más información, vea [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
-- Si aún no es el valor predeterminado, Teams puede establecerse como **** la aplicación predeterminada para reuniones y llamadas en Configuración Surface Hub de &  >  ****  >  **audio**. Para obtener más información sobre los modos de reunión y configurarlos a través de la directiva MDM, [consulta Administrar Surface Hub con un proveedor MDM](manage-settings-with-mdm-for-surface-hub.md#changing-default-business-communications-platform).
+- Si aún no es el valor predeterminado, Teams puede establecerse como **** la aplicación predeterminada para reuniones y llamadas en Configuración Surface Hub de &  >  ****  >  **audio**. Para obtener más información sobre los modos de reunión y configurarlos a través de la directiva MDM, [consulta Administrar Surface Hub con un proveedor MDM](manage-settings-with-mdm-for-surface-hub.md#changing-default-app-for-meetings--calls).
 
 ## <a name="in-meeting-experience"></a>En la experiencia de reunión
 

@@ -12,12 +12,12 @@ ms.date: 10/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 80221d49f10f1a2fdc57723d1b6122333e1b192a
-ms.sourcegitcommit: 247e97d3ed856fa9814e95db7e04e5d4054f6bb5
+ms.openlocfilehash: d5c7690cd90427bb7a9a6b2b452e527aa1b608dd
+ms.sourcegitcommit: 7ffb1d2d86a713a3ed4a7faa8ac82cfc49dbd55e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/05/2021
-ms.locfileid: "12067732"
+ms.locfileid: "12068452"
 ---
 # <a name="surface-laptop-studio-graphics-overview"></a>Surface Laptop Introducción a los gráficos de Studio
 
@@ -54,7 +54,7 @@ GeForce RTX 3050 Ti habilita:
 - Representación 3D ultra rápida gracias a las aceleraciones RTX y DLSS en aplicaciones como Blender o Autodesk® Maya. 
 - Juegos de última generación con gráficos RTX y alto rendimiento gracias a DLSS, así como latencia ultra baja con NVIDIA Reflex.
 
-## <a name="nvidia-rtx-a2000-laptop-gpu"></a>GPU portátil NVIDIA RTX A2000
+### <a name="nvidia-rtx-a2000-laptop-gpu"></a>GPU portátil NVIDIA RTX A2000
 
 NVIDIA RTX A2000 ofrece representación de gráficos profesionales y capacidades de IA para flujos de trabajo profesionales exigentes, como diseño de productos y fabricación, modelado de medios y entretenimiento, animación y representación, arquitectura, ingeniería y diseño de construcción.
  
