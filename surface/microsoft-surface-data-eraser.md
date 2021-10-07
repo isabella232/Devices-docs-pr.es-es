@@ -1,6 +1,6 @@
 ---
 title: Borrador de datos de Microsoft Surface (Surface)
-description: Descubre cómo puedes usar la herramienta Borrador de datos de Microsoft Surface para eliminar los datos de tus dispositivos Surface de manera segura.
+description: La herramienta Borrador de datos de Microsoft Surface te permite borrar de forma segura los datos de tus dispositivos Surface.
 ms.assetid: 8DD3F9FE-5458-4467-BE26-E9200341CF10
 ms.reviewer: hachidan
 manager: laurawi
@@ -14,25 +14,26 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 05/17/2021
-ms.openlocfilehash: 292c20c9999d9f226f28daed87069c78b43fd4bf
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/06/2021
+ms.openlocfilehash: e97bc719fb93b0a0b74c7ca51b68cbc59efa9f4a
+ms.sourcegitcommit: fe54b2bab8b205302438426b86c0aa8269ff82ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911195"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "12081228"
 ---
 # <a name="microsoft-surface-data-eraser"></a>Borrador de datos de Microsoft Surface
 
 Descubre cómo puedes usar la herramienta Borrador de datos de Microsoft Surface para eliminar los datos de tus dispositivos Surface de manera segura.
 
-[Borrador de datos de Microsoft Surface](https://www.microsoft.com/download/details.aspx?id=46703) es una herramienta que se inicia desde un stick USB y que te permite borrar con seguridad todos los datos de un dispositivo Surface compatible. Para iniciar el stick USB del Borrador de datos Microsoft Surface únicamente necesitas un puerto USB. Asimismo, te resultará simple crear el stick USB si usas el asistente proporcionado a tal fin: el Contenedor de borrado de datos de Microsoft Surface; este asistente es muy fácil de usar ya que tiene una interfaz gráfica sencilla y no precisa de una línea de comandos. Para obtener más información acerca de las funcionalidades y las prácticas para borrar los datos que Microsoft usa durante el proceso de servicio de Surface, consulta [P+F: proteger sus datos si envía su Surface para reparación](https://www.microsoft.com/surface/support/security-sign-in-and-accounts/data-wiping-policy).
+[Borrador de datos de Microsoft Surface](https://www.microsoft.com/download/details.aspx?id=46703) es una herramienta que se inicia desde un stick USB y que te permite borrar con seguridad todos los datos de un dispositivo Surface compatible. Para iniciar el stick USB del Borrador de datos Microsoft Surface únicamente necesitas un puerto USB. Para obtener más información acerca de las funcionalidades y las prácticas para borrar los datos que Microsoft usa durante el proceso de servicio de Surface, consulta [P+F: proteger sus datos si envía su Surface para reparación](https://www.microsoft.com/surface/support/security-sign-in-and-accounts/data-wiping-policy).
 
 >[!IMPORTANT]
 >Borrador de datos de Microsoft Surface usa el comando de formato NVM Express (NVMe) para borrar los datos según se autoriza en [NIST Special Publication 800-88 Revision 1](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf).
 
 Los dispositivos Surface compatibles incluyen:
 
+- Surface Laptop Studio
 - Surface Book (todas las ediciones)
 - Surface Go (todas las ediciones)
 - Surface Pro X (todas las ediciones)
@@ -46,67 +47,53 @@ Los dispositivos Surface compatibles incluyen:
 A continuación encontrarás algunos escenarios donde el Borrador de datos de Microsoft Surface puede serte útil para realizar lo siguiente:
 
 - Preparar un dispositivo Surface para que se envíe para su reparación.
-- Retirar un dispositivo Surface que se va a quitar. de uso corporativo u organizativo.
-- Vuelva a usar un dispositivo Surface para usarlo en un nuevo departamento o para que lo use un usuario nuevo.
-- Práctica estándar al realizar la re-creación de imágenes para dispositivos usados con datos confidenciales.
-
->[!NOTE]
->Los dispositivos de terceros, los dispositivos Surface que ejecutan Windows RT (incluidos Surface y Surface 2) y Surface Pro no son compatibles con el Borrador de datos de Microsoft Surface.
-
->[!NOTE]
->Dado que la capacidad para el arranque desde el USB es necesaria para ejecutar el Borrador de datos de Microsoft Surface, si el dispositivo no está configurado para arrancar desde el USB o si no es capaz de arrancar o realizar pruebas automáticas de encendido (POST) correctamente, el Borrador de datos de Microsoft Surface no funcionará.
-
->[!NOTE]
->Surface Data Eraser en Surface Studio y Surface Studio 2 pueden tardar hasta 6 minutos en arrancarse en WinPE antes de que se produzca la eliminación del disco.
+- Retirar un dispositivo Surface del uso corporativo u organizativo.
+- Reutilizar un dispositivo Surface para un nuevo usuario.
+- Reimagen dispositivos que contienen datos confidenciales.
 
 ## <a name="how-to-create-a-microsoft-surface-data-eraser-usb-stick"></a>Cómo crear un stick USB del Borrador de datos de Microsoft Surface
 
-Para crear un stick USB del Borrador de datos de Microsoft Surface, primero debes instalar la herramienta de instalación del Borrador de datos de Microsoft Surface que encontrarás en el Centro de descarga de Microsoft, al cual podrás acceder mediante el vínculo que está al principio de este artículo. No necesitas un dispositivo Surface para *crear* el stick USB. Una vez hayas descargado el archivo de instalación en el equipo, sigue estos pasos para instalar la herramienta que te permitirá crear el Borrador de datos de Microsoft Surface.
+Cuando tengas instalada la herramienta de creación, sigue estos pasos para crear el stick USB del Borrador de datos de Microsoft Surface. Antes de realizar estos pasos, asegúrate de que haya un stick USB 3.0 que sea de 4 GB, o mayor, conectado al equipo.
 
 1. Ejecute el DataEraserSetup.msi de instalación que descargó desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=46703).
 
-2. Selecciona la casilla para aceptar los términos del contrato de licencia y, a continuación, haz clic en **Instalar**.
+2. Selecciona **Crear** para iniciar el proceso de creación usb del Borrador de datos de Microsoft Surface, como se muestra en la figura 1.
 
-3. Haz clic en **Finalizar** para cerrar la ventana de configuración del Borrador de datos de Microsoft Surface.
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig1-build.png" alt-text="Figura 1. Iniciar la herramienta Borrador de datos de Microsoft Surface":::<br>
+  *Figura 1. Iniciar la herramienta Borrador de datos de Microsoft Surface*
 
-Cuando tengas instalada la herramienta de creación, sigue estos pasos para crear el stick USB del Borrador de datos de Microsoft Surface. Antes de realizar estos pasos, asegúrate de que haya un stick USB 3.0 que sea de 4 GB, o mayor, conectado al equipo.
+3. Seleccione **Continuar** para confirmar que tiene una unidad USB de al menos 4 GB conectada, como se muestra en la figura 2.
+   
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="Figura 2. Confirmar que la unidad USB de al menos 4 GB está conectada":::<br>
+   *Figura 2. Confirmar que la unidad USB de al menos 4 GB está conectada*
 
-1. Inicia el Borrador de datos de Microsoft Surface en el menú Inicio o en la pantalla Inicio.
+4. Elija **x64 (solo para dispositivos 2021+)** para dispositivos 2021 o más recientes, elija **x64** para dispositivos **** 2020 y versiones anteriores o **ARM64** para Surface Pro X en la página Selección de arquitectura, como se muestra en la figura 3. Selecciona **Continuar**.
 
-2. Haz clic en **Crear** para comenzar el proceso de creación del USB del Borrador de datos de Microsoft Surface.
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig3-select.png" alt-text="Figura 3. Seleccionar arquitectura de dispositivo":::
 
-3. Haz clic en **Inicio** para confirmar que tienes un stick USB de al menos 4 GB conectado, tal como se muestra en la imagen 1.
+5. Selecciona la unidad USB que **** prefieras en la página Selección de la **** unidad usb como se muestra en la figura 4 y, a continuación, selecciona Inicio para iniciar el proceso de creación usb. Se formateará la unidad que selecciones y los datos que tengas guardados en esa unidad se perderán.
 
-   ![Inicia la herramienta Borrador de datos de Microsoft Surface.](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="Figura 4. Selección de unidad usb>":::<br>
+   *Figura 4. Selección de unidad USB*
 
-   *Figura 1. Iniciar la herramienta del Borrador de datos de Microsoft Surface*
-4. Elige **x64 para** la mayoría de dispositivos Surface o **ARM64** para Surface Pro X en la página **Selección** de arquitectura, como se muestra en la figura 2. Selecciona **Continuar**.
-
-    ![Selección de arquitectura.](images/dataeraser-arch.png "Architecture Selection")<br>
-       *Figura 2. Seleccionar arquitectura de dispositivo*
-
-5. Selecciona la unidad USB que **** prefieras en la página Selección de unidad **** usb como se muestra en la figura 3 y, a continuación, haz clic en Inicio para iniciar el proceso de creación de USB. Se formateará la unidad que selecciones y los datos que tengas guardados en esa unidad se perderán.
-
-   >[!TIP]
+  >[!TIP]
    >Si ves que el botón Inicio está deshabilitado, comprueba que la unidad extraíble tenga una capacidad total de 4 GB, como mínimo.
-  
-   ![Selección de unidad usb.](images/dataeraser-usb-selection.png "USB thumb drive selection")
 
-   *Figura 3. Selección de unidad USB*
+6. Después de finalizar el proceso de creación, verás que se ha formateado la unidad USB y que tiene copiados todos los archivos binarios. Seleccione **Correcto**.
 
-6. Después de finalizar el proceso de creación, verás que se ha formateado la unidad USB y que tiene copiados todos los archivos binarios. Haz clic en **Finalizó con éxito**.
+7. Cuando veas la pantalla de **Enhorabuena**, podrás expulsar y retirar la unidad USB. De esta manera, ya tienes la unidad lista para conectarla a un dispositivo Surface, arrancarlo desde esa unidad y eliminar cualquier dato del dispositivo. Seleccione **Completar** para finalizar el proceso de creación usb, como se muestra en la figura 5.
 
-7. Cuando veas la pantalla de **Enhorabuena**, podrás expulsar y retirar la unidad USB. De esta manera, ya tienes la unidad lista para conectarla a un dispositivo Surface, arrancarlo desde esa unidad y eliminar cualquier dato del dispositivo. Haga **clic en** Completar para finalizar el proceso de creación de USB, como se muestra en la figura 4.
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig5-complete.png" alt-text="Completar la herramienta Borrador de datos de Microsoft Surface":::<br>
+   *Figura 5. Completar el proceso de creación del USB del Borrador de datos de Microsoft Surface*
 
-   ![Proceso de creación de Surface Data Eraser USB.](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
-
-   *Figura 4. Completar el proceso de creación del USB del Borrador de datos de Microsoft Surface*
-
-8. Haz clic en **X** para cerrar el Borrador de datos de Microsoft Surface.
+8. Selecciona **X** para cerrar El borrador de datos de Microsoft Surface.
 
 ## <a name="how-to-use-a-microsoft-surface-data-eraser-usb-stick"></a>Cómo usar un stick USB del Borrador de datos de Microsoft Surface
 
 Después de crear un stick USB del Borrador de datos de Microsoft Surface, puedes arrancar un dispositivo Surface compatible desde la memoria USB, si sigues estos pasos:
+
+>[!NOTE]
+>Surface Data Eraser en Surface Studio y Surface Studio 2 pueden tardar hasta 6 minutos en arrancarse en WinPE antes de que se produzca la eliminación del disco.
 
 1. Inserta el stick USB de arranque del Borrador de datos de Microsoft Surface en el dispositivo Surface compatible.
 
@@ -141,7 +128,7 @@ Después de crear un stick USB del Borrador de datos de Microsoft Surface, puede
 
 7. Si presionaste **Y** en el paso 6, debido a la naturaleza destructiva del proceso de eliminación de datos, se muestra un cuadro de diálogo adicional para confirmar tu elección.
 
-8. Haz clic en el botón **Sí** para continuar con el borrado de datos del dispositivo Surface.
+8. Selecciona **Sí** para continuar borrando datos en el dispositivo Surface.
 
    >[!TIP]
    >Al ejecutar el Borrador de datos Surface en la unidad USB del Borrador de datos Surface, se genera un archivo de registro en la carpeta **SurfaceDataEraserLogs**.
@@ -149,6 +136,14 @@ Después de crear un stick USB del Borrador de datos de Microsoft Surface, puede
 ## <a name="changes-and-updates"></a>Cambios y actualizaciones
 
 Microsoft actualiza de vez en cuando el Borrador de datos de Microsoft Surface. Para obtener información sobre los cambios que se proporcionan en cada nueva versión, consulta lo siguiente:
+
+### <a name="3421390"></a>3.42.139.0
+
+*Fecha de lanzamiento: 5 de octubre de 2021*
+
+Esta versión del Borrador de datos de Surface incluye:
+
+- Opción independiente para 2021 y compatibilidad con dispositivos más recientes, incluidos Surface Laptop Studio, Surface Pro 8 y Surface Go 3.
 
 ### <a name="3391390"></a>3.39.139.0
 
@@ -170,7 +165,7 @@ Esta versión de Surface Data Eraser:
 
 *Fecha de lanzamiento: 9 de septiembre de 2020*
 
-Esta versión de Surface Data Eraser incluye correcciones de errores y agrega compatibilidad para: 
+Esta versión de Surface Data Eraser incluye correcciones de errores y agrega compatibilidad para:
 
 - Volver a diseñar la arquitectura para reducir la necesidad de actualizar con las nuevas versiones de productos
 - Notificación disponible para actualizaciones de nuevas herramientas
