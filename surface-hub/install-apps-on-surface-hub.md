@@ -13,12 +13,12 @@ ms.topic: article
 ms.date: 07/16/2021
 ms.localizationpriority: medium
 audience: ITPro
-ms.openlocfilehash: a8c11406c7786e379999ff32f482815d6b180b24
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 3c4869f8aadbd849a608b5a35bf0e76ff3e78508
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676664"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089332"
 ---
 # <a name="install-apps-on-your-microsoft-surface-hub"></a>Instalar aplicaciones en Microsoft Surface Hub
 
@@ -73,11 +73,11 @@ Busca y compra la aplicación que quieras y, a continuación, descarga:
 - La archivo de licencia *codificado* (si usas MDM para distribuir la aplicación)
 - Los archivos de dependencia necesarios
 
-Para obtener más información, consulta [Descargar una aplicación con licencia sin conexión](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app).
+Para obtener más información, consulta [Descargar una aplicación con licencia sin conexión](/microsoft-store/distribute-offline-apps#download-an-offline-licensed-app).
 
 ### <a name="install-offline-licensed-apps-via-provisioning-package"></a>Instalar aplicaciones con licencia sin conexión a través del paquete de aprovisionamiento
 
-Puedes instalar manualmente las aplicaciones con licencia sin conexión que hayas descargado de la Tienda para empresas en varios Surface Hubs mediante paquetes de aprovisionamiento. Usa Diseñador de imágenes y configuraciones de Windows (ICD) para crear un paquete de aprovisionamiento que contenga el paquete de la aplicación y el archivo de licencia *sin codificar* que descargaste de la Tienda para empresas. Para obtener más información, consulta [Crear paquetes de aprovisionamiento](provisioning-packages-for-certificates-surface-hub.md).
+Puedes instalar manualmente las aplicaciones con licencia sin conexión que hayas descargado de la Tienda para empresas en varios Surface Hubs mediante paquetes de aprovisionamiento. Usa Diseñador de imágenes y configuraciones de Windows (ICD) para crear un paquete de aprovisionamiento que contenga el paquete de la aplicación y el archivo de licencia *sin codificar* que descargaste de la Tienda para empresas. Para obtener más información, vea [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
 
 ### <a name="supported-mdm-provider"></a>Proveedor de MDM compatible
 
@@ -118,7 +118,7 @@ Durante el desarrollo, la forma más sencilla de probar tu aplicación en un Sur
 
 #### <a name="create-provisioning-package"></a>Crear paquete de aprovisionamiento
 
-Usa Visual Studio para crear un paquete de la aplicación para tu aplicación para UWP, firmada mediante un certificado de prueba. A continuación, usa Diseñador de imágenes y configuraciones de Windows (ICD) para crear un paquete de aprovisionamiento que contenga el paquete de la aplicación. Para obtener más información, consulta [Crear paquetes de aprovisionamiento](provisioning-packages-for-certificates-surface-hub.md).
+Usa Visual Studio para crear un paquete de la aplicación para tu aplicación para UWP, firmada mediante un certificado de prueba. A continuación, usa Diseñador de imágenes y configuraciones de Windows (ICD) para crear un paquete de aprovisionamiento que contenga el paquete de la aplicación. Para obtener más información, vea [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
 
 ## <a name="submit-apps-to-the-microsoft-store"></a>Enviar aplicaciones a la Microsoft Store
 

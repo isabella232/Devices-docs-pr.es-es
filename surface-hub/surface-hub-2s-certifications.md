@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 01/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2c4e6c5a20bac85429e7e464bbf4d19788be2af7
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 059398152dff86dffe901264fe3503e080df0cf5
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576890"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089342"
 ---
 # <a name="microsoft-teams-certified-audio-and-video-accessories-for-surface-hub-2s"></a>Accesorios de audio y vídeo certificados de Microsoft Teams para Surface Hub 2S
 
-Surface Hub modelos de 2S de 50" y 85" están certificados para [Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=31) para 2,3 metros como un dispositivo todo en uno en espacios de colaboración y acurrucación. La familia Surface Hub 2S se puede extender a salas más grandes con los siguientes periféricos certificados de Microsoft Teams probados y aprobados que sacan el máximo partido de cualquier espacio cuando se combinan con Surface Hub 2S de 50" y 85".
+Surface Hub modelos de 2S de 50" y 85" están certificados para [Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20) para 2,3 metros como un dispositivo todo en uno en espacios de colaboración y acurrucación. La familia Surface Hub 2S se puede extender a salas más grandes con los siguientes periféricos certificados de Microsoft Teams probados y aprobados que sacan el máximo partido de cualquier espacio cuando se combinan con Surface Hub 2S de 50" y 85".
 
 ## <a name="microsoft-teams-certified-audio-accessories"></a>Microsoft Teams de audio certificados 
 
