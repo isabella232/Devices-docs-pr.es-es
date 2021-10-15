@@ -11,12 +11,12 @@ ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 57fd7ea11e19902d2a94c1be998052739875afaf
-ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
+ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
+ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "12089302"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "12094463"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Conceptos básicos del sistema operativo (Surface Hub)
 
@@ -119,7 +119,7 @@ Surface Hub implementa las siguientes características de seguridad de Windows 1
 - [Control de aplicaciones de Windows Defender y protección basada en la virtualización de la integridad del código](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Directivas de restricción de aplicaciones con AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [Cifrado de unidad BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
-- [Módulo de plataforma de confianza (TPM)] (/security/information-protection/tpm/trusted-platform-module-overview
+- [Módulo de plataforma segura (TPM)](/security/information-protection/tpm/trusted-platform-module-overview)
 - [Antivirus de Microsoft Defender en Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - [Control de cuentas de usuario (UAC)](/windows/security/identity-protection/user-account-control/user-account-control-overview) para acceder a la aplicación Configuración
 
