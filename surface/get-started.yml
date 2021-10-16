@@ -11,18 +11,20 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 60a0956cf83b466587197ca401dc41b95952be03
-  ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
+  ms.openlocfilehash: 1d46bea76ffb0641aeee1c51f88dcbb1ff2d56bf
+  ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/23/2021
-  ms.locfileid: "12037144"
+  ms.lasthandoff: 10/16/2021
+  ms.locfileid: "12096448"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Elección de Surface OS
+    - text: ¿Qué dispositivos Surface se pueden actualizar Windows 11?
+      url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
+    - text: Elección del sistema operativo Surface
       url: surface-os-choice.md
     - text: Surface Pro 8 para empresas
       url: https://www.microsoft.com/surface/business/surface-pro-8
@@ -40,10 +42,10 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Información general técnica sobre los procesadores de Surface Laptop 4
+    - text: Introducción a los gráficos de Surface Laptop Studio.
+      url: surface-laptop-studio-graphics.md
+    - text: Surface Laptop de 4 procesadores
       url: surface-laptop-processors.md
-    - text: Introducción técnica sobre Surface Headphones 2+
-      url: surface-headphones.md
     - text: Azure Virtual Desktop en Surface
       url: windows-virtual-desktop-surface.md
     - text: Soluciones de trabajo remoto con Surface
@@ -88,6 +90,8 @@ landingContent:
       url: support-solutions-surface.md
     - text: Controlador de Surface y ciclo de vida del firmware para dispositivos basados en Windows
       url: surface-driver-firmware-lifecycle-support.md
+    - text: Sistemas operativos compatibles con Surface
+      url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
 - title: Explorar la guía de seguridad
   linkLists:
   - linkListType: how-to-guide
