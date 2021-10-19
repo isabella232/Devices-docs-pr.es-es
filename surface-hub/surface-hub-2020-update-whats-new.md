@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/25/2021
+ms.date: 10/19/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: fcd7df80615e406a1dab061b473ef7f3dbd065e1
-ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
+ms.openlocfilehash: 3b9dbf0e4b7412967c3f2c68ddc10a6fccac8907
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "12089272"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101227"
 ---
 # <a name="whats-new-in-windows-10-team-2020-update"></a>Novedades de la actualización Windows 10 Team 2020
 
@@ -45,12 +45,12 @@ Para obtener más información, vea:
 
 ## <a name="browser-and-pen"></a>Explorador y lápiz
 
-- **Compatibilidad con el nuevo Microsoft Edge**. Microsoft Edge se ha reconstruido para lograr un rendimiento de compatibilidad óptimo, seguridad y privacidad. Para obtener más información, vea [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md).
+- **Nuevo Microsoft Edge instalado de forma predeterminada**. Microsoft Edge se ha reconstruido para lograr un rendimiento de compatibilidad óptimo, seguridad y privacidad. Para obtener más información, vea [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md).
 - **Entrada de lápiz dual en Surface Hub 2S**.   Los usuarios pueden hacer pizarras y colaborar en paralelo en Surface Hub 2S con dos Surface Hub 2 lápices. Las actualizaciones de firmware necesarias para habilitar la entrada de lápiz dual se liberarán con una actualización posterior.
 
 ## <a name="microsoft-teams"></a>Microsoft Teams  
 
-- **Microsoft Teams instalado de forma predeterminada**.        Microsoft Teams se incluye como la aplicación predeterminada reuniones, llamadas y colaboración en nuevos dispositivos Surface Hub que se pueden cambiar o configurar a través de MDM o directamente en Surface Hub mediante la aplicación Configuración. Para obtener más información, [vea Microsoft Teams introducción a la implementación.](/microsoftteams/deploy-overview)
+- **Microsoft Teams instalado de forma predeterminada**.        Microsoft Teams se incluye como la aplicación predeterminada reuniones, llamadas y colaboración en nuevos dispositivos Surface Hub que se pueden cambiar o configurar a través de MDM o directamente en Surface Hub mediante la aplicación Configuración. Para obtener más información, vea [[Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
 - **Compatibilidad con la unión de proximidad con Microsoft Teams**.  Proximity Join permite a los usuarios realizar llamadas de Microsoft Teams programadas en un Surface Hub cercano con su portátil o teléfono, o bien realizar una transición sin problemas de una reunión en curso a un Surface Hub. Windows 10 Team actualización de 2020 agrega compatibilidad con administración de dispositivos móviles (MDM) para configurar la unión de proximidad. Para obtener más información, vea: 
 
   - [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833). 

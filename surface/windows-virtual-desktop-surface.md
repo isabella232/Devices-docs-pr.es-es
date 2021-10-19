@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/15/2021
+ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 680fea05112605aa0c26f63c135cb3bc4208e3ad
-ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
+ms.openlocfilehash: f59441a1df25e455480cfb1b9f2a47a7466ba120
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "11902629"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101205"
 ---
 # <a name="azure-virtual-desktop-on-surface"></a>Azure Virtual Desktop en Surface
 
@@ -136,7 +136,7 @@ Surface realiza evaluaciones del ciclo de vida para calcular el impacto ambienta
 
 ## <a name="summary"></a>Resumen
 
-Azure Virtual Desktop en Surface proporciona a las organizaciones una mayor flexibilidad y resistencia para satisfacer las diversas necesidades de los usuarios, las partes interesadas y los clientes. La ejecución de soluciones de Escritorio virtual de Azure en dispositivos Surface ofrece ventajas únicas sobre la dependencia continua de los dispositivos heredados. Factores de forma flexibles como Surface Go 2 y Surface Pro 7+ conectados a la nube (o sin conexión), permiten a los usuarios ser productivos desde cualquier lugar y en cualquier momento. Ya sea que los empleados trabajen en escenarios persistentes, a petición o justos a tiempo, Azure Virtual Desktop en Surface ofrece a las empresas la versatilidad para mantener la productividad durante las interrupciones de las emergencias de salud pública u otros eventos imprevistos. Con la seguridad integrada y multicapa y la capacidad de administración moderna de Windows 10, las empresas pueden aprovechar un ecosistema en expansión de servicios basados en la nube para implementar y escalar rápidamente Windows escritorios y aplicaciones. En pocas palabras, Azure Virtual Desktop en Surface ofrece tecnología críticamente necesaria a organizaciones y empresas de todos los tamaños.
+Azure Virtual Desktop en Surface proporciona a las organizaciones una mayor flexibilidad y resistencia para satisfacer las diversas necesidades de los usuarios, las partes interesadas y los clientes. La ejecución de soluciones de Escritorio virtual de Azure en dispositivos Surface ofrece ventajas únicas sobre la dependencia continua de los dispositivos heredados. Factores de forma flexibles como Surface Go 3 y Surface Pro 8 conectados a la nube (o sin conexión), permiten a los usuarios ser productivos desde cualquier lugar y en cualquier momento. Ya sea que los empleados trabajen en escenarios persistentes, a petición o justos a tiempo, Azure Virtual Desktop en Surface ofrece a las empresas la versatilidad para mantener la productividad durante las interrupciones de las emergencias de salud pública u otros eventos imprevistos. Con la seguridad integrada y multicapa y la capacidad de administración moderna de Windows 10, las empresas pueden aprovechar un ecosistema en expansión de servicios basados en la nube para implementar y escalar rápidamente Windows escritorios y aplicaciones. En pocas palabras, Azure Virtual Desktop en Surface ofrece tecnología críticamente necesaria a organizaciones y empresas de todos los tamaños.
 
 ## <a name="learn-more"></a>Obtén más información
 
@@ -154,6 +154,6 @@ Para obtener más información, consulta los siguientes recursos:
 <a id="2">2. </a> La duración de la batería varía considerablemente con la configuración, el uso y otros factores.<br>
 <a id="3">3. </a> Disponibilidad y rendimiento del servicio sujeto a la red del proveedor de servicios. Póngase en contacto con su proveedor de servicios para obtener detalles, compatibilidad, precios, tarjeta SIM y activación. Consulta todas las especificaciones y frecuencias en surface.com.<br>
 <a id="4">4. </a> Forrester Consulting, "A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface", encargado por Microsoft, 2018.<br> 
-<a id="5">5. Surface Go y Surface Go 2 usan una UEFI de terceros </a> y no admiten DFCI. DFCI está disponible actualmente para Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 y Surface Pro X.<br>
+<a id="5">5. Surface Go y Surface Go 2 usan una UEFI de terceros </a> y no admiten DFCI. DFCI está disponible actualmente para Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 y Surface Pro X.<br>
 <a id="6">6. Ssd extraíble está disponible en </a> Surface Pro 7+, Surface Laptop 4, Surface Laptop 3 y Surface Pro X. <br>
-<a id="7">7. DFCI está disponible actualmente para </a> Surface Pro 7+, Surface Laptop Go, Surface Book 4, Surface Laptop 3, Surface Pro 7 y Surface Pro X. Más información sobre cómo administrar la configuración de UEFI de Surface. [](surface-manage-dfci-guide.md)
+<a id="7">7. DFCI está disponible actualmente para </a> Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 y Surface Pro [X.](surface-manage-dfci-guide.md) Más información sobre cómo administrar la configuración de UEFI de Surface.
