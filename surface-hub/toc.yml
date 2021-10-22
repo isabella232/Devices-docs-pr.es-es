@@ -91,7 +91,7 @@
           href: surface-hub-2s-nonglobal-admin.md
         - name: Instalar aplicaciones en Microsoft Surface Hub
           href: install-apps-on-surface-hub.md
-        - name: Instalar y configurar el nuevo Microsoft Edge en Surface Hub
+        - name: Administrar Microsoft Edge en Surface Hub
           href: surface-hub-install-chromium-edge.md
         - name: Administrar Surface Hub con un proveedor MDM
           href: manage-settings-with-mdm-for-surface-hub.md
@@ -188,7 +188,7 @@
       items:
         - name: Administrar Microsoft Surface Hub
           href: manage-surface-hub.md
-        - name: Instalar y configurar el nuevo Microsoft Edge en Surface Hub
+        - name: Administrar Microsoft Edge en Surface Hub
           href: surface-hub-install-chromium-edge.md
         - name: PowerShell para Surface Hub
           href: appendix-a-powershell-scripts-for-surface-hub.md
