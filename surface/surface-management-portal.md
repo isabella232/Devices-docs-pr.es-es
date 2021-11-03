@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/28/2021
+ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: bba49151973423d269dfdcf8eb5039ed5e39787f
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+ms.openlocfilehash: f3fcc6ddcda0cf8016e1ba9383da2b5be511c0f1
+ms.sourcegitcommit: 714a56ede92eb6b16878aef8fdf94f9d2bda7204
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154182"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "12154382"
 ---
 # <a name="surface-management-portal-overview"></a>Introducción al Portal de administración de Surface
 
@@ -30,6 +30,8 @@ Como un único entorno para la visibilidad de un extremo a otro de los dispositi
 Obtenga información sobre el cumplimiento del dispositivo, la actividad de soporte técnico y la cobertura de garantía. Vea rápidamente el estado de cada dispositivo, cuáles aún están en garantía o expiran pronto, y el estado de las solicitudes de soporte técnico activas con sus proveedores de hardware.
 
 Cuando los dispositivos Surface se inscriben para la administración en la nube y los usuarios inician sesión por primera vez, la información de estos dispositivos Surface fluye automáticamente al Portal de administración de Surface, lo que te ofrece un único panel de cristal para las actividades de administración de dispositivos específicos de Surface.
+
+Vea también: [Problemas conocidos a continuación.](#known-issues) 
 
 ## <a name="get-started"></a>Comenzar
 
@@ -70,6 +72,10 @@ Surface Management Portal proporciona una visibilidad completa de la actividad d
 ## <a name="try-for-free"></a>Pruébalo gratis
 
 Surface Management Portal está disponible para los clientes que usan Microsoft Endpoint Manager y han inscrito dispositivos Surface a través de Intune. Si es nuevo en Intune, configure su inquilino de Intune hoy visitando [Inicio rápido: pruebe](/mem/intune/fundamentals/free-trial-sign-up)Microsoft Intune de forma gratuita .
+
+## <a name="known-issues"></a>Problemas conocidos
+
+- Es posible que el portal no se cargue correctamente para un número reducido de inquilinos. La ingeniería de Surface está investigando activamente este problema. *2 de noviembre de 2021.*
 
 ## <a name="learn-more"></a>Obtén más información
 
