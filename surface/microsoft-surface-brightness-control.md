@@ -1,6 +1,6 @@
 ---
 title: Control de brillo de Surface
-description: En este tema se describe cómo usar la aplicación de control de brillo de la superficie para administrar el brillo de la pantalla en los escenarios de punto de venta y quiosco.
+description: En este tema se describe cómo puedes usar la aplicación Control de brillo de Surface para administrar el brillo de la pantalla en escenarios de punto de venta y quiosco.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices
@@ -12,66 +12,74 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 197ed9fe1abc880779ad6bb0f85d2970086395f6
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 518db8ad0070e5e7355ef57b96057c6f4ae45137
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10835809"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154075"
 ---
-# Control de brillo de Surface
+# <a name="surface-brightness-control"></a>Control de brillo de Surface
 
-Al implementar dispositivos Surface en puntos de venta o en otros escenarios de quiosco "siempre disponible", puede optimizar la administración de energía con la nueva aplicación de control de brillo de la superficie.
-
-Disponible para descargar con [herramientas de Surface para ti](https://www.microsoft.com/download/details.aspx?id=46703).
-El control de brillo de la superficie está diseñado para ayudar a reducir la carga térmica y reducir el tamaño total de carbono de los dispositivos de superficie implementados.
-Si solo va a obtener esta herramienta de la página de descarga, seleccione el archivo **Surface_Brightness_Control_v1.16.137.0.msi** en la lista disponibles.
-La herramienta atenúa automáticamente la pantalla cuando no está en uso e incluye las siguientes opciones de configuración:
+Al implementar dispositivos Surface en punto de venta u otros escenarios de quiosco de pantalla completa "siempre activos", puedes optimizar la administración de energía con la nueva aplicación Surface Brightness Control. El control de brillo de Surface está diseñado para ayudar a reducir la carga térmica y reducir la superficie de carbono general de los dispositivos Surface implementados. La herramienta atenua automáticamente la pantalla cuando no está en uso e incluye las siguientes opciones de configuración:
 
 - Período de inactividad antes de atenuar la pantalla.
-
 - Nivel de brillo cuando está atenuado.
+- Nivel de brillo máximo cuando se usa.
 
-- Nivel de brillo máximo cuando está en uso.
+Descárbalo [de Surface Tools para TI](https://www.microsoft.com/download/details.aspx?id=46703). Seleccione el archivo **Surface_Brightness_Control_v1.16.137.0.msi** en la lista disponible.
 
-**Para ejecutar el control de brillo de la superficie:**
+## <a name="supported-devices"></a>Dispositivos compatibles
 
-- Instale surfacebrightnesscontrol.msi en el dispositivo de destino y el control de brillo de la superficie comenzará a funcionar inmediatamente.
-
-##  <a name="configuring-surface-brightness-control"></a>Configuración de control de brillo de superficie
-
-Puede ajustar los valores predeterminados a través del registro de Windows. Para obtener más información sobre cómo usar el registro de Windows, consulte la [documentación del registro](https://docs.microsoft.com/windows/desktop/sysinfo/registry).
-
-1.  Ejecute regedit desde un símbolo del sistema para abrir el editor del registro de Windows.
-    
-      - Computer\HKEY\ _LOCAL \ _MACHINE \SOFTWARE\WOW6432Node\Microsoft\Surface\Surface control de brillo \ 
-    
-    Si está ejecutando una versión anterior de control de brillo de superficie, ejecute el siguiente comando:
-    
-      - Computer\HKEY\ _LOCAL \ _MACHINE \SOFTWARE\Microsoft\Surface\Surface control de brillo \
+- Surface Pro 3 y posteriores
+- Surface Pro X (todas las generaciones)
+- Surface 3
+- Surface Book (todas las generaciones)
+- Surface Laptop Studio
+- Surface Studio (todas las generaciones)
+- Surface Laptop (todas las generaciones)
+- Surface Laptop Ir
+- Surface Go (todas las generaciones)
 
 
-| Configuración del registro | Datos| Descripción  
+## <a name="run-surface-brightness-control"></a>Ejecutar control de brillo de Surface
+
+- Instala **Surface_Brightness_Control_v1.16.137.0.msi** en el dispositivo de destino y el Control de brillo de Surface empezará a funcionar inmediatamente.
+
+## <a name="configure-surface-brightness-control"></a>Configurar el control de brillo de Surface
+
+ puede ajustar los valores predeterminados a través del Windows registro. Para obtener más información acerca del uso del Windows, consulte la [documentación del Registro](/windows/desktop/sysinfo/registry).
+
+1. Ejecute regedit desde un símbolo del sistema para abrir Windows Editor del Registro.
+2. Vaya a Pc\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface Brightness Control.
+3. Ajuste los valores de clave del Registro, como se describe en la tabla siguiente.
+
+> [!TIP]
+> Si estás ejecutando una versión anterior del control de brillo de Surface, ve a: Pc\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\Surface Brightness Control\
+
+| Configuración del Registro | Datos| Descripción  
 |-----------|------------|---------------
-| Control de brillo habilitado  |  Valor predeterminado: 01  <br> Opción: 01, 00 <br> Escriba: REG_BINARY |  Esta configuración le permite activar o desactivar el control de brillo de la superficie. Para deshabilitar el control de brillo de la superficie, establezca el valor en 00. Si no establece esta configuración, el control de brillo de la superficie está activado. |
-| Control de brillo en la energía habilitada| Valor predeterminado: 01 <br> Opciones: 01, 00 <br> Escriba: REG_BINARY | Esta configuración te permite desactivar el control del brillo de la superficie cuando el dispositivo está directamente conectado a la alimentación. Para deshabilitar el control del brillo de la superficie cuando se conecta la alimentación, establezca el valor en 00. Si no establece esta configuración, el control de brillo de la superficie está activado. |
-| Brillo atenuado   | Valor predeterminado: 20  <br>Opción: intervalo del 0-100 por ciento del brillo de la pantalla <br> Tipo de datos: entero positivo <br> Escriba: REG_DWORD | Esta configuración le permite administrar el rango de brillo durante períodos de inactividad. Si no establece esta configuración, el nivel de brillo pasará al 20 por ciento del brillo completo después de 30 segundos de inactividad. |
-Brillo completo   | Valor predeterminado: 100  <br>Opción: intervalo del 0-100 por ciento del brillo de la pantalla <br> Tipo de datos: entero positivo <br> Escriba: REG_DWORD  | Esta configuración le permite administrar el intervalo máximo de brillo para el dispositivo. Si no establece esta configuración, el intervalo de brillo máximo es 100 por ciento.|  
-| Tiempo de espera de inactividad| Valor predeterminado: 30 segundos <br>Opción: cualquier valor numérico  <br>Tipo de datos: entero  <br> Escriba: REG_DWORD | Esta configuración te permite administrar el período de inactividad antes de atenuar el dispositivo. Si no establece esta configuración, el tiempo de espera de inactividad es de 30 segundos.|
-| Telemetría habilitada | Valor predeterminado: 01 <br>Opción: 01, 00 <br> Escriba: REG_BINARY  | Esta configuración le permite administrar el uso compartido de la información de uso de aplicaciones para mejorar el software y proporcionar una mejor experiencia de usuario. Para deshabilitar la telemetría, establece el valor en 00. Si no establece esta configuración, la información de telemetría se comparte con Microsoft de acuerdo con la [declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement). |
+| Control de brillo habilitado  |  Valor predeterminado: 01  <br> Opción: 01,00 <br> Tipo: REG_BINARY |  Esta configuración te permite activar o desactivar el Control de brillo de Surface. Para deshabilitar El control de brillo de Surface, establece el valor en 00. Si no configuras esta configuración, el Control de brillo de Surface está en. |
+| Control de brillo en la energía habilitada| Valor predeterminado: 01 <br> Opciones: 01,00 <br> Tipo: REG_BINARY | Esta configuración te permite desactivar el Control de brillo de Surface cuando el dispositivo está conectado directamente a la alimentación. Para deshabilitar El control de brillo de Surface cuando la energía está conectada, establece el valor en 00. Si no configuras esta configuración, el Control de brillo de Surface está en. |
+| Brillo atenuado   | Valor predeterminado: 20  <br>Opción: Intervalo de 0-100 por ciento del brillo de la pantalla <br> Tipo de datos: entero positivo <br> Tipo: REG_DWORD | Esta configuración permite administrar el intervalo de brillo durante períodos de inactividad. Si no configura esta configuración, el nivel de brillo bajará al 20 por ciento del brillo completo después de 30 segundos de inactividad. |
+Brillo total   | Valor predeterminado: 100  <br>Opción: Intervalo de 0-100 por ciento del brillo de la pantalla <br> Tipo de datos: entero positivo <br> Tipo: REG_DWORD  | Esta configuración te permite administrar el intervalo de brillo máximo para el dispositivo. Si no configura esta configuración, el intervalo de brillo máximo es del 100 por ciento.|  
+| Tiempo de espera de inactividad| Valor predeterminado: 30 segundos <br>Opción: cualquier valor numérico  <br>Tipo de datos: Integer  <br> Tipo: REG_DWORD | Esta configuración te permite administrar el período de inactividad antes de atenuar el dispositivo. Si no configura esta configuración, el tiempo de espera de inactividad es de 30 segundos.|
+| Telemetría habilitada | Valor predeterminado: 01 <br>Opción: 01,00 <br> Tipo: REG_BINARY  | Esta configuración te permite administrar el uso compartido de la información de uso de la aplicación para mejorar el software y proporcionar una mejor experiencia del usuario. Para deshabilitar la telemetría, establezca el valor en 00. Si no configura esta configuración, la información de telemetría se comparte con Microsoft de acuerdo con la Declaración [de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement). |
 
-##  <a name="changes-and-updates"></a>Cambios y actualizaciones
+## <a name="changes-and-updates"></a>Cambios y actualizaciones
 
-###  <a name="version-1.16.137"></a>Versión 1.16.137<br>
+### <a name="version-116137br"></a>Versión 1.16.137<br>
+
 *Fecha de lanzamiento: 22 de octubre de 2019*<br>
-Esta versión del control de brillo de la superficie agrega compatibilidad con los siguientes elementos:-recompiled para x86, agrega compatibilidad para Surface Pro 7, Surface Pro X y Surface Laptop 3. 
+Esta versión de Surface Brightness Control agrega compatibilidad con lo siguiente: -Recompiled for x86, adding support for Surface Pro 7, Surface Pro X y Surface Laptop 3.
 
-###  <a name="version-1.12.239.0"></a>Versión 1.12.239.0
+### <a name="version-1122390"></a>Versión 1.12.239.0
+
 *Fecha de lanzamiento: 26 de abril de 2019*<br>
-Esta versión del control de brillo de la superficie agrega compatibilidad con los siguientes elementos:
-- Correcciones de retraso de la entrada táctil.
+Esta versión del control de brillo de Surface agrega compatibilidad con lo siguiente:
 
+- Correcciones de retraso táctil.
 
-##  <a name="related-topics"></a>Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
 
 - [Configuración del límite de batería](battery-limit.md)

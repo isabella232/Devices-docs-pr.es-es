@@ -12,12 +12,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: 7ebdff37cb96589c765e9c9315b098a760976c80
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 7d09bc70a2e0c882bde9106ee2c241568c1fc991
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911245"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154135"
 ---
 # <a name="use-surface-diagnostic-toolkit-for-business-in-desktop-mode"></a>Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio
 
@@ -30,18 +30,18 @@ La ejecución correcta de SDT puede determinar rápidamente si un problema notif
 
 2. Comience en la página principal, que permite a los usuarios escribir una descripción del problema y haga clic en Continuar **,** como se muestra en la figura 1.
 
-    ![Inicie SDT en modo de escritorio. ](images/sdt-desk-1.png)
- *Figura 1. SDT en modo de escritorio*
+    ![Inicie SDT en modo de escritorio.](images/sdt-desk-1.png)<br/>
+    *Figura 1. SDT en modo de escritorio*
 
 3. Cuando SDT indica que el dispositivo **** tiene las actualizaciones más recientes, haz clic en Continuar para avanzar al catálogo de pruebas disponibles, como se muestra en la figura 2.
 
-    ![Seleccione entre las opciones de SDT. ](images/sdt1.png)
- *Figura 2. Seleccionar entre opciones de SDT*
+    ![Seleccione entre las opciones de SDT.](images/sdt1.png)<br/>
+    *Figura 2. Seleccionar entre opciones de SDT*
 
 4. Puede elegir ejecutar todas las pruebas de diagnóstico. O bien, si ya sospecha que hay un problema concreto, **** como una pantalla defectuosa o un problema de fuente de alimentación, haga clic en Seleccionar para elegir entre las pruebas disponibles y haga clic en Ejecutar seleccionado **,** tal como se muestra en la figura 3. Consulte la tabla siguiente para obtener más información sobre cada prueba. 
 
-    ![Seleccione pruebas de hardware. ](images/sdt2.png)
- *Figura 3. Seleccionar pruebas de hardware*
+    ![Seleccione pruebas de hardware.](images/sdt2.png)<br/>
+    *Figura 3. Seleccionar pruebas de hardware*
 
     Prueba de hardware | Descripción
     --- | ---
@@ -57,13 +57,13 @@ La ejecución correcta de SDT puede determinar rápidamente si un problema notif
 
 5. Una vez finalizadas todas las pruebas, la herramienta te pide que confirmes si el problema está corregido. 
 
- ![¿Se ha resuelto el problema? ](images/sdt3.png)
- *Figura 3a. ¿Se ha resuelto el problema?*
+    ![¿Se ha resuelto el problema?](images/sdt3.png)<br/>
+    *Figura 3a. ¿Se ha resuelto el problema?*
 
 6. Si el problema no se ha resuelto o no lo sabe, puede enviar un vale de soporte técnico seleccionando Póngase **en** contacto con nosotros para **obtener ayuda ahora.**
  
- ![Enviar un vale de soporte técnico. ](images/sdt4.png)
- *Figura 3b. Enviar un vale de soporte técnico*
+    ![Enviar un vale de soporte técnico.](images/sdt4.png)<br/>
+    *Figura 3b. Enviar un vale de soporte técnico*
 
 <span id="multiple" />
 
@@ -104,5 +104,4 @@ En función de los registros, SDT genera un informe para problemas basados en so
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Ejecutar el Kit de herramientas de diagnóstico de Surface para empresas mediante comandos](surface-diagnostic-toolkit-command-line.md)
-
+- [Ejecutar la consola de aplicaciones de línea de comandos con Surface Diagnostic Toolkit para empresas](surface-diagnostic-toolkit-command-line.md)

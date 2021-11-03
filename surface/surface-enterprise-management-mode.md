@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 04/16/2021
-ms.openlocfilehash: 8e30234e72b6533da3d36ca38188c7e199beeeac
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/25/2021
+ms.openlocfilehash: 127f9303751417ad4c24442ba0a5e177fc338475
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11910995"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154065"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Modo de administración Enterprise Microsoft Surface
 
@@ -31,7 +31,7 @@ Microsoft Surface Enterprise Management Mode (SEMM) es una característica de di
 SEMM también usa un certificado para proteger la configuración de manipulaciones o eliminaciones no autorizadas. Para migrar un Surface Hub 2S a Windows 10 Pro o Windows Enterprise, se requiere SEMM.
 
 >[!NOTE]
->SEMM solo está disponible en dispositivos con firmware uefi de Surface. Esto incluye la mayoría de los otros dispositivos Surface, incluidos Surface Pro 7+, Surface Pro X, Surface Hub 2S, Surface Laptop 4 SKU comerciales con procesador Intel, Surface Laptop 4 SKU comerciales con procesador AMD, Surface Laptop 3 SKU comerciales con un procesador Intel y Surface Laptop Go. SEMM no se admite en la SKU de 15" Surface Laptop 3 con procesador AMD (disponible solo como SKU comercial).
+>SEMM solo está disponible en dispositivos con firmware uefi de Surface. Esto incluye la mayoría de los otros dispositivos Surface, incluidos Surface Pro 8, Surface Pro X, Surface Laptop Studio, Surface Hub 2S, Surface Laptop 4 SKU comerciales con procesador Intel, Surface Laptop 4 SKU comerciales con procesador AMD, Surface Laptop 3 SKU comerciales con un procesador Intel y Surface Laptop Go. SEMM no se admite en la SKU de 15" Surface Laptop 3 con procesador AMD (disponible solo como SKU comercial).
 
 Cuando los dispositivos Surface están configurados por SEMM y protegidos con el certificado SEMM, se consideran *inscritos* en SEMM. Cuando se quita el certificado SEMM y se devuelve el control de la configuración de UEFI al usuario del dispositivo, el dispositivo Surface se considera no inscrito *en* SEMM.
 
@@ -40,9 +40,6 @@ Hay dos opciones administrativas que puedes usar para administrar SEMM e inscrib
 - La herramienta independiente SEMM, Microsoft Surface UEFI Configurator, se describe en este artículo.
 
 - Integración con Microsoft Endpoint Configuration Manager. Para obtener información, [vea Usar Microsoft Endpoint Configuration Manager para administrar dispositivos con SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
-
-> [!NOTE]
-> SEMM solo se admite Surface Pro X a través del Administrador de UEFI. Puedes descargar uefi manager de [Surface Tools para TI](https://www.microsoft.com/download/details.aspx?id=46703). Para obtener más información, consulte [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
 
 ## <a name="microsoft-surface-uefi-configurator"></a>Microsoft Surface UEFI Configurator
 
@@ -71,6 +68,9 @@ Puedes usar la herramienta Configurador UEFI de Microsoft Surface en tres modos:
 ### <a name="download-microsoft-surface-uefi-configurator"></a>Descargar Microsoft Surface UEFI Configurator
 
 Puedes descargar Microsoft Surface UEFI Configurator desde la página [Herramientas de Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) en el Centro de descarga de Microsoft.
+
+- Para dispositivos Intel/AMD, descargue: **SurfaceUEFI_Configurator_v2.94.139.0_x64.msi**
+- Para ARM dispositivos, descarga: **SurfaceUEFI_Configurator_v2.94.139.0_x86.msi.**
 
 ### <a name="configuration-package"></a>Paquete de configuración
 
@@ -110,7 +110,7 @@ En la siguiente lista se muestran todos los dispositivos disponibles que puede a
 
 **Tabla 1. Configuración avanzada**
 
-| Configuración                            | Descripción                                                                                                                                                                                        |
+| Ajuste                            | Descripción                                                                                                                                                                                        |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IPv6 para el arranque PXE                  | Permite administrar la compatibilidad con IPv6 para el arranque PXE. Si no configura esta configuración, la compatibilidad con IPv6 para el arranque PXE está deshabilitada.                                                                               |
 | Arranque alternativo                     | Permite administrar el uso de un orden de arranque alternativo para arrancar directamente en un dispositivo USB o Ethernet presionando el botón Bajar volumen y el botón De encendido durante el arranque. Si no configura esta opción, el arranque alternativo está habilitado. |
@@ -172,7 +172,7 @@ Cuando usas el proceso en la **página Enterprise administración** de archivos 
 >[!NOTE]
 >Una solicitud de restablecimiento expira dos horas después de su creación.
 
-Para obtener un tutorial paso a paso sobre cómo desenrollar dispositivos Surface desde SEMM, consulta [Desenrollar](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm)dispositivos Surface de SEMM.
+Para obtener un tutorial paso a paso sobre cómo desenrollar dispositivos Surface desde SEMM, consulta [Desenrollar](unenroll-surface-devices-from-semm.md)dispositivos Surface de SEMM.
 
 ## <a name="surface-enterprise-management-mode-certificate-requirements"></a>Requisitos de Enterprise de modo de administración de Surface
 
@@ -262,6 +262,12 @@ Si desea que funcione el restablecimiento o la recuperación de SEMM, el certifi
 Los ejemplos de PowerShell que crean un paquete de configuración para un tipo de dispositivo específico también se pueden usar para crear un paquete de restablecimiento independiente de número de serie. Si el certificado sigue siendo válido, puede crear un paquete de restablecimiento con PowerShell para restablecer SEMM.
 
 ## <a name="version-history"></a>Historial de versiones
+
+### <a name="version-2941390"></a>Versión 2.94.139.0
+
+Esta versión de SEMM incluye:
+
+- Compatibilidad con Surface Laptop Studio, Surface Pro 8 y Surface Go 3
 
 ### <a name="version-2831390"></a>Versión 2.83.139.0
 

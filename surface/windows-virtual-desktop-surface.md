@@ -12,12 +12,12 @@ ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: f59441a1df25e455480cfb1b9f2a47a7466ba120
-ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
+ms.openlocfilehash: 6ef6c26395528003f4018d07387c3ca3a7d8059a
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "12101205"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154145"
 ---
 # <a name="azure-virtual-desktop-on-surface"></a>Azure Virtual Desktop en Surface
 
@@ -37,7 +37,7 @@ Para obtener una lista de proveedores de partners aprobados y proveedores de sof
 
 La ingeniería de Surface ha establecido durante mucho tiempo nuevos estándares para la innovación al ir más allá del teclado y el mouse para imaginar formas más naturales de interactuar con dispositivos, ya sea por contacto táctil, voz, tinta o Surface Dial. Además, con la integración de chip a nube de Microsoft 365 y la seguridad y la facilidad de administración de Windows 10 Pro, Surface ofrece hardware, software, aplicaciones y servicios conectados de la forma en que estaban diseñadas. Aunque es posible ejecutar AVD desde Windows dispositivos que se remontan Windows Windows 7, los dispositivos Microsoft Surface proporcionan ventajas únicas, incluida la compatibilidad con:
 
-- Factores de forma **flexibles:** como dispositivos 2 en 1 como Surface Pro 7+, Surface Go 2, Surface Pro 7 y Surface Pro X con lápiz, teclado táctil y extraíble. Incluso puedes usar [Surface Duo para](/surface-duo/) conectarte a AVD.
+- Factores de forma **flexibles:** como dispositivos 2 en 1, como Surface Pro 8, Surface Go 3 y Surface Pro X con lápiz, teclado táctil y extraíble. Incluso puedes usar [Surface Duo para](/surface-duo/) conectarte a AVD.
 - **Escenarios de** trabajo persistentes, a petición y justo a tiempo: con acceso sin conexión y en el dispositivo para experiencias más productivas.
 - **Windows 10 y la capacidad de** administración de dispositivos modernos, lo que proporciona la flexibilidad necesaria para ser productivos en cualquier lugar.
 
@@ -47,7 +47,7 @@ La familia Surface para empresas microsoft consta de una amplia cartera de facto
 
 ### <a name="the-modern-virtual-desktop-endpoint"></a>El extremo de escritorio virtual moderno
 
-Los dispositivos Surface 2 en 1, [incluidos Surface Go 2](https://www.microsoft.com/surface-go-2) (10,5"), [Surface Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus) (12") y [Surface Pro X](https://www.microsoft.com/surface-pro-x/) (13"), proporcionan a los usuarios el punto de conexión de escritorio en la nube ideal que reúne el equilibrio óptimo de portabilidad, versatilidad, energía y batería de todo el día. Desde ingenieros de sitio que dependen de Surface Go 2 en modo tableta hasta asesores financieros que adjuntan Surface Pro 7 a un dock y varios monitores, los dispositivos 2 en 1 ofrecen la versatilidad que ha llegado a definir el lugar de trabajo moderno.
+Los dispositivos Surface 2 en 1, [incluidos Surface Go 3](https://www.microsoft.com/surface-go-3) (10,5"), [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8) (12") y [Surface Pro X](https://www.microsoft.com/surface-pro-x/) (13"), proporcionan a los usuarios el punto de conexión de escritorio en la nube ideal que reúne el equilibrio óptimo de portabilidad, versatilidad, energía y batería de todo el día. Desde ingenieros de sitio que dependen de Surface Go 3 en modo tableta hasta asesores financieros que adjuntan Surface Pro 7 a un dock y varios monitores, los dispositivos 2 en 1 ofrecen la versatilidad que ha llegado a definir el lugar de trabajo moderno.
 
  A diferencia de los "terminales" de VDI fijos tradicionales, los dispositivos Surface permiten a los usuarios trabajar desde cualquier lugar y permiten a las empresas permanecer viables y operativas durante eventos imprevistos, desde condiciones meteorológicas extremas hasta emergencias de salud pública. Con compatibilidad con escenarios persistentes, a petición y justo a tiempo, los dispositivos Surface ayudan eficazmente a las empresas a mantener operaciones en curso y mitigar los riesgos de eventos disruptivos. Las características diseñadas para mejorar la productividad en dispositivos Surface 2 en 1 incluyen:
 
@@ -57,7 +57,7 @@ Los dispositivos Surface 2 en 1, [incluidos Surface Go 2](https://www.microsoft.
 - Micrófonos de campo lejano y altavoces de alto rendimiento para reuniones virtuales mejoradas.
 - Seguridad biométrica, incluida la cámara Windows Hello integrada que viene de serie en todos los dispositivos Surface.
 - Duración de la <a href="#2"><sup> batería larga 2 </sup></a> y carga rápida.
-- Opciones LTE 3 en dispositivos modernos como Surface Pro X y Surface Go 2 para una conectividad <a href="#3"><sup> </sup></a> segura y sin complicaciones.
+- Opciones LTE 3 en dispositivos modernos como Surface Pro X y Surface Go 3 para una conectividad <a href="#3"><sup> </sup></a> segura y sin complicaciones.
 - Compatibilidad con una amplia variedad de periféricos, como impresoras estándar, impresoras 3D, cámaras, lectores de tarjetas de crédito, escáneres de códigos de barras y muchos otros. Un gran ecosistema de partners de Designed for Surface proporciona accesorios de Surface certificados y con licencia.
 - Amplia gama de compatibilidad con redirección de dispositivos.
 
@@ -100,7 +100,7 @@ Una alternativa a la instalación local de aplicaciones tradicionales es aprovec
 
 Las GPU son ideales para cargas de trabajo de procesamiento de inteligencia artificial y de uso intensivo de gráficos, lo que ayuda a los clientes a impulsar la innovación a través de escenarios como la visualización remota de gama alta, el aprendizaje profundo y el análisis predictivo. Sin embargo, esto no es ideal para los profesionales que necesitan trabajar de forma remota o mientras se van porque los distintos grados de potencia de GPU interna están vinculados a los dispositivos físicos, lo que limita la movilidad y la flexibilidad.
 
-Para solucionar esto, Azure ofrece la familia de máquinas virtuales de la serie N con capacidades de GPU de NVIDIA (vGPU). Con vGPUs, TI puede compartir el rendimiento de la GPU en varias máquinas virtuales o cargar cargas de trabajo exigentes mediante la asignación de varias GPU a una sola máquina virtual. Para Surface esto significa que, independientemente del dispositivo que estés usando, desde Surface Go 2 hasta Surface Laptop 4, el dispositivo tiene acceso a un rendimiento gráfico de clase de servidor eficaz. Surface y vGPUs te permiten combinar todas las cosas que te gustan de Surface, para incluir pantallas de lápiz, táctil, teclado, trackpad y PixelSense, con capacidad gráfica solo disponible en entornos informáticos de alto rendimiento.
+Para solucionar esto, Azure ofrece la familia de máquinas virtuales de la serie N con capacidades de GPU de NVIDIA (vGPU). Con vGPUs, TI puede compartir el rendimiento de la GPU en varias máquinas virtuales o cargar cargas de trabajo exigentes mediante la asignación de varias GPU a una sola máquina virtual. Para Surface, esto significa que, independientemente del dispositivo que estés usando, desde Surface Go 3 hasta Surface Laptop 4, el dispositivo tiene acceso a un rendimiento gráfico de clase servidor eficaz. Surface y vGPUs te permiten combinar todas las cosas que te gustan de Surface, para incluir pantallas de lápiz, táctil, teclado, trackpad y PixelSense, con capacidad gráfica solo disponible en entornos informáticos de alto rendimiento.
 
 La serie N de Azure da vida a estas funcionalidades en tu dispositivo Surface, lo que te permite trabajar de la forma que quieras, donde quieras. [Obtenga más información sobre los tamaños de las máquinas virtuales optimizadas para la SERIE N de Azure y la GPU.](/azure/virtual-machines/sizes-gpu)
 
@@ -155,5 +155,5 @@ Para obtener más información, consulta los siguientes recursos:
 <a id="3">3. </a> Disponibilidad y rendimiento del servicio sujeto a la red del proveedor de servicios. Póngase en contacto con su proveedor de servicios para obtener detalles, compatibilidad, precios, tarjeta SIM y activación. Consulta todas las especificaciones y frecuencias en surface.com.<br>
 <a id="4">4. </a> Forrester Consulting, "A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface", encargado por Microsoft, 2018.<br> 
 <a id="5">5. Surface Go y Surface Go 2 usan una UEFI de terceros </a> y no admiten DFCI. DFCI está disponible actualmente para Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 y Surface Pro X.<br>
-<a id="6">6. Ssd extraíble está disponible en </a> Surface Pro 7+, Surface Laptop 4, Surface Laptop 3 y Surface Pro X. <br>
+<a id="6">6. Ssd extraíble está disponible en </a> Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Laptop 4, Surface Laptop 3 y Surface Pro X. <br>
 <a id="7">7. DFCI está disponible actualmente para </a> Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 y Surface Pro [X.](surface-manage-dfci-guide.md) Más información sobre cómo administrar la configuración de UEFI de Surface.
