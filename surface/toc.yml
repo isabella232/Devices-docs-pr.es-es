@@ -56,6 +56,12 @@
           href: surface-system-sku-reference.md
     - name: Implementar y administrar
       items:
+        - name: Portal de administración de Surface
+          items:
+            - name: Información general del Portal de administración de Surface
+              href: surface-management-portal.md
+            - name: ¿Qué es el Portal de administración de Surface?
+              href: /mem/intune/fundamentals/surface-management-portal
         - name: Windows Autopilot
           items:
             - name: Dispositivos Windows Autopilot y Surface
@@ -94,7 +100,7 @@
               items:
                 - name: Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio
                   href: surface-diagnostic-toolkit-desktop-mode.md
-                - name: Ejecutar Kit de herramientas de diagnóstico de Surface para empresas con comandos
+                - name: Ejecución de la consola de la aplicación de línea de comandos con Kit de herramientas de diagnóstico de Surface para empresas
                   href: surface-diagnostic-toolkit-command-line.md
             - name: Surface Data Eraser
               href: microsoft-surface-data-eraser.md
@@ -172,6 +178,8 @@
           href: contact-surface-support.md
     - name: Servicio y garantía
       items:
+        - name: Controlador de Surface y ciclo de vida del firmware para dispositivos basados en Windows
+          href: surface-driver-firmware-lifecycle-support.md
         - name: Planes de protección y garantía de Surface para empresas
           href: 'https://www.microsoft.com/surface/business/warranty-service-offerings-and-support'
         - name: Términos y condiciones
