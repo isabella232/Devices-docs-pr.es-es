@@ -8,25 +8,20 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/14/2021
+ms.date: 12/01/2021
 ms.reviewer: carlol
 manager: laurawi
 audience: itpro
-appliesto:
-- Surface Pro 7+
-- Surface Pro 7
-- Surface Laptop 3
-- Surface Pro X
-ms.openlocfilehash: d2656b141908ef203f748518ddf49a7fbcbab255
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: ae648f54f7abd97a6397dca5aa204205b582e4b0
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911355"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338053"
 ---
 # <a name="dma-protection-on-surface-devices"></a>Protección de DMA en dispositivos Surface
 
-La protección de acceso directo a la memoria (DMA) está diseñada para mitigar posibles vulnerabilidades de seguridad asociadas con el uso de UNIDADES de seguridad extraíbles o dispositivos de almacenamiento externo. Los dispositivos Surface más recientes vienen con protección DMA habilitada de forma predeterminada. Estos incluyen Surface Pro 7+. Surface Pro 7, Surface Laptop 3 y Surface Pro X.  Para comprobar la presencia de la característica de protección de DMA en el dispositivo, abra Información del sistema (**Inicio**msinfo32.exe), como se muestra  >  ** **en la figura siguiente.
+La protección de acceso directo a la memoria (DMA) está diseñada para mitigar posibles vulnerabilidades de seguridad asociadas con el uso de UNIDADES de seguridad extraíbles o dispositivos de almacenamiento externo. Los dispositivos Surface más recientes vienen con protección DMA habilitada de forma predeterminada. Estos incluyen Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Laptop SE, Surface Pro 7+, Surface Pro 7, Surface Laptop 3 y Surface Pro  X.  Para comprobar la presencia de la característica de protección DMA en el dispositivo, abra Información del sistema (**Inicio** > **msinfo32.exe**), como se muestra en la figura siguiente.
 
 ![Información del sistema que muestra la protección de DMA habilitada.](images/systeminfodma.png)
 

@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: f704541a2d862550250794308df6201c38b09e15
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
+ms.openlocfilehash: f460577c6c0d87586d80e183dfeaf2796b8a3bbe
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721270"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338303"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>Personalizar la OOBE para las implementaciones de Surface
 
@@ -38,7 +38,7 @@ En algunos escenarios, es posible que quieras proporcionan una automatización c
 En este artículo se proporciona un resumen de los escenarios donde una implementación podría requerir pasos adicionales. También proporciona la información necesaria para garantizar que se logre la experiencia deseada en cualquier dispositivo Surface recientemente implementado. Este artículo está pensado para los administradores que estén familiarizados con el proceso de implementación, así como con conceptos como archivos de respuesta e [imágenes de referencia](https://technet.microsoft.com/itpro/windows/deploy/create-a-windows-10-reference-image).
 
 >[!NOTE]
->Aunque la fase de configuración de OOBE aún se ejecuta como parte de una solución de implementación automatizada, como [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) o [Microsoft Endpoint Configuration Manager Operating System Deployment (OSD),](/mem/configmgr/osd/)se automatiza mediante la configuración proporcionada en el asistente de implementación y la secuencia de tareas.
+>Aunque la fase de configuración de OOBE aún se ejecuta como parte de una solución de implementación automatizada, como [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) o [Microsoft Endpoint Configuration Manager Operating System Deployment (OSD),](/mem/configmgr/osd/) se automatiza mediante la configuración proporcionada en el asistente de implementación y la secuencia de tareas.
 
 ## <a name="scenario-1-wireless-networking-in-oobe-with-mdt-2013"></a>Escenario 1: Redes inalámbricas en OOBE con MDT 2013
 
@@ -48,7 +48,7 @@ Para garantizar que esta página no haya detenido una implementación automatiza
 
 ## <a name="scenario-2-surface-pen-pairing-in-oobe"></a>Escenario 2: Emparejamiento del Lápiz para Surface en OOBE
 
-Cuando saques por primera vez tu Surface Pro 3, Surface Pro 4, Surface Book o Surface Studio del paquete y lo inicies, la experiencia de primera ejecución de la imagen de fábrica incluye un mensaje que te pide que emparejes con el dispositivo el Lápiz para Surface incluido. Este mensaje solo se proporciona en la imagen de fábrica que se incluye con el dispositivo y no está incluido en otras imágenes usadas para la implementación, como los medios de instalación de Windows Enterprise descargados del Centro de servicios de licencias por volumen. Dado que el emparejamiento del Lápiz para Surface Bluetooth fuera de esta experiencia requiere que vayas al Panel de control o a la Configuración de PC y emparejes manualmente un dispositivo Bluetooth, puede que quieras que los usuarios o un técnico usen este mensaje para realizar la operación de emparejamiento.
+La primera vez que tomes un dispositivo Surface e inícielo, la experiencia de primera ejecución de la imagen de fábrica incluye un mensaje que te pide que pares el lápiz de Surface incluido en el dispositivo. Este mensaje solo se proporciona en la imagen de fábrica que se incluye con el dispositivo y no está incluido en otras imágenes usadas para la implementación, como los medios de instalación de Windows Enterprise descargados del Centro de servicios de licencias por volumen. Dado que el emparejamiento del Lápiz para Surface Bluetooth fuera de esta experiencia requiere que vayas al Panel de control o a la Configuración de PC y emparejes manualmente un dispositivo Bluetooth, puede que quieras que los usuarios o un técnico usen este mensaje para realizar la operación de emparejamiento.
 
 Para proporcionar la experiencia de emparejamiento de fábrica del Lápiz para Surface en OOBE, debes copiar cuatro archivos de la imagen de fábrica de Surface en la imagen de referencia. Puedes copiar estos archivos en el entorno de referencia antes de capturar la imagen de referencia o puedes agregarlos más adelante mediante la Administración y mantenimiento de imágenes de implementación (DISM) para montar la imagen. Los cuatro archivos necesarios son:
 
@@ -57,7 +57,7 @@ Para proporcionar la experiencia de emparejamiento de fábrica del Lápiz para S
 - %windir%\\system32\\oobe\\info\\default\\1033\\PenError\_en-US.png
 - %windir%\\system32\\oobe\\info\\default\\1033\\PenSuccess\_en-US.png
 
->[!NOTE]
->Debes copiar los archivos de una imagen de fábrica para un dispositivo Surface del mismo modelo donde vayas a realizar la implementación. Por ejemplo, debe usar los archivos de un Surface Pro 7 para implementar en Surface Pro 7 y los archivos de Surface Book 2 para implementar Surface Book 2, pero no debe usar los archivos de un Surface Pro 7 para implementar Surface Book o Surface Pro 6.
+>[!TIP]
+>Debes copiar los archivos de una imagen de fábrica para un dispositivo Surface del mismo modelo donde vayas a realizar la implementación. Por ejemplo, debe usar los archivos de un Surface Pro 8 para implementar en Surface Pro 8 y los archivos de Surface Book 3 para implementar Surface Book 3, pero no debe usar los archivos de Surface Pro 8 para implementar Surface Book 3 o Surface Pro 7.
 
 El proceso paso a paso para agregar estos archivos necesarios a una imagen se describe en [Deploying Surface Pro 3 Pen and OneNote Tips](https://blogs.technet.microsoft.com/askcore/2014/07/15/deploying-surface-pro-3-pen-and-onenote-tips/) (Consejos de implementación en Surface Pro 3 y OneNote). Esta entrada de blog incluye también sugerencias para asegurar que se instalen las actualizaciones necesarias para la experiencia de toma de notas rápidas del Lápiz para Surface, que permite a los usuarios enviar notas de OneNote con un solo clic.

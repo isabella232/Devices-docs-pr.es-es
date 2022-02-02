@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: 0eb0eb1e1d73852a2131c5aa5d6a7731ce78d54f
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
+ms.openlocfilehash: 39c51b311a1c1329d0f1f54b787e975d42be0737
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721260"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338223"
 ---
 # <a name="ethernet-adapters-and-surface-deployment"></a>Adaptadores ethernet e implementación Surface
 
@@ -31,7 +31,7 @@ La implementación de red en dispositivos Surface puede suponer algunos retos ú
 
 Antes de que puedas abordar los problemas de cómo arrancará en el entorno de implementación o cómo la solución de implementación reconocerá los dispositivos, tienes que usar un adaptador de red con cable.
 
-La preocupación principal al seleccionar un adaptador Ethernet es cómo ese adaptador arrancará el dispositivo Surface desde la red. Si estás preconfigurando clientes con servicios de implementación de Windows (WDS) o si estás usando Microsoft Endpoint Configuration Manager, es posible que también quieras considerar si los adaptadores Ethernet extraíbles se dedicarán a un dispositivo Surface específico o se compartirán entre varios dispositivos. Para obtener más información sobre posibles conflictos con adaptadores compartidos, vea Administrar direcciones MAC con adaptadores [Ethernet](#manage-mac-addresses) extraíbles más adelante en este artículo.
+La preocupación principal al seleccionar un adaptador Ethernet es cómo ese adaptador arrancará el dispositivo Surface desde la red. Si estás preconfigurando clientes con servicios de implementación de Windows (WDS) o si estás usando Microsoft Endpoint Configuration Manager, es posible que también quieras considerar si los adaptadores Ethernet extraíbles se dedicarán a un dispositivo Surface específico o se compartirán entre varios dispositivos. Para obtener más información sobre posibles conflictos con adaptadores compartidos, vea [Administrar direcciones MAC](#manage-mac-addresses) con adaptadores Ethernet extraíbles más adelante en este artículo.
 
 El arranque desde la red (arranque PXE) solo se admite cuando se usa un adaptador Ethernet o una estación de acoplamiento de Microsoft. Para arrancar desde la red, el conjunto de chips del adaptador Ethernet o de la estación debe detectarse y configurarse como dispositivo de arranque en el firmware del dispositivo Surface. Los adaptadores Ethernet de Microsoft, como el Adaptador Ethernet de Surface y la [Surface Dock](https://www.microsoft.com/surface/accessories/surface-dock), usan un conjunto de chips que es compatible con el firmware de Surface.
 
@@ -39,6 +39,7 @@ Los dispositivos Ethernet siguientes son compatibles con el arranque de red con 
 
 - Adaptador de Surface USB-C a Ethernet y USB 3.0
 - Adaptador De Surface USB 3.0 a Gigabit Ethernet
+- Surface USB-C Travel Hub
 - Surface Dock
 - Surface Dock 2
 - Estación de acoplamiento de Surface 3

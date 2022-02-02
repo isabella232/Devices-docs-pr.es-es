@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/26/2021
+ms.date: 01/11/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: c5cddde47b2046badf3f6deba5791b7642e044f3
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: ce2ceda9efb0462e987749a3167930825223945c
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11912035"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12337973"
 ---
 # <a name="surface-hub-2s-85-overview--tech-specs"></a>Surface Hub información general de 2S 85" & técnicas
 
@@ -36,19 +36,21 @@ La versión de 85" de la familia Surface Hub ofrece la experiencia de Surface Hu
 |**Dimensiones de envío**| 89,5" x 62" x 22,8"<br>(2275 mm x 1573 mm x 580 mm)                                                                                                                                                                                                        |
 |**Grosor**| 185 lb (84 kg)                                                                                                                                                                                                                                            |
 |**Peso del envío**| 399 lb (181 kg)                                                                                                                                                                                                                                            |
-|**Resolución**| 3840 x 2160                                                                                                                                                                                                                                               |
-|**Pantalla**| PixelSense™ pantalla, relación de aspecto de 16:9, color de 10 bits, ancho de borde de 30,5 mm, antirrefecciones, IPS LCD, contacto en la celda con 20 puntos táctiles simultáneos                                                                                                           |
-|**Cálculo**| Modular Compute Cartridge<br>Procesador Intel de 8ª generación de cuatro núcleos® core™ i5, 8 GB de RAM, SSD de 128 GB <sup> 1</sup>                                                                                                                                                      |
-|**Software <sup> 2</sup>**| Windows 10 Team Sistema operativo<br>Microsoft Teams para Surface Hub<br>Skype Empresarial<br>Microsoft Whiteboard<br>Microsoft Office (móvil)<br>Microsoft Power BI                                                                                               |
+|**Pantalla**| ™ PixelSense pantalla, relación de aspecto de 16:9, color de 10 bits, ancho de borde de 30,5 mm, antirrefecciones, IPS LCD, contacto en la celda con 20 puntos táctiles simultáneos                                                                                                           |
+|**Resolución**| 3840 x 2160 (4K UHD)                                                                                                                                                                                                                                              |
+|**Relación de contraste**| 1000:1 (típico), 800:1 (mínimo) |
+|**Brillo**| 280 nits (típico)|
+|**Cálculo**| Modular Compute Cartridge<br>Procesador Intel Core™ i5 de 8ª generación de cuatro® núcleos, 8 GB de RAM, SSD de 128 GB1<sup></sup>                                                                                                                                                      |
+|**Software2<sup></sup>**| Windows 10 Team sistema operativo<br>Microsoft Teams para Surface Hub<br>Skype Empresarial<br>Microsoft Whiteboard<br>Microsoft Office (móvil)<br>Microsoft Power BI                                                                                               |
 |**Conexiones**| USB-A<br>Mini-DisplayPort salida de vídeo<br>GIGABIT45 Gigabit Ethernet<br>Entrada de vídeo HDMI<br>USB-C® con entrada DisplayPort<br>(3) USB-C® (en pantalla)                                                                                                           |
-|**Gráficos**| Intel® UHD Graphics 620                                                                                                                                                                                                                                   |
+|**Gráficos**| Gráficos Intel® UHD 620                                                                                                                                                                                                                                   |
 |**Audio y vídeo**| 100Hz: altavoces estéreo de 3 vías de intervalo de 12 KHz, incluidos (2) de rango medio/alto y (1) de rango medio/bajo en el protuberancia posterior. <br>Matriz de micrófono MEMS de banda completa de 8 elementos<br>Microsoft Surface Hub 2 cámara, 4K, conexión USB-C®, 90 grados HFOV |
 |**Lápiz**| Microsoft Surface Hub 2 bolígrafos (activo)<br>Compatible con lápiz de Surface Slim                                                                                                                                                                                       |
-|**Sensores**| Sensor de ocupación Doppler <sup> 3</sup>                                                                                                                                                                                                                                 |
-|**Conexión inalámbrica**| Wi-Fi 5: ieee 802.11 a/b/g/n/ac compatible<br>Bluetooth® wireless 5.0<br>Miracast Mostrar                                                                                                                                                      |
+|**Sensores**| Sensor<sup> de ocupación doppler3</sup>                                                                                                                                                                                                                                 |
+|**Conexión inalámbrica**| Wi-Fi 5: ieee 802.11 a/b/g/n/ac compatible<br>® Bluetooth wireless 5.0<br>Miracast display                                                                                                                                                      |
 |**Exterior**| Carcasa: aluminio mecado de precisión con resina compuesta por minerales<br>Color: Platino<br>Botones físicos: Power, Volume, Source                                                                                                                            |
 |**Qué hay en el cuadro**| (1) Surface Hub 2S<br>(2) Surface Hub 2 plumas<br>(1) Surface Hub 2 cámara<br>Cable de alimentación de CA de 4 m<br>Guía de inicio rápido                                                                                                                                         |
-|**Garantía**| Garantía limitada de hardware de 1 año <sup> 4</sup>                                                                                                                                                                                                                          |
+|**Garantía**| Garantía limitada de hardware de 1 año4<sup></sup>                                                                                                                                                                                                                          |
 |**BTU**| 2047 BTU/hr |
 |**Tensión de entrada**| 50/60Hz nominal de 110/230v, 90-265v max |
 |**Alimentación de entrada, en funcionamiento**| 665 W (carga de sobrecarga de 745 W) |
