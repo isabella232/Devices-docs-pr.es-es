@@ -12,12 +12,12 @@ ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: e329b0cd1b74060e01ad1105a75c63d2883c6a4e
-ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
+ms.openlocfilehash: f711c4c34beae8e1bad34c7994d1562bb3cad08f
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "12057651"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338563"
 ---
 # <a name="surface-security-overview"></a>Introducción a la seguridad de Surface
 
@@ -27,7 +27,7 @@ Hoy en día, la administración del firmware del dispositivo es una experiencia 
 
 Microsoft Surface ha estado usando un enfoque unificado de protección de firmware y seguridad de dispositivos desde 2015 a través de la propiedad completa de un extremo a otro del diseño de hardware, el desarrollo de firmware local y un enfoque holístico de las actualizaciones y la administración de dispositivos.
 
-Para Surface, nuestra interfaz unificada de firmware extensible (UEFI) 1 se mantiene localmente, se actualiza periódicamente a través de Windows Update y se implementa sin problemas para la administración a través de <sup> [](#references) Windows Autopilot, minimizando los riesgos y maximizando el control en el nivel de firmware antes de que se inicie el </sup> dispositivo. Microsoft proporciona transparencia total de la base de código en nuestra UEFI a través de la Project de código [abierto mu](https://microsoft.github.io/mu/) en GitHub, administrado por Microsoft Endpoint Manager.
+Para Surface, nuestra interfaz de firmware extensible unificada (UEFI)<sup>[1](#references)</sup> se mantiene localmente, se actualiza periódicamente a través de Windows Update y se implementa sin problemas para la administración a través de Windows Autopilot, minimizando los riesgos y maximizando el control en el nivel de firmware antes de que se inicie el dispositivo. Microsoft proporciona transparencia completa de la base de código en nuestra UEFI a través de la Project [de código abierto mu](https://microsoft.github.io/mu/) en GitHub, administrado por Microsoft Endpoint Manager.
 
 ## <a name="microsoft-designed-and-built-components"></a>Componentes diseñados y creados de Microsoft
 
@@ -35,8 +35,10 @@ Microsoft desarrolla y mantiene todas las capas de Surface desde el chip hasta l
 
 Surface impulsa la seguridad a través de un enfoque de defensa en profundidad mediante la utilización de una capa de sub-componentes defensivos independientes. De chip a nube, o una UEFI que garantiza una raíz de confianza a Microsoft Defender para endpoint con tecnología de inteligencia artificial que funciona para evitar, detectar, investigar y responder a amenazas avanzadas, Surface exige que la posición integrada de Microsoft sea mejor que la de un bloqueo.
 
-| Característica                         | Descripción                                                                                                                                                                                                                                                                                                                         | Obtén más información                                                                                                                                                                   |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<br/>
+
+| Característica | Descripción | Obtén más información |
+| ------- | ----------- | ---------- |
 | Microsoft Built UEFI            | Software que configura el dispositivo y arranca Windows 10<br>Controla el arranque inicial del dispositivo y Windows 10 y, a continuación, proporciona servicios de tiempo de ejecución de firmware al sistema operativo. garantiza un mayor control sobre el hardware de un dispositivo a través de la administración de SEMM y la administración basada en la nube DFCI a través de Microsoft Endpoint Manager | [Administrar la configuración de la UEFI de Surface](manage-surface-uefi-settings.md)                                                                        |
 | TPM físico 2.0                | Módulo de plataforma de confianza: microcontrolador dedicado diseñado para proteger el hardware a través de claves criptográficas integradas.<br>Cifra y almacena claves (BitLocker, Windows Hello, Credenciales de AD,)<br>PCR: registros de configuración de plataforma que protegen las medidas y métricas relevantes para detectar cambios en la configuración anterior  | [Información general sobre la tecnología del Módulo de plataforma segura](/windows/security/information-protection/tpm/trusted-platform-module-overview)                 |
 | Windows Hello para empresas      | Reemplaza las contraseñas por una autenticación segura en dos fases en equipos y dispositivos móviles. Esta autenticación biométrica consta de un nuevo tipo de credencial de usuario que está vinculada a un dispositivo y usa un PIN o biométrico.                                                                                                                   | [Cómo funciona Windows Hello para empresas: Microsoft 365 seguridad](/windows/security/identity-protection/hello-for-business/hello-how-it-works) |
@@ -74,10 +76,13 @@ HVCI usa VBS para reforzar significativamente la aplicación de directivas de in
 
 Tanto VBS como HVCI están habilitados de forma automática en los siguientes dispositivos Surface:
 
+- Surface Pro 8
+- Surface Laptop Studio
+- Surface Go 3
 - Surface Laptop 4
 - Surface Pro 7+
 - Surface Book 3,
-- Surface Laptop Go,
+- Surface Laptop Go
 - Surface Pro X
 
 ## <a name="secure-boot-and-boot-guard"></a>Protección contra arranque y arranque seguro
@@ -86,12 +91,14 @@ La raíz de confianza de los dispositivos Surface comprueba las firmas y las med
 
 Como se muestra en la figura 2, la integridad del firmware se comprueba en cada fase desde presionar el botón de encendido hasta ejecutar el sistema operativo.
 
- > [!div class="mx-imgBorder"]
- > ![Figura 1. Arranque seguro para dispositivos Surface. ](images/secboot.png)
-  *Figura 1. Arranque seguro para dispositivos Surface*
+> [!div class="mx-imgBorder"]
+> [ ![Figura 1. Arranque seguro para dispositivos Surface.](images/secboot.png) ](images/secboot.png#lightbox)
+*Figura 1. Arranque seguro para dispositivos Surface*
 
-| Paso  | Fase de arranque seguro                                                                                                                                                                                                                                      |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+<br/>
+
+| Paso  | Fase de arranque seguro |
+| ----- | ----------------- |
 | **1** | La seguridad se crea cada vez que se presiona el botón de encendido desde una raíz de confianza proporcionada por el TPM. Cuando un dispositivo está encendido por primera vez, el sistema ejecuta una serie de comprobaciones de seguridad para asegurarse de que el firmware del dispositivo no se ha manipulado ni dañado. |
 | **2** | Cuando está activado, el SoC usa una clave de proveedor de conjuntos de chips para validar e inicia la carga de microcódigo mediante el Módulo de código autenticado (ACM) (en dispositivos basados en Intel).                                                                              |
 | **3** | El ACM mide el código UEFI antes de cargarlo y lo compara con la medida conocida en el Registro de configuración de plataforma [PCR] del TPM para asegurarse de que el código UEFI no se ha modificado.                                                                |
@@ -116,23 +123,25 @@ DRTM protege las medidas asegurándose de que se cifran mediante el cifrado tota
 
 Las llamadas en tiempo de ejecución al modo de administración del sistema (SMM) se ejecutan en el nivel más alto, lo que puede ser arriesgado si el código SMM tiene algún problema. Surface Laptop 4 con AMD Ryzen protege el sistema interceptando las interrupciones de administración del sistema (SMI) y distribuye la ejecución del código SMM a un nivel inferior (usuario) para proteger el sistema del acceso no válido a código y datos. La protección de SMM usa protecciones de hardware para restringir el código, los datos y los recursos del sistema a los que se puede tener acceso, lo que hace que se aproteja aún más la protección contra incidentes involuntarios o malintencionados.
 
-Surface Laptop 4 con AMD Ryzen admite [nist 800-193 Platform Firmware Resiliency Guidelines,](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf)además de la sólida compatibilidad con la actualización de firmware. El mecanismo de actualización resistente para el firmware de arranque usa un mecanismo de recuperación A-B que proporciona recuperación automática a una copia de seguridad del firmware en caso de que la secuencia de arranque detecte una copia dañada del firmware durante el arranque.
+Surface Laptop 4 con AMD Ryzen admite [nist 800-193 Platform Firmware Resiliency Guidelines](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf), además de la sólida compatibilidad con la actualización de firmware. El mecanismo de actualización resistente para el firmware de arranque usa un mecanismo de recuperación A-B que proporciona recuperación automática a una copia de seguridad del firmware en caso de que la secuencia de arranque detecte una copia dañada del firmware durante el arranque.
 
-Para obtener más información sobre DRTM y SMM, consulte [How a Windows Defender System Guard helps protect Windows 10 - Windows security | Microsoft Docs](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)
+Para obtener más información sobre DRTM y SMM, consulte [How a Windows Defender System Guard helps protect Windows 10](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows).
 
 ## <a name="remote-device-management-control"></a>Control remoto de administración de dispositivos
 
 Los administradores de TI pueden administrar dispositivos Surface de forma remota sin tener que tocar físicamente todos los dispositivos. Microsoft Endpoint Manager Con Intune y Windows Autopilot permite la administración remota completa de dispositivos Surface desde azure cloud, entregando dispositivos totalmente configurados a los usuarios al iniciarse. Las características de borrar y retirar permiten a TI reutilizar un dispositivo fácilmente para un nuevo usuario remoto y borrar un dispositivo que ha sido robado. Esto permite capacidades de respuesta rápidas y seguras en caso de pérdida o robo de un dispositivo Surface, lo que te permite quitar de forma remota todos los datos de la empresa y volver a configurar Surface como un dispositivo totalmente nuevo.
 
-| Característica                                        | Descripción                                                                                                                                                                                                                                                                                                                                                                                                        | Obtén más información                                                                                                                                                                                                                                                              |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<br/>
+
+| Característica | Descripción | Obtén más información |
+| ------- | ----------- | ---------- |
 | DCFI (interfaz de configuración de firmware de dispositivo) | Ofrece administración remota de firmware a escala de nube con aprovisionamiento de dispositivos sin intervención. La UEFI de Microsoft permite una implementación de DCFI más sólida, lo que permite a las organizaciones deshabilitar los elementos de hardware y bloquear de forma remota UEFI con Intune. ¹                                                                                                                                                                          | [Administración de Intune de la configuración de la UEFI de Surface](surface-manage-dfci-guide.md)<br> <br>[Administrar la configuración de la UEFI de Surface](manage-surface-uefi-settings.md)                                          |
 | SEMM (Surface Enterprise Management Mode)      | Habilita la participación empresarial centralizada de la configuración de firmware uefi en entornos locales, híbridos y en la nube.¹                                                                                                                                                                                                                                                                                           | [Modo de administración de Surface Enterprise](surface-enterprise-management-mode.md)                                                                                                                                                       |
 | Windows Update para empresas                    | Permite a los administradores de TI mantener los dispositivos Windows 10 de su organización siempre actualizados con las últimas defensas de seguridad, las características de Windows y el firmware de Surface conectando directamente estos sistemas al servicio de actualización Windows. Puedes usar la directiva de grupo o las soluciones MDM como Microsoft Intune para configurar la configuración de actualización de Windows para empresas que controla cómo y cuándo se actualizan los dispositivos Surface. | [Windows Update para empresas](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[Administrar e implementar actualizaciones de controladores y firmware de Surface](manage-surface-driver-and-firmware-updates.md) |
 
 ## <a name="references"></a>Referencias
 
-1. Surface Go y Surface Go 2 usan una UEFI de terceros y no admiten DFCI. DFCI está disponible actualmente para Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 y Surface Pro X. 
+1. Surface Go y Surface Go 2 usan una UEFI de terceros y no admiten DFCI. DFCI está disponible actualmente para Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 y Surface Pro X. 
 
 ## <a name="learn-more"></a>Obtén más información
 

@@ -14,12 +14,12 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 9/14/2020
-ms.openlocfilehash: 6cf2996ab9348bcc778a4b334d82e52b2eebdcde
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: bfcb8c09b3228730e3255c4f92948dc4acfea506
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676604"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338543"
 ---
 # <a name="windows-autopilot-and-surface-devices"></a>Dispositivos Windows Autopilot y Surface
 
@@ -39,13 +39,13 @@ Windows Autopilot le permite:
 
 ## <a name="how-it-works"></a>Cómo funciona
 
-Windows Los dispositivos registrados por Autopilot se identifican a través de Internet en el primer inicio a través de una firma de dispositivo única que se denomina *hash de hardware.* Se inscriben y configuran automáticamente mediante soluciones de administración modernas, como Azure Active Directory (Azure AD) y administración de dispositivos móviles.
+Windows dispositivos registrados por Autopilot se identifican a través de Internet en el primer inicio a través de una firma de dispositivo única que se denomina *hash de hardware*. Se inscriben y configuran automáticamente mediante soluciones de administración modernas, como Azure Active Directory (Azure AD) y administración de dispositivos móviles.
 
 Puedes registrar dispositivos Surface en el momento de la compra de un partner de Surface que esté habilitado para Windows Autopilot. Estos partners pueden enviar nuevos dispositivos directamente a los usuarios. Los dispositivos se inscribirán y configurarán automáticamente cuando estén activados por primera vez. Este proceso elimina el reimaging durante la implementación, lo que te permite implementar nuevos y ágiles métodos de administración y distribución de dispositivos.
 
 ## <a name="modern-management"></a>Administración moderna
 
-Autopilot es la opción de implementación recomendada para dispositivos Surface, incluidos Surface Pro 7+, Surface Laptop 3, Surface Pro 7 y Surface Pro X, que está diseñado específicamente para su implementación a través de Autopilot.
+Autopilot es la opción de implementación recomendada para dispositivos Surface, incluidos Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Pro 7+, Surface Laptop 4 y Surface Pro X, que está diseñado específicamente para su implementación a través de Autopilot.
 
  Es mejor inscribir los dispositivos Surface con la ayuda de un Proveedor de soluciones en la nube de Microsoft. Este paso te permite administrar la configuración de firmware de UEFI en Surface directamente desde Intune. Elimina la necesidad de tocar físicamente dispositivos para la administración de certificados. Consulta [Administración de Intune de la configuración de UEFI de Surface](surface-manage-dfci-guide.md) para obtener más información.
 
@@ -53,7 +53,7 @@ Autopilot es la opción de implementación recomendada para dispositivos Surface
 
 La implementación general de dispositivos Surface Windows través de Windows Autopilot, incluida la inscripción de socios de Surface en el momento de la compra, requiere Windows 10 versión 1709 (Fall Creators Update) o posterior.
 
-Estas Windows admiten un valor hash de 4.000 bytes (4k) que identifica de forma única los dispositivos para Windows Autopilot, que es necesario para implementaciones a escala. Todos los nuevos dispositivos Surface, incluidos Surface Pro 7+, Surface Pro X y Surface Laptop 3 se envían Windows 10 versión 1903 o posterior.
+Estas Windows admiten un valor hash de 4.000 bytes (4k) que identifica de forma única los dispositivos para Windows Autopilot, que es necesario para implementaciones a escala.
 
 ## <a name="exchange-experience-on-surface-devices-in-need-of-repair-or-replacement"></a>Exchange experiencia en dispositivos Surface que necesitan reparación o reemplazo
 
@@ -68,7 +68,7 @@ Los clientes y los proveedores de soluciones en la nube de Microsoft (CSP) tiene
 
 ## <a name="surface-partners-enabled-for-windows-autopilot"></a>Partners de Surface habilitados para Windows Autopilot
 
-Select Surface partners can enroll Surface devices in Windows Autopilot for you at the time of purchase. También pueden enviar dispositivos inscritos directamente a los usuarios. Los dispositivos se pueden configurar por completo a través de un proceso sin contacto mediante Windows Autopilot, Azure AD y administración de dispositivos móviles.
+Select Surface partners can enroll Surface devices in Windows Autopilot for you at the time of purchase. También pueden enviar dispositivos inscritos directamente a los usuarios. Los dispositivos se pueden configurar por completo a través de un proceso sin contacto mediante Windows administración de dispositivos móviles, Azure AD y autopilot.
 
 Los partners de Surface que están habilitados para Windows Autopilot incluyen:
 
