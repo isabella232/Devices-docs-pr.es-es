@@ -8,6 +8,8 @@
       items:
         - name: Información general técnica
           items:
+            - name: Introducción a Surface Laptop SE
+              href: surface-laptop-se-overview.md
             - name: Elección del sistema operativo Surface
               href: surface-os-choice.md
             - name: Introducción a la seguridad de Surface
@@ -22,6 +24,8 @@
           items:
             - name: Introducción a los gráficos de Surface Laptop Studio.
               href: surface-laptop-studio-graphics.md
+            - name: Aplicaciones certificadas o probadas para ISV de Surface Laptop Studio
+              href: surface-laptop-studio-isv-certification.md
             - name: Introducción técnica a Surface Book 3
               href: surface-book-GPU-overview.md
             - name: Introducción a Surface Book 3 Quadro RTX 3000
@@ -44,7 +48,9 @@
               href: 'https://www.microsoft.com/surface/business/surface-laptop-go'
             - name: Surface Studio 2 para empresas
               href: 'https://www.microsoft.com/surface/business/surface-studio-2'
-    - name: Plan
+            - name: Surface Laptop SE para educación
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-se'
+    - name: Planear
       items:
         - name: Compatibilidad de los dispositivos Surface con la Rama de mantenimiento a largo plazo de Windows 10
           href: surface-device-compatibility-with-windows-10-ltsc.md
@@ -56,6 +62,8 @@
           href: surface-system-sku-reference.md
     - name: Implementar y administrar
       items:
+        - name: Sistemas operativos compatibles con Surface
+          href: 'https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1'
         - name: Portal de administración de Surface
           items:
             - name: Información general del Portal de administración de Surface
@@ -74,7 +82,7 @@
           items:
             - name: Acelerador de implementaciones de Surface
               href: microsoft-surface-deployment-accelerator.md
-            - name: Implementar Windows 10 en dispositivos Surface con MDT
+            - name: Preparar la implementación de Surface con MDT
               href: deploy-windows-10-to-surface-devices-with-mdt.md
             - name: Habilitar el teclado para Surface Laptop durante la implementación de MDT
               href: enable-surface-keyboard-for-windows-pe-deployment.md
@@ -150,7 +158,9 @@
               href: wake-on-power-for-surface.md
         - name: Procedimientos recomendados
           items:
-            - name: Optimizar la conectividad Wi-Fi para dispositivos Surface
+            - name: Optimizar las videoconferencias en dispositivos Surface
+              href: optimize-video-conferencing-on-surface.md
+            - name: Optimizar la conectividad Wi-Fi en dispositivos Surface
               href: surface-wireless-connect.md
             - name: Procedimiento recomendado de configuración de energía para dispositivos Surface
               href: maintain-optimal-power-settings-on-Surface-devices.md
@@ -166,6 +176,10 @@
               href: surface-pro-arm-app-management.md
             - name: Compatibilidad de aplicaciones Surface Pro X
               href: surface-pro-arm-app-performance.md
+        - name: Accesorios
+          items:
+            - name: Notas de desarrollo de háptica de Surface Slim Pen 2
+              href: surface-slim-pen2-haptics-dev-notes.md
     - name: Solucionar problemas
       items:
         - name: Soluciones principales de soporte técnico para dispositivos Surface
