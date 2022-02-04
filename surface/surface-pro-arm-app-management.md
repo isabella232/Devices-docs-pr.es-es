@@ -1,6 +1,6 @@
 ---
-title: Implementación, administración y mantenimiento de Surface Pro X
-description: En este artículo se ofrece una descripción general de las principales consideraciones para implementar, administrar y mantener Surface Pro X.
+title: 'Implementación, administración y mantenimiento de Surface Pro X'
+description: 'En este artículo se ofrece una descripción general de las principales consideraciones para implementar, administrar y mantener Surface Pro X.'
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: high
@@ -8,16 +8,10 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 12/01/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: f0fed17dade345bf3f7dc9619eab7981dcb30cb0
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721280"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>Implementar, administrar y mantener Surface Pro X
 
@@ -42,7 +36,7 @@ Las organizaciones que ya usan soluciones modernas de administración, seguridad
 
 ## <a name="image-based-deployment-considerations"></a>Consideraciones de implementación basada en imagen
 
-Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager (anteriormente System Center Configuration Manager) no admiten actualmente Surface Pro X para la implementación de sistemas operativos. Los clientes que dependen de la implementación basada en imagen deberían considerar Surface Pro 7+ mientras continúan evaluando el momento más adecuado para hacer la transición a soluciones de implementación modernas. 
+Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager (anteriormente System Center Configuration Manager) no admiten actualmente Surface Pro X para la implementación de sistemas operativos. Los clientes que dependen de la implementación basada en imagen deberían considerar Surface Pro 8 mientras continúan evaluando el momento más adecuado para hacer la transición a soluciones de implementación modernas. 
 
 ## <a name="managing-surface-pro-x-devices"></a>Administración de dispositivos Surface Pro X
 
@@ -134,7 +128,7 @@ En las tablas siguientes se muestra la disponibilidad de las características cl
 
 | Característica                                                           | S/N | Notas                                                                                                                             |
 | ----------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Windows Autopilot                                                 | Sí |                                                                                                                                   |
+| WindowsAutopilot                                                 | Sí |                                                                                                                                   |
 | Compatibilidad con arranque de red (PXE)                                    | No  |                                                                                                                                   |
 | Diseñador de configuraciones de Windows                                    | No  | No se recomienda para Surface Pro X.                                                                                                |
 | WinPE                                                             | Sí | No se recomienda para Surface Pro X. Microsoft no proporciona el archivo .ISO y controladores necesarios para admitir WinPE con Surface Pro X. |
@@ -149,7 +143,7 @@ En las tablas siguientes se muestra la disponibilidad de las características cl
 | Característica                                       | S/N     | Notas                                                                                 |
 | --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
 | Intune                                        | Sí     | Administrar LTE con perfiles de eSIM.                                                        |
-| Windows Autopilot                             | Sí     |                                                                                       |
+| WindowsAutopilot                             | Sí     |                                                                                       |
 | Azure AD (administración conjunta)                      | Sí     | Capacidad de unir Surface Pro X a Azure AD o Active Directory (Unión a Azure AD híbrido). |
 | Endpoint Configuration Manager                | Sí     |                                                                                       |
 | Encendido con restauración de CA                      | Sí     |                                                                                       |
@@ -180,7 +174,7 @@ En las tablas siguientes se muestra la disponibilidad de las características cl
 
 ### <a name="can-i-deploy-surface-pro-x-with-mdt-or-endpoint-configuration-manager"></a>¿Puedo implementar Surface Pro X con MDT o con el Administrador de configuración de Endpoint?
 
-Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager actualmente no admiten Surface Pro X para la implementación de sistemas operativos. Los clientes que dependen de la implementación basada en imagen deberían considerar Surface Pro 7+ mientras continúan evaluando el momento más adecuado para hacer la transición a la nube.
+Microsoft Deployment Toolkit (MDT) y Microsoft Endpoint Configuration Manager actualmente no admiten Surface Pro X para la implementación de sistemas operativos. Los clientes que dependen de la implementación basada en imagen deberían considerar Surface Pro 8 mientras continúan evaluando el momento más adecuado para hacer la transición a la nube.
 
 ### <a name="how-can-i-deploy-surface-pro-x"></a>¿Cómo puedo implementar Surface Pro X?
 
