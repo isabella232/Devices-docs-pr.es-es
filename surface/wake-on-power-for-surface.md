@@ -20,12 +20,15 @@ ms.topic: article
 manager: laurawi
 ms.audience: itpro
 ms.date: 12/08/2021
-ms.openlocfilehash: e8e4ddbd559fc6aea2d04e61208b911ebef3ec22
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 44508875254d2e3d004afef710b43ada2911de08
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338403"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448663"
 ---
 # <a name="wake-on-power-for-surface-devices"></a>Wake on Power para dispositivos Surface
 
@@ -50,10 +53,10 @@ La característica Activar energía está disponible en los siguientes dispositi
 
 ## <a name="overview-and-prerequisites"></a>Información general y requisitos previos
 
-Surface UEFI Configurator te permite guardar la configuración de UEFI individual en un Windows Installer .msi paquete para su distribución a dispositivos de destino. 
+Surface UEFI Configurator te permite guardar la configuración de UEFI individual en un paquete Windows Installer .msi para su distribución a dispositivos de destino. 
 
 > [!NOTE]
-> En este artículo se supone que sabe cómo usar SEMM. Para obtener más información, [consulta la documentación de Surface Enterprise Management Mode (SEMM](surface-enterprise-management-mode.md)).
+> En este artículo se supone que sabe cómo usar SEMM. Para obtener más información, [consulta la documentación Enterprise modo de administración de Surface (SEMM](surface-enterprise-management-mode.md)).
 
 ## <a name="to-enable-wake-on-power"></a>Para habilitar La activación en la energía
 

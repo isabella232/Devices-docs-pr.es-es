@@ -1,6 +1,6 @@
 ---
 title: Preparar la implementación de Surface con Microsoft Deployment Toolkit
-description: Pase por el proceso recomendado de cómo implementar Windows 10 en los dispositivos Surface con la implementación de Microsoft Toolkit.
+description: Consulte el proceso recomendado de cómo implementar Windows 10 en los dispositivos Surface con la implementación de Microsoft Toolkit.
 keywords: windows 10 surface, automatizar, personalizar, mdt
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,16 +14,19 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 10/12/2020
-ms.openlocfilehash: 9578893ad96d84380adfc038dd42c4791d29c7cd
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: b12704e7e0709e1a6315d0d5e5eb7a68799acfe9
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338283"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449513"
 ---
 # <a name="prepare-surface-deployment-with-microsoft-deployment-toolkit"></a>Preparar la implementación de Surface con Microsoft Deployment Toolkit
 
-**Se aplica a**
+**Se aplica a:**
 
 - Surface Studio (todas las generaciones)
 - Surface Pro 4 y posteriores
@@ -32,7 +35,7 @@ ms.locfileid: "12338283"
 - Surface Laptop Go 
 - Surface Go (todas las generaciones)
 - Surface 3
-- Windows10
+- Windows 10
 
 > [!NOTE]
 > MDT no se admite en Surface Pro X. Para obtener más información, consulte [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).

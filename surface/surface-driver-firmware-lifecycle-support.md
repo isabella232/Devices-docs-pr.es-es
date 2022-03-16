@@ -12,8 +12,16 @@ ms.date: 11/30/2021
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 54a6fd560b16d29e8a155bcf24efd814a6d5bf77
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449623"
 ---
-
 # <a name="surface-driver-and-firmware-lifecycle-for-windows-based-devices"></a>Controlador de Surface y ciclo de vida del firmware para dispositivos basados en Windows
  
 En respuesta a las solicitudes de los clientes para obtener información más detallada sobre el ciclo de vida para ayudar a planear y administrar implementaciones de hardware y software, Surface ofrece instrucciones adicionales sobre nuestras actualizaciones de controladores y firmware.

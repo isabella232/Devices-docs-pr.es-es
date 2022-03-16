@@ -14,12 +14,15 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: f460577c6c0d87586d80e183dfeaf2796b8a3bbe
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: de84d4db52006991308bf19893a50594f6a1d1dc
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338303"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449523"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>Personalizar la OOBE para las implementaciones de Surface
 
@@ -38,7 +41,7 @@ En algunos escenarios, es posible que quieras proporcionan una automatización c
 En este artículo se proporciona un resumen de los escenarios donde una implementación podría requerir pasos adicionales. También proporciona la información necesaria para garantizar que se logre la experiencia deseada en cualquier dispositivo Surface recientemente implementado. Este artículo está pensado para los administradores que estén familiarizados con el proceso de implementación, así como con conceptos como archivos de respuesta e [imágenes de referencia](https://technet.microsoft.com/itpro/windows/deploy/create-a-windows-10-reference-image).
 
 >[!NOTE]
->Aunque la fase de configuración de OOBE aún se ejecuta como parte de una solución de implementación automatizada, como [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) o [Microsoft Endpoint Configuration Manager Operating System Deployment (OSD),](/mem/configmgr/osd/) se automatiza mediante la configuración proporcionada en el asistente de implementación y la secuencia de tareas.
+>Aunque la fase de configuración de OOBE todavía se ejecuta como parte de una solución de implementación automatizada, como [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) o [Microsoft Endpoint Configuration Manager Operating System Deployment (OSD),](/mem/configmgr/osd/) se automatiza mediante la configuración proporcionada en el asistente de implementación y la secuencia de tareas.
 
 ## <a name="scenario-1-wireless-networking-in-oobe-with-mdt-2013"></a>Escenario 1: Redes inalámbricas en OOBE con MDT 2013
 

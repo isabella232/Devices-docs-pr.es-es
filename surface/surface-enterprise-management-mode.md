@@ -1,5 +1,5 @@
 ---
-title: Surface Enterprise Management Mode (Surface)
+title: Modo de Enterprise surface (Surface)
 description: Consulta cómo esta característica de dispositivos Surface con UEFI de Surface te ayuda a proteger y administrar la configuración de firmware en tu organización.
 keywords: uefi, configure, firmware, secure, semm
 ms.prod: w10
@@ -14,12 +14,15 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 12/08/2021
-ms.openlocfilehash: 8b9a39d412efeff30a7f864d5c38b6135dca4b9b
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 4e1d9b012b79fadc7876d3cd5d8004eee4955ea8
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338103"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449203"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Modo de administración Enterprise Microsoft Surface
 
@@ -131,7 +134,7 @@ En la siguiente lista se muestran todos los dispositivos disponibles que puede a
 
 **Tabla 1. Configuración avanzada**
 
-| Configuración                            | Descripción                                                                                                                                                                                        |
+| Ajuste                            | Descripción                                                                                                                                                                                        |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IPv6 para el arranque PXE                  | Permite administrar la compatibilidad con IPv6 para el arranque PXE. Si no configura esta configuración, la compatibilidad con IPv6 para el arranque PXE está deshabilitada.                                                                               |
 | Arranque alternativo                     | Permite administrar el uso de un orden de arranque alternativo para arrancar directamente en un dispositivo USB o Ethernet presionando el botón Bajar volumen y el botón De encendido durante el arranque. Si no configura esta opción, el arranque alternativo está habilitado. |
@@ -145,7 +148,7 @@ En la siguiente lista se muestran todos los dispositivos disponibles que puede a
 | Dispositivos                            | Muestra la página Dispositivos UEFI **de** Surface. Si no configura esta opción, se mostrará la página Dispositivos.                                                                                                                     |
 | Arranque                               | Muestra la página De arranque de UEFI **de** Surface. Si no configura esta opción, se mostrará la página De arranque.                                                                                                                                                            |
 | DateTime                           | Muestra la página **DateTime** de UEFI de Surface. Si no configura esta configuración, se mostrará la página DateTime.                                                                                                                |
-| EnableOSMigration                          | Permite migrar Surface Hub 2 de Windows 10 Team a Windows 10 Pro o Enterprise. Si no configuras esta configuración, Surface Hub 2 dispositivos solo pueden ejecutar el sistema operativo Windows 10 Team usuario. Nota: El arranque dual entre Windows 10 Team y Windows 10 Pro/Enterprise no está disponible en Surface Hub 2.                                                                                                           |
+| EnableOSMigration                          | Permite migrar Surface Hub 2 de Windows 10 Team a Windows 10/11 Pro o Enterprise. Si no configuras esta configuración, Surface Hub 2 dispositivos solo pueden ejecutar el sistema operativo Windows 10 Team usuario. Nota: El arranque dual entre Windows 10 Team y Windows 10/11 Pro/Enterprise no está disponible en Surface Hub 2.                                                                                                           |
 
 >[!TIP]
 >Al crear un paquete de configuración de SEMM, se muestran dos caracteres en la página **Correcto** , como se muestra en la figura 3.
@@ -181,7 +184,7 @@ Un paquete de restablecimiento de UEFI de Surface se usa para realizar una sola 
 
 ### <a name="recovery-request"></a>Solicitud de recuperación
 
-En algunos escenarios, es posible que sea imposible usar un paquete de restablecimiento de UEFI de Surface. (Por ejemplo, si Windows se vuelve inutilizable en el dispositivo Surface). En estos escenarios, puedes desenrollar el dispositivo Surface desde SEMM **a** través de la página administración de Enterprise de Surface UEFI (que se muestra en la figura 5) con una operación de solicitud de recuperación.
+En algunos escenarios, es posible que sea imposible usar un paquete de restablecimiento de UEFI de Surface. (Por ejemplo, si Windows se vuelve inutilizable en el dispositivo Surface). En estos escenarios, puedes desenrollar el dispositivo Surface desde SEMM **a** través de la página de administración de Enterprise de Surface UEFI (que se muestra en la figura 5) con una operación de solicitud de recuperación.
 
 > [!div class="mx-imgBorder"]
 > ![Inicie una solicitud de recuperación de SEMM.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
@@ -217,7 +220,7 @@ Se recomiendan las siguientes opciones para el certificado SEMM:
 - **Fecha de expiración** : 15 meses desde la creación de certificados
 - **Directiva de exportación clave** : exportable
 
-También se recomienda autenticar el certificado SEMM en una arquitectura de infraestructura de clave pública (PKI) de dos niveles en la que la entidad de certificación intermedia (CA) esté dedicada a SEMM, lo que habilita la revocación de certificados. Para obtener más información acerca de una configuración de PKI de dos niveles, consulte Guía del laboratorio de [pruebas: implementación de una jerarquía de PKI Two-Tier AD CS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831348(v=ws.11)).
+También se recomienda autenticar el certificado SEMM en una arquitectura de infraestructura de clave pública (PKI) de dos niveles en la que la entidad de certificación intermedia (CA) esté dedicada a SEMM, lo que habilita la revocación de certificados. Para obtener más información acerca de una configuración de PKI de dos niveles, vea Guía del laboratorio de [pruebas: implementación de una jerarquía de PKI Two-Tier AD CS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831348(v=ws.11)).
 
 ### <a name="self-signed-certificate"></a>Certificado autofirmado
 
@@ -323,7 +326,7 @@ Esta versión de SEMM incluye:
 - Compatibilidad con Surface Pro X para dock 2.
 - Compatibilidad con el Administrador de UEFI para operaciones relacionadas con Dock 2.
 - Una corrección de errores del paquete de restablecimiento de Surface Go.
-- Compatibilidad con la migración de Surface Hub 2 dispositivos desde Windows 10 Team sistema operativo a Windows 10 Pro o Enterprise.
+- Compatibilidad con la migración de Surface Hub 2 dispositivos desde el sistema operativo Windows 10 Team a Windows 10 Pro o Enterprise.
 
 ### <a name="version-2711390"></a>Versión 2.71.139.0
 
@@ -346,7 +349,7 @@ Esta versión de SEMM incluye:
 
 - Compatibilidad con Surface Pro 7, Surface Pro X y Surface Laptop modelos de 3 13,5" y 15" con procesador Intel.
     >[!NOTE]
-    >Surface Laptop no se admite el procesador AMD de 3 15".
+    >Surface Laptop procesador AMD de 3 15" no es compatible.
 - Compatibilidad con la característica Activar energía.
 
 ### <a name="version-2541390"></a>Versión 2.54.139.0

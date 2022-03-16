@@ -11,12 +11,12 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 92b60fb0f0ac83c2516ebb1ebde0748d9d933c4e
-ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
+ms.openlocfilehash: ff70b7033e83804f178d35e22935011936ba2d14
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "11883007"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449123"
 ---
 # <a name="local-management-for-surface-hub-settings"></a>Administración local para la configuración de Surface Hub
 
@@ -45,17 +45,18 @@ Los Surface Hubs tienen muchas opciones que son comunes a otros dispositivos Win
 | Canal de proyección inalámbrica (Miracast) | Surface Hub > Proyección | Establecer el canal para la proyección de Miracast. |
 | Información de la reunión que se muestra en la pantalla de inicio de sesión | Surface Hub > Pantalla de inicio de sesión | Elegir si el organizador de la reunión, la hora y el asunto se mostrarán en la pantalla de inicio de sesión. |
 | Fondo de pantalla de inicio de sesión |  Surface Hub > Pantalla de inicio de sesión | Elija una imagen que se usará como fondo durante las sesiones de usuario y en la pantalla de bienvenida. |
-| Tiempo de espera de sesión a la pantalla de bienvenida | Surface Hub > de & sesión | Elegir cuánto tiempo hasta que Surface Hub vuelve a la pantalla de inicio después de que no se detecte ningún movimiento. |
-| Reanudar la sesión | Surface Hub > de & sesión | Elegir si se debe permitir que los usuarios reanuden la sesión después de que no se detecté ningún movimiento o limpiar automáticamente una sesión. |
-| Acceso a archivos y reuniones de Office 365 | Surface Hub > de & sesión | Elige si un usuario puede iniciar sesión en Office 365 para acceder a sus reuniones y archivos. |
-| Activar la pantalla con sensores de movimiento | Surface Hub > de & sesión | Elegir si la pantalla se activa cuando se detecte movimiento. |
-| Tiempo de espera de pantalla | Surface Hub > de & sesión | Elige cuánto tiempo debe estar inactivo el dispositivo antes de desactivar la pantalla. |
-| Tiempo de espera de suspensión | Surface Hub > de & sesión | Elegir cuánto tiempo el dispositivo debe estar inactivo antes de pasar al modo de suspensión. |
+| Tiempo de espera de sesión a la pantalla de bienvenida | Surface Hub > de & de sesión | Elegir cuánto tiempo hasta que Surface Hub vuelve a la pantalla de inicio después de que no se detecte ningún movimiento. |
+| Reanudar la sesión | Surface Hub > de & de sesión | Elegir si se debe permitir que los usuarios reanuden la sesión después de que no se detecté ningún movimiento o limpiar automáticamente una sesión. |
+| Acceso a archivos y reuniones de Office 365 | Surface Hub > de & de sesión | Elige si un usuario puede iniciar sesión en Office 365 para acceder a sus reuniones y archivos. |
+| Activar la pantalla con sensores de movimiento | Surface Hub > de & de sesión | Elegir si la pantalla se activa cuando se detecte movimiento. |
+| Tiempo de espera de pantalla | Surface Hub > de & de sesión | Elige cuánto tiempo debe estar inactivo el dispositivo antes de desactivar la pantalla. |
+| Tiempo de espera de suspensión | Surface Hub > de & de sesión | Elegir cuánto tiempo el dispositivo debe estar inactivo antes de pasar al modo de suspensión. |
 | Nombre descriptivo | Surface Hub > Acerca de | Establecer el nombre del Surface Hub que los contactos verán al conectarse de forma inalámbrica. |
 | Horas de mantenimiento | Actualización y seguridad > Windows Update > Opciones avanzadas | Configurar cuando se pueden instalar actualizaciones. |
 | Recuperar desde la nube | Actualización y seguridad > Recuperación | Reinstalar el sistema operativo en Surface Hub a una compilación del fabricante desde la nube. |
 | Guardar la clave de BitLocker | Actualización y seguridad > Recuperación | Hacer copia de seguridad de la clave de BitLocker de tu Surface Hub en una unidad USB. |
-| Recopilar registros | Actualización y seguridad > Recuperación | Guardar los registros en una unidad USB para enviar a Microsoft más adelante. | 
+| Recopilar registros | Actualizar & de > seguridad | Guardar los registros en una unidad USB para enviar a Microsoft más adelante. | 
+| Visor de eventos | Actualizar & de > seguridad | Inicie Windows visor de eventos para ver los eventos que han ocurrido en el Surface Hub. | 
 
 ## <a name="related-topics"></a>Temas relacionados
 

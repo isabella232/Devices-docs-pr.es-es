@@ -12,24 +12,27 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 52b988315951132284c7016752a6817dadbf74c6
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 43619159ff8e429735116c61de23172c63cd900b
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676624"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449373"
 ---
 # <a name="surface-laptop-4-processors-tech-overview"></a>Información general técnica sobre los procesadores de Surface Laptop 4
 
-Surface Laptop 4 está diseñado para proporcionar a los clientes comerciales un amplio conjunto de opciones de dispositivo para ayudar a los responsables de la toma de decisiones a alinear mejor los objetivos de adquisición de dispositivos con requisitos de roles cada vez más específicos. En comparación con Surface Laptop 3:
+Surface Laptop 4 está diseñado para proporcionar a los clientes comerciales un amplio conjunto de opciones de dispositivos para ayudar a los responsables de la toma de decisiones a alinear mejor los objetivos de adquisición de dispositivos con requisitos de roles cada vez más específicos. En comparación con Surface Laptop 3:
 
-- Surface Laptop 4 equipados con AMD Ryzen™ los procesadores Microsoft Surface Edition proporcionan un rendimiento superior de varios subprocesos, lo que lo hace una excelente opción para los trabajadores de la información que necesitan mejores capacidades multitarea.
-- Surface Laptop 4 equipados con procesadores Intel® Core™ de 11ª generación proporcionan una GPU más fuerte y un rendimiento de subproceso único más rápido, lo que la hace una gran elección para desarrolladores, investigadores, científicos de datos y otros tipos, especialmente cuando se combina con la mayor memoria y almacenamiento ofrecidos en la SKU de Intel de gama superior.
+- Surface Laptop 4 equipado con procesadores AMD Ryzen™ Microsoft Surface Edition proporciona un rendimiento multiproceso superior, lo que lo hace una excelente opción para los trabajadores de la información que necesitan mejores capacidades multitarea.
+- Surface Laptop 4 equipados con procesadores Intel® Core™ de 11ª generación proporcionan una GPU más sólida y un rendimiento de un solo subproceso más rápido, lo que la hace una gran elección para desarrolladores, investigadores, científicos de datos y otros tipos, especialmente cuando se combina con la mayor memoria y almacenamiento ofrecidos en la SKU de Intel de gama superior.
 
 La elección de SKU depende de las prioridades del cliente:
 
 - Si el rendimiento de la aplicación multiproceso y una mayor duración de la batería es una prioridad, Surface Laptop 4 con procesadores AMD Ryzen Surface Edition es una buena opción.
-- Si es más importante un rendimiento de subproceso único más rápido, junto con las opciones para una mayor memoria y almacenamiento, Surface Laptop 4 con procesadores principales intel de 11ª generación es una buena opción.
+- Si es más importante un rendimiento de un solo subproceso más rápido, junto con opciones para una mayor memoria y almacenamiento, Surface Laptop 4 con procesadores principales intel de 11ª generación es una buena opción.
 
 Para obtener más información, [vea Surface Laptop 4 para empresas](https://www.microsoft.com/surface/business/surface-laptop-4).
 
@@ -44,7 +47,7 @@ Para obtener más información, [vea Surface Laptop 4 para empresas](https://www
 
 **Surface Laptop 4 15"**
 
-- Quad Core 11th Gen Intel Core™ procesador i7-1185G7
+- Procesador Intel Core™ i7-1185G7 de 11ª generación de cuatro núcleos
 - Procesador móvil AMD Ryzen 7 4980U con Radeon™ Graphics Microsoft Surface Edition (8 núcleos)
 
  
@@ -81,18 +84,18 @@ Para obtener información general sobre los procesadores Intel en Surface Laptop
 | Caché total de L3       | 8 MB              | 8 MB              |
 | CMOS                 | TSMC 7nm FinFET   | TSMC 7nm FinFET   |
 | Paquete              | FP6               | FP6               |
-| Versión ® PCI Express | 3.0               | 3.0               |
+| Versión de PCI Express® | 3.0               | 3.0               |
 | TDP /TDP predeterminado    | 15W               | 15W               |
 | Max Temps            | 105C              | 105 C             |
 
-Para obtener información general acerca de los procesadores AMD en Surface Laptop 4, vea [Microsoft Surface Laptop 4 Powered by AMD Ryzen Mobile Processors](https://www.amd.com/processors/ryzen-surface-edition).
+Para obtener información general sobre los procesadores AMD en Surface Laptop 4, consulte [Microsoft Surface Laptop 4 Powered by AMD Ryzen Mobile Processors](https://www.amd.com/processors/ryzen-surface-edition).
 
 ## <a name="surface-laptop-4-skus"></a>Surface Laptop 4 SKU
 
 | Configuración | Procesador                                                         | GPU                    |
 | ------------- | ----------------------------------------------------------------- | ---------------------- |
-| R5/8/256 GB    | Procesador móvil AMD Ryzen 5 4680U con Microsoft Surface Edition | Gráficos ™ Radeon       |
-| i5/8/256GB    | Procesador Intel Core i5 1145G7 de 11ª generación                          | Gráficos Xe ® Intel Iris |
+| R5/8/256 GB    | Procesador móvil AMD Ryzen 5 4680U con Microsoft Surface Edition | Gráficos de Radeon™       |
+| i5/8/256GB    | Procesador Intel Core i5 1145G7 de 11ª generación                          | Gráficos Intel Iris® Xe |
 | R5/16/256 GB   | Procesador móvil AMD Ryzen 5 4680U con Microsoft Surface Edition | Gráficos de Radeon        |
 | i5/8/512GB    | Procesador Intel Core i5 1145G7 de 11ª generación                           | Gráficos Intel Iris Xe |
 | i5/16/512GB   | Procesador Intel Core i5 1145G7 de 11ª generación                           | Gráficos Intel Iris Xe |

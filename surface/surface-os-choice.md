@@ -1,5 +1,5 @@
 ---
-title: Elección de Surface OS
+title: Elección del sistema operativo Surface
 description: En este artículo se describe cómo los clientes comerciales pueden comprar nuevos dispositivos Surface con Windows 10 o Windows 11.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -12,18 +12,21 @@ ms.date: 09/22/2021
 ms.reviewer: oayakta
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: cc6a9cebf389885a3a21f594a30653dccbd22a8a
-ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 727d38f39536bcb7bec283e3f6c8532018e46b03
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "12037084"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448553"
 ---
 # <a name="os-choice-for-new-surface-devices"></a>Elección del sistema operativo para nuevos dispositivos Surface
  
-A la luz de la disponibilidad general de Windows 11, 5 de octubre de 2021, los clientes comerciales pueden elegir tener Windows 10 o Windows 11 instalados en nuevos dispositivos Surface, incluidos [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8), [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)y Surface [Go 3.](https://www.microsoft.com/surface/business/surface-go-3)  
+A la luz de la disponibilidad general de Windows 11, 5 de octubre de 2021, los clientes comerciales pueden elegir tener Windows 10 o Windows 11 instalados en nuevos dispositivos Surface, incluidos [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8), [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio) y [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3).  
  
-La capacidad de obtener la versión del sistema operativo que necesitan directamente de Surface libera Azure Active Directory los administradores y asociados de TI de tener que compilar paquetes de controladores y volver a crear imágenes de dispositivos antes de distribuirlos a sus usuarios mediante Autopilot o una combinación de dominio (AADJ). Este proceso de TI simplificado incluye la entrega de dispositivos ajustados por reducción que ya están configurados con el firmware y los controladores creados y probados para el sistema operativo que elijas. Además, los clientes podrán descargar la recuperación completa de metal (BMR) y .msi de la página Descarga de imágenes de recuperación [de Surface.](https://support.microsoft.com/surface-recovery-image) 
+La capacidad de obtener la versión del sistema operativo que necesitan directamente de Surface libera Azure Active Directory los administradores y asociados de TI de tener que compilar paquetes de controladores y volver a crear imágenes de dispositivos antes de distribuirlos a sus usuarios a través de Autopilot o una combinación de dominio (AADJ). Este proceso de TI simplificado incluye la entrega de dispositivos ajustados por reducción que ya están configurados con el firmware y los controladores creados y probados para el sistema operativo que elijas. Además, los clientes podrán descargar la recuperación sin formato (BMR) y los .msi de la página Descarga de imágenes de recuperación [de Surface.](https://support.microsoft.com/surface-recovery-image) 
  
 ### <a name="how-to-order"></a>Cómo ordenar
 

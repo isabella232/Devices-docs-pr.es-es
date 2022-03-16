@@ -12,19 +12,22 @@ ms.date: 10/25/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 71a909a00187cf8727ada4e1adabd998b26eb3c0
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7d33d3d557a134584a7984279ed9187b116d9959
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12153985"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448703"
 ---
 # <a name="surface-diagnostic-toolkit-for-business"></a>Kit de herramientas de diagnóstico de Surface para empresas
 
 Si Surface no funciona correctamente, el servicio de diagnóstico de Microsoft Surface Toolkit (SDT) para empresas puede ayudarte a ti o al administrador a encontrar y resolver problemas.  SDT para empresas te permite investigar, solucionar y solucionar rápidamente problemas de hardware, software y firmware con dispositivos Surface en toda la red.
 
 > [!NOTE]
-> Surface Diagnostic Toolkit para empresas está diseñada para dispositivos comerciales. Si el dispositivo es un dispositivo personal y no está administrado por el trabajo o la escuela, ejecute la página de diagnóstico [de Surface Toolkit](https://support.microsoft.com/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) en su lugar.
+> Surface Diagnostic Toolkit para empresas está diseñada para dispositivos comerciales. Si el dispositivo es un dispositivo personal y no está administrado por el trabajo o la escuela, ejecute el Toolkit De [diagnóstico de Surface en su lugar](https://support.microsoft.com/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit).
 
 En concreto, SDT para empresas le permite:
 
@@ -48,10 +51,10 @@ Línea de comandos | Solucione directamente problemas de dispositivos Surface de
 SDT para empresas es compatible con dispositivos Surface 3 y posteriores (excepto para dispositivos configurados en modo S):
 
 - Surface Book: todas las generaciones
-- Surface Laptop Studio
+- SurfaceLaptopStudio
 - Surface Go: todas las generaciones
 - Surface Laptop: todas las generaciones
-- Surface Laptop Ir
+- Surface Laptop Go
 - Surface Pro 3 y posteriores
 - Surface Pro X: todas las generaciones
 - Surface Studio: todas las generaciones
@@ -69,15 +72,15 @@ Para crear un paquete de SDT que pueda distribuir a los usuarios de su organizac
     - Para dispositivos Intel/AMD, descargue: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi**.
     - Para ARM dispositivos, descarga: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**.
 
-3. Copie el .msi en una ubicación preferida en el dispositivo Surface, como Desktop.Aparece el asistente de configuración de SDT, como se muestra en la figura 1. Haz clic en **Siguiente**.
+3. Copie el .msi en una ubicación preferida del dispositivo Surface, como Desktop.Aparece el Asistente para configuración de SDT, como se muestra en la figura 1. Haz clic en **Siguiente**.
 
     >[!NOTE]
     >Si no aparece el asistente para la instalación, asegúrese de que ha iniciado sesión en la cuenta de administrador en el equipo.
 
     ![bienvenido al Asistente para la Toolkit de configuración de Surface Diagnostic.](images/sdt-1.png)<br/>
-    *Figura 1. Asistente para configuración Toolkit diagnóstico de Surface*
+    *Figura 1. Asistente para Toolkit de configuración de Surface Diagnostic*
 
-4. Cuando aparezca el asistente para la instalación de SDT, haga clic en **Siguiente**, acepte el Contrato de licencia de usuario final (CLUF).
+4. Cuando aparezca el Asistente para configuración de SDT, haga clic en **Siguiente**, acepte el Contrato de licencia de usuario final (CLUF).
 
 5. En la pantalla Opciones de instalación, cambie la ubicación de instalación predeterminada si lo desea.
 
@@ -88,14 +91,14 @@ Para crear un paquete de SDT que pueda distribuir a los usuarios de su organizac
 
     ![Opciones de instalación: Avanzadas.](images/sdt-install.png)
 
-7. Haga **clic en Siguiente** y, a continuación, en **Instalar**.
+7. Haga **clic en Siguiente** y, a continuación, **haga clic en Instalar**.
 
 ## <a name="installing-using-the-command-line"></a>Instalación con la línea de comandos
 
 Si lo desea, puede instalar SDT en un símbolo del sistema y establecer una marca personalizada para instalar la herramienta en modo de administración. SDT contiene las siguientes marcas de opción de instalación:
 
-- `SENDTELEMETRY` envía datos de telemetría a Microsoft. La marca acepta `0` para deshabilitado o `1` habilitado. El valor predeterminado es `1` enviar telemetría.
-- `ADMINMODE` configura la herramienta para que se instale en modo de administración. La marca acepta para `0` el modo de cliente o para el modo de administrador de `1` TI. El valor predeterminado es `0`.
+- `SENDTELEMETRY` envía datos de telemetría a Microsoft. La marca acepta para `0` deshabilitado o `1` habilitado. El valor predeterminado es `1` enviar telemetría.
+- `ADMINMODE` configura la herramienta para que se instale en modo de administración. La marca acepta para `0` el modo de cliente o `1` para el modo de administrador de TI. El valor predeterminado es `0`.
 
 ### <a name="to-install-sdt-from-the-command-line"></a>Para instalar SDT desde la línea de comandos
 
@@ -113,7 +116,7 @@ Si lo desea, puede instalar SDT en un símbolo del sistema y establecer una marc
 
 ## <a name="locating-sdt-on-your-surface-device"></a>Localizar SDT en el dispositivo Surface
 
-Tanto SDT como la consola de la aplicación SDT se instalan en `C:\Program Files\Microsoft\Surface\Microsoft Surface Diagnostic Toolkit for Business` .
+Tanto SDT como la consola de la aplicación SDT se instalan en `C:\Program Files\Microsoft\Surface\Microsoft Surface Diagnostic Toolkit for Business`.
 
 Además del archivo .exe, SDT instala un archivo JSON y un archivo admin.dll (modules\admin.dll), como se muestra en la figura 2.
 
@@ -124,7 +127,7 @@ Además del archivo .exe, SDT instala un archivo JSON y un archivo admin.dll (mo
 
 La creación de un paquete personalizado le permite dirigir la herramienta a problemas conocidos específicos.
 
-1. Haz **clic en > Ejecutar**, escribe **Surface** y, a continuación, haz clic en Surface Diagnostic Toolkit **para empresas**.
+1. Haz **clic en > ejecutar**, **escribe Surface** y, a continuación, haz clic en **Surface Diagnostic Toolkit para empresas**.
 
 2. Cuando se abra la herramienta, haga clic **en Crear paquete personalizado**, como se muestra en la figura 3.
 
@@ -133,20 +136,20 @@ La creación de un paquete personalizado le permite dirigir la herramienta a pro
 
 ### <a name="language-and-telemetry-settings"></a>Configuración de idioma y telemetría
 
-  Al crear un paquete, puede seleccionar la configuración de idioma o no enviar información de telemetría a Microsoft. De forma predeterminada, SDT envía telemetría a Microsoft que se usa para mejorar la aplicación de acuerdo con la Declaración [de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement). Si desea rechazar, desactive la casilla al crear un paquete personalizado, como se muestra a continuación. O desactive la casilla **Enviar telemetría a Microsoft** en la página Opciones de **instalación** durante la instalación de SDT.
+  Al crear un paquete, puede seleccionar la configuración de idioma o no enviar información de telemetría a Microsoft. De forma predeterminada, SDT envía telemetría a Microsoft que se usa para mejorar la aplicación de acuerdo con la Declaración [de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement). Si desea rechazar, desactive la casilla al crear un paquete personalizado, como se muestra a continuación. O desactive la casilla **Enviar telemetría a Microsoft** en la **página Opciones de instalación** durante la instalación de SDT.
 
 >[!NOTE]
->Esta configuración no afecta a la telemetría mínima almacenada automáticamente en los servidores De Microsoft al ejecutar pruebas y reparaciones que requieren una conexión a Internet, como una reparación de actualización y software de Windows, o proporcionar comentarios con los botones Smile o Frown de la barra de herramientas de la aplicación.
+>Esta configuración no afecta a la telemetría mínima almacenada automáticamente en los servidores Microsoft al ejecutar pruebas y reparaciones que requieren una conexión a Internet, como una reparación de actualización y software de Windows, o proporcionar comentarios con los botones Smile o Frown en la barra de herramientas de la aplicación.
 
 ![Seleccione la configuración de idioma y telemetría.](images/sdt-4.png)<br/>
 *Figura 4. Seleccionar idioma y configuración de telemetría*
 
-### <a name="windows-update-page"></a>Windows Página de actualización
+### <a name="windows-update-page"></a>Windows actualización
 
 Seleccione la opción adecuada para su organización. La mayoría de las organizaciones con varios usuarios suelen seleccionar recibir actualizaciones a través de Windows Server Update Services (WSUS), como se muestra en la figura 5. Si usas paquetes Windows Update o WSUS, escribe la ruta de acceso según corresponda.
 
 ![Seleccione Windows opción Actualizar.](images/sdt-5.png)<br/>
-*Figura 5. Windows Opción Actualizar*
+*Figura 5. Windows actualizar*
 
 ### <a name="software-repair-page"></a>Página de reparación de software
 
@@ -173,9 +176,9 @@ Puede seleccionar ejecutar una amplia variedad de registros en aplicaciones, con
 
 Esta versión de Surface Diagnostic Toolkit para empresas agrega compatibilidad con lo siguiente:
 
-- Surface Pro 8
-- Surface Laptop Studio
-- Surface Go 3
+- SurfacePro8
+- SurfaceLaptopStudio
+- SurfaceGo3
 
 ### <a name="version-21311390"></a>Versión 2.131.139.0
 
@@ -213,8 +216,8 @@ Esta versión de Surface Diagnostic Toolkit para empresas agrega compatibilidad 
 
 - Posibilidad de omitir Windows update para realizar la comprobación de hardware.
 - Capacidad para recibir notificaciones sobre la actualización de versión más reciente
-- Surface Go 2
-- Surface Book 3
+- SurfaceGo2
+- SurfaceBook3
 - Mostrar indicador de progreso
 
 ### <a name="version-2431390"></a>Versión 2.43.139.0
@@ -223,7 +226,7 @@ Esta versión de Surface Diagnostic Toolkit para empresas agrega compatibilidad 
 Esta versión de Surface Diagnostic Toolkit para empresas agrega compatibilidad con lo siguiente:
 
 - Surface Pro 7
-- Surface Laptop 3
+- SurfaceLaptop3
 
 ### <a name="version-2421390"></a>Versión 2.42.139.0
 

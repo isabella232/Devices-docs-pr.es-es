@@ -13,12 +13,15 @@ ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 8584ae4ade7d7a043438206230cb24d146b586cb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 4942dd5ab187b7350e5093d8d189ad52536ef5bd
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911675"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448563"
 ---
 # <a name="unenroll-surface-devices-from-semm"></a>Anular la inscripción de dispositivos Surface desde SEMM
 
@@ -27,7 +30,7 @@ Cuando un dispositivo Surface está inscrito en surface Enterprise Management Mo
 >[!WARNING]
 >Para desenrollar un dispositivo de SEMM y restaurar el control de usuario de la configuración de UEFI de Surface, debes tener el certificado SEMM que se usó para inscribir el dispositivo en SEMM. Si este certificado se pierde o se daña, no es posible deshacer la inscripción de SEMM. Haga una copia de seguridad y proteja el certificado SEMM en consecuencia.
 
-Para obtener más información acerca de SEMM, consulta [Microsoft Surface Enterprise Management Mode](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode).
+Para obtener más información acerca de SEMM, [consulta Microsoft Surface Enterprise Management Mode](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode).
 
 ## <a name="unenroll-a-surface-device-from-semm-with-a-surface-uefi-reset-package"></a>Desenrollar un dispositivo Surface de SEMM con un paquete de restablecimiento de UEFI de Surface
 
@@ -59,16 +62,16 @@ Para crear un paquete de restablecimiento de UEFI de Surface, sigue estos pasos:
    *Figura 3. Agregar el certificado SEMM a un paquete de restablecimiento de UEFI de Surface*
 
 5. Haz clic en **Siguiente**.
-6. Escribe el número de serie del dispositivo que quieres desenrollar desde SEMM (como se muestra en la figura 4) y, a continuación, haz clic en Compilar para generar el paquete de restablecimiento de UEFI de Surface. ****
+6. Escribe el número de serie del dispositivo que quieres desenrollar desde SEMM (como se muestra en la figura 4) y****, a continuación, haz clic en Compilar para generar el paquete de restablecimiento de UEFI de Surface.
 
    ![Crea un paquete de restablecimiento de UEFI de Surface con el número de serie de dispositivo Surface.](images/surface-semm-unenroll-fig4.png "Create a Surface UEFI reset package with serial number of Surface device")
 
    *Figura 4. Usa el número de serie de tu dispositivo Surface para crear un paquete de restablecimiento de UEFI de Surface*
 
 7. En el **cuadro de diálogo** Guardar como, especifique un nombre para el paquete de restablecimiento uefi de Surface, vaya a la ubicación donde desea guardar el archivo y, a continuación, haga clic en **Guardar**.
-8. Cuando se haya completado la generación de paquetes, **se** mostrará la página Correcto. Haz **clic en** Finalizar para completar la creación del paquete y cerrar Microsoft Surface UEFI Configurator.
+8. Cuando se haya completado la generación de paquetes **, se mostrará** la página Correcto. Haz **clic en** Finalizar para completar la creación del paquete y cerrar Microsoft Surface UEFI Configurator.
 
-Ejecuta el archivo del instalador de Windows UEFI de Surface (.msi) en el dispositivo Surface para desenrollar el dispositivo desde SEMM. El paquete de restablecimiento requerirá un reinicio para realizar la operación de anulación de inscripción. Una vez que el dispositivo se haya dado de baja, puedes comprobar que la eliminación se ha realizado correctamente al asegurarte de que el elemento paquete de configuración de **Microsoft Surface** en Programas y características **(que** se muestra en la figura 5) ya no esté presente.
+Ejecuta el archivo de paquete de restablecimiento de UEFI de Surface Windows Installer (.msi) en el dispositivo Surface para desenrollar el dispositivo desde SEMM. El paquete de restablecimiento requerirá un reinicio para realizar la operación de anulación de inscripción. Una vez que el dispositivo se haya dado de baja, puedes comprobar que la eliminación se ha realizado correctamente al asegurarte de que el elemento paquete de configuración de **Microsoft Surface** en Programas y **características (que** se muestra en la figura 5) ya no esté presente.
 
 ![Pantalla que muestra que el dispositivo está inscrito en SEMM.](images/surface-semm-unenroll-fig5.png "Screen that shows device is enrolled in SEMM")
 
@@ -84,11 +87,11 @@ Para iniciar una solicitud de recuperación, siga estos pasos:
 
 1. Arranque el dispositivo Surface que se va a no inscribir de SEMM a Surface UEFI.
 2. Escribe la contraseña de UEFI de Surface si se te pide que lo hagas.
-3. Haga clic **en Enterprise de administración,** como se muestra en la figura 6.
+3. Haga clic **en Enterprise de administración**, como se muestra en la figura 6.
 
-   ![Enterprise Página administración.](images/surface-semm-unenroll-fig6.png "Enterprise Management page")
+   ![Enterprise de administración.](images/surface-semm-unenroll-fig6.png "Enterprise Management page")
 
-   *Figura 6. La Enterprise de administración se muestra en Uefi de Surface en dispositivos inscritos en SEMM*
+   *Figura 6. La página Enterprise administración se muestra en UEFI de Surface en dispositivos inscritos en SEMM*
 
 4. Haga clic o presione **Introducción**.
 5. Haga clic o presione **Siguiente** para iniciar el proceso de solicitud de recuperación.
@@ -100,7 +103,7 @@ Para iniciar una solicitud de recuperación, siga estos pasos:
 
    *Figura 7. Elija Certificado SEMM para la solicitud de recuperación (solicitud de restablecimiento)*
 
-7. En la página Escribir código de verificación de **** restablecimiento **de SEMM,** puede hacer clic en los botones Código **QR** o Texto para mostrar la solicitud de recuperación (solicitud de restablecimiento), como se muestra en la figura 8, o el botón **USB** para guardar la solicitud de recuperación (solicitud de restablecimiento) como un archivo en una unidad USB, como se muestra en la figura 9.
+7. En la página Escribir código de verificación de restablecimiento **de SEMM**, puede hacer clic **** en los botones Código **QR** o Texto para mostrar la solicitud de recuperación (solicitud de restablecimiento), como se muestra en la figura 8, o el botón **USB** para guardar la solicitud de recuperación (solicitud de restablecimiento) como un archivo en una unidad USB, como se muestra en la figura 9.
 
    ![Solicitud de recuperación que se muestra como código QR.](images/surface-semm-unenroll-fig8.png "Recovery Request displayed as a QR Code")
 
@@ -118,7 +121,7 @@ Para iniciar una solicitud de recuperación, siga estos pasos:
     >[!NOTE]
     >Microsoft Surface UEFI Configurator debe ejecutarse en un entorno que pueda autenticar la cadena de certificados para el certificado SEMM.
 9. Haz clic en **Inicio**.
-10. Haga **clic en Solicitud de**recuperación, tal como se muestra en la figura 10.
+10. Haga **clic en Solicitud de** recuperación, como se muestra en la figura 10.
 
     ![Iniciar el proceso para aprobar una solicitud de recuperación.](images/surface-semm-unenroll-fig10.png "Start process to approve a Recovery Request")
 
@@ -141,7 +144,7 @@ Para iniciar una solicitud de recuperación, siga estos pasos:
 
     * Si has mostrado la solicitud de recuperación (solicitud de restablecimiento) como texto en el dispositivo Surface que se va a restablecer, usa el teclado para escribir la solicitud de recuperación (solicitud de restablecimiento) en el campo proporcionado.
     * Si has mostrado la solicitud de recuperación (solicitud de restablecimiento) como código QR y, a continuación, usaste una aplicación de mensajería o correo electrónico para enviar el código al equipo con el Configurador UEFI de Microsoft Surface, copia y pega el código en el campo proporcionado.
-    * Si guardó la solicitud de recuperación (solicitud de restablecimiento) como archivo en una unidad USB, haga clic en el botón Importar, busque y seleccione el archivo solicitud de recuperación (solicitud de restablecimiento) y, a continuación, haga clic en **Aceptar**. ****
+    * Si guardó la solicitud de recuperación (solicitud de restablecimiento) como un archivo en una unidad USB****, haga clic en el botón Importar, busque y seleccione el archivo solicitud de recuperación (solicitud de restablecimiento) y, a continuación, haga clic en **Aceptar**.
 
 16. El código de comprobación de restablecimiento se muestra en Microsoft Surface UEFI Configurator, como se muestra en la figura 13.
 

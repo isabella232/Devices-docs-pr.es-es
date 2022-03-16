@@ -11,23 +11,26 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 1410760fc89d4654322f2bc9b738e87e839251c3
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: bdd91df1f1ce105ecd19ea15e78bd9dc29d0ee95
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154125"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448473"
 ---
 # <a name="run-command-line-app-console-with-surface-diagnostic-toolkit-for-business"></a>Ejecutar la consola de aplicaciones de línea de comandos con Surface Diagnostic Toolkit para empresas
 
-La ejecución del Toolkit de diagnóstico de Surface (SDT) en un símbolo del sistema requiere descargar la consola de la aplicación de SDT. Después de instalarlo, puede ejecutar SDT en un símbolo del sistema a través de la consola de comandos de Windows (cmd.exe) o mediante Windows PowerShell, incluido el entorno de scripting integrado (ISE) de PowerShell, que proporciona compatibilidad con la autocompletar de comandos, copiar y pegar y otras características.  Para obtener una lista de dispositivos Surface compatibles en SDT, consulte [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+La ejecución del Toolkit de diagnóstico de Surface (SDT) en un símbolo del sistema requiere descargar la consola de la aplicación de SDT. Después de instalarlo, puede ejecutar SDT en un símbolo del sistema a través de la consola de comandos de Windows (cmd.exe) o mediante Windows PowerShell, incluido powershell Integrated Scripting Environment (ISE), que proporciona compatibilidad con la autocompletación de comandos, copiar/pegar y otras características.  Para obtener una lista de dispositivos Surface compatibles en SDT, consulta [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 >[!NOTE]
 >Para ejecutar SDT con comandos, debes haber iniciado sesión en la cuenta de administrador o haber iniciado sesión en una cuenta que sea miembro del grupo Administrador en el dispositivo Surface.
 
 ## <a name="running-sdt-app-console"></a>Ejecución de la consola de aplicaciones de SDT
 
-1. Descargue e instale la consola de la aplicación SDT desde la [página de descarga de Surface Tools para TI](https://www.microsoft.com/download/details.aspx?id=46703).
+1. Descarga e instala la consola de la aplicación SDT desde la [página de descarga de Surface Tools para TI](https://www.microsoft.com/download/details.aspx?id=46703).
 
 - Para dispositivos Intel/AMD, descargue: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0.exe**
 - Para ARM dispositivos, descarga: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe**
@@ -64,97 +67,97 @@ Puedes ejecutar pruebas de BPA en componentes clave como BitLocker, Arranque seg
 ### <a name="sample-bpa-results-output"></a>Resultados de BPA de ejemplo
 
 <table>
-<tr><th colspan="2"><font color="00ff00">BitLocker</font></th></tr>
+<tr><th colspan="2">BitLocker</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si BitLocker está habilitado en la unidad del sistema.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Protección en</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Protección en</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>Es muy recomendable habilitar BitLocker para proteger los datos.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Arranque seguro</font></th></tr>
+<tr><th colspan="2">Arranque seguro</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si el arranque seguro está habilitado.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Verdadero</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Verdadero</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>Se recomienda habilitar el arranque seguro para proteger el equipo.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Módulo de plataforma segura</font></th></tr>
+<tr><th colspan="2">Módulo de plataforma segura</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Garantiza que el TPM es funcional.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Verdadero</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Verdadero</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>Sin un TPM funcional, es posible que las funciones basadas en seguridad como BitLocker no funcionen correctamente.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Modo de espera conectado</font></th></tr>
+<tr><th colspan="2">Modo de espera conectado</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si el modo de espera conectado está habilitado.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Verdadero</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Verdadero</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>El modo de espera conectado permite que un dispositivo Surface reciba actualizaciones y notificaciones mientras no se usa. Para obtener la mejor experiencia, debe habilitarse el modo de espera conectado.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Bluetooth</font></th></tr>
+<tr><th colspan="2">Bluetooth</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si Bluetooth está habilitado.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Habilitado</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Habilitado</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td></td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Modo de depuración</font></th></tr>
+<tr><th colspan="2">Modo de depuración</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si el sistema operativo está en modo de depuración.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Normal</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Normal</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>La opción de arranque de depuración habilita o deshabilita la depuración del kernel del Windows sistema operativo. Habilitar esta opción puede provocar inestabilidad en el sistema y evitar que se reen reproducción de medios protegidos con DRM (administración de derechos digitales).</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Firma de prueba</font></th></tr>
+<tr><th colspan="2">Firma de prueba</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si la firma de prueba está habilitada.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Normal</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Normal</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>La firma de prueba es Windows configuración de inicio que solo se debe usar para probar controladores de versión previa.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Plan de energía activo</font></th></tr>
+<tr><th colspan="2">Plan de energía activo</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba que el plan de energía correcto está activo.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Equilibrado</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Equilibrado</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>Se recomienda usar el plan de energía "equilibrado" para maximizar la productividad y la duración de la batería.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="ff9500">Windows Update</font></th></tr>
+<tr><th colspan="2">Windows Update</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si el dispositivo está actualizado con Windows actualizaciones.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>Microsoft Silverlight (KB4023307), actualización de definiciones para Antivirus de Windows Defender - KB2267602 (definición 1.279.1433.0)</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="ff9500">No óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>Microsoft Silverlight (KB4023307), actualización de definiciones para Antivirus de Windows Defender - KB2267602 (definición 1.279.1433.0)</td></tr>
+<tr><td><strong>Condición:</strong></td><td>No óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>La actualización a las ventanas más recientes te asegura de que estás en el firmware y controladores más recientes. Se recomienda mantener siempre actualizado el dispositivo</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Espacio libre en disco duro</font></th></tr>
+<tr><th colspan="2">Espacio libre en disco duro</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si hay poco espacio libre en la unidad de disco duro.</td></tr>
-<tr><td><strong>Valor:</strong></td><td>66%</td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td>66%</td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>Para obtener el mejor rendimiento, el disco duro debe tener al menos el 10 % de su capacidad como espacio libre.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Dispositivos que no funcionan</font></th></tr>
+<tr><th colspan="2">Dispositivos que no funcionan</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Lista de dispositivos que no funcionan en el Administrador de dispositivos.</td></tr>
-<tr><td><strong>Valor:</strong></td><td></td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td></td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>Los dispositivos que no funcionan en el Administrador de dispositivos pueden causar problemas impredecibles con dispositivos Surface, como, entre otros, ningún ahorro de energía para el componente de hardware correspondiente.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Monitor externo</font></th></tr>
+<tr><th colspan="2">Monitor externo</th></tr>
 <tr><td><strong>Descripción:</strong></td><td>Comprueba si hay un monitor externo que pueda tener problemas de compatibilidad.</td></tr>
-<tr><td><strong>Valor:</strong></td><td></td></tr>
-<tr><td><strong>Condición:</strong></td><td><font color="00ff00">Óptimo</font></td></tr>
+<tr><td><strong>Valor: </strong></td><td></td></tr>
+<tr><td><strong>Condición:</strong></td><td>Óptimo</td></tr>
 <tr><td><strong>Instrucciones:</strong></td><td>Comprueba con el fabricante de equipamiento original la compatibilidad con el dispositivo Surface.</td></tr>
 </table>

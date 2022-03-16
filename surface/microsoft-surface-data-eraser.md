@@ -15,12 +15,15 @@ ms.author: greglin
 ms.topic: article
 audience: itpro
 ms.date: 10/06/2021
-ms.openlocfilehash: e97bc719fb93b0a0b74c7ca51b68cbc59efa9f4a
-ms.sourcegitcommit: fe54b2bab8b205302438426b86c0aa8269ff82ea
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: e40c967003fc6dd40725e5015c01497eb3fa141a
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "12081228"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449653"
 ---
 # <a name="microsoft-surface-data-eraser"></a>Borrador de datos de Microsoft Surface
 
@@ -33,12 +36,12 @@ Descubre cómo puedes usar la herramienta Borrador de datos de Microsoft Surface
 
 Los dispositivos Surface compatibles incluyen:
 
-- Surface Laptop Studio
+- SurfaceLaptopStudio
 - Surface Book (todas las ediciones)
 - Surface Go (todas las ediciones)
 - Surface Pro X (todas las ediciones)
 - Surface Laptop (todas las ediciones)
-- Surface Laptop Ir
+- Surface Laptop Go
 - Surface Studio (todas las ediciones)
 - Surface Pro 2 y posteriores
 - Surface 3
@@ -67,11 +70,11 @@ Cuando tengas instalada la herramienta de creación, sigue estos pasos para crea
    :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="Figura 2. Confirmar que la unidad USB de al menos 4 GB está conectada":::<br>
    *Figura 2. Confirmar que la unidad USB de al menos 4 GB está conectada*
 
-4. Elija **x64 (solo para dispositivos 2021+)** para dispositivos 2021 o más recientes, elija **x64** para dispositivos **** 2020 y versiones anteriores o **ARM64** para Surface Pro X en la página Selección de arquitectura, como se muestra en la figura 3. Selecciona **Continuar**.
+4. Elija **x64 (solo para dispositivos 2021+)** para dispositivos 2021 o más recientes, elija **x64** para dispositivos 2020 y anteriores o **ARM64** para Surface Pro X en la página **** Selección de arquitectura, como se muestra en la figura 3. Selecciona **Continuar**.
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig3-select.png" alt-text="Figura 3. Seleccionar arquitectura de dispositivo":::
 
-5. Selecciona la unidad USB que **** prefieras en la página Selección de la **** unidad usb como se muestra en la figura 4 y, a continuación, selecciona Inicio para iniciar el proceso de creación usb. Se formateará la unidad que selecciones y los datos que tengas guardados en esa unidad se perderán.
+5. Selecciona la unidad USB que prefieras en la **** página Selección de la unidad usb como se muestra en la figura 4 y, **** a continuación, selecciona Inicio para iniciar el proceso de creación usb. Se formateará la unidad que selecciones y los datos que tengas guardados en esa unidad se perderán.
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="Figura 4. Selección de unidad usb>":::<br>
    *Figura 4. Selección de unidad USB*
@@ -93,7 +96,7 @@ Cuando tengas instalada la herramienta de creación, sigue estos pasos para crea
 Después de crear un stick USB del Borrador de datos de Microsoft Surface, puedes arrancar un dispositivo Surface compatible desde la memoria USB, si sigues estos pasos:
 
 >[!NOTE]
->Surface Data Eraser en Surface Studio y Surface Studio 2 pueden tardar hasta 6 minutos en arrancarse en WinPE antes de que se produzca la eliminación del disco.
+>Surface Data Eraser en Surface Studio y Surface Studio 2 pueden tardar hasta 6 minutos en arrancar en WinPE antes de que se produzca la eliminación del disco.
 
 1. Inserta el stick USB de arranque del Borrador de datos de Microsoft Surface en el dispositivo Surface compatible.
 
@@ -107,7 +110,7 @@ Después de crear un stick USB del Borrador de datos de Microsoft Surface, puede
    >[!TIP]
    >Si el dispositivo no arranca desde USB tras seguir estos pasos, es posible que debas activar la opción **Enable Alternate Boot Sequence** en la UEFI de Surface. Puedes leer más sobre la configuración de arranque de la UEFI de Surface en [Administrar la configuración de la UEFI de Surface](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).
 
-3. Cuando se inicia el dispositivo Surface, se muestra un archivo de texto **SoftwareLicenseTerms,** como se muestra en la figura 5.
+3. Cuando se inicia el dispositivo Surface, se muestra un archivo de texto **SoftwareLicenseTerms** , como se muestra en la figura 5.
 
    ![Arranque del stick USB borrador de datos de Microsoft Surface.](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
 
@@ -178,8 +181,8 @@ Esta versión de Surface Data Eraser incluye correcciones de errores y agrega co
 
 Esta versión de Surface Data Eraser agrega compatibilidad para:
 
-- Surface Book 3
-- Surface Go 2
+- SurfaceBook3
+- SurfaceGo2
 - Nueva SSD en Surface Go
 
 ### <a name="328137"></a>3.28.137
@@ -212,7 +215,7 @@ Esta versión de Surface Data Eraser:
 
 Esta versión de Surface Data Eraser:
 
-- Agrega compatibilidad a Surface Studio 2
+- Agrega compatibilidad con Surface Studio 2
 - Corrige problemas con la tarjeta SD
 
 ### <a name="version-32690"></a>Versión 3.2.69.0
@@ -260,4 +263,4 @@ Esta versión de Borrador de datos de Microsoft Surface agrega compatibilidad co
 - Surface Laptop
 
 >[!NOTE]
->La herramienta de creación de unidad USB del Borrador de datos de Microsoft Surface no se puede ejecutar en Windows 10S. Para borrar un dispositivo Surface Laptop que ejecuta Windows 10S, primero debes crear la unidad USB del Borrador de datos de Microsoft Surface en otro equipo con Windows 10 Pro o Windows 10 Enterprise.
+>La herramienta de creación de la unidad USB borrador de datos de Microsoft Surface no se puede ejecutar en Windows 10 S. Para borrar un Surface Laptop que ejecuta Windows 10 S, primero debes crear la unidad USB borrador de datos de Microsoft Surface en otro equipo con Windows 10/11 Pro o Windows 10/11 Enterprise.

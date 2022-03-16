@@ -14,16 +14,19 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: b47838a7f0bd0df7bf71479f8217104332cfd0c3
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: cb101ece861b19bab43b0e3356a1109389eebb2f
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338083"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448363"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>Implementar la aplicación Surface con Microsoft Store para Empresas y Educación
 
-**Se aplica a**
+**Se aplica a:**
 
 - Surface Laptop (todas las generaciones)
 - Surface Pro 3 y posteriores
@@ -31,7 +34,7 @@ ms.locfileid: "12338083"
 - Surface Go (todas las generaciones)
 - Surface Book (todas las generaciones)
 - Surface Studio (todas las generaciones)
-- Surface Laptop Studio
+- SurfaceLaptopStudio
 - Surface Pro con LTE avanzada (modelo 1807)
 - Surface Pro (modelo 1796)
 - Surface 3 LTE
@@ -39,14 +42,14 @@ ms.locfileid: "12338083"
 
 La aplicación Surface es una aplicación Microsoft Store ligera que proporciona control de muchas opciones y configuraciones específicas de Surface con acceso rápido a la información del dispositivo, incluido el número de serie, el nombre del modelo de Surface, la versión UEFI y los controladores relacionados.  
 
-Los clientes que Windows update recibirán normalmente la aplicación Surface como parte de las actualizaciones automáticas. Pero si tu organización está preparando imágenes para la implementación en tus dispositivos Surface, es posible que quieras incluir la aplicación Surface (anteriormente denominada Surface Hub) en el proceso de creación de imágenes e implementación en lugar de requerir que los usuarios de cada dispositivo individual descarguen e instalen la aplicación desde el Microsoft Store o desde tu Microsoft Store para Empresas. 
+Los clientes que usan Windows update normalmente recibirán la aplicación Surface como parte de las actualizaciones automáticas. Pero si tu organización está preparando imágenes para la implementación en tus dispositivos Surface, es posible que quieras incluir la aplicación Surface (anteriormente denominada Surface Hub) en el proceso de creación de imágenes e implementación en lugar de requerir que los usuarios de cada dispositivo individual descarguen e instalen la aplicación desde el Microsoft Store o desde tu Microsoft Store para Empresas. 
 
 > [!NOTE]
 > Este artículo no se aplica a Surface Pro X. Para obtener más información, consulte [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md)
 
 ## <a name="surface-app-overview"></a>Introducción a la aplicación Surface
 
-La aplicación Surface está disponible como descarga gratuita desde el [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Los usuarios pueden descargarlo e instalarlo desde el Microsoft Store, pero si su organización usa Microsoft Store para Empresas en su lugar, tendrá que agregarlo al inventario de la tienda y posiblemente incluir la aplicación como parte del proceso de implementación de Windows. Estos procesos se de abordan a lo largo de este artículo. Para obtener más información acerca Microsoft Store para Empresas, [vea Microsoft Store para Empresas](/microsoft-store/). 
+La aplicación Surface está disponible como descarga gratuita desde el [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Los usuarios pueden descargarlo e instalarlo desde el Microsoft Store, pero si su organización usa Microsoft Store para Empresas en su lugar, tendrá que agregarlo al inventario de la tienda y posiblemente incluir la aplicación como parte del proceso de implementación de Windows. Estos procesos se de abordan a lo largo de este artículo. Para obtener más información sobre Microsoft Store para Empresas, [vea Microsoft Store para Empresas](/microsoft-store/). 
 
 ## <a name="add-surface-app-to-a-microsoft-store-for-business-account"></a>Agregar aplicación Surface a una cuenta Microsoft Store para Empresas usuario 
 
@@ -56,7 +59,7 @@ Para que los usuarios puedan instalar o implementar una aplicación desde la cue
 
 2. Inicie sesión en el portal. 
 
-3. Habilitar licencias **** sin conexión: haga clic **en Administrar** **** >  Configuración y, a continuación, seleccione la casilla Mostrar aplicaciones con licencia sin conexión a las personas que compran en la tienda, como se muestra en la figura 1. Para obtener más información sobre Microsoft Store para Empresas de licencias de aplicaciones, consulta [Aplicaciones en Microsoft Store para Empresas y Educación](/microsoft-store/).
+3. Habilitar licencias sin conexión: haga clic en **Administrar** >  **Configuración y, a continuación**, active la casilla Mostrar aplicaciones con licencia sin conexión a las personas que compran en la tienda, como se muestra en la figura 1.**** Para obtener más información sobre Microsoft Store para Empresas de licencias de aplicaciones, consulta [Aplicaciones en Microsoft Store para Empresas y Educación](/microsoft-store/).
 
    > [!div class="mx-imgBorder"]
    > ![Casilla Mostrar aplicaciones de licencias sin conexión.](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
@@ -84,7 +87,7 @@ Para que los usuarios puedan instalar o implementar una aplicación desde la cue
       
     * Haga clic en **Aceptar**.
 
-## <a name="download-surface-app-from-a-microsoft-store-for-business-account"></a>Descargar la aplicación Surface desde una cuenta Microsoft Store para Empresas usuario
+## <a name="download-surface-app-from-a-microsoft-store-for-business-account"></a>Descargar la aplicación Surface desde una Microsoft Store para Empresas cuenta
 Después de agregar una aplicación a la cuenta Microsoft Store para Empresas en modo sin conexión, puedes descargar y agregar la aplicación como AppxBundle a un recurso compartido de implementación.
 
 1. Inicie sesión en la cuenta Microsoft Store para Empresas en https://businessstore.microsoft.com.
@@ -101,7 +104,7 @@ Después de agregar una aplicación a la cuenta Microsoft Store para Empresas en
     
 5. Haga clic **en Descargar**. Se descargará el paquete AppxBundle. Asegúrese de tener en cuenta la ruta de acceso del archivo descargado porque lo necesitará más adelante en este artículo.
 
-6. Haga clic en **la opción Licencia codificada** o **Licencia sin codificar** . Use la opción De licencia codificada con herramientas de administración como Microsoft Endpoint Configuration Manager o cuando use Windows Configuration Designer para crear un paquete de aprovisionamiento. Seleccione la opción Licencia sin codificar cuando use administración y mantenimiento de imágenes de implementación (DISM) o soluciones de implementación basadas en imágenes, incluida la Toolkit de implementación de Microsoft (MDT).
+6. Haga clic en **la opción Licencia codificada** o **Licencia sin codificar** . Use la opción Licencia codificada con herramientas de administración como Microsoft Endpoint Configuration Manager o cuando use Windows Configuration Designer para crear un paquete de aprovisionamiento. Seleccione la opción Licencia sin codificar cuando use administración y mantenimiento de imágenes de implementación (DISM) o soluciones de implementación basadas en imágenes, incluida la Toolkit de implementación de Microsoft (MDT).
 
 7. Haz **clic en** Generar para generar y descargar la licencia de la aplicación. Asegúrese de tener en cuenta la ruta de acceso del archivo de licencia, ya que lo necesitará más adelante en este artículo.
 
@@ -115,21 +118,21 @@ En la figura 5 se muestran los marcos necesarios para la aplicación Surface.
 *Figura 5. Marcos necesarios para la aplicación Surface*
 
 >[!NOTE]
->Los números de versión de la aplicación Surface y los marcos necesarios cambiarán a medida que se actualicen las aplicaciones. Busca la versión más reciente de la aplicación Surface y cada marco en Microsoft Store para Empresas. Usa siempre la aplicación Surface y las versiones recomendadas del marco según lo Microsoft Store para Empresas. El uso de marcos obsoletos o las versiones incorrectas puede provocar errores o bloqueos de aplicaciones.
+>Los números de versión de la aplicación Surface y los marcos necesarios cambiarán a medida que se actualicen las aplicaciones. Busca la versión más reciente de la aplicación Surface y cada marco en Microsoft Store para Empresas. Usa siempre la aplicación Surface y las versiones de marco recomendadas según lo Microsoft Store para Empresas. El uso de marcos obsoletos o las versiones incorrectas puede provocar errores o bloqueos de aplicaciones.
 
 Para descargar los marcos necesarios para la aplicación Surface, sigue estos pasos:
 
 1. Haga clic **en** el botón **Descargar Microsoft.VCLibs.140.00_14.0.23816.0_x64__8wekyb3d8bbwe**. Esto descarga el Microsoft.VCLibs.140.00_14.0.23816.0_x64__8wekyb3d8bbwe. Appx en la carpeta especificada.
 
-2. Haga clic **en** el botón **Descargar Microsoft.NET.Native.Runtime.1.1_1.1.23406.0_x64__8wekyb3d8bbwe**. Esto descarga el Microsoft.NET.Native.Runtime.1.1_1.1.23406.0_x64__8wekyb3d8bbwe. Appx en la carpeta especificada.
+2. Haga clic **en** el **botón Descargar Microsoft.NET.Native.Runtime.1.1_1.1.23406.0_x64__8wekyb3d8bbwe**. Esto descarga el Microsoft.NET.Native.Runtime.1.1_1.1.23406.0_x64__8wekyb3d8bbwe. Appx en la carpeta especificada.
 
 >[!NOTE]
->Solo se requiere la versión de 64 bits (x64) de cada marco para dispositivos Surface. Los dispositivos Surface son dispositivos UEFI nativos de 64 bits y no son compatibles con las versiones de 32 bits (x86) de Windows que requerirían marcos de 32 bits. 
+>Solo se requiere la versión de 64 bits (x64) de cada marco para dispositivos Surface. Los dispositivos Surface son dispositivos UEFI nativos de 64 bits y no son compatibles con versiones de 32 bits (x86) de Windows que requerirían marcos de 32 bits. 
 
 ## <a name="install-surface-app-on-your-computer-with-powershell"></a>Instalar la aplicación Surface en el equipo con PowerShell
 El siguiente procedimiento aprovisiona la aplicación Surface en el equipo y la hace disponible para las cuentas de usuario creadas en el equipo posteriormente.
 
-1. Mediante el procedimiento descrito en la sección Cómo descargar la aplicación Surface desde una cuenta de [Microsoft Store para Empresas](#download-surface-app-from-a-microsoft-store-for-business-account) de este artículo, descarga el appxBundle de la aplicación Surface y el archivo de licencia. 
+1. Mediante el procedimiento descrito en la sección Cómo descargar la aplicación Surface desde una cuenta de [Microsoft Store para Empresas](#download-surface-app-from-a-microsoft-store-for-business-account) de este artículo, descarga la aplicación Surface AppxBundle y el archivo de licencia. 
 
 2. Comienza una sesión de PowerShell con privilegios elevados.
 
@@ -142,7 +145,7 @@ El siguiente procedimiento aprovisiona la aplicación Surface en el equipo y la 
     Add-AppxProvisionedPackage –Online –PackagePath <DownloadPath>\ Microsoft.SurfaceHub_10.0.342.0_neutral_~_8wekyb3d8bbwe.AppxBundle –LicensePath <DownloadPath>\ Microsoft.SurfaceHub_8wekyb3d8bbwe_a53ef8ab-9dbd-dec1-46c5-7b664d4dd003.xml
     ```
 
-    Dónde `<DownloadPath>` es la carpeta en la que descargó el archivo appxBundle y la licencia de la Microsoft Store para Empresas cuenta.
+    Dónde `<DownloadPath>` es la carpeta en la que descargó el archivo AppxBundle y la licencia de la cuenta Microsoft Store para Empresas usuario.
 
     Por ejemplo, si descargó los archivos a c:\Temp, el comando que ejecuta es:
     

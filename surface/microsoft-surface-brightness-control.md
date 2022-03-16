@@ -12,12 +12,15 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 660a96a8825002c6d52d067dac77894bb0c0b7a9
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7c27bacde65ef8c0fab75b123283bf2e6699afed
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337833"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449113"
 ---
 # <a name="surface-brightness-control"></a>Control de brillo de Surface
 
@@ -35,7 +38,7 @@ Descarga Surface Brightness Control de [Surface Tools para TI](https://www.micro
 - Surface Pro X (todas las generaciones)
 - Surface 3
 - Surface Book (todas las generaciones)
-- Surface Laptop Studio
+- SurfaceLaptopStudio
 - Surface Studio (todas las generaciones)
 - Surface Laptop (todas las generaciones)
 - Surface Laptop Go
@@ -44,7 +47,7 @@ Descarga Surface Brightness Control de [Surface Tools para TI](https://www.micro
 
 ## <a name="run-surface-brightness-control"></a>Ejecutar control de brillo de Surface
 
-- Instala **Surface_Brightness_Control_v1.16.137.0.msi** en el dispositivo de destino y el control de brillo de Surface empezará a funcionar inmediatamente.
+- Instala **Surface_Brightness_Control_v1.16.137.0.msi** en el dispositivo de destino y el Control de brillo de Surface empezará a funcionar inmediatamente.
 
 ## <a name="configure-surface-brightness-control"></a>Configurar el control de brillo de Surface
 
@@ -55,7 +58,7 @@ Puede ajustar los valores predeterminados a través del Windows registro. Para o
 3. Ajuste los valores de clave del Registro, como se describe en la tabla siguiente.
 
 > [!TIP]
-> Si estás ejecutando una versión anterior del control de brillo de Surface, ve a: Pc\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\SurfaceBrightnessControl\
+> Si estás ejecutando una versión anterior del control de brillo de Surface, ve a: Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\SurfaceBrightnessControl\
 
 | Configuración del Registro | Datos| Descripción  
 |-----------|------------|---------------

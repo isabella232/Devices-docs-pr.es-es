@@ -1,5 +1,5 @@
 ---
-title: Puertos seguros de Surface Dock 2 con surface Enterprise management mode (SEMM)
+title: Puertos seguros de Surface Dock 2 con surface Enterprise Management Mode (SEMM)
 description: Este documento proporciona instrucciones para configurar las opciones de puerto UEFI para Surface Dock 2 cuando se conectan a dispositivos Surface compatibles, incluidos Surface Book 3, Surface Laptop 3 y Surface Pro 7.
 ms.assetid: 2808a8be-e2d4-4cb6-bd53-9d10c0d3e1d6
 ms.reviewer: ''
@@ -15,25 +15,28 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 7f9d1bd0b1d8e23432b0e855b2ec5c55d49c250c
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 3eae976b1559c59bf44a94a62eb98dd3a3687424
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338113"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448493"
 ---
-# <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>Puertos seguros de Surface Dock 2 con surface Enterprise management mode (SEMM)
+# <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>Puertos seguros de Surface Dock 2 con surface Enterprise Management Mode (SEMM)
 
 ## <a name="introduction"></a>Introducción
 
-El modo de administración de Surface Enterprise (SEMM) permite a los administradores de TI proteger y administrar puertos de Surface Dock 2 mediante la configuración de UEFI en un paquete de configuración de instalador de Windows (archivo .msi) implementado en dispositivos Surface compatibles en un entorno corporativo.
+El modo de administración de Surface Enterprise (SEMM) permite a los administradores de TI proteger y administrar puertos de Surface Dock 2 mediante la configuración de uefi en un paquete de configuración de instalador de Windows (archivo .msi) implementado en dispositivos Surface compatibles en un entorno corporativo.
 
 ### <a name="supported-devices"></a>Dispositivos compatibles
 
 La administración de Surface Dock 2 con SEMM está disponible para docks conectados a Surface Book 3, Surface Laptop Studio, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7 y Surface Pro X. Estos dispositivos Surface compatibles se conocen comúnmente como **dispositivos host**. Un paquete se aplica a los dispositivos host en función de si un dispositivo host está **autenticado** o **no autenticado**. La configuración reside en la capa UEFI en dispositivos host que te permiten, el administrador de TI, administrar Surface Dock 2 como cualquier otro periférico integrado, como la cámara.
 
 >[!NOTE]
->Solo puedes administrar puertos de Surface Dock 2 cuando la base de datos esté conectada a uno de los siguientes dispositivos compatibles: Surface Pro 8, Surface Laptop Studio, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, y Surface Pro 7. Cualquier dispositivo que no reciba la configuración de directiva autenticada uefi es inherentemente un dispositivo no autenticado.
+>Solo puedes administrar puertos de Surface Dock 2 cuando el dock esté conectado a uno de los siguientes dispositivos compatibles: Surface Pro 8, Surface Laptop Studio, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, y Surface Pro 7. Cualquier dispositivo que no reciba la configuración de directiva autenticada uefi es inherentemente un dispositivo no autenticado.
 
 ### <a name="scenarios"></a>Escenarios
 
@@ -49,7 +52,7 @@ En esta sección se proporcionan instrucciones paso a paso para las siguientes t
    1. Agregue los certificados.
    1. Escribe el número de RN de 16 dígitos para tus dispositivos Surface Dock 2.
    1. Configurar las opciones de UEFI.
-1. Crear y aplicar el paquete de configuración a dispositivos Surface de destino (Surface Book 3, Surface Laptop 3 o Surface Pro 7).
+1. Crea y aplica el paquete de configuración a dispositivos Surface de destino (Surface Book 3, Surface Laptop 3 o Surface Pro 7).
 
 >[!NOTE]
 >El **número aleatorio (RN)** es un identificador de código hexadecimal de 16 dígitos único que se aprovisiona en la fábrica y se imprime en un tipo pequeño en la parte inferior del dock. El RN difiere de la mayoría de los números de serie en que no se puede leer electrónicamente. Esto garantiza que la prueba de propiedad se establece principalmente solo mediante la lectura de la RN al acceder físicamente al dispositivo. El RN también puede obtenerse durante la transacción de compra y se registra en sistemas de inventario de Microsoft.
@@ -66,9 +69,9 @@ En esta sección se proporcionan especificaciones para crear los certificados ne
 
 ### <a name="prerequisites"></a>Requisitos previos
 
-En este artículo se supone que obtiene certificados de un proveedor de terceros o que ya tiene experiencia en servicios de certificados de PKI y sabe cómo crear los suyos propios.  Debes estar familiarizado con las recomendaciones generales para crear certificados, como se describe en la documentación del Modo de administración de [Surface Enterprise (SEMM](surface-enterprise-management-mode.md)), con una excepción. Los certificados documentados en esta página requieren plazos de expiración de 30 años para la entidad de certificación de **acoplamiento y** 20 años para el certificado de autenticación **de host**.
+En este artículo se supone que obtiene certificados de un proveedor de terceros o que ya tiene experiencia en servicios de certificados de PKI y sabe cómo crear los suyos propios.  Debes familiarizarte con las recomendaciones generales para crear certificados, como se describe en la documentación del Modo de administración de [Surface Enterprise (SEMM](surface-enterprise-management-mode.md)), con una excepción. Los certificados documentados en esta página requieren plazos de expiración de 30 años para la entidad de certificación de **acoplamiento y** 20 años para el certificado de autenticación **de host**.
 
-Para obtener más información, vea la documentación de [arquitectura](/windows/win32/seccrypto/certificate-services-architecture) de servicios de certificados y revise los capítulos correspondientes en [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277) o [Windows Server 2008 PKI y Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) disponibles en Microsoft Press.
+Para obtener más información, [](/windows/win32/seccrypto/certificate-services-architecture) vea la documentación sobre arquitectura de servicios de certificados y revise los capítulos correspondientes en [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277) o [Windows Server 2008 PKI y Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) disponibles en Microsoft Press.
 
 ### <a name="root-and-host-certificate-requirements"></a>Requisitos de certificados raíz y host
 
@@ -102,7 +105,7 @@ Cada dispositivo host debe tener la ca de documento y dos certificados, como se 
 
 ### <a name="create-configuration-package"></a>Crear paquete de configuración
 
-Cuando haya obtenido o creado los certificados, estará listo para crear el paquete de configuración .msi que se aplicará a los dispositivos Surface de destino.
+Cuando haya obtenido o creado los certificados, estará listo para crear el paquete de configuración de .msi que se aplicará a los dispositivos Surface de destino.
 
 1. Ejecuta Surface **UEFI Configurator**.
 
@@ -133,7 +136,7 @@ Cuando haya obtenido o creado los certificados, estará listo para crear el paqu
 
 ### <a name="apply-the-configuration-package-to-a-surface-dock-2"></a>Aplicar el paquete de configuración a Surface Dock 2
 
-1. Toma el .msi que generó el Configurador de UEFI de Surface e instállo en un dispositivo host de Surface. Los dispositivos host compatibles Surface Book 3, Surface Laptop Studio, Surface Laptop 3, Surface Laptop 4, Surface Pro 7+ y Surface Pro 7.
+1. Toma el .msi que generó el Configurador de UEFI de Surface e instállo en un dispositivo host de Surface. Los dispositivos host compatibles Surface Book 3, Surface Laptop Studio, Surface Laptop 3, Surface Laptop 4, Surface Pro 7+y Surface Pro 7.
 1. Conectar el dispositivo host a Surface Dock 2. Al conectar la configuración de directiva UEFI de acoplamiento se aplica.
 
 ## <a name="verify-managed-state-using-the-surface-app"></a>Comprobar el estado administrado con Surface App

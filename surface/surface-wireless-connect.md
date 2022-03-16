@@ -12,14 +12,17 @@ ms.topic: article
 ms.reviewer: tokatz
 manager: laurawi
 ms.date: 11/30/2021
-ms.openlocfilehash: e031b485979b20d6206398840466d553772b6f1d
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 2f0aaaff212475887c3cf446709947d4e960c353
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338253"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449313"
 ---
-# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>Optimizar Wi-Fi conectividad en dispositivos Surface
+# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>Optimizar la conectividad Wi-Fi en dispositivos Surface
 
 Para mantener la conexión con la duración de la batería durante todo el día, los dispositivos Surface implementan configuraciones de conectividad inalámbrica que equilibran el rendimiento y la conservación de la energía. Fuera de las cargas de trabajo de movilidad más exigentes, los usuarios pueden mantener una conectividad inalámbrica suficiente sin modificar el adaptador de red predeterminado o la configuración relacionada. En esta página se destacan las consideraciones clave de conectividad inalámbrica en escenarios móviles con dispositivos Surface.
 
@@ -60,7 +63,7 @@ En la mayoría de los dispositivos Surface, puedes configurar la configuración 
 Tenga en cuenta que 2,4 GHz tiene algunas ventajas sobre 5 GHz: se extiende más lejos y penetra más fácilmente a través de las paredes u otros objetos sólidos. A menos que tenga un caso de uso claro que amerite la conexión a 5 GHz, se recomienda dejar la configuración banda en el estado predeterminado para evitar posibles consecuencias negativas. Por ejemplo:
 
 - Muchos puntos de acceso que se encuentran en los hoteles, cafeterías y aeropuertos todavía solo usan 2,4 GHz, lo que bloquea eficazmente el acceso a los dispositivos si Band está establecido en 5 GHz solo.
-- Dado que Miracast conexiones de pantalla inalámbrica requieren que el protocolo de enlace inicial se complete a través de canales de 2,4 GHz, los dispositivos no podrán conectarse solo a 5 GHz.
+- Dado Miracast las conexiones de pantalla inalámbrica requieren que el protocolo de enlace inicial se complete a través de canales de 2,4 GHz, los dispositivos no podrán conectarse solo a 5 GHz.
 
 > [!NOTE]
 > De forma predeterminada, los dispositivos Surface prefieren conectarse a 5 GHz si están disponibles. Sin embargo, Surface buscará primero una conexión de 2,4 GHz para conservar la energía en un estado de batería baja.

@@ -11,12 +11,15 @@ ms.topic: article
 ms.reviewer: carlol
 ms.date: 06/29/2021
 manager: laurawi
-ms.openlocfilehash: b130f6b0bf52dc1c3a28231a2330cae51a5ef44a
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 3b6525c979160d6f732e330086565c3de6f73cbd
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643836"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449153"
 ---
 # <a name="surface-asset-tag-tool"></a>Herramienta de etiqueta de activos de Surface
 
@@ -32,7 +35,7 @@ Surface Asset Tag es una utilidad de interfaz de línea de comandos (CLI) que te
 
 Para ejecutar la etiqueta de activos de Surface:
 
-1. En el dispositivo Surface, descarga **Surface Asset Tag.zip** desde el Centro de descarga de [Microsoft,](https://www.microsoft.com/download/details.aspx?id=46703)extrae el archivo zip y guarda AssetTag.exe en la carpeta deseada (en este ejemplo, C:\\assets).
+1. En el dispositivo Surface, descarga **Surface Asset Tag.zip** desde el Centro de descarga de [Microsoft](https://www.microsoft.com/download/details.aspx?id=46703), extrae el archivo zip y guarda AssetTag.exe en la carpeta deseada (en este ejemplo, C:\\assets).
 
     > [!NOTE]
     > Para Surface Pro X, use la aplicación denominada **AssetTag_x86** en el archivo ZIP.
@@ -71,7 +74,7 @@ C:\assets\AssetTag.exe -s testassettag12
 
 ## <a name="managing-asset-tags"></a>Administración de etiquetas de activos
 
-Puedes ver la etiqueta de activo existente en la configuración de UEFI en Información del dispositivo ( Panel de**control > Recuperación**> inicio > reiniciar ahora ).)
+Puedes ver la etiqueta de activo existente en la configuración de UEFI en Información del dispositivo (**Panel de control > recuperación > inicio > reiniciar ahora**).
 
 En la figura siguiente se muestran los resultados de la ejecución de la Herramienta de etiqueta de activos en Surface Go.
 

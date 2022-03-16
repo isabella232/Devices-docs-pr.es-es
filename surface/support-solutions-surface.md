@@ -15,26 +15,29 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 65cd0822f9419d2a2b678c598681891539855c9f
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 0308c2e721e441ebb354e6cfb8a22a5a5a26d268
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939531"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449453"
 ---
 # <a name="top-support-solutions-for-surface-devices"></a>Soluciones principales de soporte técnico para dispositivos Surface
 
 > [!Note]
-> **Usuarios del**hogar: este artículo solo está pensado para su uso por profesionales de TI y agentes de soporte técnico, y se aplica solo a dispositivos Surface. Si estás buscando ayuda con un problema con el dispositivo principal, consulta [Ayuda de Dispositivos Surface](https://support.microsoft.com/products/surface-devices).
+> **Usuarios del** hogar: este artículo solo está pensado para su uso por profesionales de TI y agentes de soporte técnico, y solo se aplica a dispositivos Surface. Si buscas ayuda con un problema con el dispositivo principal, consulta [Ayuda de dispositivos Surface](https://support.microsoft.com/products/surface-devices).
 
-Estas son las soluciones de soporte técnico de Microsoft para problemas comunes que puede experimentar el uso de dispositivos Surface en una empresa. Si el problema no aparece aquí, ponte [en contacto con el soporte técnico de Surface](contact-surface-support.md?tabs=online).
+Estas son las soluciones de soporte técnico de Microsoft para problemas comunes que puede experimentar el uso de dispositivos Surface en una empresa. Si el problema no aparece aquí, [ponte en contacto con el soporte técnico de Surface](contact-surface-support.md?tabs=online).
 
 ## <a name="surface-drivers-and-firmware"></a>Controladores y firmware de Surface
 
 Microsoft publica periódicamente actualizaciones y soluciones para dispositivos Surface. Para garantizar que los dispositivos pueden recibir actualizaciones futuras, incluidas las actualizaciones de seguridad, es importante mantener los dispositivos Surface actualizados.
 
 - [Historial de actualizaciones de Surface](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)
-- [Instalar actualizaciones de Surface y Windows de dispositivos](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?os=windows-10&=undefined)
+- [Instalar actualizaciones de Surface y Windows de datos](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?os=windows-10&=undefined)
 - [Descargar controladores y firmware para Surface](https://support.microsoft.com/help/4023482)
 - [Administrar e implementar actualizaciones de controladores y firmware de Surface](manage-surface-driver-and-firmware-updates.md)
 - [Cómo administrar las actualizaciones de controladores de Surface en Configuration Manager](https://support.microsoft.com/help/4098906)
@@ -69,6 +72,6 @@ Microsoft publica periódicamente actualizaciones y soluciones para dispositivos
 ## <a name="deployment-issues"></a>Problemas de implementación
 
 - [NO SE ENCONTRÓ DISK0 al implementar Windows en Surface Pro modelo 1796 o Surface Laptop](https://support.microsoft.com/help/4046108)
-- [Surface Pro Modelo 1796 y Surface Laptop 1 TB muestran dos unidades](https://support.microsoft.com/help/4046105)
+- [Surface Pro modelo 1796 y Surface Laptop 1 TB muestran dos unidades](https://support.microsoft.com/help/4046105)
 - [Referencia de SKU del sistema](surface-system-sku-reference.md)
 

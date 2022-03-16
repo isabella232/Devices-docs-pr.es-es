@@ -12,12 +12,15 @@ ms.date: 12/10/2021
 ms.reviewer: gusing
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: dd72bf940309fe9f3d7b4bf334a94a557cffe016
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 28ad64b41dedb7d66092cf98388920a732fee737
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338659"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449683"
 ---
 # <a name="optimize-video-conferencing-on-surface-devices"></a>Optimizar las videoconferencias en dispositivos Surface
 
@@ -34,10 +37,10 @@ Microsoft publica actualizaciones periódicamente para dispositivos Surface y ha
 
 ### <a name="get-updates-to-all-devices"></a>Obtener actualizaciones en todos los dispositivos
 
-Asegúrese de que su organización tiene un proceso para que sus dispositivos reciban estas actualizaciones. Si estás usando Windows update o [Windows update para](/windows/deployment/update/waas-manage-updates-wufb) empresas, ya estás recibiendo las últimas actualizaciones de Surface cuando se lanzan. Comprueba si hay actualizaciones con Windows update y comprueba que se hayan instalado las actualizaciones más recientes de Surface. Para obtener más información, vea:
+Asegúrese de que su organización tiene un proceso para que sus dispositivos reciban estas actualizaciones. Si usas la actualización Windows o [Windows para](/windows/deployment/update/waas-manage-updates-wufb) empresas, ya estás recibiendo las últimas actualizaciones de Surface cuando se lanzan. Comprueba si hay actualizaciones con Windows update y comprueba que se hayan instalado las actualizaciones más recientes de Surface. Para obtener más información, vea:
 
 - [Historial de actualizaciones de Surface](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)
-- [Instalar actualizaciones de Surface y Windows de dispositivos](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?)
+- [Instalar actualizaciones de Surface y Windows de datos](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?)
 
 Si usas otras opciones para instalar los controladores de Surface y las actualizaciones de firmware, deberás instalar las actualizaciones más recientes de Surface manualmente con los archivos MSI publicados o instalar las actualizaciones con Configuration Manager. Para obtener más información, vea:
 
@@ -56,7 +59,7 @@ Los modelos de dispositivos Surface más recientes con procesadores Intel de 10 
 
 Los dispositivos Surface pueden ajustar la configuración de energía relacionada con el rendimiento cambiando la posición del control deslizante de potencia de rendimiento Windows en Windows 10, también conocido como modo de energía en Windows 11.
 
-Algunos dispositivos Surface han recibido actualizaciones que incluyen optimizaciones de configuración de energía para cargas de trabajo de videoconferencia basadas en la posición del control deslizante de energía o el modo de alimentación. Sin embargo, como Windows 10 y Windows 11 usan la posición del control deslizante de **** energía recomendada y la posición del modo de alimentación para cargas de trabajo de videoconferencia, deberá ajustar el control deslizante de energía para habilitar estas optimizaciones:
+Algunos dispositivos Surface han recibido actualizaciones que incluyen optimizaciones de configuración de energía para cargas de trabajo de videoconferencia basadas en la posición del control deslizante de energía o el modo de alimentación. Sin embargo, dado que Windows 10 y Windows 11 usan la posición del control deslizante de **** energía recomendada y la posición del modo de alimentación para cargas de trabajo de videoconferencia, deberá ajustar el control deslizante de energía para habilitar estas optimizaciones:
 
 1. Conectar a la alimentación de CA (las optimizaciones no se ejecutarán al usar la batería).  
 2. Ajusta la posición del control deslizante o del modo de alimentación para usar **Mejor rendimiento** o **Mejor rendimiento.**

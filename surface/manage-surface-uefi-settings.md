@@ -13,12 +13,15 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 01/18/2022
-ms.openlocfilehash: 94e39a67ef80e4e95db3441778af915d2e535bab
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7da3a2908acc654abd86406af36eba4929bf4760
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338196"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449663"
 ---
 # <a name="manage-surface-uefi-settings"></a>Administrar la configuración de la UEFI de Surface
 
@@ -41,7 +44,7 @@ La administración de UEFI se admite en lo siguiente:
 
 ## <a name="support-for-cloud-based-management"></a>Compatibilidad con la administración basada en la nube
 
-Con los perfiles de la Interfaz de configuración de firmware de dispositivo (DFCI) integrados en Microsoft Intune (ahora disponibles en la versión preliminar pública), la administración de UEFI de Surface amplía la pila de administración moderna hasta el nivel de hardware uefi. DFCI admite el aprovisionamiento sin intervención, elimina las contraseñas del BIOS, proporciona control de la configuración de seguridad, incluidas las opciones de arranque y los periféricos integrados, y establece las bases para escenarios de seguridad avanzados en el futuro. DFCI está disponible actualmente para DFCI está disponible actualmente para Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 y Surface Pro X.   Para obtener más información, consulta [Administración de Intune de la configuración de UEFI de Surface](surface-manage-dfci-guide.md).
+Con perfiles de interfaz de configuración de firmware de dispositivo (DFCI) integrados en Microsoft Intune (ahora disponible en versión preliminar pública), la administración de UEFI de Surface amplía la pila de administración moderna hasta el nivel de hardware uefi. DFCI admite el aprovisionamiento sin intervención, elimina las contraseñas del BIOS, proporciona control de la configuración de seguridad, incluidas las opciones de arranque y los periféricos integrados, y establece las bases para escenarios de seguridad avanzados en el futuro. DFCI está disponible actualmente para Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 y Surface Pro X.   Para obtener más información, consulta [Administración de Intune de la configuración de UEFI de Surface](surface-manage-dfci-guide.md).
 
 ## <a name="open-surface-uefi-menu"></a>Menú Abrir UEFI de Surface
 
@@ -161,7 +164,7 @@ También puedes activar y desactivar la compatibilidad con IPv6 PXE con la opci�
 
 ## <a name="uefi-menu-management"></a>Menú UEFI: Administración
 
-La página Administración te permite administrar el uso de La administración de UEFI sin contacto y otras características en dispositivos aptos, como Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4 , Surface Laptop 3, Surface Laptop SE y Surface Book 3. 
+La página Administración te permite administrar el uso de La administración de UEFI táctil cero y otras características en dispositivos elegibles, como Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4 , Surface Laptop 3, Surface Laptop SE y Surface Book 3. 
 
 :::image type="content" alt-text="Administrar el acceso a Zero Touch UEFI Management y otras características." source="images/manage-surface-uefi-fig7a.png":::
 

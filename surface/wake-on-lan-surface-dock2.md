@@ -14,16 +14,19 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 11/30/2021
-ms.openlocfilehash: 09982dff2e44ffc2ebe9b890588e5a62a3259cf5
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8f09941b555ba1b0870bd1e27fa1b85d0d72a19c
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338493"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448443"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>Wake on LAN con Surface Dock 2
 
-Para mantener los dispositivos totalmente actualizados, los administradores de TI deben poder administrar dispositivos cuando no están en uso, normalmente durante las ventanas de mantenimiento nocturnas. Surface Dock 2 proporciona la mejor compatibilidad con Wake on LAN (WOL) que permite a los administradores activar dispositivos Surface de forma remota y realizar automáticamente tareas de administración con Microsoft Endpoint Manager soluciones de terceros.
+Para mantener los dispositivos totalmente actualizados, los administradores de TI deben poder administrar dispositivos cuando no están en uso, normalmente durante las ventanas de mantenimiento nocturnas. Surface Dock 2 proporciona la mejor compatibilidad con Wake on LAN (WOL) que permite a los administradores activar de forma remota dispositivos Surface y realizar automáticamente tareas de administración con Microsoft Endpoint Manager u otras soluciones de terceros.
 
 ## <a name="requirements"></a>Requisitos
 
@@ -40,14 +43,14 @@ Los dispositivos deben tener una conexión por cable con Surface Dock 2 y manten
 - Surface Laptop 4 (procesadores Intel)
 - Surface Laptop 4 (procesadores AMD)
 - Surface Laptop 3 (procesadores Intel)
-- Surface Pro 8
+- SurfacePro8
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
 - Surface Go (todas las generaciones)
 - Surface Laptop Go
-- Surface Book 3
-- Surface Laptop Studio
+- SurfaceBook3
+- SurfaceLaptopStudio
 
 Surface Dock 2 proporciona compatibilidad con WOL para dispositivos en los siguientes estados de energía:
 

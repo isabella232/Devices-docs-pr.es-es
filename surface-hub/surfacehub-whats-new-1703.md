@@ -10,12 +10,12 @@ ms.date: 01/18/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 8edc5bf1da384809e38451c9d164503bfcc10241
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 01ee3530f7d9db9947d4be6395660170cfb30142
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911775"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448713"
 ---
 # <a name="whats-new-in-windows-10-version-1703-for-microsoft-surface-hub"></a>¿Qué novedades hay en Windows 10, versión 1703 para Microsoft Surface Hub?
 
@@ -53,15 +53,6 @@ Un asistente fácil de usar que ayuda a crear rápidamente paquetes de aprovisio
 ## <a name="miracast-on-your-existing-wireless-network-or-lan"></a>Miracast en la red inalámbrica o LAN existente 
 
 Microsoft ha ampliado la capacidad de [enviar una emisión de Miracast a través de una red local](miracast-over-infrastructure.md), en lugar de a través de un vínculo directo inalámbrico. 
-    
-## <a name="cloud-recovery"></a>Recuperación en la nube
-
-Cuando se restablece un dispositivo Surface Hub, ahora tienes la capacidad de descargar de la nube una compilación de fábrica del sistema operativo e instalarla. [Más información sobre la recuperación en la nube.](device-reset-surface-hub.md#cloud-recovery)
-
->[!NOTE]
->La recuperación en la nube no funciona si usas servidores proxy.
-    
-![Vuelva a instalar.](images/reinstall.png)
     
 ## <a name="end-session"></a>Finalizar sesión
 

@@ -14,12 +14,15 @@ ms.audience: itpro
 ms.reviewer: hachinda
 manager: laurawi
 ms.date: 1/15/2021
-ms.openlocfilehash: 61b15bf1d7ae5f99d57fb4dcd7bd9f83d9eb4b0a
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7626c6b5d98f65cbaa4f3ffae7649bd5dc05b56f
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337943"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449493"
 ---
 # <a name="enroll-and-configure-surface-devices-with-semm"></a>Inscribir y configurar los dispositivos Surface con SEMM
 
@@ -35,10 +38,10 @@ Como alternativa a SEMM, los dispositivos Surface más recientes admiten la admi
 #### <a name="download-and-install-microsoft-surface-uefi-configurator"></a>Descargar e instalar Microsoft Surface UEFI Configurator
 
 La herramienta usada para crear paquetes SEMM es Microsoft Surface UEFI Configurator. Puedes descargar Microsoft Surface UEFI Configurator desde la página [Herramientas de Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) en el Centro de descarga de Microsoft.
-Ejecute el archivo configurador de UEFI de Microsoft Surface Windows Installer (.msi) para iniciar la instalación de la herramienta. Cuando se complete el instalador, busca Microsoft Surface UEFI Configurator en la sección Todas las aplicaciones de tu menú Inicio.
+Ejecute el archivo de Microsoft Surface UEFI Configurator Windows Installer (.msi) para iniciar la instalación de la herramienta. Cuando se complete el instalador, busca Microsoft Surface UEFI Configurator en la sección Todas las aplicaciones de tu menú Inicio.
 
 >[!NOTE]
->Microsoft Surface UEFI Configurator solo se admite en Windows 10.
+>Microsoft Surface UEFI Configurator solo se admite en Windows 10 y Windows 11.
 
 ## <a name="create-a-surface-uefi-configuration-package"></a>Crear un paquete de configuración de UEFI de Surface
 
@@ -64,7 +67,7 @@ Para crear un paquete de configuración de UEFI de Surface, sigue estos pasos:
 
 5. Cuando se le pida que confirme la contraseña del certificado, escriba y confirme la contraseña del archivo de certificado y, a continuación, haga clic en **Aceptar**.
 
-6. Haz **clic en Protección con** contraseña para agregar una contraseña a Surface UEFI. Esta contraseña será necesaria siempre que arranque en UEFI. Si no se introduce esta contraseña, solo se mostrará la información del **equipo, Acerca** **de,****** **Enterprise administración y** Salir de las páginas. Esto es opcional.
+6. Haz **clic en Protección con** contraseña para agregar una contraseña a Surface UEFI. Esta contraseña será necesaria siempre que arranque en UEFI. Si no se introduce esta contraseña, solo se mostrará la información del **equipo, Acerca** **de,** **Enterprise administración** y **** Salir de las páginas. Esto es opcional.
 
 7. Cuando se te pida, escribe y confirma la contraseña elegida para UEFI de Surface y, a continuación, haz clic en **Aceptar**. Si quieres borrar una contraseña de UEFI de Surface existente, deja el campo de contraseña en blanco.
 
@@ -148,16 +151,16 @@ También puedes comprobar que el dispositivo está inscrito en SEMM en Surface U
 
 :::image type="content" alt-text="Página de administración Enterprise UEFI de Surface." source="images/surface-semm-enroll-fig11.png":::
 
-*Figura 11. Página de administración de Enterprise UEFI de Surface*
+*Figura 11. La página de administración Enterprise UEFI de Surface*
 
 
 ## <a name="configure-surface-uefi-settings-with-semm"></a>Configuración de la UEFI de Surface con SEMM
 
-Después de inscribir un dispositivo en SEMM, puedes ejecutar paquetes de configuración de UEFI de Surface firmados con el mismo certificado SEMM para aplicar la nueva configuración de UEFI de Surface. Esta configuración se aplica automáticamente la próxima vez que se inicie el dispositivo, sin ninguna interacción del usuario. Puedes usar soluciones de implementación de aplicaciones como Microsoft Endpoint Configuration Manager implementar paquetes de configuración de UEFI de Surface en dispositivos Surface para cambiar o administrar la configuración en UEFI de Surface.
+Después de inscribir un dispositivo en SEMM, puedes ejecutar paquetes de configuración de UEFI de Surface firmados con el mismo certificado SEMM para aplicar la nueva configuración de UEFI de Surface. Esta configuración se aplica automáticamente la próxima vez que se inicie el dispositivo, sin ninguna interacción del usuario. Puedes usar soluciones de implementación de aplicaciones como Microsoft Endpoint Configuration Manager para implementar paquetes de configuración de UEFI de Surface en dispositivos Surface para cambiar o administrar la configuración en UEFI de Surface.
 
-Para obtener más información acerca de cómo implementar Windows installer (.msi) con Configuration Manager, vea [Deploy and manage applications with Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt627959).
+Para obtener más información acerca de cómo implementar archivos Windows Installer (.msi) con Configuration Manager, vea [Deploy and manage applications with Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt627959).
 
-Si has protegido La UEFI de Surface con una contraseña, los usuarios sin la contraseña que intenten arrancar en UEFI de Surface solo tendrán la información del **equipo****, Información**, administración de **Enterprise** y **** Páginas de salida que se les mostrarán.
+Si has protegido La UEFI de Surface con una contraseña, los usuarios sin la contraseña que intenten arrancar en UEFI de Surface solo tendrán la información del **equipo****, Información**, administración de **Enterprise** y Páginas de salida que se les mostrarán.****
 
 Si no has protegido La UEFI de Surface con una contraseña o un usuario escribe la contraseña correctamente, las opciones configuradas con SEMM se atenuarán (no estarán disponibles) y el texto Algunas opciones de configuración administradas por la organización se mostrarán en la parte superior de la página, como se muestra en la figura 12.
 

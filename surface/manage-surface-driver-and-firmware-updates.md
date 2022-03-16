@@ -15,12 +15,15 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 12/14/2021
-ms.openlocfilehash: 6cfe5f44c156c8042172741739fffbfed3ceba07
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: f914678f2317ce4e08554d27b74bac4e33e3c641
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338583"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449643"
 ---
 # <a name="manage-and-deploy-surface-driver-and-firmware-updates"></a>Administrar e implementar actualizaciones de controladores y firmware de Surface
 
@@ -33,7 +36,7 @@ Aunque las soluciones de distribución de software de nivel empresarial siguen e
 
 ## <a name="whats-in-surface-driver-and-firmware-updates"></a>What's in Surface driver and firmware updates
 
-Windows installer .msi contienen todas las actualizaciones de controladores y firmware acumulativas necesarias para dispositivos Surface. Los paquetes de actualización pueden incluir algunos o todos los componentes siguientes:
+Windows installer .msi contienen todas las actualizaciones acumulativas de controladores y firmware necesarias para dispositivos Surface. Los paquetes de actualización pueden incluir algunos o todos los componentes siguientes:
 
 - Wi-Fi y LTE
 - Vídeo
@@ -50,14 +53,14 @@ Windows installer .msi contienen todas las actualizaciones de controladores y fi
 En esta sección se proporcionan vínculos directos a paquetes descargables que contienen actualizaciones de controladores y firmware para dispositivos Surface. 
 
 1. Seleccione Windows 10 o Windows 11 según corresponda. 
-2. Para dispositivos con varios archivos .msi, selecciona el nombre de archivo .msi que coincida con el modelo de Surface y la versión de Windows implementados en tu organización.  
+2. Para dispositivos con varios .msi, selecciona el nombre de archivo .msi que coincida con el modelo de Surface y la versión de Windows implementados en tu organización.  
 
 
-| Dispositivo Surface                                                                                                                                        | .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Dispositivo Surface                                                                                                                                        | Archivos descargables .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Surface Pro**                                                                                                                                       | - [Surface Pro 8](https://www.microsoft.com/en-us/download/details.aspx?id=103503)<br>- [Surface Pro 7+ y Surface Pro 7+ (LTE)](https://www.microsoft.com/en-us/download/details.aspx?id=102633)<br>- [Surface Pro 7](https://www.microsoft.com/download/details.aspx?id=100419)<br>- [Surface Pro 6](https://www.microsoft.com/download/details.aspx?id=57514)<br>- [Surface Pro 5 (LTE)](https://www.microsoft.com/download/details.aspx?id=56278)<br>- [Surface Pro 5 (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=55484)<br>- [Surface Pro 4](https://www.microsoft.com/download/details.aspx?id=49498)<br>- [Surface Pro 3](https://www.microsoft.com/download/details.aspx?id=38826)<br>- [Surface Pro 2](https://www.microsoft.com/download/details.aspx?id=49042)<br>- [Surface Pro](https://www.microsoft.com/download/details.aspx?id=49038) |
 | **Surface Laptop**                                                                                                                                    | - [Surface Laptop Go](https://www.microsoft.com/download/details.aspx?id=102261)<br>- [Surface Laptop 4 con procesador Intel](https://www.microsoft.com/download/details.aspx?id=102924)<br>- [Surface Laptop 4 con procesador AMD](https://www.microsoft.com/download/details.aspx?id=102923)<br>- [Surface Laptop 3 con procesador Intel](https://www.microsoft.com/download/details.aspx?id=100429)<br>- [Surface Laptop 3 con procesador AMD](https://www.microsoft.com/download/details.aspx?id=100428)<br>- [Surface Laptop 2](https://www.microsoft.com/download/details.aspx?id=57515)<br>- [Surface Laptop](https://www.microsoft.com/en-us/download/details.aspx?id=55489)                                                                                                                                                                                    |
-| **Surface Laptop Studio**                                                                                                                             | - [Surface Laptop Studio](https://www.microsoft.com/en-us/download/details.aspx?id=103505)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **SurfaceLaptopStudio**                                                                                                                             | - [Surface Laptop Studio](https://www.microsoft.com/en-us/download/details.aspx?id=103505)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Surface Book**                                                                                                                                      | - [Surface Book 3](https://www.microsoft.com/download/details.aspx?id=101315)<br>- [Surface Book 2](https://www.microsoft.com/download/details.aspx?id=56261)<br>- [Surface Book](https://www.microsoft.com/download/details.aspx?id=49497)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Surface Go**                                                                                                                                        | - [Surface Go 3](https://www.microsoft.com/en-us/download/details.aspx?id=103504)<br>- [Surface Go 2](https://www.microsoft.com/download/details.aspx?id=101304)<br>- [Surface Go (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=57439)<br>- [Surface Go (LTE)](https://www.microsoft.com/download/details.aspx?id=57601)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Surface Studio**                                                                                                                                    | - [Surface Studio 2](https://www.microsoft.com/download/details.aspx?id=57593)<br>- [Surface Studio](https://www.microsoft.com/download/details.aspx?id=54311)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -69,7 +72,7 @@ En esta sección se proporcionan vínculos directos a paquetes descargables que 
  
 
 > [!TIP]
-> Para dispositivos anteriores que incluyen archivos independientes para diferentes Windows versiones, seleccione el nombre de archivo .msi que coincida con el modelo de Surface y la versión de Windows. El .msi archivo incluye el número mínimo de Windows de compilación admitido que es necesario para instalar los controladores y el firmware. Por ejemplo, para actualizar un Surface Book 2 que tiene la compilación 18362 de Windows 10, ** elijaSurfaceBook2_Win10_18362_19.101.13994.msi.** Para un Surface Book 2 que tiene la compilación 16299 de Windows 10, elija **SurfaceBook2_Win10_16299_1803509_3.msi**.
+> Para dispositivos anteriores que incluyan archivos independientes para diferentes Windows versiones, seleccione el nombre de archivo .msi que coincida con el modelo de Surface y la versión de Windows. El .msi archivo incluye el número mínimo de Windows de compilación admitido que es necesario para instalar los controladores y el firmware. Por ejemplo, para actualizar un Surface Book 2 que tiene la compilación 18362 de Windows 10, ** elijaSurfaceBook2_Win10_18362_19.101.13994.msi.** Para un Surface Book 2 que tiene la compilación 16299 de Windows 10, elija **SurfaceBook2_Win10_16299_1803509_3.msi**.
 
 ## <a name="central-update-management-in-commercial-environments"></a>Administración de actualizaciones centrales en entornos comerciales
 
@@ -87,7 +90,7 @@ Para ver los pasos detallados, consulte los siguientes recursos:
 
 ### <a name="manage-updates-with-microsoft-deployment-toolkit"></a>Administrar actualizaciones con Microsoft Deployment Toolkit
 
-Microsoft Deployment Toolkit (MDT) se incluye en Endpoint Configuration Manager. Según el entorno, contiene herramientas de implementación opcionales que puede que desee usar.  Estos incluyen el kit de evaluación e implementación de Windows (Windows ADK), Windows System Image Manager (Windows SIM), administración y mantenimiento de imágenes de implementación (DISM) y herramienta de migración de estado de usuario (USMT). Puede descargar la versión más reciente de MDT desde la página de descarga de [Microsoft Deployment Toolkit.](https://www.microsoft.com/download/details.aspx?id=54259)
+Microsoft Deployment Toolkit (MDT) se incluye en Endpoint Configuration Manager. Según el entorno, contiene herramientas de implementación opcionales que puede que desee usar.  Estos incluyen el kit de evaluación e implementación de Windows (Windows ADK), Windows System Image Manager (Windows SIM), Administración y mantenimiento de imágenes de implementación (DISM) y Herramienta de migración de estado de usuario (USMT). Puede descargar la versión más reciente de MDT desde la página de Toolkit [microsoft](https://www.microsoft.com/download/details.aspx?id=54259) Deployment.
 
 Para ver los pasos detallados, consulte los siguientes recursos:
 
@@ -102,7 +105,7 @@ Endpoint Configuration Manager y MDT usan el Windows de preinstalación (Windows
 
 ### <a name="endpoint-configuration-manager"></a>Endpoint Configuration Manager
 
-A partir de Endpoint Configuration Manager, puedes sincronizar e implementar actualizaciones de controladores y firmware de Microsoft Surface mediante el cliente de Configuration Manager. Para obtener más información, consulta KB 4098906, [Administrar actualizaciones de controladores de Surface en Configuration Manager](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager).
+A partir de Endpoint Configuration Manager, puedes sincronizar e implementar actualizaciones de controladores y firmware de Microsoft Surface mediante el cliente de Configuration Manager. Para obtener más información, consulta KB 4098906 [, Administrar actualizaciones de controladores de Surface en Configuration Manager](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager).
 
 ## <a name="supported-devices"></a>Dispositivos compatibles
 
@@ -117,11 +120,11 @@ Al tener perfiles de interfaz de configuración de firmware de dispositivo (DFCI
 
 ## <a name="best-practices-for-update-deployment-processes"></a>Procedimientos recomendados para actualizar procesos de implementación
 
-Para mantener un entorno estable, se recomienda encarecidamente mantener la paridad con la versión más reciente de Windows 10.  Para obtener recomendaciones de procedimientos recomendados, vea [Prepare servicing strategy for Windows client updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+Para mantener un entorno estable, se recomienda encarecidamente mantener la paridad con la versión más reciente de Windows 10.  Para obtener recomendaciones de procedimiento recomendado, vea [Prepare servicing strategy for Windows client updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
 
 ### <a name="surface-msi-naming-convention"></a>Convención .msi nomenclatura de Surface
 
-Desde agosto de 2019, los .msi están usando la siguiente convención de nomenclatura:
+Desde agosto de 2019, .msi archivos están usando la siguiente convención de nomenclatura:
 
 - *Product* _*Windows release*_ *Windows build numberVersion*_**_ *numberRevision of version number (typically zero)*.
 

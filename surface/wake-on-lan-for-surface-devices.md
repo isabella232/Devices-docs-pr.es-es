@@ -14,16 +14,19 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 11/30/2021
-ms.openlocfilehash: eed1cbedea2a39207846301fa6b4f6c2b2f6dd56
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: f0d2215fae1ce8aa5cdc6d55fb36158d6a95af4d
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337913"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448293"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a>Wake on LAN para dispositivos Surface 
 
-Los dispositivos Surface que Windows 10 versión 1607 o posterior pueden usar Wake on LAN (WOL) desde el modo de espera moderno (también conocido como modo de espera conectado). Con WOL, los administradores de TI pueden activar dispositivos de forma remota y realizar automáticamente tareas de administración con soluciones Microsoft Endpoint Manager o de terceros.
+Los dispositivos Surface que Windows 10 versión 1607 o posterior pueden usar Wake on LAN (WOL) desde el modo de espera moderno (también conocido como modo de espera conectado). Con WOL, los administradores de TI pueden activar dispositivos de forma remota y realizar automáticamente tareas de administración con Microsoft Endpoint Manager soluciones de terceros.
 
 >[!NOTE]
 >Para admitir WOL, los dispositivos Surface deben conectarse a la alimentación de CA y usar un adaptador Ethernet de Surface que esté conectado a una red cableada.
@@ -32,12 +35,14 @@ Los dispositivos Surface que Windows 10 versión 1607 o posterior pueden usar Wa
 
 Adaptadores Ethernet compatibles con WOL:
 
-- Adaptador Ethernet De Surface USB 3.0 Gigabit 
+- Microsoft USB-C Travel Hub
 - Adaptador Ethernet de Surface
-- Adaptador USB-C a Ethernet y USB de Surface
-- Surface Dock
+- Adaptador de Surface USB-C a Ethernet y USB 3.0
+- Adaptador Ethernet De Surface USB 3.0 Gigabit 
+- Surface DockDocking Station para Surface Pro 3 
 - Surface Dock 2
-- Surface Docking Station para Surface Pro 3
+- Estación de acoplamiento para Surface 3
+- Estación de acoplamiento para Surface Pro 3 
 
 Dispositivos Surface compatibles con WOL:
 
@@ -46,17 +51,17 @@ Dispositivos Surface compatibles con WOL:
 - Surface Pro 4
 - Surface Pro (5ª generación)
 - Surface Pro (5ª generación) con LTE Advanced
-- Surface Book (todas las generaciones)
-- Surface Laptop (todas las generaciones)
 - Surface Pro 6
-- Surface Book 2
-- Surface Go (todas las generaciones)
-- Surface Studio 2 (vea Surface Studio 2 instrucciones a continuación)
 - Surface Pro 7
 - Surface Pro 7+
-- Surface Pro 8
+- SurfacePro8
+- Surface Book (todas las generaciones)
+- Surface Go (todas las generaciones)
+- Surface Laptop (todas las generaciones)
 - Surface Laptop Go
-- Surface Laptop Studio
+- Surface Laptop SE
+- SurfaceLaptopStudio
+- Surface Studio 2 (vea Surface Studio 2 instrucciones a continuación)
 
 
 ## <a name="using-wol"></a>Uso de WOL 
@@ -65,7 +70,7 @@ Cuando no están en uso, los dispositivos Surface entran en un estado inactivo y
 
 ## <a name="modern-standby"></a>Espera moderna
 
-El modo de espera moderno se inicia cuando el usuario hace que el sistema entre en modo de suspensión o cuando el dispositivo pasa a estar inactivo en función de la Windows de energía que el usuario haya establecido. Por ejemplo, el usuario presiona el botón de encendido, cierra la tapa o selecciona Suspensión en el botón de encendido de la Windows menú Inicio. WOL funciona de forma predeterminada para dispositivos Surface en modo de espera moderno Windows 10 versión 1607 o posterior. No se requiere ninguna configuración de TI adicional, excepto Surface Studio 2.
+El modo de espera moderno se inicia cuando el usuario hace que el sistema entre en suspensión o cuando el dispositivo se pone en modo de suspensión en función de la Windows de energía que el usuario ha establecido. Por ejemplo, el usuario presiona el botón de encendido, cierra la tapa o selecciona Suspensión en el botón de encendido de la Windows menú Inicio. WOL funciona de forma predeterminada para dispositivos Surface en modo de espera moderno que Windows 10 versión 1607 o posterior. No se requiere ninguna configuración de TI adicional, excepto Surface Studio 2.
 
 ## <a name="surface-studio-2-instructions"></a>Surface Studio 2 instrucciones
 

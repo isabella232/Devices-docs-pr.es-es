@@ -1,6 +1,6 @@
 ---
-title: Surface Laptop aplicaciones certificadas y probadas por ISV de Studio
-description: En este artículo se enumeran las aplicaciones que han sido probadas o certificadas por los ISV para Surface Laptop Studio.
+title: Aplicaciones certificadas o probadas para ISV de Surface Laptop Studio
+description: En este artículo se enumeran las aplicaciones que han sido probadas o certificadas por isv para Surface Laptop Studio.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,14 +12,17 @@ ms.date: 01/03/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 7f1d7992bc60a43c973a91641008003fd9f0532d
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 57e63c34aaf41358c24224f7288fdc2cf5c86b09
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338679"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449294"
 ---
-# <a name="surface-laptop-studio-isv-testedcertified-apps"></a>Surface Laptop aplicaciones certificadas y probadas por ISV de Studio
+# <a name="surface-laptop-studio-isv-testedcertified-apps"></a>Aplicaciones certificadas o probadas para ISV de Surface Laptop Studio
 
 Surface Laptop Studio con Nvidia RTX A2000 se prueba y comprueba para las aplicaciones líderes de ISV y proporciona una aceleración significativamente más rápida en todas las aplicaciones profesionales.
 
@@ -31,6 +34,7 @@ Surface Laptop Studio con Nvidia RTX A2000 se prueba y comprueba para las aplica
 | **McNeel & Associates Rhino3D®** | Rhino 7 es compatible con Surface Laptop Studio con Nvidia RTX A2000 con GDDR6 de 4 GB, tal y como ha probado Microsoft:<br><br>- Ventanilla acelerada por GPU para una experiencia de diseño y modelado suaves e interactivos.<br><br>- Admite ciclos para la representación 3D acelerada por GPU. |
 | **Siemens SolidEdge 2022**              | Surface Laptop Studio con Nvidia RTX A2000 con GDDR6 de 4 GB es validado, certificado y recomendado por Siemens.                                                                                                                                                   |
 | **Esri ArcGIS Pro**                     | Surface Laptop Studio con Nvidia RTX A2000 con GDDR6 de 4 GB está certificado y recomendado por ESRI para ArcGIS Pro:<br><br> *"Vería absolutamente un profesional de SIG, incluso uno que se especializa en trabajo geoespacial avanzado en 3D, usarlo en lugar de una estación de trabajo pesada".* - Philip Mielke, jefe de producto 3D DE SIG                                                                                                                                                     |
+| **Dassault Systemes Solidworks**                 | Surface Laptop Studio con Nvidia RTX A2000 con GDDR6 de 4 GB está certificado por Dassault Systemes para Solidworks. <br><br> - Tracer interactivo de rayos de Solidworks acelerado por núcleos RT y núcleos tensor; Denoiser acelerado por IA.                                                                                                            |
 
 ## <a name="adobe-applications"></a>Aplicaciones de Adobe
 
@@ -52,6 +56,6 @@ La ingeniería de Microsoft Surface trabaja estrechamente con Adobe para probar 
 
 ## <a name="references"></a>Referencias
 
-1. AutoCAD se ha probado en las versiones 2021 y 2022. 
+1. AutoCAD probado en las versiones 2021 y 2022. 
 2. Algunos accesorios y software se venden por separado.
-3. Las señales táctiles de Adobe Premier Pro solo están disponibles en beta. Visite [Adobe.com](https://www.adobe.com/products/premiere.html) para obtener más detalles.
+3. Las señales táctiles de Adobe Premier Pro solo están disponibles en beta. Visite [Adobe.com](https://www.adobe.com/products/premiere.html) para obtener más información.

@@ -1,6 +1,6 @@
 ---
 title: Garantía y servicio de autoservicio de Surface
-description: Microsoft 365 Es posible que los clientes empresariales puedan usar el nodo beta De garantía y servicio de Autoservicio de Surface en el Centro de administración de Microsoft para crear y administrar pedidos de servicio.
+description: Microsoft 365 clientes empresariales pueden ser elegibles para usar el nodo beta de garantía y servicio de Autoservicio de Surface en el Centro de administración de Microsoft para crear y administrar pedidos de servicio.
 ms.prod: w10
 ms.mktglfcycl: support
 ms.localizationpriority: medium
@@ -12,16 +12,19 @@ ms.date: 10/19/2021
 ms.reviewer: cchauvet
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: bbe065533e862b6956c3c81a9241ccde9be4c88b
-ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 6a1ae40882ee723b3c4680f8fe5f08f41662b409
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "12101244"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448653"
 ---
 # <a name="surface-self-serve-warranty-and-service"></a>Garantía y servicio de autoservicio de Surface
 
-Microsoft 365 Es posible que los clientes empresariales puedan usar el nodo Garantía y servicio de Surface Self-Serve en el Centro de Administración de Microsoft 365 para crear y administrar pedidos de servicio. Esta nueva característica, disponible como un programa beta, permite a los administradores globales designar permisos a personas dentro de su empresa responsables de admitir reclamaciones de garantía y servicio, entre las que se incluyen:
+Microsoft 365 clientes empresariales pueden ser elegibles para usar el nodo Garantía y servicio de Surface Self-Serve en el Centro de Administración de Microsoft 365 para crear y administrar pedidos de servicio. Esta nueva característica, disponible como un programa beta, permite a los administradores globales designar permisos a personas dentro de su empresa responsables de admitir reclamaciones de garantía y servicio, entre las que se incluyen:
 
 - Upload números de serie para los dispositivos que requieren servicio.
 - Agregue varias direcciones de envío.

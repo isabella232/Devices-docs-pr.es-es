@@ -15,12 +15,15 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
-ms.openlocfilehash: 48f89e8929bdb9d075bea988558fea234da5bbd2
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 0ececf7a21b4870c4fb6db2403d9a5e34a67fdba
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911425"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449473"
 ---
 # <a name="microsoft-surface-deployment-accelerator"></a>Acelerador de implementaciones de Microsoft Surface
 
@@ -35,7 +38,7 @@ La imagen resultante coincide estrechamente con la configuración de las imágen
 ## <a name="requirements"></a>Requisitos
 
 1. Una unidad usb con un tamaño mínimo de 16 GB. Se dará formato a la unidad USB.
-2. Un archivo .iso con Windows 10 Pro o Windows 10 Enterprise. La herramienta de creación de medios se puede usar para descargar Windows 10 crear un archivo .iso. Para obtener más información, vea [Descargar Windows 10](https://www.microsoft.com/software-download/windows10).
+2. Un archivo .iso con Windows 10/11 Pro o Windows 10/11 Enterprise. La herramienta de creación de medios se puede usar para descargar Windows 10 o Windows 11 y crear un archivo .iso. Para obtener más información, vea [Descargar Windows 10](https://www.microsoft.com/software-download/windows10).
 3. Un dispositivo que se Windows 10, versión 2004 o posterior con acceso a Internet.
 
 Consulte la [sección Requisitos previos](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#prerequisites) del documento README para obtener una lista detallada de requisitos.
@@ -45,19 +48,19 @@ Consulte la [sección Requisitos previos](https://github.com/microsoft/SurfaceDe
 **Para ejecutar SDA:**
 
 1. Ve a [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) en GitHub. 
-2. Revise la [documentación de README.](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md)
-3. En la [página SurfaceDeploymentAccelerator,](https://github.com/microsoft/SurfaceDeploymentAccelerator) haz clic en el botón Código y, a continuación, selecciona **Descargar ZIP** para guardar los archivos localmente en el equipo. ****
+2. Revise la [documentación de README](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) .
+3. En la [página SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator), haz clic **** en el botón Código y, a continuación, selecciona **Descargar ZIP** para guardar los archivos localmente en el equipo.
 4. Haga clic con el botón secundario en .zip archivo y, a continuación, haga clic en **Propiedades**.
-5. En la **ficha General,** active la casilla **Desbloquear y,** a continuación, haga clic en **Aceptar**.
+5. En la **pestaña General** , active la casilla **Desbloquear y** , a continuación, haga clic en **Aceptar**.
 6. Extraiga el .zip en una ubicación de la unidad de disco duro (por ejemplo, C:\SDA).
-7. Abra un mensaje de Windows PowerShell y establezca ExecutionPolicy para la sesión actual en Unrestricted.
+7. Abra una solicitud de Windows PowerShell y establezca ExecutionPolicy para la sesión actual en Sin restricciones.
 
     ```powershell
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
     ```
-8. Ejecute el script SDA que especifica parámetros para el entorno. El script se puede usar para crear imágenes para instalar Windows 10 en una variedad de dispositivos Surface. Para obtener una lista completa de dispositivos compatibles, consulta [la descripción del parámetro Device](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) en el artículo README de SDA. 
+8. Ejecute el script SDA que especifica parámetros para el entorno. El script se puede usar para crear imágenes para instalar Windows 10 o Windows 11 en una variedad de dispositivos Surface. Para obtener una lista completa de dispositivos compatibles, consulta [la descripción del parámetro Device](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) en el artículo README de SDA. 
 
-    Por ejemplo, el siguiente comando creará una unidad USB de arranque que se puede usar para instalar Windows 10 [en Surface Hub 2](https://docs.microsoft.com/surface-hub/surface-hub-2s-migrate-os):
+    Por ejemplo, el siguiente comando creará una unidad USB de arranque que se puede usar para instalar Windows 10 [en Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os):
 
     ```powershell
     .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
@@ -68,14 +71,14 @@ Consulte la [sección Requisitos previos](https://github.com/microsoft/SurfaceDe
 
     El script requerirá unos 45 minutos para ejecutarse, pero podría tardar más en función de los recursos de disco y CPU disponibles. 
 
-    Después de crear una Windows, el script le pedirá que inserte y confirme la letra de unidad de la unidad USB. A continuación, se dará formato a la unidad USB, se configurará como de arranque y se copiarán archivos para habilitar la instalación de la imagen Windows 10 para dispositivos Surface.
+    Después de crear una Windows, el script le pedirá que inserte y confirme la letra de unidad de la unidad USB. A continuación, se dará formato a la unidad USB, se configurará como de arranque y se copiarán archivos para habilitar la instalación de la imagen Windows 10 o Windows 11 para dispositivos Surface.
 
-9. Inserta la unidad USB en el dispositivo donde quieres instalar Windows 10 y reinicia para empezar a instalar Windows 10. El arranque USB debe estar habilitado en el BIOS, lo que puede requerir que deshabilite temporalmente el arranque seguro.
+9. Inserte la unidad USB en el dispositivo donde desea instalar Windows 10 o Windows 11 y reinicie para iniciar la instalación. El arranque USB debe estar habilitado en el BIOS, lo que puede requerir que deshabilite temporalmente el arranque seguro.
 
 > [!IMPORTANT]
-> El arranque desde la unidad USB empezará inmediatamente a instalar Windows 10. Asegúrate de que el dispositivo esté listo antes de insertar el USB y reiniciarlo. 
+> El arranque desde la unidad USB empezará inmediatamente a instalar el sistema operativo. Asegúrate de que el dispositivo esté listo antes de insertar el USB y reiniciarlo. 
 
 ## <a name="related-links"></a>Vínculos relacionados
 
  - [Herramienta de implementación de imágenes de código abierto publicada en GitHub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/open-source-image-deployment-tool-released-on-github/ba-p/1314115)
- - [Descargar e instalar el Windows ADK](https://docs.microsoft.com/windows-hardware/get-started/adk-install)
+ - [Descargar e instalar el Windows ADK](/windows-hardware/get-started/adk-install)

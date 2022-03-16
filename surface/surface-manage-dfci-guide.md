@@ -12,32 +12,35 @@ ms.date: 10/01/2021
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: cedb4584952d5852efde3ea7644976e7bc6573e1
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: c4a39c094c0621ed491ab04148f0c8338771a6a6
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337993"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448603"
 ---
 # <a name="manage-dfci-on-surface-devices"></a>Administrar DFCI en dispositivos Surface
 
 ## <a name="introduction"></a>Introducción
 
-La capacidad de administrar dispositivos desde la nube ha simplificado considerablemente la implementación y el aprovisionamiento de TI en todo el ciclo de vida. Con los perfiles de la interfaz de configuración de firmware de dispositivo (DFCI) integrados en [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows), la administración de UEFI de Surface amplía la pila de administración moderna hasta el nivel de hardware uefi. DFCI admite el aprovisionamiento sin intervención, elimina las contraseñas del BIOS, proporciona control de la configuración de seguridad, incluidas las opciones de arranque y los periféricos integrados, y establece las bases para escenarios de seguridad avanzados en el futuro. Para obtener respuestas a las preguntas más frecuentes, consulta [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+La capacidad de administrar dispositivos desde la nube ha simplificado considerablemente la implementación y el aprovisionamiento de TI en todo el ciclo de vida. Con los perfiles de interfaz de configuración de firmware de dispositivo (DFCI) integrados en [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows), la administración de UEFI de Surface amplía la pila de administración moderna hasta el nivel de hardware uefi. DFCI admite el aprovisionamiento sin intervención, elimina las contraseñas del BIOS, proporciona control de la configuración de seguridad, incluidas las opciones de arranque y los periféricos integrados, y establece las bases para escenarios de seguridad avanzados en el futuro. Para obtener respuestas a las preguntas más frecuentes, consulta [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
 
 ### <a name="background"></a>Segundo plano
 
-Al igual que cualquier equipo que Windows 10, los dispositivos Surface dependen del código almacenado en el SoC que permite que la CPU se interfaz con unidades de disco duro, dispositivos de pantalla, puertos USB y otros dispositivos. Los programas almacenados en esta memoria de solo lectura (ROM) se conocen como firmware (mientras que los programas almacenados en medios dinámicos se conocen como software).
+Al igual que cualquier equipo que ejecute Windows 10 o Windows 11, los dispositivos Surface dependen del código almacenado en el SoC que permite a la CPU interfaz con unidades de disco duro, dispositivos de pantalla, puertos USB y otros dispositivos. Los programas almacenados en esta memoria de solo lectura (ROM) se conocen como firmware (mientras que los programas almacenados en medios dinámicos se conocen como software).
 
-A diferencia de otros dispositivos Windows 10 disponibles en el mercado actualmente, Surface ofrece a los administradores de TI la capacidad de configurar y administrar el firmware a través de un amplio conjunto de opciones de configuración de UEFI. Esto proporciona una capa de control de hardware sobre la administración de directivas basada en software, tal como se implementa a través de directivas de administración de dispositivos móviles (MDM), Configuration Manager o directiva de grupo. Por ejemplo, las organizaciones que implementan dispositivos en áreas altamente seguras con información confidencial pueden impedir el uso de cámaras quitando la funcionalidad en el nivel de hardware. Desde el punto de vista del dispositivo, desactivar la cámara mediante una configuración de firmware equivale a quitar físicamente la cámara. Compare la seguridad agregada de la administración en el nivel de firmware con la confianza únicamente en la configuración de software del sistema operativo. Por ejemplo, si deshabilita el servicio de audio Windows mediante una configuración de directiva en un entorno de dominio, un administrador local podría volver a habilitar el servicio.
+A diferencia de otros dispositivos Windows disponibles en el mercado actualmente, Surface ofrece a los administradores de TI la capacidad de configurar y administrar el firmware a través de un amplio conjunto de opciones de configuración de UEFI. Esto proporciona una capa de control de hardware sobre la administración de directivas basada en software, tal como se implementa a través de directivas de administración de dispositivos móviles (MDM), Configuration Manager o directiva de grupo. Por ejemplo, las organizaciones que implementan dispositivos en áreas altamente seguras con información confidencial pueden impedir el uso de cámaras quitando la funcionalidad en el nivel de hardware. Desde el punto de vista del dispositivo, desactivar la cámara mediante una configuración de firmware equivale a quitar físicamente la cámara. Compare la seguridad agregada de la administración en el nivel de firmware con la confianza únicamente en la configuración de software del sistema operativo. Por ejemplo, si deshabilita el servicio de audio Windows mediante una configuración de directiva en un entorno de dominio, un administrador local podría volver a habilitar el servicio.
 
 ### <a name="dfci-versus-semm"></a>DFCI frente a SEMM
 
-Anteriormente, la administración del firmware requería la inscripción de dispositivos en el Modo de administración de Surface Enterprise (SEMM) con la sobrecarga de tareas manuales intensivas en TI en curso. Por ejemplo, SEMM requiere que el personal de IT acceda físicamente a cada equipo para escribir un pin de dos dígitos como parte del proceso de administración de certificados. Aunque SEMM sigue siendo una buena solución para las organizaciones en un entorno estrictamente local, su complejidad y los requisitos intensivos de TI hacen que su uso sea costoso.
+Anteriormente, la administración del firmware requería la inscripción de dispositivos en el Modo de administración de Surface Enterprise (SEMM) con la sobrecarga de tareas manuales intensivas en TI. Por ejemplo, SEMM requiere que el personal de IT acceda físicamente a cada equipo para escribir un pin de dos dígitos como parte del proceso de administración de certificados. Aunque SEMM sigue siendo una buena solución para las organizaciones en un entorno estrictamente local, su complejidad y los requisitos intensivos de TI hacen que su uso sea costoso.
 
-Con las capacidades de administración de firmware UEFI integradas en Microsoft Intune, la capacidad de bloquear el hardware se simplifica y es más fácil de usar con nuevas características para el aprovisionamiento, la seguridad y la actualización optimizada de todo en una sola consola, ahora unificada [como Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). En la siguiente figura se muestra la configuración de UEFI que se ve directamente en el dispositivo (izquierda) y se ve en la Endpoint Manager (derecha).
+Con las capacidades de administración de firmware UEFI integradas en Microsoft Intune, la capacidad de bloquear el hardware se simplifica y es más fácil de usar con nuevas características para el aprovisionamiento, la seguridad y la actualización optimizada de todo en una sola consola, ahora unificada [como Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). La siguiente figura muestra la configuración de UEFI que se ve directamente en el dispositivo (izquierda) y se ve en la Endpoint Manager (derecha).
 
-:::image type="content" alt-text="Configuración de UEFI que se muestra en el dispositivo (izquierda) y en la consola Endpoint Manager (derecha)." source="images/uefidfci.png" lightbox="images/uefidfci.png":::
+:::image type="content" alt-text="Configuración de UEFI que se muestra en el dispositivo (izquierda) y en la Endpoint Manager (derecha)." source="images/uefidfci.png" lightbox="images/uefidfci.png":::
 
 Crucially, DFCI enables zero touch management, eliminating the need for manual interaction by IT admins. DFCI se implementa mediante Windows Autopilot mediante la funcionalidad de perfiles de dispositivo en Intune. Un perfil de dispositivo te permite agregar y configurar opciones que luego se pueden implementar en dispositivos inscritos en la administración dentro de la organización. Una vez que el dispositivo recibe el perfil del dispositivo, las características y la configuración se aplican automáticamente. Algunos ejemplos de perfiles de dispositivo comunes son correo electrónico, restricciones de dispositivo, VPN, Wi-Fi y plantillas administrativas. DFCI es simplemente un perfil de dispositivo adicional que permite administrar las opciones de configuración de UEFI desde la nube sin tener que mantener la infraestructura local.  
 
@@ -54,7 +57,7 @@ DFCI se admite en los siguientes dispositivos:
 - Surface Pro X (todas las SKU)
 - Surface Laptop 4 (solo SKU comerciales)
 - Surface Laptop 3 (solo procesadores Intel)
-- Surface Book 3
+- SurfaceBook3
 - Surface Laptop Go
 
 
@@ -68,7 +71,7 @@ DFCI se admite en los siguientes dispositivos:
 
 - Los dispositivos deben estar registrados Windows Autopilot por un partner [Proveedor de soluciones en la nube de Microsoft (CSP)](https://partner.microsoft.com/membership/cloud-solution-provider) o un distribuidor OEM.
 
-- Antes de configurar DFCI para Surface, debes estar familiarizado con los requisitos de configuración de [](/intune/) Autopilot en Microsoft Intune y [Azure Active Directory](/azure/active-directory/) (Azure AD).
+- Antes de configurar DFCI para Surface, debes estar familiarizado con los requisitos de configuración de Autopilot en [Microsoft Intune y](/intune/) [Azure Active Directory](/azure/active-directory/) (Azure AD).
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
@@ -80,11 +83,11 @@ Un entorno DFCI requiere configurar un perfil DFCI que contenga la configuració
 
 ## <a name="create-dfci-profile"></a>Crear perfil DFCI
 
-Antes de configurar las opciones de directiva DFCI, primero cree un perfil DFCI y asígnelo al grupo de seguridad de Azure AD que contiene los dispositivos de destino.
+Antes de configurar las opciones de directiva DFCI, primero cree un perfil DFCI y asígnelo al grupo de seguridad Azure AD que contiene los dispositivos de destino.
 
 1. Inicie sesión en el espacio empresarial en devicemanagement.microsoft.com.
 
-2. En el Centro Microsoft Endpoint Manager administración, seleccione **Dispositivos > Perfiles** de configuración > Crear perfil y escriba un nombre; por ejemplo, Directiva de **configuración DFCI.**
+2. En el Centro Microsoft Endpoint Manager administración, seleccione **Dispositivos >** Perfiles de configuración > Crear perfil y escriba un nombre; por ejemplo, Directiva de **configuración DFCI.**
 
 3. Seleccione **Windows 10 y posteriores** para el tipo de plataforma.
 
@@ -94,7 +97,7 @@ Antes de configurar las opciones de directiva DFCI, primero cree un perfil DFCI 
 
 5. Haga **clic en Aceptar** y, a **continuación, seleccione Crear**.
 
-6. Seleccione **Asignaciones y**, en **Seleccionar** grupos para incluir, seleccione el grupo de seguridad Azure AD que contiene los dispositivos de destino, como se muestra en la siguiente figura. Haz clic en **Guardar**.
+6. Seleccione **Asignaciones y** en **Seleccionar** grupos para incluir seleccione el grupo de seguridad Azure AD que contiene los dispositivos de destino, como se muestra en la siguiente figura. Haz clic en **Guardar**.
 
    :::image type="content" alt-text="Asignar grupo de seguridad." source="images/df2a.png":::
 
@@ -113,7 +116,7 @@ Antes de configurar las opciones de directiva DFCI, primero cree un perfil DFCI 
 
    :::image type="content" alt-text="Crear perfil de Autopilot." source="images/df3b.png" lightbox="images/df3b.png":::
 
-5. En la página Asignaciones, elija **Seleccionar grupos para incluir** y haga clic en el Azure AD de seguridad. Selecciona **Siguiente**.
+5. En la página Asignaciones, elija **Seleccionar grupos para incluir** y haga clic en Azure AD grupo de seguridad. Selecciona **Siguiente**.
 
 6. Acepte el resumen y, a continuación, **seleccione Crear**. El perfil de Autopilot ahora se crea y se asigna al grupo.
 
@@ -130,7 +133,7 @@ DFCI incluye un conjunto simplificado de directivas de configuración de UEFI qu
 
 Para configurar la directiva DFCI, edite el perfil DFCI desde Endpoint Manager, como se muestra en la figura siguiente. 
 
-- En Endpoint Manager en devicemanagement.microsoft.com, seleccione **Dispositivos > Windows > perfiles de configuración > "Nombre de perfil DFCI" > propiedades > Configuración**.
+- En Endpoint Manager en devicemanagement.microsoft.com, seleccione **Dispositivos > Windows > perfiles de configuración > "nombre de perfil DFCI" > propiedades > Configuración**.
 
   :::image type="content" alt-text="Configure las opciones de DFCI." source="images/dfciconfig.png" lightbox="images/dfciconfig.png":::
 
@@ -167,7 +170,7 @@ Aunque la configuración de directiva de Intune normalmente se aplica casi inmed
 
 - En Endpoint Manager en devicemanagement.microsoft.com, ve a Dispositivos > Inscripción de dispositivos > Windows **inscripción > Windows Dispositivos Autopilot y** selecciona **Sincronizar**.
 
- Para obtener más información, consulta [Sincronizar el dispositivo Windows manualmente](/intune-user-help/sync-your-device-manually-windows).
+ Para obtener más información, consulta [Sincronizar el Windows dispositivo manualmente](/intune-user-help/sync-your-device-manually-windows).
 
 > [!NOTE]
 > Al ajustar la configuración directamente en UEFI, debes asegurarte de que el dispositivo se reinicie completamente al inicio de sesión Windows estándar.
@@ -201,7 +204,7 @@ Si se ha eliminado el perfil DFCI original, puede quitar la configuración de di
     1. En Endpoint Manager en devicemanagement.microsoft.com, elija **Grupos > Todos los dispositivos**. Selecciona los dispositivos que quieres retirar y, a continuación, elige **Retirar/Borrar.** Para obtener más información, consulta [Quitar dispositivos con borrar, retirar o desenrollar manualmente el dispositivo](/intune/remote-actions/devices-wipe). 
 2. Eliminar el registro de Autopilot de Intune:
     1.  Elija **Inscripción de dispositivos > Windows inscripción > dispositivos**.
-    2. En Windows autopilot, elija los dispositivos que desea eliminar y, a continuación, **elija Eliminar**.
+    2. En Windows dispositivos Autopilot, elija los dispositivos que desea eliminar y, a continuación, **elija Eliminar**.
 3. Conectar dispositivo a Internet por cable con adaptador Ethernet de marca Surface. Reinicie el dispositivo y abra el menú UEFI (mantenga presionado el botón de volumen hacia arriba mientras también presiona y suelta el botón de encendido).
 4. Seleccione **Administración > Configurar > actualizar desde red** y, a continuación, elija **No participar.**
 

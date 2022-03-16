@@ -14,28 +14,31 @@ ms.sitesec: library
 ms.author: daclark
 ms.topic: article
 audience: itpro
-ms.openlocfilehash: da90a0481052d06c2108c8fd096d088bfacdcb87
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: e27f2ade66602c53c1bd0e7ef3d326834f1d95ed
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911005"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449183"
 ---
 # <a name="manage-surface-driver-updates-in-configuration-manager"></a>Administrar actualizaciones de controladores de Surface en Configuration Manager
 
 ## <a name="summary"></a>Resumen
 
-A partir [de Microsoft System Center Configuration Manager versión 1710,](https://docs.microsoft.com/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates)puedes sincronizar e implementar actualizaciones de controladores y firmware de Microsoft Surface directamente a través del cliente de Configuration Manager. El proceso es similar a la implementación de actualizaciones periódicas. Sin embargo, se necesitan algunas configuraciones adicionales para obtener las actualizaciones de controladores de Surface en el catálogo.
+A partir [de Microsoft System Center Configuration Manager versión 1710](/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates), puedes sincronizar e implementar actualizaciones de controladores y firmware de Microsoft Surface directamente a través del cliente de Configuration Manager. El proceso es similar a la implementación de actualizaciones periódicas. Sin embargo, se necesitan algunas configuraciones adicionales para obtener las actualizaciones de controladores de Surface en el catálogo.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
 Para administrar las actualizaciones de controladores de Surface, deben cumplirse los siguientes requisitos previos:
 
 - Debe usar Configuration Manager versión 1710 o una versión posterior.
-- Todos los puntos de actualización de software (SUP) deben ejecutarse Windows Server 2016 una versión posterior. De lo contrario, Configuration Manager omite esta configuración y los controladores de Surface no se sincronizarán.
+- Todos los puntos de actualización de software (SUP) deben ejecutarse Windows Server 2016 o una versión posterior. De lo contrario, Configuration Manager omite esta configuración y los controladores de Surface no se sincronizarán.
 
 > [!NOTE]
-> Si tu entorno no cumple los requisitos [](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager#1) previos, consulta los métodos alternativos para implementar actualizaciones de controladores y firmware de Surface en la sección [preguntas más](#frequently-asked-questions-faq) frecuentes.
+> Si tu entorno no cumple los requisitos previos, consulta los métodos alternativos para implementar actualizaciones de controladores y firmware de Surface en la sección [preguntas más](#frequently-asked-questions-faq) frecuentes.[](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager#1)
 
 ## <a name="useful-log-files"></a>Archivos de registro útiles
 
@@ -47,16 +50,16 @@ Los siguientes registros son especialmente útiles cuando administras actualizac
 |WsyncMgr.log|Registra detalles sobre el proceso de sincronización de actualizaciones de software.|
 
 Estos registros se encuentran en el servidor de sitio que administra el SUP o en el propio SUP si está instalado directamente en un servidor de sitio.
-Para obtener una lista completa de los registros de Configuration Manager, vea [Log files in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).
+Para obtener una lista completa de los registros de Configuration Manager, vea [Log files in System Center Configuration Manager](/sccm/core/plan-design/hierarchy/log-files).
 
 ## <a name="enabling-surface-driver-updates-management"></a>Habilitar la administración de actualizaciones de controladores de Surface
 
 Para habilitar la administración de actualizaciones de controladores de Surface en Configuration Manager, siga estos pasos:
 
-1. En la consola de Configuration Manager, vaya a **Administration**  >  **Overview**  >  **Site Configuration**  >  **Sites**.
+1. En la consola de Configuration Manager, vaya a **AdministrationOverviewSite** > **** >  **ConfigurationSites****** > .
 1. Seleccione el sitio que contiene el servidor SUP de nivel superior para su entorno.
-1. En la cinta de opciones, seleccione **Configurar componentes del sitio**y, a continuación, seleccione Punto de actualización de **software**. O bien, haga clic con el botón secundario en el sitio y, a continuación, seleccione **Configurar el punto**de actualización de software de componentes del  >  **sitio**.
-1. En la **pestaña Clasificaciones,** active la casilla Incluir controladores de Microsoft Surface y actualizaciones de **firmware.**
+1. En la cinta de opciones, seleccione **Configurar componentes del sitio** y, a continuación, seleccione **Punto de actualización de software**. O bien, haga clic con el botón secundario en el sitio y, a continuación, seleccione **Configurar componentes del** >  **sitioSoftware Update Point**.
+1. En la **pestaña Clasificaciones** , active la casilla **Incluir controladores de Microsoft Surface y actualizaciones de firmware** .
 
    ![Propiedades del componente de punto de actualización de software.](images/manage-surface-driver-updates-1.png)
 
@@ -70,18 +73,18 @@ Para habilitar la administración de actualizaciones de controladores de Surface
 
    - Windows 10 y versiones posteriores
    - Windows 10 y versiones posteriores actualizar & controladores de mantenimiento
-   - Windows 10 Controladores de actualización de aniversario y mantenimiento posteriores
-   - Windows 10 Actualización de aniversario y actualizaciones posteriores & controladores de mantenimiento
+   - Windows 10 de actualización de aniversario y controladores de mantenimiento posteriores
+   - Windows 10 actualización de aniversario y actualizaciones posteriores & controladores de mantenimiento
    - Windows 10 Creators Update y controladores de mantenimiento posteriores
    - Windows 10 Creators Update y actualizaciones posteriores & controladores de mantenimiento
    - Windows 10 Fall Creators Update y controladores de mantenimiento posteriores
    - Windows 10 Fall Creators Update y versiones posteriores & controladores de mantenimiento
-   - Windows 10 Controladores de mantenimiento S y posteriores
-   - Windows 10 Controladores de mantenimiento S versión 1709 y posteriores para pruebas
-   - Windows 10 S Version 1709 and Later Upgrade & Servicing Drivers for testing
+   - Windows 10 S y controladores de mantenimiento posteriores
+   - Windows 10 S versión 1709 y controladores de mantenimiento posteriores para pruebas
+   - Windows 10 S versión 1709 y versiones posteriores & controladores de mantenimiento para pruebas
 
    > [!NOTE]
-   > La mayoría de los controladores de Surface pertenecen a varios Windows 10 de productos. Es posible que no tenga que seleccionar todos los productos que se enumeran aquí. Para ayudar a reducir el número de productos que rellenan el Catálogo de actualizaciones, se recomienda seleccionar solo los productos que el entorno necesita para la sincronización.
+   > La mayoría de los controladores de Surface pertenecen a varios Windows 10 o Windows 11 grupos de productos. Es posible que no tenga que seleccionar todos los productos que se enumeran aquí. Para ayudar a reducir el número de productos que rellenan el Catálogo de actualizaciones, se recomienda seleccionar solo los productos que el entorno necesita para la sincronización.
 
 ## <a name="verifying-the-configuration"></a>Comprobación de la configuración
 
@@ -127,8 +130,8 @@ Para comprobar que el SUP está configurado correctamente, siga estos pasos:
 
 Si no desea esperar hasta la siguiente sincronización, siga estos pasos para iniciar una sincronización:
 
-1. En la consola de Configuration Manager, vaya **a Software Library**  >  **Overview**  >  **Software Updates**All Software  >  **Updates**.
-1. En la cinta de opciones, seleccione **Sincronizar actualizaciones de software**. O bien, haga clic con el botón secundario **en Todas las actualizaciones de software**y, a continuación, seleccione Sincronizar actualización de **software**.
+1. En la consola de Configuration Manager, vaya **a Biblioteca de** >  **softwareOverviewSoftware** >  **UpdatesAll** >  **Actualizaciones de software**.
+1. En la cinta de opciones, seleccione **Sincronizar actualizaciones de software**. O bien, haga clic con el botón secundario **en Toda la actualización de software** y, a continuación, seleccione **Sincronizar actualización de software**.
 1. Para supervisar el progreso de la sincronización, busque las siguientes entradas en WsyncMgr.log:
 
    ```console
@@ -154,7 +157,7 @@ Si no desea esperar hasta la siguiente sincronización, siga estos pasos para in
 
 Puedes implementar las actualizaciones de controladores y firmware de Surface de la misma manera que implementas otras actualizaciones.
 
-Para obtener más información acerca de la [implementación, vea System Center 2012 Configuration Manager–Part7: Software Updates (Deploy).](https://blogs.technet.microsoft.com/elie/2012/05/25/system-center-2012-configuration-managerpart7-software-updates-deploy/)
+Para obtener más información acerca de la [implementación, vea System Center 2012 Configuration Manager–Part7: Software Updates (Deploy)](https://blogs.technet.microsoft.com/elie/2012/05/25/system-center-2012-configuration-managerpart7-software-updates-deploy/).
 
 ## <a name="frequently-asked-questions-faq"></a>Preguntas frecuentes (FAQ)
 
@@ -164,17 +167,17 @@ Si sincronizas desde un servidor Windows Server Update Services (WSUS) ascendent
 
 Hay más de 68 000 actualizaciones que se clasifican como controladores en WSUS. Para evitar que los controladores que no están relacionados con Surface se sincronicen con Configuration Manager, Microsoft filtra la sincronización de controladores en una lista de permitidos. Después de publicar e incorporar la nueva lista de permitidos en Configuration Manager, los nuevos controladores se agregan a la consola después de la siguiente sincronización. Microsoft pretende que los controladores de Surface se agregan a la lista de permitidos cada mes en alineación con las versiones de actualización mensuales para que estén disponibles para la sincronización con Configuration Manager.
 
-Si el entorno de Configuration Manager está sin conexión, se importa una nueva lista de permitidos cada vez que importe actualizaciones de [mantenimiento](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) a Configuration Manager. También tendrá que importar un nuevo catálogo [WSUS](https://docs.microsoft.com/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) que contenga los controladores antes de que se muestren las actualizaciones en la consola de Configuration Manager. Dado que un entorno WSUS independiente contiene más controladores que un SUP de Configuration Manager, te recomendamos que establezcas un entorno de Configuration Manager que tenga funcionalidades en línea y que lo configures para sincronizar los controladores de Surface. Esto proporciona una exportación de WSUS más pequeña que se asemeja mucho al entorno sin conexión.
+Si el entorno de Configuration Manager está sin conexión, se importa una nueva lista de permitidos cada vez que importe actualizaciones de [mantenimiento](/mem/configmgr/core/servers/manage/use-the-service-connection-tool) a Configuration Manager. También tendrá que importar un nuevo catálogo [WSUS](/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) que contenga los controladores antes de que se muestren las actualizaciones en la consola de Configuration Manager. Dado que un entorno WSUS independiente contiene más controladores que un SUP de Configuration Manager, te recomendamos que establezcas un entorno de Configuration Manager que tenga funcionalidades en línea y que lo configures para sincronizar los controladores de Surface. Esto proporciona una exportación de WSUS más pequeña que se asemeja mucho al entorno sin conexión.
 
 Si el entorno de Configuration Manager está en línea y puede detectar actualizaciones nuevas, recibirá actualizaciones de la lista automáticamente. Si no ve los controladores esperados, revise los archivos WCM.log y WsyncMgr.log para ver si hay algún error de sincronización.
 
 **Mi entorno de Configuration Manager está sin conexión. ¿Puedo importar manualmente controladores de Surface a WSUS?**
 
-No. Incluso si la actualización se importa a WSUS, la actualización no se importará en la consola de Configuration Manager para su implementación si no aparece en la lista de permitidos. Debe usar la Herramienta [de conexión de servicio para](https://docs.microsoft.com/mem/configmgr/core/servers/manage/use-the-service-connection-tool) importar actualizaciones de mantenimiento a Configuration Manager para actualizar la lista de permitidos.
+No. Incluso si la actualización se importa a WSUS, la actualización no se importará en la consola de Configuration Manager para su implementación si no aparece en la lista de permitidos. Debe usar la Herramienta [de conexión de servicio para](/mem/configmgr/core/servers/manage/use-the-service-connection-tool) importar actualizaciones de mantenimiento a Configuration Manager para actualizar la lista de permitidos.
 
 **¿Qué métodos alternativos tengo para implementar actualizaciones de controladores y firmware de Surface?**
 
-Para obtener información sobre cómo implementar actualizaciones de controladores y firmware de Surface a través de canales alternativos, consulta Administrar actualizaciones de [controladores y firmware de Surface.](manage-surface-driver-and-firmware-updates.md) Si quieres descargar el archivo .msi o .exe y, a continuación, implementar a través de los canales de implementación de software tradicionales, consulta [Keeping Surface Firmware Updated with Configuration Manager](https://docs.microsoft.com/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager).
+Para obtener información sobre cómo implementar actualizaciones de controladores y firmware de Surface a través de canales alternativos, consulta [Administrar actualizaciones de controladores y firmware de Surface](manage-surface-driver-and-firmware-updates.md). Si quieres descargar el archivo .msi o .exe y, a continuación, implementarlo a través de los canales de implementación de software tradicionales, consulta [Mantener el firmware de Surface actualizado con Configuration Manager](/archive/blogs/thejoncallahan/keeping-surface-firmware-updated-with-configuration-manager).
 
 ## <a name="additional-information"></a>Información adicional
 

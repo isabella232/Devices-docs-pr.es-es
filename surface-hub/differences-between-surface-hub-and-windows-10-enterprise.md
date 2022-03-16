@@ -7,16 +7,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/23/2021
+ms.date: 02/15/2022
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
-ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
+ms.openlocfilehash: 6963a51b492bfbdc09da5ec667d091d62eed4569
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "12094463"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449243"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Conceptos básicos del sistema operativo (Surface Hub)
 
@@ -111,7 +111,7 @@ Para ayudar a mantener la naturaleza del dispositivo, Surface Hub solo admite la
 
 ## <a name="security-and-lockdown"></a>Seguridad y bloqueo
 
-Para que Surface Hub se use en espacios comunes, como reuniones de las salas, su sistema operativo personalizado implementa muchas de las características de seguridad y bloqueo disponibles en Windows 10. Para obtener más información, vea [Surface Hub de seguridad](surface-hub-security.md)
+Para que Surface Hub se use en espacios comunes, como reuniones de las salas, su sistema operativo personalizado implementa muchas de las características de seguridad y bloqueo disponibles en Windows 10. Para obtener más información, [vea Surface Hub Security Overview](surface-hub-security.md)
 
 Surface Hub implementa las siguientes características de seguridad de Windows 10:
 
@@ -147,11 +147,22 @@ Las opciones del dispositivo se pueden configurar a través de la aplicación Co
 
 ### <a name="administrative-features"></a>Características de administración
 
-Las características administrativas de Windows 10 Enterprise, como Microsoft Management Console, Ejecutar, Símbolo del sistema, PowerShell, Editor del registro, Visor de eventos y Administrador de tareas administrativas, no se admiten en Surface Hub. La aplicación Configuración contiene todas las características administrativas disponibles localmente en Surface Hub.
+Las características administrativas de Windows 10 Enterprise, como La Consola de administración de Microsoft, Ejecutar, Símbolo del sistema, PowerShell, editor del Registro y Administrador de tareas no se admiten en Surface Hub. La aplicación Configuración contiene todas las características administrativas disponibles localmente en Surface Hub.
+
+#### <a name="event-viewer"></a>Visor de eventos
+
+Windows 10 Team 2020 Update 2 agrega compatibilidad con el Visor de eventos de Windows, que es idéntico al Visor de eventos instalado en Windows 10 Pro [](/host-integration-server/core/windows-event-viewer1) o Windows 10 Enterprise. 
+
+**Para abrir el visor de eventos:**
+
+1. Inicie sesión en **la Configuración** con credenciales de administrador.
+2. Seleccione **Actualizar &** **SecurityLogs** >  y, en Visor de eventos, seleccione **Abrir**. 
+
+Para obtener más información, [vea Windows Visor de eventos](/host-integration-server/core/windows-event-viewer1).
 
 ### <a name="remote-management-and-monitoring"></a>Administración y supervisión remotas
 
-Surface Hub admite la administración remota a través de soluciones [](/mem/intune/) de administración de dispositivos móviles (MDM), como Microsoft Intune y supervisión a través [de Azure Monitor.](/azure/azure-monitor/) 
+Surface Hub la administración remota a través de soluciones de administración de dispositivos móviles (MDM), [como](/mem/intune/) Microsoft Intune y supervisión a través [de Azure Monitor](/azure/azure-monitor/). 
 
 *Directivas de la organización que esto puede afectar:* 
 
@@ -181,7 +192,7 @@ Surface Hub usa la unión a un dominio y la unión a Azure AD principalmente par
 
 *Directivas de la organización que esto puede afectar:* 
 
-- La configuración de directiva de grupo no se aplica cuando Surface Hub se une al dominio. La configuración de directiva relacionada con la pertenencia a un dominio no se aplica a Surface Hub.
+- La configuración de directiva de grupo no se aplica cuando Surface Hub se une a su dominio. La configuración de directiva relacionada con la pertenencia a un dominio no se aplica a Surface Hub.
 
 ### <a name="accessing-domain-resources"></a>Acceder a los recursos de dominio
 

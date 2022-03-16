@@ -12,33 +12,36 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: 7d09bc70a2e0c882bde9106ee2c241568c1fc991
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 811fc2875e6865c5160594b36c5166457b678ebb
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154135"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449443"
 ---
 # <a name="use-surface-diagnostic-toolkit-for-business-in-desktop-mode"></a>Usar Kit de herramientas de diagnóstico de Surface para empresas en modo de escritorio
 
 En este tema se explica cómo usar surface diagnostic Toolkit (SDT) para ayudar a los usuarios de la organización a ejecutar la herramienta para identificar y diagnosticar problemas con su dispositivo Surface, así como enviar solicitudes de soporte técnico directamente desde la herramienta. 
 
-La ejecución correcta de SDT puede determinar rápidamente si un problema notificado se debe a un error de hardware o de usuario. Para obtener una lista de dispositivos Surface compatibles en SDT, consulte [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+La ejecución correcta de SDT puede determinar rápidamente si un problema notificado se debe a un error de hardware o de usuario. Para obtener una lista de dispositivos Surface compatibles en SDT, consulta [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 
-1. Dirija al usuario a instalar [el paquete SDT](surface-diagnostic-toolkit-business.md#preparing-the-sdt-package-for-distribution)) desde un punto de distribución de software o recurso compartido de red. Después de instalarlo, estará listo para guiar al usuario a través de una serie de pruebas. 
+1. Dirija al usuario a instalar [el paquete de SDT](surface-diagnostic-toolkit-business.md#preparing-the-sdt-package-for-distribution)) desde un punto de distribución de software o recurso compartido de red. Después de instalarlo, estará listo para guiar al usuario a través de una serie de pruebas. 
 
-2. Comience en la página principal, que permite a los usuarios escribir una descripción del problema y haga clic en Continuar **,** como se muestra en la figura 1.
+2. Comience en la página principal, que permite a los usuarios escribir una descripción del problema y haga clic en **Continuar**, como se muestra en la figura 1.
 
     ![Inicie SDT en modo de escritorio.](images/sdt-desk-1.png)<br/>
     *Figura 1. SDT en modo de escritorio*
 
-3. Cuando SDT indica que el dispositivo **** tiene las actualizaciones más recientes, haz clic en Continuar para avanzar al catálogo de pruebas disponibles, como se muestra en la figura 2.
+3. Cuando SDT indica que el dispositivo tiene las actualizaciones más recientes, **** haz clic en Continuar para avanzar al catálogo de pruebas disponibles, como se muestra en la figura 2.
 
     ![Seleccione entre las opciones de SDT.](images/sdt1.png)<br/>
     *Figura 2. Seleccionar entre opciones de SDT*
 
-4. Puede elegir ejecutar todas las pruebas de diagnóstico. O bien, si ya sospecha que hay un problema concreto, **** como una pantalla defectuosa o un problema de fuente de alimentación, haga clic en Seleccionar para elegir entre las pruebas disponibles y haga clic en Ejecutar seleccionado **,** tal como se muestra en la figura 3. Consulte la tabla siguiente para obtener más información sobre cada prueba. 
+4. Puede elegir ejecutar todas las pruebas de diagnóstico. O bien, si ya sospecha que hay un problema concreto, como una pantalla defectuosa o un problema de fuente de alimentación, haga clic en **Seleccionar** para elegir entre las pruebas disponibles y haga clic en Ejecutar **seleccionado, como** se muestra en la figura 3. Consulte la tabla siguiente para obtener más información sobre cada prueba. 
 
     ![Seleccione pruebas de hardware.](images/sdt2.png)<br/>
     *Figura 3. Seleccionar pruebas de hardware*
@@ -69,15 +72,15 @@ La ejecución correcta de SDT puede determinar rápidamente si un problema notif
 
 ## <a name="running-multiple-hardware-tests-to-troubleshoot-issues"></a>Ejecutar varias pruebas de hardware para solucionar problemas
 
-SDT está diseñado como una herramienta interactiva que ejecuta una serie de pruebas. Para cada prueba, SDT proporciona instrucciones que resumen la naturaleza de la prueba y lo que los usuarios deben esperar o buscar para que la prueba se haga correctamente. Por ejemplo, para diagnosticar si el brillo de la pantalla funciona correctamente, SDT comienza en cero y **** aumenta el brillo al 100 por ciento, lo que pide a los usuarios que confirmen (respondiendo Sí o **No)** que el brillo funciona como se esperaba, como se muestra en la figura 4. 
+SDT está diseñado como una herramienta interactiva que ejecuta una serie de pruebas. Para cada prueba, SDT proporciona instrucciones que resumen la naturaleza de la prueba y lo que los usuarios deben esperar o buscar para que la prueba se haga correctamente. Por ejemplo, para diagnosticar si el brillo de la pantalla funciona correctamente, SDT comienza en cero y aumenta el brillo al 100 por ciento, lo que pide a los usuarios que **** confirmen (respondiendo Sí o **No**) que el brillo funciona como se esperaba, como se muestra en la figura 4. 
 
 Para cada prueba, si la funcionalidad no funciona como se esperaba y el usuario hace clic en **No**, SDT genera un informe de las posibles causas y formas de solucionarlo. 
 
-![Ejecución de diagnósticos de hardware. ](images/sdt-desk-4.png)
+![Ejecución de diagnósticos de hardware.](images/sdt-desk-4.png)
  *Figura 4. Ejecución de diagnósticos de hardware*
 
-1. Si el brillo se ajusta correctamente del 0 al 100 por ciento como se esperaba, dirija al usuario a hacer clic en **Sí** y, a continuación, haga clic en **Continuar**. 
-2. Si el brillo no se ajusta del 0 al 100 por ciento como se esperaba, dirija al usuario a hacer clic en **No** y, a continuación, haga clic en **Continuar**. 
+1. Si el brillo se ajusta correctamente del 0 al 100 por ciento según lo esperado, dirija al usuario a hacer clic en **Sí** y, a continuación, haga clic en **Continuar**. 
+2. Si el brillo no se ajusta del 0 al 100 por ciento como se esperaba, dirija al usuario a **hacer clic en No** y, a continuación, haga clic en **Continuar**. 
 3. Guía a los usuarios a través de las pruebas restantes según corresponda. Una vez terminado, SDT proporciona automáticamente un resumen de alto nivel del informe, incluidas las posibles causas de cualquier problema de hardware, junto con instrucciones para la resolución.
 
 
@@ -85,7 +88,7 @@ Para cada prueba, si la funcionalidad no funciona como se esperaba y el usuario 
 
 SDT permite diagnosticar y reparar aplicaciones que pueden estar causando problemas, como se muestra en la figura 5.
 
-![Ejecución de reparaciones. ](images/sdt-desk-5.png)
+![Ejecución de reparaciones.](images/sdt-desk-5.png)
  *Figura 5. Ejecución de reparaciones*
 <span id="logs" />
 
@@ -93,7 +96,7 @@ SDT permite diagnosticar y reparar aplicaciones que pueden estar causando proble
 
 SDT proporciona una amplia compatibilidad de diagnóstico habilitada para registros en aplicaciones, controladores, hardware y problemas del sistema operativo, como se muestra en la figura 6.
 
-![Generación de registros. ](images/sdt-desk-6.png)
+![Generación de registros.](images/sdt-desk-6.png)
  *Figura 6. Generación de registros*
 
 <span id="detailed-report" />

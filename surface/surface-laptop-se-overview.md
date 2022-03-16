@@ -1,6 +1,6 @@
 ---
-title: Surface Laptop SE introducción
-description: En este artículo se proporciona información general Surface Laptop SE para educación.
+title: Introducción a Surface Laptop SE
+description: En este artículo se proporciona información general sobre Surface Laptop SE educación.
 ms.prod: w11
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,29 +12,31 @@ ms.date: 01/11/2022
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2496c50db10454674f80aec03734849bacf63f38
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 11
+ms.openlocfilehash: a99c3241eea0099b90de9c64ff840306aa98e58d
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338669"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448324"
 ---
-# <a name="surface-laptop-se-overview"></a>Surface Laptop SE introducción
+# <a name="surface-laptop-se-overview"></a>Introducción a Surface Laptop SE
 
-Surface Laptop SE proporciona una experiencia de dispositivo administrado que simplifica el aprendizaje de los alumnos a un costo asequible. Se ejecuta Windows 11 SE, un sistema operativo de primera nube, y viene precargado con aplicaciones [](#pre-installed-apps) muy usadas como Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid , y mucho más. 
+Surface Laptop SE proporciona una experiencia de dispositivo administrado que simplifica el aprendizaje de los alumnos a un costo asequible. Se ejecuta Windows 11 SE, un sistema operativo de primera nube, y viene precargado con aplicaciones muy [](#pre-installed-apps) usadas como Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid , y mucho más. 
 
 :::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop SE muestra Windows 11 SE menú Inicio":::<br>
 *Figura 1. Surface Laptop SE muestra Windows 11 SE menú Inicio*
 
-Surface Laptop SE admite la mayoría de las aplicaciones que los alumnos y los profesores necesitan, incluidas las aplicaciones web progresivas (PWA), las aplicaciones de plataforma universal de Windows (UWP) y un conjunto seleccionado de [aplicaciones & Microsoft Store Win32](#install-optional-apps). A diferencia de otros dispositivos Surface, Surface Laptop SE impide que los usuarios instalen sus propias aplicaciones. En su lugar, los administradores de TI o los responsables técnicos administran Surface Laptop SE dispositivos con Microsoft Endpoint Manager, que incluye [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Intune para](https://www.microsoft.com/education/intune) Educación y el nuevo Portal de administración [de Surface](surface-management-portal.md). 
+Surface Laptop SE admite la mayoría de las aplicaciones que los estudiantes y los profesores necesitan, incluidas las aplicaciones web progresivas (PWA), las aplicaciones de plataforma universal de Windows (UWP) y un conjunto seleccionado de [aplicaciones & Microsoft Store Win32](#install-optional-apps). A diferencia de otros dispositivos Surface, Surface Laptop SE impide que los usuarios instalen sus propias aplicaciones. En su lugar, los administradores de TI o los clientes potenciales técnicos administran dispositivos Surface Laptop SE con Microsoft Endpoint Manager, que incluye [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Intune para](https://www.microsoft.com/education/intune) Educación y el nuevo [Surface Management Portal](surface-management-portal.md). 
 
 > [!NOTE]
 > Este artículo está dirigido a los administradores de TI y al personal educativo que implementan y administran dispositivos para usuarios de centros educativos. Para obtener información general o ordenar, [consulte Surface Laptop SE Portátil delgado para estudiantes](https://www.microsoft.com/surface/business/surface-laptop-se).
 
 ## <a name="simplified-deployment-management--security"></a>Implementación simplificada, administración y & seguridad
 
-- Completa la implementación táctil para nuevos dispositivos con Windows Autopilot, aplicando rápidamente directivas e instalando aplicaciones. Windows Autopilot proporciona una implementación y una creación de imágenes sin problemas, con muchas aplicaciones y directivas preinstaladas y preconfiguradas. It can easily adjust device settings (including firmware settings) and install the apps students need so that everything is ready to go when they first power on their device.
-- Una vez implementados los dispositivos, Microsoft Intune proporciona una administración remota optimizada durante todo el año escolar, lo que proporciona a LA LA la capacidad de administrar aplicaciones, controlar la seguridad y la privacidad y generar informes de cumplimiento.
+- Completa la implementación táctil para nuevos dispositivos con Windows Autopilot, aplicando rápidamente directivas e instalando aplicaciones. Windows Autopilot proporciona una implementación táctil y una creación de imágenes sin problemas, con muchas aplicaciones y directivas preinstaladas y preconfiguradas. It can easily adjust device settings (including firmware settings) and install the apps students need so that everything is ready to go when they first power on their device.
+- Una vez implementados los dispositivos, Microsoft Intune ofrece una administración remota optimizada durante todo el año escolar, lo que proporciona a LA LA la capacidad de administrar aplicaciones, controlar la seguridad y la privacidad y generar informes de cumplimiento.
 - Bloquee el sistema operativo con bloqueo de tapa cuando se cierre el portátil y controle el acceso físico con la ranura de seguridad Kensington Nano integrada™.
 - Una bisagra no expuesta recién diseñada, un chasis de plástico y un borde de plástico que rodea la pantalla que sale al bisel proporcionan una durabilidad adicional para satisfacer mejor las necesidades y las demandas de uso de los alumnos.
 - Intune y DFCI admiten actualizaciones de dispositivos seguras y administración en la capa de firmware. Los administradores de TI pueden controlar elementos de hardware como micrófonos, puertos USB, cámaras y Bluetooth y quitar energía a los periféricos. El empaquetado único de Surface escaneable permite una identificación sencilla de los dispositivos, con el número de id. de dispositivo que permanece igual cuando llega el momento de volver a inscribirse.
@@ -50,11 +52,11 @@ Al inscribir Surface Laptop SE para la administración en la nube y los usuarios
 
 | Escenario                                                            | Descripción                                                                                                                                                                                                                                                                                                                          | Obtén más información                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Configurar de forma remota Surface Laptop SE dispositivos con Windows Autopilot | Windows Autopilot proporciona una implementación y una creación de imágenes sin problemas, con muchas aplicaciones y directivas preinstaladas y preconfiguradas. It can easily adjust device settings (including firmware settings) and install the apps students need so that everything is ready to go when they first power on their device.                 |[Configurar dispositivos de Intune para Educación con Windows Autopilot](/intune-education/windows-autopilot-setup)<br><br>[¿Cómo debo inscribir mis dispositivos?](/intune-education/how-should-i-enroll-devices)                                                                                                                                                  |
+| Configurar de forma Surface Laptop SE dispositivos con Windows Autopilot | Windows Autopilot proporciona una implementación y una creación de imágenes sin problemas, con muchas aplicaciones y directivas preinstaladas y preconfiguradas. It can easily adjust device settings (including firmware settings) and install the apps students need so that everything is ready to go when they first power on their device.                 |[Configurar Dispositivos de Intune para Educación con Windows Autopilot](/intune-education/windows-autopilot-setup)<br><br>[¿Cómo debo inscribir mis dispositivos?](/intune-education/how-should-i-enroll-devices)                                                                                                                                                  |
 | Implementar actualizaciones a través de Intune para Educación                             | Los administradores de TI pueden usar Microsoft Intune para enviar actualizaciones del sistema operativo y la aplicación a Surface Laptop SE dispositivos en toda la escuela durante todo el año. Si es necesario, pueden deshabilitar elementos de hardware como la cámara o Bluetooth en un dispositivo individual o restablecer un dispositivo específico si un alumno está experimentando problemas técnicos. |[Administrar dispositivos que Windows 11 SE](/intune-education/windows-11-se-overview)<br><br>[Documentación y recursos de Microsoft Education](/microsoft-365/education/)<br><br>[Introducción a Intune for Education](/microsoft-365/education/deploy/intune-for-education)<br><br>[Usar Intune for Education para administrar los grupos, las aplicaciones y la configuración](/microsoft-365/education/deploy/use-intune-for-education) |
 | Reemplazar dispositivos según sea necesario                                           | Si los alumnos rompen la pantalla o dañan el dispositivo, los administradores de TI pueden implementar rápidamente dispositivos de reserva, transfiriendo las identidades de nube de los alumnos a los nuevos dispositivos.                                                                                                  |[Acciones de dispositivo remoto en Intune for Education](/intune-education/edu-device-remote-actions)                                                                                                                                                                                                                                                                                   |
 | Implementar nuevas aplicaciones a través de Intune                                          | Si los profesores solicitan una nueva aplicación, los administradores de TI pueden instalarla de forma remota en todos los dispositivos de estudiantes mediante Intune.                                                                                                                                                                                                                            |[Instalar aplicaciones para todos los usuarios](/microsoft-365/education/deploy/use-intune-for-education#install-apps-for-all-users)                                                                                                                                                                                                                                                              |
-| Restablecer dispositivos a través de Intune                                            | Cuando los alumnos entren en sus dispositivos Surface Laptop SE al final del año escolar, los administradores de TI pueden usar Intune para restablecer los dispositivos de la siguiente clase que los necesitarán al principio del próximo año escolar.                                                                                                           |[Usar Restablecimiento de Piloto automático para volver a configurar dispositivos con Intune para Educación](/intune-education/autopilot-reset)                                                                                                                                                                                                                                                                      |
+| Restablecer dispositivos a través de Intune                                            | Cuando los alumnos enciendan sus dispositivos Surface Laptop SE al final del año escolar, los administradores de TI pueden usar Intune para restablecer los dispositivos de la siguiente clase que los necesitarán al principio del próximo año escolar.                                                                                                           |[Usar Restablecimiento de Piloto automático para volver a configurar dispositivos con Intune para Educación](/intune-education/autopilot-reset)                                                                                                                                                                                                                                                                      |
 
 ## <a name="pre-installed-apps"></a>Aplicaciones preinstaladas
 
@@ -104,7 +106,7 @@ Surface Laptop SE Surface Laptop SE está diseñado para permitir que los técni
 - Batería
 - Pies
 
-Los centros educativos pueden usar un proveedor de servicios autorizado o sus propios técnicos cualificados para reparar dispositivos en el sitio siguiendo la "Guía de servicio de Surface Laptop SE" proporcionada por Microsoft, disponible en las Guías de servicio de [Surface](https://www.microsoft.com/download/100440).
+Los centros educativos pueden usar un proveedor de servicios autorizado o sus propios técnicos cualificados para reparar dispositivos en el sitio siguiendo la "Guía de servicio Surface Laptop SE" proporcionada por Microsoft, disponible en las Guías de servicio [de Surface](https://www.microsoft.com/download/100440).
 
 Para obtener más información, vea:
 
@@ -149,6 +151,6 @@ Para obtener más información, vea:
 - [Introducción a Surface Laptop SE educación](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-surface-laptop-se-for-education/ba-p/1721767)
 - [Windows11SE para educación](/education/windows/windows-11-se-overview)
 - [Administrar dispositivos que Windows 11 SE](/intune-education/windows-11-se-overview)
-- [Configurar dispositivos de Intune para Educación con Windows Autopilot](/intune-education/windows-autopilot-setup)
+- [Configurar Dispositivos de Intune para Educación con Windows Autopilot](/intune-education/windows-autopilot-setup)
 - [Documentación y recursos de Microsoft Education](/microsoft-365/education/)
 - [Outlook en la Web](https://www.microsoft.com/microsoft-365/outlook/web-email-login-for-outlook?)
