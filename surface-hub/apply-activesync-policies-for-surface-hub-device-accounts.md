@@ -15,24 +15,23 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 7ead08e49d3eee2d616ac9fcf06b85dd82e136dc
-ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
+ms.openlocfilehash: fa393eca697897ee620732b543ebb6889aa035d1
+ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "11474737"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "12472579"
 ---
 # <a name="applying-activesync-policies-to-device-accounts-surface-hub"></a>Aplicación de directivas de ActiveSync a las cuentas de dispositivo (Surface Hub)
 
+Surface Hubs en Windows 10 Team 1703 y versiones anteriores usaban ActiveSync para sincronizar el correo & calendario.
 
-Los Surface Hub que usan cuentas de dispositivo **** de Active Directory (aprovisionadas en el concentrador en formato dominio\nombredeusuario) y los servicios de Exchange locales usan ActiveSync para sincronizar el correo y el calendario. Esto permite a los usuarios unirse e iniciar reuniones programadas desde Surface Hub, así como enviar por correo electrónico cualquier pizarra interactiva realizada durante la reunión.
+Los requisitos de Surface Hub para las directivas de ActiveSync en su organización son los siguientes:
 
-Para que estas características funcionen, las directivas de ActiveSync de tu organización deben configurarse de la siguiente manera:
-
--   No puede haber ninguna directiva global que bloquee la sincronización del buzón de recursos que está usando la cuenta del dispositivo de Surface Hub. Si hay una directiva de bloqueo de este tipo, debes agregar Surface Hub como dispositivo permitido.
+-   No puede haber ninguna directiva global que bloquee la sincronización del buzón de recursos que usa la cuenta de dispositivo del Surface Hub. Si hay una directiva de bloqueo de este tipo, debe agregar el Surface Hub como dispositivo permitido.
 -   Debes establecer una directiva de buzón de dispositivo móvil donde la **PasswordEnabled** configuración esté establecida en False. Otras opciones de configuración de directiva de buzón de dispositivo móvil no son compatibles con el Surface Hub.
 
-## <a name="allowing-the-deviceid"></a>Permitir deviceid
+## <a name="allowing-the-deviceid"></a>Permitir deviceID
 
 La organización puede tener una directiva global que impida la sincronización de cuentas de dispositivos aprovisionadas en Surface Hubs. Para configurar esta propiedad, consulta [Permitir id. de dispositivo para ActiveSync](appendix-a-powershell-scripts-for-surface-hub.md#allowing-device-ids-for-activesync).
 
