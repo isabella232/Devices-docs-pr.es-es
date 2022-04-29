@@ -1,6 +1,6 @@
 ---
 title: Conceptos básicos del sistema operativo (Surface Hub)
-description: En este tema se explican aspectos únicos del Windows 10 Team operativo y cómo difiere de Windows 10 Enterprise.
+description: En este tema se explican aspectos únicos del sistema operativo Windows Team en Surface Hub y cómo difiere de Windows 10 o Windows 11 Empresas.
 keywords: historial de cambios
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,32 +11,34 @@ ms.date: 02/15/2022
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 6963a51b492bfbdc09da5ec667d091d62eed4569
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 5be9c0ba3f23832d2e3d9b66a746e9f1f0772e63
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12449243"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497343"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Conceptos básicos del sistema operativo (Surface Hub)
 
-El sistema operativo de Surface Hub, Windows 10 Team, se basa en Windows 10 Enterprise y proporciona compatibilidad enriquecida para la administración empresarial, la seguridad y otras características. Sin embargo, hay importantes diferencias entre las dos versiones. Si bien la edición Enterprise está diseñada para equipos PC, Windows 10 Team está diseñado desde el principio para pantallas de gran tamaño y salas de reuniones. Al evaluar los requisitos de seguridad y administración de Surface Hub, es mejor considerarlo como un nuevo sistema operativo. Este artículo está diseñado para ayudar a destacar las diferencias clave entre Windows 10 Team en Surface Hub y Windows 10 Enterprise y qué significan las diferencias para las organizaciones.
+El sistema operativo Surface Hub, Windows 10 Team, se originó con Windows 10 Enterprise, lo que proporciona una amplia compatibilidad con la administración empresarial, la seguridad y otras características. Sin embargo, hay importantes diferencias entre las dos versiones. Si bien la edición Enterprise está diseñada para equipos PC, Windows 10 Team está diseñado desde el principio para pantallas de gran tamaño y salas de reuniones. Al evaluar los requisitos de seguridad y administración de Surface Hub, se recomienda considerarlo como un nuevo sistema operativo. En este artículo se resaltan las diferencias clave entre Windows 10 Team en las versiones de Surface Hub y de empresa de Windows 10 o Windows 11.
 
-A partir de septiembre de 2020, los clientes tienen la opción de migrar a Windows 10 Pro o Enterprise en Surface Hub 2S. Para conocer más, consulta lo siguiente:
+## <a name="convert-surface-hub-to-run-pro-or-enterprise-desktop"></a>Conversión de Surface Hub para ejecutar Pro o Enterprise escritorio
 
-- [Anuncio de la disponibilidad de Windows 10 Pro y Enterprise en Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
+Puede cambiar el sistema operativo en Surface Hub 2S mediante la migración a Windows 10 o Windows 11 Pro/Enterprise. Para conocer más, consulta lo siguiente:
 
-- [Migrar a Windows 10 Pro o Enterprise en Surface Hub 2](surface-hub-2s-migrate-os.md)
+- [Anuncio de la disponibilidad de Windows 10 Pro y Enterprise el Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
+
+- [Migración a Windows 10, Windows 11 Pro o Enterprise en Surface Hub 2](surface-hub-2s-migrate-os.md)
 
 ## <a name="user-interface"></a>Interfaz de usuario
 
 ### <a name="shell-os-user-interface"></a>Shell (interfaz de usuario del sistema operativo)
 
-El shell de Surface Hub está diseñado desde el principio de modo optimizado para pantallas de gran tamaño y táctiles. No usa el mismo shell que Windows 10 Enterprise.
+El shell de Surface Hub está diseñado desde el principio de modo optimizado para pantallas de gran tamaño y táctiles. No usa el mismo shell que Windows 10 o Windows 11 Empresas.
 
 *Directivas de la organización que esto puede afectar:* 
 
-- La configuración relacionada con los controles el shell de Windows 10 Enterprise no se aplica s Surface Hub.
+- Configuración relacionados con los controles del shell de Windows 10 o Windows 11 Empresas no se aplican a Surface Hub.
 
 ### <a name="lock-screen-and-screensaver"></a>Protector de pantalla y pantalla de bloqueo
 
@@ -48,7 +50,7 @@ Surface Hub no tiene pantalla de bloqueo ni protector de pantalla, pero tiene un
 
 ### <a name="user-sign-in"></a>Inicio de sesión de usuario
 
-Surface Hub está diseñado para usarse en espacios comunes, como las salas de reunión. A diferencia de los equipos con Windows, cualquier persona puede acercarse y usar Surface Hub sin iniciar sesión. Para habilitar esta funcionalidad común, Surface Hub no admite el inicio de sesión de Windows, mientras que Windows 10 Enterprise sí lo permite (por ejemplo, iniciar sesión con un usuario en el sistema operativo y usar esas credenciales en todo el sistema operativo). En su lugar, siempre hay un usuario local conectado automáticamente y con privilegios bajos que ha iniciado sesión en Surface Hub. No es compatible con el inicio de sesión de cualquier usuario adicional, incluyendo los usuarios administradores (por ejemplo, cuando un usuario administrador inicia sesión, no han iniciado sesión en el sistema operativo).
+Surface Hub está diseñado para usarse en espacios comunes, como las salas de reunión. A diferencia de los equipos con Windows, cualquier persona puede acercarse y usar Surface Hub sin iniciar sesión. Para habilitar esta funcionalidad común, Surface Hub no admite Windows inicio de sesión de la misma manera que lo hace Windows 10 o Windows 11 Empresas (por ejemplo, iniciar sesión en un usuario en el sistema operativo y usar esas credenciales en todo el sistema operativo). En su lugar, siempre hay un usuario local conectado automáticamente y con privilegios bajos que ha iniciado sesión en Surface Hub. No es compatible con el inicio de sesión de cualquier usuario adicional, incluyendo los usuarios administradores (por ejemplo, cuando un usuario administrador inicia sesión, no han iniciado sesión en el sistema operativo).
 
 Los usuarios pueden iniciar sesión en Surface Hub, pero no iniciarán sesión en el sistema operativo. Por ejemplo, cuando un usuario inicia sesión en Aplicaciones o Mi reuniones y archivos, solo tiene acceso a las aplicaciones o servicios, no al sistema operativo. Como resultado, el usuario que inició sesión es capaz de recuperar sus archivos y reuniones personales almacenadas de la nube, y estas credenciales se descartan al activar **Finalizar sesión**.
 
@@ -67,13 +69,13 @@ Los usuarios tienen acceso a un conjunto limitado de directorios en Surface Hub:
 
 Los archivos que se guardan localmente en estos directorios se eliminan cuando los usuarios presionen **Terminar la sesión**. Para guardar contenido creado durante una reunión, los usuarios deben guardar los archivos en una unidad USB o en OneDrive.
 
-*Directivas de la organización que esto puede afectar:* - Las directivas relacionadas con los permisos de acceso y la propiedad de archivos y carpetas no se aplican a Surface Hub. Los usuarios no pueden explorar ni guardar archivos en directorios del sistema ni carpetas de red.
+*Directivas de la organización que esto puede afectar:* las directivas relacionadas con los permisos de acceso y la propiedad de archivos y carpetas no se aplican a Surface Hub. Los usuarios no pueden explorar ni guardar archivos en directorios del sistema ni carpetas de red.
 
 ## <a name="applications"></a>Aplicaciones
 
 ### <a name="default-applications"></a>Aplicaciones predeterminadas
 
-Con pocas excepciones, las aplicaciones predeterminadas para la Plataforma universal de Windows (UWP) de Surface Hub también están disponibles en los equipos con Windows 10.
+Con pocas excepciones, las aplicaciones de Plataforma universal de Windows predeterminadas (UWP) en Surface Hub también están disponibles en equipos Windows 10 o Windows 11.
 
 Aplicaciones para UWP instaladas previamente en Surface Hub:
 
@@ -99,7 +101,7 @@ Aplicaciones para UWP instaladas previamente en Surface Hub:
 
 *Directivas de la organización que esto puede afectar:* 
 
-- Usa las directrices de Windows 10 Enterprise para determinar las características y los requisitos de red de las aplicaciones predeterminadas en Surface Hub.
+- Use instrucciones para Windows 10 o Windows 11 Empresas para determinar las características y los requisitos de red de las aplicaciones predeterminadas en el Surface Hub.
 
 ### <a name="installing-apps-drivers-and-services"></a>Instalar aplicaciones, controladores y servicios
 
@@ -111,15 +113,15 @@ Para ayudar a mantener la naturaleza del dispositivo, Surface Hub solo admite la
 
 ## <a name="security-and-lockdown"></a>Seguridad y bloqueo
 
-Para que Surface Hub se use en espacios comunes, como reuniones de las salas, su sistema operativo personalizado implementa muchas de las características de seguridad y bloqueo disponibles en Windows 10. Para obtener más información, [vea Surface Hub Security Overview](surface-hub-security.md)
+Para que Surface Hub se use en espacios comunes, como salas de reuniones, su sistema operativo personalizado implementa muchas de las características de seguridad y bloqueo disponibles en Windows 10 o Windows 11. Para más información, consulte [introducción a la seguridad de Surface Hub](surface-hub-security.md)
 
-Surface Hub implementa las siguientes características de seguridad de Windows 10:
+Surface Hub implementa estas características de seguridad Windows:
 
 - [Arranque seguro](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [Control de aplicaciones de Windows Defender y protección basada en la virtualización de la integridad del código](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Directivas de restricción de aplicaciones con AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [Cifrado de unidad BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
-- [Módulo de plataforma segura (TPM)](/security/information-protection/tpm/trusted-platform-module-overview)
+- [Módulo de plataforma segura (TPM)](/windows/security/information-protection/tpm/trusted-platform-module-top-node)
 - [Antivirus de Microsoft Defender en Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - [Control de cuentas de usuario (UAC)](/windows/security/identity-protection/user-account-control/user-account-control-overview) para acceder a la aplicación Configuración
 
@@ -139,7 +141,7 @@ Las siguientes características de Surface Hub proporcionan seguridad adicional:
 
 ### <a name="device-settings"></a>Configuración de dispositivo
 
-Las opciones del dispositivo se pueden configurar a través de la aplicación Configuración. La aplicación Configuración está personalizada para Surface Hub, pero también contiene muchas de las opciones de configuración familiares de Windows 10 Escritorio. Un mensaje de Control de cuentas de usuario (UAC) aparece en la pantalla cuando se abre la aplicación Configuración para comprobar las credenciales del administrador, pero este proceso no inicia la sesión del administrador.
+Las opciones del dispositivo se pueden configurar a través de la aplicación Configuración. La aplicación de Configuración está personalizada para Surface Hub, pero también contiene muchas configuraciones conocidas de Windows 10 o Windows 11 Desktop. Un mensaje de Control de cuentas de usuario (UAC) aparece en la pantalla cuando se abre la aplicación Configuración para comprobar las credenciales del administrador, pero este proceso no inicia la sesión del administrador.
 
 *Directivas de la organización que esto puede afectar:* 
 
@@ -147,22 +149,22 @@ Las opciones del dispositivo se pueden configurar a través de la aplicación Co
 
 ### <a name="administrative-features"></a>Características de administración
 
-Las características administrativas de Windows 10 Enterprise, como La Consola de administración de Microsoft, Ejecutar, Símbolo del sistema, PowerShell, editor del Registro y Administrador de tareas no se admiten en Surface Hub. La aplicación Configuración contiene todas las características administrativas disponibles localmente en Surface Hub.
+Las características administrativas de Windows 10 o Windows 11 Empresas, como Microsoft Management Console, Run, Command Prompt, PowerShell, Registry editor y Task manager no se admiten en Surface Hub. La aplicación Configuración contiene todas las características administrativas disponibles localmente en Surface Hub.
 
 #### <a name="event-viewer"></a>Visor de eventos
 
-Windows 10 Team 2020 Update 2 agrega compatibilidad con el Visor de eventos de Windows, que es idéntico al Visor de eventos instalado en Windows 10 Pro [](/host-integration-server/core/windows-event-viewer1) o Windows 10 Enterprise. 
+Windows 10 Team 2020 Update 2 agrega compatibilidad con la Windows Visor de eventos, que es idéntica a la [Visor de eventos](/host-integration-server/core/windows-event-viewer1) instalada en Windows 10 Pro o Windows 10 Enterprise. 
 
-**Para abrir el visor de eventos:**
+**Para abrir el Visor de eventos:**
 
-1. Inicie sesión en **la Configuración** con credenciales de administrador.
+1. Inicie sesión en **Configuración** aplicación con credenciales de administrador.
 2. Seleccione **Actualizar &** **SecurityLogs** >  y, en Visor de eventos, seleccione **Abrir**. 
 
-Para obtener más información, [vea Windows Visor de eventos](/host-integration-server/core/windows-event-viewer1).
+Para obtener más información, consulte [Windows Visor de eventos](/host-integration-server/core/windows-event-viewer1).
 
 ### <a name="remote-management-and-monitoring"></a>Administración y supervisión remotas
 
-Surface Hub la administración remota a través de soluciones de administración de dispositivos móviles (MDM), [como](/mem/intune/) Microsoft Intune y supervisión a través [de Azure Monitor](/azure/azure-monitor/). 
+Surface Hub admite la administración remota a través de soluciones de administración de dispositivos móviles (MDM), como [Microsoft Intune](/mem/intune/) y supervisión a través de [Azure Monitor](/azure/azure-monitor/). 
 
 *Directivas de la organización que esto puede afectar:* 
 
@@ -170,7 +172,7 @@ Surface Hub la administración remota a través de soluciones de administración
 
 ### <a name="group-policy"></a>Directiva de grupo
 
-Surface Hub no admite Windows de grupo, incluida la auditoría. En su lugar, usa MDM para aplicar directivas a Surface Hub. Para obtener más información sobre MDM, consulta [Administrar la configuración con un proveedor de MDM (Surface Hub)](manage-settings-with-mdm-for-surface-hub.md).
+Surface Hub no admite Windows directiva de grupo, incluida la auditoría. En su lugar, usa MDM para aplicar directivas a Surface Hub. Para obtener más información sobre MDM, consulta [Administrar la configuración con un proveedor de MDM (Surface Hub)](manage-settings-with-mdm-for-surface-hub.md).
 
 *Directivas de la organización que esto puede afectar:* 
 
@@ -188,11 +190,11 @@ Surface Hub no admite la asistencia remota.
 
 ### <a name="domain-join-and-azure-active-directory-azure-ad-join"></a>Unirse a un dominio y unirse Azure Active Directory (Azure AD) 
 
-Surface Hub usa la unión a un dominio y la unión a Azure AD principalmente para proporcionar un grupo de administradores respaldados por el directorio. No se admite la combinación híbrida. Los usuarios no pueden iniciar sesión con una cuenta de dominio. Para obtener más información, consulta [Administración del grupo de administradores](admin-group-management-for-surface-hub.md).
+Surface Hub usa la unión a un dominio y la unión a Azure AD principalmente para proporcionar un grupo de administradores respaldados por el directorio. No se admite la unión híbrida. Los usuarios no pueden iniciar sesión con una cuenta de dominio. Para obtener más información, consulta [Administración del grupo de administradores](admin-group-management-for-surface-hub.md).
 
 *Directivas de la organización que esto puede afectar:* 
 
-- La configuración de directiva de grupo no se aplica cuando Surface Hub se une a su dominio. La configuración de directiva relacionada con la pertenencia a un dominio no se aplica a Surface Hub.
+- La configuración de la directiva de grupo no se aplica cuando se une un Surface Hub al dominio. La configuración de directiva relacionada con la pertenencia al dominio no se aplica a Surface Hub.
 
 ### <a name="accessing-domain-resources"></a>Acceder a los recursos de dominio
 
@@ -204,8 +206,8 @@ Los usuarios pueden iniciar sesión en Microsoft Edge para acceder a sitios de i
 
 ### <a name="diagnostic-data"></a>Datos de diagnóstico
 
-El sistema de operativo de Surface Hub usa el componente Experiencia del usuario y telemetría asociadas de Windows 10 para recopilar y transmitir datos de diagnóstico. Para obtener más información, consulta [Configurar los datos de diagnóstico de Windows en la organización](/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
+El sistema operativo Surface Hub usa el componente telemetría y experiencia del usuario conectado Windows para recopilar y transmitir datos de diagnóstico. Para obtener más información, consulta [Configurar los datos de diagnóstico de Windows en la organización](/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
 
 *Directivas de la organización que esto puede afectar:* 
 
-- Configura los niveles de datos de diagnóstico de Surface Hub de la misma manera que lo harías para Windows 10 Enterprise.
+- Configure los niveles de datos de diagnóstico para Surface Hub de la misma manera que lo hace para Windows 10 o Windows 11 Empresas.

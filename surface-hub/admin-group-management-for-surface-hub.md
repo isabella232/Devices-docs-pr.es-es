@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 4d634a4045327cb826e519c7e5097d946991f5d0
-ms.sourcegitcommit: d9c413f1c50908a81e5489aca2c6023eab573148
+ms.openlocfilehash: 496e99523e211499aa18d701a6258cef995d9c4c
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "12093037"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497323"
 ---
 # <a name="admin-group-management-for-surface-hub"></a>Administración de grupos de administración para Surface Hub
 
@@ -28,12 +28,12 @@ Cada Surface Hub se puede configurar localmente mediante la aplicación Configur
 
 ## <a name="admin-group-management"></a>Administración del grupo de administradores
 
-Puedes configurar cuentas de administrador para el dispositivo de las siguientes maneras:
+Puede configurar cuentas de administrador para el dispositivo de las siguientes maneras:
 
 - [Crear una cuenta de administrador local](#create-a-local-admin-account)
-- [Unir el dispositivo a Active Directory](#domain-join-the-device-to-active-directory)
-- [Azure AD unirse al dispositivo](#azure-ad-join-the-device)
-- [Configurar cuentas de administrador no globales en Azure AD unidos (Surface Hub 2S)](#configure-non-global-admin-accounts-on-azure-ad-joined-devices)
+- [Unión del dominio del dispositivo a Active Directory](#domain-join-the-device-to-active-directory)
+- [Azure AD unir el dispositivo](#azure-ad-join-the-device)
+- [Configuración de cuentas de administrador no globales en dispositivos unidos a Azure AD (Surface Hub 2S)](#configure-non-global-admin-accounts-on-azure-ad-joined-devices)
 
 ### <a name="create-a-local-admin-account"></a>Crear una cuenta de administrador local
 
@@ -41,7 +41,7 @@ Para crear un administrador local, [elige usar un administrador local durante la
 
 Ten en cuenta que la información de cuenta de administrador local no está respaldada por ningún servicio de directorio. Te recomendamos que elijas solo un administrador local si el dispositivo no tiene acceso a Active Directory (AD) o Azure Active Directory (Azure AD). Si decides cambiar la contraseña del administrador local, puedes hacerlo en Configuración. Sin embargo, si quieres cambiar de una cuenta de administrador local a un grupo de tu dominio o inquilino de Azure AD, tendrás que [restablecer el dispositivo](device-reset-surface-hub.md) y volver a ejecutar el programa como la primera vez.
 
-### <a name="domain-join-the-device-to-active-directory"></a>Unir el dispositivo a Active Directory
+### <a name="domain-join-the-device-to-active-directory"></a>Unión del dominio del dispositivo a Active Directory
 
 Puedes unir Surface Hub a tu dominio de AD para permitir que los usuarios de un grupo de seguridad especificado puedan configurar los parámetros. Durante la primera ejecución, elige usar [los servicios de dominio de Active Directory](first-run-program-surface-hub.md#active-directory-domain-services). Deberás proporcionar las credenciales que son capaces de unir el dominio de tu elección y el nombre de un grupo de seguridad existente. Cualquier persona que sea miembro de ese grupo de seguridad puede escribir sus credenciales y desbloquear Configuración.
 
@@ -53,14 +53,14 @@ Los Surface Hubs usan unión a un dominio para:
 - Copia de seguridad de la clave de recuperación de BitLocker del dispositivo, almacenándola en el objeto del equipo en AD. Consulta [Guardar la clave de BitLocker](save-bitlocker-key-surface-hub.md) para obtener más información.
 - Sincronizar el reloj del sistema con el controlador de dominio para la comunicación cifrada
 
-Surface Hub no admite la aplicación de directivas de grupo o certificados desde el controlador de dominio.
+Surface Hub no admite la aplicación de directiva de grupo o certificados desde el controlador de dominio.
 
 > [!NOTE]
 > Si el Surface Hub pierde confianza en el dominio (por ejemplo, si se quita el Surface Hub del dominio cuando esté unido a este), no podrás autenticarte en el dispositivo ni abrir Configuración. Si decides quitar la relación de confianza entre el Surface Hub y tu dominio, [restablece el dispositivo](device-reset-surface-hub.md) en primer lugar.
 
-### <a name="azure-ad-join-the-device"></a>Azure AD unirse al dispositivo
+### <a name="azure-ad-join-the-device"></a>Azure AD unir el dispositivo
 
-Puede Azure Active Directory (Azure AD) unirse a la Surface Hub para permitir que los profesionales de TI de su inquilino Azure AD configurar la configuración. Durante la primera ejecución, elige usar [Microsoft Azure Active Directory](first-run-program-surface-hub.md#microsoft-azure-active-directory). Deberás proporcionar las credenciales que se pueden unir al inquilino de Azure AD de tu elección. Después de unirte a Azure AD correctamente, se concederán los derechos de administrador a las personas adecuadas en el dispositivo.
+Puede Azure Active Directory (Azure AD) unirse a la Surface Hub para permitir que los profesionales de TI del inquilino de Azure AD configuren la configuración. Durante la primera ejecución, elige usar [Microsoft Azure Active Directory](first-run-program-surface-hub.md#microsoft-azure-active-directory). Deberás proporcionar las credenciales que se pueden unir al inquilino de Azure AD de tu elección. Después de unirte a Azure AD correctamente, se concederán los derechos de administrador a las personas adecuadas en el dispositivo.
 
 De manera predeterminada, se concederán derechos de administrador a todos los **administradores globales** en un Surface Hub unido a Azure AD. Con **Azure AD Premium** o **Enterprise Mobility Suite (EMS)**, puedes agregar administradores adicionales:
 
@@ -76,11 +76,11 @@ Los Surface Hubs usan la unión a Azure AD para:
 - Conceder derechos de administrador a los usuarios adecuados en el inquilino de Azure AD.
 - Copia de seguridad de la clave de recuperación de BitLocker del dispositivo, almacenándola en la cuenta que se usó para unir el dispositivo a Azure AD. Consulta [Guardar la clave de BitLocker](save-bitlocker-key-surface-hub.md) para obtener más información.
 
-#### <a name="automatic-enrollment-via-azure-active-directory-join"></a>Inscripción automática a través Azure Active Directory unirse
+#### <a name="automatic-enrollment-via-azure-active-directory-join"></a>Inscripción automática mediante Azure Active Directory combinación
 
 Surface Hub ahora admite la capacidad de inscribirse automáticamente en Intune uniendo el dispositivo a Azure Active Directory.
 
-Para obtener más información, vea [Enable Windows 10 automatic enrollment](/intune/windows-enroll#enable-windows-10-automatic-enrollment).
+Para obtener más información, consulte [Configuración de la inscripción para dispositivos Windows](/intune/windows-enroll#enable-windows-10-automatic-enrollment).
 
 #### <a name="which-should-i-choose"></a>¿Cuál debo elegir?
 
@@ -93,6 +93,6 @@ Si tu organización usa AD o Azure AD, te recomendamos que te unas a un dominio 
 | Unir el dispositivo a Azure Active Directory (Azure AD) | Tu organización usa Azure AD Basic   | Solo los administradores globales |
 | &nbsp;                                            | Tu organización usa Azure AD Premium o Enterprise Mobility Suite (EMS) | Los administradores globales y los administradores adicionales |
 
-### <a name="configure-non-global-admin-accounts-on-azure-ad-joined-devices"></a>Configurar cuentas de administración no globales en Azure AD dispositivos unidos
+### <a name="configure-non-global-admin-accounts-on-azure-ad-joined-devices"></a>Configuración de cuentas de administrador no globales en dispositivos unidos a Azure AD
 
-Para Surface Hub v1 y Surface Hub dispositivos 2S unidos a Azure AD, Windows 10 Team 2020 Update te permite limitar los permisos de administrador a la administración de la aplicación Configuración en Surface Hub. Esto le permite tener en cuenta los permisos de administración Surface Hub y evitar el acceso de administrador potencialmente no deseado a un dominio Azure AD usuario. Para obtener más información, vea [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+Para los dispositivos Surface Hub v1 y Surface Hub 2S unidos a Azure AD, Windows 10 Team actualización de 2020 permite limitar los permisos de administrador a la administración de la aplicación de Configuración en Surface Hub. Esto le permite limitar los permisos de administrador solo para Surface Hub y evitar el acceso de administrador potencialmente no deseado a un dominio de Azure AD completo. Para más información, consulte [Configuración de cuentas de administrador no globales en Surface Hub](surface-hub-2s-nonglobal-admin.md).

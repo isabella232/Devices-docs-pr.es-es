@@ -12,22 +12,22 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/17/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 7fa715c679803da460cc1d57bd6e84fa33d30413
-ms.sourcegitcommit: d9c413f1c50908a81e5489aca2c6023eab573148
+ms.openlocfilehash: 0230f5abbb33e1a447bc662741d241042f4d278b
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "12093047"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497934"
 ---
 # <a name="manage-microsoft-surface-hub"></a>Administrar Microsoft Surface Hub
 
 Después de la configuración inicial de Microsoft Surface Hub, la configuración y la configuración del dispositivo se pueden modificar o cambiar de un par de maneras:
 
 - **Administración local** - Cada Surface Hub se puede configurar localmente con la aplicación **Configuración** en el dispositivo. Para impedir que usuarios no autorizados cambien la configuración, la aplicación Configuración requiere credenciales de administrador para abrir la aplicación. Para obtener más información, consulta [Administración local para la configuración de Surface Hub](local-management-surface-hub-settings.md).
-- **Administración remota:** Surface Hub a los administradores de TI administrar la configuración y las directivas con un proveedor de administración de dispositivos móviles (MDM), como Microsoft Intune, Microsoft Endpoint Configuration Manager y otros proveedores de terceros. Además, los administradores pueden supervisar Surface Hubs con Azure Monitor.  Para obtener más información, consulta Administrar [la configuración con](manage-settings-with-mdm-for-surface-hub.md)un proveedor MDM y Supervisar Surface [Hubs con Azure Monitor para realizar un seguimiento de su estado.](/azure/azure-monitor/insights/surface-hubs) 
+- **Administración remota**: Surface Hub permitir a los administradores de TI administrar la configuración y las directivas mediante un proveedor de administración de dispositivos móviles (MDM), como Microsoft Intune, Microsoft Endpoint Configuration Manager y otros proveedores de terceros. Además, los administradores pueden supervisar Surface Hubs mediante Azure Monitor.  Para obtener más información, consulte [Administración de la configuración con un proveedor de MDM](manage-settings-with-mdm-for-surface-hub.md) y [Supervisión de Surface Hubs con Azure Monitor para realizar un seguimiento de su estado](/azure/azure-monitor/insights/surface-hubs).
 
 > [!NOTE]
-> Estos métodos de administración no son mutuamente excluyentes. Los dispositivos pueden administrarse tanto local como remotamente, si así lo eliges. Sin embargo, las directivas y la configuración de MDM sobrescribirán los cambios locales cuando el Surface Hub se sincronice con el servidor de administración. 
+> Estos métodos de administración no son mutuamente excluyentes. Los dispositivos pueden administrarse tanto local como remotamente, si así lo eliges. Sin embargo, las directivas y la configuración de MDM sobrescribirán los cambios locales cuando el Surface Hub se sincronice con el servidor de administración.
 
 ## <a name="in-this-section"></a>En esta sección
 
@@ -45,11 +45,11 @@ Obtén información sobre cómo administrar y actualizar Surface Hub.
 | [Guardar la clave de BitLocker](save-bitlocker-key-surface-hub.md) | Todos los Surface Hubs se configuran automáticamente con el software de cifrado de unidad de BitLocker. Microsoft recomienda encarecidamente que te asegures de hacer una copia de seguridad de las claves de recuperación de BitLocker.|
 | [Conectarse a otros dispositivos y mostrar su contenido con Surface Hub](connect-and-display-with-surface-hub.md) | Puedes conectar otro dispositivo a tu Surface Hub para mostrar su contenido.|
 | [Miracast en la red inalámbrica o LAN existente](miracast-over-infrastructure.md) | Puedes usar Miracast en tu red inalámbrica o LAN para conectarte a Surface Hub. |
- [Habilitar la autenticación por cable 802.1X](enable-8021x-wired-authentication.md) | Se han habilitado políticas MDM de autenticación por cable 802.1x en dispositivos de Surface Hub. 
+ [Habilitar la autenticación por cable 802.1X](enable-8021x-wired-authentication.md) | Se han habilitado políticas MDM de autenticación por cable 802.1x en dispositivos de Surface Hub.
 | [Uso de un sistema de control de sala](use-room-control-system-with-surface-hub.md) | Los sistemas de control de la sala se pueden usar con tu Microsoft Surface Hub.|
-[Uso de la herramienta de recuperación de Surface Hub](surface-hub-recovery-tool.md) | Usa la Surface Hub recuperación de archivos para volver a crear una imagen del SSD Surface Hub.
-[Reemplazo de SSD de Surface Hub](surface-hub-ssd-replacement.md) | Obtenga información sobre cómo quitar y reemplazar la unidad de estado sólido en su Surface Hub.
+[Uso de la herramienta de recuperación de Surface Hub](surface-hub-recovery-tool.md) | Use la herramienta de recuperación de Surface Hub para volver a imagen del ssd de Surface Hub.
+[Reemplazo de SSD de Surface Hub](surface-hub-ssd-replacement.md) | Obtenga información sobre cómo quitar y reemplazar la unidad de estado sólido en el Surface Hub.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Ver modo de presentación de Power BI en Surface Hub y Windows 10](https://powerbi.microsoft.com/documentation/powerbi-mobile-win10-app-presentation-mode/)
+- [Visualización de informes y paneles en modo de presentación en dispositivos Surface Hub y Windows 10](https://powerbi.microsoft.com/documentation/powerbi-mobile-win10-app-presentation-mode/)

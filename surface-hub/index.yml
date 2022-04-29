@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: a373029bf07e6f36486342d2e27209365ff7c1b3
-  ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+  ms.openlocfilehash: 59b3325c95b4a587e7e6d1c873156c1ce7ec7193
+  ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/06/2022
-  ms.locfileid: "12472569"
+  ms.lasthandoff: 04/29/2022
+  ms.locfileid: "12497903"
 landingContent:
 - title: Novedades
   linkLists:
@@ -37,7 +37,7 @@ landingContent:
       url: /surface-hub/hub-teams-app
     - text: Autenticación moderna en Surface Hub
       url: surface-hub-modern-auth.md
-    - text: Migrar a Windows 10 Pro o Enterprise en Surface Hub 2
+    - text: Migrar a Windows10, Windows11 Pro o Enterprise en SurfaceHub2
       url: surface-hub-2s-migrate-os.md
 - title: Comenzar
   linkLists:
@@ -83,7 +83,7 @@ landingContent:
       text: Administrar Surface Hub con un proveedor MDM
     - url: local-management-surface-hub-settings.md
       text: Administrar la configuración local
-- title: Proteger
+- title: Seguro
   linkLists:
   - linkListType: learn
     links:

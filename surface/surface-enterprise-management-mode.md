@@ -17,12 +17,12 @@ ms.date: 12/08/2021
 appliesto:
 - Windows 10
 - Windows 11
-ms.openlocfilehash: 9e08b3dd804b8b4ac6e2ee4dd4041ed2e684d5d7
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 5e54a56a49e16ce23d760337f5ae8a1d76ab7728
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472649"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497753"
 ---
 # <a name="microsoft-surface-enterprise-management-mode-semm"></a>Modo de administración de Microsoft Surface Enterprise (SEMM)
 
@@ -134,7 +134,7 @@ En la lista siguiente se muestran todos los dispositivos disponibles que puede a
 
 **Tabla 1. Configuración avanzada**
 
-| Ajuste                            | Descripción                                                                                                                                                                                        |
+| Configuración                            | Descripción                                                                                                                                                                                        |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IPv6 para el arranque PXE                  | Permite administrar la compatibilidad con IPv6 para el arranque PXE. Si no configura esta opción, la compatibilidad con IPv6 para el arranque PXE está deshabilitada.                                                                               |
 | Arranque alternativo                     | Le permite administrar el uso de un orden de arranque alternativo para arrancar directamente en un dispositivo USB o Ethernet presionando el botón de bajar volumen y el botón de encendido durante el arranque. Si no configura esta configuración, el arranque alternativo está habilitado. |
@@ -264,7 +264,7 @@ Para crear un certificado autofirmado:
 4. Asegúrese de que los permisos están establecidos para permitir la ejecución de scripts. De forma predeterminada, los scripts no se pueden ejecutar a menos que modifique la directiva de ejecución. Para más información, consulte [Acerca de las directivas de ejecución](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 5. En el símbolo del sistema, escriba la ruta de acceso completa del script y presione **Entrar**. El script crea un certificado de demostración denominado TempOwner.pfx.
 
-Como alternativa, puede crear su propio certificado autofirmado mediante PowerShell. Para obtener más información, consulte [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate).
+Como alternativa, puede crear su propio certificado autofirmado mediante PowerShell. Para obtener más información, consulte [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps&preserve-view=true).
 
 >[!NOTE]
 >Para las organizaciones que usan una raíz sin conexión en su infraestructura PKI, Microsoft Surface UEFI Configurator debe ejecutarse en un entorno conectado a la CA raíz para autenticar el certificado SEMM. Los paquetes generados por Microsoft Surface UEFI Configurator se pueden transferir como archivos, por lo que se pueden transferir fuera del entorno de red sin conexión con almacenamiento extraíble, como un stick USB.

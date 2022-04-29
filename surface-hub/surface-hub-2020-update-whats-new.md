@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 02/15/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: 6a35783c08fdc4da3b3c7aabcd99da385c292d24
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 995766eb216051de270a387c15c96ee42dd008a3
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472539"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497963"
 ---
 # <a name="whats-new-in-windows-10-team-2020-updates"></a>Novedades de las actualizaciones de Windows 10 Team 2020
 
-Surface Hub ventajas de las actualizaciones periódicas que ofrecen nuevas características y funcionalidad. La actualización de 2020 (20H2) para Windows 10 Team y, posteriormente, la actualización 1 & update 2, ofrecen mejoras significativas en la implementación y administración de dispositivos junto con las características de Windows 10 más recientes.
+Surface Hub ventajas de las actualizaciones periódicas que ofrecen nuevas características y funcionalidad. La actualización de 2020 (20H2) para Windows 10 Team y, posteriormente, la actualización 1 & update 2, ofrecen mejoras significativas en la implementación y la capacidad de administración de dispositivos junto con las características de Windows más recientes.
 
 ## <a name="windows-10-team-2020-update-2"></a>Windows 10 Team 2020 Update 2 
 
@@ -38,7 +38,7 @@ Los administradores pueden instalar PPA de forma remota en Surface Hubs mediante
 
 ### <a name="ease-of-access-updates"></a>Actualizaciones de facilidad de acceso
 
-Los usuarios pueden ajustar la configuración de facilidad de acceso durante una sesión de Surface Hub y cerrar las aplicaciones como lo hacen en otras versiones de Windows 10. 
+Los usuarios pueden ajustar la configuración de facilidad de acceso durante una sesión de Surface Hub y cerrar las aplicaciones como lo hacen en otras versiones de Windows 10 o Windows 11. 
 
 - **Facilidad de acceso**. Los usuarios pueden ajustar la siguiente configuración sin iniciar sesión: Pantalla, Cursor de texto, Lupa, Contraste alto, Narrador, Subtítulos y Teclado. 
 - **Interfaz de usuario familiar para aplicaciones**. Los usuarios pueden cerrar aplicaciones en Surface Hub seleccionando el botón Cerrar de la esquina superior derecha de la aplicación. Esto elimina la necesidad de cerrar las aplicaciones arrastrándolas a la parte inferior de la pantalla de Surface Hub. (Nota: Esta funcionalidad estará disponible en el explorador Edge como parte de la próxima actualización de Edge, programada para marzo de 2022). 

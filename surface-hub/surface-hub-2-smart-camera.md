@@ -1,5 +1,5 @@
 ---
-title: Instalación y administración de Surface Hub 2 cámaras inteligentes
+title: Instalar y administrar la cámara inteligente para Surface Hub 2
 description: Explica cómo instalar y administrar la configuración de la cámara inteligente Surface Hub 2.
 keywords: separar valores con comas
 ms.prod: surface-hub
@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 03/16/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: 9cdf7d2d5b6f1f6a99d2f3caa1168804c2110159
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 1b510d98cf65b5b1594d300a3bcf6c928e1f27e2
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472734"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497523"
 ---
 # <a name="install-and-manage-surface-hub-2-smart-camera"></a>Instalar y administrar Surface Hub 2 cámaras inteligentes
 
@@ -35,7 +35,7 @@ Para Surface Hubs que ejecuta Team OS, Surface Hub 2 Smart Camera requiere las s
 Para más información, consulte [Surface Hub historial de actualizaciones](surface-hub-update-history.md).
 
 > [!NOTE]
-> No se requieren actualizaciones adicionales para que los Surface Hubs migrados ejecuten Windows 10 o Windows 11 Pro/Enterprise.
+> No se requieren actualizaciones adicionales para que los Surface Hubs migrados ejecuten Pro o Enterprise Windows 10/11.
 
 ## <a name="install-smart-camera"></a>Instalación de una cámara inteligente
 
